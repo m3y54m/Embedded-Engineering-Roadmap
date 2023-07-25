@@ -5,8 +5,7 @@ In order to assist beginners, steps have been taken to create a roadmap that is 
 
 If you think that this map can be improved in anyway, please start an issue or pull request. I’ll be maintaining and updating this repository frequently. The source file is created using [Microsoft Visio](https://office.com/visio).
 
-![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/assets/1549028/ade28504-87da-415d-a33d-e441af43e8c5)
-
+![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/assets/1549028/2558c78e-a933-4064-ad5e-e85086539abc)
 
 ## History
 
