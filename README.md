@@ -10,7 +10,7 @@ If you think that this map can be improved in anyway, please start an issue or p
 
 ## History
 
-The idea of creating this roadmap came from an old roadmap designed by [vazeri](https://github.com/vazeri) which was not updated for years.
+The idea of creating this roadmap came from a [roadmap](https://github.com/vazeri/Embedded-Engineering-RoadMap-2018) designed by [vazeri](https://github.com/vazeri) which was not updated for years.
 I took that idea and changed the structure of the roadmap, improved it, and draw it using Microsoft Visio 2019. Now it is completely a different thing.
 
 ## Copyright
