@@ -9,8 +9,8 @@ If you think that this map can be improved in anyway, please start an issue or p
 
 ## History
 
-The idea of creating this roadmap came from a [roadmap](https://github.com/vazeri/Embedded-Engineering-RoadMap-2018) designed by [vazeri](https://github.com/vazeri) which was not updated for years.
-I took that idea and changed the structure of the roadmap, improved it, and draw it using Microsoft Visio 2019. Now it is completely a different thing.
+The idea of creating this roadmap came from a [roadmap](https://github.com/vazeri/Embedded-Engineering-RoadMap-2018) designed by [vazeri](https://github.com/vazeri) which was well designed but not updated for years.
+I took that idea and changed the structure of the roadmap and tried to improve it. The initial results can be accessed in [m3y54m / Embedded-Engineering-Roadmap-Archived](https://github.com/m3y54m/Embedded-Engineering-Roadmap-Archived) which is now archived. Early versions of the roadmap were created using [Balsamiq Wireframes](https://balsamiq.com) which were not suitable for these types of diagrams. So I decided to use Microsoft Visio 2019 and redrew the whole diagram with it.
 
 ## Copyright
 
