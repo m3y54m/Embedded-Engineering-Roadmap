@@ -22,4 +22,4 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 ## Acknowledgement
 
-Special thanks to my friends in the Iranian Twitter community (Electronics and Embedded Systems Engineers) for their help in updating this roadmap.
+Special thanks to my friends in the community of Iranian Embedded Engineers in Twitter and [r/embedded](https://www.reddit.com/r/embedded) subreddit for their suggestions that helped in improving this roadmap.
