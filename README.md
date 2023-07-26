@@ -14,7 +14,11 @@ I took that idea and changed the structure of the roadmap, improved it, and draw
 
 ## Copyright
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) which means that you are free to **share** or **adapt** this work under the following terms:
+
+**Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+**ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. 
 
 ## Acknowledgement
 
