@@ -5,12 +5,12 @@ In order to assist beginners, steps have been taken to create a roadmap that is 
 
 If you think that this map can be improved in anyway, please start an issue or pull request. I’ll be maintaining and updating this repository frequently. The source file is created using [Microsoft Visio](https://office.com/visio).
 
-![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/download/Rev.D-2023-07-27/Embedded-Engineering-Roadmap.png)
+![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/download/Rev.E-2023-07-27/Embedded-Engineering-Roadmap.png)
 
 ## History
 
 The idea of creating this roadmap came from a [roadmap](https://github.com/vazeri/Embedded-Engineering-RoadMap-2018) designed by [vazeri](https://github.com/vazeri) which was well designed but not updated for years.
-I took that idea and changed the structure of the roadmap and tried to improve it. The initial results can be accessed in [m3y54m / Embedded-Engineering-Roadmap-Archived](https://github.com/m3y54m/Embedded-Engineering-Roadmap-Archived) which is now archived. Early versions of the roadmap were created using [Balsamiq Wireframes](https://balsamiq.com) which were not suitable for these types of diagrams. So I decided to use Microsoft Visio 2019 and redrew the whole diagram with it.
+I took that idea and changed the structure of the roadmap and tried to improve it. The initial results can be accessed in [m3y54m / Embedded-Engineering-Roadmap-Archived](https://github.com/m3y54m/Embedded-Engineering-Roadmap-Archived) which is now archived. Early versions of the roadmap were created using [Balsamiq Wireframes](https://balsamiq.com) which were not suitable for these types of diagrams. So I decided to use Microsoft Visio and redrew the whole diagram with it.
 
 ## Copyright
 
