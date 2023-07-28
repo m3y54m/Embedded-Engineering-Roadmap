@@ -11,8 +11,8 @@ The source file is created using [Microsoft Visio](https://office.com/visio) in 
 
 ## History
 
-The idea of creating this roadmap came from a [roadmap](https://github.com/vazeri/Embedded-Engineering-RoadMap-2018) designed by [vazeri](https://github.com/vazeri) which was well designed but not updated for years.
-I took that idea and changed the structure of the roadmap and tried to improve it. The initial results can be accessed in [m3y54m / Embedded-Engineering-Roadmap-Archived](https://github.com/m3y54m/Embedded-Engineering-Roadmap-Archived) which is now archived. Early versions of the roadmap were created using [Balsamiq Wireframes](https://balsamiq.com) which is not suitable for these types of diagrams. So I decided to use Microsoft Visio instead and redrew the whole diagram with it.
+The idea of creating this roadmap came from [vazeri / Embedded-Engineering-RoadMap-2018](https://github.com/vazeri/Embedded-Engineering-RoadMap-2018) which was well designed but had some flaws and not updated for years.
+I took that idea, changed the structure of the roadmap and tried to improve it. The initial results can be accessed in [m3y54m / Embedded-Engineering-Roadmap-Archived](https://github.com/m3y54m/Embedded-Engineering-Roadmap-Archived) which is now archived. Early versions of the roadmap were created using [Balsamiq Wireframes](https://balsamiq.com) which is not suitable for these types of diagrams. So I decided to use Microsoft Visio instead and redrew the whole diagram.
 
 ## Copyright
 
