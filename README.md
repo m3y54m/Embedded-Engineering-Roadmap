@@ -8,7 +8,50 @@ If you think that this map can be improved in anyway, please start an issue or p
 
 The source file is created using [Microsoft Visio](https://office.com/visio) in `.vsdx` format and included in this repository for your contributions. If you do not have Microsoft Visio or you want to use free software, you can use [draw.io](https://draw.io) which can import and export `.vsdx` files.
 
+## Roadmap
+
 ![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/download/Rev.J-2023-07-29/Embedded-Engineering-Roadmap.png)
+
+## Learning Resources
+
+### Electronics Fundamentals
+
+#### Basic Math & Calculus
+
+- [Khan Academy - Calculus 1](https://www.khanacademy.org/math/calculus-1)
+
+#### Electrical Circuits Basics
+#### Electronic Components
+
+- [Lessons in Electric Circuits](https://www.allaboutcircuits.com/textbook/)
+- [Grob’s Basic Electronics - Mitchel E. Schultz](https://a.co/d/g1g73HV)
+- [Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
+
+#### Digital Circuits & Logic Design
+#### Computer Architecture
+
+- [Computer Organization and Design: ARM Edition -  David A. Patterson, John L. Hennessy](https://github.com/AbderrhmanAbdellatif/ComputerOrganization/blob/master/%5BThe%20Morgan%20Kaufmann%20Series%20in%20Computer%20Architecture%20and%20Design%5D%20David%20A.%20Patterson%2C%20John%20L.%20Hennessy%20-%20Computer%20Organization%20and%20Design_%20The%20Hardware%20Software%20Interface_%20ARM%20Edition%20(2016%2C%20Morgan%20Kaufmann).pdf)
+- [Digital Design and Computer Architecture: ARM Edition -  Sarah Harris, David Harris](https://a.co/d/4otoVvI)
+- [Digital Design - Morris Mano](https://www.portcity.edu.bd/files/636444791235373856_Digitallogicdesign.pdf)
+
+### Using Test Equipment
+
+#### Multimeter
+
+- [Learn How to Use a Multimeter!](https://youtu.be/4lAyzRxsbDc)
+- [How to Use a Multimeter ](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all)
+
+#### Logic Analyzer
+
+- [Instrument Basics: Logic Analyzer](https://youtu.be/u1DYs2I-_lU)
+
+#### Oscilloscope
+
+- [What’s an OSCILLOSCOPE?](https://youtu.be/DgYGRtkd9Vs)
+- [How to Use an Oscilloscope](https://youtu.be/u4zyptPLlJI)
+- [How to use an oscilloscope / What is an oscilloscope / Oscilloscope tutorial](https://youtu.be/CzY2abWCVTY)
+
+> Under construction!
 
 ## History
 
