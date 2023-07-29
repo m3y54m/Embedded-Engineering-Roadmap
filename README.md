@@ -2,6 +2,7 @@
 
 This is a roadmap for those who want to build a career as an Embedded Developer or Embedded Engineer.
 In order to assist beginners, steps have been taken to create a roadmap that is straightforward and easy to understand.
+Topics in the roadmap are primarily selected based on open job requirements and organized according to my own experience.
 
 If you think that this map can be improved in anyway, please start an issue or pull request. I’ll be maintaining and updating this repository frequently.
 
