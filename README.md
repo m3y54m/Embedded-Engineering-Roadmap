@@ -8,7 +8,7 @@ If you think that this map can be improved in anyway, please start an issue or p
 
 The source file is created using [Microsoft Visio](https://office.com/visio) in `.vsdx` format and included in this repository for your contributions. If you do not have Microsoft Visio or you want to use free software, you can use [draw.io](https://draw.io) which can import and export `.vsdx` files.
 
-![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/download/Rev.I-2023-07-29/Embedded-Engineering-Roadmap.png)
+![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/download/Rev.J-2023-07-29/Embedded-Engineering-Roadmap.png)
 
 ## History
 
