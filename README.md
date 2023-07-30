@@ -14,6 +14,24 @@ The source file is created using [Microsoft Visio](https://office.com/visio) in 
 
 ## Learning Resources
 
+### ⭐️ Featured Material
+
+#### Courses and Youtube Channels
+
+- [Ben Eater YouTube Channel](https://www.youtube.com/@BenEater)
+- [Fastbit Embedded Brain Academy](https://fastbitlab.com/)
+- [DigiKey YouTube Channel](https://www.youtube.com/@digikey)
+- [Phil’s Lab YouTube Channel](https://www.youtube.com/@PhilsLab)
+
+#### Simulation
+
+- [Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
+
+#### Websites
+
+- [SparkFun Learn: Learn at SparkFun Electronics](https://learn.sparkfun.com/)
+- [Random Nerd Tutorials | Learn ESP32, ESP8266, Arduino, and Raspberry Pi](https://randomnerdtutorials.com/)
+
 ### Electronics Fundamentals
 
 #### Basic Math & Calculus
@@ -23,6 +41,7 @@ The source file is created using [Microsoft Visio](https://office.com/visio) in 
 #### Electrical Circuits Basics
 #### Electronic Components
 
+- [#1099 How I learned electronics](https://youtu.be/Bgrubw6B_us)
 - [Lessons in Electric Circuits](https://www.allaboutcircuits.com/textbook/)
 - [Grob’s Basic Electronics - Mitchel E. Schultz](https://a.co/d/g1g73HV)
 - [Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
@@ -52,7 +71,33 @@ The source file is created using [Microsoft Visio](https://office.com/visio) in 
 - [How to Use an Oscilloscope](https://youtu.be/u4zyptPLlJI)
 - [How to use an oscilloscope / What is an oscilloscope / Oscilloscope tutorial](https://youtu.be/CzY2abWCVTY)
 
+### Prototyping Skills
+
+#### PCB Design
+
+- [How To Learn PCB Design (My Thoughts, Journey, and Resources) - Phil's Lab #87](https://youtu.be/aODkA2mrimQ)
+- [KiCad 6 STM32 PCB Design Full Tutorial - Phil's Lab #65](https://youtu.be/aVUqaB0IMh4)
+- [Intro to KiCad](https://www.youtube.com/watch?v=vaCVh2SAZY4&list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O)
+- [Altium Academy YouTube Channel](https://www.youtube.com/@AltiumAcademy)
+- [Microcontroller-Based Hardware Design With Altium Designer](https://www.youtube.com/playlist?list=PL3aaAq2OJU5HcbClqrOhqBDozF7HmxV-s)
+- [Robert Feranec YouTube Channel](https://www.youtube.com/@RobertFeranec)
+
+#### Soldering / Rework
+
+- [How To Solder - Electronics with Becky Stern | Digi-Key Electronics](https://www.youtube.com/watch?v=sS4v2hIFp9I)
+- [HOW TO SOLDER! (Beginner's Guide)](https://www.youtube.com/watch?v=3jAw41LRBxU)
+- [Soldering Crash Course: Basic Techniques, Tips and Advice!](https://www.youtube.com/watch?v=6rmErwU5E-k)
+- [How to Solder Through-Hole Components - Another Teaching Moment | DigiKey Electronics](https://www.youtube.com/watch?v=DJH7VLGJ4fs)
+- [How to Solder QFN MLF Package by Hand (Using a Hot Air Rework Station) | Digi-Key Electronics](https://youtu.be/X3Rc1s6EpSI)
+- [From Solderless Breadboard to Soldered Circuit - Electronics with Becky Stern | Digi-Key Electronics](https://www.youtube.com/watch?v=F9Krq7seV1g)
+
+#### Using Breadboards
+
+- [Everything You Need to Know about Breadboards](https://www.youtube.com/watch?v=mE33WpRWrXs)
+- [How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
+
 > Under construction!
+
 
 ## History
 
