@@ -121,10 +121,14 @@ Becoming an embedded engineer requires a broad understanding of both software an
 - [Data Structures in C](https://www.sanfoundry.com/c-programming-examples-data-structures/)
 - [Data Structures - Full Course Using C and C++](https://www.youtube.com/watch?v=B31LgI4Y4DQ)
 
-#### Design Patterns / State Machines
+#### Design Patterns
 
 - [Design Patterns for Embedded Systems in C - Bruce Powel Douglass](https://www.oreilly.com/library/view/design-patterns-for/9781856177078/)
 
+#### State Machines / UML
+
+- [Embedded System Design using UML State Machines](https://www.udemy.com/course/embedded-system-design-using-uml-state-machines/)
+  
 #### Memory Management
 
 - [Dynamic Memory Allocation | C Programming Tutorial](https://www.youtube.com/watch?v=R0qIYWo8igs)
