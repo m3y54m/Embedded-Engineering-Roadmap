@@ -14,9 +14,9 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 #### Courses and Youtube Channels
 
-- [Ben Eater YouTube Channel](https://www.youtube.com/@BenEater)
 - [Fastbit Embedded Brain Academy](https://fastbitlab.com/)
 - [DigiKey YouTube Channel](https://www.youtube.com/@digikey)
+- [Ben Eater YouTube Channel](https://www.youtube.com/@BenEater)
 - [Phil’s Lab YouTube Channel](https://www.youtube.com/@PhilsLab)
 
 #### Simulation
