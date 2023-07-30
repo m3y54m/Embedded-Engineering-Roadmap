@@ -84,7 +84,7 @@ The source file is created using [Microsoft Visio](https://office.com/visio) in 
 - [Microcontroller-Based Hardware Design With Altium Designer](https://www.youtube.com/playlist?list=PL3aaAq2OJU5HcbClqrOhqBDozF7HmxV-s)
 - [Robert Feranec YouTube Channel](https://www.youtube.com/@RobertFeranec)
 
-#### Soldering / Rework
+#### Soldering
 
 - [How To Solder - Electronics with Becky Stern | Digi-Key Electronics](https://www.youtube.com/watch?v=sS4v2hIFp9I)
 - [HOW TO SOLDER! (Beginner's Guide)](https://www.youtube.com/watch?v=3jAw41LRBxU)
