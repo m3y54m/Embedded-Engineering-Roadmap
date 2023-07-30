@@ -32,7 +32,9 @@ Becoming an embedded engineer requires a broad understanding of both software an
 > **Note:** It is not necessary to read or watch all of the following materials,
 > but it is important to study enough to have at least a basic understanding of each topic.
 > Of course, the more you study and practice, the deeper and wider your knowledge will become.
-> This will ultimately enhance your skills as an engineer.
+> This will ultimately improve your skills as an engineer.
+> 
+> Some the resources mentioned here will only be used as references. Refer to them only when you need them.
 
 ### Electronics Fundamentals
 
@@ -103,6 +105,20 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 - [Everything You Need to Know about Breadboards](https://www.youtube.com/watch?v=mE33WpRWrXs)
 - [How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
+
+### FPGA Design
+
+- [Introduction to FPGA](https://youtube.com/playlist?list=PLEBQazB0HUyT1WmMONxRZn9NmQ_9CIKhb)
+- [FPGA Fundamentals](https://nandland.com/fpga-101/)
+
+### Programming Fundamentals
+
+#### Algorithms & Data Structures
+
+- [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms)
+- [Introduction to Algorithms - Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein](http://mitpress.mit.edu/9780262367509/introduction-to-algorithms/)
+- [Data Structures in C](https://www.sanfoundry.com/c-programming-examples-data-structures/)
+- [Data Structures - Full Course Using C and C++](https://www.youtube.com/watch?v=B31LgI4Y4DQ)
 
 > Under construction!
 
