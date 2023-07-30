@@ -32,17 +32,25 @@ The source file is created using [Microsoft Visio](https://office.com/visio) in 
 - [SparkFun Learn: Learn at SparkFun Electronics](https://learn.sparkfun.com/)
 - [Random Nerd Tutorials | Learn ESP32, ESP8266, Arduino, and Raspberry Pi](https://randomnerdtutorials.com/)
 
+
+> **Note:** It is not necessary to read or watch all of the following materials,
+> but it is important to study enough to have at least a basic understanding of each topic.
+> Of course, the more you study and practice, the deeper and wider your knowledge will become.
+> This will ultimately enhance your skills as an engineer.
+
 ### Electronics Fundamentals
 
 #### Basic Math & Calculus
 
 - [Khan Academy - Calculus 1](https://www.khanacademy.org/math/calculus-1)
+- [Calculus - Robert T Smith, Roland Minton](https://www.mheducation.com/highered/product/calculus-smith-minton/M9780073383118.html)
 
 #### Electrical Circuits Basics
 #### Electronic Components
 
 - [#1099 How I learned electronics](https://youtu.be/Bgrubw6B_us)
 - [Lessons in Electric Circuits](https://www.allaboutcircuits.com/textbook/)
+- [Fundamentals of Electric Circuits - Charles K. Alexander, Matthew Sadiku](https://www.amazon.com/dp/1260226409?ref_=cm_sw_r_cp_ud_dp_Q11YHXNY2BK530RQZC4S)
 - [Grob’s Basic Electronics - Mitchel E. Schultz](https://a.co/d/g1g73HV)
 - [Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
 - [Encyclopedia of Electronic Components - Charles Platt](https://a.co/d/83cSiU7)
