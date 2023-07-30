@@ -45,7 +45,7 @@ The source file is created using [Microsoft Visio](https://office.com/visio) in 
 - [Lessons in Electric Circuits](https://www.allaboutcircuits.com/textbook/)
 - [Grob’s Basic Electronics - Mitchel E. Schultz](https://a.co/d/g1g73HV)
 - [Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
-- [Encyclopedia of Electronic Components Volume 1: Resistors, Capacitors, Inductors, Switches, Encoders, Relays, Transistors - Charles Platt](https://a.co/d/83cSiU7)
+- [Encyclopedia of Electronic Components - Charles Platt](https://a.co/d/83cSiU7)
 
 #### Digital Circuits & Logic Design
 #### Computer Architecture
