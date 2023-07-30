@@ -46,7 +46,7 @@ The source file is created using [Microsoft Visio](https://office.com/visio) in 
 - [Grob’s Basic Electronics - Mitchel E. Schultz](https://a.co/d/g1g73HV)
 - [Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
 - [Encyclopedia of Electronic Components - Charles Platt](https://a.co/d/83cSiU7)
-- [The Art of Electronics](https://artofelectronics.net/)
+- [The Art of Electronics -  Paul Horowitz, Winfield Hill](https://artofelectronics.net/)
 
 #### Digital Circuits & Logic Design
 #### Computer Architecture
