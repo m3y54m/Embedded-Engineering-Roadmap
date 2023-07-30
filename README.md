@@ -83,6 +83,8 @@ The source file is created using [Microsoft Visio](https://office.com/visio) in 
 - [Altium Academy YouTube Channel](https://www.youtube.com/@AltiumAcademy)
 - [Microcontroller-Based Hardware Design With Altium Designer](https://www.youtube.com/playlist?list=PL3aaAq2OJU5HcbClqrOhqBDozF7HmxV-s)
 - [Robert Feranec YouTube Channel](https://www.youtube.com/@RobertFeranec)
+- [PCB Design for EMI & SI - Phil's Lab #64](https://www.youtube.com/watch?v=VtzPL8wQ8-E)
+- [PCB Design for Advanced Users](https://youtube.com/playlist?list=PL3aaAq2OJU5EWfYT_Z93tc9pBF_Sidba_)
 
 #### Soldering
 
