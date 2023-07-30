@@ -1,12 +1,8 @@
 # Embedded Systems Engineering Roadmap
 
-This is a roadmap for those who want to build a career as an Embedded Developer or Embedded Engineer.
-In order to assist beginners, steps have been taken to create a roadmap that is straightforward and easy to understand.
-Topics in the roadmap are primarily selected based on open job requirements and organized according to my own experience.
+This roadmap is designed to assist beginners aspiring to build a career as an Embedded Engineer / Developer. To provide comprehensive guidance, I have carefully selected the topics based on current open job requirements and organized them according to my personal experience.
 
-If you think that this map can be improved in anyway, please start an issue or pull request. I’ll be maintaining and updating this repository frequently.
-
-The source file is created using [Microsoft Visio](https://office.com/visio) in `.vsdx` format and included in this repository for your contributions. If you do not have Microsoft Visio or you want to use free software, you can use [draw.io](https://draw.io) which can import and export `.vsdx` files.
+Becoming an embedded engineer requires a broad understanding of both software and hardware. If you are starting on this journey, you must be highly motivated and passionate to pursue this path. The field of embedded systems demands a solid comprehension of hardware functionality and, as the well-known saying goes, **"Hardware is hard."** Therefore, patience and passion are the essential qualities that will help you overcome the various challenges encountered along this journey.
 
 ## Roadmap
 
@@ -127,3 +123,9 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 ## Acknowledgement
 
 Special thanks to my friends in the community of Iranian Embedded Engineers in Twitter and [r/embedded](https://www.reddit.com/r/embedded) subreddit for their suggestions that helped in improving this roadmap.
+
+## Cotribution
+
+If you think that this map can be improved in anyway, please start an issue or pull request. I’ll be maintaining and updating this repository frequently.
+
+The source file is created using [Microsoft Visio](https://office.com/visio) in `.vsdx` format and included in this repository for your contributions. If you do not have Microsoft Visio or you want to use free software, you can use [draw.io](https://draw.io) which can import and export `.vsdx` files.
