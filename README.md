@@ -61,6 +61,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
 - [Computer Organization and Design: ARM Edition -  David A. Patterson, John L. Hennessy](https://github.com/AbderrhmanAbdellatif/ComputerOrganization/blob/master/%5BThe%20Morgan%20Kaufmann%20Series%20in%20Computer%20Architecture%20and%20Design%5D%20David%20A.%20Patterson%2C%20John%20L.%20Hennessy%20-%20Computer%20Organization%20and%20Design_%20The%20Hardware%20Software%20Interface_%20ARM%20Edition%20(2016%2C%20Morgan%20Kaufmann).pdf)
 - [Digital Design and Computer Architecture: ARM Edition -  Sarah Harris, David Harris](https://a.co/d/4otoVvI)
 - [Digital Design - Morris Mano](https://www.portcity.edu.bd/files/636444791235373856_Digitallogicdesign.pdf)
+- [Embedded Systems Architecture - Tammy Noergaard](https://www.oreilly.com/library/view/embedded-systems-architecture/9780123821966/)
 
 ### Using Test Equipment
 
@@ -115,10 +116,47 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 #### Algorithms & Data Structures
 
-- [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms)
+- [Grokking Algorithms - Aditya Y. Bhargava ](https://www.manning.com/books/grokking-algorithms)
 - [Introduction to Algorithms - Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein](http://mitpress.mit.edu/9780262367509/introduction-to-algorithms/)
 - [Data Structures in C](https://www.sanfoundry.com/c-programming-examples-data-structures/)
 - [Data Structures - Full Course Using C and C++](https://www.youtube.com/watch?v=B31LgI4Y4DQ)
+
+#### Design Patterns / State Machines
+
+- [Design Patterns for Embedded Systems in C - Bruce Powel Douglass](https://www.oreilly.com/library/view/design-patterns-for/9781856177078/)
+
+#### Memory Management
+
+- [Dynamic Memory Allocation | C Programming Tutorial](https://www.youtube.com/watch?v=R0qIYWo8igs)
+  
+### Programming Languages 
+
+#### C
+
+- [Microcontroller Embedded C Programming: Absolute Beginners](https://www.udemy.com/course/microcontroller-embedded-c-programming/)
+- [The C Programming Language -  Brian W. Kernighan, Dennis M. Ritchie ](https://www.amazon.com/dp/0131103628?ref_=cm_sw_r_cp_ud_dp_KRZ8M1WTXWVG0HMSRBXA)
+- [C How to Program -  Paul Deitel, Harvey Deitel ](https://deitel.com/c-how-to-program-9-e/)
+
+#### C++
+
+- [C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
+- [C++ Concurrency in Action - Anthony Williams ](https://www.manning.com/books/c-plus-plus-concurrency-in-action)
+
+#### Assembly
+
+- [Assembly Language Programming with ARM – Full Tutorial for Beginners](https://www.youtube.com/watch?v=gfmRrPjnEw4)
+
+#### Python
+
+- [Real Python: Python Tutorials](https://realpython.com/)
+- [Python Crash Course - Eric Matthes](https://a.co/d/hSMTJwE)
+- [MicroPython - Python for microcontrollers](https://micropython.org/)
+- [CircuitPython](https://circuitpython.org/)
+
+#### Rust
+
+- [The Embedded Rust Book](https://docs.rust-embedded.org/book/)
+
 
 > Under construction!
 
