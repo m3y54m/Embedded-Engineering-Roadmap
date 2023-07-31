@@ -131,6 +131,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
   
 #### Memory Management
 
+- [Understanding the C runtime memory model](https://www.youtube.com/watch?v=3F3lp_F2YpQ)
 - [Dynamic Memory Allocation | C Programming Tutorial](https://www.youtube.com/watch?v=R0qIYWo8igs)
   
 ### Programming Languages 
@@ -161,7 +162,26 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 - [The Embedded Rust Book](https://docs.rust-embedded.org/book/)
 
+### Build System
 
+#### GCC
+#### Makefile
+
+- [GCC and Make - Compiling, Linking and Building C/C++ Applications](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
+
+#### CMake
+
+- [How to CMake Good](https://youtube.com/playlist?list=PLK6MXr8gasrGmIiSuVQXpfFuE1uPT615s)
+
+#### Bash Script
+
+- [Bash scripting cheatsheet](https://devhints.io/bash)
+- [Bash Scripting Tutorial for Beginners](https://www.youtube.com/watch?v=tK9Oc6AEnR4)
+
+#### Docker
+
+- [Introduction to Docker for the Embedded Developer](https://www.youtube.com/watch?v=Fz7ou-VBk-w)
+  
 > Under construction!
 
 
@@ -182,7 +202,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 Special thanks to my friends in the community of Iranian Embedded Engineers in Twitter and [r/embedded](https://www.reddit.com/r/embedded) subreddit for their suggestions that helped in improving this roadmap.
 
-## Cotribution
+## Contribution
 
 If you think that this map can be improved in anyway, please start an issue or pull request. I’ll be maintaining and updating this repository frequently.
 
