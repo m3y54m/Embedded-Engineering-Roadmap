@@ -181,8 +181,31 @@ Becoming an embedded engineer requires a broad understanding of both software an
 #### Docker
 
 - [Introduction to Docker for the Embedded Developer](https://www.youtube.com/watch?v=Fz7ou-VBk-w)
-  
-> Under construction!
+
+### Version Control
+
+#### Git
+
+- [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE)
+- [Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git](https://www.youtube.com/watch?v=Uszj_k0DGsg)
+
+### Microcontrollers
+
+### Operating Systems
+
+#### Embedded Linux
+
+#### Real-Time OS
+
+### Digital Signal Processing
+
+### Debugging
+
+### Testing
+
+### Embedded AI
+
+### Security & Cryptography
 
 
 ## History
