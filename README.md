@@ -195,6 +195,29 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ### Microcontrollers
 
+#### GPIO
+
+#### ADC
+
+#### DAC
+
+#### Timers
+
+#### PWM
+
+#### Interrupts
+
+#### Watchdog
+
+#### DMA
+
+#### Power Management
+
+#### Bootloader
+
+#### Functional Safety
+
+
 ### Operating Systems
 
 #### Operating System Fundamentals
@@ -203,13 +226,53 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 #### Embedded Linux
 
+##### Linux Kernel
+
 - [The Linux Programming Interface - Michael Kerrisk](https://man7.org/tlpi/)
+
+##### Linux Device Drivers
+
+##### U-Boot
+
+##### BuildRoot
+
+##### Yocto
+
+##### Qt
+
 
 #### Real-Time OS
 
+##### FreeRTOS
+
+##### Zephyr
+
+##### NuttX
+
+##### QNX
+
+##### VxWorks
+
+
 ### Digital Signal Processing
 
+#### Controls Systems
+
+#### PID Loops
+
+#### Digital Filters (FIR / IIR)
+
+#### Fourier Transform / FFT
+
+#### MATLAB / Simulink
+
 ### Debugging
+
+#### JTAG / SWD
+
+#### GDB
+
+#### OpenOCD
 
 ### Testing
 
@@ -225,8 +288,21 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ### Embedded AI
 
+#### AI/ML Basics
+
+#### TensorFlow
+
+#### tinyML
+
 ### Security & Cryptography
 
+#### Cryptographic Algorithms
+
+#### Hash Algorithms
+
+#### Secure Boot
+
+#### Secure OTA Update
 
 ## History
 
