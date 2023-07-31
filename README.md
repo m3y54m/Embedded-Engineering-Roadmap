@@ -213,9 +213,15 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ### Testing
 
-### Unit Testing
+#### Unit Testing
 
 - [Embedded C/C++ Unit Testing with Mocks](https://interrupt.memfault.com/blog/unit-test-mocking)
+
+#### Integration Testing
+
+#### SIL / HIL Testing
+
+- [Embedded CI/CD with HIL Testing](https://youtube.com/playlist?list=PL4cGeWgaBTe1uwiqIAc6fwPzPpvgPZI2J)
 
 ### Embedded AI
 
