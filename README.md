@@ -6,7 +6,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ## Roadmap
 
-![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/download/Rev.K-2023-07-31/Embedded-Engineering-Roadmap.png)
+![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/download/Rev.L-2023-07-31/Embedded-Engineering-Roadmap.png)
 
 ## Learning Resources
 
@@ -212,6 +212,10 @@ Becoming an embedded engineer requires a broad understanding of both software an
 ### Debugging
 
 ### Testing
+
+### Unit Testing
+
+- [Embedded C/C++ Unit Testing with Mocks](https://interrupt.memfault.com/blog/unit-test-mocking)
 
 ### Embedded AI
 
