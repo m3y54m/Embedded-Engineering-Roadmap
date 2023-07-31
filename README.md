@@ -27,6 +27,10 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 - [Arduino Language Reference](https://www.arduino.cc/reference/en/)
 
+#### STM32
+
+- [Getting Started with STM32 and Nucleo](https://youtube.com/playlist?list=PLEBQazB0HUyRYuzfi4clXsKUSgorErmBv)
+
 #### Websites
 
 - [SparkFun Learn: Learn at SparkFun Electronics](https://learn.sparkfun.com/)
@@ -232,6 +236,8 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 #### Embedded Linux
 
+- [Introduction to Embedded Linux](https://youtube.com/playlist?list=PLEBQazB0HUyTpoJoZecRK6PpDG31Y7RPB)
+
 ##### Linux Kernel
 
 - [The Linux Programming Interface - Michael Kerrisk](https://man7.org/tlpi/)
@@ -251,7 +257,13 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ##### FreeRTOS
 
+- [FreeRTOS - Market leading RTOS](https://www.freertos.org)
+- [Introduction to RTOS](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz)
+
 ##### Zephyr
+
+- [Zephyr® Project](https://www.zephyrproject.org/)
+- [ESP32 on Zephyr OS](https://www.youtube.com/playlist?list=PLEQVp_6G_y4iFfemAbFsKw6tsGABarTwp)
 
 ##### NuttX
 
