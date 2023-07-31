@@ -23,9 +23,9 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 - [Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
 
-#### Boards
+#### Arduino
 
-- [Arduino](https://www.arduino.cc/)
+- [Arduino Language Reference](https://www.arduino.cc/reference/en/)
 
 #### Websites
 
