@@ -145,10 +145,13 @@ Becoming an embedded engineer requires a broad understanding of both software an
 - [Microcontroller Embedded C Programming: Absolute Beginners](https://www.udemy.com/course/microcontroller-embedded-c-programming/)
 - [The C Programming Language -  Brian W. Kernighan, Dennis M. Ritchie ](https://www.amazon.com/dp/0131103628?ref_=cm_sw_r_cp_ud_dp_KRZ8M1WTXWVG0HMSRBXA)
 - [C How to Program -  Paul Deitel, Harvey Deitel ](https://deitel.com/c-how-to-program-9-e/)
+- [Effective C - An Introduction to Professional C Programming - Robert C. Seacord](https://nostarch.com/Effective_C)
 
 #### C++
 
 - [C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
+- [C++ YouTube Playlist by The Cherno](https://youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
+- [Learn Modern C++ by Building an Audio Plugin (w/ JUCE Framework) - Full Course](https://www.youtube.com/watch?v=i_Iq4_Kd7Rc)
 - [C++ Concurrency in Action - Anthony Williams ](https://www.manning.com/books/c-plus-plus-concurrency-in-action)
 
 #### Assembly
@@ -214,6 +217,9 @@ Becoming an embedded engineer requires a broad understanding of both software an
 #### Power Management
 
 #### Bootloader
+
+- [How to Create a Super Simple Bootloader](https://www.youtube.com/watch?v=OkUQ3iMmiYQ&list=PLnMKNibPkDnEb1sphpdFJ3bR9dNy7S6mO)
+- [STM32Fx Microcontroller Custom Bootloader Development](https://www.udemy.com/course/stm32f4-arm-cortex-mx-custom-bootloader-development/)
 
 #### Functional Safety
 
