@@ -129,11 +129,6 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 - [Embedded System Design using UML State Machines](https://www.udemy.com/course/embedded-system-design-using-uml-state-machines/)
   
-#### Memory Management
-
-- [Understanding the C runtime memory model](https://www.youtube.com/watch?v=3F3lp_F2YpQ)
-- [Dynamic Memory Allocation | C Programming Tutorial](https://www.youtube.com/watch?v=R0qIYWo8igs)
-  
 ### Programming Languages 
 
 #### C
@@ -192,6 +187,15 @@ Becoming an embedded engineer requires a broad understanding of both software an
 ### Microcontrollers
 
 ### Operating Systems
+
+#### Operating System Fundamentals
+
+#### Memory Allocation
+
+#### Multi-tasking & Scheduling
+
+- [Understanding the C runtime memory model](https://www.youtube.com/watch?v=3F3lp_F2YpQ)
+- [Dynamic Memory Allocation | C Programming Tutorial](https://www.youtube.com/watch?v=R0qIYWo8igs)
 
 #### Embedded Linux
 
