@@ -23,6 +23,10 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 - [Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
 
+#### Boards
+
+- [Arduino](https://www.arduino.cc/)
+
 #### Websites
 
 - [SparkFun Learn: Learn at SparkFun Electronics](https://learn.sparkfun.com/)
@@ -190,12 +194,15 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 #### Operating System Fundamentals
 
-#### Memory Allocation
+- [Operating Systems: Three Easy Pieces -  Remzi H Arpaci-Dusseau, Andrea C Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 
-#### Multi-tasking & Scheduling
+#### Memory Allocation
 
 - [Understanding the C runtime memory model](https://www.youtube.com/watch?v=3F3lp_F2YpQ)
 - [Dynamic Memory Allocation | C Programming Tutorial](https://www.youtube.com/watch?v=R0qIYWo8igs)
+
+#### Multi-tasking & Scheduling
+
 
 #### Embedded Linux
 
