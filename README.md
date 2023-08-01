@@ -12,6 +12,10 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ### ⭐️ Featured Material
 
+#### Google
+
+- [Searching is Your Super Power!](https://www.google.com)
+
 #### Courses and Youtube Channels
 
 - [Fastbit Embedded Brain Academy](https://fastbitlab.com/)
@@ -31,7 +35,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 - [Getting Started with STM32 and Nucleo](https://youtube.com/playlist?list=PLEBQazB0HUyRYuzfi4clXsKUSgorErmBv)
 
-#### Websites
+#### Educational Websites
 
 - [SparkFun Learn: Learn at SparkFun Electronics](https://learn.sparkfun.com/)
 - [Random Nerd Tutorials | Learn ESP32, ESP8266, Arduino, and Raspberry Pi](https://randomnerdtutorials.com/)
@@ -119,6 +123,10 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 - [Introduction to FPGA](https://youtube.com/playlist?list=PLEBQazB0HUyT1WmMONxRZn9NmQ_9CIKhb)
 - [FPGA Fundamentals](https://nandland.com/fpga-101/)
+- [FPGA Embedded Design, Part 1 - Verilog](https://www.udemy.com/course/fpga-embedded-design-verilog/)
+- [FPGA Embedded Design, Part 2 - Basic FPGA Training](https://www.udemy.com/course/fpga-embedded-design-fpgas/)
+- [FPGA Embedded Design, Part 3 - EDA Tools](https://www.udemy.com/course/fpga-embedded-design-eda-tools/)
+- [FPGA Embedded Design, Part 4 - Microprocessor Design](https://www.udemy.com/course/fpga-embedded-design-cpu/)
 
 ### Programming Fundamentals
 
@@ -131,6 +139,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 #### Design Patterns
 
+- [Embedded Systems State Machines & Data Structures](https://www.udemy.com/course/embedded-systems-state-machines-data-structures-like-a-pro/)
 - [Design Patterns for Embedded Systems in C - Bruce Powel Douglass](https://www.oreilly.com/library/view/design-patterns-for/9781856177078/)
 
 #### State Machines / UML
@@ -228,6 +237,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 #### Functional Safety
 
+- [Functional Safety According to ISO 26262 - Crash Course](https://www.udemy.com/course/iso-26262-crash-course/)
 
 ### Operating Systems
 
@@ -268,10 +278,16 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ##### NuttX
 
+- [NuttX - The Apache Software Foundation!](https://nuttx.apache.org/)
+- [Getting Started to NuttX](https://www.youtube.com/playlist?list=PLd73yQk5Fd8JEsVD-lhwYRQKVu6glfDa8)
+
 ##### QNX
+
+- [BlackBerry QNX: Embedded OS, Support, and Services](https://blackberry.qnx.com/en)
 
 ##### VxWorks
 
+- [VxWorks | Industry Leading RTOS for Embedded Systems](https://www.windriver.com/products/vxworks)
 
 ### Digital Signal Processing
 
@@ -295,6 +311,8 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ### Testing
 
+- [Intro to CI/CD](https://youtu.be/1nxGcfIm-TU)
+
 #### Unit Testing
 
 - [Embedded C/C++ Unit Testing with Mocks](https://interrupt.memfault.com/blog/unit-test-mocking)
@@ -307,11 +325,22 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ### Embedded AI
 
+- [Intro to Edge AI: Machine Learning + IoT – Maker.io Tutorial | Digi-Key Electronics](https://www.youtube.com/watch?v=Ejld8XZmvwE)
+
 #### AI/ML Basics
+
+- [Getting Started with Embedded AI | Edge AI](https://www.udemy.com/course/getting-started-with-embedded-ai-hands-on-experience/)
 
 #### TensorFlow
 
+- [Getting Started with TensorFlow and Keras – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=HCG3hFe1KYY)
+- [Intro to TensorFlow Lite Part 1: Wake Word Feature Extraction – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=0fn7pj7Dutc)
+- [Intro to TensorFlow Lite Part 2: Speech Recognition Model Training – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=yv_WVwr6OkI)
+
 #### tinyML
+
+- [Intro to TinyML Part 1: Training a Neural Network for Arduino in TensorFlow | Digi-Key Electronics](https://www.youtube.com/watch?v=BzzqYNYOcWc)
+- [Intro to TinyML Part 2: Deploying a TensorFlow Lite Model to Arduino | Digi-Key Electronics](https://www.youtube.com/watch?v=dU01M61RW8s)
 
 ### Security & Cryptography
 
