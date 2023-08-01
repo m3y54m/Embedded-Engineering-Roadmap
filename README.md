@@ -296,15 +296,35 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ### Digital Signal Processing
 
-#### Controls Systems
+#### DSP Fundamentals & Filter Design
 
-#### PID Loops
+- [FIR Filter Design and Software Implementation - Phil's Lab #17](https://www.youtube.com/watch?v=uNNNj9AZisM)
+- [IIR Filters - Theory and Implementation (STM32) - Phil's Lab #32](https://www.youtube.com/watch?v=QRMe02kzVkA)
+- [Digital Signal Processing (ECSE-4530) Lectures, Fall 2014](https://youtube.com/playlist?list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et)
+- [Digital Signal Processing (DSP) From Ground Up in C](https://www.udemy.com/course/digital-signal-processing-dsp-from-ground-uptm-in-c/)
+- [Digital Signal Processing - John G. Proakis, Dimitris K. Manolakis](https://a.co/d/75P5PiE)
+- [Schaum's Outline of Signals and Systems - Hwei P. Hsu](https://www.mhprofessional.com/schaum-s-outline-of-signals-and-systems-fourth-edition-9781260454246-usa)
 
-#### Digital Filters (FIR / IIR)
+#### Discrete Fourier Transform / FFT
 
-#### Fourier Transform / FFT
+- [Discrete Fourier Transform - Simple Step by Step](https://www.youtube.com/watch?v=mkGsMWi_j4Q)
+- [The Fast Fourier Transform (FFT): Most Ingenious Algorithm Ever?](https://youtu.be/h7apO7q16V0)
+- [The FFT Algorithm - Simple Step by Step](https://www.youtube.com/watch?v=htCj9exbGo0)
+
+#### Controls Systems / PID Control
+
+- [Understanding Control Systems](https://youtube.com/playlist?list=PLn8PRpmsu08q8CE0pbZ-cSrMm_WYJfVGd)
+- [PID Controller Explained](https://www.youtube.com/watch?v=fv6dLTEvl74)
+- [Understanding PID Control](https://youtube.com/playlist?list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y)
+- [PID Controller Implementation in Software - Phil's Lab #6](https://www.youtube.com/watch?v=zOByx3Izf5U)
+- [Control Systems Engineering - Norman S. Nise](https://www.wiley.com/en-us/Control+Systems+Engineering%2C+8th+Edition-p-9781119474227)
+- [Modern Control Systems - Richard C. Dorf, Robert H. Bishop](https://www.pearson.com/en-us/subject-catalog/p/modern-control-systems/P200000003484/9780137307098)
 
 #### MATLAB / Simulink
+
+- [MATLAB Tutorials: Getting Started with MATLAB](https://youtube.com/playlist?list=PL7CAABC40B2825C8B)
+- [Getting Started with Simulink](https://youtube.com/playlist?list=PL484BA2AD3AE4C2D0)
+- [MATLAB/SIMULINK Bible|Go From Zero to Hero!](https://www.udemy.com/course/matlabsimulink-biblego-from-zero-to-hero/)
 
 ### Debugging
 
