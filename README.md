@@ -394,6 +394,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 - [Cryptography and Network Security: Principles and Practice - William Stallings](https://www.pearson.com/en-us/subject-catalog/p/cryptography-and-network-security-principles-and-practice/P200000003477/9780135764213)
 - [Serious Cryptography: A Practical Introduction to Modern Encryption - Jean-Philippe Aumasson](https://nostarch.com/seriouscrypto)
+- [MOOC - Security Part2: Basics of cryptography](https://youtube.com/playlist?list=PLnMKNibPkDnFSFh57UFTZLpy-7lZiwTHh)
 - [MOOC - Security Part3 : STM32 security features](https://youtube.com/playlist?list=PLnMKNibPkDnFzux3PHKUEi14ftDn9Cbm7)  
 
 #### Secure Boot
@@ -401,6 +402,8 @@ Becoming an embedded engineer requires a broad understanding of both software an
 #### Secure Firmware Update
 
 - [MOOC - Security Part4 : STM32 security in practice](https://youtube.com/playlist?list=PLnMKNibPkDnF0wt-ZI74SflnsBV4yKzkO)
+- [MOOC - Security Part5 : How to define your security needs](https://youtube.com/playlist?list=PLnMKNibPkDnGqh5OmQWw98ztpf9TeczbC)
+- [MOOC - Security Part6: STM32 security ecosystem, from theory to practice](https://youtube.com/playlist?list=PLnMKNibPkDnGd7J7fV7tr-4xIBwkNfD--)
 
 ## History
 
