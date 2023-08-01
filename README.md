@@ -281,6 +281,11 @@ Becoming an embedded engineer requires a broad understanding of both software an
 - [NuttX - The Apache Software Foundation!](https://nuttx.apache.org/)
 - [Getting Started to NuttX](https://www.youtube.com/playlist?list=PLd73yQk5Fd8JEsVD-lhwYRQKVu6glfDa8)
 
+##### RT-Thread
+
+- [RT-Thread | An Open Source Embedded Real-time Operating System](https://www.rt-thread.io/)
+- [RT-Thread Beginners Guide](https://youtube.com/playlist?list=PLXUV89C_M3G5KVw2IerI-pqApdSM_IaZo)
+
 ##### QNX
 
 - [BlackBerry QNX: Embedded OS, Support, and Services](https://blackberry.qnx.com/en)
