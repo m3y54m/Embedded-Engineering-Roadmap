@@ -239,6 +239,23 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 - [Functional Safety According to ISO 26262 - Crash Course](https://www.udemy.com/course/iso-26262-crash-course/)
 
+### Interfaces & Protocols
+
+#### Common
+
+#### Wireless
+
+#### Industrial
+
+#### High-Speed
+
+#### Automotive
+
+#### Network
+
+#### Cellular
+
+
 ### Operating Systems
 
 #### Operating System Fundamentals
@@ -375,9 +392,15 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 #### Hash Algorithms
 
+- [Cryptography and Network Security: Principles and Practice - William Stallings](https://www.pearson.com/en-us/subject-catalog/p/cryptography-and-network-security-principles-and-practice/P200000003477/9780135764213)
+- [Serious Cryptography: A Practical Introduction to Modern Encryption - Jean-Philippe Aumasson](https://nostarch.com/seriouscrypto)
+- [MOOC - Security Part3 : STM32 security features](https://youtube.com/playlist?list=PLnMKNibPkDnFzux3PHKUEi14ftDn9Cbm7)  
+
 #### Secure Boot
 
-#### Secure OTA Update
+#### Secure Firmware Update
+
+- [MOOC - Security Part4 : STM32 security in practice](https://youtube.com/playlist?list=PLnMKNibPkDnF0wt-ZI74SflnsBV4yKzkO)
 
 ## History
 
