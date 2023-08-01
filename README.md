@@ -302,6 +302,8 @@ Becoming an embedded engineer requires a broad understanding of both software an
 - [IIR Filters - Theory and Implementation (STM32) - Phil's Lab #32](https://www.youtube.com/watch?v=QRMe02kzVkA)
 - [Digital Signal Processing (ECSE-4530) Lectures, Fall 2014](https://youtube.com/playlist?list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et)
 - [Digital Signal Processing (DSP) From Ground Up in C](https://www.udemy.com/course/digital-signal-processing-dsp-from-ground-uptm-in-c/)
+- [Real-Time Digital Signal Processing: Fundamentals, Implementations and Applications - Sen M. Kuo, Bob H. Lee, Wenshun Tian](https://www.wiley.com/en-us/Real+Time+Digital+Signal+Processing%3A+Fundamentals%2C+Implementations+and+Applications%2C+3rd+Edition-p-9781118414323)
+- [Real-Time Digital Signal Processing from MATLAB to C with the TMS320C6x DSPs - Thad B. Welch, Cameron H.G. Wright, Michael G. Morrow](https://www.routledge.com/Real-Time-Digital-Signal-Processing-from-MATLAB-to-C-with-the-TMS320C6x/Welch-Wright-Morrow/p/book/9780367736453)
 - [Digital Signal Processing - John G. Proakis, Dimitris K. Manolakis](https://a.co/d/75P5PiE)
 - [Schaum's Outline of Signals and Systems - Hwei P. Hsu](https://www.mhprofessional.com/schaum-s-outline-of-signals-and-systems-fourth-edition-9781260454246-usa)
 
