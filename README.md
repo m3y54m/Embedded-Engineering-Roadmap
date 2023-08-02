@@ -6,7 +6,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ## Roadmap
 
-![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/download/Rev.M-2023-08-02/Embedded-Engineering-Roadmap.png)
+![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)
 
 ## Learning Resources
 
