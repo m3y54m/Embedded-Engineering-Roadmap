@@ -165,7 +165,6 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 - [C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
 - [C++ YouTube Playlist by The Cherno](https://youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
-- [Learn Modern C++ by Building an Audio Plugin (w/ JUCE Framework) - Full Course](https://www.youtube.com/watch?v=i_Iq4_Kd7Rc)
 - [C++ Concurrency in Action - Anthony Williams ](https://www.manning.com/books/c-plus-plus-concurrency-in-action)
 
 #### Assembly
