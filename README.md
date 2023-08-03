@@ -395,11 +395,9 @@ Becoming an embedded engineer requires a broad understanding of both software an
 - [Intro to TinyML Part 1: Training a Neural Network for Arduino in TensorFlow | Digi-Key Electronics](https://www.youtube.com/watch?v=BzzqYNYOcWc)
 - [Intro to TinyML Part 2: Deploying a TensorFlow Lite Model to Arduino | Digi-Key Electronics](https://www.youtube.com/watch?v=dU01M61RW8s)
 
-### Security & Cryptography
+### Embedded Security
 
-#### Cryptographic Algorithms
-
-#### Hash Algorithms
+#### Cryptography
 
 - [Cryptography and Network Security: Principles and Practice - William Stallings](https://www.pearson.com/en-us/subject-catalog/p/cryptography-and-network-security-principles-and-practice/P200000003477/9780135764213)
 - [Serious Cryptography: A Practical Introduction to Modern Encryption - Jean-Philippe Aumasson](https://nostarch.com/seriouscrypto)
