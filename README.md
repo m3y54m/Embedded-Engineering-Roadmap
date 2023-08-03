@@ -211,7 +211,10 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ### Microcontrollers
 
-- [Mastering STM32](https://leanpub.com/mastering-stm32)
+- [Make: AVR Programming - Elliot Williams](https://www.oreilly.com/library/view/make-avr-programming/9781449356484/)
+- [Mastering STM32 - Carmine Noviello](https://leanpub.com/mastering-stm32)
+- [Embedded Systems STM32 Low-Layer APIs(LL) Driver Development](https://www.udemy.com/course/embedded-systems-stm32-low-level-ll-driver-development/)
+- [Embedded Systems STM32 HAL APIs Driver Development](https://www.udemy.com/course/embedded-systems-stm32-hal-apis-driver-development/)
 
 #### GPIO
 
@@ -229,12 +232,17 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 #### DMA
 
-#### Power Management
-
 #### Bootloader
 
 - [How to Create a Super Simple Bootloader](https://www.youtube.com/watch?v=OkUQ3iMmiYQ&list=PLnMKNibPkDnEb1sphpdFJ3bR9dNy7S6mO)
 - [STM32Fx Microcontroller Custom Bootloader Development](https://www.udemy.com/course/stm32f4-arm-cortex-mx-custom-bootloader-development/)
+
+#### Power Management
+
+#### GUI Design
+
+- [LVGL](https://lvgl.io/)
+- [TouchGFX](https://support.touchgfx.com/4.20/docs/introduction/welcome)
 
 #### Functional Safety
 
