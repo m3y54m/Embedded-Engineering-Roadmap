@@ -211,6 +211,8 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ### Microcontrollers
 
+- [Mastering STM32](https://leanpub.com/mastering-stm32)
+
 #### GPIO
 
 #### ADC
