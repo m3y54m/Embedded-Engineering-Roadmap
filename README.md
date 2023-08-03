@@ -156,7 +156,6 @@ Becoming an embedded engineer requires a broad understanding of both software an
 #### C
 
 - [W3Schools C Tutorial](https://www.w3schools.com/c/index.php)
-- [Microcontroller Embedded C Programming: Absolute Beginners](https://www.udemy.com/course/microcontroller-embedded-c-programming/)
 - [The C Programming Language -  Brian W. Kernighan, Dennis M. Ritchie ](https://www.amazon.com/dp/0131103628?ref_=cm_sw_r_cp_ud_dp_KRZ8M1WTXWVG0HMSRBXA)
 - [C How to Program -  Paul Deitel, Harvey Deitel ](https://deitel.com/c-how-to-program-9-e/)
 - [Effective C - An Introduction to Professional C Programming - Robert C. Seacord](https://nostarch.com/Effective_C)
@@ -213,6 +212,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 - [Make: AVR Programming - Elliot Williams](https://www.oreilly.com/library/view/make-avr-programming/9781449356484/)
 - [Mastering STM32 - Carmine Noviello](https://leanpub.com/mastering-stm32)
+- [Microcontroller Embedded C Programming: Absolute Beginners](https://www.udemy.com/course/microcontroller-embedded-c-programming/)
 - [Embedded Systems STM32 Low-Layer APIs(LL) Driver Development](https://www.udemy.com/course/embedded-systems-stm32-low-level-ll-driver-development/)
 - [Embedded Systems STM32 HAL APIs Driver Development](https://www.udemy.com/course/embedded-systems-stm32-hal-apis-driver-development/)
 
