@@ -409,9 +409,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
 - [MOOC - Security Part2: Basics of cryptography](https://youtube.com/playlist?list=PLnMKNibPkDnFSFh57UFTZLpy-7lZiwTHh)
 - [MOOC - Security Part3 : STM32 security features](https://youtube.com/playlist?list=PLnMKNibPkDnFzux3PHKUEi14ftDn9Cbm7)  
 
-#### Secure Boot
-
-#### Secure Firmware Update
+#### Secure Boot & Secure Firmware Update
 
 - [MOOC - Security Part4 : STM32 security in practice](https://youtube.com/playlist?list=PLnMKNibPkDnF0wt-ZI74SflnsBV4yKzkO)
 - [MOOC - Security Part5 : How to define your security needs](https://youtube.com/playlist?list=PLnMKNibPkDnGqh5OmQWw98ztpf9TeczbC)
