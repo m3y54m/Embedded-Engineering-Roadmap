@@ -254,6 +254,8 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 #### Wireless
 
+- [Bluetooth Low Energy Fundamentals - Nordic Semiconductor](https://academy.nordicsemi.com/courses/bluetooth-low-energy-fundamentals/)
+
 #### Industrial
 
 #### High-Speed
@@ -263,6 +265,8 @@ Becoming an embedded engineer requires a broad understanding of both software an
 #### Network
 
 #### Cellular
+
+- [Cellular IoT Fundamentals - Nordic Semiconductor](https://academy.nordicsemi.com/courses/cellular-iot-fundamentals/)
 
 
 ### Operating Systems
@@ -300,6 +304,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
 ##### Zephyr
 
 - [Zephyr® Project](https://www.zephyrproject.org/)
+- [nRF Connect SDK](https://academy.nordicsemi.com/courses/nrf-connect-sdk-fundamentals/)
 - [ESP32 on Zephyr OS](https://www.youtube.com/playlist?list=PLEQVp_6G_y4iFfemAbFsKw6tsGABarTwp)
 
 ##### NuttX
