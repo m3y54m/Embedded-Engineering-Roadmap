@@ -20,6 +20,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 - [Fastbit Embedded Brain Academy](https://fastbitlab.com/)
 - [DigiKey YouTube Channel](https://www.youtube.com/@digikey)
+- [element14 presents YouTube Channel](https://www.youtube.com/@element14presents)
 - [Ben Eater YouTube Channel](https://www.youtube.com/@BenEater)
 - [Phil’s Lab YouTube Channel](https://www.youtube.com/@PhilsLab)
 
@@ -36,9 +37,11 @@ If you do not have any background in programming embedded systems, Arduino board
 - [New Arduino Tutorials](https://youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP)
 - [Arduino in a commercial product?](https://www.youtube.com/watch?v=c5LzsqeSCAc)
 
-#### 🏭 STM32
+#### 🐜 PlatformIO
 
-- [Getting Started with STM32 and Nucleo](https://youtube.com/playlist?list=PLEBQazB0HUyRYuzfi4clXsKUSgorErmBv)
+PlatformIO is a cross-platform, cross-architecture, multiple framework, professional tool for embedded systems engineers and for software developers who write applications for embedded products.
+
+- [PlatformIO - A professional collaborative platform for embedded development](https://platformio.org/)
 
 #### 👨‍🏫 Educational Websites
 
@@ -224,6 +227,7 @@ If you do not have any background in programming embedded systems, Arduino board
 
 - [Make: AVR Programming - Elliot Williams](https://www.oreilly.com/library/view/make-avr-programming/9781449356484/)
 - [Mastering STM32 - Carmine Noviello](https://leanpub.com/mastering-stm32)
+- [Getting Started with STM32 and Nucleo](https://youtube.com/playlist?list=PLEBQazB0HUyRYuzfi4clXsKUSgorErmBv)
 - [Microcontroller Embedded C Programming: Absolute Beginners](https://www.udemy.com/course/microcontroller-embedded-c-programming/)
 - [Embedded Systems STM32 Low-Layer APIs(LL) Driver Development](https://www.udemy.com/course/embedded-systems-stm32-low-level-ll-driver-development/)
 - [Embedded Systems STM32 HAL APIs Driver Development](https://www.udemy.com/course/embedded-systems-stm32-hal-apis-driver-development/)
@@ -234,21 +238,43 @@ If you do not have any background in programming embedded systems, Arduino board
 
 #### ADC
 
+- [How Do ADCs Work? - The Learning Circuit](https://www.youtube.com/watch?v=g4BvbAKNQ90)
+- [Tutorial 13: ADC in STM32F4](https://youtu.be/vIlG_i3GqeU)
+- [Tutorial 14: ADC by Polling](https://www.youtube.com/watch?v=uUi6JyUuEJA)
+
 #### DAC
+
+- [How Do DACs Work? - The Learning Circuit](https://www.youtube.com/watch?v=YAxrmoVtEtE)
+- [DAC in STM32 || Sine wave || HAL || CubeIDE](https://www.youtube.com/watch?v=6Z1L6ox63j0)
 
 #### Timers
 
+- [STM32 TIMERS](https://www.youtube.com/playlist?list=PLfIJKC1ud8gjLZBzjE3kKBMDEH_lUc428)
+
 #### PWM
+
+- [What is PWM?](https://www.youtube.com/watch?v=B_Ysdv1xRbA)
+- [STM32 Guide #3: PWM + Timers](https://www.youtube.com/watch?v=AjN58ceQaF4)
 
 #### Interrupts
 
 - [Polling/Interrupt/DMA differences explained easily](https://www.youtube.com/watch?v=LNPBr3WvuNg)
 - [Level Up Your Arduino Code: External Interrupts](https://www.youtube.com/watch?v=J61_PKyWjxU)
+- [Tutorial 10: Peripheral 2 - Nested Vector Interrupt controller (NVIC) in STM32](https://www.youtube.com/watch?v=qwebM-YaSU4)
 - [Tutorial 11: LAB - External Interrupt ( EXTI ) Interfacing in STM32 using STM32CUBEMX](https://www.youtube.com/watch?v=oJc0seuBbzI)
+- [Tutorial 12: Interrupt Priorities in STM32](https://www.youtube.com/watch?v=aXLJD4qJmtk)
 
 #### Watchdog
 
+- [The Watchdog Timer on Arduino](https://www.youtube.com/watch?v=AzZBgH67mgE)
+- [WATCHDOGS in STM32 || IWDG and WWDG || CubeIDE](https://www.youtube.com/watch?v=AelNsnpfbcM)
+
 #### DMA
+
+- [STM32 DMA PT 1](https://www.youtube.com/watch?v=yvLHtXJ_KSg)
+- [STM32 DMA PT 2](https://www.youtube.com/watch?v=Kb8dX18xYuo)
+- [Getting Started With STM32 & Nucleo Part 4: Working with ADC and DMA - Maker.io](https://www.youtube.com/watch?v=EsZLgqhqfO0)
+- [STM32 UART DMA and IDLE LINE || Receive unknown length DATA](https://www.youtube.com/watch?v=Bo6MC5A8uTE)
 
 #### Bootloader
 
@@ -256,6 +282,9 @@ If you do not have any background in programming embedded systems, Arduino board
 - [STM32Fx Microcontroller Custom Bootloader Development](https://www.udemy.com/course/stm32f4-arm-cortex-mx-custom-bootloader-development/)
 
 #### Power Management
+
+- [SLEEP Mode in STM32F103 || CubeIDE || Low Power Mode || Current Consumption](https://www.youtube.com/watch?v=2rKcsGkCG0s)
+- [STOP MODE in STM32 || CubeIDE || Low Power Mode](https://www.youtube.com/watch?v=UtQhc4XV8k4)
 
 #### GUI Design
 
@@ -269,6 +298,23 @@ If you do not have any background in programming embedded systems, Arduino board
 ### Interfaces & Protocols
 
 #### Common
+
+- [PROTOCOLS: UART - I2C - SPI - Serial communications #001](https://www.youtube.com/watch?v=IyGwvGzrqp8)
+
+##### USART / UART
+
+- [Understanding UART](https://www.youtube.com/watch?v=sTHckUyxwp8)
+- [how does UART work??? (explained clearly)](https://www.youtube.com/watch?v=V6m2skVlsQI)
+- [Basics of UART Communication | UART Frame Structure | RS 232 Basics | Part1](https://www.youtube.com/watch?v=JuvWbRhhpdI)
+- [Understanding UART Communication Programming | UART Peripherals | Part 2](https://www.youtube.com/watch?v=QmjKRwgddxw)
+
+##### I2C
+
+- [STM32 I2C SLAVE](https://www.youtube.com/playlist?list=PLfIJKC1ud8gj_P7Qb28aTr0t92uk_vwg0)
+
+##### SPI
+
+- [Getting Started with STM32 and Nucleo Part 5: How to Use SPI | Digi-Key Electronics](https://www.youtube.com/watch?v=eFKeNPJq50g)
 
 #### Wireless
 
@@ -295,8 +341,19 @@ If you do not have any background in programming embedded systems, Arduino board
 
 ### Memories
 
+#### NOR / NAND Flash
+
+#### eMMC
+
+#### EEPROM
+
+- [Using EEPROM with Arduino - Internal & External](https://www.youtube.com/watch?v=ShqvATqXA7g)
+
+#### SRAM / DRAM
+
 ### Sensors & Actuators
 
+- [Getting Started With STM32 and Nucleo Part 2: How to Use I2C to Read Temperature Sensor TMP102](https://www.youtube.com/watch?v=isOekyygpR8)
 - [GPS Module and STM32 || NEO 6M || Get coordinates, Date, Time, Speed, etc.](https://www.youtube.com/watch?v=tq_RoaPLahk)
 - [Interface MPU6050/GY-521 with STM32 || LCD 20x4 || CubeMx || HAL || SW4STM](https://www.youtube.com/watch?v=xxphp9wDnHA)
 - [DC Motor Speed Controller PWM With Potentiometer Using STM32](https://www.youtube.com/watch?v=8QpegVuV_AQ)
