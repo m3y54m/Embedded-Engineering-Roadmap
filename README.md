@@ -272,6 +272,11 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 #### Automotive
 
+- [CAN Bus: Serial Communication - How It Works?](https://www.youtube.com/watch?v=JZSCzRT9TTo&t=21s)
+- [CAN Bus: A Beginners Guide Part 1](https://www.youtube.com/watch?v=YBrU_eZM110)
+- [CAN Bus: A Beginners Guide Part 2](https://www.youtube.com/watch?v=z5CVljiLhvc)
+- [CAN Bus, OBD2 & J1939 Explained](https://www.youtube.com/playlist?list=PLpV68vjf4Xo4vZ_SjJ6tTlomYm-k18vDZ)
+
 #### Network
 
 - [Hands-On Network Programming with C - Lewis Van Winkle](https://www.amazon.com/exec/obidos/ASIN/1789349869/aoeu-20)
