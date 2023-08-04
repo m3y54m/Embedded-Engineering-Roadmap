@@ -30,7 +30,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 #### 🕹️ Arduino
 
-If you do not have any background in programming embedded systems, Arduino boards and libraries are the best choice for you to start and learn the basics. Just keep in mind that most of Arduino libraries are developed only for learning purposes and are not are not optimized to be used in industry. If you want to become a professional embedded developer, you should have the ability to utilize industry-compliant APIs and frameworks provided and qualified by microcontroller vendors such as STM32Cube for STM32 microcontrollers or ESP-IDF for Espressif microcontrollers.
+If you do not have any background in programming embedded systems, Arduino boards and libraries are the best choice for you to start and learn the basics. Just keep in mind that most of the Arduino libraries are developed only for learning purposes and are not are not optimized to be used in industry. If you want to become a professional embedded developer, you should have the ability to utilize industry-compliant APIs and frameworks provided and qualified by microcontroller vendors such as STM32Cube for STM32 microcontrollers or ESP-IDF for Espressif microcontrollers.
 
 - [Getting Started with Arduino](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino)
 - [New Arduino Tutorials](https://youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP)
@@ -230,6 +230,8 @@ If you do not have any background in programming embedded systems, Arduino board
 
 #### GPIO
 
+- [Tutorial 5: Peripheral 1 - General purpose Input Output (GPIO) Configuration in STM32](https://youtu.be/tjDhmavBGf0)
+
 #### ADC
 
 #### DAC
@@ -239,6 +241,10 @@ If you do not have any background in programming embedded systems, Arduino board
 #### PWM
 
 #### Interrupts
+
+- [Polling/Interrupt/DMA differences explained easily](https://www.youtube.com/watch?v=LNPBr3WvuNg)
+- [Level Up Your Arduino Code: External Interrupts](https://www.youtube.com/watch?v=J61_PKyWjxU)
+- [Tutorial 11: LAB - External Interrupt ( EXTI ) Interfacing in STM32 using STM32CUBEMX](https://www.youtube.com/watch?v=oJc0seuBbzI)
 
 #### Watchdog
 
@@ -293,6 +299,7 @@ If you do not have any background in programming embedded systems, Arduino board
 
 - [GPS Module and STM32 || NEO 6M || Get coordinates, Date, Time, Speed, etc.](https://www.youtube.com/watch?v=tq_RoaPLahk)
 - [Interface MPU6050/GY-521 with STM32 || LCD 20x4 || CubeMx || HAL || SW4STM](https://www.youtube.com/watch?v=xxphp9wDnHA)
+- [DC Motor Speed Controller PWM With Potentiometer Using STM32](https://www.youtube.com/watch?v=8QpegVuV_AQ)
 
 ### Operating Systems
 
@@ -327,6 +334,7 @@ If you do not have any background in programming embedded systems, Arduino board
 
 - [FreeRTOS - Market leading RTOS](https://www.freertos.org)
 - [Introduction to RTOS](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz)
+- [Getting Started With STM32 and Nucleo Part 3: FreeRTOS - How To Run Multiple Threads w/ CMSIS-RTOS](https://www.youtube.com/watch?v=CdpgqpuPSyQ)
 
 ##### Zephyr
 
