@@ -308,6 +308,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ##### Qt
 
+- [Qt Documentation](https://doc.qt.io/)
 - [Introduction to Qt / QML](https://www.youtube.com/playlist?list=PL6CJYn40gN6hUXoYdyn4DHUTXfcVDJcfB)
 
 #### Real-Time OS
