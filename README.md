@@ -26,10 +26,13 @@ Becoming an embedded engineer requires a broad understanding of both software an
 #### 🤡 Simulation
 
 - [Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
+- [QEMU](https://www.qemu.org/)
 
 #### 🕹️ Arduino
 
-- [Arduino Language Reference](https://www.arduino.cc/reference/en/)
+- [Getting Started with Arduino](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino)
+- [New Arduino Tutorials](https://youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP)
+- [Arduino in a commercial product?](https://www.youtube.com/watch?v=c5LzsqeSCAc)
 
 #### 🏭 STM32
 
@@ -37,12 +40,13 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 #### 👨‍🏫 Educational Websites
 
-- [ControllersTech](https://controllerstech.com/)
 - [SparkFun Learn: Learn at SparkFun Electronics](https://learn.sparkfun.com/)
 - [Random Nerd Tutorials | Learn ESP32, ESP8266, Arduino, and Raspberry Pi](https://randomnerdtutorials.com/)
+- [ControllersTech](https://controllerstech.com/)
 
 #### ⚒️ Projects
 
+- [STM32 Firmware](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
 - [STM32 : Internet Of Things with 4G LTE Modem - Hardware](https://www.udemy.com/course/stm32-internet-of-things-with-4g-lte-modem-hardware/)
 
 > **Note:** It is not necessary to read or watch all of the following materials,
@@ -184,6 +188,8 @@ Becoming an embedded engineer requires a broad understanding of both software an
 #### Rust
 
 - [The Embedded Rust Book](https://docs.rust-embedded.org/book/)
+- [Community Rust support projects for STM32 microcontrollers](https://github.com/stm32-rs)
+- [Rust on ESP Community](https://github.com/esp-rs)
 
 ### Build System
 
@@ -268,6 +274,8 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 #### Network
 
+- [Hands-On Network Programming with C - Lewis Van Winkle](https://www.amazon.com/exec/obidos/ASIN/1789349869/aoeu-20)
+
 #### Cellular
 
 - [Cellular IoT Fundamentals - Nordic Semiconductor](https://academy.nordicsemi.com/courses/cellular-iot-fundamentals/)
@@ -300,6 +308,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ##### Qt
 
+- [Introduction to Qt / QML](https://www.youtube.com/playlist?list=PL6CJYn40gN6hUXoYdyn4DHUTXfcVDJcfB)
 
 #### Real-Time OS
 
@@ -350,6 +359,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
 - [Discrete Fourier Transform - Simple Step by Step](https://www.youtube.com/watch?v=mkGsMWi_j4Q)
 - [The Fast Fourier Transform (FFT): Most Ingenious Algorithm Ever?](https://youtu.be/h7apO7q16V0)
 - [The FFT Algorithm - Simple Step by Step](https://www.youtube.com/watch?v=htCj9exbGo0)
+- [STM32 Fast Fourier Transform (CMSIS DSP FFT) - Phil's Lab #111](https://youtu.be/d1KvgOwWvkM)
 
 #### Controls Systems / PID Control
 
@@ -370,9 +380,17 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 #### JTAG / SWD
 
+- [everyone needs to stop using print debugging (do THIS instead)](https://www.youtube.com/watch?v=3T3ZDquDDVg)
+- [Guide: Connecting your debugger](https://stm32-base.org/guides/connecting-your-debugger.html)
+- [STM32 + SWD + ST-Link + CubeIDE | Debugging on Custom Hardware Tutorial - Phil's Lab #4](https://www.youtube.com/watch?v=qMUzLU636s8)
+
 #### GDB
 
+- [GDB is REALLY easy! Find Bugs in Your Code with Only A Few Commands](https://www.youtube.com/watch?v=Dq8l1_-QgAc)
+
 #### OpenOCD
+
+- [This Is 100% How You Should Be Debugging | How to Use OpenOCD to Debug Embedded Software with GDB](https://www.youtube.com/watch?v=_1u7IOnivnM)
 
 ### Testing
 
