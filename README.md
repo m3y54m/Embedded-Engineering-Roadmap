@@ -30,6 +30,8 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 #### 🕹️ Arduino
 
+If you do not have any background in programming embedded systems, Arduino boards and libraries are the best choice for you to start and learn the basics. Just keep in mind that most of Arduino libraries are developed only for learning purposes and are not are not optimized to be used in industry. If you want to become a professional embedded developer, you should have the ability to utilize industry-compliant APIs and frameworks provided and qualified by microcontroller vendors such as STM32Cube for STM32 microcontrollers or ESP-IDF for Espressif microcontrollers.
+
 - [Getting Started with Arduino](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino)
 - [New Arduino Tutorials](https://youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP)
 - [Arduino in a commercial product?](https://www.youtube.com/watch?v=c5LzsqeSCAc)
@@ -288,6 +290,9 @@ Becoming an embedded engineer requires a broad understanding of both software an
 ### Memories
 
 ### Sensors & Actuators
+
+- [GPS Module and STM32 || NEO 6M || Get coordinates, Date, Time, Speed, etc.](https://www.youtube.com/watch?v=tq_RoaPLahk)
+- [Interface MPU6050/GY-521 with STM32 || LCD 20x4 || CubeMx || HAL || SW4STM](https://www.youtube.com/watch?v=xxphp9wDnHA)
 
 ### Operating Systems
 
