@@ -12,34 +12,38 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ### ⭐️ Featured Material
 
-#### Google
+#### 🔎 Google
 
 - [Searching is Your Super Power!](https://www.google.com)
 
-#### Courses and Youtube Channels
+#### 🎥 Courses and Youtube Channels
 
 - [Fastbit Embedded Brain Academy](https://fastbitlab.com/)
 - [DigiKey YouTube Channel](https://www.youtube.com/@digikey)
 - [Ben Eater YouTube Channel](https://www.youtube.com/@BenEater)
 - [Phil’s Lab YouTube Channel](https://www.youtube.com/@PhilsLab)
 
-#### Simulation
+#### 🤡 Simulation
 
 - [Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
 
-#### Arduino
+#### 🕹️ Arduino
 
 - [Arduino Language Reference](https://www.arduino.cc/reference/en/)
 
-#### STM32
+#### 🏭 STM32
 
 - [Getting Started with STM32 and Nucleo](https://youtube.com/playlist?list=PLEBQazB0HUyRYuzfi4clXsKUSgorErmBv)
 
-#### Educational Websites
+#### 👨‍🏫 Educational Websites
 
+- [ControllersTech](https://controllerstech.com/)
 - [SparkFun Learn: Learn at SparkFun Electronics](https://learn.sparkfun.com/)
 - [Random Nerd Tutorials | Learn ESP32, ESP8266, Arduino, and Raspberry Pi](https://randomnerdtutorials.com/)
 
+#### ⚒️ Projects
+
+- [STM32 : Internet Of Things with 4G LTE Modem - Hardware](https://www.udemy.com/course/stm32-internet-of-things-with-4g-lte-modem-hardware/)
 
 > **Note:** It is not necessary to read or watch all of the following materials,
 > but it is important to study enough to have at least a basic understanding of each topic.
@@ -268,6 +272,9 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 - [Cellular IoT Fundamentals - Nordic Semiconductor](https://academy.nordicsemi.com/courses/cellular-iot-fundamentals/)
 
+### Memories
+
+### Sensors & Actuators
 
 ### Operating Systems
 
