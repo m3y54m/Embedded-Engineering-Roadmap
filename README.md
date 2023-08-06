@@ -26,8 +26,9 @@ Becoming an embedded engineer requires a broad understanding of both software an
 - [Ben Eater YouTube Channel](https://www.youtube.com/@BenEater)
 - [Phil’s Lab YouTube Channel](https://www.youtube.com/@PhilsLab)
 
-### Books
+#### 📚 Books
 
+- [Embedded System Design with ARM Cortex-M Microcontrollers: Applications with C, C++ and MicroPython - Cem Ünsalan, Hüseyin Deniz Gürhan, Mehmet Erkin Yücel](https://link.springer.com/book/10.1007/978-3-030-88439-0)
 - [A Hands-On Guide to Designing Embedded Systems - Adam Taylor, Dan Binnun, Saket Srivastava](https://www.amazon.com/Hands-Guide-Designing-Embedded-Systems/dp/1630816833)
 
 #### 🤡 Simulation
@@ -446,6 +447,10 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 - [RT-Thread | An Open Source Embedded Real-time Operating System](https://www.rt-thread.io/)
 - [RT-Thread Beginners Guide](https://youtube.com/playlist?list=PLXUV89C_M3G5KVw2IerI-pqApdSM_IaZo)
+
+##### Mbed OS
+
+- [Mbed OS](https://os.mbed.com/mbed-os/)
 
 ##### QNX
 
