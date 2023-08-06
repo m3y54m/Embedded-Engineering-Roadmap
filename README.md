@@ -19,12 +19,12 @@ Becoming an embedded engineer requires a broad understanding of both software an
 #### 🎥 Courses and Youtube Channels
 
 - [Fastbit Embedded Brain Academy](https://fastbitlab.com/)
-- [Quantum Leaps, LLC YouTube Channel](https://www.youtube.com/@StateMachineCOM)
-- [Modern Embedded Systems Programming Course](https://youtube.com/playlist?list=PLPW8O6W-1chwyTzI3BHwBLbGQoPFxPAPM)
-- [DigiKey YouTube Channel](https://www.youtube.com/@digikey)
-- [element14 presents YouTube Channel](https://www.youtube.com/@element14presents)
-- [Ben Eater YouTube Channel](https://www.youtube.com/@BenEater)
-- [Phil’s Lab YouTube Channel](https://www.youtube.com/@PhilsLab)
+- [Quantum Leaps, LLC (YouTube Channel)](https://www.youtube.com/@StateMachineCOM)
+- [Modern Embedded Systems Programming Course)](https://youtube.com/playlist?list=PLPW8O6W-1chwyTzI3BHwBLbGQoPFxPAPM)
+- [DigiKey (YouTube Channel](https://www.youtube.com/@digikey)
+- [element14 presents (YouTube Channel)](https://www.youtube.com/@element14presents)
+- [Ben Eater (YouTube Channel)](https://www.youtube.com/@BenEater)
+- [Phil’s Lab (YouTube Channel)](https://www.youtube.com/@PhilsLab)
 
 #### 📚 Books
 
