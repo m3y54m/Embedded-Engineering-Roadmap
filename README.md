@@ -26,6 +26,10 @@ Becoming an embedded engineer requires a broad understanding of both software an
 - [Ben Eater YouTube Channel](https://www.youtube.com/@BenEater)
 - [Phil’s Lab YouTube Channel](https://www.youtube.com/@PhilsLab)
 
+### Books
+
+- [A Hands-On Guide to Designing Embedded Systems - Adam Taylor, Dan Binnun, Saket Srivastava](https://www.amazon.com/Hands-Guide-Designing-Embedded-Systems/dp/1630816833)
+
 #### 🤡 Simulation
 
 - [Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
@@ -425,6 +429,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [FreeRTOS - Market leading RTOS](https://www.freertos.org)
 - [Introduction to RTOS](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz)
 - [Getting Started With STM32 and Nucleo Part 3: FreeRTOS - How To Run Multiple Threads w/ CMSIS-RTOS](https://www.youtube.com/watch?v=CdpgqpuPSyQ)
+- [Hands-On RTOS with Microcontrollers: Building real-time embedded systems using FreeRTOS, STM32 MCUs, and SEGGER debug tools - Brian Amos](https://a.co/d/11MSPlo)
 
 ##### Zephyr
 
@@ -503,6 +508,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 ### Testing
 
+- [Test Driven Development for Embedded C - James Grenning](https://www.amazon.com/Driven-Development-Embedded-Pragmatic-Programmers/dp/193435662X)
 - [Intro to CI/CD](https://youtu.be/1nxGcfIm-TU)
 
 #### Unit Testing
@@ -538,6 +544,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### Cryptography
 
+- [Understanding Cryptography: A Textbook for Students and Practitioners -  Christof Paar, Jan Pelzl](https://link.springer.com/book/10.1007/978-3-642-04101-3)
 - [Cryptography and Network Security: Principles and Practice - William Stallings](https://www.pearson.com/en-us/subject-catalog/p/cryptography-and-network-security-principles-and-practice/P200000003477/9780135764213)
 - [Serious Cryptography: A Practical Introduction to Modern Encryption - Jean-Philippe Aumasson](https://nostarch.com/seriouscrypto)
 - [MOOC - Security Part2: Basics of cryptography](https://youtube.com/playlist?list=PLnMKNibPkDnFSFh57UFTZLpy-7lZiwTHh)
