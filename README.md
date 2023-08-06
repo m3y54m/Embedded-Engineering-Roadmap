@@ -160,12 +160,12 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 - [Grokking Algorithms - Aditya Y. Bhargava ](https://www.manning.com/books/grokking-algorithms)
 - [Introduction to Algorithms - Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein](http://mitpress.mit.edu/9780262367509/introduction-to-algorithms/)
+- [Embedded Systems State Machines & Data Structures](https://www.udemy.com/course/embedded-systems-state-machines-data-structures-like-a-pro/)
 - [Data Structures in C](https://www.sanfoundry.com/c-programming-examples-data-structures/)
 - [Data Structures - Full Course Using C and C++](https://www.youtube.com/watch?v=B31LgI4Y4DQ)
 
 #### Design Patterns
 
-- [Embedded Systems State Machines & Data Structures](https://www.udemy.com/course/embedded-systems-state-machines-data-structures-like-a-pro/)
 - [Design Patterns for Embedded Systems in C - Bruce Powel Douglass](https://www.oreilly.com/library/view/design-patterns-for/9781856177078/)
 
 #### State Machines / UML
