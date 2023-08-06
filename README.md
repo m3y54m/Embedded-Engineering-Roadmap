@@ -19,6 +19,8 @@ Becoming an embedded engineer requires a broad understanding of both software an
 #### 🎥 Courses and Youtube Channels
 
 - [Fastbit Embedded Brain Academy](https://fastbitlab.com/)
+- [Quantum Leaps, LLC YouTube Channel](https://www.youtube.com/@StateMachineCOM)
+- [Modern Embedded Systems Programming Course](https://youtube.com/playlist?list=PLPW8O6W-1chwyTzI3BHwBLbGQoPFxPAPM)
 - [DigiKey YouTube Channel](https://www.youtube.com/@digikey)
 - [element14 presents YouTube Channel](https://www.youtube.com/@element14presents)
 - [Ben Eater YouTube Channel](https://www.youtube.com/@BenEater)
@@ -45,7 +47,10 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### 👨‍🏫 Educational Websites
 
+- [DeepBlueMbedded](https://deepbluembedded.com/)
+- [Microchip University](https://mu.microchip.com/)
 - [SparkFun Learn: Learn at SparkFun Electronics](https://learn.sparkfun.com/)
+- [Adafruit Learning System](https://learn.adafruit.com/)
 - [Random Nerd Tutorials | Learn ESP32, ESP8266, Arduino, and Raspberry Pi](https://randomnerdtutorials.com/)
 - [ControllersTech](https://controllerstech.com/)
 
@@ -107,13 +112,23 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 ### Prototyping Skills
 
+#### Using Breadboards
+
+- [Everything You Need to Know about Breadboards](https://www.youtube.com/watch?v=mE33WpRWrXs)
+- [How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
+- 
+#### Hardware Design Basics
+
+- [Electronic Circuit Design - IFE - TU Graz](https://www.youtube.com/playlist?list=PLLpZ1DoEuR9tbV8r8bMSI94znm6pRB905)
+- [Hardware Design - Phil’s Lab](https://www.youtube.com/playlist?list=PLXSyc11qLa1YhVCZ5xWPuPsE5MkgEy5TF)
+- [Microcontroller-Based Hardware Design With Altium Designer](https://www.youtube.com/playlist?list=PL3aaAq2OJU5HcbClqrOhqBDozF7HmxV-s)
+
 #### PCB Design
 
 - [How To Learn PCB Design (My Thoughts, Journey, and Resources) - Phil's Lab #87](https://youtu.be/aODkA2mrimQ)
 - [KiCad 6 STM32 PCB Design Full Tutorial - Phil's Lab #65](https://youtu.be/aVUqaB0IMh4)
 - [Intro to KiCad](https://www.youtube.com/watch?v=vaCVh2SAZY4&list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O)
 - [Altium Academy YouTube Channel](https://www.youtube.com/@AltiumAcademy)
-- [Microcontroller-Based Hardware Design With Altium Designer](https://www.youtube.com/playlist?list=PL3aaAq2OJU5HcbClqrOhqBDozF7HmxV-s)
 - [Robert Feranec YouTube Channel](https://www.youtube.com/@RobertFeranec)
 - [PCB Design for EMI & SI - Phil's Lab #64](https://www.youtube.com/watch?v=VtzPL8wQ8-E)
 - [PCB Design for Advanced Users](https://youtube.com/playlist?list=PL3aaAq2OJU5EWfYT_Z93tc9pBF_Sidba_)
@@ -126,11 +141,6 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [How to Solder Through-Hole Components - Another Teaching Moment | DigiKey Electronics](https://www.youtube.com/watch?v=DJH7VLGJ4fs)
 - [How to Solder QFN MLF Package by Hand (Using a Hot Air Rework Station) | Digi-Key Electronics](https://youtu.be/X3Rc1s6EpSI)
 - [From Solderless Breadboard to Soldered Circuit - Electronics with Becky Stern | Digi-Key Electronics](https://www.youtube.com/watch?v=F9Krq7seV1g)
-
-#### Using Breadboards
-
-- [Everything You Need to Know about Breadboards](https://www.youtube.com/watch?v=mE33WpRWrXs)
-- [How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
 
 ### FPGA Design
 
@@ -157,6 +167,8 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### State Machines / UML
 
+- [State Machines](https://www.youtube.com/playlist?list=PLPW8O6W-1chxym7TgIPV9k5E8YJtSBToI)
+- [Event-Driven Programming](https://www.youtube.com/playlist?list=PLPW8O6W-1chx8Y7Oq2gOE0NUPXmQxu2Wr)
 - [Embedded System Design using UML State Machines](https://www.udemy.com/course/embedded-system-design-using-uml-state-machines/)
 
 #### Memory Allocation
@@ -222,6 +234,10 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 - [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE)
 - [Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git](https://www.youtube.com/watch?v=Uszj_k0DGsg)
+
+#### SVN (Subversion)
+
+- [Apache® Subversion®](https://subversion.apache.org/)
 
 ### Microcontrollers
 
@@ -301,7 +317,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 - [PROTOCOLS: UART - I2C - SPI - Serial communications #001](https://www.youtube.com/watch?v=IyGwvGzrqp8)
 
-##### USART / UART
+##### UART
 
 - [Understanding UART](https://www.youtube.com/watch?v=sTHckUyxwp8)
 - [how does UART work??? (explained clearly)](https://www.youtube.com/watch?v=V6m2skVlsQI)
@@ -374,18 +390,33 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 ##### Linux Device Drivers
 
+- [Linux Device Drivers -  Jonathan Corbet, Alessandro Rubini, Greg Kroah-Hartman](https://lwn.net/Kernel/LDD3/)
+- [Mastering Linux Device Driver Development - John Madieu](https://www.packtpub.com/product/mastering-linux-device-driver-development/9781789342048)
+
 ##### U-Boot
+
+- [The U-Boot Documentation](https://u-boot.readthedocs.io/en/latest/)
 
 ##### BuildRoot
 
+- [Introduction to Embedded Linux Part 1 - Buildroot | Digi-Key Electronics](https://www.youtube.com/watch?v=9vsu67uMcko)
+
 ##### Yocto
+
+- [Introduction to Embedded Linux Part 2 - Yocto Project | Digi-Key Electronics](https://www.youtube.com/watch?v=2-PwskQrZac&t=7s)
+- [Yocto Project Tutorial Series (Basic to Advance)](https://www.youtube.com/playlist?list=PLwqS94HTEwpQmgL1UsSwNk_2tQdzq3eVJ)
+- [Embedded Linux using Yocto](https://www.udemy.com/course/embedded-linux-using-yocto/)
 
 ##### Qt
 
 - [Qt Documentation](https://doc.qt.io/)
 - [Introduction to Qt / QML](https://www.youtube.com/playlist?list=PL6CJYn40gN6hUXoYdyn4DHUTXfcVDJcfB)
+- [Multi-Threading and IPC with Qt 5 C++](https://www.udemy.com/course/multi-threading-and-ipc-with-qt-c-plus-plus/)
 
 #### Real-Time OS
+
+- [RTOS](https://www.youtube.com/playlist?list=PLPW8O6W-1chyrd_Msnn4LD6LBs2slJITs)
+- [Beyond the RTOS](https://www.youtube.com/playlist?list=PLPW8O6W-1chytjkg63-tM7MI0BvGxxPIP)
 
 ##### FreeRTOS
 
