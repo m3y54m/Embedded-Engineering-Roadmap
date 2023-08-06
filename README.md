@@ -549,6 +549,12 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [MOOC - Security Part5 : How to define your security needs](https://youtube.com/playlist?list=PLnMKNibPkDnGqh5OmQWw98ztpf9TeczbC)
 - [MOOC - Security Part6: STM32 security ecosystem, from theory to practice](https://youtube.com/playlist?list=PLnMKNibPkDnGd7J7fV7tr-4xIBwkNfD--)
 
+
+### SOFT SKILLS
+
+- [Soft Skills For Embedded Systems Software Developers](https://www.embeddedrelated.com/showarticle/1470.php)
+- [10 Skills Every Embedded Engineer Should Have](https://medium.com/@lanceharvieruntime/10-skills-every-embedded-engineer-should-have-dcb867095b91)
+
 ## History
 
 The idea of creating this roadmap came from [vazeri / Embedded-Engineering-RoadMap-2018](https://github.com/vazeri/Embedded-Engineering-RoadMap-2018) which was well designed but had some flaws and not updated for years.
