@@ -85,12 +85,14 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [The Art of Electronics -  Paul Horowitz, Winfield Hill](https://artofelectronics.net/)
 
 #### Digital Circuits & Logic Design
+
+- [Digital Design - Morris Mano](https://www.portcity.edu.bd/files/636444791235373856_Digitallogicdesign.pdf)
+
 #### Computer Architecture
 
 - [Build an 8-bit computer from scratch](https://eater.net/8bit/)
 - [Computer Organization and Design: ARM Edition -  David A. Patterson, John L. Hennessy](https://github.com/AbderrhmanAbdellatif/ComputerOrganization/blob/master/%5BThe%20Morgan%20Kaufmann%20Series%20in%20Computer%20Architecture%20and%20Design%5D%20David%20A.%20Patterson%2C%20John%20L.%20Hennessy%20-%20Computer%20Organization%20and%20Design_%20The%20Hardware%20Software%20Interface_%20ARM%20Edition%20(2016%2C%20Morgan%20Kaufmann).pdf)
 - [Digital Design and Computer Architecture: ARM Edition -  Sarah Harris, David Harris](https://a.co/d/4otoVvI)
-- [Digital Design - Morris Mano](https://www.portcity.edu.bd/files/636444791235373856_Digitallogicdesign.pdf)
 - [Embedded Systems Architecture - Tammy Noergaard](https://www.oreilly.com/library/view/embedded-systems-architecture/9780123821966/)
 
 ### Using Test Equipment
