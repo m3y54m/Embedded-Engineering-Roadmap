@@ -213,8 +213,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 ### Build System
 
-#### GCC
-#### Makefile
+#### GCC & Make
 
 - [GCC and Make - Compiling, Linking and Building C/C++ Applications](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 
