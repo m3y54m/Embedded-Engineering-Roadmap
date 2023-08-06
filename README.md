@@ -116,7 +116,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 - [Everything You Need to Know about Breadboards](https://www.youtube.com/watch?v=mE33WpRWrXs)
 - [How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
-- 
+
 #### Hardware Design Basics
 
 - [Electronic Circuit Design - IFE - TU Graz](https://www.youtube.com/playlist?list=PLLpZ1DoEuR9tbV8r8bMSI94znm6pRB905)
