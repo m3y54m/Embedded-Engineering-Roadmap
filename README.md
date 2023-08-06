@@ -74,15 +74,16 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Calculus - Robert T Smith, Roland Minton](https://www.mheducation.com/highered/product/calculus-smith-minton/M9780073383118.html)
 
 #### Electrical Circuits Basics
-#### Electronic Components
 
-- [#1099 How I learned electronics](https://youtu.be/Bgrubw6B_us)
 - [Lessons in Electric Circuits](https://www.allaboutcircuits.com/textbook/)
 - [Fundamentals of Electric Circuits - Charles K. Alexander, Matthew Sadiku](https://www.amazon.com/dp/1260226409?ref_=cm_sw_r_cp_ud_dp_Q11YHXNY2BK530RQZC4S)
 - [Grob’s Basic Electronics - Mitchel E. Schultz](https://a.co/d/g1g73HV)
 - [Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
-- [Encyclopedia of Electronic Components - Charles Platt](https://a.co/d/83cSiU7)
 - [The Art of Electronics -  Paul Horowitz, Winfield Hill](https://artofelectronics.net/)
+
+#### Electronic Components
+
+- [Encyclopedia of Electronic Components - Charles Platt](https://a.co/d/83cSiU7)
 
 #### Digital Circuits & Logic Design
 
