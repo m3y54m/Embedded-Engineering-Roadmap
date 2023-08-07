@@ -502,12 +502,12 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### JTAG / SWD
 
-- [everyone needs to stop using print debugging (do THIS instead)](https://www.youtube.com/watch?v=3T3ZDquDDVg)
 - [Guide: Connecting your debugger](https://stm32-base.org/guides/connecting-your-debugger.html)
 - [STM32 + SWD + ST-Link + CubeIDE | Debugging on Custom Hardware Tutorial - Phil's Lab #4](https://www.youtube.com/watch?v=qMUzLU636s8)
 
 #### GDB
 
+- [everyone needs to stop using print debugging (do THIS instead)](https://www.youtube.com/watch?v=3T3ZDquDDVg)
 - [GDB is REALLY easy! Find Bugs in Your Code with Only A Few Commands](https://www.youtube.com/watch?v=Dq8l1_-QgAc)
 
 #### OpenOCD
