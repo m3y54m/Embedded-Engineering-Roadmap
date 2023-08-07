@@ -188,6 +188,8 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 #### C
 
 - [W3Schools C Tutorial](https://www.w3schools.com/c/index.php)
+- [C Programming for Beginners | Full Course](https://www.youtube.com/watch?v=ssJY5MDLjlo)
+- [C Programming Tutorials](https://www.youtube.com/playlist?list=PLA1FTfKBAEX4hblYoH6mnq0zsie2w6Wif)
 - [The C Programming Language -  Brian W. Kernighan, Dennis M. Ritchie ](https://www.amazon.com/dp/0131103628?ref_=cm_sw_r_cp_ud_dp_KRZ8M1WTXWVG0HMSRBXA)
 - [C How to Program -  Paul Deitel, Harvey Deitel ](https://deitel.com/c-how-to-program-9-e/)
 - [Effective C - An Introduction to Professional C Programming - Robert C. Seacord](https://nostarch.com/Effective_C)
