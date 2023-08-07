@@ -61,7 +61,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 #### ⚒️ Projects
 
 - [STM32 Firmware](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
-- [STM32 : Internet Of Things with 4G LTE Modem - Hardware](https://www.udemy.com/course/stm32-internet-of-things-with-4g-lte-modem-hardware/)
+- [Udemy – STM32 : Internet Of Things with 4G LTE Modem - Hardware](https://www.udemy.com/course/stm32-internet-of-things-with-4g-lte-modem-hardware/)
 
 > **Note:** It is not necessary to read or watch all of the following materials,
 > but it is important to study enough to have at least a basic understanding of each topic.
@@ -153,10 +153,10 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 - [Introduction to FPGA](https://youtube.com/playlist?list=PLEBQazB0HUyT1WmMONxRZn9NmQ_9CIKhb)
 - [FPGA Fundamentals](https://nandland.com/fpga-101/)
-- [FPGA Embedded Design, Part 1 - Verilog](https://www.udemy.com/course/fpga-embedded-design-verilog/)
-- [FPGA Embedded Design, Part 2 - Basic FPGA Training](https://www.udemy.com/course/fpga-embedded-design-fpgas/)
-- [FPGA Embedded Design, Part 3 - EDA Tools](https://www.udemy.com/course/fpga-embedded-design-eda-tools/)
-- [FPGA Embedded Design, Part 4 - Microprocessor Design](https://www.udemy.com/course/fpga-embedded-design-cpu/)
+- [Udemy – FPGA Embedded Design, Part 1 - Verilog](https://www.udemy.com/course/fpga-embedded-design-verilog/)
+- [Udemy – FPGA Embedded Design, Part 2 - Basic FPGA Training](https://www.udemy.com/course/fpga-embedded-design-fpgas/)
+- [Udemy – FPGA Embedded Design, Part 3 - EDA Tools](https://www.udemy.com/course/fpga-embedded-design-eda-tools/)
+- [Udemy – FPGA Embedded Design, Part 4 - Microprocessor Design](https://www.udemy.com/course/fpga-embedded-design-cpu/)
 
 ### Programming Fundamentals
 
@@ -164,7 +164,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 - [Grokking Algorithms - Aditya Y. Bhargava ](https://www.manning.com/books/grokking-algorithms)
 - [Introduction to Algorithms - Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein](http://mitpress.mit.edu/9780262367509/introduction-to-algorithms/)
-- [Embedded Systems State Machines & Data Structures](https://www.udemy.com/course/embedded-systems-state-machines-data-structures-like-a-pro/)
+- [Udemy – Embedded Systems State Machines & Data Structures](https://www.udemy.com/course/embedded-systems-state-machines-data-structures-like-a-pro/)
 - [Data Structures in C](https://www.sanfoundry.com/c-programming-examples-data-structures/)
 - [Data Structures - Full Course Using C and C++](https://www.youtube.com/watch?v=B31LgI4Y4DQ)
 
@@ -203,6 +203,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### Assembly
 
+- [Udemy – ARM GNU Assembly Programming From Ground Up](https://www.udemy.com/course/arm-gnu-assembly-programming-from-ground-uptm/)
 - [Assembly Language Programming with ARM – Full Tutorial for Beginners](https://www.youtube.com/watch?v=gfmRrPjnEw4)
 
 #### Python
@@ -253,9 +254,9 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Make: AVR Programming - Elliot Williams](https://www.oreilly.com/library/view/make-avr-programming/9781449356484/)
 - [Mastering STM32 - Carmine Noviello](https://leanpub.com/mastering-stm32-2nd)
 - [Getting Started with STM32 and Nucleo](https://youtube.com/playlist?list=PLEBQazB0HUyRYuzfi4clXsKUSgorErmBv)
-- [Microcontroller Embedded C Programming: Absolute Beginners](https://www.udemy.com/course/microcontroller-embedded-c-programming/)
-- [Embedded Systems STM32 Low-Layer APIs(LL) Driver Development](https://www.udemy.com/course/embedded-systems-stm32-low-level-ll-driver-development/)
-- [Embedded Systems STM32 HAL APIs Driver Development](https://www.udemy.com/course/embedded-systems-stm32-hal-apis-driver-development/)
+- [Udemy – Microcontroller Embedded C Programming: Absolute Beginners](https://www.udemy.com/course/microcontroller-embedded-c-programming/)
+- [Udemy – Embedded Systems STM32 Low-Layer APIs(LL) Driver Development](https://www.udemy.com/course/embedded-systems-stm32-low-level-ll-driver-development/)
+- [Udemy – Embedded Systems STM32 HAL APIs Driver Development](https://www.udemy.com/course/embedded-systems-stm32-hal-apis-driver-development/)
 
 #### GPIO
 
@@ -304,7 +305,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 #### Bootloader
 
 - [How to Create a Super Simple Bootloader](https://www.youtube.com/watch?v=OkUQ3iMmiYQ&list=PLnMKNibPkDnEb1sphpdFJ3bR9dNy7S6mO)
-- [STM32Fx Microcontroller Custom Bootloader Development](https://www.udemy.com/course/stm32f4-arm-cortex-mx-custom-bootloader-development/)
+- [Udemy – STM32Fx Microcontroller Custom Bootloader Development](https://www.udemy.com/course/stm32f4-arm-cortex-mx-custom-bootloader-development/)
 
 #### Power Management
 
@@ -318,7 +319,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### Functional Safety
 
-- [Functional Safety According to ISO 26262 - Crash Course](https://www.udemy.com/course/iso-26262-crash-course/)
+- [Udemy – Functional Safety According to ISO 26262 - Crash Course](https://www.udemy.com/course/iso-26262-crash-course/)
 
 ### Interfaces & Protocols
 
@@ -414,13 +415,13 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 - [Introduction to Embedded Linux Part 2 - Yocto Project | Digi-Key Electronics](https://www.youtube.com/watch?v=2-PwskQrZac&t=7s)
 - [Yocto Project Tutorial Series (Basic to Advance)](https://www.youtube.com/playlist?list=PLwqS94HTEwpQmgL1UsSwNk_2tQdzq3eVJ)
-- [Embedded Linux using Yocto](https://www.udemy.com/course/embedded-linux-using-yocto/)
+- [Udemy – Embedded Linux using Yocto](https://www.udemy.com/course/embedded-linux-using-yocto/)
 
 ##### Qt
 
 - [Qt Documentation](https://doc.qt.io/)
 - [Introduction to Qt / QML](https://www.youtube.com/playlist?list=PL6CJYn40gN6hUXoYdyn4DHUTXfcVDJcfB)
-- [Multi-Threading and IPC with Qt 5 C++](https://www.udemy.com/course/multi-threading-and-ipc-with-qt-c-plus-plus/)
+- [Udemy – Multi-Threading and IPC with Qt 5 C++](https://www.udemy.com/course/multi-threading-and-ipc-with-qt-c-plus-plus/)
 
 #### Real-Time OS
 
@@ -469,7 +470,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [FIR Filter Design and Software Implementation - Phil's Lab #17](https://www.youtube.com/watch?v=uNNNj9AZisM)
 - [IIR Filters - Theory and Implementation (STM32) - Phil's Lab #32](https://www.youtube.com/watch?v=QRMe02kzVkA)
 - [Digital Signal Processing (ECSE-4530) Lectures, Fall 2014](https://youtube.com/playlist?list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et)
-- [Digital Signal Processing (DSP) From Ground Up in C](https://www.udemy.com/course/digital-signal-processing-dsp-from-ground-uptm-in-c/)
+- [Udemy – Digital Signal Processing (DSP) From Ground Up in C](https://www.udemy.com/course/digital-signal-processing-dsp-from-ground-uptm-in-c/)
 - [Real-Time Digital Signal Processing: Fundamentals, Implementations and Applications - Sen M. Kuo, Bob H. Lee, Wenshun Tian](https://www.wiley.com/en-us/Real+Time+Digital+Signal+Processing%3A+Fundamentals%2C+Implementations+and+Applications%2C+3rd+Edition-p-9781118414323)
 - [Real-Time Digital Signal Processing from MATLAB to C with the TMS320C6x DSPs - Thad B. Welch, Cameron H.G. Wright, Michael G. Morrow](https://www.routledge.com/Real-Time-Digital-Signal-Processing-from-MATLAB-to-C-with-the-TMS320C6x/Welch-Wright-Morrow/p/book/9780367736453)
 - [Digital Signal Processing - John G. Proakis, Dimitris K. Manolakis](https://a.co/d/75P5PiE)
@@ -495,7 +496,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 - [MATLAB Tutorials: Getting Started with MATLAB](https://youtube.com/playlist?list=PL7CAABC40B2825C8B)
 - [Getting Started with Simulink](https://youtube.com/playlist?list=PL484BA2AD3AE4C2D0)
-- [MATLAB/SIMULINK Bible|Go From Zero to Hero!](https://www.udemy.com/course/matlabsimulink-biblego-from-zero-to-hero/)
+- [Udemy – MATLAB/SIMULINK Bible|Go From Zero to Hero!](https://www.udemy.com/course/matlabsimulink-biblego-from-zero-to-hero/)
 
 ### Debugging
 
@@ -534,7 +535,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### AI/ML Basics
 
-- [Getting Started with Embedded AI | Edge AI](https://www.udemy.com/course/getting-started-with-embedded-ai-hands-on-experience/)
+- [Udemy – Getting Started with Embedded AI | Edge AI](https://www.udemy.com/course/getting-started-with-embedded-ai-hands-on-experience/)
 
 #### TensorFlow
 
