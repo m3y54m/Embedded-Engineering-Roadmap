@@ -182,6 +182,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 - [Understanding the C runtime memory model](https://www.youtube.com/watch?v=3F3lp_F2YpQ)
 - [Dynamic Memory Allocation | C Programming Tutorial](https://www.youtube.com/watch?v=R0qIYWo8igs)
+- [What is Memory Leak in C/C++? How can we avoid?](https://aticleworld.com/what-is-memory-leak-in-c-c-how-can-we-avoid/)
 
 ### Programming Languages 
 
