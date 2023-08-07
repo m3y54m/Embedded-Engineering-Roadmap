@@ -42,6 +42,7 @@ If you do not have any background in programming embedded systems, Arduino board
 - [Getting Started with Arduino](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino)
 - [New Arduino Tutorials](https://youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP)
 - [Arduino in a commercial product?](https://www.youtube.com/watch?v=c5LzsqeSCAc)
+- [Arduino Project to Product](https://www.youtube.com/playlist?list=PLEBQazB0HUyQd6Fsf5NQ75M9llbi1_j_8)
 
 #### 🐜 PlatformIO
 
@@ -132,6 +133,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### PCB Design
 
+- [Create PCBs for Rapid Prototyping](https://www.youtube.com/playlist?list=PLEBQazB0HUyRVK1RpHIjyjuTxn5srz6XM)
 - [How To Learn PCB Design (My Thoughts, Journey, and Resources) - Phil's Lab #87](https://youtu.be/aODkA2mrimQ)
 - [KiCad 6 STM32 PCB Design Full Tutorial - Phil's Lab #65](https://youtu.be/aVUqaB0IMh4)
 - [Intro to KiCad](https://www.youtube.com/watch?v=vaCVh2SAZY4&list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O)
