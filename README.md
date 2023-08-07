@@ -552,6 +552,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### Cryptography
 
+- [Understanding AES Encryption Mechanics: BMPS](https://youtu.be/OnhtzFJW_4I)
 - [Understanding Cryptography: A Textbook for Students and Practitioners -  Christof Paar, Jan Pelzl](https://link.springer.com/book/10.1007/978-3-642-04101-3)
 - [Cryptography and Network Security: Principles and Practice - William Stallings](https://www.pearson.com/en-us/subject-catalog/p/cryptography-and-network-security-principles-and-practice/P200000003477/9780135764213)
 - [Serious Cryptography: A Practical Introduction to Modern Encryption - Jean-Philippe Aumasson](https://nostarch.com/seriouscrypto)
@@ -560,6 +561,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### Secure Boot & Secure Firmware Update
 
+- [Blinky To Bootloader: Bare Metal Programming Series](https://www.youtube.com/playlist?list=PLP29wDx6QmW7HaCrRydOnxcy8QmW0SNdQ)
 - [MOOC - Security Part4 : STM32 security in practice](https://youtube.com/playlist?list=PLnMKNibPkDnF0wt-ZI74SflnsBV4yKzkO)
 - [MOOC - Security Part5 : How to define your security needs](https://youtube.com/playlist?list=PLnMKNibPkDnGqh5OmQWw98ztpf9TeczbC)
 - [MOOC - Security Part6: STM32 security ecosystem, from theory to practice](https://youtube.com/playlist?list=PLnMKNibPkDnGd7J7fV7tr-4xIBwkNfD--)
