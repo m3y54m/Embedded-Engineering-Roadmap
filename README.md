@@ -265,6 +265,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Make: AVR Programming - Elliot Williams](https://www.oreilly.com/library/view/make-avr-programming/9781449356484/)
 - [Mastering STM32 - Carmine Noviello](https://leanpub.com/mastering-stm32-2nd)
 - [Getting Started with STM32 and Nucleo](https://youtube.com/playlist?list=PLEBQazB0HUyRYuzfi4clXsKUSgorErmBv)
+- [Beginning STM32: Developing with FreeRTOS, libopencm3 and GCC - Warren Gay](https://link.springer.com/book/10.1007/978-1-4842-3624-6)
 - [Intro to Raspberry Pi Pico and RP2040](https://www.youtube.com/playlist?list=PLEBQazB0HUyQO6rJxKr2umPCgmfAU-cqR)
 - [Udemy – Microcontroller Embedded C Programming: Absolute Beginners](https://www.udemy.com/course/microcontroller-embedded-c-programming/)
 - [Udemy – Embedded Systems STM32 Low-Layer APIs(LL) Driver Development](https://www.udemy.com/course/embedded-systems-stm32-low-level-ll-driver-development/)
@@ -332,6 +333,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 #### Functional Safety
 
 - [Udemy – Functional Safety According to ISO 26262 - Crash Course](https://www.udemy.com/course/iso-26262-crash-course/)
+- [A Guide to MISRA C Coding Standards - MISRA C and MISRA C++](https://www.perforce.com/resources/qac/misra-c-cpp)
 
 ### Interfaces & Protocols
 
@@ -450,8 +452,10 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 - [FreeRTOS - Market leading RTOS](https://www.freertos.org)
 - [Introduction to RTOS](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz)
+- [Mastering the FreeRTOS Real Time Kernel - a Hands On Tutorial Guide](https://www.freertos.org/Documentation/RTOS_book.html)
 - [Getting Started With STM32 and Nucleo Part 3: FreeRTOS - How To Run Multiple Threads w/ CMSIS-RTOS](https://www.youtube.com/watch?v=CdpgqpuPSyQ)
 - [Hands-On RTOS with Microcontrollers: Building real-time embedded systems using FreeRTOS, STM32 MCUs, and SEGGER debug tools - Brian Amos](https://a.co/d/11MSPlo)
+- [Beginning STM32: Developing with FreeRTOS, libopencm3 and GCC - Warren Gay](https://link.springer.com/book/10.1007/978-1-4842-3624-6)
 
 ##### Zephyr
 
@@ -459,9 +463,18 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [nRF Connect SDK](https://academy.nordicsemi.com/courses/nrf-connect-sdk-fundamentals/)
 - [ESP32 on Zephyr OS](https://www.youtube.com/playlist?list=PLEQVp_6G_y4iFfemAbFsKw6tsGABarTwp)
 
+##### μC/OS / Micriμm OS
+
+- [Micriμm OS](https://www.silabs.com/developers/micrium)
+- [Cesium RTOS](https://weston-embedded.com/micrium/overview)
+- [µC/OS-III Documentation](https://micrium.atlassian.net/wiki/spaces/osiiidoc/overview)
+- [µC/OS-III Books](https://weston-embedded.com/micrium-books)
+- [µC/OS-II Documentation](https://micrium.atlassian.net/wiki/spaces/osiidoc/overview)
+- [Microc/Os-II: The Real-Time Kernel - Jean-J Labrosse](https://file.elecfans.com/web1/M00/7F/DD/pIYBAFwnEZGAcwiCAEGrbQfCqmc945.pdf)
+
 ##### NuttX
 
-- [NuttX - The Apache Software Foundation!](https://nuttx.apache.org/)
+- [NuttX - The Apache Software Foundation](https://nuttx.apache.org/)
 - [Getting Started to NuttX](https://www.youtube.com/playlist?list=PLd73yQk5Fd8JEsVD-lhwYRQKVu6glfDa8)
 
 ##### RT-Thread
