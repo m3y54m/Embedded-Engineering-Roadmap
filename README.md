@@ -470,8 +470,6 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [µC/OS-III Documentation](https://micrium.atlassian.net/wiki/spaces/osiiidoc/overview)
 - [µC/OS-III Books](https://weston-embedded.com/micrium-books)
 - [µC/OS-II Documentation](https://micrium.atlassian.net/wiki/spaces/osiidoc/overview)
-- [Microc/Os-II: The Real-Time Kernel - Jean-J Labrosse](https://file.elecfans.com/web1/M00/7F/DD/pIYBAFwnEZGAcwiCAEGrbQfCqmc945.pdf)
-- [Cesium RTOS](https://weston-embedded.com/micrium/overview)
 
 ##### NuttX
 
