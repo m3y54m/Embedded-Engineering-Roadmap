@@ -445,6 +445,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### Real-Time OS
 
+- [Real-Time Systems Concepts](https://micrium.atlassian.net/wiki/spaces/osiidoc/pages/163855/Real-Time+Systems+Concepts)
 - [RTOS](https://www.youtube.com/playlist?list=PLPW8O6W-1chyrd_Msnn4LD6LBs2slJITs)
 - [Beyond the RTOS](https://www.youtube.com/playlist?list=PLPW8O6W-1chytjkg63-tM7MI0BvGxxPIP)
 
