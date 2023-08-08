@@ -550,11 +550,10 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 ### Embedded AI
 
-- [Intro to Edge AI: Machine Learning + IoT – Maker.io Tutorial | Digi-Key Electronics](https://www.youtube.com/watch?v=Ejld8XZmvwE)
-
 #### AI/ML Basics
 
 - [Udemy – Getting Started with Embedded AI | Edge AI](https://www.udemy.com/course/getting-started-with-embedded-ai-hands-on-experience/)
+- [Intro to Edge AI: Machine Learning + IoT – Maker.io Tutorial | Digi-Key Electronics](https://www.youtube.com/watch?v=Ejld8XZmvwE)
 
 #### TensorFlow
 
