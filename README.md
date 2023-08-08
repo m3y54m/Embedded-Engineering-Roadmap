@@ -161,6 +161,15 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Udemy – FPGA Embedded Design, Part 3 - EDA Tools](https://www.udemy.com/course/fpga-embedded-design-eda-tools/)
 - [Udemy – FPGA Embedded Design, Part 4 - Microprocessor Design](https://www.udemy.com/course/fpga-embedded-design-cpu/)
 
+### Software Development Life Cycle (SDLC) Models
+
+- [What is the software development life cycle?](https://www.coderus.com/the-software-development-lifecycle/)
+- [Embedded Product Development Life Cycle: Four Main Steps](https://www.sam-solutions.com/blog/embedded-product-development-life-cycle/)
+- [Does agile work with embedded software?](https://www.embedded.com/does-agile-work-with-embedded-software/)
+- [Scrum for embedded software: Good – but for reasons other than what your manager thinks](https://www.elektrobit.com/trends/scrum-for-embedded-software/)
+- [What Is Scrum: A Guide to the Most Popular Agile Framework](https://www.scrumalliance.org/about-scrum)
+- [What Is the V-Model in Software Development?](https://builtin.com/software-engineering-perspectives/v-model)
+
 ### Programming Fundamentals
 
 #### Algorithms & Data Structures
@@ -181,7 +190,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Event-Driven Programming](https://www.youtube.com/playlist?list=PLPW8O6W-1chx8Y7Oq2gOE0NUPXmQxu2Wr)
 - [Embedded System Design using UML State Machines](https://www.udemy.com/course/embedded-system-design-using-uml-state-machines/)
 
-#### Memory Allocation
+#### Memory Management
 
 - [Understanding the C runtime memory model](https://www.youtube.com/watch?v=3F3lp_F2YpQ)
 - [Dynamic Memory Allocation | C Programming Tutorial](https://www.youtube.com/watch?v=R0qIYWo8igs)
@@ -202,7 +211,6 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 - [C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
 - [C++ YouTube Playlist by The Cherno](https://youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
-- [C++ Concurrency in Action - Anthony Williams ](https://www.manning.com/books/c-plus-plus-concurrency-in-action)
 
 #### Assembly
 
@@ -232,7 +240,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 - [How to CMake Good](https://youtube.com/playlist?list=PLK6MXr8gasrGmIiSuVQXpfFuE1uPT615s)
 
-#### Bash Script
+#### Bash Scripting
 
 - [Bash scripting cheatsheet](https://devhints.io/bash)
 - [Bash Scripting Tutorial for Beginners](https://www.youtube.com/watch?v=tK9Oc6AEnR4)
@@ -395,6 +403,10 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 #### Operating System Fundamentals
 
 - [Operating Systems: Three Easy Pieces -  Remzi H Arpaci-Dusseau, Andrea C Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+
+#### Multitasking and Parallel Processing
+
+- [C++ Concurrency in Action - Anthony Williams](https://www.manning.com/books/c-plus-plus-concurrency-in-action)
 
 #### Embedded Linux
 
