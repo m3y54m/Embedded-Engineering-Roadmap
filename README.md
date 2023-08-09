@@ -514,6 +514,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Getting Started With STM32 and Nucleo Part 3: FreeRTOS - How To Run Multiple Threads w/ CMSIS-RTOS](https://www.youtube.com/watch?v=CdpgqpuPSyQ)
 - [Hands-On RTOS with Microcontrollers: Building real-time embedded systems using FreeRTOS, STM32 MCUs, and SEGGER debug tools - Brian Amos](https://a.co/d/11MSPlo)
 - [Beginning STM32: Developing with FreeRTOS, libopencm3 and GCC - Warren Gay](https://link.springer.com/book/10.1007/978-1-4842-3624-6)
+- [SAFE**RTOS** - Safety Critical Real-Time OS](https://www.freertos.org/FreeRTOS-Plus/Safety_Critical_Certified/SafeRTOS.html)
 
 ##### Zephyr
 
