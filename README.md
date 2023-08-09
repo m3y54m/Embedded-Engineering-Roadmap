@@ -118,6 +118,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [What’s an OSCILLOSCOPE?](https://youtu.be/DgYGRtkd9Vs)
 - [How to Use an Oscilloscope](https://youtu.be/u4zyptPLlJI)
 - [How to use an oscilloscope / What is an oscilloscope / Oscilloscope tutorial](https://youtu.be/CzY2abWCVTY)
+- [Understanding EMI Debugging with Oscilloscopes](https://www.youtube.com/watch?v=x1rn5YNLmVw)
 
 ### Prototyping Skills
 
@@ -155,6 +156,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 ### FPGA Design
 
+- [FPGA vs. Microcontroller: How to choose the right one for your project](https://www.youtube.com/watch?v=jblpHUCPQYs)
 - [Introduction to FPGA](https://youtube.com/playlist?list=PLEBQazB0HUyT1WmMONxRZn9NmQ_9CIKhb)
 - [FPGA Fundamentals](https://nandland.com/fpga-101/)
 - [Udemy – FPGA Embedded Design, Part 1 - Verilog](https://www.udemy.com/course/fpga-embedded-design-verilog/)
@@ -341,6 +343,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### Common
 
+- [Understanding Serial Protocols](https://www.youtube.com/watch?v=LEz5UCN3aHA)
 - [PROTOCOLS: UART - I2C - SPI - Serial communications #001](https://www.youtube.com/watch?v=IyGwvGzrqp8)
 
 ##### UART
@@ -352,10 +355,12 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 ##### I2C
 
+- [Understanding I2C](https://www.youtube.com/watch?v=CAvawEcxoPU)
 - [STM32 I2C SLAVE](https://www.youtube.com/playlist?list=PLfIJKC1ud8gj_P7Qb28aTr0t92uk_vwg0)
 
 ##### SPI
 
+- [Understanding SPI](https://www.youtube.com/watch?v=0nVNwozXsIc)
 - [Getting Started with STM32 and Nucleo Part 5: How to Use SPI | Digi-Key Electronics](https://www.youtube.com/watch?v=eFKeNPJq50g)
 
 #### Wireless
