@@ -409,6 +409,10 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### Multitasking and Parallel Processing
 
+- [Multitasking vs Multithreading vs Multiprocessing](https://medium.com/codex/multitasking-vs-multithreading-vs-multiprocessing-2b0087c861ae)
+- [Programming with POSIX Threads - David Butenhof](https://a.co/d/9R6DswF)
+- [Parallel Programming and Performance Optimization With OpenMP](https://passlab.github.io/OpenMPProgrammingBook/index.html)
+- [Introduction to OpenMP - Tim Mattson (Intel)](https://youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG)
 - [C++ Concurrency in Action - Anthony Williams](https://www.manning.com/books/c-plus-plus-concurrency-in-action)
 
 #### Embedded Linux
