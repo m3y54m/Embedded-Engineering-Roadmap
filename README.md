@@ -4,6 +4,12 @@ This roadmap is designed to assist beginners aspiring to build a career as an Em
 
 Becoming an embedded engineer requires a broad understanding of both software and hardware. If you are starting on this journey, you must be highly motivated and passionate to pursue this path. The field of embedded systems demands a solid understanding of hardware functionality. But, as the well-known saying goes, "Hardware is hard!". So, patience and passion are the essential qualities that will help you overcome the various challenges encountered along this journey.
 
+## What is an Embedded System?
+
+An [***embedded system***](https://www.analog.com/en/design-center/glossary/embedded-system.html) is a system in which the **computer** (generally a microcontroller or microprocessor) is included as an integral part of the system.
+
+Often, the computer is relatively **invisible to the user**, without obvious applications, files, or operating systems. Examples of products with invisible embedded systems are the controller that runs a microwave oven or the engine control system of a modern automobile.
+
 ## Roadmap
 
 ![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)
