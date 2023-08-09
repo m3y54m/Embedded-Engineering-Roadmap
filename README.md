@@ -88,6 +88,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### Electronic Components
 
+- [Here’s a Quick Way to Know about Major Electronic Components](https://www.elprocus.com/major-electronic-components/)
 - [Encyclopedia of Electronic Components - Charles Platt](https://a.co/d/83cSiU7)
 
 #### Digital Circuits & Logic Design
