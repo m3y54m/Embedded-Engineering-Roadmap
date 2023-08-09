@@ -396,7 +396,6 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [How the Ethernet Protocol Works – A Complete Guide](https://www.freecodecamp.org/news/the-complete-guide-to-the-ethernet-protocol/)
 - [What is an Ethernet PHY?](https://www.youtube.com/watch?v=JH3cMYErmKI)
 - [The Data Link Layer, MAC Addressing, and the Ethernet Frame](https://youtu.be/_b4dXKB8Pt8)
-- 
 
 ##### USB
 
