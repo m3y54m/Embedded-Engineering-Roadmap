@@ -385,7 +385,25 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### Industrial
 
+- [What is Modbus and How does it Work?](https://www.youtube.com/watch?v=txi2p5_OjKU)
+- [How does Modbus Communication Protocol Work?](https://www.youtube.com/watch?v=JBGaInI-TG4)
+- [MODBUS STM32](https://www.youtube.com/playlist?list=PLfIJKC1ud8ggRvaEsMjSEDazoBAnY4MUv)
+
 #### High-Speed
+
+##### Ethernet
+
+- [How the Ethernet Protocol Works – A Complete Guide](https://www.freecodecamp.org/news/the-complete-guide-to-the-ethernet-protocol/)
+- [What is an Ethernet PHY?](https://www.youtube.com/watch?v=JH3cMYErmKI)
+- [The Data Link Layer, MAC Addressing, and the Ethernet Frame](https://youtu.be/_b4dXKB8Pt8)
+- 
+
+##### USB
+
+- [Training - USB 101 - Introduction to USB](https://www.youtube.com/watch?v=5S6ZPmtPzRA)
+- [How does a USB keyboard work?](https://youtu.be/wdgULBpRoXk)
+- [How does USB device discovery work?](https://www.youtube.com/watch?v=N0O5Uwc3C0o)
+- [MOOC - STM32 USB training](https://www.youtube.com/playlist?list=PLnMKNibPkDnFFRBVD206EfnnHhQZI4Hxa)
 
 #### Automotive
 
@@ -396,6 +414,9 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### Network
 
+- [TCP vs UDP - Explaining Facts and Debunking Myths - TCP Masterclass](https://www.youtube.com/watch?v=jE_FcgpQ7Co)
+- [UDP doesn't suck! It's the BEST L4 protocol for THESE types of applications...](https://www.youtube.com/watch?v=LaDRWycC7Iw)
+- [Networking tutorial](https://www.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW)
 - [Hands-On Network Programming with C - Lewis Van Winkle](https://www.amazon.com/exec/obidos/ASIN/1789349869/aoeu-20)
 
 #### Cellular
@@ -404,15 +425,27 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 ### Memories
 
+- [Memory Options for Embedded Systems: How to Select the Right Memory Configuration](https://www.qt.io/embedded-development-talk/memory-options-for-embedded-systems-how-to-select-the-right-memory-configuration)
+
 #### NOR / NAND Flash
 
+- [QSPI in STM32 || Write and Read || N25Q](https://www.youtube.com/watch?v=xIfh_uYy-OU)
+- [QSPI in STM32 || Boot from EXT Memory || XIP || N25Q](https://www.youtube.com/watch?v=gAyuF20ok8c)
+- [Flash Memory in Embedded Linux Systems](https://www.youtube.com/watch?v=hdwMvwJIV-Y)
+
 #### eMMC
+
+- [What is a eMMC? Intro, Comparing to Other Storage, and Upgrading. SSD, M.2](https://www.youtube.com/watch?v=vGatKmqYxEA)
 
 #### EEPROM
 
 - [Using EEPROM with Arduino - Internal & External](https://www.youtube.com/watch?v=ShqvATqXA7g)
 
 #### SRAM / DRAM
+
+- [SRAM vs DRAM: Difference Between SRAM & DRAM Explained](https://www.enterprisestorageforum.com/hardware/sram-vs-dram/)
+- [What is SRAM?](https://www.youtube.com/watch?v=kU2SsUUsftA)
+- [SDRAM Hardware & Firmware Tutorial (STM32) - Phil's Lab #80](https://www.youtube.com/watch?v=h28D4AaPSjg)
 
 ### Sensors & Actuators
 
