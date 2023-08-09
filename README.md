@@ -22,7 +22,7 @@ Often, the computer is relatively **invisible to the user**, without obvious app
 
 - [Searching is Your Super Power!](https://www.google.com)
 
-#### 🎥 Courses and Youtube Channels
+#### 🎥 Courses and YouTube Contents
 
 - [Fastbit Embedded Brain Academy](https://fastbitlab.com/)
 - [Quantum Leaps, LLC (YouTube Channel)](https://www.youtube.com/@StateMachineCOM)
@@ -30,7 +30,8 @@ Often, the computer is relatively **invisible to the user**, without obvious app
 - [element14 presents (YouTube Channel)](https://www.youtube.com/@element14presents)
 - [Ben Eater (YouTube Channel)](https://www.youtube.com/@BenEater)
 - [Phil’s Lab (YouTube Channel)](https://www.youtube.com/@PhilsLab)
-- [Electronic Basics - GreatScott! (YouTube Channel)](https://youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
+- [Electronic Basics - GreatScott! (YouTube Playlist)](https://youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
+- [Embedded Systems - Jacob Sorber (YouTube Playlist)](https://www.youtube.com/playlist?list=PL9IEJIKnBJjEcPAz6fss-Hx0TLytCOMVC)
 
 #### 📚 Books
 
@@ -40,7 +41,7 @@ Often, the computer is relatively **invisible to the user**, without obvious app
 #### 🤡 Simulation
 
 - [Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
-- [QEMU](https://www.qemu.org/)
+- [QEMU - open-source freeware for emulating hardware and devices](https://www.qemu.org/)
 
 #### 🕹️ Arduino
 
@@ -70,6 +71,11 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 - [STM32 Firmware](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
 - [Udemy – STM32 : Internet Of Things with 4G LTE Modem - Hardware](https://www.udemy.com/course/stm32-internet-of-things-with-4g-lte-modem-hardware/)
+
+#### 😈 Hardware Hacking
+
+- [Hardware Hacking Tutorial](https://www.youtube.com/playlist?list=PLoFdAHrZtKkhcd9k8ZcR4th8Q8PNOx7iU)
+- [The Hardware Hacking Handbook: Breaking Embedded Security with Hardware Attacks - Jasper van Woudenberg, Colin O'Flynn](https://a.co/d/gUIytFX)
 
 > **Note:** It is not necessary to read or watch all of the following materials,
 > but it is important to study enough to have at least a basic understanding of each topic.
