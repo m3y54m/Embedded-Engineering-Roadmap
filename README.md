@@ -244,6 +244,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 #### Rust
 
 - [The Embedded Rust Book](https://docs.rust-embedded.org/book/)
+- [The Future of Programming: Rust](https://www.youtube.com/playlist?list=PLc7W4b0WHTAUAEAguiqpNa5H0QqXJIJI6)
 - [Community Rust support projects for STM32 microcontrollers](https://github.com/stm32-rs)
 - [Rust on ESP Community](https://github.com/esp-rs)
 
