@@ -24,6 +24,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
 - [element14 presents (YouTube Channel)](https://www.youtube.com/@element14presents)
 - [Ben Eater (YouTube Channel)](https://www.youtube.com/@BenEater)
 - [Phil’s Lab (YouTube Channel)](https://www.youtube.com/@PhilsLab)
+- [Electronic Basics - GreatScott! (YouTube Channel)](https://youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
 
 #### 📚 Books
 
