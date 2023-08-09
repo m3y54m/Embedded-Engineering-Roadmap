@@ -474,6 +474,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 ##### Linux Kernel
 
+- [Practical System Programming with C: Pragmatic Example Applications in Linux and Unix-Based Operating Systems - Sri Manikanta Palakollu](https://link.springer.com/book/10.1007/978-1-4842-6321-1)
 - [The Linux Programming Interface - Michael Kerrisk](https://man7.org/tlpi/)
 
 ##### Linux Device Drivers
