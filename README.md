@@ -61,6 +61,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 #### 👨‍🏫 Educational Websites
 
 - [DeepBlueMbedded](https://deepbluembedded.com/)
+- [Interrupt Blog by Memfault](https://interrupt.memfault.com/blog/)
 - [Microchip University](https://mu.microchip.com/)
 - [SparkFun Learn: Learn at SparkFun Electronics](https://learn.sparkfun.com/)
 - [Adafruit Learning System](https://learn.adafruit.com/)
