@@ -45,7 +45,7 @@ Often, the computer is relatively **invisible to the user**, without obvious app
 
 #### 🕹️ Arduino
 
-If you do not have any background in programming embedded systems, Arduino boards and libraries are the best choice for you to start and learn the basics. Just keep in mind that most of the Arduino libraries are developed only for learning purposes and are not are not optimized to be used in industry. If you want to become a professional embedded developer, you should have the ability to utilize industry-compliant APIs and frameworks provided and qualified by microcontroller vendors such as STM32Cube for STM32 microcontrollers or ESP-IDF for Espressif microcontrollers.
+If you do not have any background in programming embedded systems, Arduino boards and libraries are the best choice for you to start and learn the basics. Just keep in mind that most of the Arduino libraries are developed only for learning purposes and are not are not optimized to be used in industry. Additionally, the Arduino takes care of most of the low-level operations and manipulation of registers that you, as an embedded engineer, should be able to handle yourself. If you want to become a professional embedded developer, you must be able to effectively use industry-standard APIs and frameworks provided and approved by microcontroller vendors. For example, CMSIS for ARM Cortex, STM32Cube for STM32, ESP-IDF for Espressif microcontrollers, etc.
 
 - [Getting Started with Arduino](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino)
 - [New Arduino Tutorials](https://youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP)
