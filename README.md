@@ -70,6 +70,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 #### 🗺️ Other Useful Roadmaps
 
 - [Embedded Systems Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/Embedded%20Systems%20Skill%20Tree)
+- [PCB Design Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/PCB%20Design%20Skill%20Tree)
 
 #### ⚒️ Projects
 
