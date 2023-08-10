@@ -451,6 +451,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [SRAM vs DRAM: Difference Between SRAM & DRAM Explained](https://www.enterprisestorageforum.com/hardware/sram-vs-dram/)
 - [What is SRAM?](https://www.youtube.com/watch?v=kU2SsUUsftA)
 - [SDRAM Hardware & Firmware Tutorial (STM32) - Phil's Lab #80](https://www.youtube.com/watch?v=h28D4AaPSjg)
+- [SDRAM in STM32 || MT48LC4](https://www.youtube.com/watch?v=QnDenqvzwyE)
 
 ### Sensors & Actuators
 
