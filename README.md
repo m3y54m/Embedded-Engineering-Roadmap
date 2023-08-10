@@ -289,6 +289,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Make: AVR Programming - Elliot Williams](https://www.oreilly.com/library/view/make-avr-programming/9781449356484/)
 - [Mastering STM32 - Carmine Noviello](https://leanpub.com/mastering-stm32-2nd)
 - [Getting Started with STM32 and Nucleo](https://youtube.com/playlist?list=PLEBQazB0HUyRYuzfi4clXsKUSgorErmBv)
+- [Bare Metal Embedded Programming: Theory and Practice Using STM32](https://www.youtube.com/playlist?list=PL4cGeWgaBTe155QQSQ72DksLIjBn5Jn2Z)
 - [Beginning STM32: Developing with FreeRTOS, libopencm3 and GCC - Warren Gay](https://link.springer.com/book/10.1007/978-1-4842-3624-6)
 - [Intro to Raspberry Pi Pico and RP2040](https://www.youtube.com/playlist?list=PLEBQazB0HUyQO6rJxKr2umPCgmfAU-cqR)
 - [Udemy – Microcontroller Embedded C Programming: Absolute Beginners](https://www.udemy.com/course/microcontroller-embedded-c-programming/)
