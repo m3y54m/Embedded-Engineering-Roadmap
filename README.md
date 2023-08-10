@@ -67,6 +67,10 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Random Nerd Tutorials | Learn ESP32, ESP8266, Arduino, and Raspberry Pi](https://randomnerdtutorials.com/)
 - [ControllersTech](https://controllerstech.com/)
 
+#### 🗺️ Other Useful Roadmaps
+
+- [Embedded Systems Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/Embedded%20Systems%20Skill%20Tree)
+
 #### ⚒️ Projects
 
 - [STM32 Firmware](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
