@@ -729,6 +729,10 @@ _________________
 
 #### Cryptography
 
+- [Hashing, Hashing Algorithms, and Collisions - Cryptography - Practical TLS](https://youtu.be/HHQ2QP_upGM)
+- [Data Integrity - How Hashing is used to ensure data isn't modified - HMAC - Cryptography](https://www.youtube.com/watch?v=doN3lzzNEIM)
+- [Encryption - Symmetric Encryption vs Asymmetric Encryption - Cryptography - Practical TLS](https://www.youtube.com/watch?v=o_g-M7UBqI8)
+- [Public and Private Keys - Signatures & Key Exchanges - Cryptography - Practical TLS](https://youtu.be/_zyKvPvh808)
 - [Understanding AES Encryption Mechanics: BMPS](https://youtu.be/OnhtzFJW_4I)
 - [Understanding Cryptography: A Textbook for Students and Practitioners -  Christof Paar, Jan Pelzl](https://link.springer.com/book/10.1007/978-3-642-04101-3)
 - [Cryptography and Network Security: Principles and Practice - William Stallings](https://www.pearson.com/en-us/subject-catalog/p/cryptography-and-network-security-principles-and-practice/P200000003477/9780135764213)
