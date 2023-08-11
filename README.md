@@ -467,6 +467,7 @@ _________________
 
 #### Network
 
+- [Networking Fundamentals](https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
 - [TCP vs UDP - Explaining Facts and Debunking Myths - TCP Masterclass](https://www.youtube.com/watch?v=jE_FcgpQ7Co)
 - [TCP - 12 simple ideas to explain the Transmission Control Protocol](https://www.youtube.com/watch?v=JFch3ctY6nE)
 - [UDP doesn't suck! It's the BEST L4 protocol for THESE types of applications...](https://www.youtube.com/watch?v=LaDRWycC7Iw)
