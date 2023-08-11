@@ -742,6 +742,9 @@ _________________
 - [MOOC - Security Part4 : STM32 security in practice](https://youtube.com/playlist?list=PLnMKNibPkDnF0wt-ZI74SflnsBV4yKzkO)
 - [MOOC - Security Part5 : How to define your security needs](https://youtube.com/playlist?list=PLnMKNibPkDnGqh5OmQWw98ztpf9TeczbC)
 - [MOOC - Security Part6: STM32 security ecosystem, from theory to practice](https://youtube.com/playlist?list=PLnMKNibPkDnGd7J7fV7tr-4xIBwkNfD--)
+- [TPM (Trusted Platform Module) - Computerphile](https://www.youtube.com/watch?v=RW2zHvVO09g)
+- [Securing Embedded Linux Systems with TPM 2.0 - Philip Tricca, Intel](https://www.youtube.com/watch?v=0qu9R7Tlw9o)
+- [TPM: Basic applications to embedded devices](https://witekio.com/blog/tpm-basic-applications-to-embedded-devices/)
 
 ## History
 
