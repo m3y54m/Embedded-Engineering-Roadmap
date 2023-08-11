@@ -643,10 +643,14 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### Unit Testing
 
+- [Unit Testing for C (especially Embedded Software)](http://www.throwtheswitch.org/unity)
 - [Embedded C/C++ Unit Testing with Mocks](https://interrupt.memfault.com/blog/unit-test-mocking)
 - [Unit Testing Principles, Practices, and Patterns - Vladimir Khorikov](https://www.manning.com/books/unit-testing)
 
 #### Integration Testing
+
+- [Hardware CI Arena](https://electricui.com/blog/hardware-testing)
+- [https://www.bunniestudios.com/blog/?p=5450](https://www.bunniestudios.com/blog/?p=5450)
 
 #### SIL / HIL Testing
 
