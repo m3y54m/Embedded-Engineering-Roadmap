@@ -401,6 +401,7 @@ _________________
 - [how does UART work??? (explained clearly)](https://www.youtube.com/watch?v=V6m2skVlsQI)
 - [Basics of UART Communication | UART Frame Structure | RS 232 Basics | Part1](https://www.youtube.com/watch?v=JuvWbRhhpdI)
 - [Understanding UART Communication Programming | UART Peripherals | Part 2](https://www.youtube.com/watch?v=QmjKRwgddxw)
+- [The RS-232 protocol](https://www.youtube.com/watch?v=AHYNxpqKqwo)
 
 ##### I2C
 
@@ -434,6 +435,11 @@ _________________
 - [What is Modbus and How does it Work?](https://www.youtube.com/watch?v=txi2p5_OjKU)
 - [How does Modbus Communication Protocol Work?](https://www.youtube.com/watch?v=JBGaInI-TG4)
 - [MODBUS STM32](https://www.youtube.com/playlist?list=PLfIJKC1ud8ggRvaEsMjSEDazoBAnY4MUv)
+
+##### RS485
+
+- [What is RS485 and How it's used in Industrial Control Systems?](https://www.youtube.com/watch?v=3wgKcUDlHuM)
+- [What is RS-485?](https://www.youtube.com/watch?v=bt9Px51eP6s)
 
 ##### CoAP & MQTT
 
