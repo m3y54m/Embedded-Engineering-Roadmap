@@ -384,6 +384,14 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Understanding SPI](https://www.youtube.com/watch?v=0nVNwozXsIc)
 - [Getting Started with STM32 and Nucleo Part 5: How to Use SPI | Digi-Key Electronics](https://www.youtube.com/watch?v=eFKeNPJq50g)
 
+##### 1-Wire
+
+- [1-Wire® Technology Overview](https://www.youtube.com/watch?v=CjH-OztKe00)
+
+#### I2S
+
+- [Building a Digital Music Player with I2S?! What is I2S! EB#45](https://www.youtube.com/watch?v=qNLvoSQCx60)
+
 #### Wireless
 
 - [Bluetooth Low Energy Fundamentals - Nordic Semiconductor](https://academy.nordicsemi.com/courses/bluetooth-low-energy-fundamentals/)
@@ -392,9 +400,17 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### Industrial
 
+##### Modbus
+
 - [What is Modbus and How does it Work?](https://www.youtube.com/watch?v=txi2p5_OjKU)
 - [How does Modbus Communication Protocol Work?](https://www.youtube.com/watch?v=JBGaInI-TG4)
 - [MODBUS STM32](https://www.youtube.com/playlist?list=PLfIJKC1ud8ggRvaEsMjSEDazoBAnY4MUv)
+
+##### CoAP & MQTT
+
+- [#144 Internet Protocols: CoAP vs MQTT, Network Sniffing, and preparation for IKEA Tradfri Hacking](https://www.youtube.com/watch?v=pfG8uEDZj5g)
+- [MQTT vs. CoAP | Comparison of IoT Protocols](https://www.youtube.com/watch?v=0CORpVSUQe0)
+- [Simple ESP32 IoT Sensor Node Tutorial: WiFi Enabled MQTT Sensor Data Node](https://www.youtube.com/watch?v=x5A5S0hoyJ0)
 
 #### High-Speed
 
@@ -413,6 +429,8 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 #### Automotive
 
+##### CAN
+
 - [CAN Bus: Serial Communication - How It Works?](https://www.youtube.com/watch?v=JZSCzRT9TTo&t=21s)
 - [CAN Bus: A Beginners Guide Part 1](https://www.youtube.com/watch?v=YBrU_eZM110)
 - [CAN Bus: A Beginners Guide Part 2](https://www.youtube.com/watch?v=z5CVljiLhvc)
@@ -427,6 +445,12 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Hands-On Network Programming with C - Lewis Van Winkle](https://www.amazon.com/exec/obidos/ASIN/1789349869/aoeu-20)
 
 #### Cellular
+
+##### GSM / LTE
+
+- [STM32 : Internet Of Things With 4G LTE Modem](https://www.youtube.com/playlist?list=PL2_RO8p04imYY5JOrCDT7V0hnzkgyExRe)
+
+##### LTE-M & NB-IoT
 
 - [Cellular IoT Fundamentals - Nordic Semiconductor](https://academy.nordicsemi.com/courses/cellular-iot-fundamentals/)
 
