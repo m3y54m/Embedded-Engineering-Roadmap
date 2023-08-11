@@ -90,7 +90,7 @@ but it is important to study enough to have at least a basic understanding of ea
 Of course, the more you study and practice, the deeper and wider your knowledge will become.
 This will ultimately improve your skills as an engineer.
 
-Some the resources mentioned here will only be used as references. Refer to them only when you need them.
+Some of the resources mentioned here will only be used as references. Refer to them only when you need them.
 _________________
 
 ### Soft Skills
