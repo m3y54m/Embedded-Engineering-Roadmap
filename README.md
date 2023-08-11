@@ -83,12 +83,22 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Hardware Hacking Tutorial](https://www.youtube.com/playlist?list=PLoFdAHrZtKkhcd9k8ZcR4th8Q8PNOx7iU)
 - [The Hardware Hacking Handbook: Breaking Embedded Security with Hardware Attacks - Jasper van Woudenberg, Colin O'Flynn](https://a.co/d/gUIytFX)
 
-> **Note:** It is not necessary to read or watch all of the following materials,
-> but it is important to study enough to have at least a basic understanding of each topic.
-> Of course, the more you study and practice, the deeper and wider your knowledge will become.
-> This will ultimately improve your skills as an engineer.
-> 
-> Some the resources mentioned here will only be used as references. Refer to them only when you need them.
+_________________
+
+**Note:** It is not necessary to read or watch all of the following materials,
+but it is important to study enough to have at least a basic understanding of each topic.
+Of course, the more you study and practice, the deeper and wider your knowledge will become.
+This will ultimately improve your skills as an engineer.
+
+Some the resources mentioned here will only be used as references. Refer to them only when you need them.
+_________________
+
+### Soft Skills
+
+- [Soft Skills For Embedded Systems Software Developers](https://www.embeddedrelated.com/showarticle/1470.php)
+- [10 Skills Every Embedded Engineer Should Have](https://medium.com/@lanceharvieruntime/10-skills-every-embedded-engineer-should-have-dcb867095b91)
+
+_________________
 
 ### Electronics Fundamentals
 
@@ -121,6 +131,8 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Digital Design and Computer Architecture: ARM Edition -  Sarah Harris, David Harris](https://a.co/d/4otoVvI)
 - [Embedded Systems Architecture - Tammy Noergaard](https://www.oreilly.com/library/view/embedded-systems-architecture/9780123821966/)
 
+_________________
+
 ### Using Test Equipment
 
 #### Multimeter
@@ -138,6 +150,8 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [How to Use an Oscilloscope](https://youtu.be/u4zyptPLlJI)
 - [How to use an oscilloscope / What is an oscilloscope / Oscilloscope tutorial](https://youtu.be/CzY2abWCVTY)
 - [Understanding EMI Debugging with Oscilloscopes](https://www.youtube.com/watch?v=x1rn5YNLmVw)
+
+_________________
 
 ### Prototyping Skills
 
@@ -173,6 +187,8 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [How to Solder QFN MLF Package by Hand (Using a Hot Air Rework Station) | Digi-Key Electronics](https://youtu.be/X3Rc1s6EpSI)
 - [From Solderless Breadboard to Soldered Circuit - Electronics with Becky Stern | Digi-Key Electronics](https://www.youtube.com/watch?v=F9Krq7seV1g)
 
+_________________
+
 ### FPGA Design
 
 - [FPGA vs. Microcontroller: How to choose the right one for your project](https://www.youtube.com/watch?v=jblpHUCPQYs)
@@ -183,6 +199,8 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Udemy – FPGA Embedded Design, Part 3 - EDA Tools](https://www.udemy.com/course/fpga-embedded-design-eda-tools/)
 - [Udemy – FPGA Embedded Design, Part 4 - Microprocessor Design](https://www.udemy.com/course/fpga-embedded-design-cpu/)
 
+_________________
+
 ### Software Development Life Cycle (SDLC) Models
 
 - [What is the software development life cycle?](https://www.coderus.com/the-software-development-lifecycle/)
@@ -191,6 +209,8 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Scrum for embedded software: Good – but for reasons other than what your manager thinks](https://www.elektrobit.com/trends/scrum-for-embedded-software/)
 - [What Is Scrum: A Guide to the Most Popular Agile Framework](https://www.scrumalliance.org/about-scrum)
 - [What Is the V-Model in Software Development?](https://builtin.com/software-engineering-perspectives/v-model)
+
+_________________
 
 ### Programming Fundamentals
 
@@ -218,6 +238,8 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Understanding the C runtime memory model](https://www.youtube.com/watch?v=3F3lp_F2YpQ)
 - [Dynamic Memory Allocation | C Programming Tutorial](https://www.youtube.com/watch?v=R0qIYWo8igs)
 - [What is Memory Leak in C/C++? How can we avoid?](https://aticleworld.com/what-is-memory-leak-in-c-c-how-can-we-avoid/)
+
+_________________
 
 ### Programming Languages 
 
@@ -254,6 +276,8 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Community Rust support projects for STM32 microcontrollers](https://github.com/stm32-rs)
 - [Rust on ESP Community](https://github.com/esp-rs)
 
+_________________
+
 ### Build System
 
 #### GCC & Make
@@ -272,6 +296,8 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 #### Docker
 
 - [Introduction to Docker for the Embedded Developer](https://www.youtube.com/watch?v=Fz7ou-VBk-w)
+
+_________________
 
 ### Version Control
 
@@ -360,7 +386,9 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Udemy – Functional Safety According to ISO 26262 - Crash Course](https://www.udemy.com/course/iso-26262-crash-course/)
 - [A Guide to MISRA C Coding Standards - MISRA C and MISRA C++](https://www.perforce.com/resources/qac/misra-c-cpp)
 
-### Interfaces & Protocols
+_________________
+
+### Interfaces, Protocols & Communication Technologies
 
 #### Common
 
@@ -454,6 +482,8 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 - [Cellular IoT Fundamentals - Nordic Semiconductor](https://academy.nordicsemi.com/courses/cellular-iot-fundamentals/)
 
+_________________
+
 ### Memories
 
 - [Memory Options for Embedded Systems: How to Select the Right Memory Configuration](https://www.qt.io/embedded-development-talk/memory-options-for-embedded-systems-how-to-select-the-right-memory-configuration)
@@ -479,12 +509,16 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [SDRAM Hardware & Firmware Tutorial (STM32) - Phil's Lab #80](https://www.youtube.com/watch?v=h28D4AaPSjg)
 - [SDRAM in STM32 || MT48LC4](https://www.youtube.com/watch?v=QnDenqvzwyE)
 
+_________________
+
 ### Sensors & Actuators
 
 - [Getting Started With STM32 and Nucleo Part 2: How to Use I2C to Read Temperature Sensor TMP102](https://www.youtube.com/watch?v=isOekyygpR8)
 - [GPS Module and STM32 || NEO 6M || Get coordinates, Date, Time, Speed, etc.](https://www.youtube.com/watch?v=tq_RoaPLahk)
 - [Interface MPU6050/GY-521 with STM32 || LCD 20x4 || CubeMx || HAL || SW4STM](https://www.youtube.com/watch?v=xxphp9wDnHA)
 - [DC Motor Speed Controller PWM With Potentiometer Using STM32](https://www.youtube.com/watch?v=8QpegVuV_AQ)
+
+_________________
 
 ### Operating Systems
 
@@ -585,6 +619,8 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 - [VxWorks | Industry Leading RTOS for Embedded Systems](https://www.windriver.com/products/vxworks)
 
+_________________
+
 ### Digital Signal Processing
 
 #### DSP Fundamentals & Filter Design
@@ -620,6 +656,8 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Getting Started with Simulink](https://youtube.com/playlist?list=PL484BA2AD3AE4C2D0)
 - [Udemy – MATLAB/SIMULINK Bible|Go From Zero to Hero!](https://www.udemy.com/course/matlabsimulink-biblego-from-zero-to-hero/)
 
+_________________
+
 ### Debugging
 
 #### JTAG / SWD
@@ -635,6 +673,8 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 #### OpenOCD
 
 - [This Is 100% How You Should Be Debugging | How to Use OpenOCD to Debug Embedded Software with GDB](https://www.youtube.com/watch?v=_1u7IOnivnM)
+
+_________________
 
 ### Testing
 
@@ -656,6 +696,8 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 - [Embedded CI/CD with HIL Testing](https://youtube.com/playlist?list=PL4cGeWgaBTe1uwiqIAc6fwPzPpvgPZI2J)
 
+_________________
+
 ### Embedded AI
 
 #### AI/ML Basics
@@ -676,6 +718,8 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [TinyML: Getting Started with TensorFlow Lite for Microcontrollers | Digi-Key Electronics](https://youtu.be/gDFWCxrJruQ)
 - [TinyML: Getting Started with STM32 X-CUBE-AI | Digi-Key Electronics](https://youtu.be/crJcDqIUbP4)
 
+_________________
+
 ### Embedded Security
 
 #### Cryptography
@@ -693,12 +737,6 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [MOOC - Security Part4 : STM32 security in practice](https://youtube.com/playlist?list=PLnMKNibPkDnF0wt-ZI74SflnsBV4yKzkO)
 - [MOOC - Security Part5 : How to define your security needs](https://youtube.com/playlist?list=PLnMKNibPkDnGqh5OmQWw98ztpf9TeczbC)
 - [MOOC - Security Part6: STM32 security ecosystem, from theory to practice](https://youtube.com/playlist?list=PLnMKNibPkDnGd7J7fV7tr-4xIBwkNfD--)
-
-
-### SOFT SKILLS
-
-- [Soft Skills For Embedded Systems Software Developers](https://www.embeddedrelated.com/showarticle/1470.php)
-- [10 Skills Every Embedded Engineer Should Have](https://medium.com/@lanceharvieruntime/10-skills-every-embedded-engineer-should-have-dcb867095b91)
 
 ## History
 
