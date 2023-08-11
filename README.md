@@ -410,6 +410,7 @@ _________________
 ##### SPI
 
 - [Understanding SPI](https://www.youtube.com/watch?v=0nVNwozXsIc)
+- [SPI: The serial peripheral interface](https://www.youtube.com/watch?v=MCi7dCBhVpQ)
 - [Getting Started with STM32 and Nucleo Part 5: How to Use SPI | Digi-Key Electronics](https://www.youtube.com/watch?v=eFKeNPJq50g)
 
 ##### 1-Wire
