@@ -715,8 +715,9 @@ _________________
 
 ### Embedded AI
 
-#### AI/ML Basics
+#### AI & ML Basics
 
+- [A beginner's guide to artificial intelligence and machine learning](https://developer.ibm.com/articles/cc-beginner-guide-machine-learning-ai-cognitive/)
 - [Udemy – Getting Started with Embedded AI | Edge AI](https://www.udemy.com/course/getting-started-with-embedded-ai-hands-on-experience/)
 - [Intro to Edge AI: Machine Learning + IoT – Maker.io Tutorial | Digi-Key Electronics](https://www.youtube.com/watch?v=Ejld8XZmvwE)
 
