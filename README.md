@@ -377,6 +377,7 @@ _________________
 
 #### GUI Design
 
+- [U8glib library for monochrome displays, version 2](https://github.com/olikraus/u8g2)
 - [LVGL](https://lvgl.io/)
 - [TouchGFX](https://support.touchgfx.com/4.20/docs/introduction/welcome)
 
