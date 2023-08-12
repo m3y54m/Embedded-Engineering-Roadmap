@@ -85,12 +85,9 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 _________________
 
-**Note:** It is not necessary to read or watch all of the following materials,
-but it is important to study enough to have at least a basic understanding of each topic.
-Of course, the more you study and practice, the deeper and wider your knowledge will become.
-This will ultimately improve your skills as an engineer.
+**Note:** It is not necessary to read or watch all of the following materials, but it is important to study enough to have a basic understanding of each topic. Of course, the more you study and practice, the greater your knowledge will become, ultimately enhancing your abilities as an engineer.
 
-Some of the resources mentioned here will only be used as references. Refer to them only when you need them.
+Some of the resources mentioned here will just be used as references. Refer to them only when you need them.
 _________________
 
 ### Soft Skills
