@@ -741,6 +741,7 @@ _________________
 - [edX - Fundamentals of TinyML](https://www.edx.org/learn/machine-learning/harvard-university-fundamentals-of-tinyml)
 - [edX - Applications of TinyML](https://www.edx.org/learn/tinyml/harvard-university-applications-of-tinyml)
 - [edX - Deploying TinyML](https://www.edx.org/learn/tinyml/harvard-university-deploying-tinyml)
+- [edX - MLOps for Scaling TinyML](https://www.edx.org/learn/computer-programming/harvard-university-mlops-for-scaling-tinyml)
 _________________
 
 ### Embedded Security
