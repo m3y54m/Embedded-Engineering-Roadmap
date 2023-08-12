@@ -24,7 +24,11 @@ Often, the computer is relatively **invisible to the user**, without obvious app
 
 #### 🎥 Courses and YouTube Contents
 
+- [Coursera - Introduction to Embedded Systems Software and Development Environments](https://www.coursera.org/learn/introduction-embedded-systems)
+- [Coursera - Embedded Software and Hardware Architecture](https://www.coursera.org/learn/embedded-software-hardware)
 - [Fastbit Embedded Brain Academy](https://fastbitlab.com/)
+- [edX - Embedded Systems - Shape The World: Microcontroller Input/Output](https://learning.edx.org/course/course-v1:UTAustinX+UT.6.10x+3T2022/home)
+- [edX - Embedded Systems - Shape The World: Multi-Threaded Interfacing](https://www.edx.org/learn/computer-programming/the-university-of-texas-at-austin-embedded-systems-shape-the-world-multi-threaded-in)
 - [Quantum Leaps, LLC (YouTube Channel)](https://www.youtube.com/@StateMachineCOM)
 - [DigiKey (YouTube Channel](https://www.youtube.com/@digikey)
 - [element14 presents (YouTube Channel)](https://www.youtube.com/@element14presents)
@@ -223,6 +227,7 @@ _________________
 #### Design Patterns
 
 - [Design Patterns for Embedded Systems in C - Bruce Powel Douglass](https://www.oreilly.com/library/view/design-patterns-for/9781856177078/)
+- [Making Embedded Systems: Design Patterns for Great Software - Elecia White](https://www.oreilly.com/library/view/making-embedded-systems/9781449308889/)
 
 #### State Machines / UML
 
@@ -733,7 +738,9 @@ _________________
 - [Intro to TinyML Part 2: Deploying a TensorFlow Lite Model to Arduino | Digi-Key Electronics](https://www.youtube.com/watch?v=dU01M61RW8s)
 - [TinyML: Getting Started with TensorFlow Lite for Microcontrollers | Digi-Key Electronics](https://youtu.be/gDFWCxrJruQ)
 - [TinyML: Getting Started with STM32 X-CUBE-AI | Digi-Key Electronics](https://youtu.be/crJcDqIUbP4)
-
+- [edX - Fundamentals of TinyML](https://www.edx.org/learn/machine-learning/harvard-university-fundamentals-of-tinyml)
+- [edX - Applications of TinyML](https://www.edx.org/learn/tinyml/harvard-university-applications-of-tinyml)
+- [edX - Deploying TinyML](https://www.edx.org/learn/tinyml/harvard-university-deploying-tinyml)
 _________________
 
 ### Embedded Security
