@@ -30,7 +30,7 @@ Often, the computer is relatively **invisible to the user**, without obvious app
 - [edX - Embedded Systems - Shape The World: Microcontroller Input/Output](https://learning.edx.org/course/course-v1:UTAustinX+UT.6.10x+3T2022/home)
 - [edX - Embedded Systems - Shape The World: Multi-Threaded Interfacing](https://www.edx.org/learn/computer-programming/the-university-of-texas-at-austin-embedded-systems-shape-the-world-multi-threaded-in)
 - [Quantum Leaps, LLC (YouTube Channel)](https://www.youtube.com/@StateMachineCOM)
-- [DigiKey (YouTube Channel](https://www.youtube.com/@digikey)
+- [DigiKey (YouTube Channel)](https://www.youtube.com/@digikey)
 - [element14 presents (YouTube Channel)](https://www.youtube.com/@element14presents)
 - [Ben Eater (YouTube Channel)](https://www.youtube.com/@BenEater)
 - [Phil’s Lab (YouTube Channel)](https://www.youtube.com/@PhilsLab)
