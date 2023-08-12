@@ -742,6 +742,7 @@ _________________
 - [edX - Applications of TinyML](https://www.edx.org/learn/tinyml/harvard-university-applications-of-tinyml)
 - [edX - Deploying TinyML](https://www.edx.org/learn/tinyml/harvard-university-deploying-tinyml)
 - [edX - MLOps for Scaling TinyML](https://www.edx.org/learn/computer-programming/harvard-university-mlops-for-scaling-tinyml)
+- [TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers - Pete Warden, Daniel Situnayake](https://tinymlbook.com/)
 _________________
 
 ### Embedded Security
