@@ -106,7 +106,8 @@ _________________
 #### Basic Math & Calculus
 
 - [Khan Academy - Calculus 1](https://www.khanacademy.org/math/calculus-1)
-- [Calculus - Robert T Smith, Roland Minton](https://www.mheducation.com/highered/product/calculus-smith-minton/M9780073383118.html)
+- [Calculus For Dummies - Mark Ryan](https://a.co/d/cyvZqE1)
+- [Thomas' Calculus](https://a.co/d/gFcCC37)
 
 #### Electrical Circuits Basics
 
