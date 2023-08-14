@@ -72,7 +72,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 - [Random Nerd Tutorials | Learn ESP32, ESP8266, Arduino, and Raspberry Pi](https://randomnerdtutorials.com/)
 - [ControllersTech](https://controllerstech.com/)
 
-#### 🗺️ Other Useful Roadmaps
+#### 🗺️ Other Helpful Roadmaps
 
 - [Embedded Systems Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/Embedded%20Systems%20Skill%20Tree)
 - [PCB Design Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/PCB%20Design%20Skill%20Tree)
@@ -250,7 +250,7 @@ _________________
 - [W3Schools C Tutorial](https://www.w3schools.com/c/index.php)
 - [C Programming for Beginners | Full Course](https://www.youtube.com/watch?v=ssJY5MDLjlo)
 - [C Programming Tutorials](https://www.youtube.com/playlist?list=PLA1FTfKBAEX4hblYoH6mnq0zsie2w6Wif)
-- [The C Programming Language -  Brian W. Kernighan, Dennis M. Ritchie ](https://www.amazon.com/dp/0131103628?ref_=cm_sw_r_cp_ud_dp_KRZ8M1WTXWVG0HMSRBXA)
+- [💎 The C Programming Language -  Brian W. Kernighan, Dennis M. Ritchie ](https://www.amazon.com/dp/0131103628?ref_=cm_sw_r_cp_ud_dp_KRZ8M1WTXWVG0HMSRBXA)
 - [C How to Program -  Paul Deitel, Harvey Deitel ](https://deitel.com/c-how-to-program-9-e/)
 - [Effective C - An Introduction to Professional C Programming - Robert C. Seacord](https://nostarch.com/Effective_C)
 
@@ -318,8 +318,8 @@ _________________
 
 ### Microcontrollers
 
-- [Make: AVR Programming - Elliot Williams](https://www.oreilly.com/library/view/make-avr-programming/9781449356484/)
-- [Mastering STM32 - Carmine Noviello](https://leanpub.com/mastering-stm32-2nd)
+- [💎 Make: AVR Programming - Elliot Williams](https://www.oreilly.com/library/view/make-avr-programming/9781449356484/)
+- [💎 Mastering STM32 - Carmine Noviello](https://leanpub.com/mastering-stm32-2nd)
 - [Getting Started with STM32 and Nucleo](https://youtube.com/playlist?list=PLEBQazB0HUyRYuzfi4clXsKUSgorErmBv)
 - [Bare Metal Embedded Programming: Theory and Practice Using STM32](https://www.youtube.com/playlist?list=PL4cGeWgaBTe155QQSQ72DksLIjBn5Jn2Z)
 - [Beginning STM32: Developing with FreeRTOS, libopencm3 and GCC - Warren Gay](https://link.springer.com/book/10.1007/978-1-4842-3624-6)
@@ -560,11 +560,11 @@ _________________
 ##### Linux Kernel
 
 - [Practical System Programming with C: Pragmatic Example Applications in Linux and Unix-Based Operating Systems - Sri Manikanta Palakollu](https://link.springer.com/book/10.1007/978-1-4842-6321-1)
-- [The Linux Programming Interface - Michael Kerrisk](https://man7.org/tlpi/)
+- [💎 The Linux Programming Interface - Michael Kerrisk](https://man7.org/tlpi/)
 
 ##### Linux Device Drivers
 
-- [Linux Device Drivers -  Jonathan Corbet, Alessandro Rubini, Greg Kroah-Hartman](https://lwn.net/Kernel/LDD3/)
+- [💎 Linux Device Drivers -  Jonathan Corbet, Alessandro Rubini, Greg Kroah-Hartman](https://lwn.net/Kernel/LDD3/)
 - [Mastering Linux Device Driver Development - John Madieu](https://www.packtpub.com/product/mastering-linux-device-driver-development/9781789342048)
 
 ##### U-Boot
@@ -602,7 +602,7 @@ _________________
 - [Getting Started With STM32 and Nucleo Part 3: FreeRTOS - How To Run Multiple Threads w/ CMSIS-RTOS](https://www.youtube.com/watch?v=CdpgqpuPSyQ)
 - [Hands-On RTOS with Microcontrollers: Building real-time embedded systems using FreeRTOS, STM32 MCUs, and SEGGER debug tools - Brian Amos](https://a.co/d/11MSPlo)
 - [Beginning STM32: Developing with FreeRTOS, libopencm3 and GCC - Warren Gay](https://link.springer.com/book/10.1007/978-1-4842-3624-6)
-- [SAFE**RTOS** - Safety Critical Real-Time OS](https://www.freertos.org/FreeRTOS-Plus/Safety_Critical_Certified/SafeRTOS.html)
+- [SafeRTOS - Safety Critical Real-Time OS](https://www.freertos.org/FreeRTOS-Plus/Safety_Critical_Certified/SafeRTOS.html)
 
 ##### Zephyr
 
@@ -616,7 +616,7 @@ _________________
 - [Micriμm OS](https://www.silabs.com/developers/micrium)
 - [µC/OS-III Documentation](https://micrium.atlassian.net/wiki/spaces/osiiidoc/overview)
 - [µC/OS-III Books](https://weston-embedded.com/micrium-books)
-- [µC/OS-II Documentation](https://micrium.atlassian.net/wiki/spaces/osiidoc/overview)
+- [💎 µC/OS-II Documentation](https://micrium.atlassian.net/wiki/spaces/osiidoc/overview)
 
 ##### NuttX
 
@@ -757,7 +757,7 @@ _________________
 - [Encryption - Symmetric Encryption vs Asymmetric Encryption - Cryptography - Practical TLS](https://www.youtube.com/watch?v=o_g-M7UBqI8)
 - [Public and Private Keys - Signatures & Key Exchanges - Cryptography - Practical TLS](https://youtu.be/_zyKvPvh808)
 - [Understanding AES Encryption Mechanics: BMPS](https://youtu.be/OnhtzFJW_4I)
-- [Understanding Cryptography: A Textbook for Students and Practitioners -  Christof Paar, Jan Pelzl](https://link.springer.com/book/10.1007/978-3-642-04101-3)
+- [💎 Understanding Cryptography: A Textbook for Students and Practitioners -  Christof Paar, Jan Pelzl](https://link.springer.com/book/10.1007/978-3-642-04101-3)
 - [Cryptography and Network Security: Principles and Practice - William Stallings](https://www.pearson.com/en-us/subject-catalog/p/cryptography-and-network-security-principles-and-practice/P200000003477/9780135764213)
 - [Serious Cryptography: A Practical Introduction to Modern Encryption - Jean-Philippe Aumasson](https://nostarch.com/seriouscrypto)
 - [MOOC - Security Part2: Basics of cryptography](https://youtube.com/playlist?list=PLnMKNibPkDnFSFh57UFTZLpy-7lZiwTHh)
