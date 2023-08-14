@@ -616,7 +616,7 @@ _________________
 - [Micriμm OS](https://www.silabs.com/developers/micrium)
 - [µC/OS-III Documentation](https://micrium.atlassian.net/wiki/spaces/osiiidoc/overview)
 - [µC/OS-III Books](https://weston-embedded.com/micrium-books)
-- [💎 µC/OS-II Documentation](https://micrium.atlassian.net/wiki/spaces/osiidoc/overview)
+- [💎 µC/OS-II Documentation (Previously published as a book titled "MicroC/OS-II: The Real-Time Kernel")](https://micrium.atlassian.net/wiki/spaces/osiidoc/overview)
 
 ##### NuttX
 
