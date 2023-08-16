@@ -118,8 +118,8 @@ _________________
 - [Lessons in Electric Circuits](https://www.allaboutcircuits.com/textbook/)
 - [Fundamentals of Electric Circuits - Charles K. Alexander, Matthew Sadiku](https://www.amazon.com/dp/1260226409?ref_=cm_sw_r_cp_ud_dp_Q11YHXNY2BK530RQZC4S)
 - [Grob’s Basic Electronics - Mitchel E. Schultz](https://a.co/d/g1g73HV)
-- [Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
-- [The Art of Electronics -  Paul Horowitz, Winfield Hill](https://artofelectronics.net/)
+- [💎 Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
+- [💎 The Art of Electronics -  Paul Horowitz, Winfield Hill](https://artofelectronics.net/)
 
 #### Electronic Components
 
@@ -224,7 +224,7 @@ _________________
 
 #### Algorithms & Data Structures
 
-- [Grokking Algorithms - Aditya Y. Bhargava ](https://www.manning.com/books/grokking-algorithms)
+- [💎 Grokking Algorithms - Aditya Y. Bhargava ](https://www.manning.com/books/grokking-algorithms)
 - [Introduction to Algorithms - Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein](http://mitpress.mit.edu/9780262367509/introduction-to-algorithms/)
 - [Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes](https://github.com/TheAlgorithms/C)
 - [Udemy – Embedded Systems State Machines & Data Structures](https://www.udemy.com/course/embedded-systems-state-machines-data-structures-like-a-pro/)
