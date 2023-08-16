@@ -62,6 +62,8 @@ Additionally, the "Arduino Core" takes care of most of the low-level operations 
 
 PlatformIO is a cross-platform, cross-architecture, multiple framework, professional tool for embedded systems engineers and for software developers who write applications for embedded products.
 
+PlatformIO is not yet extensively adopted in industrial and large-scale projects, however, it is an excellent choice for individuals working on smaller projects. This is because it greatly reduces the need to install frameworks and setup build and debug tools, allowing you to concentrate on programming.
+
 - [PlatformIO - A professional collaborative platform for embedded development](https://platformio.org/)
 
 #### 👨‍🏫 Educational Websites
