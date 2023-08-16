@@ -51,7 +51,7 @@ Often, the computer is relatively **invisible to the user**, without obvious app
 
 If you do not have any background in programming the embedded systems, Arduino boards and libraries are the best choice for you to start and learn the basics. Just keep in mind that most of the Arduino libraries are developed for learning purposes and are not optimized to be used in industry.
 
-Additionally, the "Arduino Core" takes care of most of the low-level operations and manipulation of registers that you, as an embedded engineer, should be able to handle yourself. If you want to become a professional embedded developer, you must be able to effectively use industry-standard APIs and frameworks provided and approved by microcontroller vendors. For example, CMSIS for ARM Cortex, STM32Cube for STM32, ESP-IDF for Espressif microcontrollers, etc.
+Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) takes care of most of the low-level operations and manipulation of registers that you, as an embedded engineer, should be able to handle yourself. If you want to become a professional embedded developer, you must be able to effectively use industry-standard APIs and frameworks provided and approved by microcontroller vendors. For example, CMSIS for ARM Cortex, STM32Cube for STM32, ESP-IDF for Espressif microcontrollers, etc.
 
 - [Getting Started with Arduino](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino)
 - [New Arduino Tutorials](https://youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP)
