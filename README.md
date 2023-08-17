@@ -674,6 +674,7 @@ _________________
 #### Controls Systems / PID Control
 
 - [Understanding Control Systems](https://youtube.com/playlist?list=PLn8PRpmsu08q8CE0pbZ-cSrMm_WYJfVGd)
+- [Control Systems - CircuitBread (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfYdTiQCV_p4YZNJWExM-5_g0fk9bHDL8)
 - [PID Controller Explained](https://www.youtube.com/watch?v=fv6dLTEvl74)
 - [Understanding PID Control](https://youtube.com/playlist?list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y)
 - [PID Controller Implementation in Software - Phil's Lab #6](https://www.youtube.com/watch?v=zOByx3Izf5U)
