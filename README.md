@@ -486,6 +486,7 @@ _________________
 - [CAN Bus: Serial Communication - How It Works?](https://www.youtube.com/watch?v=JZSCzRT9TTo&t=21s)
 - [CAN Bus: A Beginners Guide Part 1](https://www.youtube.com/watch?v=YBrU_eZM110)
 - [CAN Bus: A Beginners Guide Part 2](https://www.youtube.com/watch?v=z5CVljiLhvc)
+- [Improving my electric longboard with a CAN Bus! What can the CAN Bus do? EB#44](https://www.youtube.com/watch?v=PL0TPdrhMuI)
 - [CAN Bus, OBD2 & J1939 Explained](https://www.youtube.com/playlist?list=PLpV68vjf4Xo4vZ_SjJ6tTlomYm-k18vDZ)
 - [J1939 Explained - A Simple Intro [v2.0 | 2021]](https://www.youtube.com/watch?v=vlqxu9ojbHg)
 - [Unified Diagnostic Services (UDS) Explained - A Simple Intro [2022]](https://www.youtube.com/watch?v=CV_B8tJgI5E)
