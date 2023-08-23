@@ -714,9 +714,12 @@ _________________
 
 ### Testing
 
-- [Test Driven Development for Embedded C - James Grenning](https://www.amazon.com/Driven-Development-Embedded-Pragmatic-Programmers/dp/193435662X)
-- [What is DevOps in an Embedded Device Company?](https://www.linkedin.com/pulse/what-devops-embedded-device-company-john-macdonald/)
+- [💎 Test Driven Development for Embedded C - James Grenning](https://www.amazon.com/Driven-Development-Embedded-Pragmatic-Programmers/dp/193435662X)
+
+# CI/CD Flow
+
 - [Intro to CI/CD](https://youtu.be/1nxGcfIm-TU)
+- [What is DevOps in an Embedded Device Company?](https://www.linkedin.com/pulse/what-devops-embedded-device-company-john-macdonald/)
 
 #### Unit Testing
 
