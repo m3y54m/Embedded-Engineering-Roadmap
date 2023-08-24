@@ -719,6 +719,7 @@ _________________
 # CI/CD Flow
 
 - [Intro to CI/CD](https://youtu.be/1nxGcfIm-TU)
+- [How to Build a Continuous Integration and Delivery Process for Embedded Software](https://medium.com/jumperiot/how-to-build-a-continuous-integration-and-delivery-flow-for-embedded-software-b0b5bf220a2)
 - [What is DevOps in an Embedded Device Company?](https://www.linkedin.com/pulse/what-devops-embedded-device-company-john-macdonald/)
 
 #### Unit Testing
@@ -731,7 +732,7 @@ _________________
 #### Integration Testing
 
 - [Hardware CI Arena](https://electricui.com/blog/hardware-testing)
-- [https://www.bunniestudios.com/blog/?p=5450](https://www.bunniestudios.com/blog/?p=5450)
+- [Exclave: Hardware Testing in Mass Production, Made Easier](https://www.bunniestudios.com/blog/?p=5450)
 
 #### SIL / HIL Testing
 
