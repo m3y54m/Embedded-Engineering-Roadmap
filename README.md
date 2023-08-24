@@ -47,6 +47,11 @@ Often, the computer is relatively **invisible to the user**, without obvious app
 - [Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
 - [QEMU - open-source freeware for emulating hardware and devices](https://www.qemu.org/)
 
+#### 👨‍💻 IDEs
+
+- [Keil MDK & µVision](https://www.keil.com/)
+- [IAR Embedded Workbench](https://www.iar.com)
+
 #### 🕹️ Arduino
 
 If you do not have any background in programming the embedded systems, Arduino boards and libraries are the best choice for you to start and learn the basics. Just keep in mind that most of the Arduino libraries are developed for learning purposes and are not optimized to be used in industry.
