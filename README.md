@@ -88,7 +88,7 @@ PlatformIO is not yet extensively adopted in industrial and large-scale projects
 
 #### ⚒️ Projects
 
-- [STM32 Firmware](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
+- [STM32 Firmware - Phil’s Lab (YouTube Playlist)](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
 - [Udemy – STM32 : Internet Of Things with 4G LTE Modem - Hardware](https://www.udemy.com/course/stm32-internet-of-things-with-4g-lte-modem-hardware/)
 
 #### 😈 Hardware Hacking
