@@ -102,7 +102,8 @@ _________________
 
 Some of the resources mentioned here will just be used as references. Refer to them only when you need them.
 
-The symbol of 💎 is to indicate well-known references that have really invaluable and coherent content.
+The symbol of 💎 is to indicate well-known references that have really invaluable and comprehensive content.
+If you want to deepen your understanding of a topic, refer to the resources marked with a 💎 icon.
 _________________
 
 ### Soft Skills
