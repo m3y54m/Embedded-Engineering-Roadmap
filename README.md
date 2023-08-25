@@ -119,14 +119,14 @@ _________________
 
 - [Khan Academy - Calculus 1](https://www.khanacademy.org/math/calculus-1)
 - [Calculus For Dummies - Mark Ryan](https://a.co/d/cyvZqE1)
-- [Thomas' Calculus](https://a.co/d/gFcCC37)
+- [💎 Thomas' Calculus](https://a.co/d/gFcCC37)
 
 #### Electrical Circuits Basics
 
 - [Lessons in Electric Circuits](https://www.allaboutcircuits.com/textbook/)
+- [Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
 - [Fundamentals of Electric Circuits - Charles K. Alexander, Matthew Sadiku](https://www.amazon.com/dp/1260226409?ref_=cm_sw_r_cp_ud_dp_Q11YHXNY2BK530RQZC4S)
 - [Grob’s Basic Electronics - Mitchel E. Schultz](https://a.co/d/g1g73HV)
-- [💎 Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
 - [💎 The Art of Electronics -  Paul Horowitz, Winfield Hill](https://artofelectronics.net/)
 
 #### Electronic Components
