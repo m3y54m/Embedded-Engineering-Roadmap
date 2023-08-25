@@ -101,6 +101,8 @@ _________________
 **Note:** It is not necessary to read or watch all of the following materials, but it is important to study enough to have a basic understanding of each topic. Of course, the more you study and practice, the greater your knowledge will become, ultimately enhancing your abilities as an engineer.
 
 Some of the resources mentioned here will just be used as references. Refer to them only when you need them.
+
+The symbol of 💎 is to indicate well-known references that have really invaluable and coherent content.
 _________________
 
 ### Soft Skills
@@ -231,7 +233,7 @@ _________________
 
 #### Algorithms & Data Structures
 
-- [💎 Grokking Algorithms - Aditya Y. Bhargava ](https://www.manning.com/books/grokking-algorithms)
+- [💎 Grokking Algorithms - Aditya Y. Bhargava](https://www.manning.com/books/grokking-algorithms)
 - [Introduction to Algorithms - Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein](http://mitpress.mit.edu/9780262367509/introduction-to-algorithms/)
 - [Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes](https://github.com/TheAlgorithms/C)
 - [Udemy – Embedded Systems State Machines & Data Structures](https://www.udemy.com/course/embedded-systems-state-machines-data-structures-like-a-pro/)
