@@ -442,13 +442,17 @@ _________________
 
 - [1-Wire® Technology Overview](https://www.youtube.com/watch?v=CjH-OztKe00)
 
-#### I2S
+#### Audio
+
+##### I2S
 
 - [Building a Digital Music Player with I2S?! What is I2S! EB#45](https://www.youtube.com/watch?v=qNLvoSQCx60)
 
 #### Wireless
 
 - [Bluetooth Low Energy Fundamentals - Nordic Semiconductor](https://academy.nordicsemi.com/courses/bluetooth-low-energy-fundamentals/)
+- [What is ZIGBEE And How It Works?](https://www.youtube.com/watch?v=THtVeaxnd9E)
+- [How to take advantage of Zigbee and Bluetooth LE 5.2 on STM32WB wireless MCUs - Webinar Replay](https://www.youtube.com/watch?v=2sYEPykOaLQ)
 - [What is Thread? Low-power IoT Networking for Smart Home Devices | Digi-Key Electronics](https://youtu.be/5CauESYB9-A)
 - [What is Matter? Unifying IoT Devices for the Smart Home | Digi-Key Electronics](https://youtu.be/vJIEfih9bl0)
 
