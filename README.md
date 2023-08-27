@@ -91,11 +91,6 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 - [Random Nerd Tutorials | Learn ESP32, ESP8266, Arduino, and Raspberry Pi](https://randomnerdtutorials.com/)
 - [ControllersTech](https://controllerstech.com/)
 
-#### 🗺️ Other Helpful Roadmaps
-
-- [Embedded Systems Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/Embedded%20Systems%20Skill%20Tree)
-- [PCB Design Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/PCB%20Design%20Skill%20Tree)
-
 #### ⚒️ Projects
 
 - [STM32 Firmware - Phil’s Lab (YouTube Playlist)](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
@@ -105,6 +100,12 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 
 - [Hardware Hacking Tutorial](https://www.youtube.com/playlist?list=PLoFdAHrZtKkhcd9k8ZcR4th8Q8PNOx7iU)
 - [The Hardware Hacking Handbook: Breaking Embedded Security with Hardware Attacks - Jasper van Woudenberg, Colin O'Flynn](https://a.co/d/gUIytFX)
+
+
+#### 🗺️ Other Helpful Roadmaps
+
+- [Embedded Systems Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/Embedded%20Systems%20Skill%20Tree)
+- [PCB Design Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/PCB%20Design%20Skill%20Tree)
 
 _________________
 
