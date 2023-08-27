@@ -6,9 +6,11 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ## What is an Embedded System?
 
-An [***embedded system***](https://www.analog.com/en/design-center/glossary/embedded-system.html) is a system in which the **computer** (generally a microcontroller or microprocessor) is included as an integral part of the system.
+[Analog Devices](https://www.analog.com/en/design-center/glossary/embedded-system.html): An embedded system is a system in which the **computer** (generally a microcontroller or microprocessor) is included as an integral part of the system. Often, the computer is relatively **invisible to the user**, without obvious applications, files, or operating systems. Examples of products with invisible embedded systems are the controller that runs a microwave oven or the engine control system of a modern automobile.
 
-Often, the computer is relatively **invisible to the user**, without obvious applications, files, or operating systems. Examples of products with invisible embedded systems are the controller that runs a microwave oven or the engine control system of a modern automobile.
+[Wikipedia](https://en.wikipedia.org/wiki/Embedded_system): An embedded system is a **computer system**—a combination of a computer processor, computer memory, and input/output peripheral devices—that has a dedicated function **within** a larger mechanical or electronic system.
+
+[Embedded Systems Glossary](https://barrgroup.com/embedded-systems/glossary-e): A combination of **computer hardware and software**, and perhaps **additional mechanical or other parts**, designed to perform a **dedicated function**. In some cases, embedded systems are **part of a larger system** or product, as in the case of an antilock braking system in a car.
 
 ## Roadmap
 
