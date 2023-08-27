@@ -47,10 +47,28 @@ Often, the computer is relatively **invisible to the user**, without obvious app
 - [Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
 - [QEMU - open-source freeware for emulating hardware and devices](https://www.qemu.org/)
 
-#### 👨‍💻 IDEs
+#### 🛠️ IDEs
 
 - [Keil MDK & µVision](https://www.keil.com/)
 - [IAR Embedded Workbench](https://www.iar.com)
+- [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
+- [Microchip Studio for AVR® and SAM Devices](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio)
+- [MCUXpresso IDE](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE)
+
+#### 👨‍💻 VSCode Extensions
+
+- [Cortex-Debug](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug)
+- [STM32 VS Code Extension](https://marketplace.visualstudio.com/items?itemName=stmicroelectronics.stm32-vscode-extension)
+- [Espressif IDF](https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension)
+- [MCUXpresso for VS Code](https://marketplace.visualstudio.com/items?itemName=NXPSemiconductors.mcuxpresso)
+
+##### PlatformIO
+
+PlatformIO is a cross-platform, cross-architecture, multiple framework, professional tool for embedded systems engineers and for software developers who write applications for embedded products.
+
+- [PlatformIO - A professional collaborative platform for embedded development](https://platformio.org/)
+
+PlatformIO is not yet extensively adopted in industrial and large-scale projects, however, it is an excellent choice for individuals working on smaller projects. This is because it greatly reduces the need to install frameworks and setup build and debug tools, allowing you to concentrate on programming.
 
 #### 🕹️ Arduino
 
@@ -62,14 +80,6 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 - [New Arduino Tutorials](https://youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP)
 - [Arduino in a commercial product?](https://www.youtube.com/watch?v=c5LzsqeSCAc)
 - [Arduino Project to Product](https://www.youtube.com/playlist?list=PLEBQazB0HUyQd6Fsf5NQ75M9llbi1_j_8)
-
-#### 🐜 PlatformIO
-
-PlatformIO is a cross-platform, cross-architecture, multiple framework, professional tool for embedded systems engineers and for software developers who write applications for embedded products.
-
-PlatformIO is not yet extensively adopted in industrial and large-scale projects, however, it is an excellent choice for individuals working on smaller projects. This is because it greatly reduces the need to install frameworks and setup build and debug tools, allowing you to concentrate on programming.
-
-- [PlatformIO - A professional collaborative platform for embedded development](https://platformio.org/)
 
 #### 👨‍🏫 Educational Websites
 
