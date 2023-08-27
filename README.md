@@ -8,7 +8,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 [Analog Devices](https://www.analog.com/en/design-center/glossary/embedded-system.html): An embedded system is a system in which the **computer** (generally a microcontroller or microprocessor) is included as an integral part of the system. Often, the computer is relatively **invisible to the user**, without obvious applications, files, or operating systems. Examples of products with invisible embedded systems are the controller that runs a microwave oven or the engine control system of a modern automobile.
 
-[Wikipedia](https://en.wikipedia.org/wiki/Embedded_system): An embedded system is a **computer system**—a combination of a computer processor, computer memory, and input/output peripheral devices—that has a dedicated function **within** a larger mechanical or electronic system.
+[Wikipedia](https://en.wikipedia.org/wiki/Embedded_system): An embedded system is a **computer system**—a combination of a computer processor, computer memory, and input/output peripheral devices—that has a dedicated function **within a larger mechanical or electronic system**.
 
 [Embedded Systems Glossary](https://barrgroup.com/embedded-systems/glossary-e): A combination of **computer hardware and software**, and perhaps **additional mechanical or other parts**, designed to perform a **dedicated function**. In some cases, embedded systems are **part of a larger system** or product, as in the case of an antilock braking system in a car.
 
@@ -20,9 +20,9 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ### ⭐️ Featured Material
 
-#### 🔎 Google
+#### 🔎 Searching is Your Super Power!
 
-- [Searching is Your Super Power!](https://www.google.com)
+- [Google](https://www.google.com)
 
 #### 🎥 Courses and YouTube Contents
 
@@ -592,13 +592,15 @@ _________________
 
 - [FreeRTOS vs Linux for Embedded Systems](https://www.bytesnap.com/news-blog/freertos-vs-linux-embedded-systems/)
 - [Introduction to Embedded Linux](https://youtube.com/playlist?list=PLEBQazB0HUyTpoJoZecRK6PpDG31Y7RPB)
+- [Mastering Embedded Linux Programming - Chris Simmonds](https://www.packtpub.com/product/mastering-embedded-linux-programming-third-edition/9781789530384)
 - [Linux From Scratch - step-by-step instructions for building your own custom Linux system](https://www.linuxfromscratch.org/)
 
 ##### Linux Kernel
 
 - [The Linux Kernel](https://tldp.org/LDP/tlk/)
-- [Practical System Programming with C: Pragmatic Example Applications in Linux and Unix-Based Operating Systems - Sri Manikanta Palakollu](https://link.springer.com/book/10.1007/978-1-4842-6321-1)
 - [💎 The Linux Programming Interface - Michael Kerrisk](https://man7.org/tlpi/)
+- [How Linux Works - Brian Ward](https://nostarch.com/howlinuxworks3)
+- [Practical System Programming with C: Pragmatic Example Applications in Linux and Unix-Based Operating Systems - Sri Manikanta Palakollu](https://link.springer.com/book/10.1007/978-1-4842-6321-1)
 
 ##### Linux Device Drivers
 
@@ -615,9 +617,12 @@ _________________
 
 ##### Yocto
 
+- [💎 Yocto Project Documentation](https://docs.yoctoproject.org/index.html)
 - [Introduction to Embedded Linux Part 2 - Yocto Project | Digi-Key Electronics](https://www.youtube.com/watch?v=2-PwskQrZac&t=7s)
 - [Yocto Project Tutorial Series (Basic to Advance)](https://www.youtube.com/playlist?list=PLwqS94HTEwpQmgL1UsSwNk_2tQdzq3eVJ)
 - [Udemy – Embedded Linux using Yocto](https://www.udemy.com/course/embedded-linux-using-yocto/)
+- [💎 Embedded Linux Systems with the Yocto Project - Rudolf J.Streif](https://www.oreilly.com/library/view/embedded-linux-systems/9780133443301/)
+- [Embedded Linux Development using Yocto Project Cookbook - Alex Gonzalez](https://www.oreilly.com/library/view/embedded-linux-development/9781788399210/)
 
 ##### Qt
 
