@@ -242,7 +242,7 @@ _________________
 
 #### Algorithms & Data Structures
 
-- [Grokking Algorithms - Aditya Y. Bhargava](https://www.manning.com/books/grokking-algorithms)
+- [💎 Grokking Algorithms - Aditya Y. Bhargava](https://www.manning.com/books/grokking-algorithms)
 - [💎 Introduction to Algorithms - Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein](http://mitpress.mit.edu/9780262367509/introduction-to-algorithms/)
 - [Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes](https://github.com/TheAlgorithms/C)
 - [Udemy – Embedded Systems State Machines & Data Structures](https://www.udemy.com/course/embedded-systems-state-machines-data-structures-like-a-pro/)
@@ -251,7 +251,7 @@ _________________
 
 #### Design Patterns
 
-- [Design Patterns for Embedded Systems in C - Bruce Powel Douglass](https://www.oreilly.com/library/view/design-patterns-for/9781856177078/)
+- [💎 Design Patterns for Embedded Systems in C - Bruce Powel Douglass](https://www.oreilly.com/library/view/design-patterns-for/9781856177078/)
 - [Making Embedded Systems: Design Patterns for Great Software - Elecia White](https://www.oreilly.com/library/view/making-embedded-systems/9781449308889/)
 
 #### State Machines / UML
@@ -767,11 +767,14 @@ _________________
 
 ### Embedded AI
 
+- [Udemy – Getting Started with Embedded AI | Edge AI](https://www.udemy.com/course/getting-started-with-embedded-ai-hands-on-experience/)
+- [Intro to Edge AI: Machine Learning + IoT – Maker.io Tutorial | Digi-Key Electronics](https://www.youtube.com/watch?v=Ejld8XZmvwE)
+
 #### AI & ML Basics
 
 - [A beginner's guide to artificial intelligence and machine learning](https://developer.ibm.com/articles/cc-beginner-guide-machine-learning-ai-cognitive/)
-- [Udemy – Getting Started with Embedded AI | Edge AI](https://www.udemy.com/course/getting-started-with-embedded-ai-hands-on-experience/)
-- [Intro to Edge AI: Machine Learning + IoT – Maker.io Tutorial | Digi-Key Electronics](https://www.youtube.com/watch?v=Ejld8XZmvwE)
+- [Introduction to Machine Learning for Coders!](https://course18.fast.ai/ml)
+- [Machine Learning Crash Course with TensorFlow APIs - Google](https://developers.google.com/machine-learning/crash-course/)
 
 #### TensorFlow
 
