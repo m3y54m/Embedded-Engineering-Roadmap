@@ -53,6 +53,7 @@ Often, the computer is relatively **invisible to the user**, without obvious app
 - [IAR Embedded Workbench](https://www.iar.com)
 - [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
 - [Microchip Studio for AVR® and SAM Devices](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio)
+- [MPLAB® X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
 - [MCUXpresso IDE](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE)
 
 #### 👨‍💻 VSCode Extensions
