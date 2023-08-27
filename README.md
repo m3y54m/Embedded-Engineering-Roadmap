@@ -579,7 +579,7 @@ _________________
 #### Operating System Fundamentals
 
 - [💎 Operating Systems: Three Easy Pieces -  Remzi H Arpaci-Dusseau, Andrea C Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- [💎 Modern Operating Systems - Andrew S. Tanenbaum, Herbert Bos](https://www.pearson.com/en-us/subject-catalog/p/modern-operating-systems/P200000003295)
+- [Modern Operating Systems - Andrew S. Tanenbaum, Herbert Bos](https://www.pearson.com/en-us/subject-catalog/p/modern-operating-systems/P200000003295)
 
 #### Multitasking and Parallel Processing
 
