@@ -223,7 +223,7 @@ _________________
 - [Udemy – FPGA Embedded Design, Part 2 - Basic FPGA Training](https://www.udemy.com/course/fpga-embedded-design-fpgas/)
 - [Udemy – FPGA Embedded Design, Part 3 - EDA Tools](https://www.udemy.com/course/fpga-embedded-design-eda-tools/)
 - [Udemy – FPGA Embedded Design, Part 4 - Microprocessor Design](https://www.udemy.com/course/fpga-embedded-design-cpu/)
-- [A Hands-On Guide to Designing Embedded Systems - Adam Taylor, Dan Binnun, Saket Srivastava](https://www.amazon.com/Hands-Guide-Designing-Embedded-Systems/dp/1630816833)
+- [💎 A Hands-On Guide to Designing Embedded Systems - Adam Taylor, Dan Binnun, Saket Srivastava](https://www.amazon.com/Hands-Guide-Designing-Embedded-Systems/dp/1630816833)
 
 _________________
 
