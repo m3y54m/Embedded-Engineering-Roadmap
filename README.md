@@ -686,6 +686,10 @@ _________________
 
 - [VxWorks | Industry Leading RTOS for Embedded Systems](https://www.windriver.com/products/vxworks)
 
+##### Azure RTOS (ThreadX)
+
+- [Azure RTOS - Making embedded IoT development and connectivity easy](https://azure.microsoft.com/en-us/services/rtos/)
+
 _________________
 
 ### Digital Signal Processing
