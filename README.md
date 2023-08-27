@@ -37,11 +37,6 @@ Often, the computer is relatively **invisible to the user**, without obvious app
 - [Electronic Basics - GreatScott! (YouTube Playlist)](https://youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
 - [Embedded Systems - Jacob Sorber (YouTube Playlist)](https://www.youtube.com/playlist?list=PL9IEJIKnBJjEcPAz6fss-Hx0TLytCOMVC)
 
-#### 📚 Books
-
-- [Embedded System Design with ARM Cortex-M Microcontrollers: Applications with C, C++ and MicroPython - Cem Ünsalan, Hüseyin Deniz Gürhan, Mehmet Erkin Yücel](https://link.springer.com/book/10.1007/978-3-030-88439-0)
-- [A Hands-On Guide to Designing Embedded Systems - Adam Taylor, Dan Binnun, Saket Srivastava](https://www.amazon.com/Hands-Guide-Designing-Embedded-Systems/dp/1630816833)
-
 #### 🤡 Simulation
 
 - [Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
@@ -56,7 +51,7 @@ Often, the computer is relatively **invisible to the user**, without obvious app
 - [MPLAB® X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
 - [MCUXpresso IDE](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE)
 
-#### 👨‍💻 VSCode Extensions
+#### 👨‍💻 VS Code Extensions
 
 - [Cortex-Debug](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug)
 - [STM32 VS Code Extension](https://marketplace.visualstudio.com/items?itemName=stmicroelectronics.stm32-vscode-extension)
@@ -228,6 +223,7 @@ _________________
 - [Udemy – FPGA Embedded Design, Part 2 - Basic FPGA Training](https://www.udemy.com/course/fpga-embedded-design-fpgas/)
 - [Udemy – FPGA Embedded Design, Part 3 - EDA Tools](https://www.udemy.com/course/fpga-embedded-design-eda-tools/)
 - [Udemy – FPGA Embedded Design, Part 4 - Microprocessor Design](https://www.udemy.com/course/fpga-embedded-design-cpu/)
+- [A Hands-On Guide to Designing Embedded Systems - Adam Taylor, Dan Binnun, Saket Srivastava](https://www.amazon.com/Hands-Guide-Designing-Embedded-Systems/dp/1630816833)
 
 _________________
 
@@ -356,6 +352,7 @@ _________________
 - [Udemy – Microcontroller Embedded C Programming: Absolute Beginners](https://www.udemy.com/course/microcontroller-embedded-c-programming/)
 - [Udemy – Embedded Systems STM32 Low-Layer APIs(LL) Driver Development](https://www.udemy.com/course/embedded-systems-stm32-low-level-ll-driver-development/)
 - [Udemy – Embedded Systems STM32 HAL APIs Driver Development](https://www.udemy.com/course/embedded-systems-stm32-hal-apis-driver-development/)
+- [Embedded System Design with ARM Cortex-M Microcontrollers: Applications with C, C++ and MicroPython - Cem Ünsalan, Hüseyin Deniz Gürhan, Mehmet Erkin Yücel](https://link.springer.com/book/10.1007/978-3-030-88439-0)
 
 #### GPIO
 
