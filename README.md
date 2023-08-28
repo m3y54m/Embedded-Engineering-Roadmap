@@ -576,6 +576,7 @@ _________________
 - [Interface MPU6050/GY-521 with STM32 || LCD 20x4 || CubeMx || HAL || SW4STM](https://www.youtube.com/watch?v=xxphp9wDnHA)
 - [Arduino with PIR Motion Sensor](https://randomnerdtutorials.com/arduino-with-pir-motion-sensor/)
 - [Complete Guide for Ultrasonic Sensor HC-SR04 with Arduino](https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/)
+- [Electronic Basics #15: Temperature Measurement (Part 1) || NTC, PT100, Wheatstone Bridge](https://youtu.be/1U4fep_qAeo?si=Q2FF__EXONN-xN5M)
 
 #### Actuators
 
@@ -583,6 +584,9 @@ _________________
 - [DC Motor Speed Controller PWM With Potentiometer Using STM32](https://www.youtube.com/watch?v=8QpegVuV_AQ)
 - [All About Stepper Motors](https://learn.adafruit.com/all-about-stepper-motors)
 - [Using Servos With CircuitPython and Arduino](https://learn.adafruit.com/using-servos-with-circuitpython)
+- [Electronic Basics #25: Servos and how to use them](https://youtu.be/J8atdmEqZsc?si=bH_xoIwnAsNU5_lD)
+- [Electronic Basics #24: Stepper Motors and how to use them](https://youtu.be/bkqoKWP4Oy4?si=kvhwykmFZ0UnLDJ7)
+- [Electronic Basics #18: DC & Brushless DC Motor + ESC](https://youtu.be/UteZJ_7C4Mg?si=uADPmCaucyWXd8Xe)
 
 _________________
 
