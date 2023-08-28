@@ -567,10 +567,22 @@ _________________
 
 ### Sensors & Actuators
 
+#### Sensors
+
+- [Calibrating Sensors](https://learn.adafruit.com/calibrating-sensors)
+- [DHT11 vs DHT22 vs LM35 vs DS18B20 vs BME280 vs BMP180](https://randomnerdtutorials.com/dht11-vs-dht22-vs-lm35-vs-ds18b20-vs-bme280-vs-bmp180/)
 - [Getting Started With STM32 and Nucleo Part 2: How to Use I2C to Read Temperature Sensor TMP102](https://www.youtube.com/watch?v=isOekyygpR8)
 - [GPS Module and STM32 || NEO 6M || Get coordinates, Date, Time, Speed, etc.](https://www.youtube.com/watch?v=tq_RoaPLahk)
 - [Interface MPU6050/GY-521 with STM32 || LCD 20x4 || CubeMx || HAL || SW4STM](https://www.youtube.com/watch?v=xxphp9wDnHA)
+- [Arduino with PIR Motion Sensor](https://randomnerdtutorials.com/arduino-with-pir-motion-sensor/)
+- [Complete Guide for Ultrasonic Sensor HC-SR04 with Arduino](https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/)
+
+#### Actuators
+
+- [Adafruit Motor Selection Guide](https://learn.adafruit.com/adafruit-motor-selection-guide)
 - [DC Motor Speed Controller PWM With Potentiometer Using STM32](https://www.youtube.com/watch?v=8QpegVuV_AQ)
+- [All About Stepper Motors](https://learn.adafruit.com/all-about-stepper-motors)
+- [Using Servos With CircuitPython and Arduino](https://learn.adafruit.com/using-servos-with-circuitpython)
 
 _________________
 
