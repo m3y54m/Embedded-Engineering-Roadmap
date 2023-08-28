@@ -29,15 +29,14 @@ Becoming an embedded engineer requires a broad understanding of both software an
 - [Coursera - Introduction to Embedded Systems Software and Development Environments](https://www.coursera.org/learn/introduction-embedded-systems)
 - [Coursera - Embedded Software and Hardware Architecture](https://www.coursera.org/learn/embedded-software-hardware)
 - [Fastbit Embedded Brain Academy](https://fastbitlab.com/)
-- [edX - Embedded Systems - Shape The World: Microcontroller Input/Output](https://learning.edx.org/course/course-v1:UTAustinX+UT.6.10x+3T2022/home)
-- [edX - Embedded Systems - Shape The World: Multi-Threaded Interfacing](https://www.edx.org/learn/computer-programming/the-university-of-texas-at-austin-embedded-systems-shape-the-world-multi-threaded-in)
 - [Quantum Leaps, LLC (YouTube Channel)](https://www.youtube.com/@StateMachineCOM)
 - [DigiKey (YouTube Channel)](https://www.youtube.com/@digikey)
 - [element14 presents (YouTube Channel)](https://www.youtube.com/@element14presents)
 - [Ben Eater (YouTube Channel)](https://www.youtube.com/@BenEater)
 - [Phil’s Lab (YouTube Channel)](https://www.youtube.com/@PhilsLab)
-- [Electronic Basics - GreatScott! (YouTube Playlist)](https://youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
 - [Embedded Systems - Jacob Sorber (YouTube Playlist)](https://www.youtube.com/playlist?list=PL9IEJIKnBJjEcPAz6fss-Hx0TLytCOMVC)
+- [edX - Embedded Systems - Shape The World: Microcontroller Input/Output](https://learning.edx.org/course/course-v1:UTAustinX+UT.6.10x+3T2022/home)
+- [edX - Embedded Systems - Shape The World: Multi-Threaded Interfacing](https://www.edx.org/learn/computer-programming/the-university-of-texas-at-austin-embedded-systems-shape-the-world-multi-threaded-in)
 
 #### 🤡 Simulation
 
@@ -134,6 +133,7 @@ _________________
 
 - [Lessons in Electric Circuits](https://www.allaboutcircuits.com/textbook/)
 - [Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
+- [Electronic Basics - GreatScott! (YouTube Playlist)](https://youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
 - [Fundamentals of Electric Circuits - Charles K. Alexander, Matthew Sadiku](https://www.amazon.com/dp/1260226409?ref_=cm_sw_r_cp_ud_dp_Q11YHXNY2BK530RQZC4S)
 - [Grob’s Basic Electronics - Mitchel E. Schultz](https://a.co/d/g1g73HV)
 - [💎 The Art of Electronics -  Paul Horowitz, Winfield Hill](https://artofelectronics.net/)
