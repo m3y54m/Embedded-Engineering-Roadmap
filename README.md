@@ -358,6 +358,14 @@ _________________
 - [Udemy – Embedded Systems STM32 HAL APIs Driver Development](https://www.udemy.com/course/embedded-systems-stm32-hal-apis-driver-development/)
 - [Embedded System Design with ARM Cortex-M Microcontrollers: Applications with C, C++ and MicroPython - Cem Ünsalan, Hüseyin Deniz Gürhan, Mehmet Erkin Yücel](https://link.springer.com/book/10.1007/978-3-030-88439-0)
 
+#### Clock Management
+
+- [Clock Configuration in STM32](https://medium.com/@csrohit/clock-configuration-in-stm32-6a058da220e0)
+- [STM32: Change clock speed via registers](https://www.youtube.com/watch?v=W_9jPMgiqaQ)
+- [#1. Intro to STM32F4 Register Based Programming || Clock Setup || LED Blinking || NO HAL](https://www.youtube.com/watch?v=GJ_LFAlOlSk)
+- [Tutorial 8: MCU Clocks configuration in STM32 using STM32CUBEMX](https://www.youtube.com/watch?v=y8yNsWpQiTM)
+- [Clock sources and PLL in ARM Cortex M4](https://www.youtube.com/watch?v=2ou8FQ_7PdI)
+
 #### GPIO
 
 - [Tutorial 5: Peripheral 1 - General purpose Input Output (GPIO) Configuration in STM32](https://youtu.be/tjDhmavBGf0)
@@ -773,6 +781,7 @@ _________________
 - [Embedded Testing](https://artoftesting.com/embedded-testing)
 - [What is Embedded Testing in Software Testing?](https://www.guru99.com/embedded-software-testing.html)
 - [Verification vs Validation in Embedded Software](https://www.parasoft.com/blog/verification-vs-validation-in-embedded-software/)
+- [Testing: Unit VS Integration VS Regression VS Acceptance](https://medium.com/@touseefmurtaza1993/testing-unit-vs-integration-vs-regression-vs-acceptance-a3e190cc54dd)
 - [💎 Test Driven Development for Embedded C - James Grenning](https://www.amazon.com/Driven-Development-Embedded-Pragmatic-Programmers/dp/193435662X)
 
 #### CI/CD Flow
@@ -793,11 +802,7 @@ _________________
 
 - [Hardware CI Arena](https://electricui.com/blog/hardware-testing)
 - [Exclave: Hardware Testing in Mass Production, Made Easier](https://www.bunniestudios.com/blog/?p=5450)
-
-#### Regression Tesing
-
 - [Regression Testing of Embedded Systems](https://www.parasoft.com/blog/regression-testing-of-embedded-systems/)
-- [Testing: Unit VS Integration VS Regression VS Acceptance](https://medium.com/@touseefmurtaza1993/testing-unit-vs-integration-vs-regression-vs-acceptance-a3e190cc54dd)
 
 #### SiL / HiL Testing
 
