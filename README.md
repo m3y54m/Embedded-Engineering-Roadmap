@@ -429,6 +429,7 @@ _________________
 
 #### Functional Safety
 
+- [Microchip University - Introduction to Functional Safety](https://mu.microchip.com/introduction-to-functional-safety)
 - [Udemy – Functional Safety According to ISO 26262 - Crash Course](https://www.udemy.com/course/iso-26262-crash-course/)
 - [A Guide to MISRA C Coding Standards - MISRA C and MISRA C++](https://www.perforce.com/resources/qac/misra-c-cpp)
 - [A Firmware Development Standard by Jack Ganssle](http://www.ganssle.com/fsm.htm)
@@ -814,7 +815,8 @@ _________________
 
 - [Intro to Embedded Development: Styles and Standards](https://www.allaboutcircuits.com/technical-articles/embedded-programming-styles-and-standards/)
 - [Safety Standards and Certifications for Embedded Systems Development](https://www.linkedin.com/pulse/safety-standards-certifications-embedded-systems-development/)
-
+- [Microchip University - An Introduction To The ISA/IEC 62443 Standard](https://mu.microchip.com/an-introduction-to-the-isaiec-62443-standard)
+- 
 _________________
 
 ### Embedded AI
@@ -852,6 +854,7 @@ _________________
 
 #### Cryptography
 
+- [Microchip University - Cryptography Primer](https://mu.microchip.com/cryptography-primer)
 - [Hashing, Hashing Algorithms, and Collisions - Cryptography - Practical TLS](https://youtu.be/HHQ2QP_upGM)
 - [Data Integrity - How Hashing is used to ensure data isn't modified - HMAC - Cryptography](https://www.youtube.com/watch?v=doN3lzzNEIM)
 - [Encryption - Symmetric Encryption vs Asymmetric Encryption - Cryptography - Practical TLS](https://www.youtube.com/watch?v=o_g-M7UBqI8)
