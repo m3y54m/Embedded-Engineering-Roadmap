@@ -628,8 +628,9 @@ _________________
 
 - [The U-Boot Documentation](https://u-boot.readthedocs.io/en/latest/)
 
-##### BuildRoot
+##### Buildroot
 
+- [Buildroot Documentation](https://buildroot.org/docs.html)
 - [Introduction to Embedded Linux Part 1 - Buildroot | Digi-Key Electronics](https://www.youtube.com/watch?v=9vsu67uMcko)
 
 ##### Yocto
