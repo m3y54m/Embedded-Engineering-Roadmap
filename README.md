@@ -430,6 +430,7 @@ _________________
 
 - [Udemy – Functional Safety According to ISO 26262 - Crash Course](https://www.udemy.com/course/iso-26262-crash-course/)
 - [A Guide to MISRA C Coding Standards - MISRA C and MISRA C++](https://www.perforce.com/resources/qac/misra-c-cpp)
+- [A Firmware Development Standard by Jack Ganssle](http://www.ganssle.com/fsm.htm)
 
 _________________
 
