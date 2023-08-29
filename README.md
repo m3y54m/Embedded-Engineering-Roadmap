@@ -317,6 +317,7 @@ _________________
 
 #### CMake
 
+- [CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
 - [How to CMake Good](https://youtube.com/playlist?list=PLK6MXr8gasrGmIiSuVQXpfFuE1uPT615s)
 
 #### Bash Scripting
@@ -326,6 +327,7 @@ _________________
 
 #### Docker
 
+- [Docker Docs](https://docs.docker.com/get-started/)
 - [Introduction to Docker for the Embedded Developer](https://www.youtube.com/watch?v=Fz7ou-VBk-w)
 
 _________________
