@@ -309,7 +309,7 @@ _________________
 
 _________________
 
-### Build System
+### Build Tools
 
 #### GCC & Make
 
@@ -600,7 +600,7 @@ _________________
 #### Multitasking and Parallel Processing
 
 - [Multitasking vs Multithreading vs Multiprocessing](https://medium.com/codex/multitasking-vs-multithreading-vs-multiprocessing-2b0087c861ae)
-- [Programming with POSIX Threads - David Butenhof](https://a.co/d/9R6DswF)
+- [💎 Programming with POSIX Threads - David Butenhof](https://a.co/d/9R6DswF)
 - [Parallel Programming and Performance Optimization With OpenMP](https://passlab.github.io/OpenMPProgrammingBook/index.html)
 - [Introduction to OpenMP - Tim Mattson (Intel)](https://youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG)
 - [C++ Concurrency in Action - Anthony Williams](https://www.manning.com/books/c-plus-plus-concurrency-in-action)
@@ -767,12 +767,16 @@ _________________
 
 ### Testing
 
+- [Embedded Testing](https://artoftesting.com/embedded-testing)
+- [What is Embedded Testing in Software Testing?](https://www.guru99.com/embedded-software-testing.html)
+- [Verification vs Validation in Embedded Software](https://www.parasoft.com/blog/verification-vs-validation-in-embedded-software/)
 - [💎 Test Driven Development for Embedded C - James Grenning](https://www.amazon.com/Driven-Development-Embedded-Pragmatic-Programmers/dp/193435662X)
 
 #### CI/CD Flow
 
 - [Intro to CI/CD](https://youtu.be/1nxGcfIm-TU)
 - [How to Build a Continuous Integration and Delivery Process for Embedded Software](https://medium.com/jumperiot/how-to-build-a-continuous-integration-and-delivery-flow-for-embedded-software-b0b5bf220a2)
+- [Continuous Integration & Continuous Delivery for Embedded Systems (Whitepaper)](https://www.parasoft.com/white-paper/ci-cd-for-embedded-systems/)
 - [What is DevOps in an Embedded Device Company?](https://www.linkedin.com/pulse/what-devops-embedded-device-company-john-macdonald/)
 
 #### Unit Testing
@@ -787,9 +791,19 @@ _________________
 - [Hardware CI Arena](https://electricui.com/blog/hardware-testing)
 - [Exclave: Hardware Testing in Mass Production, Made Easier](https://www.bunniestudios.com/blog/?p=5450)
 
-#### SIL / HIL Testing
+#### Regression Tesing
+
+- [Regression Testing of Embedded Systems](https://www.parasoft.com/blog/regression-testing-of-embedded-systems/)
+- [Testing: Unit VS Integration VS Regression VS Acceptance](https://medium.com/@touseefmurtaza1993/testing-unit-vs-integration-vs-regression-vs-acceptance-a3e190cc54dd)
+
+#### SiL / HiL Testing
 
 - [Embedded CI/CD with HIL Testing](https://youtube.com/playlist?list=PL4cGeWgaBTe1uwiqIAc6fwPzPpvgPZI2J)
+
+#### Industry Standards & Certifications
+
+- [Intro to Embedded Development: Styles and Standards](https://www.allaboutcircuits.com/technical-articles/embedded-programming-styles-and-standards/)
+- [Safety Standards and Certifications for Embedded Systems Development](https://www.linkedin.com/pulse/safety-standards-certifications-embedded-systems-development/)
 
 _________________
 
