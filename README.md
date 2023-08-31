@@ -145,17 +145,18 @@ _________________
 
 #### Digital Circuits & Logic Design
 
-- [Digital Design - Morris Mano](https://www.portcity.edu.bd/files/636444791235373856_Digitallogicdesign.pdf)
+- [💎 Digital Design - Morris Mano](https://www.portcity.edu.bd/files/636444791235373856_Digitallogicdesign.pdf)
 
 #### Computer Architecture
 
-- [Build an 8-bit computer from scratch](https://eater.net/8bit/)
-- [Computer Organization and Design: ARM Edition -  David A. Patterson, John L. Hennessy](https://github.com/AbderrhmanAbdellatif/ComputerOrganization/blob/master/%5BThe%20Morgan%20Kaufmann%20Series%20in%20Computer%20Architecture%20and%20Design%5D%20David%20A.%20Patterson%2C%20John%20L.%20Hennessy%20-%20Computer%20Organization%20and%20Design_%20The%20Hardware%20Software%20Interface_%20ARM%20Edition%20(2016%2C%20Morgan%20Kaufmann).pdf)
+- [Computer Organization and Design: ARM Edition -  David A. Patterson, John L. Hennessy](https://a.co/d/8YPUXG7)
 - [💎 Digital Design and Computer Architecture: ARM Edition -  Sarah Harris, David Harris](https://a.co/d/4otoVvI)
 - [💎 Digital Design and Computer Architecture: RISC-V Edition -  Sarah Harris, David Harris](https://a.co/d/61l7Jtb)
 - [Embedded Systems Architecture - Tammy Noergaard](https://www.oreilly.com/library/view/embedded-systems-architecture/9780123821966/)
 - [The Definitive Guide to ARM® Cortex®-M0 and Cortex-M0+ Processors - Joseph Yiu](https://www.oreilly.com/library/view/the-definitive-guide/9780128032787/)
 - [The Definitive Guide to ARM® Cortex®-M3 and Cortex®-M4 Processors - Joseph Yiu](https://www.oreilly.com/library/view/the-definitive-guide/9780124080829/)
+- [Build an 8-bit computer from scratch](https://eater.net/8bit/)
+
 _________________
 
 ### Using Test Equipment
@@ -314,6 +315,7 @@ _________________
 #### GCC & Make
 
 - [GCC and Make - Compiling, Linking and Building C/C++ Applications](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
+- [💎 Computer Systems: A Programmer's Perspective - Randal E. Bryant, David R. O'Hallaron | ➡️ Chapter 7: Linking](http://csapp.cs.cmu.edu/3e/home.html)
 
 #### CMake
 
