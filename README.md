@@ -513,6 +513,7 @@ _________________
 ##### USB
 
 - [Training - USB 101 - Introduction to USB](https://www.youtube.com/watch?v=5S6ZPmtPzRA)
+- [USB 101: An Introduction to Universal Serial Bus 2.0](https://www.infineon.com/dgdl/Infineon-AN57294_USB_101_An_Introduction_to_Universal_Serial_Bus_2.0-ApplicationNotes-v09_00-EN.pdf?fileId=8ac78c8c7cdc391c017d072d8e8e5256)
 - [How does a USB keyboard work?](https://youtu.be/wdgULBpRoXk)
 - [How does USB device discovery work?](https://www.youtube.com/watch?v=N0O5Uwc3C0o)
 - [MOOC - STM32 USB training](https://www.youtube.com/playlist?list=PLnMKNibPkDnFFRBVD206EfnnHhQZI4Hxa)
