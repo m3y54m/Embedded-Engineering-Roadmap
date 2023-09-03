@@ -701,28 +701,35 @@ _________________
 ##### NuttX
 
 - [NuttX - The Apache Software Foundation](https://nuttx.apache.org/)
+- [NuttX Documentation](https://nuttx.apache.org/docs/latest/)
 - [Getting Started to NuttX](https://www.youtube.com/playlist?list=PLd73yQk5Fd8JEsVD-lhwYRQKVu6glfDa8)
 
 ##### RT-Thread
 
 - [RT-Thread | An Open Source Embedded Real-time Operating System](https://www.rt-thread.io/)
+- [RT-Thread document center](https://www.rt-thread.io/document/site/)
 - [RT-Thread Beginners Guide](https://youtube.com/playlist?list=PLXUV89C_M3G5KVw2IerI-pqApdSM_IaZo)
 
 ##### Mbed OS
 
 - [Mbed OS](https://os.mbed.com/mbed-os/)
+- [Mbed OS Documentation](https://os.mbed.com/docs/mbed-os/)
 
 ##### QNX
 
 - [BlackBerry QNX: Embedded OS, Support, and Services](https://blackberry.qnx.com/en)
+- [QNX Product Documentation](https://www.qnx.com/developers/docs/index.html)
 
 ##### VxWorks
 
 - [VxWorks | Industry Leading RTOS for Embedded Systems](https://www.windriver.com/products/vxworks)
+- [VxWorks Documentation](https://docs.windriver.com/category/os_vxworks?labelkey=os_vxworks)
+- [VxWORKS-RTOS - Kumar M(YouTube Playlist)](https://www.youtube.com/playlist?list=PLyp1I7W35-q34sYWBlBg8xgoqsizZ57P7)
 
 ##### Azure RTOS (ThreadX)
 
 - [Azure RTOS - Making embedded IoT development and connectivity easy](https://azure.microsoft.com/en-us/services/rtos/)
+- [Microsoft Azure RTOS documentation](https://learn.microsoft.com/en-us/azure/rtos/)
 
 _________________
 
