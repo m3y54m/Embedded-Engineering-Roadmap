@@ -827,7 +827,7 @@ _________________
 - [Intro to Embedded Development: Styles and Standards](https://www.allaboutcircuits.com/technical-articles/embedded-programming-styles-and-standards/)
 - [Safety Standards and Certifications for Embedded Systems Development](https://www.linkedin.com/pulse/safety-standards-certifications-embedded-systems-development/)
 - [Microchip University - An Introduction To The ISA/IEC 62443 Standard](https://mu.microchip.com/an-introduction-to-the-isaiec-62443-standard)
-- 
+
 _________________
 
 ### Embedded AI
