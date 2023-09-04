@@ -83,6 +83,7 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 - [DeepBlueMbedded](https://deepbluembedded.com/)
 - [Interrupt Blog by Memfault](https://interrupt.memfault.com/blog/)
 - [Microchip University](https://mu.microchip.com/)
+- [Electronics Tutorials](https://www.electronics-tutorials.ws)
 - [SparkFun Learn: Learn at SparkFun Electronics](https://learn.sparkfun.com/)
 - [Adafruit Learning System](https://learn.adafruit.com/)
 - [Random Nerd Tutorials | Learn ESP32, ESP8266, Arduino, and Raspberry Pi](https://randomnerdtutorials.com/)
