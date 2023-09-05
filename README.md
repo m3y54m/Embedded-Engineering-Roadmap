@@ -132,6 +132,7 @@ _________________
 
 #### Electrical Circuits Basics
 
+- [💎 Electronics Tutorials](https://www.electronics-tutorials.ws)
 - [Lessons in Electric Circuits](https://www.allaboutcircuits.com/textbook/)
 - [Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
 - [Electronic Basics - GreatScott! (YouTube Playlist)](https://youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
