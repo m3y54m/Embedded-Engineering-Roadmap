@@ -474,6 +474,12 @@ _________________
 
 - [1-Wire® Technology Overview](https://www.youtube.com/watch?v=CjH-OztKe00)
 
+##### SDIO
+
+- [SDIO Protocol](https://prodigytechno.com/sdio-protocol/)
+- [Interface SD CARD with SDIO in STM32](https://controllerstech.com/interface-sd-card-with-sdio-in-stm32/)
+- [SDIO Card Slave Driver - ESP32 - Technical Documents](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/sdio_slave.html)
+
 #### Audio
 
 ##### I2S
