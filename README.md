@@ -318,7 +318,7 @@ _________________
 #### GCC & Make
 
 - [GCC and Make - Compiling, Linking and Building C/C++ Applications](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
-- [💎 Computer Systems: A Programmer's Perspective - Randal E. Bryant, David R. O'Hallaron | ➡️ Chapter 7: Linking](http://csapp.cs.cmu.edu/3e/home.html)
+- [Computer Systems: A Programmer's Perspective - Randal E. Bryant, David R. O'Hallaron | ➡️ Chapter 7: Linking](http://csapp.cs.cmu.edu/3e/home.html)
 
 #### CMake
 
