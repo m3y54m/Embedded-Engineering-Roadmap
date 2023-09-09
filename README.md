@@ -42,7 +42,7 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 - [Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
 
-#### [QEMU](https://www.qemu.org/)
+##### [QEMU](https://www.qemu.org/)
 
 - [QEMU’s documentation](https://www.qemu.org/docs/master/index.html)
 - [Running AVR code in QEMU - A quick-start guide to accelerate AVR firmware development](https://yeah.nah.nz/embedded/qemu-avr/)
