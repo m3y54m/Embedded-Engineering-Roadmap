@@ -106,7 +106,7 @@ _________________
 
 Some of the resources mentioned here will just be used as references. Refer to them only when you need them.
 
-The symbol of 💎 is to indicate well-known references that have really invaluable and comprehensive content.
+The 💎 symbol is to indicate well-known references that have really invaluable and comprehensive content.
 If you want to deepen your understanding of a topic, refer to the resources marked with a 💎 icon.
 _________________
 
@@ -178,7 +178,7 @@ _________________
 
 ### Prototyping Skills
 
-#### Using Breadboards
+#### Breadboarding
 
 - [Everything You Need to Know about Breadboards](https://www.youtube.com/watch?v=mE33WpRWrXs)
 - [How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
