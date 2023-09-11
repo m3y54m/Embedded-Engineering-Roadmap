@@ -456,6 +456,11 @@ _________________
 - [QEMU Simulation - Blinky - STM32F767ZI Full Stack](https://longer-vision-robot.gitbook.io/stm32f767zi-full-stack/chapter-2.-programming-for-stm32/2.4-qemu-simulation-blinky)
 - [Emulating a Raspberry Pi in QEMU](https://interrupt.memfault.com/blog/emulating-raspberry-pi-in-qemu)
 
+#### [Renode](https://renode.io/)
+
+- [Renode - Antmicro's open source simulation and virtual development framework for complex embedded systems](https://github.com/renode/renode)
+- [Renode - documentation](https://renode.readthedocs.io/en/latest/)
+
 _________________
 
 ### Interfaces, Protocols & Communication Technologies
