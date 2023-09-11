@@ -453,6 +453,15 @@ _________________
 - [QEMU Simulation - Blinky - STM32F767ZI Full Stack](https://longer-vision-robot.gitbook.io/stm32f767zi-full-stack/chapter-2.-programming-for-stm32/2.4-qemu-simulation-blinky)
 - [Emulating a Raspberry Pi in QEMU](https://interrupt.memfault.com/blog/emulating-raspberry-pi-in-qemu)
 
+#### [Renode](https://renode.io/)
+
+- [Documentation](https://renode.readthedocs.io/en/latest/)
+- [GitHub repo](https://github.com/renode/renode.git)
+- Tutorials
+    - [Official tutorials](https://renode.io/tutorials/)
+    - [Cortex-M MCU Emulation with Renode](https://interrupt.memfault.com/blog/intro-to-renode)
+    - [A simple guide to get started on renode](https://github.com/tarciszera/renode_guide)
+    - [Using CI-based workflow with Renode in bringing TensorFlow Lite to Zephyr](https://www.youtube.com/watch?v=jF94cXPoZZg)
 _________________
 
 ### Interfaces, Protocols & Communication Technologies
