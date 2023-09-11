@@ -924,6 +924,8 @@ _________________
 
 #### Secure Boot & Secure Firmware Update
 
+- [AVR230: DES Bootloader on tinyAVR and megaAVR devices](https://www.microchip.com/en-us/application-notes/avr230)
+- [AVR231: AES Bootloader](https://www.microchip.com/en-us/application-notes/an2462)
 - [Blinky To Bootloader: Bare Metal Programming Series](https://www.youtube.com/playlist?list=PLP29wDx6QmW7HaCrRydOnxcy8QmW0SNdQ)
 - [MOOC - Security Part4 : STM32 security in practice](https://youtube.com/playlist?list=PLnMKNibPkDnF0wt-ZI74SflnsBV4yKzkO)
 - [MOOC - Security Part5 : How to define your security needs](https://youtube.com/playlist?list=PLnMKNibPkDnGqh5OmQWw98ztpf9TeczbC)
