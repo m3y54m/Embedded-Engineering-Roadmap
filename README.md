@@ -38,17 +38,6 @@ Becoming an embedded engineer requires a broad understanding of both software an
 - [edX - Embedded Systems - Shape The World: Microcontroller Input/Output](https://learning.edx.org/course/course-v1:UTAustinX+UT.6.10x+3T2022/home)
 - [edX - Embedded Systems - Shape The World: Multi-Threaded Interfacing](https://www.edx.org/learn/computer-programming/the-university-of-texas-at-austin-embedded-systems-shape-the-world-multi-threaded-in)
 
-#### 🤡 Simulation
-
-- [Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
-
-##### [QEMU](https://www.qemu.org/)
-
-- [QEMU’s documentation](https://www.qemu.org/docs/master/index.html)
-- [Running AVR code in QEMU - A quick-start guide to accelerate AVR firmware development](https://yeah.nah.nz/embedded/qemu-avr/)
-- [QEMU Simulation - Blinky - STM32F767ZI Full Stack](https://longer-vision-robot.gitbook.io/stm32f767zi-full-stack/chapter-2.-programming-for-stm32/2.4-qemu-simulation-blinky)
-- [Emulating a Raspberry Pi in QEMU](https://interrupt.memfault.com/blog/emulating-raspberry-pi-in-qemu)
-
 #### 🛠️ IDEs
 
 - [Keil MDK & µVision](https://www.keil.com/)
@@ -174,7 +163,7 @@ _________________
 - [Learn How to Use a Multimeter!](https://youtu.be/4lAyzRxsbDc)
 - [How to Use a Multimeter ](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all)
 
-#### Logic Analyzer
+#### Logic / Protocol Analyzer
 
 - [Instrument Basics: Logic Analyzer](https://youtu.be/u1DYs2I-_lU)
 
@@ -372,14 +361,6 @@ _________________
 - [Embedded System Design with ARM Cortex-M Microcontrollers: Applications with C, C++ and MicroPython - Cem Ünsalan, Hüseyin Deniz Gürhan, Mehmet Erkin Yücel](https://link.springer.com/book/10.1007/978-3-030-88439-0)
 - [Awesome Embedded: A curated list of awesome embedded programming](https://github.com/nhivp/Awesome-Embedded)
 
-#### Clock Management
-
-- [Clock Configuration in STM32](https://medium.com/@csrohit/clock-configuration-in-stm32-6a058da220e0)
-- [STM32: Change clock speed via registers](https://www.youtube.com/watch?v=W_9jPMgiqaQ)
-- [#1. Intro to STM32F4 Register Based Programming || Clock Setup || LED Blinking || NO HAL](https://www.youtube.com/watch?v=GJ_LFAlOlSk)
-- [Tutorial 8: MCU Clocks configuration in STM32 using STM32CUBEMX](https://www.youtube.com/watch?v=y8yNsWpQiTM)
-- [Clock sources and PLL in ARM Cortex M4](https://www.youtube.com/watch?v=2ou8FQ_7PdI)
-
 #### GPIO
 
 - [Tutorial 5: Peripheral 1 - General purpose Input Output (GPIO) Configuration in STM32](https://youtu.be/tjDhmavBGf0)
@@ -417,6 +398,14 @@ _________________
 - [The Watchdog Timer on Arduino](https://www.youtube.com/watch?v=AzZBgH67mgE)
 - [WATCHDOGS in STM32 || IWDG and WWDG || CubeIDE](https://www.youtube.com/watch?v=AelNsnpfbcM)
 
+#### Clock Management
+
+- [Clock Configuration in STM32](https://medium.com/@csrohit/clock-configuration-in-stm32-6a058da220e0)
+- [STM32: Change clock speed via registers](https://www.youtube.com/watch?v=W_9jPMgiqaQ)
+- [#1. Intro to STM32F4 Register Based Programming || Clock Setup || LED Blinking || NO HAL](https://www.youtube.com/watch?v=GJ_LFAlOlSk)
+- [Tutorial 8: MCU Clocks configuration in STM32 using STM32CUBEMX](https://www.youtube.com/watch?v=y8yNsWpQiTM)
+- [Clock sources and PLL in ARM Cortex M4](https://www.youtube.com/watch?v=2ou8FQ_7PdI)
+
 #### DMA
 
 - [STM32 DMA PT 1](https://www.youtube.com/watch?v=yvLHtXJ_KSg)
@@ -450,6 +439,19 @@ _________________
 - [Udemy – Functional Safety According to ISO 26262 - Crash Course](https://www.udemy.com/course/iso-26262-crash-course/)
 - [A Guide to MISRA C Coding Standards - MISRA C and MISRA C++](https://www.perforce.com/resources/qac/misra-c-cpp)
 - [A Firmware Development Standard by Jack Ganssle](http://www.ganssle.com/fsm.htm)
+
+_________________
+
+### Simulation / Emulation Tools
+
+- [Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
+
+#### [QEMU](https://www.qemu.org/)
+
+- [QEMU’s documentation](https://www.qemu.org/docs/master/index.html)
+- [Running AVR code in QEMU - A quick-start guide to accelerate AVR firmware development](https://yeah.nah.nz/embedded/qemu-avr/)
+- [QEMU Simulation - Blinky - STM32F767ZI Full Stack](https://longer-vision-robot.gitbook.io/stm32f767zi-full-stack/chapter-2.-programming-for-stm32/2.4-qemu-simulation-blinky)
+- [Emulating a Raspberry Pi in QEMU](https://interrupt.memfault.com/blog/emulating-raspberry-pi-in-qemu)
 
 _________________
 
@@ -494,6 +496,13 @@ _________________
 ##### I2S
 
 - [Building a Digital Music Player with I2S?! What is I2S! EB#45](https://www.youtube.com/watch?v=qNLvoSQCx60)
+
+#### Image & Video
+
+##### CSI-2
+
+- [MIPI Camera Serial Interface 2](https://www.mipi.org/specifications/csi-2)
+- [Tutorial: MIPI CSI-2](https://www.youtube.com/watch?v=8REu_h7bzHM)
 
 #### Wireless
 
@@ -634,13 +643,6 @@ _________________
 - [💎 Operating Systems: Three Easy Pieces -  Remzi H Arpaci-Dusseau, Andrea C Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - [Modern Operating Systems - Andrew S. Tanenbaum, Herbert Bos](https://www.pearson.com/en-us/subject-catalog/p/modern-operating-systems/P200000003295)
 
-#### Multitasking and Parallel Processing
-
-- [Multitasking vs Multithreading vs Multiprocessing](https://medium.com/codex/multitasking-vs-multithreading-vs-multiprocessing-2b0087c861ae)
-- [💎 Programming with POSIX Threads - David Butenhof](https://a.co/d/9R6DswF)
-- [Parallel Programming and Performance Optimization With OpenMP](https://passlab.github.io/OpenMPProgrammingBook/index.html)
-- [Introduction to OpenMP - Tim Mattson (Intel)](https://youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG)
-- [C++ Concurrency in Action - Anthony Williams](https://www.manning.com/books/c-plus-plus-concurrency-in-action)
 
 #### Embedded Linux
 
@@ -679,18 +681,34 @@ _________________
 - [💎 Embedded Linux Systems with the Yocto Project - Rudolf J.Streif](https://www.oreilly.com/library/view/embedded-linux-systems/9780133443301/)
 - [Embedded Linux Development using Yocto Project Cookbook - Alex Gonzalez](https://www.oreilly.com/library/view/embedded-linux-development/9781788399210/)
 
+##### Multithreading & Parallel Processing
+
+- [Multitasking vs Multithreading vs Multiprocessing](https://medium.com/codex/multitasking-vs-multithreading-vs-multiprocessing-2b0087c861ae)
+- [💎 Programming with POSIX Threads - David Butenhof](https://a.co/d/9R6DswF)
+- [Parallel Programming and Performance Optimization With OpenMP](https://passlab.github.io/OpenMPProgrammingBook/index.html)
+- [Introduction to OpenMP - Tim Mattson (Intel)](https://youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG)
+- [C++ Concurrency in Action - Anthony Williams](https://www.manning.com/books/c-plus-plus-concurrency-in-action)
+
+##### Inter Process Communication (IPC)
+
+- [Inter Process Communication (IPC)](https://www.scaler.com/topics/operating-system/inter-process-communication-in-os/)
+- [What Is Inter-Process Communication In Linux?](https://www.scaler.com/topics/ipc-in-linux/)
+- [Udemy – Multi-Threading and IPC with Qt 5 C++](https://www.udemy.com/course/multi-threading-and-ipc-with-qt-c-plus-plus/)
+
 ##### Qt
 
 - [Qt Documentation](https://doc.qt.io/)
 - [Introduction to Qt / QML](https://www.youtube.com/playlist?list=PL6CJYn40gN6hUXoYdyn4DHUTXfcVDJcfB)
-- [Udemy – Multi-Threading and IPC with Qt 5 C++](https://www.udemy.com/course/multi-threading-and-ipc-with-qt-c-plus-plus/)
 
 #### Real-Time OS
+
+##### RTOS Basics
 
 - [Bare-metal and RTOS Based Embedded Systems](https://microcontrollerslab.com/difference-bare-metal-and-rtos-based-embedded-systems/)
 - [The Pros and Cons of RTOS vs Bare Metal: Which Will You Choose?](https://medium.com/@lanceharvieruntime/the-pros-and-cons-of-rtos-vs-bare-metal-which-will-you-choose-756e33ba6df7)
 - [FreeRTOS vs Linux for Embedded Systems](https://www.bytesnap.com/news-blog/freertos-vs-linux-embedded-systems/)
 - [Real-Time Systems Concepts](https://micrium.atlassian.net/wiki/spaces/osiidoc/pages/163855/Real-Time+Systems+Concepts)
+- [RTOS Fundamentals](https://www.freertos.org/implementation/a00002.html)
 - [RTOS](https://www.youtube.com/playlist?list=PLPW8O6W-1chyrd_Msnn4LD6LBs2slJITs)
 - [Beyond the RTOS](https://www.youtube.com/playlist?list=PLPW8O6W-1chytjkg63-tM7MI0BvGxxPIP)
 
