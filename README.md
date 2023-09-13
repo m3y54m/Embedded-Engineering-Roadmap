@@ -78,6 +78,7 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 - [DeepBlueMbedded](https://deepbluembedded.com/)
 - [Interrupt Blog by Memfault](https://interrupt.memfault.com/blog/)
 - [Microchip University](https://mu.microchip.com/)
+- [Nordic Developer Academy](https://academy.nordicsemi.com/)
 - [Electronics Tutorials](https://www.electronics-tutorials.ws)
 - [SparkFun Learn: Learn at SparkFun Electronics](https://learn.sparkfun.com/)
 - [Adafruit Learning System](https://learn.adafruit.com/)
@@ -219,7 +220,7 @@ _________________
 
 - [FPGA vs. Microcontroller: How to choose the right one for your project](https://www.youtube.com/watch?v=jblpHUCPQYs)
 - [Introduction to FPGA (YouTube Playlist)](https://youtube.com/playlist?list=PLEBQazB0HUyT1WmMONxRZn9NmQ_9CIKhb)
-- [FPGA Fundamentals](https://nandland.com/fpga-101/)
+- [FPGA Fundamentals - Nandland](https://nandland.com/fpga-101/)
 - [Udemy – FPGA Embedded Design, Part 1 - Verilog](https://www.udemy.com/course/fpga-embedded-design-verilog/)
 - [Udemy – FPGA Embedded Design, Part 2 - Basic FPGA Training](https://www.udemy.com/course/fpga-embedded-design-fpgas/)
 - [Udemy – FPGA Embedded Design, Part 3 - EDA Tools](https://www.udemy.com/course/fpga-embedded-design-eda-tools/)
