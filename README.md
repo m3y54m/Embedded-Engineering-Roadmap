@@ -458,8 +458,14 @@ _________________
 
 #### [Renode](https://renode.io/)
 
+=======
 - [Renode - Antmicro's open source simulation and virtual development framework for complex embedded systems](https://github.com/renode/renode)
 - [Renode - documentation](https://renode.readthedocs.io/en/latest/)
+- [Official tutorials](https://renode.io/tutorials/)
+- [GitHub repo](https://github.com/renode/renode.git)
+- [Cortex-M MCU Emulation with Renode](https://interrupt.memfault.com/blog/intro-to-renode)
+- [A simple guide to get started on renode](https://github.com/tarciszera/renode_guide)
+- [Using CI-based workflow with Renode in bringing TensorFlow Lite to Zephyr](https://www.youtube.com/watch?v=jF94cXPoZZg)
 
 _________________
 
