@@ -329,7 +329,7 @@ _________________
 
 - [Docker Docs](https://docs.docker.com/get-started/)
 - [Introduction to Docker for the Embedded Developer](https://www.youtube.com/watch?v=Fz7ou-VBk-w)
-
+- [Intro to CI/CD Part 1: Getting Started with Docker | Digi-Key Electronics](https://youtu.be/1nxGcfIm-TU)
 _________________
 
 ### Version Control
@@ -560,6 +560,12 @@ _________________
 - [How does USB device discovery work?](https://www.youtube.com/watch?v=N0O5Uwc3C0o)
 - [MOOC - STM32 USB training (YouTube Playlist)](https://www.youtube.com/playlist?list=PLnMKNibPkDnFFRBVD206EfnnHhQZI4Hxa)
 
+##### PCIe
+
+- [What is PCIe?](https://www.youtube.com/watch?v=L9qXjmJdQXY)
+- [PCIe QuickLearn (YouTube Playlist)](https://www.youtube.com/playlist?list=PL9B4edd-p2ajuP4dBHcnhtHKoZKkoR1R4)
+- [PCIe Protocol (YouTube Playlist)](https://www.youtube.com/playlist?list=PLZe4P0P_9Cosd0i2ha_QRdWlR1iZ0yVG4)
+
 #### Automotive
 
 ##### CAN
@@ -695,19 +701,24 @@ _________________
 
 ##### Multithreading & Parallel Processing
 
+- [Threading/Concurrency vs Parallelism](http://www.danielmoth.com/Blog/threadingconcurrency-vs-parallelism.aspx)
+- [Multi-threading and Parallel Programming](https://dev.to/kwereutosu/multi-threading-and-parallel-programming-1l9m)
 - [Multitasking vs Multithreading vs Multiprocessing](https://medium.com/codex/multitasking-vs-multithreading-vs-multiprocessing-2b0087c861ae)
 - [💎 Programming with POSIX Threads - David Butenhof](https://a.co/d/9R6DswF)
 - [Parallel Programming and Performance Optimization With OpenMP](https://passlab.github.io/OpenMPProgrammingBook/index.html)
 - [Introduction to OpenMP - Tim Mattson (Intel) (YouTube Playlist)](https://youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG)
+- [OpenCL Tutorials](https://www.intel.com/content/www/us/en/developer/articles/training/opencl-tutorials.html)
+- [CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
 - [C++ Concurrency in Action - Anthony Williams](https://www.manning.com/books/c-plus-plus-concurrency-in-action)
 
 ##### Inter Process Communication (IPC)
 
 - [Inter Process Communication (IPC)](https://www.scaler.com/topics/operating-system/inter-process-communication-in-os/)
 - [What Is Inter-Process Communication In Linux?](https://www.scaler.com/topics/ipc-in-linux/)
+- [Udemy – Linux Inter Process Communication (IPC) from Scratch in C](https://www.udemy.com/course/linuxipc/)
 - [Udemy – Multi-Threading and IPC with Qt 5 C++](https://www.udemy.com/course/multi-threading-and-ipc-with-qt-c-plus-plus/)
 
-##### Qt
+##### Qt Framework
 
 - [Qt Documentation](https://doc.qt.io/)
 - [Introduction to Qt / QML (YouTube Playlist)](https://www.youtube.com/playlist?list=PL6CJYn40gN6hUXoYdyn4DHUTXfcVDJcfB)
@@ -851,7 +862,8 @@ _________________
 
 #### CI/CD Flow
 
-- [Intro to CI/CD](https://youtu.be/1nxGcfIm-TU)
+- [Intro to CI/CD Part 1: Getting Started with Docker | Digi-Key Electronics](https://youtu.be/1nxGcfIm-TU)
+- [Intro to CI/CD Part 2: Getting Started with GitHub Actions | Digi-Key Electronics](https://youtu.be/8pyqbYDYkRs)
 - [How to Build a Continuous Integration and Delivery Process for Embedded Software](https://medium.com/jumperiot/how-to-build-a-continuous-integration-and-delivery-flow-for-embedded-software-b0b5bf220a2)
 - [Continuous Integration & Continuous Delivery for Embedded Systems (Whitepaper)](https://www.parasoft.com/white-paper/ci-cd-for-embedded-systems/)
 - [What is DevOps in an Embedded Device Company?](https://www.linkedin.com/pulse/what-devops-embedded-device-company-john-macdonald/)
