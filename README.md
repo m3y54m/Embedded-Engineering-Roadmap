@@ -459,7 +459,7 @@ _________________
 
 #### [Renode](https://renode.io/)
 
-- [Renode - Antmicro's open source simulation and virtual development framework for complex embedded systems](https://github.com/renode/renode)
+- [Renode - GitHub Repo](https://github.com/renode/renode)
 - [Renode - Documentation](https://renode.readthedocs.io/en/latest/)
 - [Renode - Official Tutorials](https://renode.io/tutorials/)
 - [Cortex-M MCU Emulation with Renode](https://interrupt.memfault.com/blog/intro-to-renode)
@@ -470,7 +470,7 @@ _________________
 
 ### Interfaces, Protocols & Communication Technologies
 
-#### Common
+#### ‌Basic
 
 - [Understanding Serial Protocols](https://www.youtube.com/watch?v=LEz5UCN3aHA)
 - [PROTOCOLS: UART - I2C - SPI - Serial communications #001](https://www.youtube.com/watch?v=IyGwvGzrqp8)
@@ -494,15 +494,22 @@ _________________
 - [SPI: The serial peripheral interface](https://www.youtube.com/watch?v=MCi7dCBhVpQ)
 - [Getting Started with STM32 and Nucleo Part 5: How to Use SPI | Digi-Key Electronics](https://www.youtube.com/watch?v=eFKeNPJq50g)
 
-##### 1-Wire
-
-- [1-Wire® Technology Overview](https://www.youtube.com/watch?v=CjH-OztKe00)
-
 ##### SDIO
 
 - [SDIO Protocol](https://prodigytechno.com/sdio-protocol/)
 - [Interface SD CARD with SDIO in STM32](https://controllerstech.com/interface-sd-card-with-sdio-in-stm32/)
 - [SDIO Card Slave Driver - ESP32 - Technical Documents](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/sdio_slave.html)
+
+##### I3C
+
+- [MIPI I3C & MIPI I3C Basic](https://www.mipi.org/specifications/i3c-sensor-specification)
+- [I3C Protocol: Understanding and Debug](https://prodigytechno.com/mipi-i3c-protocol-debug/)
+- [MIPI I3C Basic - The next generation sensor interface enabling low-power IoT applications](https://www.youtube.com/watch?v=xWKxZp_9RFQ)
+
+##### 1-Wire
+
+- [1-Wire® Technology Overview](https://www.youtube.com/watch?v=CjH-OztKe00)
+
 
 #### Audio
 
@@ -519,10 +526,30 @@ _________________
 
 #### Wireless
 
+##### Bluetooth / BLE
+
 - [Bluetooth Low Energy Fundamentals - Nordic Semiconductor](https://academy.nordicsemi.com/courses/bluetooth-low-energy-fundamentals/)
+- [Bluetooth Overview - ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/bluetooth.html)
+
+##### Wi-Fi
+
+- [Wi-Fi Driver - ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/wifi.html)
+- [ESP32 Set an Access Point (AP) using ESP-IDF](https://esp32tutorials.com/esp32-access-point-ap-esp-idf/)
+- [ESP32 ESP-IDF Connect with WiFi – Station Mode Example](https://esp32tutorials.com/esp32-esp-idf-connect-wifi-station-mode-example/)
+
+##### Zigbee
+
 - [What is ZIGBEE And How It Works?](https://www.youtube.com/watch?v=THtVeaxnd9E)
 - [How to take advantage of Zigbee and Bluetooth LE 5.2 on STM32WB wireless MCUs - Webinar Replay](https://www.youtube.com/watch?v=2sYEPykOaLQ)
+
+##### Thread
+
+- [OpenThread - An open-source implementation of Thread®](https://openthread.io/)
 - [What is Thread? Low-power IoT Networking for Smart Home Devices | Digi-Key Electronics](https://youtu.be/5CauESYB9-A)
+- [OpenThread - ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/openthread.html)
+
+##### Matter
+
 - [What is Matter? Unifying IoT Devices for the Smart Home | Digi-Key Electronics](https://youtu.be/vJIEfih9bl0)
 
 #### Industrial
