@@ -819,6 +819,7 @@ _________________
 
 - [Azure RTOS - Making embedded IoT development and connectivity easy](https://azure.microsoft.com/en-us/services/rtos/)
 - [Microsoft Azure RTOS documentation](https://learn.microsoft.com/en-us/azure/rtos/)
+- [Azure RTOS ThreadX](https://github.com/azure-rtos/threadx)
 
 _________________
 
