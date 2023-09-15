@@ -464,7 +464,7 @@ _________________
 
 ### Interfaces, Protocols & Communication Technologies
 
-#### ‌Basic
+#### ‌Basic Protocols
 
 - [Understanding Serial Protocols](https://www.youtube.com/watch?v=LEz5UCN3aHA)
 - [PROTOCOLS: UART - I2C - SPI - Serial communications #001](https://www.youtube.com/watch?v=IyGwvGzrqp8)
@@ -505,20 +505,20 @@ _________________
 - [1-Wire® Technology Overview](https://www.youtube.com/watch?v=CjH-OztKe00)
 
 
-#### Audio
+#### Audio Protocols
 
 ##### I2S
 
 - [Building a Digital Music Player with I2S?! What is I2S! EB#45](https://www.youtube.com/watch?v=qNLvoSQCx60)
 
-#### Image & Video
+#### Image & Video Protocols
 
 ##### CSI-2
 
 - [MIPI Camera Serial Interface 2](https://www.mipi.org/specifications/csi-2)
 - [Tutorial: MIPI CSI-2](https://www.youtube.com/watch?v=8REu_h7bzHM)
 
-#### Wireless
+#### Wireless Protocols
 
 ##### Bluetooth / BLE
 
@@ -546,7 +546,7 @@ _________________
 
 - [What is Matter? Unifying IoT Devices for the Smart Home | Digi-Key Electronics](https://youtu.be/vJIEfih9bl0)
 
-#### Industrial
+#### Industrial Protocols
 
 ##### Modbus
 
@@ -566,7 +566,7 @@ _________________
 - [Simple ESP32 IoT Sensor Node Tutorial: WiFi Enabled MQTT Sensor Data Node](https://www.youtube.com/watch?v=x5A5S0hoyJ0)
 - [Cellular IoT Fundamentals - Nordic Semiconductor](https://academy.nordicsemi.com/courses/cellular-iot-fundamentals/)
 
-#### High-Speed
+#### High-Speed Protocols
 
 ##### Ethernet
 
@@ -588,7 +588,7 @@ _________________
 - [PCIe QuickLearn (YouTube Playlist)](https://www.youtube.com/playlist?list=PL9B4edd-p2ajuP4dBHcnhtHKoZKkoR1R4)
 - [PCIe Protocol (YouTube Playlist)](https://www.youtube.com/playlist?list=PLZe4P0P_9Cosd0i2ha_QRdWlR1iZ0yVG4)
 
-#### Automotive
+#### Automotive Protocols
 
 ##### CAN
 
@@ -600,7 +600,7 @@ _________________
 - [J1939 Explained - A Simple Intro [v2.0 | 2021]](https://www.youtube.com/watch?v=vlqxu9ojbHg)
 - [Unified Diagnostic Services (UDS) Explained - A Simple Intro [2022]](https://www.youtube.com/watch?v=CV_B8tJgI5E)
 
-#### Network
+#### Network Protocols
 
 - [Networking Fundamentals - Practical Networking (YouTube Playlist)](https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
 - [TCP vs UDP - Explaining Facts and Debunking Myths - TCP Masterclass](https://www.youtube.com/watch?v=jE_FcgpQ7Co)
@@ -612,7 +612,7 @@ _________________
 - [lwIP (ESP-IDF)](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/lwip.html)
 - [Developing applications on STM32Cube with LwIP TCP/IP stack](https://www.st.com/resource/en/user_manual/um1713-developing-applications-on-stm32cube-with-lwip-tcpip-stack-stmicroelectronics.pdf)
 
-#### Cellular
+#### Cellular Communication
 
 ##### GSM / LTE
 
