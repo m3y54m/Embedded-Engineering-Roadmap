@@ -90,12 +90,6 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 - [STM32 Firmware - Phil’s Lab (YouTube Playlist)](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
 - [Udemy – STM32 : Internet Of Things with 4G LTE Modem - Hardware](https://www.udemy.com/course/stm32-internet-of-things-with-4g-lte-modem-hardware/)
 
-#### 😈 Hardware Hacking
-
-- [Hardware Hacking Tutorial (YouTube Playlist)](https://www.youtube.com/playlist?list=PLoFdAHrZtKkhcd9k8ZcR4th8Q8PNOx7iU)
-- [The Hardware Hacking Handbook: Breaking Embedded Security with Hardware Attacks - Jasper van Woudenberg, Colin O'Flynn](https://a.co/d/gUIytFX)
-
-
 #### 🗺️ Other Helpful Roadmaps
 
 - [Embedded Systems Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/Embedded%20Systems%20Skill%20Tree)
@@ -933,7 +927,7 @@ _________________
 - [Introduction to Machine Learning for Coders!](https://course18.fast.ai/ml)
 - [Machine Learning Crash Course with TensorFlow APIs - Google](https://developers.google.com/machine-learning/crash-course/)
 
-#### TensorFlow
+#### TensorFlow Lite
 
 - [Getting Started with TensorFlow and Keras – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=HCG3hFe1KYY)
 - [Intro to TensorFlow Lite Part 1: Wake Word Feature Extraction – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=0fn7pj7Dutc)
@@ -954,6 +948,9 @@ _________________
 _________________
 
 ### Embedded Security
+
+- [Hardware Hacking Tutorial (YouTube Playlist)](https://www.youtube.com/playlist?list=PLoFdAHrZtKkhcd9k8ZcR4th8Q8PNOx7iU)
+- [💎 The Hardware Hacking Handbook: Breaking Embedded Security with Hardware Attacks - Jasper van Woudenberg, Colin O'Flynn](https://a.co/d/gUIytFX)
 
 #### Cryptography
 
