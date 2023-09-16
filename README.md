@@ -347,6 +347,7 @@ _________________
 - [How to Read a Microcontroller Datasheet: Introduction and First Steps](https://www.allaboutcircuits.com/technical-articles/how-to-read-a-microcontroller-datasheet-introduction-and-first-steps2/)
 - [💎 Make: AVR Programming - Elliot Williams](https://www.oreilly.com/library/view/make-avr-programming/9781449356484/)
 - [💎 Mastering STM32 - Carmine Noviello](https://leanpub.com/mastering-stm32-2nd)
+- [Getting started with STM32: STM32 step-by-step](https://wiki.st.com/stm32mcu/wiki/Category:Getting_started_with_STM32_:_STM32_step_by_step)
 - [Getting Started With AVR (YouTube Playlist)](https://www.youtube.com/playlist?list=PLtQdQmNK_0DRhBWYZ32BEILOykXLpJ8tP)
 - [Fundamentals of Microcontrollers - Arduino bare-metal breakdown (YouTube Playlist)](https://www.youtube.com/playlist?list=PLNyfXcjhOAwOF-7S-ZoW2wuQ6Y-4hfjMR)
 - [Getting Started with STM32 and Nucleo (YouTube Playlist)](https://youtube.com/playlist?list=PLEBQazB0HUyRYuzfi4clXsKUSgorErmBv)
