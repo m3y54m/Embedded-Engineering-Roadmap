@@ -867,11 +867,14 @@ _________________
 
 #### GDB
 
+- [GNU GDB Debugger Command Cheat Sheet](http://www.yolinux.com/TUTORIALS/GDB-Commands.html)
+- [gdbgui - A browser-based frontend to gdb (gnu debugger) ](https://www.gdbgui.com/)
 - [everyone needs to stop using print debugging (do THIS instead)](https://www.youtube.com/watch?v=3T3ZDquDDVg)
 - [GDB is REALLY easy! Find Bugs in Your Code with Only A Few Commands](https://www.youtube.com/watch?v=Dq8l1_-QgAc)
 
 #### OpenOCD
 
+- [OpenOCD - GitHub repository](https://github.com/openocd-org/openocd)
 - [This Is 100% How You Should Be Debugging | How to Use OpenOCD to Debug Embedded Software with GDB](https://www.youtube.com/watch?v=_1u7IOnivnM)
 
 _________________
