@@ -695,7 +695,7 @@ _________________
 
 ##### Linux Kernel
 
-- [The Linux Kernel](https://tldp.org/LDP/tlk/)
+- [The Linux Kernel - David A Rusling](https://tldp.org/LDP/tlk/)
 - [💎 The Linux Programming Interface - Michael Kerrisk](https://man7.org/tlpi/)
 - [How Linux Works - Brian Ward](https://nostarch.com/howlinuxworks3)
 - [Practical System Programming with C: Pragmatic Example Applications in Linux and Unix-Based Operating Systems - Sri Manikanta Palakollu](https://link.springer.com/book/10.1007/978-1-4842-6321-1)
