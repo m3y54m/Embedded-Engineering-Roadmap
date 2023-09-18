@@ -308,6 +308,7 @@ _________________
 #### GCC & Make
 
 - [GCC and Make - Compiling, Linking and Building C/C++ Applications](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
+- [Building STM32 projects from scratch with cross platform tools like Make, CMake and arm-gcc compiler toolchain (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEg2mgYz66IOcHRvvUDf9O1ZCGy58M1Bt)
 - [Computer Systems: A Programmer's Perspective - Randal E. Bryant, David R. O'Hallaron | ➡️ Chapter 7: Linking](http://csapp.cs.cmu.edu/3e/home.html)
 
 #### CMake
