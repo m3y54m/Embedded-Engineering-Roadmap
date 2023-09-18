@@ -82,6 +82,7 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 - [Electronics Tutorials](https://www.electronics-tutorials.ws)
 - [SparkFun Learn: Learn at SparkFun Electronics](https://learn.sparkfun.com/)
 - [Adafruit Learning System](https://learn.adafruit.com/)
+- [STM32 World](https://stm32world.com)
 - [Random Nerd Tutorials | Learn ESP32, ESP8266, Arduino, and Raspberry Pi](https://randomnerdtutorials.com/)
 - [ControllersTech](https://controllerstech.com/)
 
