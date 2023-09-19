@@ -533,11 +533,15 @@ _________________
 
 ##### Bluetooth / BLE
 
+- [Bluetooth Basics](https://learn.sparkfun.com/tutorials/bluetooth-basics/all)
+- [SparkFun According to Pete #49 - How Bluetooth Works](https://www.youtube.com/watch?v=zJqGLWQGyvk)
 - [Bluetooth Low Energy Fundamentals - Nordic Semiconductor](https://academy.nordicsemi.com/courses/bluetooth-low-energy-fundamentals/)
 - [Bluetooth Overview - ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/bluetooth.html)
 
 ##### Wi-Fi
 
+- [802.11 How WiFi Works - Wireless Networks | Computer Networks Ep. 7.3 | Kurose & Ross](https://www.youtube.com/watch?v=vvhEnr52UOU)
+- [802.11 Frame Analysis](https://www.youtube.com/watch?v=ITAJb3v5VKQ)
 - [Wi-Fi Driver - ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/wifi.html)
 - [ESP32 Set an Access Point (AP) using ESP-IDF](https://esp32tutorials.com/esp32-access-point-ap-esp-idf/)
 - [ESP32 ESP-IDF Connect with WiFi – Station Mode Example](https://esp32tutorials.com/esp32-esp-idf-connect-wifi-station-mode-example/)
