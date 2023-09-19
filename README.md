@@ -312,6 +312,7 @@ _________________
 
 - [GCC and Make - Compiling, Linking and Building C/C++ Applications](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 - [Building STM32 projects from scratch with cross platform tools like Make, CMake and arm-gcc compiler toolchain (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEg2mgYz66IOcHRvvUDf9O1ZCGy58M1Bt)
+- [Bare Metal - From zero to blink](https://www.linuxembedded.fr/2021/02/bare-metal-from-zero-to-blink)
 - [Computer Systems: A Programmer's Perspective - Randal E. Bryant, David R. O'Hallaron | ➡️ Chapter 7: Linking](http://csapp.cs.cmu.edu/3e/home.html)
 
 #### CMake
@@ -522,6 +523,11 @@ _________________
 
 - [MIPI Camera Serial Interface 2](https://www.mipi.org/specifications/csi-2)
 - [Tutorial: MIPI CSI-2](https://www.youtube.com/watch?v=8REu_h7bzHM)
+
+##### HDMI
+
+- [TI Precision Labs - Video Interface: What are HDMI & Dual-Mode DisplayPort?](https://www.youtube.com/watch?v=jCO7Up1rzJc)
+- [HDMI 2.1 & TMDS Crash Course - ENMU EET 457 - Presentation](https://www.youtube.com/watch?v=5acgSK0kWTE)
 
 #### Wireless Protocols
 
