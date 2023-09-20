@@ -6,6 +6,9 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ## What is an Embedded System?
 
+[ISO/IEC/IEEE 24765](https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:24765:ed-2:v1:en): **computer system** that is **part of a larger system** and **performs some of the requirements of that system**. For example, a computer system
+used in an aircraft or rapid transit system.
+
 [Making Embedded Systems](https://www.oreilly.com/library/view/making-embedded-systems/9781449308889/): An embedded system is a **computerized system** that is **purpose built for its application**.
 
 [Analog Devices](https://www.analog.com/en/design-center/glossary/embedded-system.html): An embedded system is a system in which the **computer** (generally a microcontroller or microprocessor) is included as an integral part of the system. Often, the computer is relatively **invisible to the user**, without obvious applications, files, or operating systems. Examples of products with invisible embedded systems are the controller that runs a microwave oven or the engine control system of a modern automobile.
