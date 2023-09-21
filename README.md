@@ -675,6 +675,10 @@ _________________
 
 - [What is a eMMC? Intro, Comparing to Other Storage, and Upgrading. SSD, M.2](https://www.youtube.com/watch?v=vGatKmqYxEA)
 
+### SD Card
+
+- [Interfacing with an SD Card](https://www.youtube.com/watch?v=g40tUdjZ-Sk)
+
 #### EEPROM
 
 - [Using EEPROM with Arduino - Internal & External](https://www.youtube.com/watch?v=ShqvATqXA7g)
@@ -925,14 +929,6 @@ _________________
 - [Testing: Unit VS Integration VS Regression VS Acceptance](https://medium.com/@touseefmurtaza1993/testing-unit-vs-integration-vs-regression-vs-acceptance-a3e190cc54dd)
 - [💎 Test Driven Development for Embedded C - James Grenning](https://www.amazon.com/Driven-Development-Embedded-Pragmatic-Programmers/dp/193435662X)
 
-#### CI/CD Flow
-
-- [Intro to CI/CD Part 1: Getting Started with Docker | Digi-Key Electronics](https://youtu.be/1nxGcfIm-TU)
-- [Intro to CI/CD Part 2: Getting Started with GitHub Actions | Digi-Key Electronics](https://youtu.be/8pyqbYDYkRs)
-- [How to Build a Continuous Integration and Delivery Process for Embedded Software](https://medium.com/jumperiot/how-to-build-a-continuous-integration-and-delivery-flow-for-embedded-software-b0b5bf220a2)
-- [Continuous Integration & Continuous Delivery for Embedded Systems (Whitepaper)](https://www.parasoft.com/white-paper/ci-cd-for-embedded-systems/)
-- [What is DevOps in an Embedded Device Company?](https://www.linkedin.com/pulse/what-devops-embedded-device-company-john-macdonald/)
-
 #### Unit Testing
 
 - [Unit Testing for C (especially Embedded Software)](http://www.throwtheswitch.org/unity)
@@ -946,7 +942,16 @@ _________________
 - [Exclave: Hardware Testing in Mass Production, Made Easier](https://www.bunniestudios.com/blog/?p=5450)
 - [Regression Testing of Embedded Systems](https://www.parasoft.com/blog/regression-testing-of-embedded-systems/)
 
-#### SiL / HiL Testing
+
+#### CI/CD Pipelines
+
+- [Intro to CI/CD Part 1: Getting Started with Docker | Digi-Key Electronics](https://youtu.be/1nxGcfIm-TU)
+- [Intro to CI/CD Part 2: Getting Started with GitHub Actions | Digi-Key Electronics](https://youtu.be/8pyqbYDYkRs)
+- [How to Build a Continuous Integration and Delivery Process for Embedded Software](https://medium.com/jumperiot/how-to-build-a-continuous-integration-and-delivery-flow-for-embedded-software-b0b5bf220a2)
+- [Continuous Integration & Continuous Delivery for Embedded Systems (Whitepaper)](https://www.parasoft.com/white-paper/ci-cd-for-embedded-systems/)
+- [What is DevOps in an Embedded Device Company?](https://www.linkedin.com/pulse/what-devops-embedded-device-company-john-macdonald/)
+
+#### SIL / HIL Testing
 
 - [Embedded CI/CD with HIL Testing (YouTube Playlist)](https://youtube.com/playlist?list=PL4cGeWgaBTe1uwiqIAc6fwPzPpvgPZI2J)
 
