@@ -113,6 +113,10 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 - [Embedded Systems Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/Embedded%20Systems%20Skill%20Tree)
 - [PCB Design Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/PCB%20Design%20Skill%20Tree)
 
+#### ❓ Ask Questions
+
+- [Electrical Engineering Stack Exchange](https://electronics.stackexchange.com/)
+
 _________________
 
 **Note:** It is not necessary to read or watch all of the following materials, but it is important to study enough to have a basic understanding of each topic. Of course, the more you study and practice, the greater your knowledge will become, ultimately enhancing your abilities as an engineer.
