@@ -384,6 +384,7 @@ _________________
 - [Udemy – Embedded Systems STM32 Low-Layer APIs(LL) Driver Development](https://www.udemy.com/course/embedded-systems-stm32-low-level-ll-driver-development/)
 - [Udemy – Embedded Systems STM32 HAL APIs Driver Development](https://www.udemy.com/course/embedded-systems-stm32-hal-apis-driver-development/)
 - [Embedded System Design with ARM Cortex-M Microcontrollers: Applications with C, C++ and MicroPython - Cem Ünsalan, Hüseyin Deniz Gürhan, Mehmet Erkin Yücel](https://link.springer.com/book/10.1007/978-3-030-88439-0)
+- [Embedded Systems Design using the MSP430FR2355 LaunchPad - Brock J. LaMeres](https://link.springer.com/book/10.1007/978-3-030-40574-8)
 - [Awesome Embedded: A curated list of awesome embedded programming](https://github.com/nhivp/Awesome-Embedded)
 
 #### GPIO
