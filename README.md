@@ -6,24 +6,24 @@ Becoming an embedded engineer requires a broad understanding of both software an
 
 ## What is an Embedded System?
 
-[ISO/IEC/IEEE 24765](https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:24765:ed-2:v1:en):
+[ISO/IEC/IEEE 24765 Standard:](https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:24765:ed-2:v1:en)
 
 > **computer system** that is **part of a larger system** and **performs some of the requirements of that system**. For example, a computer system
 used in an aircraft or rapid transit system.
 >
 > The hardware and software of an embedded system are usually minimized and optimized for specific functions. The embedded system includes at least one microcontroller, microprocessor or digital signal processor. The embedded system designed to optimize reliability, cost, size and power saving for applications.
 
-[Making Embedded Systems](https://www.oreilly.com/library/view/making-embedded-systems/9781449308889/):
+["Making Embedded Systems" Book:](https://www.oreilly.com/library/view/making-embedded-systems/9781449308889/)
 
 > An embedded system is a **computerized system** that is **purpose built for its application**.
 
-[Analog Devices](https://www.analog.com/en/design-center/glossary/embedded-system.html):
+[Analog Devices Glossary:](https://www.analog.com/en/design-center/glossary/embedded-system.html)
 
 > An embedded system is a system in which the **computer** (generally a microcontroller or microprocessor) is included **as an integral part of the system**.
 >
 > Often, the computer is **relatively invisible to the user**, without obvious applications, files, or operating systems. Examples of products with invisible embedded systems are the controller that runs a microwave oven or the engine control system of a modern automobile.
 
-[Embedded Systems Glossary](https://barrgroup.com/embedded-systems/glossary-e):
+[Embedded Systems Glossary:](https://barrgroup.com/embedded-systems/glossary-e)
 
 > A combination of **computer hardware and software**, and perhaps **additional mechanical or other parts**, designed to perform a **dedicated function**.
 >
