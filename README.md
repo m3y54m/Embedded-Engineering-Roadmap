@@ -986,6 +986,8 @@ _________________
 
 ### Embedded Security
 
+- [Embedded Systems Security and TrustZone](https://embeddedsecurity.io/)
+
 #### Cryptography
 
 - [Microchip University - Cryptography Primer](https://mu.microchip.com/cryptography-primer)
