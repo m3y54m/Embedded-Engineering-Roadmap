@@ -259,10 +259,18 @@ _________________
 
 - [What is the software development life cycle?](https://www.coderus.com/the-software-development-lifecycle/)
 - [Embedded Product Development Life Cycle: Four Main Steps](https://www.sam-solutions.com/blog/embedded-product-development-life-cycle/)
+
+#### Agile / SCRUM
+
 - [Does agile work with embedded software?](https://www.embedded.com/does-agile-work-with-embedded-software/)
 - [Scrum for embedded software: Good – but for reasons other than what your manager thinks](https://www.elektrobit.com/trends/scrum-for-embedded-software/)
 - [What Is Scrum: A Guide to the Most Popular Agile Framework](https://www.scrumalliance.org/about-scrum)
+- [Jira](https://confluence.atlassian.com/jira)
+
+#### V-Model (V-cycle)
+
 - [What Is the V-Model in Software Development?](https://builtin.com/software-engineering-perspectives/v-model)
+- [What Is the V Model and How Can It Improve Your Development?](https://www.indeed.com/career-advice/career-development/v-model)
 
 _________________
 
