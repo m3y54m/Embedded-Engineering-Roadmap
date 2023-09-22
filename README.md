@@ -33,7 +33,7 @@ used in an aircraft or rapid transit system.
 
 The roadmap is divided into three main sections: **SOFTWARE**, **HARDWARE**, and **SOFT SKILLS**.
 
-In the embedded industry, all job roles require soft skills, which cannot be acquired solely through reading or watching videos. Soft skills are developed through communication with others and facing various work challenges. There is no specific method to improve soft skills; it requires self-awareness of personal strengths and weaknesses and takes time to improve them.
+In the embedded industry, all job roles require soft skills, which cannot be acquired solely through reading or watching videos. Soft skills are developed through communication with others and facing various work challenges. Improving soft skills is not a one-size-fits-all approach. It varies depending on your individual characteristics and involves being aware of your own strengths and weaknesses. Enhancing these skills takes time and effort.
 
 It's important to note that the hardware and software sections overlap in the embedded job market. Different job titles, such as "Embedded Software Engineer," "Embedded Software Developer," "Firmware Engineer," and "Embedded Linux Developer," tend to focus more on software. On the other hand, job roles like "Embedded Hardware Engineer" and "Hardware Design Engineer" primarily focus on hardware. Additionally, there are positions like "Embedded Systems Engineer" that require a good understanding of both hardware and software. It's crucial to understand that each company in the embedded industry may have specific requirements for a job role, regardless of its title.
 
