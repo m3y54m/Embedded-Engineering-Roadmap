@@ -119,7 +119,7 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 
 _________________
 
-**Note:** It is not necessary to read or watch all of the following materials, but it is important to study enough to have a basic understanding of each topic. Of course, the more you study and practice, the greater your knowledge will become, ultimately enhancing your abilities as an engineer.
+**⚠️ Note:** It is not necessary to read or watch all of the following materials, but it is important to study enough to have at least a basic understanding of the required topics. Of course, the more you study and practice, the more your knowledge will grow. This continuous learning process will gradually improve your skills and make you a better engineer.
 
 Some of the resources mentioned here will just be used as references. Refer to them only when you need them.
 
