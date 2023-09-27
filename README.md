@@ -586,6 +586,10 @@ _________________
 - [ESP32 Set an Access Point (AP) using ESP-IDF](https://esp32tutorials.com/esp32-access-point-ap-esp-idf/)
 - [ESP32 ESP-IDF Connect with WiFi – Station Mode Example](https://esp32tutorials.com/esp32-esp-idf-connect-wifi-station-mode-example/)
 
+##### LoRa
+
+- [#112 LoRa / LoRaWAN De-Mystified / Tutorial](https://www.youtube.com/watch?v=hMOwbNUpDQA)
+
 ##### Zigbee
 
 - [What is ZIGBEE And How It Works?](https://www.youtube.com/watch?v=THtVeaxnd9E)
@@ -740,6 +744,7 @@ _________________
 
 #### Operating System Fundamentals
 
+- [Putting the “You” in CPU](https://cpu.land/)
 - [💎 Operating Systems: Three Easy Pieces -  Remzi H Arpaci-Dusseau, Andrea C Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - [Modern Operating Systems - Andrew S. Tanenbaum, Herbert Bos](https://www.pearson.com/en-us/subject-catalog/p/modern-operating-systems/P200000003295)
 
