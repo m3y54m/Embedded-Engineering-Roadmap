@@ -137,8 +137,11 @@ _________________
 
 Some of the resources mentioned here will just be used as references. Refer to them only when you need them.
 
-The 💎 symbol is to indicate well-known references that have really invaluable and comprehensive content.
-If you want to deepen your understanding of a topic, refer to the resources marked with a 💎 icon.
+**Symbols Guide:**
+
+👶 : Indicates easy-to-understand and beginner-friendly references. Refer to them if you do not have much knowledge in embedded systems.
+
+💎 : Indicates well-known references that have truly invaluable and comprehensive content. Refer to them if you want to deepen your understanding of a topic.
 _________________
 
 ### Soft Skills
@@ -153,38 +156,38 @@ _________________
 #### Basic Math & Calculus
 
 - [Khan Academy - Calculus 1](https://www.khanacademy.org/math/calculus-1)
-- [Calculus For Dummies - Mark Ryan](https://a.co/d/cyvZqE1)
+- [👶 Calculus For Dummies - Mark Ryan](https://a.co/d/cyvZqE1)
 - [💎 Thomas' Calculus](https://a.co/d/gFcCC37)
 
 #### Principles of Electric Circuits
 
-- [💎 Electronics Tutorials](https://www.electronics-tutorials.ws)
-- [Lessons in Electric Circuits](https://www.allaboutcircuits.com/textbook/)
+- [👶 💎 Electronics Tutorials](https://www.electronics-tutorials.ws)
+- [👶 Lessons in Electric Circuits](https://www.allaboutcircuits.com/textbook/)
 - [💎 Fundamentals of Electric Circuits - Charles K. Alexander, Matthew Sadiku](https://www.amazon.com/dp/1260226409?ref_=cm_sw_r_cp_ud_dp_Q11YHXNY2BK530RQZC4S)
 - [Principles of Electric Circuits: Conventional Current Version -  Thomas L Floyd, David M. Buchla](https://a.co/d/32T2t2X)
 
 #### Electronics Fundamentals
 
-- [Electronic Basics - GreatScott! (YouTube Playlist)](https://youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
-- [Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
-- [💎 Electronic Devices: Conventional Current Version - Thomas Floyd, David Buchla, Steven Wetterling](https://a.co/d/1dsS0vx)
+- [👶 Electronic Basics - GreatScott! (YouTube Playlist)](https://youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
+- [👶 Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
+- [👶 💎 Electronic Devices: Conventional Current Version - Thomas Floyd, David Buchla, Steven Wetterling](https://a.co/d/1dsS0vx)
 - [Electronics Fundamentals: Circuits, Devices & Applications -  Thomas L Floyd, David M. Buchla, Gary D. Snyder](https://a.co/d/4Ye5m8h)
-- [Practical Electronics for Inventors - Paul Scherz, Simon Monk](https://a.co/d/1QfSN8j)
+- [👶 Practical Electronics for Inventors - Paul Scherz, Simon Monk](https://a.co/d/1QfSN8j)
 - [💎 The Art of Electronics -  Paul Horowitz, Winfield Hill](https://artofelectronics.net/)
 - [Here’s a Quick Way to Know about Major Electronic Components](https://www.elprocus.com/major-electronic-components/)
 - [Encyclopedia of Electronic Components - Charles Platt](https://a.co/d/83cSiU7)
 
 #### Digital Circuits & Logic Design
 
-- [FPGA Fundamentals - Nandland](https://nandland.com/fpga-101/)
+- [👶 FPGA Fundamentals - Nandland](https://nandland.com/fpga-101/)
 - [💎 Digital Design - Morris Mano, Michael Ciletti](https://a.co/d/c3tBaoc)
-- [Digital Fundamentals - Thomas L. Floyd](https://a.co/d/2lgJKNX)
+- [👶 Digital Fundamentals - Thomas L. Floyd](https://a.co/d/2lgJKNX)
 
 #### Computer Architecture
 
-- [💎 Computer Organization and Design: ARM Edition -  David A. Patterson, John L. Hennessy](https://a.co/d/8YPUXG7)
-- [💎 Digital Design and Computer Architecture: ARM Edition -  Sarah Harris, David Harris](https://a.co/d/4otoVvI)
-- [Digital Design and Computer Architecture: RISC-V Edition -  Sarah Harris, David Harris](https://a.co/d/61l7Jtb)
+- [👶 💎 Computer Organization and Design: ARM Edition -  David A. Patterson, John L. Hennessy](https://a.co/d/8YPUXG7)
+- [👶 💎 Digital Design and Computer Architecture: ARM Edition -  Sarah Harris, David Harris](https://a.co/d/4otoVvI)
+- [👶 💎 Digital Design and Computer Architecture: RISC-V Edition -  Sarah Harris, David Harris](https://a.co/d/61l7Jtb)
 - [Computer Organization and Embedded Systems -  Carl Hamacher, Zvonko Vranesic, Safwat Zaky, Naraig Manjikian](https://a.co/d/2lt4Svf)
 - [Embedded Systems Architecture - Tammy Noergaard](https://www.oreilly.com/library/view/embedded-systems-architecture/9780123821966/)
 - [The Definitive Guide to ARM® Cortex®-M0 and Cortex-M0+ Processors - Joseph Yiu](https://www.oreilly.com/library/view/the-definitive-guide/9780128032787/)
@@ -197,8 +200,8 @@ _________________
 
 #### Multimeter
 
-- [Learn How to Use a Multimeter!](https://youtu.be/4lAyzRxsbDc)
-- [How to Use a Multimeter ](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all)
+- [👶 Learn How to Use a Multimeter!](https://youtu.be/4lAyzRxsbDc)
+- [👶 How to Use a Multimeter ](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all)
 
 #### Logic / Protocol Analyzer
 
@@ -206,9 +209,9 @@ _________________
 
 #### Oscilloscope
 
-- [What’s an OSCILLOSCOPE?](https://youtu.be/DgYGRtkd9Vs)
-- [How to Use an Oscilloscope](https://youtu.be/u4zyptPLlJI)
-- [How to use an oscilloscope / What is an oscilloscope / Oscilloscope tutorial](https://youtu.be/CzY2abWCVTY)
+- [👶 What’s an OSCILLOSCOPE?](https://youtu.be/DgYGRtkd9Vs)
+- [👶 How to Use an Oscilloscope](https://youtu.be/u4zyptPLlJI)
+- [👶 How to use an oscilloscope / What is an oscilloscope / Oscilloscope tutorial](https://youtu.be/CzY2abWCVTY)
 - [Understanding EMI Debugging with Oscilloscopes](https://www.youtube.com/watch?v=x1rn5YNLmVw)
 
 _________________
@@ -217,25 +220,25 @@ _________________
 
 #### Breadboarding
 
-- [Everything You Need to Know about Breadboards](https://www.youtube.com/watch?v=mE33WpRWrXs)
-- [How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
+- [👶 Everything You Need to Know about Breadboards](https://www.youtube.com/watch?v=mE33WpRWrXs)
+- [👶 How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
 
 #### Hardware Design Basics
 
+- [👶 Hardware Design - Phil’s Lab (YouTube Playlist)](https://www.youtube.com/playlist?list=PLXSyc11qLa1YhVCZ5xWPuPsE5MkgEy5TF)
 - [Electronic Circuit Design - IFE - TU Graz (YouTube Playlist)](https://www.youtube.com/playlist?list=PLLpZ1DoEuR9tbV8r8bMSI94znm6pRB905)
-- [Hardware Design - Phil’s Lab (YouTube Playlist)](https://www.youtube.com/playlist?list=PLXSyc11qLa1YhVCZ5xWPuPsE5MkgEy5TF)
 - [Microcontroller-Based Hardware Design With Altium Designer (YouTube Playlist)](https://www.youtube.com/playlist?list=PL3aaAq2OJU5HcbClqrOhqBDozF7HmxV-s)
 
 #### PCB Design
 
 - [Altium Academy YouTube Channel](https://www.youtube.com/@AltiumAcademy)
 - [Robert Feranec YouTube Channel](https://www.youtube.com/@RobertFeranec)
-- [Altium Tutorials for Beginners - Robert Feranec (YouTube Playlist)](https://www.youtube.com/playlist?list=PLXvLToQzgzdduBaD4horowdWgcG5uGUW4)
-- [Create PCBs for Rapid Prototyping - DigiKey (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyRVK1RpHIjyjuTxn5srz6XM)
+- [👶 Altium Tutorials for Beginners - Robert Feranec (YouTube Playlist)](https://www.youtube.com/playlist?list=PLXvLToQzgzdduBaD4horowdWgcG5uGUW4)
+- [👶 Create PCBs for Rapid Prototyping - DigiKey (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyRVK1RpHIjyjuTxn5srz6XM)
 - [How to Make a Raspberry Pi Compute Module 4 Carrier Board - DigiKey (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyRwjr761b-MLNEu8FA8WKSG)
 - [How To Learn PCB Design (My Thoughts, Journey, and Resources) - Phil's Lab #87](https://youtu.be/aODkA2mrimQ)
-- [KiCad 6 STM32 PCB Design Full Tutorial - Phil's Lab #65](https://youtu.be/aVUqaB0IMh4)
-- [Intro to KiCad - DigiKey (YouTube Playlist)](https://www.youtube.com/watch?v=vaCVh2SAZY4&list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O)
+- [👶 KiCad 6 STM32 PCB Design Full Tutorial - Phil's Lab #65](https://youtu.be/aVUqaB0IMh4)
+- [👶 Intro to KiCad - DigiKey (YouTube Playlist)](https://www.youtube.com/watch?v=vaCVh2SAZY4&list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O)
 - [PCB Design for EMI & SI - Phil's Lab #64](https://www.youtube.com/watch?v=VtzPL8wQ8-E)
 - [PCB Design for Advanced Users (YouTube Playlist)](https://youtube.com/playlist?list=PL3aaAq2OJU5EWfYT_Z93tc9pBF_Sidba_)
 - [9 Simple Tricks to Improve EMC / EMI on Your Boards - Practical examples (with Min Zhang)](https://www.youtube.com/watch?v=Lf51sx6sC0I)
@@ -243,9 +246,9 @@ _________________
 
 #### Soldering
 
-- [How To Solder - Electronics with Becky Stern | Digi-Key Electronics](https://www.youtube.com/watch?v=sS4v2hIFp9I)
-- [HOW TO SOLDER! (Beginner's Guide)](https://www.youtube.com/watch?v=3jAw41LRBxU)
-- [Soldering Crash Course: Basic Techniques, Tips and Advice!](https://www.youtube.com/watch?v=6rmErwU5E-k)
+- [👶 How To Solder - Electronics with Becky Stern | Digi-Key Electronics](https://www.youtube.com/watch?v=sS4v2hIFp9I)
+- [👶 HOW TO SOLDER! (Beginner's Guide)](https://www.youtube.com/watch?v=3jAw41LRBxU)
+- [👶 Soldering Crash Course: Basic Techniques, Tips and Advice!](https://www.youtube.com/watch?v=6rmErwU5E-k)
 - [How to Solder Through-Hole Components - Another Teaching Moment | DigiKey Electronics](https://www.youtube.com/watch?v=DJH7VLGJ4fs)
 - [How to Solder QFN MLF Package by Hand (Using a Hot Air Rework Station) | Digi-Key Electronics](https://youtu.be/X3Rc1s6EpSI)
 - [From Solderless Breadboard to Soldered Circuit - Electronics with Becky Stern | Digi-Key Electronics](https://www.youtube.com/watch?v=F9Krq7seV1g)
@@ -289,7 +292,7 @@ _________________
 
 #### Algorithms & Data Structures
 
-- [💎 Grokking Algorithms - Aditya Y. Bhargava](https://www.manning.com/books/grokking-algorithms)
+- [👶 💎 Grokking Algorithms - Aditya Y. Bhargava](https://www.manning.com/books/grokking-algorithms)
 - [💎 Introduction to Algorithms - Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein](http://mitpress.mit.edu/9780262367509/introduction-to-algorithms/)
 - [Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes](https://github.com/TheAlgorithms/C)
 - [Udemy – Embedded Systems State Machines & Data Structures](https://www.udemy.com/course/embedded-systems-state-machines-data-structures-like-a-pro/)
@@ -319,8 +322,8 @@ _________________
 
 #### C
 
-- [W3Schools C Tutorial](https://www.w3schools.com/c/index.php)
-- [C Programming for Beginners | Full Course](https://www.youtube.com/watch?v=ssJY5MDLjlo)
+- [👶 W3Schools C Tutorial](https://www.w3schools.com/c/index.php)
+- [👶 C Programming for Beginners | Full Course](https://www.youtube.com/watch?v=ssJY5MDLjlo)
 - [C Programming Tutorials (YouTube Playlist)](https://www.youtube.com/playlist?list=PLA1FTfKBAEX4hblYoH6mnq0zsie2w6Wif)
 - [💎 The C Programming Language -  Brian W. Kernighan, Dennis M. Ritchie ](https://www.amazon.com/dp/0131103628?ref_=cm_sw_r_cp_ud_dp_KRZ8M1WTXWVG0HMSRBXA)
 - [newlib C Library Documentation](https://sourceware.org/newlib/docs.html)
@@ -343,7 +346,7 @@ _________________
 #### Python
 
 - [Real Python: Python Tutorials](https://realpython.com/)
-- [Python Crash Course - Eric Matthes](https://a.co/d/hSMTJwE)
+- [👶 Python Crash Course - Eric Matthes](https://a.co/d/hSMTJwE)
 - [MicroPython - Python for microcontrollers](https://micropython.org/)
 - [CircuitPython](https://circuitpython.org/)
 
@@ -386,7 +389,7 @@ _________________
 
 #### Git
 
-- [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE)
+- [👶 Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE)
 - [Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git](https://www.youtube.com/watch?v=Uszj_k0DGsg)
 
 #### SVN (Subversion)
@@ -400,15 +403,15 @@ _________________
 - [What Is a Microcontroller? The Defining Characteristics and Architecture of a Common Component](https://www.allaboutcircuits.com/technical-articles/what-is-a-microcontroller-introduction-component-characteristics-component/)
 - [How to Choose the Right Microcontroller for Your Application ](https://www.allaboutcircuits.com/technical-articles/how-to-choose-the-right-microcontroller-for-your-application/)
 - [How to Read a Microcontroller Datasheet: Introduction and First Steps](https://www.allaboutcircuits.com/technical-articles/how-to-read-a-microcontroller-datasheet-introduction-and-first-steps2/)
-- [💎 Make: AVR Programming - Elliot Williams](https://www.oreilly.com/library/view/make-avr-programming/9781449356484/)
+- [👶 💎 Make: AVR Programming - Elliot Williams](https://www.oreilly.com/library/view/make-avr-programming/9781449356484/)
 - [💎 Mastering STM32 - Carmine Noviello](https://leanpub.com/mastering-stm32-2nd)
 - [Getting started with STM32: STM32 step-by-step](https://wiki.st.com/stm32mcu/wiki/Category:Getting_started_with_STM32_:_STM32_step_by_step)
 - [Getting Started With AVR (YouTube Playlist)](https://www.youtube.com/playlist?list=PLtQdQmNK_0DRhBWYZ32BEILOykXLpJ8tP)
-- [Fundamentals of Microcontrollers - Arduino bare-metal breakdown (YouTube Playlist)](https://www.youtube.com/playlist?list=PLNyfXcjhOAwOF-7S-ZoW2wuQ6Y-4hfjMR)
-- [Getting Started with STM32 and Nucleo (YouTube Playlist)](https://youtube.com/playlist?list=PLEBQazB0HUyRYuzfi4clXsKUSgorErmBv)
+- [👶 Fundamentals of Microcontrollers - Arduino bare-metal breakdown (YouTube Playlist)](https://www.youtube.com/playlist?list=PLNyfXcjhOAwOF-7S-ZoW2wuQ6Y-4hfjMR)
+- [👶 Getting Started with STM32 and Nucleo (YouTube Playlist)](https://youtube.com/playlist?list=PLEBQazB0HUyRYuzfi4clXsKUSgorErmBv)
 - [Bare Metal Embedded Programming: Theory and Practice Using STM32 (YouTube Playlist)](https://www.youtube.com/playlist?list=PL4cGeWgaBTe155QQSQ72DksLIjBn5Jn2Z)
 - [Beginning STM32: Developing with FreeRTOS, libopencm3 and GCC - Warren Gay](https://link.springer.com/book/10.1007/978-1-4842-3624-6)
-- [Intro to Raspberry Pi Pico and RP2040 (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQO6rJxKr2umPCgmfAU-cqR)
+- [👶 Intro to Raspberry Pi Pico and RP2040 (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQO6rJxKr2umPCgmfAU-cqR)
 - [Udemy – Microcontroller Embedded C Programming: Absolute Beginners](https://www.udemy.com/course/microcontroller-embedded-c-programming/)
 - [Udemy – Embedded Systems STM32 Low-Layer APIs(LL) Driver Development](https://www.udemy.com/course/embedded-systems-stm32-low-level-ll-driver-development/)
 - [Udemy – Embedded Systems STM32 HAL APIs Driver Development](https://www.udemy.com/course/embedded-systems-stm32-hal-apis-driver-development/)
@@ -501,7 +504,7 @@ _________________
 
 ### Simulation / Emulation Tools
 
-- [Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
+- [👶 Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
 
 #### [QEMU](https://www.qemu.org/)
 
@@ -757,7 +760,7 @@ _________________
 
 #### Operating System Fundamentals
 
-- [Putting the “You” in CPU](https://cpu.land/)
+- [👶 Putting the “You” in CPU](https://cpu.land/)
 - [💎 Operating Systems: Three Easy Pieces -  Remzi H Arpaci-Dusseau, Andrea C Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - [Modern Operating Systems - Andrew S. Tanenbaum, Herbert Bos](https://www.pearson.com/en-us/subject-catalog/p/modern-operating-systems/P200000003295)
 
@@ -840,7 +843,7 @@ _________________
 ##### FreeRTOS
 
 - [FreeRTOS - Market leading RTOS](https://www.freertos.org)
-- [Introduction to RTOS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz)
+- [👶 Introduction to RTOS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz)
 - [Mastering the FreeRTOS Real Time Kernel - a Hands On Tutorial Guide](https://www.freertos.org/Documentation/RTOS_book.html)
 - [Getting Started With STM32 and Nucleo Part 3: FreeRTOS - How To Run Multiple Threads w/ CMSIS-RTOS](https://www.youtube.com/watch?v=CdpgqpuPSyQ)
 - [Hands-On RTOS with Microcontrollers: Building real-time embedded systems using FreeRTOS, STM32 MCUs, and SEGGER debug tools - Brian Amos](https://a.co/d/11MSPlo)
@@ -1008,7 +1011,7 @@ _________________
 #### AI & ML Basics
 
 - [A beginner's guide to artificial intelligence and machine learning](https://developer.ibm.com/articles/cc-beginner-guide-machine-learning-ai-cognitive/)
-- [Introduction to Machine Learning for Coders!](https://course18.fast.ai/ml)
+- [👶 Introduction to Machine Learning for Coders!](https://course18.fast.ai/ml)
 - [Machine Learning Crash Course with TensorFlow APIs - Google](https://developers.google.com/machine-learning/crash-course/)
 
 #### TensorFlow Lite
@@ -1019,8 +1022,8 @@ _________________
 
 #### tinyML
 
-- [Intro to TinyML Part 1: Training a Neural Network for Arduino in TensorFlow | Digi-Key Electronics](https://www.youtube.com/watch?v=BzzqYNYOcWc)
-- [Intro to TinyML Part 2: Deploying a TensorFlow Lite Model to Arduino | Digi-Key Electronics](https://www.youtube.com/watch?v=dU01M61RW8s)
+- [👶 Intro to TinyML Part 1: Training a Neural Network for Arduino in TensorFlow | Digi-Key Electronics](https://www.youtube.com/watch?v=BzzqYNYOcWc)
+- [👶 Intro to TinyML Part 2: Deploying a TensorFlow Lite Model to Arduino | Digi-Key Electronics](https://www.youtube.com/watch?v=dU01M61RW8s)
 - [Coursera - Introduction to Embedded Machine Learning](https://www.coursera.org/learn/introduction-to-embedded-machine-learning)
 - [TinyML: Getting Started with TensorFlow Lite for Microcontrollers | Digi-Key Electronics](https://youtu.be/gDFWCxrJruQ)
 - [TinyML: Getting Started with STM32 X-CUBE-AI | Digi-Key Electronics](https://youtu.be/crJcDqIUbP4)
