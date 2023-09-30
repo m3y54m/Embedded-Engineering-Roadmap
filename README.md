@@ -17,6 +17,10 @@ used in an aircraft or rapid transit system.
 
 > An embedded system is a **computerized system** that is **purpose built for its application**.
 
+["Computer Organization and Embedded Systems" Book:](https://a.co/d/2lt4Svf)
+
+> A **physical system** that employs **computer control** for a **specific purpose**, rather than for general-purpose computation, is referred to as an embedded system.
+
 [Analog Devices Glossary:](https://www.analog.com/en/design-center/glossary/embedded-system.html)
 
 > An embedded system is a system in which the **computer** (generally a microcontroller or microprocessor) is included **as an integral part of the system**.
@@ -181,6 +185,7 @@ _________________
 - [💎 Computer Organization and Design: ARM Edition -  David A. Patterson, John L. Hennessy](https://a.co/d/8YPUXG7)
 - [💎 Digital Design and Computer Architecture: ARM Edition -  Sarah Harris, David Harris](https://a.co/d/4otoVvI)
 - [Digital Design and Computer Architecture: RISC-V Edition -  Sarah Harris, David Harris](https://a.co/d/61l7Jtb)
+- [Computer Organization and Embedded Systems -  Carl Hamacher, Zvonko Vranesic, Safwat Zaky, Naraig Manjikian](https://a.co/d/2lt4Svf)
 - [Embedded Systems Architecture - Tammy Noergaard](https://www.oreilly.com/library/view/embedded-systems-architecture/9780123821966/)
 - [The Definitive Guide to ARM® Cortex®-M0 and Cortex-M0+ Processors - Joseph Yiu](https://www.oreilly.com/library/view/the-definitive-guide/9780128032787/)
 - [The Definitive Guide to ARM® Cortex®-M3 and Cortex®-M4 Processors - Joseph Yiu](https://www.oreilly.com/library/view/the-definitive-guide/9780124080829/)
@@ -1030,6 +1035,12 @@ _________________
 
 - [Embedded Systems Security and TrustZone](https://embeddedsecurity.io/)
 
+#### Hardware Hacking
+
+- [💎 Practical Hardware Pentesting -  Jean-Georges Valle](https://a.co/d/dq4SeNH)
+- [Hardware Hacking Tutorial (YouTube Playlist)](https://www.youtube.com/playlist?list=PLoFdAHrZtKkhcd9k8ZcR4th8Q8PNOx7iU)
+- [💎 The Hardware Hacking Handbook: Breaking Embedded Security with Hardware Attacks - Jasper van Woudenberg, Colin O'Flynn](https://a.co/d/gUIytFX)
+
 #### Cryptography
 
 - [Microchip University - Cryptography Primer](https://mu.microchip.com/cryptography-primer)
@@ -1059,11 +1070,6 @@ _________________
 - [TPM: Basic applications to embedded devices](https://witekio.com/blog/tpm-basic-applications-to-embedded-devices/)
 - [Introduction to Embedded Linux Security - part 1](https://sergioprado.blog/introduction-embedded-linux-security-part-1/)
 - [Introduction to Embedded Linux Security - part 2](https://sergioprado.blog/introduction-embedded-linux-security-part-2/)
-
-#### Hardware Hacking
-
-- [Hardware Hacking Tutorial (YouTube Playlist)](https://www.youtube.com/playlist?list=PLoFdAHrZtKkhcd9k8ZcR4th8Q8PNOx7iU)
-- [💎 The Hardware Hacking Handbook: Breaking Embedded Security with Hardware Attacks - Jasper van Woudenberg, Colin O'Flynn](https://a.co/d/gUIytFX)
 
 ## History
 
