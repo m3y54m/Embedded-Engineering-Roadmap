@@ -164,14 +164,14 @@ _________________
 - [👶 💎 Electronics Tutorials](https://www.electronics-tutorials.ws)
 - [👶 Lessons in Electric Circuits](https://www.allaboutcircuits.com/textbook/)
 - [💎 Fundamentals of Electric Circuits - Charles K. Alexander, Matthew Sadiku](https://www.amazon.com/dp/1260226409?ref_=cm_sw_r_cp_ud_dp_Q11YHXNY2BK530RQZC4S)
-- [Principles of Electric Circuits: Conventional Current Version -  Thomas L Floyd, David M. Buchla](https://a.co/d/32T2t2X)
+- [👶 💎 Principles of Electric Circuits: Conventional Current Version -  Thomas L Floyd, David M. Buchla](https://a.co/d/32T2t2X)
 
 #### Electronics Fundamentals
 
 - [👶 Electronic Basics - GreatScott! (YouTube Playlist)](https://youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
 - [👶 Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
 - [👶 💎 Electronic Devices: Conventional Current Version - Thomas Floyd, David Buchla, Steven Wetterling](https://a.co/d/1dsS0vx)
-- [Electronics Fundamentals: Circuits, Devices & Applications -  Thomas L Floyd, David M. Buchla, Gary D. Snyder](https://a.co/d/4Ye5m8h)
+- [👶 💎 Electronics Fundamentals: Circuits, Devices & Applications - Thomas L Floyd, David M. Buchla, Gary D. Snyder](https://a.co/d/4Ye5m8h)
 - [👶 Practical Electronics for Inventors - Paul Scherz, Simon Monk](https://a.co/d/1QfSN8j)
 - [💎 The Art of Electronics -  Paul Horowitz, Winfield Hill](https://artofelectronics.net/)
 - [Here’s a Quick Way to Know about Major Electronic Components](https://www.elprocus.com/major-electronic-components/)
