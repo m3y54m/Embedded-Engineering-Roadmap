@@ -163,7 +163,7 @@ _________________
 
 - [Electronic Basics - GreatScott! (YouTube Playlist)](https://youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
 - [Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
-- (💎 Electronic Devices: Conventional Current Version - Thomas Floyd, David Buchla, Steven Wetterling)[https://a.co/d/1dsS0vx]
+- [💎 Electronic Devices: Conventional Current Version - Thomas Floyd, David Buchla, Steven Wetterling](https://a.co/d/1dsS0vx)
 - [Electronics Fundamentals: Circuits, Devices & Applications -  Thomas L Floyd, David M. Buchla, Gary D. Snyder](https://a.co/d/4Ye5m8h)
 - [Practical Electronics for Inventors - Paul Scherz, Simon Monk](https://a.co/d/1QfSN8j)
 - [💎 The Art of Electronics -  Paul Horowitz, Winfield Hill](https://artofelectronics.net/)
@@ -490,6 +490,7 @@ _________________
 - [Udemy – Functional Safety According to ISO 26262 - Crash Course](https://www.udemy.com/course/iso-26262-crash-course/)
 - [A Guide to MISRA C Coding Standards - MISRA C and MISRA C++](https://www.perforce.com/resources/qac/misra-c-cpp)
 - [A Firmware Development Standard by Jack Ganssle](http://www.ganssle.com/fsm.htm)
+- [Safety-critical Embedded systems: How to prepare for software development](https://www.nagarro.com/en/blog/embedded-software-development-safety-critical-systems)
 
 _________________
 
