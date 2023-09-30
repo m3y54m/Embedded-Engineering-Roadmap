@@ -144,7 +144,7 @@ _________________
 
 _________________
 
-### Electronics Fundamentals
+### Electronics
 
 #### Basic Math & Calculus
 
@@ -152,30 +152,35 @@ _________________
 - [Calculus For Dummies - Mark Ryan](https://a.co/d/cyvZqE1)
 - [💎 Thomas' Calculus](https://a.co/d/gFcCC37)
 
-#### Electrical Circuits Basics
+#### Principles of Electric Circuits
 
 - [💎 Electronics Tutorials](https://www.electronics-tutorials.ws)
 - [Lessons in Electric Circuits](https://www.allaboutcircuits.com/textbook/)
-- [Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
+- [💎 Fundamentals of Electric Circuits - Charles K. Alexander, Matthew Sadiku](https://www.amazon.com/dp/1260226409?ref_=cm_sw_r_cp_ud_dp_Q11YHXNY2BK530RQZC4S)
+- [Principles of Electric Circuits: Conventional Current Version -  Thomas L Floyd, David M. Buchla](https://a.co/d/32T2t2X)
+
+#### Electronics Fundamentals
+
 - [Electronic Basics - GreatScott! (YouTube Playlist)](https://youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
-- [Fundamentals of Electric Circuits - Charles K. Alexander, Matthew Sadiku](https://www.amazon.com/dp/1260226409?ref_=cm_sw_r_cp_ud_dp_Q11YHXNY2BK530RQZC4S)
-- [Grob’s Basic Electronics - Mitchel E. Schultz](https://a.co/d/g1g73HV)
+- [Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
+- (💎 Electronic Devices: Conventional Current Version - Thomas Floyd, David Buchla, Steven Wetterling)[https://a.co/d/1dsS0vx]
+- [Electronics Fundamentals: Circuits, Devices & Applications -  Thomas L Floyd, David M. Buchla, Gary D. Snyder](https://a.co/d/4Ye5m8h)
+- [Practical Electronics for Inventors - Paul Scherz, Simon Monk](https://a.co/d/1QfSN8j)
 - [💎 The Art of Electronics -  Paul Horowitz, Winfield Hill](https://artofelectronics.net/)
-
-#### Electronic Components
-
 - [Here’s a Quick Way to Know about Major Electronic Components](https://www.elprocus.com/major-electronic-components/)
 - [Encyclopedia of Electronic Components - Charles Platt](https://a.co/d/83cSiU7)
 
 #### Digital Circuits & Logic Design
 
-- [💎 Digital Design - Morris Mano](https://www.portcity.edu.bd/files/636444791235373856_Digitallogicdesign.pdf)
+- [FPGA Fundamentals - Nandland](https://nandland.com/fpga-101/)
+- [💎 Digital Design - Morris Mano, Michael Ciletti](https://a.co/d/c3tBaoc)
+- [Digital Fundamentals - Thomas L. Floyd](https://a.co/d/2lgJKNX)
 
 #### Computer Architecture
 
-- [Computer Organization and Design: ARM Edition -  David A. Patterson, John L. Hennessy](https://a.co/d/8YPUXG7)
+- [💎 Computer Organization and Design: ARM Edition -  David A. Patterson, John L. Hennessy](https://a.co/d/8YPUXG7)
 - [💎 Digital Design and Computer Architecture: ARM Edition -  Sarah Harris, David Harris](https://a.co/d/4otoVvI)
-- [💎 Digital Design and Computer Architecture: RISC-V Edition -  Sarah Harris, David Harris](https://a.co/d/61l7Jtb)
+- [Digital Design and Computer Architecture: RISC-V Edition -  Sarah Harris, David Harris](https://a.co/d/61l7Jtb)
 - [Embedded Systems Architecture - Tammy Noergaard](https://www.oreilly.com/library/view/embedded-systems-architecture/9780123821966/)
 - [The Definitive Guide to ARM® Cortex®-M0 and Cortex-M0+ Processors - Joseph Yiu](https://www.oreilly.com/library/view/the-definitive-guide/9780128032787/)
 - [The Definitive Guide to ARM® Cortex®-M3 and Cortex®-M4 Processors - Joseph Yiu](https://www.oreilly.com/library/view/the-definitive-guide/9780124080829/)
@@ -247,6 +252,7 @@ _________________
 - [FPGA vs. Microcontroller: How to choose the right one for your project](https://www.youtube.com/watch?v=jblpHUCPQYs)
 - [Introduction to FPGA (YouTube Playlist)](https://youtube.com/playlist?list=PLEBQazB0HUyT1WmMONxRZn9NmQ_9CIKhb)
 - [FPGA Fundamentals - Nandland](https://nandland.com/fpga-101/)
+- [Tiny Tapeout: from idea to chip design in minutes!](https://tinytapeout.com/)
 - [Udemy – FPGA Embedded Design, Part 1 - Verilog](https://www.udemy.com/course/fpga-embedded-design-verilog/)
 - [Udemy – FPGA Embedded Design, Part 2 - Basic FPGA Training](https://www.udemy.com/course/fpga-embedded-design-fpgas/)
 - [Udemy – FPGA Embedded Design, Part 3 - EDA Tools](https://www.udemy.com/course/fpga-embedded-design-eda-tools/)
@@ -404,6 +410,7 @@ _________________
 - [Embedded System Design with ARM Cortex-M Microcontrollers: Applications with C, C++ and MicroPython - Cem Ünsalan, Hüseyin Deniz Gürhan, Mehmet Erkin Yücel](https://link.springer.com/book/10.1007/978-3-030-88439-0)
 - [Embedded Systems Design using the MSP430FR2355 LaunchPad - Brock J. LaMeres](https://link.springer.com/book/10.1007/978-3-030-40574-8)
 - [Awesome Embedded: A curated list of awesome embedded programming](https://github.com/nhivp/Awesome-Embedded)
+- [💎 Building Embedded Systems: Programmable Hardware - Changyi Gu](https://link.springer.com/book/10.1007/978-1-4842-1919-5)
 
 #### GPIO
 
