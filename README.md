@@ -163,7 +163,7 @@ _________________
 
 - [👶 💎 Electronics Tutorials](https://www.electronics-tutorials.ws)
 - [👶 Lessons in Electric Circuits](https://www.allaboutcircuits.com/textbook/)
-- [💎 Fundamentals of Electric Circuits - Charles K. Alexander, Matthew Sadiku](https://www.amazon.com/dp/1260226409?ref_=cm_sw_r_cp_ud_dp_Q11YHXNY2BK530RQZC4S)
+- [👶 💎 Fundamentals of Electric Circuits - Charles K. Alexander, Matthew Sadiku](https://www.amazon.com/dp/1260226409?ref_=cm_sw_r_cp_ud_dp_Q11YHXNY2BK530RQZC4S)
 - [👶 💎 Principles of Electric Circuits: Conventional Current Version -  Thomas L Floyd, David M. Buchla](https://a.co/d/32T2t2X)
 
 #### Electronics Fundamentals
@@ -181,6 +181,8 @@ _________________
 
 - [👶 FPGA Fundamentals - Nandland](https://nandland.com/fpga-101/)
 - [💎 Digital Design - Morris Mano, Michael Ciletti](https://a.co/d/c3tBaoc)
+- [👶 💎 Digital Design and Computer Architecture: ARM Edition -  Sarah Harris, David Harris](https://a.co/d/4otoVvI)
+- [👶 💎 Digital Design and Computer Architecture: RISC-V Edition -  Sarah Harris, David Harris](https://a.co/d/61l7Jtb)
 - [👶 Digital Fundamentals - Thomas L. Floyd](https://a.co/d/2lgJKNX)
 
 #### Computer Architecture
