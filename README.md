@@ -772,6 +772,7 @@ _________________
 #### Embedded Linux
 
 - [FreeRTOS vs Linux for Embedded Systems](https://www.bytesnap.com/news-blog/freertos-vs-linux-embedded-systems/)
+- [👶 Linux Basics (LPIC 1)](https://linux1st.com/)
 - [Introduction to Embedded Linux (YouTube Playlist)](https://youtube.com/playlist?list=PLEBQazB0HUyTpoJoZecRK6PpDG31Y7RPB)
 - [Mastering Embedded Linux Programming - Chris Simmonds](https://www.packtpub.com/product/mastering-embedded-linux-programming-third-edition/9781789530384)
 - [Linux From Scratch - step-by-step instructions for building your own custom Linux system](https://www.linuxfromscratch.org/)
