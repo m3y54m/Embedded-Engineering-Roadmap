@@ -108,6 +108,7 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 
 - [DeepBlueMbedded](https://deepbluembedded.com/)
 - [Interrupt Blog by Memfault](https://interrupt.memfault.com/blog/)
+- [ElectronicWings - Hardware Developers Community](https://www.electronicwings.com/)
 - [Microchip University](https://mu.microchip.com/)
 - [Nordic Developer Academy](https://academy.nordicsemi.com/)
 - [Electronics Tutorials](https://www.electronics-tutorials.ws)
@@ -119,6 +120,7 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 
 #### ⚒️ Projects
 
+- [ElectronicWings Projects](https://www.electronicwings.com/projects)
 - [STM32 Firmware - Phil’s Lab (YouTube Playlist)](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
 - [Udemy – STM32 : Internet Of Things with 4G LTE Modem - Hardware](https://www.udemy.com/course/stm32-internet-of-things-with-4g-lte-modem-hardware/)
 
