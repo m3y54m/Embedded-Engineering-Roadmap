@@ -126,6 +126,7 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 
 #### 🗺️ Other Helpful Roadmaps
 
+- [Embedded Artistry Beginners Roadmap](https://embeddedartistry.com/beginners/)
 - [Embedded Systems Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/Embedded%20Systems%20Skill%20Tree)
 - [PCB Design Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/PCB%20Design%20Skill%20Tree)
 
