@@ -473,6 +473,7 @@ _________________
 
 #### DMA
 
+- [Introduction to Direct Memory Access (DMA)](https://www.youtube.com/watch?v=M16l_ymlfcs)
 - [STM32 DMA PT 1](https://www.youtube.com/watch?v=yvLHtXJ_KSg)
 - [STM32 DMA PT 2](https://www.youtube.com/watch?v=Kb8dX18xYuo)
 - [Getting Started With STM32 & Nucleo Part 4: Working with ADC and DMA - Maker.io](https://www.youtube.com/watch?v=EsZLgqhqfO0)
