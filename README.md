@@ -352,7 +352,7 @@ _________________
 #### Python
 
 - [Real Python: Python Tutorials](https://realpython.com/)
-- [👶 Python Crash Course - Eric Matthes](https://a.co/d/hSMTJwE)
+- [👶 💎 Python Crash Course - Eric Matthes](https://a.co/d/hSMTJwE)
 - [MicroPython - Python for microcontrollers](https://micropython.org/)
 - [CircuitPython](https://circuitpython.org/)
 
