@@ -142,9 +142,9 @@ Some of the resources mentioned here will just be used as references. Refer to t
 
 **Symbols Guide:**
 
-👶 : Indicates easy-to-understand and beginner-friendly references. Refer to them if you do not have much knowledge in embedded systems.
+👶 indicates easy-to-understand and beginner-friendly resources. Refer to them if you do not have prior knowledge in a topic.
 
-💎 : Indicates well-known references that have truly invaluable and comprehensive content. Refer to them if you want to deepen your understanding of a topic.
+💎 indicates well-known references that have truly invaluable and comprehensive content. Refer to them if you want to deepen your understanding of a topic.
 _________________
 
 ### Soft Skills
@@ -182,6 +182,7 @@ _________________
 
 #### Digital Circuits & Logic Design
 
+- [👶 Tiny Tapeout > Digital Design Guide](https://tinytapeout.com/digital_design/)
 - [👶 FPGA Fundamentals - Nandland](https://nandland.com/fpga-101/)
 - [💎 Digital Design - Morris Mano, Michael Ciletti](https://a.co/d/c3tBaoc)
 - [👶 💎 Digital Design and Computer Architecture: ARM Edition -  Sarah Harris, David Harris](https://a.co/d/4otoVvI)
@@ -266,7 +267,6 @@ _________________
 - [FPGA vs. Microcontroller: How to choose the right one for your project](https://www.youtube.com/watch?v=jblpHUCPQYs)
 - [Introduction to FPGA (YouTube Playlist)](https://youtube.com/playlist?list=PLEBQazB0HUyT1WmMONxRZn9NmQ_9CIKhb)
 - [FPGA Fundamentals - Nandland](https://nandland.com/fpga-101/)
-- [Tiny Tapeout: from idea to chip design in minutes!](https://tinytapeout.com/)
 - [Udemy – FPGA Embedded Design, Part 1 - Verilog](https://www.udemy.com/course/fpga-embedded-design-verilog/)
 - [Udemy – FPGA Embedded Design, Part 2 - Basic FPGA Training](https://www.udemy.com/course/fpga-embedded-design-fpgas/)
 - [Udemy – FPGA Embedded Design, Part 3 - EDA Tools](https://www.udemy.com/course/fpga-embedded-design-eda-tools/)
