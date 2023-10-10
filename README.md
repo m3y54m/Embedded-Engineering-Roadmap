@@ -376,7 +376,7 @@ _________________
 #### Zig
 
 - [Zig Embedded Group](https://github.com/ZigEmbeddedGroup)
-- [microzig - Unified abstraction layer and HAL for several microcontrollers](https://github.com/ZigEmbeddedGroup/microzig)
+- [MicroZig - Unified abstraction layer and HAL for several microcontrollers](https://github.com/ZigEmbeddedGroup/microzig)
 - [Zig Bare Metal Programming on STM32F103 — Booting up](https://maldus512.medium.com/zig-bare-metal-programming-on-stm32f103-booting-up-b0ecdcf0de35)
 
 _________________
