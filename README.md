@@ -54,6 +54,8 @@ In the embedded industry, all job roles require some soft skills, which cannot b
 #### 🔎 Searching is Your Super Power!
 
 - [Google](https://www.google.com)
+- [Bing](https://www.bing.com/)
+- [DuckDuckGo](https://duckduckgo.com/)
 
 #### 🎥 Courses and YouTube Contents
 
