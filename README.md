@@ -342,28 +342,40 @@ _________________
 
 - [Modern C++ in Embedded Development: (Don't Fear) The ++](https://www.embeddedrelated.com/showarticle/1532.php)
 - [C++ On Embedded Systems](https://blog.mbedded.ninja/programming/languages/c-plus-plus/cpp-on-embedded-systems/)
-- [C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
+- [👶 C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
 - [C++ by The Cherno (YouTube Playlist)](https://youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
 
 #### Assembly
 
-- [Introduction to ARM Assembly Basics](https://azeria-labs.com/writing-arm-assembly-part-1/)
+- [👶 Introduction to ARM Assembly Basics](https://azeria-labs.com/writing-arm-assembly-part-1/)
 - [Udemy – ARM GNU Assembly Programming From Ground Up](https://www.udemy.com/course/arm-gnu-assembly-programming-from-ground-uptm/)
 - [Assembly Language Programming with ARM – Full Tutorial for Beginners](https://www.youtube.com/watch?v=gfmRrPjnEw4)
 
 #### Python
 
-- [Real Python: Python Tutorials](https://realpython.com/)
+- [Python for embedded systems testing](https://www.elsys-design.com/en/python-embedded-systems-testing/)
+- [👶 The Python Handbook – Learn Python for Beginners](https://www.freecodecamp.org/news/the-python-handbook/)
+- [💎 Real Python: Python Tutorials](https://realpython.com/)
 - [👶 💎 Python Crash Course - Eric Matthes](https://a.co/d/hSMTJwE)
 - [MicroPython - Python for microcontrollers](https://micropython.org/)
+- [MicroPython 101](https://docs.arduino.cc/micropython-course/)
 - [CircuitPython](https://circuitpython.org/)
+- [The Pros and Cons of Designing Embedded Systems with MicroPython](https://www.designnews.com/electronics-test/pros-and-cons-designing-embedded-systems-micropython)
 
 #### Rust
 
+- [5 roadblocks to Rust adoption in embedded systems](https://www.embedded.com/5-roadblocks-to-rust-adoption-in-embedded-systems/)
 - [The Embedded Rust Book](https://docs.rust-embedded.org/book/)
 - [The Future of Programming: Rust (YouTube Playlist)](https://www.youtube.com/playlist?list=PLc7W4b0WHTAUAEAguiqpNa5H0QqXJIJI6)
 - [Community Rust support projects for STM32 microcontrollers](https://github.com/stm32-rs)
 - [Rust on ESP Community](https://github.com/esp-rs)
+- [Rust on STM32: Getting started](https://jonathanklimt.de/electronics/programming/embedded-rust/rust-on-stm32-2/)
+
+#### Zig
+
+- [Zig Embedded Group](https://github.com/ZigEmbeddedGroup)
+- [microzig - Unified abstraction layer and HAL for several microcontrollers](https://github.com/ZigEmbeddedGroup/microzig)
+- [Zig Bare Metal Programming on STM32F103 — Booting up](https://maldus512.medium.com/zig-bare-metal-programming-on-stm32f103-booting-up-b0ecdcf0de35)
 
 _________________
 
