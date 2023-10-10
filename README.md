@@ -346,6 +346,7 @@ _________________
 
 #### Assembly
 
+- [Introduction to ARM Assembly Basics](https://azeria-labs.com/writing-arm-assembly-part-1/)
 - [Udemy – ARM GNU Assembly Programming From Ground Up](https://www.udemy.com/course/arm-gnu-assembly-programming-from-ground-uptm/)
 - [Assembly Language Programming with ARM – Full Tutorial for Beginners](https://www.youtube.com/watch?v=gfmRrPjnEw4)
 
