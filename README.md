@@ -339,6 +339,8 @@ _________________
 - [The GNU C Library (glibc)](https://www.gnu.org/software/libc/documentation.html)
 - [C How to Program -  Paul Deitel, Harvey Deitel ](https://deitel.com/c-how-to-program-9-e/)
 - [Effective C - An Introduction to Professional C Programming - Robert C. Seacord](https://nostarch.com/Effective_C)
+- [From Zero to main(): Bare metal C](https://interrupt.memfault.com/blog/zero-to-main-1)
+- [From Zero to main(): Bootstrapping libc with Newlib](https://interrupt.memfault.com/blog/boostrapping-libc-with-newlib)
 
 #### C++
 
@@ -372,6 +374,7 @@ _________________
 - [Community Rust support projects for STM32 microcontrollers](https://github.com/stm32-rs)
 - [Rust on ESP Community](https://github.com/esp-rs)
 - [Rust on STM32: Getting started](https://jonathanklimt.de/electronics/programming/embedded-rust/rust-on-stm32-2/)
+- [https://interrupt.memfault.com/blog/zero-to-main-rust-1](https://interrupt.memfault.com/blog/zero-to-main-rust-1)
 
 #### Zig
 
@@ -388,6 +391,7 @@ _________________
 
 - [GCC and Make - Compiling, Linking and Building C/C++ Applications](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 - [Building STM32 projects from scratch with cross platform tools like Make, CMake and arm-gcc compiler toolchain (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEg2mgYz66IOcHRvvUDf9O1ZCGy58M1Bt)
+- [From Zero to main(): Demystifying Firmware Linker Scripts](https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware)
 - [Bare Metal - From zero to blink](https://www.linuxembedded.fr/2021/02/bare-metal-from-zero-to-blink)
 - [Computer Systems: A Programmer's Perspective - Randal E. Bryant, David R. O'Hallaron | ➡️ Chapter 7: Linking](http://csapp.cs.cmu.edu/3e/home.html)
 
@@ -567,6 +571,7 @@ _________________
 
 - [Understanding I2C](https://www.youtube.com/watch?v=CAvawEcxoPU)
 - [STM32 I2C SLAVE (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfIJKC1ud8gj_P7Qb28aTr0t92uk_vwg0)
+- [I2C in a Nutshell](https://interrupt.memfault.com/blog/i2c-in-a-nutshell)
 
 ##### SPI
 
@@ -1088,6 +1093,8 @@ _________________
 
 #### Secure Boot & Secure Firmware Update
 
+- [Device Firmware Update Cookbook](https://interrupt.memfault.com/blog/device-firmware-update-cookbook)
+- [Saving bandwidth with delta firmware updates](https://interrupt.memfault.com/blog/ota-delta-updates)
 - [AVR231: AES Bootloader](https://www.microchip.com/en-us/application-notes/an2462)
 - [Blinky To Bootloader: Bare Metal Programming Series (YouTube Playlist)](https://www.youtube.com/playlist?list=PLP29wDx6QmW7HaCrRydOnxcy8QmW0SNdQ)
 - [MOOC - Security Part4 : STM32 security in practice (YouTube Playlist)](https://youtube.com/playlist?list=PLnMKNibPkDnF0wt-ZI74SflnsBV4yKzkO)
