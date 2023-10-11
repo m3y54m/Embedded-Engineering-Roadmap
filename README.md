@@ -109,7 +109,7 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 #### 👨‍🏫 Educational Websites
 
 - [DeepBlueMbedded](https://deepbluembedded.com/)
-- [Interrupt Blog by Memfault](https://interrupt.memfault.com/blog/)
+- [💎 Interrupt Blog by Memfault](https://interrupt.memfault.com/blog/)
 - [ElectronicWings - Hardware Developers Community](https://www.electronicwings.com/)
 - [Microchip University](https://mu.microchip.com/)
 - [Nordic Developer Academy](https://academy.nordicsemi.com/)
@@ -410,6 +410,7 @@ _________________
 - [Docker Docs](https://docs.docker.com/get-started/)
 - [Introduction to Docker for the Embedded Developer](https://www.youtube.com/watch?v=Fz7ou-VBk-w)
 - [Intro to CI/CD Part 1: Getting Started with Docker | Digi-Key Electronics](https://youtu.be/1nxGcfIm-TU)
+- [A Modern C Development Environment](https://interrupt.memfault.com/blog/a-modern-c-dev-env)
 _________________
 
 ### Version Control
@@ -867,6 +868,7 @@ _________________
 - [FreeRTOS vs Linux for Embedded Systems](https://www.bytesnap.com/news-blog/freertos-vs-linux-embedded-systems/)
 - [Real-Time Systems Concepts](https://micrium.atlassian.net/wiki/spaces/osiidoc/pages/163855/Real-Time+Systems+Concepts)
 - [RTOS Fundamentals](https://www.freertos.org/implementation/a00002.html)
+- [A Simple Scheduler via an Interrupt-driven Actor Model](https://interrupt.memfault.com/blog/hardware-actor-scheduler)
 - [RTOS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLPW8O6W-1chyrd_Msnn4LD6LBs2slJITs)
 - [Beyond the RTOS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLPW8O6W-1chytjkg63-tM7MI0BvGxxPIP)
 
@@ -1103,6 +1105,7 @@ _________________
 - [TPM (Trusted Platform Module) - Computerphile](https://www.youtube.com/watch?v=RW2zHvVO09g)
 - [Securing Embedded Linux Systems with TPM 2.0 - Philip Tricca, Intel](https://www.youtube.com/watch?v=0qu9R7Tlw9o)
 - [TPM: Basic applications to embedded devices](https://witekio.com/blog/tpm-basic-applications-to-embedded-devices/)
+- [OTA for Embedded Linux Devices: A practical introduction](https://interrupt.memfault.com/blog/ota-for-embedded-linux-devices)
 - [Introduction to Embedded Linux Security - part 1](https://sergioprado.blog/introduction-embedded-linux-security-part-1/)
 - [Introduction to Embedded Linux Security - part 2](https://sergioprado.blog/introduction-embedded-linux-security-part-2/)
 
