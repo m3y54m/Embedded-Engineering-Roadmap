@@ -310,11 +310,13 @@ _________________
 
 #### Design Patterns
 
+- [Practical Design Patterns: Opaque Pointers and Objects in C](https://interrupt.memfault.com/blog/opaque-pointers)
 - [💎 Design Patterns for Embedded Systems in C - Bruce Powel Douglass](https://www.oreilly.com/library/view/design-patterns-for/9781856177078/)
 - [💎 Making Embedded Systems: Design Patterns for Great Software - Elecia White](https://www.oreilly.com/library/view/making-embedded-systems/9781449308889/)
 
 #### State Machines / UML
 
+- [Programming embedded systems the easy way – with state machines](https://www.embedded.com/programming-embedded-systems-the-easy-way-with-state-machines/)
 - [State Machines (YouTube Playlist)](https://www.youtube.com/playlist?list=PLPW8O6W-1chxym7TgIPV9k5E8YJtSBToI)
 - [Event-Driven Programming (YouTube Playlist)](https://www.youtube.com/playlist?list=PLPW8O6W-1chx8Y7Oq2gOE0NUPXmQxu2Wr)
 - [Embedded System Design using UML State Machines](https://www.udemy.com/course/embedded-system-design-using-uml-state-machines/)
@@ -390,10 +392,11 @@ _________________
 #### GCC & Make
 
 - [GCC and Make - Compiling, Linking and Building C/C++ Applications](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
+- [A Shallow Dive into GNU Make](https://interrupt.memfault.com/blog/gnu-make-guidelines#a-shallow-dive-into-gnu-make)
+- [The Best and Worst GCC Compiler Flags For Embedded](https://interrupt.memfault.com/blog/best-and-worst-gcc-clang-compiler-flags)
 - [Building STM32 projects from scratch with cross platform tools like Make, CMake and arm-gcc compiler toolchain (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEg2mgYz66IOcHRvvUDf9O1ZCGy58M1Bt)
 - [From Zero to main(): Demystifying Firmware Linker Scripts](https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware)
 - [Bare Metal - From zero to blink](https://www.linuxembedded.fr/2021/02/bare-metal-from-zero-to-blink)
-- [Computer Systems: A Programmer's Perspective - Randal E. Bryant, David R. O'Hallaron | ➡️ Chapter 7: Linking](http://csapp.cs.cmu.edu/3e/home.html)
 
 #### CMake
 
@@ -482,6 +485,7 @@ _________________
 
 #### Watchdog
 
+- [A Guide to Watchdog Timers for Embedded Systems](https://interrupt.memfault.com/blog/firmware-watchdog-best-practices)
 - [The Watchdog Timer on Arduino](https://www.youtube.com/watch?v=AzZBgH67mgE)
 - [WATCHDOGS in STM32 || IWDG and WWDG || CubeIDE](https://www.youtube.com/watch?v=AelNsnpfbcM)
 
@@ -620,6 +624,8 @@ _________________
 ##### Bluetooth / BLE
 
 - [Bluetooth Basics](https://learn.sparkfun.com/tutorials/bluetooth-basics/all)
+- [Bluetooth Low Energy: A Primer](https://interrupt.memfault.com/blog/bluetooth-low-energy-a-primer)
+- [A Practical Guide to BLE Throughput](https://interrupt.memfault.com/blog/ble-throughput-primer)
 - [SparkFun According to Pete #49 - How Bluetooth Works](https://www.youtube.com/watch?v=zJqGLWQGyvk)
 - [Bluetooth Low Energy Fundamentals - Nordic Semiconductor](https://academy.nordicsemi.com/courses/bluetooth-low-energy-fundamentals/)
 - [Bluetooth Overview - ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/bluetooth.html)
@@ -869,6 +875,7 @@ _________________
 - [Real-Time Systems Concepts](https://micrium.atlassian.net/wiki/spaces/osiidoc/pages/163855/Real-Time+Systems+Concepts)
 - [RTOS Fundamentals](https://www.freertos.org/implementation/a00002.html)
 - [A Simple Scheduler via an Interrupt-driven Actor Model](https://interrupt.memfault.com/blog/hardware-actor-scheduler)
+- [ARM Cortex-M RTOS Context Switching](https://interrupt.memfault.com/blog/cortex-m-rtos-context-switching)
 - [RTOS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLPW8O6W-1chyrd_Msnn4LD6LBs2slJITs)
 - [Beyond the RTOS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLPW8O6W-1chytjkg63-tM7MI0BvGxxPIP)
 
@@ -974,17 +981,23 @@ _________________
 
 ### Debugging
 
+- [Using Asserts in Embedded Systems](https://interrupt.memfault.com/blog/asserts-in-embedded-systems)
+
 #### JTAG / SWD
 
+- [A Deep Dive into ARM Cortex-M Debug Interfaces](https://interrupt.memfault.com/blog/a-deep-dive-into-arm-cortex-m-debug-interfaces)
 - [Guide: Connecting your debugger](https://stm32-base.org/guides/connecting-your-debugger.html)
 - [STM32 + SWD + ST-Link + CubeIDE | Debugging on Custom Hardware Tutorial - Phil's Lab #4](https://www.youtube.com/watch?v=qMUzLU636s8)
 
 #### GDB
 
+- [Advanced GDB Usage](https://interrupt.memfault.com/blog/advanced-gdb)
+- [How do breakpoints even work?](https://interrupt.memfault.com/blog/cortex-m-breakpoints)
 - [GNU GDB Debugger Command Cheat Sheet](http://www.yolinux.com/TUTORIALS/GDB-Commands.html)
 - [gdbgui - A browser-based frontend to gdb (gnu debugger) ](https://www.gdbgui.com/)
 - [everyone needs to stop using print debugging (do THIS instead)](https://www.youtube.com/watch?v=3T3ZDquDDVg)
 - [GDB is REALLY easy! Find Bugs in Your Code with Only A Few Commands](https://www.youtube.com/watch?v=Dq8l1_-QgAc)
+- [Introduction to ARM Semihosting](https://interrupt.memfault.com/blog/arm-semihosting)
 
 #### OpenOCD
 
@@ -999,6 +1012,8 @@ _________________
 - [What is Embedded Testing in Software Testing?](https://www.guru99.com/embedded-software-testing.html)
 - [Verification vs Validation in Embedded Software](https://www.parasoft.com/blog/verification-vs-validation-in-embedded-software/)
 - [Testing: Unit VS Integration VS Regression VS Acceptance](https://medium.com/@touseefmurtaza1993/testing-unit-vs-integration-vs-regression-vs-acceptance-a3e190cc54dd)
+- [Firmware Testing with Renode and GitHub Actions](https://interrupt.memfault.com/blog/test-automation-renode)
+- [Balancing Test Coverage vs. Overhead](https://interrupt.memfault.com/blog/testing-vs-overhead)
 - [💎 Test Driven Development for Embedded C - James Grenning](https://www.amazon.com/Driven-Development-Embedded-Pragmatic-Programmers/dp/193435662X)
 
 #### Unit Testing
