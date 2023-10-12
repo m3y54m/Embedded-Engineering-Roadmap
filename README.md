@@ -376,7 +376,7 @@ _________________
 - [Community Rust support projects for STM32 microcontrollers](https://github.com/stm32-rs)
 - [Rust on ESP Community](https://github.com/esp-rs)
 - [Rust on STM32: Getting started](https://jonathanklimt.de/electronics/programming/embedded-rust/rust-on-stm32-2/)
-- [https://interrupt.memfault.com/blog/zero-to-main-rust-1](https://interrupt.memfault.com/blog/zero-to-main-rust-1)
+- [From Zero to main(): Bare metal Rust](https://interrupt.memfault.com/blog/zero-to-main-rust-1)
 
 #### Zig
 
