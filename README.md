@@ -575,8 +575,8 @@ _________________
 ##### I2C
 
 - [Understanding I2C](https://www.youtube.com/watch?v=CAvawEcxoPU)
-- [STM32 I2C SLAVE (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfIJKC1ud8gj_P7Qb28aTr0t92uk_vwg0)
 - [I2C in a Nutshell](https://interrupt.memfault.com/blog/i2c-in-a-nutshell)
+- [STM32 I2C SLAVE (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfIJKC1ud8gj_P7Qb28aTr0t92uk_vwg0)
 
 ##### SPI
 
@@ -638,9 +638,13 @@ _________________
 - [ESP32 Set an Access Point (AP) using ESP-IDF](https://esp32tutorials.com/esp32-access-point-ap-esp-idf/)
 - [ESP32 ESP-IDF Connect with WiFi – Station Mode Example](https://esp32tutorials.com/esp32-esp-idf-connect-wifi-station-mode-example/)
 
-##### LoRa
+##### LoRa / LoRaWAN
 
+- [The Arduino Guide to LoRa® and LoRaWAN®](https://docs.arduino.cc/learn/communication/lorawan-101)
+- [💎 The Things Fundamentals on LoRaWAN!](https://www.thethingsnetwork.org/docs/lorawan/)
+- [What are LoRa® and LoRaWAN®?](https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-and-lorawan/)
 - [#112 LoRa / LoRaWAN De-Mystified / Tutorial](https://www.youtube.com/watch?v=hMOwbNUpDQA)
+- [ESP32 with LoRa using Arduino IDE – Getting Started](https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/)
 
 ##### Zigbee
 
