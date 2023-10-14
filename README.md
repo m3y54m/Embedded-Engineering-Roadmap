@@ -837,11 +837,13 @@ _________________
 
 - [Buildroot Documentation](https://buildroot.org/docs.html)
 - [Introduction to Embedded Linux Part 1 - Buildroot | Digi-Key Electronics](https://www.youtube.com/watch?v=9vsu67uMcko)
+- [https://rickcarlino.com/2021/building-tiny-raspberry-pi-linux-images-with-buildroot.html](https://rickcarlino.com/2021/building-tiny-raspberry-pi-linux-images-with-buildroot.html)
 
 ##### Yocto
 
 - [💎 Yocto Project Documentation](https://docs.yoctoproject.org/index.html)
 - [Introduction to Embedded Linux Part 2 - Yocto Project | Digi-Key Electronics](https://www.youtube.com/watch?v=2-PwskQrZac&t=7s)
+- [Build Linux Image for Raspberry Pi board using Yocto Project](https://tutorialadda.com/yocto/create-your-own-linux-image-for-the-raspberry-pi-board-using-yocto-project)
 - [Yocto Project Tutorial Series (Basic to Advance) (YouTube Playlist)](https://www.youtube.com/playlist?list=PLwqS94HTEwpQmgL1UsSwNk_2tQdzq3eVJ)
 - [Udemy – Embedded Linux using Yocto](https://www.udemy.com/course/embedded-linux-using-yocto/)
 - [💎 Embedded Linux Systems with the Yocto Project - Rudolf J.Streif](https://www.oreilly.com/library/view/embedded-linux-systems/9780133443301/)
