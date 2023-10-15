@@ -289,7 +289,7 @@ _________________
 - [Does agile work with embedded software?](https://www.embedded.com/does-agile-work-with-embedded-software/)
 - [Scrum for embedded software: Good – but for reasons other than what your manager thinks](https://www.elektrobit.com/trends/scrum-for-embedded-software/)
 - [What Is Scrum: A Guide to the Most Popular Agile Framework](https://www.scrumalliance.org/about-scrum)
-- [Jira](https://confluence.atlassian.com/jira)
+- [Jira - Issue & Project Tracking Software](https://confluence.atlassian.com/jira)
 
 #### V-Model (V-cycle)
 
