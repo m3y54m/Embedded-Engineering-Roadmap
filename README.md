@@ -293,8 +293,8 @@ _________________
 
 #### V-Model (V-cycle)
 
-- [What Is the V-Model in Software Development?](https://builtin.com/software-engineering-perspectives/v-model)
-- [What Is the V Model and How Can It Improve Your Development?](https://www.indeed.com/career-advice/career-development/v-model)
+- [What is the V model for software development](https://x-engineer.org/v-model-software-development/)
+- [V Model In Software Engineering: Ultimate Guideline](https://biplus.com.vn/v-model-in-software-engineering/)
 
 _________________
 
