@@ -235,7 +235,7 @@ _________________
 
 #### Hardware Design Basics
 
-- [👶 Hardware Design - Phil’s Lab (YouTube Playlist)](https://www.youtube.com/playlist?list=PLXSyc11qLa1YhVCZ5xWPuPsE5MkgEy5TF)
+- [👶 💎 Hardware Design - Phil’s Lab (YouTube Playlist)](https://www.youtube.com/playlist?list=PLXSyc11qLa1YhVCZ5xWPuPsE5MkgEy5TF)
 - [Electronic Circuit Design - IFE - TU Graz (YouTube Playlist)](https://www.youtube.com/playlist?list=PLLpZ1DoEuR9tbV8r8bMSI94znm6pRB905)
 - [Microcontroller-Based Hardware Design With Altium Designer (YouTube Playlist)](https://www.youtube.com/playlist?list=PL3aaAq2OJU5HcbClqrOhqBDozF7HmxV-s)
 
