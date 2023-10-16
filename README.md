@@ -122,9 +122,13 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 
 #### ⚒️ Projects
 
+Engaging in hands-on projects is the most effective approach to learning. Rather than solely relying on theoretical knowledge from books or articles, undertaking projects allows for practical learning experiences. Even a seemingly basic project has the potential to teach you more than aimless reading. You can consult books and articles when faced with difficulties in understanding the problems in a real-world project.
+
+- [51 STM32 Projects & Tutorials for Beginners and Up - Hackster.io](https://www.hackster.io/stm32/projects)
+- [STM32 (STM32F103C8) Projects & Tutorials](https://circuitdigest.com/stm32-projects-and-tutorials)
 - [ElectronicWings Projects](https://www.electronicwings.com/projects)
 - [STM32 Firmware - Phil’s Lab (YouTube Playlist)](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
-- [Udemy – STM32 : Internet Of Things with 4G LTE Modem - Hardware](https://www.udemy.com/course/stm32-internet-of-things-with-4g-lte-modem-hardware/)
+- [Raspberry Pi Based Embedded Project Ideas](https://www.rs-online.com/designspark/raspberry-pi-based-embedded-project-ideas)
 
 #### 🗺️ Other Helpful Roadmaps
 
