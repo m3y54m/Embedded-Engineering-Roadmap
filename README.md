@@ -365,8 +365,11 @@ _________________
 - [👶 The Python Handbook – Learn Python for Beginners](https://www.freecodecamp.org/news/the-python-handbook/)
 - [💎 Real Python: Python Tutorials](https://realpython.com/)
 - [👶 💎 Python Crash Course - Eric Matthes](https://a.co/d/hSMTJwE)
+
+##### Python for Microcontrollers
+
 - [MicroPython - Python for microcontrollers](https://micropython.org/)
-- [MicroPython 101](https://docs.arduino.cc/micropython-course/)
+- [MicroPython 101 | Arduino Documentation](https://docs.arduino.cc/micropython-course/)
 - [CircuitPython](https://circuitpython.org/)
 - [The Pros and Cons of Designing Embedded Systems with MicroPython](https://www.designnews.com/electronics-test/pros-and-cons-designing-embedded-systems-micropython)
 
@@ -379,6 +382,8 @@ _________________
 - [Rust on ESP Community](https://github.com/esp-rs)
 - [Rust on STM32: Getting started](https://jonathanklimt.de/electronics/programming/embedded-rust/rust-on-stm32-2/)
 - [From Zero to main(): Bare metal Rust](https://interrupt.memfault.com/blog/zero-to-main-rust-1)
+- [Writing an OS in Rust - Philipp Oppermann's blog](https://os.phil-opp.com/)
+- [Kernel Driver with Rust in 2022](https://not-matthias.github.io/posts/kernel-driver-with-rust/)
 
 #### Zig
 
@@ -805,8 +810,11 @@ _________________
 #### Operating System Fundamentals
 
 - [👶 Putting the “You” in CPU](https://cpu.land/)
+- [👶 The little book about OS development](https://littleosbook.github.io/)
+- [👶 Operating Systems: From 0 to 1](https://github.com/tuhdo/os01/blob/master/Operating_Systems_From_0_to_1.pdf)
 - [💎 Operating Systems: Three Easy Pieces -  Remzi H Arpaci-Dusseau, Andrea C Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/OSTEP/)
-- [Modern Operating Systems - Andrew S. Tanenbaum, Herbert Bos](https://www.pearson.com/en-us/subject-catalog/p/modern-operating-systems/P200000003295)
+- [💎 Modern Operating Systems - Andrew S. Tanenbaum, Herbert Bos](https://www.pearson.com/en-us/subject-catalog/p/modern-operating-systems/P200000003295)
+- [Writing an OS in Rust - Philipp Oppermann's blog](https://os.phil-opp.com/)
 
 
 #### Embedded Linux
@@ -821,6 +829,7 @@ _________________
 
 ##### Linux Kernel
 
+- [👶 Writing a Simple Linux Kernel Module](https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234)
 - [The Linux Kernel - David A Rusling](https://tldp.org/LDP/tlk/)
 - [💎 The Linux Programming Interface - Michael Kerrisk](https://man7.org/tlpi/)
 - [How Linux Works - Brian Ward](https://nostarch.com/howlinuxworks3)
@@ -829,7 +838,9 @@ _________________
 ##### Linux Device Drivers
 
 - [💎 Linux Device Drivers -  Jonathan Corbet, Alessandro Rubini, Greg Kroah-Hartman](https://lwn.net/Kernel/LDD3/)
+- [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/)
 - [Mastering Linux Device Driver Development - John Madieu](https://www.packtpub.com/product/mastering-linux-device-driver-development/9781789342048)
+- [Kernel Driver with Rust in 2022](https://not-matthias.github.io/posts/kernel-driver-with-rust/)
 
 ##### U-Boot
 
