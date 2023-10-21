@@ -1045,9 +1045,10 @@ _________________
 
 #### Unit Testing
 
+- [Embedded C/C++ Unit Testing Basics](https://interrupt.memfault.com/blog/unit-testing-basics)
+- [Embedded C/C++ Unit Testing with Mocks](https://interrupt.memfault.com/blog/unit-test-mocking)
 - [Unit Testing for C (especially Embedded Software)](http://www.throwtheswitch.org/unity)
 - [GoogleTest - Google Testing and Mocking Framework](https://github.com/google/googletest)
-- [Embedded C/C++ Unit Testing with Mocks](https://interrupt.memfault.com/blog/unit-test-mocking)
 - [Unit Testing Principles, Practices, and Patterns - Vladimir Khorikov](https://www.manning.com/books/unit-testing)
 
 #### Integration Testing
