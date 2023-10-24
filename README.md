@@ -605,6 +605,7 @@ _________________
 
 ##### I3C
 
+- [What is I3C®?](https://www.youtube.com/watch?v=g3TBNHec5Ec)
 - [MIPI I3C & MIPI I3C Basic](https://www.mipi.org/specifications/i3c-sensor-specification)
 - [I3C Protocol: Understanding and Debug](https://prodigytechno.com/mipi-i3c-protocol-debug/)
 - [MIPI I3C Basic - The next generation sensor interface enabling low-power IoT applications](https://www.youtube.com/watch?v=xWKxZp_9RFQ)
