@@ -616,11 +616,13 @@ _________________
 - [1-Wire® Technology Overview](https://www.youtube.com/watch?v=CjH-OztKe00)
 
 
-#### Audio Protocols
+#### Digital Audio Protocols
 
 ##### I2S
 
+- [Introduction to the I2S Interface](https://www.allaboutcircuits.com/technical-articles/introduction-to-the-i2s-interface/)
 - [Building a Digital Music Player with I2S?! What is I2S! EB#45](https://www.youtube.com/watch?v=qNLvoSQCx60)
+- [UM11732 - I2S bus specification](https://www.nxp.com/docs/en/user-manual/UM11732.pdf)
 
 #### Image & Video Protocols
 
