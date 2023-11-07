@@ -625,6 +625,11 @@ _________________
 - [Building a Digital Music Player with I2S?! What is I2S! EB#45](https://www.youtube.com/watch?v=qNLvoSQCx60)
 - [UM11732 - I2S bus specification](https://www.nxp.com/docs/en/user-manual/UM11732.pdf)
 
+##### PCM
+
+- [HUAWEI LGA Module - PCM Audio Design Guide](https://www.paoli.cz/out/media/HUAWEI%20LGA%20Module%20PCM%20Audio%20Design%20Guide-V100R001_04(1).pdf)
+- [PCM Terminology and Concepts](https://larsimmisch.github.io/pyalsaaudio/terminology.html)
+
 #### Image & Video Protocols
 
 ##### CSI-2
