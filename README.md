@@ -890,12 +890,13 @@ _________________
 - [CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
 - [C++ Concurrency in Action - Anthony Williams](https://www.manning.com/books/c-plus-plus-concurrency-in-action)
 
-##### Inter Process Communication (IPC)
+##### Inter-Process Communication (IPC)
 
 - [Inter Process Communication (IPC)](https://www.scaler.com/topics/operating-system/inter-process-communication-in-os/)
 - [What Is Inter-Process Communication In Linux?](https://www.scaler.com/topics/ipc-in-linux/)
 - [Udemy – Linux Inter Process Communication (IPC) from Scratch in C](https://www.udemy.com/course/linuxipc/)
 - [Udemy – Multi-Threading and IPC with Qt 5 C++](https://www.udemy.com/course/multi-threading-and-ipc-with-qt-c-plus-plus/)
+- [D-Bus Tutorial](https://dbus.freedesktop.org/doc/dbus-tutorial.html)
 
 ##### Qt Framework
 
