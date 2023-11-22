@@ -747,6 +747,7 @@ _________________
 - [UDP doesn't suck! It's the BEST L4 protocol for THESE types of applications...](https://www.youtube.com/watch?v=LaDRWycC7Iw)
 - [Networking tutorial - Ben Eater (YouTube Playlist)](https://www.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW)
 - [💎 Hands-On Network Programming with C - Lewis Van Winkle](https://www.amazon.com/exec/obidos/ASIN/1789349869/aoeu-20)
+- [💎 Network Algorithmics - George Varghese, Jun Xu](https://www.oreilly.com/library/view/network-algorithmics-2nd/9780128099865/)
 - [tcpdump & libpcap libraries](https://www.tcpdump.org/)
 - [lwIP - A Lightweight TCP/IP stack](https://savannah.nongnu.org/projects/lwip/)
 - [lwIP (ESP-IDF)](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/lwip.html)
