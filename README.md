@@ -57,6 +57,16 @@ In the embedded industry, all job roles require some soft skills, which cannot b
 - [Bing](https://www.bing.com/)
 - [DuckDuckGo](https://duckduckgo.com/)
 
+#### ⚒️ Projects
+
+Engaging in hands-on projects is the most effective approach to learning. Rather than solely relying on theoretical knowledge from books or articles, undertaking projects allows for practical learning experiences. Even a seemingly basic project has the potential to teach you more than aimless reading. You can refer to books, articles, and courses when faced with difficulties in understanding the problems in a real-world project.
+
+- [51 STM32 Projects & Tutorials for Beginners and Up - Hackster.io](https://www.hackster.io/stm32/projects)
+- [STM32 (STM32F103C8) Projects & Tutorials](https://circuitdigest.com/stm32-projects-and-tutorials)
+- [ElectronicWings Projects](https://www.electronicwings.com/projects)
+- [STM32 Firmware - Phil’s Lab (YouTube Playlist)](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
+- [Raspberry Pi Based Embedded Project Ideas](https://www.rs-online.com/designspark/raspberry-pi-based-embedded-project-ideas)
+
 #### 🎥 Courses and YouTube Contents
 
 - [Coursera - Introduction to Embedded Systems Software and Development Environments](https://www.coursera.org/learn/introduction-embedded-systems)
@@ -119,16 +129,6 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 - [STM32 World](https://stm32world.com)
 - [Random Nerd Tutorials | Learn ESP32, ESP8266, Arduino, and Raspberry Pi](https://randomnerdtutorials.com/)
 - [ControllersTech](https://controllerstech.com/)
-
-#### ⚒️ Projects
-
-Engaging in hands-on projects is the most effective approach to learning. Rather than solely relying on theoretical knowledge from books or articles, undertaking projects allows for practical learning experiences. Even a seemingly basic project has the potential to teach you more than aimless reading. You can consult books and articles when faced with difficulties in understanding the problems in a real-world project.
-
-- [51 STM32 Projects & Tutorials for Beginners and Up - Hackster.io](https://www.hackster.io/stm32/projects)
-- [STM32 (STM32F103C8) Projects & Tutorials](https://circuitdigest.com/stm32-projects-and-tutorials)
-- [ElectronicWings Projects](https://www.electronicwings.com/projects)
-- [STM32 Firmware - Phil’s Lab (YouTube Playlist)](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
-- [Raspberry Pi Based Embedded Project Ideas](https://www.rs-online.com/designspark/raspberry-pi-based-embedded-project-ideas)
 
 #### 🗺️ Other Helpful Roadmaps
 
@@ -765,7 +765,7 @@ _________________
 
 _________________
 
-### Memories
+### Memory Technologies
 
 - [Memory Options for Embedded Systems: How to Select the Right Memory Configuration](https://www.qt.io/embedded-development-talk/memory-options-for-embedded-systems-how-to-select-the-right-memory-configuration)
 
@@ -1051,10 +1051,13 @@ _________________
 - [Embedded Testing](https://artoftesting.com/embedded-testing)
 - [What is Embedded Testing in Software Testing?](https://www.guru99.com/embedded-software-testing.html)
 - [Verification vs Validation in Embedded Software](https://www.parasoft.com/blog/verification-vs-validation-in-embedded-software/)
+
+#### Test Driven Development (TDD)
+
+- [💎 Test Driven Development for Embedded C - James Grenning](https://www.amazon.com/Driven-Development-Embedded-Pragmatic-Programmers/dp/193435662X)
 - [Testing: Unit VS Integration VS Regression VS Acceptance](https://medium.com/@touseefmurtaza1993/testing-unit-vs-integration-vs-regression-vs-acceptance-a3e190cc54dd)
 - [Firmware Testing with Renode and GitHub Actions](https://interrupt.memfault.com/blog/test-automation-renode)
 - [Balancing Test Coverage vs. Overhead](https://interrupt.memfault.com/blog/testing-vs-overhead)
-- [💎 Test Driven Development for Embedded C - James Grenning](https://www.amazon.com/Driven-Development-Embedded-Pragmatic-Programmers/dp/193435662X)
 
 #### Unit Testing
 
