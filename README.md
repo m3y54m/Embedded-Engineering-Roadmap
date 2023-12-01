@@ -1,6 +1,6 @@
 # Embedded Systems Engineering Roadmap
 
-This roadmap is designed to assist beginners aspiring to build a career as an Embedded Engineer / Developer. To provide comprehensive guidance, the topics have been carefully selected based on current job requirements and organized according to my personal experience.
+This roadmap is designed to help beginners aspiring to build a career as an Embedded Engineer / Developer, as well as assist current practitioners in expanding their skills. To provide comprehensive guidance, the topics have been carefully selected based on current job requirements and organized according to my personal experience.
 
 Becoming an embedded engineer requires a broad understanding of both software and hardware. If you are starting on this journey, you must be highly motivated and passionate to pursue this path. The field of embedded systems demands a solid understanding of hardware functionality. But, as the well-known saying goes, "Hardware is hard!". So, patience and passion are the essential qualities that will help you overcome the various challenges encountered along this journey.
 
@@ -47,17 +47,15 @@ In the embedded industry, all job roles require some soft skills, which cannot b
 
 ![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)
 
-## Learning Resources
+## ⭐️ Featured Material
 
-### ⭐️ Featured Material
-
-#### 🔎 Searching is Your Super Power!
+### 🔎 Searching is Your Super Power!
 
 - [Google](https://www.google.com)
 - [Bing](https://www.bing.com/)
 - [DuckDuckGo](https://duckduckgo.com/)
 
-#### ⚒️ Projects
+### ⚒️ Projects
 
 Engaging in hands-on projects is the most effective approach to learning. Rather than solely relying on theoretical knowledge from books or articles, undertaking projects allows for practical learning experiences. Even a seemingly basic project has the potential to teach you more than aimless reading. You can refer to books, articles, and courses when faced with difficulties in understanding the problems in a real-world project.
 
@@ -67,7 +65,7 @@ Engaging in hands-on projects is the most effective approach to learning. Rather
 - [STM32 Firmware - Phil’s Lab (YouTube Playlist)](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
 - [Raspberry Pi Based Embedded Project Ideas](https://www.rs-online.com/designspark/raspberry-pi-based-embedded-project-ideas)
 
-#### 🎥 Courses and YouTube Contents
+### 🎥 Courses and YouTube Contents
 
 - [Coursera - Introduction to Embedded Systems Software and Development Environments](https://www.coursera.org/learn/introduction-embedded-systems)
 - [Coursera - Embedded Software and Hardware Architecture](https://www.coursera.org/learn/embedded-software-hardware)
@@ -81,7 +79,7 @@ Engaging in hands-on projects is the most effective approach to learning. Rather
 - [edX - Embedded Systems - Shape The World: Microcontroller Input/Output](https://learning.edx.org/course/course-v1:UTAustinX+UT.6.10x+3T2022/home)
 - [edX - Embedded Systems - Shape The World: Multi-Threaded Interfacing](https://www.edx.org/learn/computer-programming/the-university-of-texas-at-austin-embedded-systems-shape-the-world-multi-threaded-in)
 
-#### 🛠️ IDEs
+### 🛠️ IDEs
 
 - [Keil MDK & µVision](https://www.keil.com/)
 - [IAR Embedded Workbench](https://www.iar.com)
@@ -90,14 +88,14 @@ Engaging in hands-on projects is the most effective approach to learning. Rather
 - [MPLAB® X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
 - [MCUXpresso IDE](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE)
 
-#### 👨‍💻 VS Code Extensions
+### 👨‍💻 VS Code Extensions
 
 - [Cortex-Debug](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug)
 - [STM32 VS Code Extension](https://marketplace.visualstudio.com/items?itemName=stmicroelectronics.stm32-vscode-extension)
 - [Espressif IDF](https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension)
 - [MCUXpresso for VS Code](https://marketplace.visualstudio.com/items?itemName=NXPSemiconductors.mcuxpresso)
 
-##### PlatformIO
+#### PlatformIO
 
 PlatformIO is a cross-platform, cross-architecture, multiple framework, professional tool for embedded systems engineers and for software developers who write applications for embedded products.
 
@@ -105,7 +103,7 @@ PlatformIO is a cross-platform, cross-architecture, multiple framework, professi
 
 PlatformIO is not yet extensively adopted in industrial and large-scale projects, however, it is an excellent choice for individuals working on smaller projects. This is because it greatly reduces the need to install frameworks and setup build and debug tools, allowing you to concentrate on programming.
 
-#### 🕹️ Arduino
+### 🕹️ Arduino
 
 If you do not have any background in programming the embedded systems, Arduino boards and libraries are the best choice for you to start and learn the basics. Just keep in mind that most of the Arduino libraries are developed for learning purposes and are not optimized to be used in industry.
 
@@ -116,7 +114,7 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 - [Arduino in a commercial product?](https://www.youtube.com/watch?v=c5LzsqeSCAc)
 - [Arduino Project to Product (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQd6Fsf5NQ75M9llbi1_j_8)
 
-#### 👨‍🏫 Educational Websites
+### 👨‍🏫 Educational Websites
 
 - [DeepBlueMbedded](https://deepbluembedded.com/)
 - [💎 Interrupt Blog by Memfault](https://interrupt.memfault.com/blog/)
@@ -130,17 +128,17 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 - [Random Nerd Tutorials | Learn ESP32, ESP8266, Arduino, and Raspberry Pi](https://randomnerdtutorials.com/)
 - [ControllersTech](https://controllerstech.com/)
 
-#### 🗺️ Other Helpful Roadmaps
+### 🗺️ Other Helpful Roadmaps
 
 - [Embedded Artistry Beginners Roadmap](https://embeddedartistry.com/beginners/)
 - [Embedded Systems Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/Embedded%20Systems%20Skill%20Tree)
 - [PCB Design Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/PCB%20Design%20Skill%20Tree)
 
-#### ❓ Ask Questions
+### ❓ Ask Questions
 
 - [Electrical Engineering Stack Exchange](https://electronics.stackexchange.com/)
 
-_________________
+## 📚 Learning Resources
 
 **⚠️ Note:** It is not necessary to read or watch all of the following materials, but it is important to study enough to have at least a basic understanding of the required topics. Of course, the more you study and practice, the more your knowledge will grow. This continuous learning process will gradually improve your skills and make you a better engineer.
 
