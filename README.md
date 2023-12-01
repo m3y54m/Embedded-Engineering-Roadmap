@@ -43,7 +43,7 @@ With this in mind, the roadmap is designed to cover topics necessary for an "Emb
 
 In the embedded industry, all job roles require some soft skills, which cannot be acquired solely through reading or watching videos. Soft skills are developed through communication with others and facing various work challenges. Improving soft skills is not a one-size-fits-all approach. It varies depending on your individual characteristics and involves being aware of your own strengths and weaknesses. Enhancing these skills takes time and effort.
 
-**Remember that the emphasis on software or hardware skills may vary depending on the specific requirements of the company or job position.**
+**Remember that the importance of individual software and hardware skills can differ depending on the specific needs of the company or role.**
 
 ![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)
 
