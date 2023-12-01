@@ -41,7 +41,7 @@ The hardware and software sections overlap in many embedded job roles. Different
 
 With this in mind, the roadmap is designed to cover topics necessary for an "Embedded Systems Engineer" role. If you are aiming for an embedded software position, you should focus more on software skills in the roadmap. Conversely, if you are interested in an embedded hardware job, you should prioritize hardware skills.
 
-In the embedded industry, all job roles require some soft skills, which cannot be acquired solely through reading or watching videos. Soft skills are developed through communication with others and facing various work challenges. Improving soft skills is not a one-size-fits-all approach. It varies depending on your individual characteristics and involves being aware of your own strengths and weaknesses. Enhancing these skills takes time and effort.
+In the embedded industry, all job roles require some soft skills, which cannot be acquired solely through reading or watching videos. Soft skills are developed through communication with others and facing various work challenges. Improving soft skills is not a one-size-fits-all approach. It will vary based on one's individual traits and requires self-awareness of your strengths and areas for growth. Enhancing these skills takes time and effort.
 
 **Remember that the importance of individual software and hardware skills can differ depending on the specific needs of the company or role.**
 
