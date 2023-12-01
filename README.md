@@ -153,7 +153,7 @@ PlatformIO is not yet extensively adopted in industrial and large-scale projects
 
 ## 📚 Learning Resources
 
-**⚠️ Note:** It is not necessary to read or watch all of the following materials, but it is important to study enough to have at least a basic understanding of the required topics. Of course, the more you study and practice, the more your knowledge will grow. This continuous learning process will gradually improve your skills and make you a better engineer.
+**⚠️ Note:** It is not necessary to read or watch all of the following materials, but it is important to study enough to have at least a basic understanding of the required topics. Naturally, the greater dedication you apply to studying and practicing, the more your expertise will expand.
 
 Some of the resources mentioned here will just be used as references. Refer to them only when you need them.
 
