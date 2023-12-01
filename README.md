@@ -33,7 +33,7 @@ used in an aircraft or rapid transit system.
 >
 > In some cases, embedded systems are **part of a larger system** or product, as in the case of an antilock braking system in a car.
 
-## Roadmap
+## 🗺️ The Roadmap
 
 The roadmap is divided into three main sections: **SOFTWARE**, **HARDWARE**, and **SOFT SKILLS**.
 
@@ -47,13 +47,9 @@ In the embedded industry, all job roles require some soft skills, which cannot b
 
 ![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)
 
-## ⭐️ Featured Material
+## 😕 Don't Know Where to Start!
 
-### 🔎 Searching is Your Super Power!
-
-- [Google](https://www.google.com)
-- [Bing](https://www.bing.com/)
-- [DuckDuckGo](https://duckduckgo.com/)
+If you feel overwhelmed by the extensive list of topics in the roadmap, you're not alone. Before delving too deeply, let's ease into it with some simple starter projects.
 
 ### ⚒️ Projects
 
@@ -65,43 +61,40 @@ Engaging in hands-on projects is the most effective approach to learning. Rather
 - [STM32 Firmware - Phil’s Lab (YouTube Playlist)](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
 - [Raspberry Pi Based Embedded Project Ideas](https://www.rs-online.com/designspark/raspberry-pi-based-embedded-project-ideas)
 
+### ❓ Search and Ask Questions!
+
+Use search engines to find the answers to your questions.
+
+- [Google](https://www.google.com)
+- [Bing](https://www.bing.com/)
+- [DuckDuckGo](https://duckduckgo.com/)
+
+If you can't find what you're looking for using search engines, AI chatbots can also provide assistance. Keep in mind that AI may provide incorrect answers in some cases. It's best to confirm any answers with more reliable references.
+
+- [Bing Chat](https://www.bing.com/chat)
+- [ChatGPT](https://chat.openai.com)
+- [Poe - Fast, Helpful AI Chat](https://poe.com)
+
+If you have reservations about relying on AI advice alone, you can also ask real people your questions:
+
+- [Electrical Engineering Stack Exchange](https://electronics.stackexchange.com/)
+- [Reddit · r/embedded](https://www.reddit.com/r/embedded/)
+
 ### 🎥 Courses and YouTube Contents
 
+You may have heard that YouTube is a university. And it's true - there is an immense amount of invaluable free content on embedded systems available on YouTube. You'll also find some excellent free courses through Coursera and EdX. Additionally, Udemy offers some high-quality paid course options.
+
+- [DigiKey (YouTube Channel)](https://www.youtube.com/@digikey)
 - [Coursera - Introduction to Embedded Systems Software and Development Environments](https://www.coursera.org/learn/introduction-embedded-systems)
 - [Coursera - Embedded Software and Hardware Architecture](https://www.coursera.org/learn/embedded-software-hardware)
 - [Fastbit Embedded Brain Academy](https://fastbitlab.com/)
 - [Quantum Leaps, LLC (YouTube Channel)](https://www.youtube.com/@StateMachineCOM)
-- [DigiKey (YouTube Channel)](https://www.youtube.com/@digikey)
 - [element14 presents (YouTube Channel)](https://www.youtube.com/@element14presents)
 - [Ben Eater (YouTube Channel)](https://www.youtube.com/@BenEater)
 - [Phil’s Lab (YouTube Channel)](https://www.youtube.com/@PhilsLab)
 - [Embedded Systems - Jacob Sorber (YouTube Playlist)](https://www.youtube.com/playlist?list=PL9IEJIKnBJjEcPAz6fss-Hx0TLytCOMVC)
 - [edX - Embedded Systems - Shape The World: Microcontroller Input/Output](https://learning.edx.org/course/course-v1:UTAustinX+UT.6.10x+3T2022/home)
 - [edX - Embedded Systems - Shape The World: Multi-Threaded Interfacing](https://www.edx.org/learn/computer-programming/the-university-of-texas-at-austin-embedded-systems-shape-the-world-multi-threaded-in)
-
-### 🛠️ IDEs
-
-- [Keil MDK & µVision](https://www.keil.com/)
-- [IAR Embedded Workbench](https://www.iar.com)
-- [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
-- [Microchip Studio for AVR® and SAM Devices](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio)
-- [MPLAB® X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
-- [MCUXpresso IDE](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE)
-
-### 👨‍💻 VS Code Extensions
-
-- [Cortex-Debug](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug)
-- [STM32 VS Code Extension](https://marketplace.visualstudio.com/items?itemName=stmicroelectronics.stm32-vscode-extension)
-- [Espressif IDF](https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension)
-- [MCUXpresso for VS Code](https://marketplace.visualstudio.com/items?itemName=NXPSemiconductors.mcuxpresso)
-
-#### PlatformIO
-
-PlatformIO is a cross-platform, cross-architecture, multiple framework, professional tool for embedded systems engineers and for software developers who write applications for embedded products.
-
-- [PlatformIO - A professional collaborative platform for embedded development](https://platformio.org/)
-
-PlatformIO is not yet extensively adopted in industrial and large-scale projects, however, it is an excellent choice for individuals working on smaller projects. This is because it greatly reduces the need to install frameworks and setup build and debug tools, allowing you to concentrate on programming.
 
 ### 🕹️ Arduino
 
@@ -134,9 +127,29 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 - [Embedded Systems Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/Embedded%20Systems%20Skill%20Tree)
 - [PCB Design Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/PCB%20Design%20Skill%20Tree)
 
-### ❓ Ask Questions
+### 🛠️ IDEs
 
-- [Electrical Engineering Stack Exchange](https://electronics.stackexchange.com/)
+- [Keil MDK & µVision](https://www.keil.com/)
+- [IAR Embedded Workbench](https://www.iar.com)
+- [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
+- [Microchip Studio for AVR® and SAM Devices](https://www.microchip.com/en-us/tools-resources/develop/microchip-studio)
+- [MPLAB® X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
+- [MCUXpresso IDE](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE)
+
+### 👨‍💻 VS Code Extensions
+
+- [Cortex-Debug](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug)
+- [STM32 VS Code Extension](https://marketplace.visualstudio.com/items?itemName=stmicroelectronics.stm32-vscode-extension)
+- [Espressif IDF](https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension)
+- [MCUXpresso for VS Code](https://marketplace.visualstudio.com/items?itemName=NXPSemiconductors.mcuxpresso)
+
+#### PlatformIO
+
+PlatformIO is a cross-platform, cross-architecture, multiple framework, professional tool for embedded systems engineers and for software developers who write applications for embedded products.
+
+- [PlatformIO - A professional collaborative platform for embedded development](https://platformio.org/)
+
+PlatformIO is not yet extensively adopted in industrial and large-scale projects, however, it is an excellent choice for individuals working on smaller projects. This is because it greatly reduces the need to install frameworks and setup build and debug tools, allowing you to concentrate on programming.
 
 ## 📚 Learning Resources
 
