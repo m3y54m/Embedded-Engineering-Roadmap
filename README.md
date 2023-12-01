@@ -143,7 +143,7 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 - [Espressif IDF](https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension)
 - [MCUXpresso for VS Code](https://marketplace.visualstudio.com/items?itemName=NXPSemiconductors.mcuxpresso)
 
-#### PlatformIO
+### 🐜 PlatformIO
 
 PlatformIO is a cross-platform, cross-architecture, multiple framework, professional tool for embedded systems engineers and for software developers who write applications for embedded products.
 
