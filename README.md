@@ -751,7 +751,7 @@ _________________
 - [J1939 Explained - A Simple Intro [v2.0 | 2021]](https://www.youtube.com/watch?v=vlqxu9ojbHg)
 - [Unified Diagnostic Services (UDS) Explained - A Simple Intro [2022]](https://www.youtube.com/watch?v=CV_B8tJgI5E)
 
-#### Network Protocols
+#### Network Protocols / Socket Programming
 
 - [Networking Fundamentals - Practical Networking (YouTube Playlist)](https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
 - [TCP vs UDP - Explaining Facts and Debunking Myths - TCP Masterclass](https://www.youtube.com/watch?v=jE_FcgpQ7Co)
