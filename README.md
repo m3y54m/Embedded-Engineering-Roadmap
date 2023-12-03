@@ -936,7 +936,8 @@ _________________
 
 - [FreeRTOS - Market leading RTOS](https://www.freertos.org)
 - [👶 Introduction to RTOS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz)
-- [Mastering the FreeRTOS Real Time Kernel - a Hands On Tutorial Guide](https://www.freertos.org/Documentation/RTOS_book.html)
+- [💎 Mastering the FreeRTOS Real Time Kernel - a Hands On Tutorial Guide](https://www.freertos.org/Documentation/RTOS_book.html)
+- [👶 FreeRTOS Simplified: A Beginner's Guide to Develop and Debug FreeRTOS Applications](https://mu.microchip.com/freertos-simplified)
 - [Getting Started With STM32 and Nucleo Part 3: FreeRTOS - How To Run Multiple Threads w/ CMSIS-RTOS](https://www.youtube.com/watch?v=CdpgqpuPSyQ)
 - [Hands-On RTOS with Microcontrollers: Building real-time embedded systems using FreeRTOS, STM32 MCUs, and SEGGER debug tools - Brian Amos](https://a.co/d/11MSPlo)
 - [Beginning STM32: Developing with FreeRTOS, libopencm3 and GCC - Warren Gay](https://link.springer.com/book/10.1007/978-1-4842-3624-6)
