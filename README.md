@@ -560,6 +560,7 @@ _________________
 - [A Guide to MISRA C Coding Standards - MISRA C and MISRA C++](https://www.perforce.com/resources/qac/misra-c-cpp)
 - [A Firmware Development Standard by Jack Ganssle](http://www.ganssle.com/fsm.htm)
 - [Safety-critical Embedded systems: How to prepare for software development](https://www.nagarro.com/en/blog/embedded-software-development-safety-critical-systems)
+- [IEC 61508 - Functional safety of electrical/electronic/programmable electronic safety-related systems](https://webstore.iec.ch/publication/5515)
 
 _________________
 
