@@ -55,6 +55,7 @@ If you feel overwhelmed by the extensive list of topics in the roadmap, you're n
 
 Engaging in hands-on projects is the most effective approach to learning. Rather than solely relying on theoretical knowledge from books or articles, undertaking projects allows for practical learning experiences. Even a seemingly basic project has the potential to teach you more than aimless reading. You can refer to books, articles, and courses when faced with difficulties in understanding the problems in a real-world project.
 
+- [Random Nerd Tutorials | Learn ESP32, ESP8266, Arduino, and Raspberry Pi](https://randomnerdtutorials.com/)
 - [51 STM32 Projects & Tutorials for Beginners and Up - Hackster.io](https://www.hackster.io/stm32/projects)
 - [STM32 (STM32F103C8) Projects & Tutorials](https://circuitdigest.com/stm32-projects-and-tutorials)
 - [ElectronicWings Projects](https://www.electronicwings.com/projects)
@@ -118,7 +119,6 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 - [SparkFun Learn: Learn at SparkFun Electronics](https://learn.sparkfun.com/)
 - [Adafruit Learning System](https://learn.adafruit.com/)
 - [STM32 World](https://stm32world.com)
-- [Random Nerd Tutorials | Learn ESP32, ESP8266, Arduino, and Raspberry Pi](https://randomnerdtutorials.com/)
 - [ControllersTech](https://controllerstech.com/)
 
 ### 🗺️ Other Helpful Roadmaps
