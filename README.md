@@ -561,6 +561,7 @@ _________________
 - [A Firmware Development Standard by Jack Ganssle](http://www.ganssle.com/fsm.htm)
 - [Safety-critical Embedded systems: How to prepare for software development](https://www.nagarro.com/en/blog/embedded-software-development-safety-critical-systems)
 - [IEC 61508 - Functional safety of electrical/electronic/programmable electronic safety-related systems](https://webstore.iec.ch/publication/5515)
+- [DO-178C - Software Considerations in Airborne Systems and Equipment Certification](https://en.wikipedia.org/wiki/DO-178C)
 
 _________________
 
