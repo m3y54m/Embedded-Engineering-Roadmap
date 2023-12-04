@@ -1107,6 +1107,7 @@ _________________
 - [Safety Standards and Certifications for Embedded Systems Development](https://www.linkedin.com/pulse/safety-standards-certifications-embedded-systems-development/)
 - [Microchip University - An Introduction To The ISA/IEC 62443 Standard](https://mu.microchip.com/an-introduction-to-the-isaiec-62443-standard)
 - [ISO 26262-1:2018 - Road vehicles - Functional safety](https://www.iso.org/standard/68383.html)
+- [Exploring EMC Basics & Standards](https://www.youtube.com/watch?v=duhBkhlH-WY)
 
 _________________
 
