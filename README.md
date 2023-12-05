@@ -1,8 +1,8 @@
 # Embedded Systems Engineering Roadmap
 
-This roadmap is designed to help beginners aspiring to build a career as an Embedded Engineer / Developer, as well as assist current practitioners in expanding their skills. To provide comprehensive guidance, the topics have been carefully selected based on current job requirements and organized according to my personal experience.
+This roadmap is designed to help beginners aspiring to build a career as an Embedded Engineer / Developer, as well as assist current practitioners in expanding their skills. At first this was meant to be my personal reading list but as it gradually became bigger and bigger, I wondered why not share it with others. So I did research on current job postings for embedded engineering roles, selecting the most frequent skills and including them on the roadmap. I also added some basic skills based on my own experience to create the roadmap more comprehensive.
 
-Becoming an embedded engineer requires a broad understanding of both software and hardware. If you are starting on this journey, you must be highly motivated and passionate to pursue this path. The field of embedded systems demands a solid understanding of hardware functionality. But, as the well-known saying goes, "Hardware is hard!". So, patience and passion are the essential qualities that will help you overcome the various challenges encountered along this journey.
+You should know that becoming an embedded engineer requires a broad understanding of both software and hardware. If you really want to pursue this career you must be highly motivated and passionate about it. As well as programming and software development skills, embedded systems demand a solid understanding of hardware functionality. But, as the well-known saying goes, "Hardware is hard!". So if you know nothing about embedded systems, a hard yet exciting journey awaits you. Just don't panic and be patient for learning. You will soon find yourself as a real embedded engineer! 😀
 
 ## What is an Embedded System?
 
