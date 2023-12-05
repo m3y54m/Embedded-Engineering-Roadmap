@@ -342,7 +342,9 @@ _________________
 #### Memory Management
 
 - [Understanding the C runtime memory model](https://www.youtube.com/watch?v=3F3lp_F2YpQ)
+- [Pointers and dynamic memory - stack vs heap](https://www.youtube.com/watch?v=_8-ht2AKyH4)
 - [Dynamic Memory Allocation | C Programming Tutorial](https://www.youtube.com/watch?v=R0qIYWo8igs)
+- [Dynamic memory allocation in C - malloc calloc realloc free](https://www.youtube.com/watch?v=xDVC3wKjS64&t=140s)
 - [What is Memory Leak in C/C++? How can we avoid?](https://aticleworld.com/what-is-memory-leak-in-c-c-how-can-we-avoid/)
 
 _________________
