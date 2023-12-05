@@ -61,6 +61,7 @@ Engaging in hands-on projects is the most effective approach to learning. Rather
 - [ElectronicWings Projects](https://www.electronicwings.com/projects)
 - [STM32 Firmware - Phil’s Lab (YouTube Playlist)](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
 - [Raspberry Pi Based Embedded Project Ideas](https://www.rs-online.com/designspark/raspberry-pi-based-embedded-project-ideas)
+- [Embedded Linux On ARM | Projects](https://www.emertxe.com/embedded-systems/embedded-linux-on-arm/elarm-projects/)
 
 ### ❓ Search and Ask Questions!
 
