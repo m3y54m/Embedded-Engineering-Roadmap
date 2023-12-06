@@ -43,7 +43,8 @@ With this in mind, the roadmap is designed to cover topics necessary for an "Emb
 
 In the embedded industry, all job roles require some soft skills, which cannot be acquired solely through reading or watching videos. Soft skills are developed through communication with others and facing various work challenges. Improving soft skills is not a one-size-fits-all approach. It will vary based on one's individual traits and requires self-awareness of your strengths and areas for growth. Enhancing these skills takes time and effort.
 
-**Remember that the importance of individual software and hardware skills can differ depending on the specific needs of the company or role.**
+> [!NOTE] 
+> **Remember that the importance of individual software and hardware skills can differ depending on the specific requirements of the company and the job role.**
 
 ![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)
 
@@ -155,15 +156,17 @@ PlatformIO is not yet extensively adopted in industrial and large-scale projects
 
 ## 📚 Learning Resources
 
-**⚠️ Note:** It is not necessary to read or watch all of the following materials, but it is important to study enough to have at least a basic understanding of the required topics. Naturally, the greater dedication you apply to studying and practicing, the more your expertise will expand.
+> [!WARNING]  
+> It is not necessary to read all the books, articles, or watch all the videos you see here. If you try to do so, you will finally get tired and disappointed. You cannot study all the available content here in a reasonable time because it may take years. It is important to study enough to have at least a basic understanding of the required topics. Of course, the more time you dedicate to studying and doing projects, the more profound your knowledge and expertise will become.
+>
+> Some of the resources mentioned here will just be used as references. Refer to them only when you need them.
 
-Some of the resources mentioned here will just be used as references. Refer to them only when you need them.
-
-**Symbols Guide:**
-
-👶 indicates easy-to-understand and beginner-friendly resources. Refer to them if you do not have prior knowledge in a topic.
-
-💎 indicates well-known references that have truly invaluable and comprehensive content. Refer to them if you want to deepen your understanding of a topic.
+> [!TIP]  
+> **Symbols Guide:**
+> 
+> 👶 indicates easy-to-understand and beginner-friendly resources. Refer to them if you do not have prior knowledge in a topic.
+> 
+> 💎 indicates well-known references that have truly invaluable and comprehensive content. Refer to them if you want to deepen your understanding of a topic.
 _________________
 
 ### Soft Skills
