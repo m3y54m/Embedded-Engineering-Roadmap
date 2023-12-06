@@ -1,8 +1,10 @@
 # Embedded Systems Engineering Roadmap
 
-This roadmap is designed to help beginners aspiring to build a career as an Embedded Engineer / Developer, as well as assist current practitioners in expanding their skills. At first this was meant to be my personal reading list but as the list gradually became bigger and bigger, I wondered why not share it with others. So I did research on current job postings for embedded engineering roles, selecting the most frequent skills and including them on a roadmap. In order to make the roadmap more comprehensive I also added some basic skills.
+This roadmap is designed to help beginners aspiring to build a career as an **Embedded Engineer/Developer**, as well as assist current practitioners in expanding their skills. 
 
 You should know that becoming an embedded engineer requires a broad understanding of both software and hardware. If you really want to pursue this career you must be highly motivated and passionate about it. As well as programming and software development skills, embedded systems demand a solid understanding of hardware functionality. But, as the well-known saying goes, "Hardware is hard!". So if you still know nothing about embedded systems, a hard yet exciting journey awaits you. But don't panic and be patient for the challenges you may encounter along this journey. By dedicating enough time and effort practicing and doing projects you will soon find yourself as a real embedded engineer! 😀
+
+At first this was meant to be my personal reading list but as the list gradually became bigger and bigger, I wondered why not share it with others. So I did research on current job postings for embedded engineering roles, selecting the most frequent skills and including them on a roadmap. In order to make the roadmap more comprehensive I also added some basic skills and finally came up with what you see here.
 
 ## What is an Embedded System?
 
@@ -37,11 +39,11 @@ used in an aircraft or rapid transit system.
 
 The roadmap is divided into three main sections: **SOFTWARE**, **HARDWARE**, and **SOFT SKILLS**.
 
-The hardware and software sections overlap in many embedded job roles. Different job titles, such as "Embedded Software Engineer / Developer," "Firmware Engineer / Developer," and "Embedded Linux Software Engineer / Developer," tend to focus more on software. On the other hand, job roles like "Embedded Hardware Engineer" and "Hardware Design Engineer" primarily focus on hardware. Additionally, there are positions like "Embedded Systems Engineer" that require a good understanding of both hardware and software. It's crucial to understand that each company in the embedded industry may have specific requirements for a job role, regardless of its title.
+The hardware and software sections overlap in many embedded job roles. Different job titles, such as "Embedded Software Engineer/Developer," "Firmware Engineer/Developer," and "Embedded Linux Engineer/Developer," tend to focus more on software. On the other hand, job roles like "Embedded Hardware Engineer" and "Hardware Design Engineer" primarily focus on hardware. Additionally, there are positions like "Embedded Systems Engineer" that require a good understanding of both hardware and software. It's importnat to understand that each company in the embedded industry may have specific requirements for a job role, regardless of its title.
 
-With this in mind, the roadmap is designed to cover topics necessary for an "Embedded Systems Engineer" role. If you are aiming for an embedded software position, you should focus more on software skills in the roadmap. Conversely, if you are interested in an embedded hardware job, you should prioritize hardware skills.
+With this in mind, the roadmap is designed to cover topics necessary for a typical "Embedded Systems Engineer" role. If you are aiming for an embedded software position, you should focus more on software skills in the roadmap. Conversely, if you are interested in an embedded hardware job, you should prioritize hardware skills and put more time on learning electronics.
 
-In the embedded industry, all job roles require some soft skills, which cannot be acquired solely through reading or watching videos. Soft skills are developed through communication with others and facing various work challenges. Improving soft skills is not a one-size-fits-all approach. It will vary based on one's individual traits and requires self-awareness of your strengths and areas for growth. Enhancing these skills takes time and effort.
+Just like many other job roles, an embedded engineer requires some soft skills that cannot be acquired solely through reading or watching videos. Soft skills are developed through communication with people and facing various work challenges. Improving soft skills is not a one-size-fits-all approach. It will vary based on one's individual traits and requires self-awareness of your strengths and areas for growth. Enhancing these skills takes time and effort.
 
 > [!NOTE] 
 > **Remember that the importance of individual software and hardware skills can differ depending on the specific requirements of the company and the job role.**
