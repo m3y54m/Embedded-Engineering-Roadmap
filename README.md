@@ -4,8 +4,6 @@ This roadmap is designed to help beginners aspiring to build a career as an **Em
 
 You should know that becoming an embedded engineer requires a broad understanding of both software and hardware. If you really want to pursue this career you must be highly motivated and passionate about it. As well as programming and software development skills, embedded systems demand a solid understanding of hardware functionality. However, as the well-known saying goes, "Hardware is hard!". So if you still know nothing about embedded systems, a hard yet exciting journey awaits you. But don't panic and be patient for the challenges you may encounter along this journey. By dedicating enough time and effort practicing and doing projects you will soon find yourself as a real embedded engineer! 😀
 
-At first this was meant to be my personal reading list but as the list gradually became bigger and bigger, I wondered why not share it with others. So I did research on current job postings for embedded engineering roles, selecting the most frequent skills and including them on a roadmap. In order to make the roadmap more comprehensive I also added some basic skills and finally came up with what you see here.
-
 ## What is an Embedded System?
 
 [ISO/IEC/IEEE 24765 Standard:](https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:24765:ed-2:v1:en)
@@ -1195,8 +1193,9 @@ _________________
 
 ## History
 
-The idea of creating this roadmap came from [vazeri / Embedded-Engineering-RoadMap-2018](https://github.com/vazeri/Embedded-Engineering-RoadMap-2018) which was well designed but had some flaws and not updated for years.
-I took that idea, changed the structure of the roadmap and tried to improve it. The initial results can be accessed in [m3y54m / Embedded-Engineering-Roadmap-Archived](https://github.com/m3y54m/Embedded-Engineering-Roadmap-Archived) which is now archived. Early versions of the roadmap were created using [Balsamiq Wireframes](https://balsamiq.com) which is not suitable for these types of diagrams. So I decided to use Microsoft Visio instead and redrew the whole diagram.
+At first this was meant to be my personal reading list but as the list gradually became bigger and bigger, I wondered why not share it with others. So I did research on current job postings for embedded engineering roles, selecting the most frequent skills and including them on a roadmap. In order to make the roadmap more comprehensive I also added some basic skills and finally came up with what you see here.
+
+The idea of creating this roadmap came from [vazeri / Embedded-Engineering-RoadMap-2018](https://github.com/vazeri/Embedded-Engineering-RoadMap-2018) which was well designed but had some flaws and not updated for years. I took that idea, changed the structure of the roadmap and tried to improve it. The initial results can be accessed in [m3y54m / Embedded-Engineering-Roadmap-Archived](https://github.com/m3y54m/Embedded-Engineering-Roadmap-Archived) which is now archived. Early versions of the roadmap were created using [Balsamiq Wireframes](https://balsamiq.com) which is not suitable for these types of diagrams. So I decided to use Microsoft Visio instead and redrew the whole diagram.
 
 ## Copyright
 
