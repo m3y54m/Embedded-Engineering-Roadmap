@@ -1106,6 +1106,8 @@ _________________
 - [Intro to CI/CD Part 1: Getting Started with Docker | Digi-Key Electronics](https://youtu.be/1nxGcfIm-TU)
 - [Intro to CI/CD Part 2: Getting Started with GitHub Actions | Digi-Key Electronics](https://youtu.be/8pyqbYDYkRs)
 - [How to Build a Continuous Integration and Delivery Process for Embedded Software](https://medium.com/jumperiot/how-to-build-a-continuous-integration-and-delivery-flow-for-embedded-software-b0b5bf220a2)
+- [A guide to continuous delivery in embedded development](https://www.embedded.com/a-guide-to-continuous-delivery-in-embedded-development/)
+- [Continuous Delivery for Embedded Systems • Mike Long • GOTO 2015](https://www.youtube.com/watch?v=DcFe6cEvnGQ)
 - [Continuous Integration & Continuous Delivery for Embedded Systems (Whitepaper)](https://www.parasoft.com/white-paper/ci-cd-for-embedded-systems/)
 - [What is DevOps in an Embedded Device Company?](https://www.linkedin.com/pulse/what-devops-embedded-device-company-john-macdonald/)
 
