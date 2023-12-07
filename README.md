@@ -50,11 +50,13 @@ Just like many other job roles, an embedded engineer requires some soft skills t
 
 ## 😕 Don't Know Where to Start!
 
-If you feel overwhelmed by the extensive list of topics in the roadmap, you're not alone. Before delving too deeply, let's ease into it with some simple starter projects.
+If you feel overwhelmed by the extensive list of topics in the roadmap, you're not alone. Before delving too deeply, let's ease into it with some simple starter projects. Learning embedded systems engineering takes time and effort. Don't get discouraged if you don't understand something right away. Keep practicing and you will eventually get there.
 
 ### ⚒️ Projects
 
 Engaging in hands-on projects is the most effective approach to learning. Rather than solely relying on theoretical knowledge from books or articles, undertaking projects allows for practical learning experiences. Even a seemingly basic project has the potential to teach you more than aimless reading. You can refer to books, articles, and courses when faced with difficulties in understanding the problems in a real-world project.
+
+Don't try to build a complex project right away. Start with small, manageable projects to get your feet wet.
 
 - [Random Nerd Tutorials | Learn ESP32, ESP8266, Arduino, and Raspberry Pi](https://randomnerdtutorials.com/)
 - [51 STM32 Projects & Tutorials for Beginners and Up - Hackster.io](https://www.hackster.io/stm32/projects)
@@ -819,6 +821,8 @@ _________________
 
 ### Sensors & Actuators
 
+- [💎 Coursera - Embedding Sensors and Motors Specialization](https://www.coursera.org/specializations/embedding-sensors-motors)
+
 #### Sensors
 
 - [Calibrating Sensors](https://learn.adafruit.com/calibrating-sensors)
@@ -861,6 +865,7 @@ _________________
 - [👶 Introduction to Embedded Linux (YouTube Playlist)](https://youtube.com/playlist?list=PLEBQazB0HUyTpoJoZecRK6PpDG31Y7RPB)
 - [Mastering Embedded Linux Series - George Hilliard's blog](https://www.thirtythreeforty.net/series/mastering-embedded-linux/)
 - [💎 Mastering Embedded Linux Programming - Chris Simmonds](https://www.packtpub.com/product/mastering-embedded-linux-programming-third-edition/9781789530384)
+- [💎 Coursera - Advanced Embedded Linux Development Specialization](https://www.coursera.org/specializations/advanced-embedded-linux-development)
 - [Linux From Scratch - step-by-step instructions for building your own custom Linux system](https://www.linuxfromscratch.org/)
 - [Automotive Grade Linux (AGL)](https://docs.automotivelinux.org/)
 
