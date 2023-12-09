@@ -1115,6 +1115,7 @@ _________________
 
 #### SIL / HIL Testing
 
+- [Hardware-in-Loop and Software-in-Loop Testing](https://roboticsknowledgebase.com/wiki/system-design-development/In-Loop-Testing/)
 - [Embedded CI/CD with HIL Testing (YouTube Playlist)](https://youtube.com/playlist?list=PL4cGeWgaBTe1uwiqIAc6fwPzPpvgPZI2J)
 
 #### Industry Standards & Certifications
