@@ -574,6 +574,11 @@ _________________
 - [IEC 61508 - Functional safety of electrical/electronic/programmable electronic safety-related systems](https://webstore.iec.ch/publication/5515)
 - [DO-178C - Software Considerations in Airborne Systems and Equipment Certification](https://en.wikipedia.org/wiki/DO-178C)
 
+#### AUTOSAR Architecture
+
+- [AUTOSAR Basics | AUTOSAR Tutorial | Architecture | Automotive](https://www.youtube.com/watch?v=7b5BY1IAfwY)
+- [Introduction to AUTOSAR](https://www.youtube.com/watch?v=NfZI8wvgZPo)
+
 _________________
 
 ### Simulation / Emulation Tools
