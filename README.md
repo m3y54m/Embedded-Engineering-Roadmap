@@ -969,6 +969,7 @@ _________________
 ##### Zephyr
 
 - [Zephyr® Project](https://www.zephyrproject.org/)
+- [Zephyr: Tutorial for Beginners](https://maksimdrachov.github.io/zephyr-rtos-tutorial/)
 - [Why We Moved from FreeRTOS to Zephyr RTOS](https://www.zephyrproject.org/why-we-moved-from-freertos-to-zephyr-rtos/)
 - [nRF Connect SDK](https://academy.nordicsemi.com/courses/nrf-connect-sdk-fundamentals/)
 - [ESP32 on Zephyr OS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEQVp_6G_y4iFfemAbFsKw6tsGABarTwp)
