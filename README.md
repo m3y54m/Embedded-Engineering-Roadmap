@@ -262,7 +262,7 @@ _________________
 - [Electronic Circuit Design - IFE - TU Graz (YouTube Playlist)](https://www.youtube.com/playlist?list=PLLpZ1DoEuR9tbV8r8bMSI94znm6pRB905)
 - [Microcontroller-Based Hardware Design With Altium Designer (YouTube Playlist)](https://www.youtube.com/playlist?list=PL3aaAq2OJU5HcbClqrOhqBDozF7HmxV-s)
 
-#### PCB Design
+#### PCB Design / EMC
 
 - [Altium Academy YouTube Channel](https://www.youtube.com/@AltiumAcademy)
 - [Robert Feranec YouTube Channel](https://www.youtube.com/@RobertFeranec)
@@ -278,7 +278,7 @@ _________________
 - [Many EMC Tips to Help You Design Better PCB Boards (with Keith Armstrong)](https://www.youtube.com/watch?v=gHF5JyJF-N4)
 - [LearnEMC - EMC Resources](https://learnemc.com/emc-resources)
 
-#### Soldering
+#### Soldering / Rework
 
 - [👶 How To Solder - Electronics with Becky Stern | Digi-Key Electronics](https://www.youtube.com/watch?v=sS4v2hIFp9I)
 - [👶 HOW TO SOLDER! (Beginner's Guide)](https://www.youtube.com/watch?v=3jAw41LRBxU)
@@ -298,27 +298,6 @@ _________________
 - [FPGA Fundamentals - Nandland](https://nandland.com/fpga-101/)
 - [💎 Coursera – FPGA Design for Embedded Systems Specialization](https://www.coursera.org/specializations/fpga-design)
 - [💎 A Hands-On Guide to Designing Embedded Systems - Adam Taylor, Dan Binnun, Saket Srivastava](https://www.amazon.com/Hands-Guide-Designing-Embedded-Systems/dp/1630816833)
-
-_________________
-
-### Software Development Life Cycle (SDLC) Models
-
-- [What is the software development life cycle?](https://www.coderus.com/the-software-development-lifecycle/)
-- [Embedded Product Development Life Cycle: Four Main Steps](https://www.sam-solutions.com/blog/embedded-product-development-life-cycle/)
-
-#### Agile / SCRUM
-
-- [Does agile work with embedded software?](https://www.embedded.com/does-agile-work-with-embedded-software/)
-- [Scrum for embedded software: Good – but for reasons other than what your manager thinks](https://www.elektrobit.com/trends/scrum-for-embedded-software/)
-- [What Is Scrum: A Guide to the Most Popular Agile Framework](https://www.scrumalliance.org/about-scrum)
-- [An agile guide to scrum meetings](https://www.atlassian.com/agile/scrum/ceremonies)
-- [What is scaled agile framework? (SAFe)](https://www.atlassian.com/agile/agile-at-scale/what-is-safe)
-- [Jira - Issue & Project Tracking Software](https://confluence.atlassian.com/jira)
-
-#### V-Model (V-cycle)
-
-- [What is the V model for software development](https://x-engineer.org/v-model-software-development/)
-- [V Model In Software Engineering: Ultimate Guideline](https://biplus.com.vn/v-model-in-software-engineering/)
 
 _________________
 
@@ -423,50 +402,6 @@ _________________
 
 _________________
 
-### Build Tools
-
-#### GCC & Make
-
-- [GCC and Make - Compiling, Linking and Building C/C++ Applications](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
-- [A Shallow Dive into GNU Make](https://interrupt.memfault.com/blog/gnu-make-guidelines#a-shallow-dive-into-gnu-make)
-- [The Best and Worst GCC Compiler Flags For Embedded](https://interrupt.memfault.com/blog/best-and-worst-gcc-clang-compiler-flags)
-- [Building STM32 projects from scratch with cross platform tools like Make, CMake and arm-gcc compiler toolchain (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEg2mgYz66IOcHRvvUDf9O1ZCGy58M1Bt)
-- [From Zero to main(): Demystifying Firmware Linker Scripts](https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware)
-- [Bare Metal - From zero to blink](https://www.linuxembedded.fr/2021/02/bare-metal-from-zero-to-blink)
-
-#### CMake
-
-- [CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
-- [How to CMake Good (YouTube Playlist)](https://youtube.com/playlist?list=PLK6MXr8gasrGmIiSuVQXpfFuE1uPT615s)
-
-#### Bash Scripting
-
-- [Bash scripting cheatsheet](https://devhints.io/bash)
-- [Bash Scripting Tutorial for Beginners](https://www.youtube.com/watch?v=tK9Oc6AEnR4)
-
-#### Docker
-
-- [Docker Docs](https://docs.docker.com/get-started/)
-- [Docker Cheat Sheet](https://dockerlabs.collabnix.com/docker/cheatsheet/)
-- [👶 Docker for Dummies](https://dev.to/stevenmcgown/docker-for-dummies-2bff)
-- [Introduction to Docker for the Embedded Developer](https://www.youtube.com/watch?v=Fz7ou-VBk-w)
-- [Intro to CI/CD Part 1: Getting Started with Docker | Digi-Key Electronics](https://youtu.be/1nxGcfIm-TU)
-- [A Modern C Development Environment](https://interrupt.memfault.com/blog/a-modern-c-dev-env)
-_________________
-
-### Version Control
-
-#### Git
-
-- [👶 Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE)
-- [Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git](https://www.youtube.com/watch?v=Uszj_k0DGsg)
-
-#### SVN (Subversion)
-
-- [Apache® Subversion®](https://subversion.apache.org/)
-
-_________________
-
 ### Microcontrollers
 
 - [What Is a Microcontroller? The Defining Characteristics and Architecture of a Common Component](https://www.allaboutcircuits.com/technical-articles/what-is-a-microcontroller-introduction-component-characteristics-component/)
@@ -558,30 +493,9 @@ _________________
 - [SLEEP Mode in STM32F103 || CubeIDE || Low Power Mode || Current Consumption](https://www.youtube.com/watch?v=2rKcsGkCG0s)
 - [STOP MODE in STM32 || CubeIDE || Low Power Mode](https://www.youtube.com/watch?v=UtQhc4XV8k4)
 
-#### GUI Design
-
-- [U8glib library for monochrome displays, version 2](https://github.com/olikraus/u8g2)
-- [LVGL](https://lvgl.io/)
-- [TouchGFX](https://support.touchgfx.com/4.20/docs/introduction/welcome)
-
-#### Functional Safety
-
-- [Microchip University - Introduction to Functional Safety](https://mu.microchip.com/introduction-to-functional-safety)
-- [Udemy – Functional Safety According to ISO 26262 - Crash Course](https://www.udemy.com/course/iso-26262-crash-course/)
-- [A Guide to MISRA C Coding Standards - MISRA C and MISRA C++](https://www.perforce.com/resources/qac/misra-c-cpp)
-- [A Firmware Development Standard by Jack Ganssle](http://www.ganssle.com/fsm.htm)
-- [Safety-critical Embedded systems: How to prepare for software development](https://www.nagarro.com/en/blog/embedded-software-development-safety-critical-systems)
-- [IEC 61508 - Functional safety of electrical/electronic/programmable electronic safety-related systems](https://webstore.iec.ch/publication/5515)
-- [DO-178C - Software Considerations in Airborne Systems and Equipment Certification](https://en.wikipedia.org/wiki/DO-178C)
-
-#### AUTOSAR Architecture
-
-- [AUTOSAR Basics | AUTOSAR Tutorial | Architecture | Automotive](https://www.youtube.com/watch?v=7b5BY1IAfwY)
-- [Introduction to AUTOSAR](https://www.youtube.com/watch?v=NfZI8wvgZPo)
-
 _________________
 
-### Simulation / Emulation Tools
+### Hardware Simulation / Emulation Tools
 
 - [👶 Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
 
@@ -600,6 +514,80 @@ _________________
 - [Cortex-M MCU Emulation with Renode](https://interrupt.memfault.com/blog/intro-to-renode)
 - [A simple guide to get started on renode](https://github.com/tarciszera/renode_guide)
 - [Using CI-based workflow with Renode in bringing TensorFlow Lite to Zephyr](https://www.youtube.com/watch?v=jF94cXPoZZg)
+
+_________________
+
+### Memory Technologies & File Systems
+
+- [Memory Options for Embedded Systems: How to Select the Right Memory Configuration](https://www.qt.io/embedded-development-talk/memory-options-for-embedded-systems-how-to-select-the-right-memory-configuration)
+
+#### Flash Memory
+
+- [NAND and eMMC: All You Need to Know About Flash Memory](https://www.makeuseof.com/tag/nand-emmc-need-know-flash-memory/)
+
+##### NOR / NAND 
+
+- [QSPI in STM32 || Write and Read || N25Q](https://www.youtube.com/watch?v=xIfh_uYy-OU)
+- [QSPI in STM32 || Boot from EXT Memory || XIP || N25Q](https://www.youtube.com/watch?v=gAyuF20ok8c)
+- [Flash Memory in Embedded Linux Systems](https://www.youtube.com/watch?v=hdwMvwJIV-Y)
+
+##### eMMC
+
+- [What is a eMMC? Intro, Comparing to Other Storage, and Upgrading. SSD, M.2](https://www.youtube.com/watch?v=vGatKmqYxEA)
+
+##### SD Card
+
+- [Interfacing with an SD Card](https://www.youtube.com/watch?v=g40tUdjZ-Sk)
+
+#### EEPROM
+
+- [Using EEPROM with Arduino - Internal & External](https://www.youtube.com/watch?v=ShqvATqXA7g)
+
+#### SRAM / DRAM
+
+- [SRAM vs DRAM: Difference Between SRAM & DRAM Explained](https://www.enterprisestorageforum.com/hardware/sram-vs-dram/)
+- [What is SRAM?](https://www.youtube.com/watch?v=kU2SsUUsftA)
+- [SDRAM Hardware & Firmware Tutorial (STM32) - Phil's Lab #80](https://www.youtube.com/watch?v=h28D4AaPSjg)
+- [SDRAM in STM32 || MT48LC4](https://www.youtube.com/watch?v=QnDenqvzwyE)
+
+#### File Systems
+
+- [Flash filesystems](https://hugh712.gitbooks.io/embeddedsystem/content/flash_filesystems.html)
+- [Block filesystems](https://hugh712.gitbooks.io/embeddedsystem/content/block_filesystems.html)
+- [Understanding the UBI File System in Embedded Devices](https://serhack.me/articles/understanding-ubi-file-system-embedded-devices-reolink/)
+- [UBI File System](https://docs.kernel.org/filesystems/ubifs.html)
+- [JFFS : The Journalling Flash File System](https://sourceware.org/jffs2/jffs2-html/)
+- [Preventing Filesystem Corruption In Embedded Linux](https://www.embeddedts.com/assets/preventing-filesystem-corruption-in-embedded-linux)
+- [LittleFS - A high-integrity embedded file system](https://os.mbed.com/blog/entry/littlefs-high-integrity-embedded-fs/)
+- [SPIFS - Wear-leveled SPI flash file system for embedded devices](https://github.com/pellepl/spiffs)
+- [EEPROM File System (EEFS)](opensource.gsfc.nasa.gov/projects/eefs/index.php)
+
+_________________
+
+### Sensors & Actuators
+
+- [💎 Coursera - Embedding Sensors and Motors Specialization](https://www.coursera.org/specializations/embedding-sensors-motors)
+
+#### Sensors
+
+- [Calibrating Sensors](https://learn.adafruit.com/calibrating-sensors)
+- [DHT11 vs DHT22 vs LM35 vs DS18B20 vs BME280 vs BMP180](https://randomnerdtutorials.com/dht11-vs-dht22-vs-lm35-vs-ds18b20-vs-bme280-vs-bmp180/)
+- [Getting Started With STM32 and Nucleo Part 2: How to Use I2C to Read Temperature Sensor TMP102](https://www.youtube.com/watch?v=isOekyygpR8)
+- [GPS Module and STM32 || NEO 6M || Get coordinates, Date, Time, Speed, etc.](https://www.youtube.com/watch?v=tq_RoaPLahk)
+- [Interface MPU6050/GY-521 with STM32 || LCD 20x4 || CubeMx || HAL || SW4STM](https://www.youtube.com/watch?v=xxphp9wDnHA)
+- [Arduino with PIR Motion Sensor](https://randomnerdtutorials.com/arduino-with-pir-motion-sensor/)
+- [Complete Guide for Ultrasonic Sensor HC-SR04 with Arduino](https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/)
+- [Electronic Basics #15: Temperature Measurement (Part 1) || NTC, PT100, Wheatstone Bridge](https://youtu.be/1U4fep_qAeo?si=Q2FF__EXONN-xN5M)
+
+#### Actuators
+
+- [Adafruit Motor Selection Guide](https://learn.adafruit.com/adafruit-motor-selection-guide)
+- [DC Motor Speed Controller PWM With Potentiometer Using STM32](https://www.youtube.com/watch?v=8QpegVuV_AQ)
+- [All About Stepper Motors](https://learn.adafruit.com/all-about-stepper-motors)
+- [Using Servos With CircuitPython and Arduino](https://learn.adafruit.com/using-servos-with-circuitpython)
+- [Electronic Basics #25: Servos and how to use them](https://youtu.be/J8atdmEqZsc?si=bH_xoIwnAsNU5_lD)
+- [Electronic Basics #24: Stepper Motors and how to use them](https://youtu.be/bkqoKWP4Oy4?si=kvhwykmFZ0UnLDJ7)
+- [Electronic Basics #18: DC & Brushless DC Motor + ESC](https://youtu.be/UteZJ_7C4Mg?si=uADPmCaucyWXd8Xe)
 
 _________________
 
@@ -795,80 +783,6 @@ _________________
 
 _________________
 
-### Memory Technologies
-
-- [Memory Options for Embedded Systems: How to Select the Right Memory Configuration](https://www.qt.io/embedded-development-talk/memory-options-for-embedded-systems-how-to-select-the-right-memory-configuration)
-
-#### Flash Memories
-
-- [NAND and eMMC: All You Need to Know About Flash Memory](https://www.makeuseof.com/tag/nand-emmc-need-know-flash-memory/)
-
-##### NOR / NAND 
-
-- [QSPI in STM32 || Write and Read || N25Q](https://www.youtube.com/watch?v=xIfh_uYy-OU)
-- [QSPI in STM32 || Boot from EXT Memory || XIP || N25Q](https://www.youtube.com/watch?v=gAyuF20ok8c)
-- [Flash Memory in Embedded Linux Systems](https://www.youtube.com/watch?v=hdwMvwJIV-Y)
-
-##### eMMC
-
-- [What is a eMMC? Intro, Comparing to Other Storage, and Upgrading. SSD, M.2](https://www.youtube.com/watch?v=vGatKmqYxEA)
-
-##### SD Card
-
-- [Interfacing with an SD Card](https://www.youtube.com/watch?v=g40tUdjZ-Sk)
-
-#### EEPROM
-
-- [Using EEPROM with Arduino - Internal & External](https://www.youtube.com/watch?v=ShqvATqXA7g)
-
-#### SRAM / DRAM
-
-- [SRAM vs DRAM: Difference Between SRAM & DRAM Explained](https://www.enterprisestorageforum.com/hardware/sram-vs-dram/)
-- [What is SRAM?](https://www.youtube.com/watch?v=kU2SsUUsftA)
-- [SDRAM Hardware & Firmware Tutorial (STM32) - Phil's Lab #80](https://www.youtube.com/watch?v=h28D4AaPSjg)
-- [SDRAM in STM32 || MT48LC4](https://www.youtube.com/watch?v=QnDenqvzwyE)
-
-#### File Systems
-
-- [Flash filesystems](https://hugh712.gitbooks.io/embeddedsystem/content/flash_filesystems.html)
-- [Block filesystems](https://hugh712.gitbooks.io/embeddedsystem/content/block_filesystems.html)
-- [Understanding the UBI File System in Embedded Devices](https://serhack.me/articles/understanding-ubi-file-system-embedded-devices-reolink/)
-- [UBI File System](https://docs.kernel.org/filesystems/ubifs.html)
-- [JFFS : The Journalling Flash File System](https://sourceware.org/jffs2/jffs2-html/)
-- [Preventing Filesystem Corruption In Embedded Linux](https://www.embeddedts.com/assets/preventing-filesystem-corruption-in-embedded-linux)
-- [LittleFS - A high-integrity embedded file system](https://os.mbed.com/blog/entry/littlefs-high-integrity-embedded-fs/)
-- [SPIFS - Wear-leveled SPI flash file system for embedded devices](https://github.com/pellepl/spiffs)
-- [EEPROM File System (EEFS)](opensource.gsfc.nasa.gov/projects/eefs/index.php)
-
-_________________
-
-### Sensors & Actuators
-
-- [💎 Coursera - Embedding Sensors and Motors Specialization](https://www.coursera.org/specializations/embedding-sensors-motors)
-
-#### Sensors
-
-- [Calibrating Sensors](https://learn.adafruit.com/calibrating-sensors)
-- [DHT11 vs DHT22 vs LM35 vs DS18B20 vs BME280 vs BMP180](https://randomnerdtutorials.com/dht11-vs-dht22-vs-lm35-vs-ds18b20-vs-bme280-vs-bmp180/)
-- [Getting Started With STM32 and Nucleo Part 2: How to Use I2C to Read Temperature Sensor TMP102](https://www.youtube.com/watch?v=isOekyygpR8)
-- [GPS Module and STM32 || NEO 6M || Get coordinates, Date, Time, Speed, etc.](https://www.youtube.com/watch?v=tq_RoaPLahk)
-- [Interface MPU6050/GY-521 with STM32 || LCD 20x4 || CubeMx || HAL || SW4STM](https://www.youtube.com/watch?v=xxphp9wDnHA)
-- [Arduino with PIR Motion Sensor](https://randomnerdtutorials.com/arduino-with-pir-motion-sensor/)
-- [Complete Guide for Ultrasonic Sensor HC-SR04 with Arduino](https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/)
-- [Electronic Basics #15: Temperature Measurement (Part 1) || NTC, PT100, Wheatstone Bridge](https://youtu.be/1U4fep_qAeo?si=Q2FF__EXONN-xN5M)
-
-#### Actuators
-
-- [Adafruit Motor Selection Guide](https://learn.adafruit.com/adafruit-motor-selection-guide)
-- [DC Motor Speed Controller PWM With Potentiometer Using STM32](https://www.youtube.com/watch?v=8QpegVuV_AQ)
-- [All About Stepper Motors](https://learn.adafruit.com/all-about-stepper-motors)
-- [Using Servos With CircuitPython and Arduino](https://learn.adafruit.com/using-servos-with-circuitpython)
-- [Electronic Basics #25: Servos and how to use them](https://youtu.be/J8atdmEqZsc?si=bH_xoIwnAsNU5_lD)
-- [Electronic Basics #24: Stepper Motors and how to use them](https://youtu.be/bkqoKWP4Oy4?si=kvhwykmFZ0UnLDJ7)
-- [Electronic Basics #18: DC & Brushless DC Motor + ESC](https://youtu.be/UteZJ_7C4Mg?si=uADPmCaucyWXd8Xe)
-
-_________________
-
 ### Operating Systems
 
 #### Operating System Fundamentals
@@ -880,80 +794,7 @@ _________________
 - [💎 Modern Operating Systems - Andrew S. Tanenbaum, Herbert Bos](https://www.pearson.com/en-us/subject-catalog/p/modern-operating-systems/P200000003295)
 - [Writing an OS in Rust - Philipp Oppermann's blog](https://os.phil-opp.com/)
 
-
-#### Embedded Linux
-
-- [FreeRTOS vs Linux for Embedded Systems](https://www.bytesnap.com/news-blog/freertos-vs-linux-embedded-systems/)
-- [Linux Basics (LPIC 1)](https://linux1st.com/)
-- [👶 Introduction to Embedded Linux (YouTube Playlist)](https://youtube.com/playlist?list=PLEBQazB0HUyTpoJoZecRK6PpDG31Y7RPB)
-- [Mastering Embedded Linux Series - George Hilliard's blog](https://www.thirtythreeforty.net/series/mastering-embedded-linux/)
-- [💎 Mastering Embedded Linux Programming - Chris Simmonds](https://www.packtpub.com/product/mastering-embedded-linux-programming-third-edition/9781789530384)
-- [💎 Coursera - Advanced Embedded Linux Development Specialization](https://www.coursera.org/specializations/advanced-embedded-linux-development)
-- [Linux From Scratch - step-by-step instructions for building your own custom Linux system](https://www.linuxfromscratch.org/)
-- [Automotive Grade Linux (AGL)](https://docs.automotivelinux.org/)
-
-##### Linux Kernel
-
-- [👶 Writing a Simple Linux Kernel Module](https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234)
-- [The Linux Kernel - David A Rusling](https://tldp.org/LDP/tlk/)
-- [💎 The Linux Programming Interface - Michael Kerrisk](https://man7.org/tlpi/)
-- [How Linux Works - Brian Ward](https://nostarch.com/howlinuxworks3)
-- [Practical System Programming with C: Pragmatic Example Applications in Linux and Unix-Based Operating Systems - Sri Manikanta Palakollu](https://link.springer.com/book/10.1007/978-1-4842-6321-1)
-
-##### Linux Device Drivers
-
-- [💎 Linux Device Drivers -  Jonathan Corbet, Alessandro Rubini, Greg Kroah-Hartman](https://lwn.net/Kernel/LDD3/)
-- [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/)
-- [Mastering Linux Device Driver Development - John Madieu](https://www.packtpub.com/product/mastering-linux-device-driver-development/9781789342048)
-- [Kernel Driver with Rust in 2022](https://not-matthias.github.io/posts/kernel-driver-with-rust/)
-
-##### U-Boot
-
-- [The U-Boot Documentation](https://u-boot.readthedocs.io/en/latest/)
-
-##### Buildroot
-
-- [Buildroot Documentation](https://buildroot.org/docs.html)
-- [Introduction to Embedded Linux Part 1 - Buildroot | Digi-Key Electronics](https://www.youtube.com/watch?v=9vsu67uMcko)
-- [https://rickcarlino.com/2021/building-tiny-raspberry-pi-linux-images-with-buildroot.html](https://rickcarlino.com/2021/building-tiny-raspberry-pi-linux-images-with-buildroot.html)
-
-##### Yocto
-
-- [Yocto Project Quick Build](https://docs.yoctoproject.org/brief-yoctoprojectqs/index.html)
-- [💎 Yocto Project Documentation](https://docs.yoctoproject.org/index.html)
-- [Introduction to Embedded Linux Part 2 - Yocto Project | Digi-Key Electronics](https://www.youtube.com/watch?v=2-PwskQrZac&t=7s)
-- [Build Linux Image for Raspberry Pi board using Yocto Project](https://tutorialadda.com/yocto/create-your-own-linux-image-for-the-raspberry-pi-board-using-yocto-project)
-- [Yocto Project Tutorial Series (Basic to Advance) (YouTube Playlist)](https://www.youtube.com/playlist?list=PLwqS94HTEwpQmgL1UsSwNk_2tQdzq3eVJ)
-- [Udemy – Embedded Linux using Yocto](https://www.udemy.com/course/embedded-linux-using-yocto/)
-- [💎 Embedded Linux Systems with the Yocto Project - Rudolf J.Streif](https://www.oreilly.com/library/view/embedded-linux-systems/9780133443301/)
-- [Embedded Linux Development using Yocto Project Cookbook - Alex Gonzalez](https://www.oreilly.com/library/view/embedded-linux-development/9781788399210/)
-
-##### Multithreading & Parallel Processing
-
-- [Threading/Concurrency vs Parallelism](http://www.danielmoth.com/Blog/threadingconcurrency-vs-parallelism.aspx)
-- [Multi-threading and Parallel Programming](https://dev.to/kwereutosu/multi-threading-and-parallel-programming-1l9m)
-- [Multitasking vs Multithreading vs Multiprocessing](https://medium.com/codex/multitasking-vs-multithreading-vs-multiprocessing-2b0087c861ae)
-- [💎 Programming with POSIX Threads - David Butenhof](https://a.co/d/9R6DswF)
-- [Parallel Programming and Performance Optimization With OpenMP](https://passlab.github.io/OpenMPProgrammingBook/index.html)
-- [Introduction to OpenMP - Tim Mattson (Intel) (YouTube Playlist)](https://youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG)
-- [OpenCL Tutorials](https://www.intel.com/content/www/us/en/developer/articles/training/opencl-tutorials.html)
-- [CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
-- [C++ Concurrency in Action - Anthony Williams](https://www.manning.com/books/c-plus-plus-concurrency-in-action)
-
-##### Inter-Process Communication (IPC)
-
-- [Inter Process Communication (IPC)](https://www.scaler.com/topics/operating-system/inter-process-communication-in-os/)
-- [What Is Inter-Process Communication In Linux?](https://www.scaler.com/topics/ipc-in-linux/)
-- [Udemy – Linux Inter Process Communication (IPC) from Scratch in C](https://www.udemy.com/course/linuxipc/)
-- [Udemy – Multi-Threading and IPC with Qt 5 C++](https://www.udemy.com/course/multi-threading-and-ipc-with-qt-c-plus-plus/)
-- [D-Bus Tutorial](https://dbus.freedesktop.org/doc/dbus-tutorial.html)
-
-##### Qt Framework
-
-- [Qt Documentation](https://doc.qt.io/)
-- [Introduction to Qt / QML (YouTube Playlist)](https://www.youtube.com/playlist?list=PL6CJYn40gN6hUXoYdyn4DHUTXfcVDJcfB)
-
-#### Real-Time OS
+#### Real-Time Operating Systems
 
 ##### RTOS Basics
 
@@ -1028,45 +869,78 @@ _________________
 - [Microsoft Azure RTOS documentation](https://learn.microsoft.com/en-us/azure/rtos/)
 - [Azure RTOS ThreadX](https://github.com/azure-rtos/threadx)
 
-_________________
 
-### Digital Signal Processing
+#### Embedded Linux
 
-#### DSP Fundamentals & Filter Design
+- [What Is Embedded Linux?](https://www.windriver.com/solutions/learning/embedded-linux)
+- [FreeRTOS vs Linux for Embedded Systems](https://www.bytesnap.com/news-blog/freertos-vs-linux-embedded-systems/)
+- [👶 Introduction to Embedded Linux (YouTube Playlist)](https://youtube.com/playlist?list=PLEBQazB0HUyTpoJoZecRK6PpDG31Y7RPB)
+- [Mastering Embedded Linux Series - George Hilliard's blog](https://www.thirtythreeforty.net/series/mastering-embedded-linux/)
+- [💎 Mastering Embedded Linux Programming - Chris Simmonds](https://www.packtpub.com/product/mastering-embedded-linux-programming-third-edition/9781789530384)
+- [💎 Coursera - Advanced Embedded Linux Development Specialization](https://www.coursera.org/specializations/advanced-embedded-linux-development)
+- [Linux From Scratch - step-by-step instructions for building your own custom Linux system](https://www.linuxfromscratch.org/)
+- [Automotive Grade Linux (AGL)](https://docs.automotivelinux.org/)
+- [Real Time Linux and `PREEMPT_RT` Patch](https://wiki.linuxfoundation.org/realtime/start)
 
-- [💎 The Scientist and Engineer's Guide to Digital Signal Processing - Steven W. Smith](https://www.dspguide.com/pdfbook.htm)
-- [FIR Filter Design and Software Implementation - Phil's Lab #17](https://www.youtube.com/watch?v=uNNNj9AZisM)
-- [IIR Filters - Theory and Implementation (STM32) - Phil's Lab #32](https://www.youtube.com/watch?v=QRMe02kzVkA)
-- [Digital Signal Processing (ECSE-4530) Lectures, Fall 2014 (YouTube Playlist)](https://youtube.com/playlist?list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et)
-- [Udemy – Digital Signal Processing (DSP) From Ground Up in C](https://www.udemy.com/course/digital-signal-processing-dsp-from-ground-uptm-in-c/)
-- [Real-Time Digital Signal Processing: Fundamentals, Implementations and Applications - Sen M. Kuo, Bob H. Lee, Wenshun Tian](https://www.wiley.com/en-us/Real+Time+Digital+Signal+Processing%3A+Fundamentals%2C+Implementations+and+Applications%2C+3rd+Edition-p-9781118414323)
-- [Real-Time Digital Signal Processing from MATLAB to C with the TMS320C6x DSPs - Thad B. Welch, Cameron H.G. Wright, Michael G. Morrow](https://www.routledge.com/Real-Time-Digital-Signal-Processing-from-MATLAB-to-C-with-the-TMS320C6x/Welch-Wright-Morrow/p/book/9780367736453)
-- [Schaum's Outline of Signals and Systems - Hwei P. Hsu](https://www.mhprofessional.com/schaum-s-outline-of-signals-and-systems-fourth-edition-9781260454246-usa)
-- [💎 Digital Signal Processing - John G. Proakis, Dimitris K. Manolakis](https://a.co/d/75P5PiE)
+##### Linux Kernel
 
-#### Discrete Fourier Transform / FFT
+- [💎 The Linux Programming Interface - Michael Kerrisk](https://man7.org/tlpi/)
+- [The Linux Kernel - David A Rusling](https://tldp.org/LDP/tlk/)
+- [How Linux Works - Brian Ward](https://nostarch.com/howlinuxworks3)
+- [Practical System Programming with C: Pragmatic Example Applications in Linux and Unix-Based Operating Systems - Sri Manikanta Palakollu](https://link.springer.com/book/10.1007/978-1-4842-6321-1)
 
-- [Discrete Fourier Transform - Simple Step by Step](https://www.youtube.com/watch?v=mkGsMWi_j4Q)
-- [The Fast Fourier Transform (FFT): Most Ingenious Algorithm Ever?](https://youtu.be/h7apO7q16V0)
-- [The FFT Algorithm - Simple Step by Step](https://www.youtube.com/watch?v=htCj9exbGo0)
-- [STM32 Fast Fourier Transform (CMSIS DSP FFT) - Phil's Lab #111](https://youtu.be/d1KvgOwWvkM)
+##### Linux Device Drivers
 
-#### Controls Systems / PID Control
+- [👶 Writing a Simple Linux Kernel Module](https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234)
+- [💎 Linux Device Drivers -  Jonathan Corbet, Alessandro Rubini, Greg Kroah-Hartman](https://lwn.net/Kernel/LDD3/)
+- [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/)
+- [Mastering Linux Device Driver Development - John Madieu](https://www.packtpub.com/product/mastering-linux-device-driver-development/9781789342048)
+- [Kernel Driver with Rust in 2022](https://not-matthias.github.io/posts/kernel-driver-with-rust/)
 
-- [Understanding Control Systems (YouTube Playlist)](https://youtube.com/playlist?list=PLn8PRpmsu08q8CE0pbZ-cSrMm_WYJfVGd)
-- [Control Systems - CircuitBread (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfYdTiQCV_p4YZNJWExM-5_g0fk9bHDL8)
-- [What is a PID Controller? | DigiKey](https://www.youtube.com/watch?v=tFVAaUcOm4I)
-- [PID Controller Explained](https://www.youtube.com/watch?v=fv6dLTEvl74)
-- [Understanding PID Control (YouTube Playlist)](https://youtube.com/playlist?list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y)
-- [PID Controller Implementation in Software - Phil's Lab #6](https://www.youtube.com/watch?v=zOByx3Izf5U)
-- [💎 Control Systems Engineering - Norman S. Nise](https://www.wiley.com/en-us/Control+Systems+Engineering%2C+8th+Edition-p-9781119474227)
-- [💎 Modern Control Systems - Richard C. Dorf, Robert H. Bishop](https://www.pearson.com/en-us/subject-catalog/p/modern-control-systems/P200000003484/9780137307098)
+##### U-Boot
 
-#### MATLAB / Simulink
+- [The U-Boot Documentation](https://u-boot.readthedocs.io/en/latest/)
 
-- [MATLAB Tutorials: Getting Started with MATLAB (YouTube Playlist)](https://youtube.com/playlist?list=PL7CAABC40B2825C8B)
-- [Getting Started with Simulink (YouTube Playlist)](https://youtube.com/playlist?list=PL484BA2AD3AE4C2D0)
-- [Udemy – MATLAB/SIMULINK Bible|Go From Zero to Hero!](https://www.udemy.com/course/matlabsimulink-biblego-from-zero-to-hero/)
+##### Buildroot
+
+- [Buildroot Documentation](https://buildroot.org/docs.html)
+- [Introduction to Embedded Linux Part 1 - Buildroot | Digi-Key Electronics](https://www.youtube.com/watch?v=9vsu67uMcko)
+- [https://rickcarlino.com/2021/building-tiny-raspberry-pi-linux-images-with-buildroot.html](https://rickcarlino.com/2021/building-tiny-raspberry-pi-linux-images-with-buildroot.html)
+
+##### Yocto
+
+- [Yocto Project Quick Build](https://docs.yoctoproject.org/brief-yoctoprojectqs/index.html)
+- [💎 Yocto Project Documentation](https://docs.yoctoproject.org/index.html)
+- [Introduction to Embedded Linux Part 2 - Yocto Project | Digi-Key Electronics](https://www.youtube.com/watch?v=2-PwskQrZac&t=7s)
+- [Build Linux Image for Raspberry Pi board using Yocto Project](https://tutorialadda.com/yocto/create-your-own-linux-image-for-the-raspberry-pi-board-using-yocto-project)
+- [Yocto Project Tutorial Series (Basic to Advance) (YouTube Playlist)](https://www.youtube.com/playlist?list=PLwqS94HTEwpQmgL1UsSwNk_2tQdzq3eVJ)
+- [Udemy – Embedded Linux using Yocto](https://www.udemy.com/course/embedded-linux-using-yocto/)
+- [💎 Embedded Linux Systems with the Yocto Project - Rudolf J.Streif](https://www.oreilly.com/library/view/embedded-linux-systems/9780133443301/)
+- [Embedded Linux Development using Yocto Project Cookbook - Alex Gonzalez](https://www.oreilly.com/library/view/embedded-linux-development/9781788399210/)
+
+##### Multithreading & Parallel Processing
+
+- [Threading/Concurrency vs Parallelism](http://www.danielmoth.com/Blog/threadingconcurrency-vs-parallelism.aspx)
+- [Multi-threading and Parallel Programming](https://dev.to/kwereutosu/multi-threading-and-parallel-programming-1l9m)
+- [Multitasking vs Multithreading vs Multiprocessing](https://medium.com/codex/multitasking-vs-multithreading-vs-multiprocessing-2b0087c861ae)
+- [💎 Programming with POSIX Threads - David Butenhof](https://a.co/d/9R6DswF)
+- [Parallel Programming and Performance Optimization With OpenMP](https://passlab.github.io/OpenMPProgrammingBook/index.html)
+- [Introduction to OpenMP - Tim Mattson (Intel) (YouTube Playlist)](https://youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG)
+- [OpenCL Tutorials](https://www.intel.com/content/www/us/en/developer/articles/training/opencl-tutorials.html)
+- [CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
+- [C++ Concurrency in Action - Anthony Williams](https://www.manning.com/books/c-plus-plus-concurrency-in-action)
+
+##### Inter-Process Communication (IPC)
+
+- [Inter Process Communication (IPC)](https://www.scaler.com/topics/operating-system/inter-process-communication-in-os/)
+- [What Is Inter-Process Communication In Linux?](https://www.scaler.com/topics/ipc-in-linux/)
+- [Udemy – Linux Inter Process Communication (IPC) from Scratch in C](https://www.udemy.com/course/linuxipc/)
+- [Udemy – Multi-Threading and IPC with Qt 5 C++](https://www.udemy.com/course/multi-threading-and-ipc-with-qt-c-plus-plus/)
+- [D-Bus Tutorial](https://dbus.freedesktop.org/doc/dbus-tutorial.html)
+
+##### Qt Framework
+
+- [Qt Documentation](https://doc.qt.io/)
 
 _________________
 
@@ -1097,6 +971,71 @@ _________________
 
 _________________
 
+### Build Tools
+
+#### GCC & Make
+
+- [GCC and Make - Compiling, Linking and Building C/C++ Applications](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
+- [A Shallow Dive into GNU Make](https://interrupt.memfault.com/blog/gnu-make-guidelines#a-shallow-dive-into-gnu-make)
+- [The Best and Worst GCC Compiler Flags For Embedded](https://interrupt.memfault.com/blog/best-and-worst-gcc-clang-compiler-flags)
+- [Building STM32 projects from scratch with cross platform tools like Make, CMake and arm-gcc compiler toolchain (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEg2mgYz66IOcHRvvUDf9O1ZCGy58M1Bt)
+- [From Zero to main(): Demystifying Firmware Linker Scripts](https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware)
+- [Bare Metal - From zero to blink](https://www.linuxembedded.fr/2021/02/bare-metal-from-zero-to-blink)
+
+#### CMake
+
+- [CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
+- [How to CMake Good (YouTube Playlist)](https://youtube.com/playlist?list=PLK6MXr8gasrGmIiSuVQXpfFuE1uPT615s)
+
+#### Bash Scripting
+
+- [Bash scripting cheatsheet](https://devhints.io/bash)
+- [Bash Scripting Tutorial for Beginners](https://www.youtube.com/watch?v=tK9Oc6AEnR4)
+
+#### Docker
+
+- [Docker Docs](https://docs.docker.com/get-started/)
+- [Docker Cheat Sheet](https://dockerlabs.collabnix.com/docker/cheatsheet/)
+- [👶 Docker for Dummies](https://dev.to/stevenmcgown/docker-for-dummies-2bff)
+- [Introduction to Docker for the Embedded Developer](https://www.youtube.com/watch?v=Fz7ou-VBk-w)
+- [Intro to CI/CD Part 1: Getting Started with Docker | Digi-Key Electronics](https://youtu.be/1nxGcfIm-TU)
+- [A Modern C Development Environment](https://interrupt.memfault.com/blog/a-modern-c-dev-env)
+_________________
+
+### Software Development Life Cycle (SDLC) Models
+
+- [What is the software development life cycle?](https://www.coderus.com/the-software-development-lifecycle/)
+- [Embedded Product Development Life Cycle: Four Main Steps](https://www.sam-solutions.com/blog/embedded-product-development-life-cycle/)
+
+#### Agile / SCRUM
+
+- [Does agile work with embedded software?](https://www.embedded.com/does-agile-work-with-embedded-software/)
+- [Scrum for embedded software: Good – but for reasons other than what your manager thinks](https://www.elektrobit.com/trends/scrum-for-embedded-software/)
+- [What Is Scrum: A Guide to the Most Popular Agile Framework](https://www.scrumalliance.org/about-scrum)
+- [An agile guide to scrum meetings](https://www.atlassian.com/agile/scrum/ceremonies)
+- [What is scaled agile framework? (SAFe)](https://www.atlassian.com/agile/agile-at-scale/what-is-safe)
+- [Jira - Issue & Project Tracking Software](https://confluence.atlassian.com/jira)
+
+#### V-Model (V-cycle)
+
+- [What is the V model for software development](https://x-engineer.org/v-model-software-development/)
+- [V Model In Software Engineering: Ultimate Guideline](https://biplus.com.vn/v-model-in-software-engineering/)
+
+_________________
+
+### Version Control
+
+#### Git
+
+- [👶 Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE)
+- [Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git](https://www.youtube.com/watch?v=Uszj_k0DGsg)
+
+#### SVN (Subversion)
+
+- [Apache® Subversion®](https://subversion.apache.org/)
+
+_________________
+
 ### Testing
 
 - [Embedded Testing](https://artoftesting.com/embedded-testing)
@@ -1124,7 +1063,6 @@ _________________
 - [Exclave: Hardware Testing in Mass Production, Made Easier](https://www.bunniestudios.com/blog/?p=5450)
 - [Regression Testing of Embedded Systems](https://www.parasoft.com/blog/regression-testing-of-embedded-systems/)
 
-
 #### CI/CD Pipelines
 
 - [Intro to CI/CD Part 1: Getting Started with Docker | Digi-Key Electronics](https://youtu.be/1nxGcfIm-TU)
@@ -1140,45 +1078,24 @@ _________________
 - [Hardware-in-Loop and Software-in-Loop Testing](https://roboticsknowledgebase.com/wiki/system-design-development/In-Loop-Testing/)
 - [Embedded CI/CD with HIL Testing (YouTube Playlist)](https://youtube.com/playlist?list=PL4cGeWgaBTe1uwiqIAc6fwPzPpvgPZI2J)
 
-#### Industry Standards & Certifications
+#### Standards & Certifications
 
 - [Intro to Embedded Development: Styles and Standards](https://www.allaboutcircuits.com/technical-articles/embedded-programming-styles-and-standards/)
 - [Safety Standards and Certifications for Embedded Systems Development](https://www.linkedin.com/pulse/safety-standards-certifications-embedded-systems-development/)
 - [Microchip University - An Introduction To The ISA/IEC 62443 Standard](https://mu.microchip.com/an-introduction-to-the-isaiec-62443-standard)
-- [ISO 26262-1:2018 - Road vehicles - Functional safety](https://www.iso.org/standard/68383.html)
 - [Exploring EMC Basics & Standards](https://www.youtube.com/watch?v=duhBkhlH-WY)
 
-_________________
+##### Functional Safety
 
-### Embedded AI
+- [Microchip University - Introduction to Functional Safety](https://mu.microchip.com/introduction-to-functional-safety)
+- [Udemy – Functional Safety According to ISO 26262 - Crash Course](https://www.udemy.com/course/iso-26262-crash-course/)
+- [A Guide to MISRA C Coding Standards - MISRA C and MISRA C++](https://www.perforce.com/resources/qac/misra-c-cpp)
+- [A Firmware Development Standard by Jack Ganssle](http://www.ganssle.com/fsm.htm)
+- [Safety-critical Embedded systems: How to prepare for software development](https://www.nagarro.com/en/blog/embedded-software-development-safety-critical-systems)
+- [IEC 61508 - Functional safety of electrical/electronic/programmable electronic safety-related systems](https://webstore.iec.ch/publication/5515)
+- [ISO 26262-1:2018 - Road vehicles - Functional safety](https://www.iso.org/standard/68383.html)
+- [DO-178C - Software Considerations in Airborne Systems and Equipment Certification](https://en.wikipedia.org/wiki/DO-178C)
 
-- [Udemy – Getting Started with Embedded AI | Edge AI](https://www.udemy.com/course/getting-started-with-embedded-ai-hands-on-experience/)
-- [Intro to Edge AI: Machine Learning + IoT – Maker.io Tutorial | Digi-Key Electronics](https://www.youtube.com/watch?v=Ejld8XZmvwE)
-
-#### AI & ML Basics
-
-- [A beginner's guide to artificial intelligence and machine learning](https://developer.ibm.com/articles/cc-beginner-guide-machine-learning-ai-cognitive/)
-- [👶 Introduction to Machine Learning for Coders!](https://course18.fast.ai/ml)
-- [Machine Learning Crash Course with TensorFlow APIs - Google](https://developers.google.com/machine-learning/crash-course/)
-
-#### TensorFlow Lite
-
-- [Getting Started with TensorFlow and Keras – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=HCG3hFe1KYY)
-- [Intro to TensorFlow Lite Part 1: Wake Word Feature Extraction – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=0fn7pj7Dutc)
-- [Intro to TensorFlow Lite Part 2: Speech Recognition Model Training – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=yv_WVwr6OkI)
-
-#### tinyML
-
-- [👶 Intro to TinyML Part 1: Training a Neural Network for Arduino in TensorFlow | Digi-Key Electronics](https://www.youtube.com/watch?v=BzzqYNYOcWc)
-- [👶 Intro to TinyML Part 2: Deploying a TensorFlow Lite Model to Arduino | Digi-Key Electronics](https://www.youtube.com/watch?v=dU01M61RW8s)
-- [Coursera - Introduction to Embedded Machine Learning](https://www.coursera.org/learn/introduction-to-embedded-machine-learning)
-- [TinyML: Getting Started with TensorFlow Lite for Microcontrollers | Digi-Key Electronics](https://youtu.be/gDFWCxrJruQ)
-- [TinyML: Getting Started with STM32 X-CUBE-AI | Digi-Key Electronics](https://youtu.be/crJcDqIUbP4)
-- [edX - Fundamentals of TinyML](https://www.edx.org/learn/machine-learning/harvard-university-fundamentals-of-tinyml)
-- [edX - Applications of TinyML](https://www.edx.org/learn/tinyml/harvard-university-applications-of-tinyml)
-- [edX - Deploying TinyML](https://www.edx.org/learn/tinyml/harvard-university-deploying-tinyml)
-- [edX - MLOps for Scaling TinyML](https://www.edx.org/learn/computer-programming/harvard-university-mlops-for-scaling-tinyml)
-- [TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers - Pete Warden, Daniel Situnayake](https://tinymlbook.com/)
 _________________
 
 ### Embedded Security
@@ -1223,6 +1140,94 @@ _________________
 - [OTA for Embedded Linux Devices: A practical introduction](https://interrupt.memfault.com/blog/ota-for-embedded-linux-devices)
 - [Introduction to Embedded Linux Security - part 1](https://sergioprado.blog/introduction-embedded-linux-security-part-1/)
 - [Introduction to Embedded Linux Security - part 2](https://sergioprado.blog/introduction-embedded-linux-security-part-2/)
+
+_________________
+
+### AUTOSAR Architecture
+
+- [AUTOSAR Basics | AUTOSAR Tutorial | Architecture | Automotive](https://www.youtube.com/watch?v=7b5BY1IAfwY)
+- [Introduction to AUTOSAR](https://www.youtube.com/watch?v=NfZI8wvgZPo)
+
+_________________
+
+### Edge AI & TinyML
+
+- [Udemy – Getting Started with Embedded AI | Edge AI](https://www.udemy.com/course/getting-started-with-embedded-ai-hands-on-experience/)
+- [Intro to Edge AI: Machine Learning + IoT – Maker.io Tutorial | Digi-Key Electronics](https://www.youtube.com/watch?v=Ejld8XZmvwE)
+
+#### AI & ML Basics
+
+- [A beginner's guide to artificial intelligence and machine learning](https://developer.ibm.com/articles/cc-beginner-guide-machine-learning-ai-cognitive/)
+- [👶 Introduction to Machine Learning for Coders!](https://course18.fast.ai/ml)
+- [Machine Learning Crash Course with TensorFlow APIs - Google](https://developers.google.com/machine-learning/crash-course/)
+
+#### TensorFlow Lite
+
+- [Getting Started with TensorFlow and Keras – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=HCG3hFe1KYY)
+- [Intro to TensorFlow Lite Part 1: Wake Word Feature Extraction – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=0fn7pj7Dutc)
+- [Intro to TensorFlow Lite Part 2: Speech Recognition Model Training – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=yv_WVwr6OkI)
+
+#### TinyML
+
+- [👶 Intro to TinyML Part 1: Training a Neural Network for Arduino in TensorFlow | Digi-Key Electronics](https://www.youtube.com/watch?v=BzzqYNYOcWc)
+- [👶 Intro to TinyML Part 2: Deploying a TensorFlow Lite Model to Arduino | Digi-Key Electronics](https://www.youtube.com/watch?v=dU01M61RW8s)
+- [Coursera - Introduction to Embedded Machine Learning](https://www.coursera.org/learn/introduction-to-embedded-machine-learning)
+- [TinyML: Getting Started with TensorFlow Lite for Microcontrollers | Digi-Key Electronics](https://youtu.be/gDFWCxrJruQ)
+- [TinyML: Getting Started with STM32 X-CUBE-AI | Digi-Key Electronics](https://youtu.be/crJcDqIUbP4)
+- [edX - Fundamentals of TinyML](https://www.edx.org/learn/machine-learning/harvard-university-fundamentals-of-tinyml)
+- [edX - Applications of TinyML](https://www.edx.org/learn/tinyml/harvard-university-applications-of-tinyml)
+- [edX - Deploying TinyML](https://www.edx.org/learn/tinyml/harvard-university-deploying-tinyml)
+- [edX - MLOps for Scaling TinyML](https://www.edx.org/learn/computer-programming/harvard-university-mlops-for-scaling-tinyml)
+- [TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers - Pete Warden, Daniel Situnayake](https://tinymlbook.com/)
+
+_________________
+
+### GUI Design
+
+- [U8glib library for monochrome displays, version 2](https://github.com/olikraus/u8g2)
+- [LVGL](https://lvgl.io/)
+- [TouchGFX](https://support.touchgfx.com/4.20/docs/introduction/welcome)
+- [Introduction to Qt / QML (YouTube Playlist)](https://www.youtube.com/playlist?list=PL6CJYn40gN6hdNC1IGQZfVI707dh9DPRc)
+
+_________________
+
+### Digital Signal Processing
+
+#### DSP Basics & Filter Design
+
+- [💎 The Scientist and Engineer's Guide to Digital Signal Processing - Steven W. Smith](https://www.dspguide.com/pdfbook.htm)
+- [FIR Filter Design and Software Implementation - Phil's Lab #17](https://www.youtube.com/watch?v=uNNNj9AZisM)
+- [IIR Filters - Theory and Implementation (STM32) - Phil's Lab #32](https://www.youtube.com/watch?v=QRMe02kzVkA)
+- [Digital Signal Processing (ECSE-4530) Lectures, Fall 2014 (YouTube Playlist)](https://youtube.com/playlist?list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et)
+- [Udemy – Digital Signal Processing (DSP) From Ground Up in C](https://www.udemy.com/course/digital-signal-processing-dsp-from-ground-uptm-in-c/)
+- [Real-Time Digital Signal Processing: Fundamentals, Implementations and Applications - Sen M. Kuo, Bob H. Lee, Wenshun Tian](https://www.wiley.com/en-us/Real+Time+Digital+Signal+Processing%3A+Fundamentals%2C+Implementations+and+Applications%2C+3rd+Edition-p-9781118414323)
+- [Real-Time Digital Signal Processing from MATLAB to C with the TMS320C6x DSPs - Thad B. Welch, Cameron H.G. Wright, Michael G. Morrow](https://www.routledge.com/Real-Time-Digital-Signal-Processing-from-MATLAB-to-C-with-the-TMS320C6x/Welch-Wright-Morrow/p/book/9780367736453)
+- [Schaum's Outline of Signals and Systems - Hwei P. Hsu](https://www.mhprofessional.com/schaum-s-outline-of-signals-and-systems-fourth-edition-9781260454246-usa)
+- [💎 Digital Signal Processing - John G. Proakis, Dimitris K. Manolakis](https://a.co/d/75P5PiE)
+
+#### Discrete Fourier Transform / FFT
+
+- [Discrete Fourier Transform - Simple Step by Step](https://www.youtube.com/watch?v=mkGsMWi_j4Q)
+- [The Fast Fourier Transform (FFT): Most Ingenious Algorithm Ever?](https://youtu.be/h7apO7q16V0)
+- [The FFT Algorithm - Simple Step by Step](https://www.youtube.com/watch?v=htCj9exbGo0)
+- [STM32 Fast Fourier Transform (CMSIS DSP FFT) - Phil's Lab #111](https://youtu.be/d1KvgOwWvkM)
+
+#### Controls Systems / PID Control
+
+- [Understanding Control Systems (YouTube Playlist)](https://youtube.com/playlist?list=PLn8PRpmsu08q8CE0pbZ-cSrMm_WYJfVGd)
+- [Control Systems - CircuitBread (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfYdTiQCV_p4YZNJWExM-5_g0fk9bHDL8)
+- [What is a PID Controller? | DigiKey](https://www.youtube.com/watch?v=tFVAaUcOm4I)
+- [PID Controller Explained](https://www.youtube.com/watch?v=fv6dLTEvl74)
+- [Understanding PID Control (YouTube Playlist)](https://youtube.com/playlist?list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y)
+- [PID Controller Implementation in Software - Phil's Lab #6](https://www.youtube.com/watch?v=zOByx3Izf5U)
+- [💎 Control Systems Engineering - Norman S. Nise](https://www.wiley.com/en-us/Control+Systems+Engineering%2C+8th+Edition-p-9781119474227)
+- [💎 Modern Control Systems - Richard C. Dorf, Robert H. Bishop](https://www.pearson.com/en-us/subject-catalog/p/modern-control-systems/P200000003484/9780137307098)
+
+#### MATLAB / Simulink
+
+- [MATLAB Tutorials: Getting Started with MATLAB (YouTube Playlist)](https://youtube.com/playlist?list=PL7CAABC40B2825C8B)
+- [Getting Started with Simulink (YouTube Playlist)](https://youtube.com/playlist?list=PL484BA2AD3AE4C2D0)
+- [Udemy – MATLAB/SIMULINK Bible|Go From Zero to Hero!](https://www.udemy.com/course/matlabsimulink-biblego-from-zero-to-hero/)
 
 ## History
 
