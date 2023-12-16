@@ -799,17 +799,21 @@ _________________
 
 - [Memory Options for Embedded Systems: How to Select the Right Memory Configuration](https://www.qt.io/embedded-development-talk/memory-options-for-embedded-systems-how-to-select-the-right-memory-configuration)
 
-#### NOR / NAND Flash
+#### Flash Memories
+
+- [NAND and eMMC: All You Need to Know About Flash Memory](https://www.makeuseof.com/tag/nand-emmc-need-know-flash-memory/)
+
+##### NOR / NAND 
 
 - [QSPI in STM32 || Write and Read || N25Q](https://www.youtube.com/watch?v=xIfh_uYy-OU)
 - [QSPI in STM32 || Boot from EXT Memory || XIP || N25Q](https://www.youtube.com/watch?v=gAyuF20ok8c)
 - [Flash Memory in Embedded Linux Systems](https://www.youtube.com/watch?v=hdwMvwJIV-Y)
 
-#### eMMC
+##### eMMC
 
 - [What is a eMMC? Intro, Comparing to Other Storage, and Upgrading. SSD, M.2](https://www.youtube.com/watch?v=vGatKmqYxEA)
 
-#### SD Card
+##### SD Card
 
 - [Interfacing with an SD Card](https://www.youtube.com/watch?v=g40tUdjZ-Sk)
 
@@ -823,6 +827,18 @@ _________________
 - [What is SRAM?](https://www.youtube.com/watch?v=kU2SsUUsftA)
 - [SDRAM Hardware & Firmware Tutorial (STM32) - Phil's Lab #80](https://www.youtube.com/watch?v=h28D4AaPSjg)
 - [SDRAM in STM32 || MT48LC4](https://www.youtube.com/watch?v=QnDenqvzwyE)
+
+#### File Systems
+
+- [Flash filesystems](https://hugh712.gitbooks.io/embeddedsystem/content/flash_filesystems.html)
+- [Block filesystems](https://hugh712.gitbooks.io/embeddedsystem/content/block_filesystems.html)
+- [Understanding the UBI File System in Embedded Devices](https://serhack.me/articles/understanding-ubi-file-system-embedded-devices-reolink/)
+- [UBI File System](https://docs.kernel.org/filesystems/ubifs.html)
+- [JFFS : The Journalling Flash File System](https://sourceware.org/jffs2/jffs2-html/)
+- [Preventing Filesystem Corruption In Embedded Linux](https://www.embeddedts.com/assets/preventing-filesystem-corruption-in-embedded-linux)
+- [LittleFS - A high-integrity embedded file system](https://os.mbed.com/blog/entry/littlefs-high-integrity-embedded-fs/)
+- [SPIFS - Wear-leveled SPI flash file system for embedded devices](https://github.com/pellepl/spiffs)
+- [EEPROM File System (EEFS)](opensource.gsfc.nasa.gov/projects/eefs/index.php)
 
 _________________
 
