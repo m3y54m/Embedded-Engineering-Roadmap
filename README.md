@@ -884,10 +884,9 @@ _________________
 
 ##### Linux Kernel
 
+- [👶 Linux Kernel Development - Robert Love](https://www.oreilly.com/library/view/linux-kernel-development/9780768696974/)
 - [💎 The Linux Programming Interface - Michael Kerrisk](https://man7.org/tlpi/)
-- [The Linux Kernel - David A Rusling](https://tldp.org/LDP/tlk/)
 - [How Linux Works - Brian Ward](https://nostarch.com/howlinuxworks3)
-- [Practical System Programming with C: Pragmatic Example Applications in Linux and Unix-Based Operating Systems - Sri Manikanta Palakollu](https://link.springer.com/book/10.1007/978-1-4842-6321-1)
 
 ##### Linux Device Drivers
 
