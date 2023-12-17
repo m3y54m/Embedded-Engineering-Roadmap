@@ -94,7 +94,7 @@ You may have heard that YouTube is a university. And it's true - there is an imm
 - [Coursera - Introduction to Embedded Systems Software and Development Environments](https://www.coursera.org/learn/introduction-embedded-systems)
 - [Coursera - Embedded Software and Hardware Architecture](https://www.coursera.org/learn/embedded-software-hardware)
 - [Fastbit Embedded Brain Academy](https://fastbitlab.com/)
-- [Quantum Leaps, LLC (YouTube Channel)](https://www.youtube.com/@StateMachineCOM)
+- [Modern Embedded Systems Programming Course (YouTube Playlist)](https://www.youtube.com/playlist?list=PLPW8O6W-1chwyTzI3BHwBLbGQoPFxPAPM)
 - [element14 presents (YouTube Channel)](https://www.youtube.com/@element14presents)
 - [Ben Eater (YouTube Channel)](https://www.youtube.com/@BenEater)
 - [Phil’s Lab (YouTube Channel)](https://www.youtube.com/@PhilsLab)
