@@ -1,11 +1,13 @@
 # Embedded Systems Engineering Roadmap
 
-[![GitHub stars](https://badgen.net/github/stars/m3y54m/Embedded-Engineering-Roadmap)](https://GitHub.com/m3y54m/Embedded-Engineering-Roadmap/stargazers/)
-[![GitHub forks](https://badgen.net/github/forks/m3y54m/Embedded-Engineering-Roadmap)](https://GitHub.com/m3y54m/Embedded-Engineering-Roadmap/network/)
-[![GitHub watchers](https://badgen.net/github/watchers/m3y54m/Embedded-Engineering-Roadmap/)](https://GitHub.com/m3y54m/Embedded-Engineering-Roadmap/watchers/)
-[![GitHub contributors](https://badgen.net/github/contributors/m3y54m/Embedded-Engineering-Roadmap)](https://GitHub.com/m3y54m/Embedded-Engineering-Roadmap/graphs/contributors/)
-[![GitHub pull-requests merged](https://badgen.net/github/merged-prs/m3y54m/Embedded-Engineering-Roadmap)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/pulls?q=is%3Amerged)
-[![GitHub latest commit](https://badgen.net/github/last-commit/m3y54m/Embedded-Engineering-Roadmap)](https://GitHub.com/m3y54m/Embedded-Engineering-Roadmap/commit/)
+[![GitHub Repo stars](https://img.shields.io/github/stars/m3y54m/Embedded-Engineering-Roadmap?style=flat-square)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/m3y54m/Embedded-Engineering-Roadmap?style=flat-square)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/forks)
+[![GitHub watchers](https://img.shields.io/github/watchers/m3y54m/Embedded-Engineering-Roadmap?style=flat-square)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/watchers)
+[![GitHub contributors](https://img.shields.io/github/contributors/m3y54m/Embedded-Engineering-Roadmap?style=flat-square)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/graphs/contributors)
+[![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/m3y54m/Embedded-Engineering-Roadmap?style=flat-square)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/pulls?q=is%3Apr+is%3Aclosed)
+[![GitHub tag (with filter)](https://img.shields.io/github/v/tag/m3y54m/Embedded-Engineering-Roadmap?style=flat-square&label=latest)](github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest)
+[![GitHub release (by tag)](https://img.shields.io/github/downloads/m3y54m/Embedded-Engineering-Roadmap/latest/total?style=flat-square)
+](github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest)
 
 This roadmap is designed to help beginners aspiring to build a career as an **Embedded Engineer/Developer**, as well as assist current practitioners in expanding their skills. 
 
