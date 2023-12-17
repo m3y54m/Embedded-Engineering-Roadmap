@@ -206,7 +206,7 @@ _________________
 - [Here’s a Quick Way to Know about Major Electronic Components](https://www.elprocus.com/major-electronic-components/)
 - [Encyclopedia of Electronic Components - Charles Platt](https://a.co/d/83cSiU7)
 
-#### Digital Circuits & Logic Design
+#### Digital Design
 
 - [👶 Tiny Tapeout > Digital Design Guide](https://tinytapeout.com/digital_design/)
 - [👶 FPGA Fundamentals - Nandland](https://nandland.com/fpga-101/)
