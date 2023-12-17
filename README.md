@@ -495,102 +495,6 @@ _________________
 
 _________________
 
-### Hardware Simulation / Emulation Tools
-
-- [👶 Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
-
-#### [QEMU](https://www.qemu.org/)
-
-- [QEMU’s documentation](https://www.qemu.org/docs/master/index.html)
-- [Running AVR code in QEMU - A quick-start guide to accelerate AVR firmware development](https://yeah.nah.nz/embedded/qemu-avr/)
-- [QEMU Simulation - Blinky - STM32F767ZI Full Stack](https://longer-vision-robot.gitbook.io/stm32f767zi-full-stack/chapter-2.-programming-for-stm32/2.4-qemu-simulation-blinky)
-- [Emulating a Raspberry Pi in QEMU](https://interrupt.memfault.com/blog/emulating-raspberry-pi-in-qemu)
-
-#### [Renode](https://renode.io/)
-
-- [Renode - GitHub Repo](https://github.com/renode/renode)
-- [Renode - Documentation](https://renode.readthedocs.io/en/latest/)
-- [Renode - Official Tutorials](https://renode.io/tutorials/)
-- [Cortex-M MCU Emulation with Renode](https://interrupt.memfault.com/blog/intro-to-renode)
-- [A simple guide to get started on renode](https://github.com/tarciszera/renode_guide)
-- [Using CI-based workflow with Renode in bringing TensorFlow Lite to Zephyr](https://www.youtube.com/watch?v=jF94cXPoZZg)
-
-_________________
-
-### Memory Technologies & File Systems
-
-- [Memory Options for Embedded Systems: How to Select the Right Memory Configuration](https://www.qt.io/embedded-development-talk/memory-options-for-embedded-systems-how-to-select-the-right-memory-configuration)
-
-#### Flash Memory
-
-- [NAND and eMMC: All You Need to Know About Flash Memory](https://www.makeuseof.com/tag/nand-emmc-need-know-flash-memory/)
-
-##### NOR / NAND 
-
-- [QSPI in STM32 || Write and Read || N25Q](https://www.youtube.com/watch?v=xIfh_uYy-OU)
-- [QSPI in STM32 || Boot from EXT Memory || XIP || N25Q](https://www.youtube.com/watch?v=gAyuF20ok8c)
-- [Flash Memory in Embedded Linux Systems](https://www.youtube.com/watch?v=hdwMvwJIV-Y)
-
-##### eMMC
-
-- [What is a eMMC? Intro, Comparing to Other Storage, and Upgrading. SSD, M.2](https://www.youtube.com/watch?v=vGatKmqYxEA)
-
-##### SD Card
-
-- [Interfacing with an SD Card](https://www.youtube.com/watch?v=g40tUdjZ-Sk)
-
-#### EEPROM
-
-- [Using EEPROM with Arduino - Internal & External](https://www.youtube.com/watch?v=ShqvATqXA7g)
-
-#### SRAM / DRAM
-
-- [SRAM vs DRAM: Difference Between SRAM & DRAM Explained](https://www.enterprisestorageforum.com/hardware/sram-vs-dram/)
-- [What is SRAM?](https://www.youtube.com/watch?v=kU2SsUUsftA)
-- [SDRAM Hardware & Firmware Tutorial (STM32) - Phil's Lab #80](https://www.youtube.com/watch?v=h28D4AaPSjg)
-- [SDRAM in STM32 || MT48LC4](https://www.youtube.com/watch?v=QnDenqvzwyE)
-
-#### File Systems
-
-- [Flash filesystems](https://hugh712.gitbooks.io/embeddedsystem/content/flash_filesystems.html)
-- [Block filesystems](https://hugh712.gitbooks.io/embeddedsystem/content/block_filesystems.html)
-- [Understanding the UBI File System in Embedded Devices](https://serhack.me/articles/understanding-ubi-file-system-embedded-devices-reolink/)
-- [UBI File System](https://docs.kernel.org/filesystems/ubifs.html)
-- [JFFS : The Journalling Flash File System](https://sourceware.org/jffs2/jffs2-html/)
-- [Preventing Filesystem Corruption In Embedded Linux](https://www.embeddedts.com/assets/preventing-filesystem-corruption-in-embedded-linux)
-- [LittleFS - A high-integrity embedded file system](https://os.mbed.com/blog/entry/littlefs-high-integrity-embedded-fs/)
-- [SPIFS - Wear-leveled SPI flash file system for embedded devices](https://github.com/pellepl/spiffs)
-- [EEPROM File System (EEFS)](opensource.gsfc.nasa.gov/projects/eefs/index.php)
-
-_________________
-
-### Sensors & Actuators
-
-- [💎 Coursera - Embedding Sensors and Motors Specialization](https://www.coursera.org/specializations/embedding-sensors-motors)
-
-#### Sensors
-
-- [Calibrating Sensors](https://learn.adafruit.com/calibrating-sensors)
-- [DHT11 vs DHT22 vs LM35 vs DS18B20 vs BME280 vs BMP180](https://randomnerdtutorials.com/dht11-vs-dht22-vs-lm35-vs-ds18b20-vs-bme280-vs-bmp180/)
-- [Getting Started With STM32 and Nucleo Part 2: How to Use I2C to Read Temperature Sensor TMP102](https://www.youtube.com/watch?v=isOekyygpR8)
-- [GPS Module and STM32 || NEO 6M || Get coordinates, Date, Time, Speed, etc.](https://www.youtube.com/watch?v=tq_RoaPLahk)
-- [Interface MPU6050/GY-521 with STM32 || LCD 20x4 || CubeMx || HAL || SW4STM](https://www.youtube.com/watch?v=xxphp9wDnHA)
-- [Arduino with PIR Motion Sensor](https://randomnerdtutorials.com/arduino-with-pir-motion-sensor/)
-- [Complete Guide for Ultrasonic Sensor HC-SR04 with Arduino](https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/)
-- [Electronic Basics #15: Temperature Measurement (Part 1) || NTC, PT100, Wheatstone Bridge](https://youtu.be/1U4fep_qAeo?si=Q2FF__EXONN-xN5M)
-
-#### Actuators
-
-- [Adafruit Motor Selection Guide](https://learn.adafruit.com/adafruit-motor-selection-guide)
-- [DC Motor Speed Controller PWM With Potentiometer Using STM32](https://www.youtube.com/watch?v=8QpegVuV_AQ)
-- [All About Stepper Motors](https://learn.adafruit.com/all-about-stepper-motors)
-- [Using Servos With CircuitPython and Arduino](https://learn.adafruit.com/using-servos-with-circuitpython)
-- [Electronic Basics #25: Servos and how to use them](https://youtu.be/J8atdmEqZsc?si=bH_xoIwnAsNU5_lD)
-- [Electronic Basics #24: Stepper Motors and how to use them](https://youtu.be/bkqoKWP4Oy4?si=kvhwykmFZ0UnLDJ7)
-- [Electronic Basics #18: DC & Brushless DC Motor + ESC](https://youtu.be/UteZJ_7C4Mg?si=uADPmCaucyWXd8Xe)
-
-_________________
-
 ### Interfaces, Protocols & Communication Technologies
 
 #### ‌Basic Protocols
@@ -780,6 +684,142 @@ _________________
 ##### LTE-M & NB-IoT
 
 - [Cellular IoT Fundamentals - Nordic Semiconductor](https://academy.nordicsemi.com/courses/cellular-iot-fundamentals/)
+
+_________________
+
+### Hardware Simulation / Emulation Tools
+
+- [👶 Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
+
+#### [QEMU](https://www.qemu.org/)
+
+- [QEMU’s documentation](https://www.qemu.org/docs/master/index.html)
+- [Running AVR code in QEMU - A quick-start guide to accelerate AVR firmware development](https://yeah.nah.nz/embedded/qemu-avr/)
+- [QEMU Simulation - Blinky - STM32F767ZI Full Stack](https://longer-vision-robot.gitbook.io/stm32f767zi-full-stack/chapter-2.-programming-for-stm32/2.4-qemu-simulation-blinky)
+- [Emulating a Raspberry Pi in QEMU](https://interrupt.memfault.com/blog/emulating-raspberry-pi-in-qemu)
+
+#### [Renode](https://renode.io/)
+
+- [Renode - GitHub Repo](https://github.com/renode/renode)
+- [Renode - Documentation](https://renode.readthedocs.io/en/latest/)
+- [Renode - Official Tutorials](https://renode.io/tutorials/)
+- [Cortex-M MCU Emulation with Renode](https://interrupt.memfault.com/blog/intro-to-renode)
+- [A simple guide to get started on renode](https://github.com/tarciszera/renode_guide)
+- [Using CI-based workflow with Renode in bringing TensorFlow Lite to Zephyr](https://www.youtube.com/watch?v=jF94cXPoZZg)
+
+_________________
+
+### Memory Technologies & File Systems
+
+- [Memory Options for Embedded Systems: How to Select the Right Memory Configuration](https://www.qt.io/embedded-development-talk/memory-options-for-embedded-systems-how-to-select-the-right-memory-configuration)
+
+#### Flash Memory
+
+- [NAND and eMMC: All You Need to Know About Flash Memory](https://www.makeuseof.com/tag/nand-emmc-need-know-flash-memory/)
+
+##### NOR / NAND 
+
+- [QSPI in STM32 || Write and Read || N25Q](https://www.youtube.com/watch?v=xIfh_uYy-OU)
+- [QSPI in STM32 || Boot from EXT Memory || XIP || N25Q](https://www.youtube.com/watch?v=gAyuF20ok8c)
+- [Flash Memory in Embedded Linux Systems](https://www.youtube.com/watch?v=hdwMvwJIV-Y)
+
+##### eMMC
+
+- [What is a eMMC? Intro, Comparing to Other Storage, and Upgrading. SSD, M.2](https://www.youtube.com/watch?v=vGatKmqYxEA)
+
+##### SD Card
+
+- [Interfacing with an SD Card](https://www.youtube.com/watch?v=g40tUdjZ-Sk)
+
+#### EEPROM
+
+- [Using EEPROM with Arduino - Internal & External](https://www.youtube.com/watch?v=ShqvATqXA7g)
+
+#### SRAM / DRAM
+
+- [SRAM vs DRAM: Difference Between SRAM & DRAM Explained](https://www.enterprisestorageforum.com/hardware/sram-vs-dram/)
+- [What is SRAM?](https://www.youtube.com/watch?v=kU2SsUUsftA)
+- [SDRAM Hardware & Firmware Tutorial (STM32) - Phil's Lab #80](https://www.youtube.com/watch?v=h28D4AaPSjg)
+- [SDRAM in STM32 || MT48LC4](https://www.youtube.com/watch?v=QnDenqvzwyE)
+
+#### File Systems
+
+- [Flash filesystems](https://hugh712.gitbooks.io/embeddedsystem/content/flash_filesystems.html)
+- [Block filesystems](https://hugh712.gitbooks.io/embeddedsystem/content/block_filesystems.html)
+- [Understanding the UBI File System in Embedded Devices](https://serhack.me/articles/understanding-ubi-file-system-embedded-devices-reolink/)
+- [UBI File System](https://docs.kernel.org/filesystems/ubifs.html)
+- [JFFS : The Journalling Flash File System](https://sourceware.org/jffs2/jffs2-html/)
+- [Preventing Filesystem Corruption In Embedded Linux](https://www.embeddedts.com/assets/preventing-filesystem-corruption-in-embedded-linux)
+- [LittleFS - A high-integrity embedded file system](https://os.mbed.com/blog/entry/littlefs-high-integrity-embedded-fs/)
+- [SPIFS - Wear-leveled SPI flash file system for embedded devices](https://github.com/pellepl/spiffs)
+- [EEPROM File System (EEFS)](opensource.gsfc.nasa.gov/projects/eefs/index.php)
+
+_________________
+
+### Sensors & Actuators
+
+- [💎 Coursera - Embedding Sensors and Motors Specialization](https://www.coursera.org/specializations/embedding-sensors-motors)
+
+#### Sensors
+
+- [Calibrating Sensors](https://learn.adafruit.com/calibrating-sensors)
+- [DHT11 vs DHT22 vs LM35 vs DS18B20 vs BME280 vs BMP180](https://randomnerdtutorials.com/dht11-vs-dht22-vs-lm35-vs-ds18b20-vs-bme280-vs-bmp180/)
+- [Getting Started With STM32 and Nucleo Part 2: How to Use I2C to Read Temperature Sensor TMP102](https://www.youtube.com/watch?v=isOekyygpR8)
+- [GPS Module and STM32 || NEO 6M || Get coordinates, Date, Time, Speed, etc.](https://www.youtube.com/watch?v=tq_RoaPLahk)
+- [Interface MPU6050/GY-521 with STM32 || LCD 20x4 || CubeMx || HAL || SW4STM](https://www.youtube.com/watch?v=xxphp9wDnHA)
+- [Arduino with PIR Motion Sensor](https://randomnerdtutorials.com/arduino-with-pir-motion-sensor/)
+- [Complete Guide for Ultrasonic Sensor HC-SR04 with Arduino](https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/)
+- [Electronic Basics #15: Temperature Measurement (Part 1) || NTC, PT100, Wheatstone Bridge](https://youtu.be/1U4fep_qAeo?si=Q2FF__EXONN-xN5M)
+
+#### Actuators
+
+- [Adafruit Motor Selection Guide](https://learn.adafruit.com/adafruit-motor-selection-guide)
+- [DC Motor Speed Controller PWM With Potentiometer Using STM32](https://www.youtube.com/watch?v=8QpegVuV_AQ)
+- [All About Stepper Motors](https://learn.adafruit.com/all-about-stepper-motors)
+- [Using Servos With CircuitPython and Arduino](https://learn.adafruit.com/using-servos-with-circuitpython)
+- [Electronic Basics #25: Servos and how to use them](https://youtu.be/J8atdmEqZsc?si=bH_xoIwnAsNU5_lD)
+- [Electronic Basics #24: Stepper Motors and how to use them](https://youtu.be/bkqoKWP4Oy4?si=kvhwykmFZ0UnLDJ7)
+- [Electronic Basics #18: DC & Brushless DC Motor + ESC](https://youtu.be/UteZJ_7C4Mg?si=uADPmCaucyWXd8Xe)
+
+_________________
+
+### Digital Signal Processing
+
+#### DSP Basics & Filter Design
+
+- [💎 The Scientist and Engineer's Guide to Digital Signal Processing - Steven W. Smith](https://www.dspguide.com/pdfbook.htm)
+- [FIR Filter Design and Software Implementation - Phil's Lab #17](https://www.youtube.com/watch?v=uNNNj9AZisM)
+- [IIR Filters - Theory and Implementation (STM32) - Phil's Lab #32](https://www.youtube.com/watch?v=QRMe02kzVkA)
+- [Digital Signal Processing (ECSE-4530) Lectures, Fall 2014 (YouTube Playlist)](https://youtube.com/playlist?list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et)
+- [Udemy – Digital Signal Processing (DSP) From Ground Up in C](https://www.udemy.com/course/digital-signal-processing-dsp-from-ground-uptm-in-c/)
+- [Real-Time Digital Signal Processing: Fundamentals, Implementations and Applications - Sen M. Kuo, Bob H. Lee, Wenshun Tian](https://www.wiley.com/en-us/Real+Time+Digital+Signal+Processing%3A+Fundamentals%2C+Implementations+and+Applications%2C+3rd+Edition-p-9781118414323)
+- [Real-Time Digital Signal Processing from MATLAB to C with the TMS320C6x DSPs - Thad B. Welch, Cameron H.G. Wright, Michael G. Morrow](https://www.routledge.com/Real-Time-Digital-Signal-Processing-from-MATLAB-to-C-with-the-TMS320C6x/Welch-Wright-Morrow/p/book/9780367736453)
+- [Schaum's Outline of Signals and Systems - Hwei P. Hsu](https://www.mhprofessional.com/schaum-s-outline-of-signals-and-systems-fourth-edition-9781260454246-usa)
+- [💎 Digital Signal Processing - John G. Proakis, Dimitris K. Manolakis](https://a.co/d/75P5PiE)
+
+#### Discrete Fourier Transform / FFT
+
+- [Discrete Fourier Transform - Simple Step by Step](https://www.youtube.com/watch?v=mkGsMWi_j4Q)
+- [The Fast Fourier Transform (FFT): Most Ingenious Algorithm Ever?](https://youtu.be/h7apO7q16V0)
+- [The FFT Algorithm - Simple Step by Step](https://www.youtube.com/watch?v=htCj9exbGo0)
+- [STM32 Fast Fourier Transform (CMSIS DSP FFT) - Phil's Lab #111](https://youtu.be/d1KvgOwWvkM)
+
+#### Controls Systems / PID Control
+
+- [Understanding Control Systems (YouTube Playlist)](https://youtube.com/playlist?list=PLn8PRpmsu08q8CE0pbZ-cSrMm_WYJfVGd)
+- [Control Systems - CircuitBread (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfYdTiQCV_p4YZNJWExM-5_g0fk9bHDL8)
+- [What is a PID Controller? | DigiKey](https://www.youtube.com/watch?v=tFVAaUcOm4I)
+- [PID Controller Explained](https://www.youtube.com/watch?v=fv6dLTEvl74)
+- [Understanding PID Control (YouTube Playlist)](https://youtube.com/playlist?list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y)
+- [PID Controller Implementation in Software - Phil's Lab #6](https://www.youtube.com/watch?v=zOByx3Izf5U)
+- [💎 Control Systems Engineering - Norman S. Nise](https://www.wiley.com/en-us/Control+Systems+Engineering%2C+8th+Edition-p-9781119474227)
+- [💎 Modern Control Systems - Richard C. Dorf, Robert H. Bishop](https://www.pearson.com/en-us/subject-catalog/p/modern-control-systems/P200000003484/9780137307098)
+
+#### MATLAB / Simulink
+
+- [MATLAB Tutorials: Getting Started with MATLAB (YouTube Playlist)](https://youtube.com/playlist?list=PL7CAABC40B2825C8B)
+- [Getting Started with Simulink (YouTube Playlist)](https://youtube.com/playlist?list=PL484BA2AD3AE4C2D0)
+- [Udemy – MATLAB/SIMULINK Bible|Go From Zero to Hero!](https://www.udemy.com/course/matlabsimulink-biblego-from-zero-to-hero/)
 
 _________________
 
@@ -1187,46 +1227,6 @@ _________________
 - [LVGL](https://lvgl.io/)
 - [TouchGFX](https://support.touchgfx.com/4.20/docs/introduction/welcome)
 - [Introduction to Qt / QML (YouTube Playlist)](https://www.youtube.com/playlist?list=PL6CJYn40gN6hdNC1IGQZfVI707dh9DPRc)
-
-_________________
-
-### Digital Signal Processing
-
-#### DSP Basics & Filter Design
-
-- [💎 The Scientist and Engineer's Guide to Digital Signal Processing - Steven W. Smith](https://www.dspguide.com/pdfbook.htm)
-- [FIR Filter Design and Software Implementation - Phil's Lab #17](https://www.youtube.com/watch?v=uNNNj9AZisM)
-- [IIR Filters - Theory and Implementation (STM32) - Phil's Lab #32](https://www.youtube.com/watch?v=QRMe02kzVkA)
-- [Digital Signal Processing (ECSE-4530) Lectures, Fall 2014 (YouTube Playlist)](https://youtube.com/playlist?list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et)
-- [Udemy – Digital Signal Processing (DSP) From Ground Up in C](https://www.udemy.com/course/digital-signal-processing-dsp-from-ground-uptm-in-c/)
-- [Real-Time Digital Signal Processing: Fundamentals, Implementations and Applications - Sen M. Kuo, Bob H. Lee, Wenshun Tian](https://www.wiley.com/en-us/Real+Time+Digital+Signal+Processing%3A+Fundamentals%2C+Implementations+and+Applications%2C+3rd+Edition-p-9781118414323)
-- [Real-Time Digital Signal Processing from MATLAB to C with the TMS320C6x DSPs - Thad B. Welch, Cameron H.G. Wright, Michael G. Morrow](https://www.routledge.com/Real-Time-Digital-Signal-Processing-from-MATLAB-to-C-with-the-TMS320C6x/Welch-Wright-Morrow/p/book/9780367736453)
-- [Schaum's Outline of Signals and Systems - Hwei P. Hsu](https://www.mhprofessional.com/schaum-s-outline-of-signals-and-systems-fourth-edition-9781260454246-usa)
-- [💎 Digital Signal Processing - John G. Proakis, Dimitris K. Manolakis](https://a.co/d/75P5PiE)
-
-#### Discrete Fourier Transform / FFT
-
-- [Discrete Fourier Transform - Simple Step by Step](https://www.youtube.com/watch?v=mkGsMWi_j4Q)
-- [The Fast Fourier Transform (FFT): Most Ingenious Algorithm Ever?](https://youtu.be/h7apO7q16V0)
-- [The FFT Algorithm - Simple Step by Step](https://www.youtube.com/watch?v=htCj9exbGo0)
-- [STM32 Fast Fourier Transform (CMSIS DSP FFT) - Phil's Lab #111](https://youtu.be/d1KvgOwWvkM)
-
-#### Controls Systems / PID Control
-
-- [Understanding Control Systems (YouTube Playlist)](https://youtube.com/playlist?list=PLn8PRpmsu08q8CE0pbZ-cSrMm_WYJfVGd)
-- [Control Systems - CircuitBread (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfYdTiQCV_p4YZNJWExM-5_g0fk9bHDL8)
-- [What is a PID Controller? | DigiKey](https://www.youtube.com/watch?v=tFVAaUcOm4I)
-- [PID Controller Explained](https://www.youtube.com/watch?v=fv6dLTEvl74)
-- [Understanding PID Control (YouTube Playlist)](https://youtube.com/playlist?list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y)
-- [PID Controller Implementation in Software - Phil's Lab #6](https://www.youtube.com/watch?v=zOByx3Izf5U)
-- [💎 Control Systems Engineering - Norman S. Nise](https://www.wiley.com/en-us/Control+Systems+Engineering%2C+8th+Edition-p-9781119474227)
-- [💎 Modern Control Systems - Richard C. Dorf, Robert H. Bishop](https://www.pearson.com/en-us/subject-catalog/p/modern-control-systems/P200000003484/9780137307098)
-
-#### MATLAB / Simulink
-
-- [MATLAB Tutorials: Getting Started with MATLAB (YouTube Playlist)](https://youtube.com/playlist?list=PL7CAABC40B2825C8B)
-- [Getting Started with Simulink (YouTube Playlist)](https://youtube.com/playlist?list=PL484BA2AD3AE4C2D0)
-- [Udemy – MATLAB/SIMULINK Bible|Go From Zero to Hero!](https://www.udemy.com/course/matlabsimulink-biblego-from-zero-to-hero/)
 
 ## History
 
