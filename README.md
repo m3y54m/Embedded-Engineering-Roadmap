@@ -1,5 +1,12 @@
 # Embedded Systems Engineering Roadmap
 
+[![GitHub stars](https://badgen.net/github/stars/m3y54m/Embedded-Engineering-Roadmap)](https://GitHub.com/m3y54m/Embedded-Engineering-Roadmap/stargazers/)
+[![GitHub forks](https://badgen.net/github/forks/m3y54m/Embedded-Engineering-Roadmap)](https://GitHub.com/m3y54m/Embedded-Engineering-Roadmap/network/)
+[![GitHub watchers](https://badgen.net/github/watchers/m3y54m/Embedded-Engineering-Roadmap/)](https://GitHub.com/m3y54m/Embedded-Engineering-Roadmap/watchers/)
+[![GitHub contributors](https://badgen.net/github/contributors/m3y54m/Embedded-Engineering-Roadmap)](https://GitHub.com/m3y54m/Embedded-Engineering-Roadmap/graphs/contributors/)
+[![GitHub pull-requests merged](https://badgen.net/github/merged-prs/m3y54m/Embedded-Engineering-Roadmap)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/pulls?q=is%3Amerged)
+[![GitHub latest commit](https://badgen.net/github/last-commit/m3y54m/Embedded-Engineering-Roadmap)](https://GitHub.com/m3y54m/Embedded-Engineering-Roadmap/commit/)
+
 This roadmap is designed to help beginners aspiring to build a career as an **Embedded Engineer/Developer**, as well as assist current practitioners in expanding their skills. 
 
 You should know that becoming an embedded engineer requires a broad understanding of both software and hardware. If you really want to pursue this career you must be highly motivated and passionate about it. As well as programming and software development skills, embedded systems demand a solid understanding of hardware functionality. However, as the well-known saying goes, "Hardware is hard!". So if you still know nothing about embedded systems, a hard yet exciting journey awaits you. But don't panic and be patient for the challenges you may encounter along this journey. By dedicating enough time and effort practicing and doing projects you will soon find yourself as a real embedded engineer! 😀
