@@ -1084,7 +1084,7 @@ OpenOCD (Open On-Chip Debugger) is an open-source software tool that provides a 
 
 _________________
 
-### ✳️ Build Systems
+### ✳️ Build System
 
 Build systems automate the process of compiling and linking source code into executable programs. They are essential tools for software development, as they can help to improve the efficiency and consistency of the build process. Popular build systems include Make, and CMake.
 
@@ -1282,17 +1282,24 @@ Learning hardware hacking helps security professionals understand how embedded s
 
 _________________
 
-### ✳️ AUTOSAR Architecture
+### ✳️ Embedded GUI
 
-AUTOSAR, or AUTomotive Open System ARchitecture, is a global industry standard for automotive software development. It is a software architecture that provides a standardized platform for developing and integrating software components in vehicle electronic control units (ECUs). This allows different ECUs from different manufacturers to communicate and work together seamlessly.
+Graphical User Interfaces (GUIs) have become an indispensable part of modern embedded systems, offering a user-friendly and intuitive way to interact with devices. Designing effective GUIs for embedded systems requires careful consideration of factors such as resource constraints, user experience, and real-time performance.
 
-- [🔘 AUTOSAR Standards](https://www.autosar.org/standards)
-- [🔘 AUTOSAR Basics | AUTOSAR Tutorial | Architecture | Automotive](https://www.youtube.com/watch?v=7b5BY1IAfwY)
-- [🔘 Introduction to AUTOSAR](https://www.youtube.com/watch?v=NfZI8wvgZPo)
-- [🔘 Udemy - Autosar Architecture (Learn from Scratch with Demo)](https://www.udemy.com/course/autosar-architecture/)
+- [🔘 U8glib library for monochrome displays, version 2](https://github.com/olikraus/u8g2)
+- [🔘 LVGL](https://lvgl.io/)
+- [🔘 TouchGFX](https://support.touchgfx.com/4.20/docs/introduction/welcome)
+- [🔘 Introduction to Qt / QML (YouTube Playlist)](https://www.youtube.com/playlist?list=PL6CJYn40gN6hdNC1IGQZfVI707dh9DPRc)
+
 _________________
 
-### ✳️ Edge AI & TinyML
+### ✳️ IoT (Internet of Things)
+
+The Internet of Things (IoT) refers to a network of interconnected devices, which gather and exchange data with other devices or with the cloud. Embedded systems are typically the "brains" of IoT devices, managing data collection, processing, and communication tasks. Embedded systems are designed to operate with limited power and resources, making them well-suited for IoT applications.
+
+- [👶 💎 Design Considerations For Your First IoT Project](https://mu.microchip.com/design-considerations-for-your-first-iot-project)
+
+### ✳️ Edge AI
 
 Edge AI refers to the ability of devices to perform machine learning tasks on their own, without the need to send data to a central server. This can be done by using small, specialized AI models that are embedded directly into the device. TinyML is a subset of Edge AI that focuses on developing these models for devices with very limited computing power, such as microcontrollers and sensors.
 
@@ -1326,14 +1333,14 @@ Edge AI refers to the ability of devices to perform machine learning tasks on th
 
 _________________
 
-### ✳️ GUI Design
+### ✳️ AUTOSAR Architecture
 
-Graphical User Interfaces (GUIs) have become an indispensable part of modern embedded systems, offering a user-friendly and intuitive way to interact with devices. Designing effective GUIs for embedded systems requires careful consideration of factors such as resource constraints, user experience, and real-time performance.
+AUTOSAR, or AUTomotive Open System ARchitecture, is a global industry standard for automotive software development. It is a software architecture that provides a standardized platform for developing and integrating software components in vehicle electronic control units (ECUs). This allows different ECUs from different manufacturers to communicate and work together seamlessly.
 
-- [🔘 U8glib library for monochrome displays, version 2](https://github.com/olikraus/u8g2)
-- [🔘 LVGL](https://lvgl.io/)
-- [🔘 TouchGFX](https://support.touchgfx.com/4.20/docs/introduction/welcome)
-- [🔘 Introduction to Qt / QML (YouTube Playlist)](https://www.youtube.com/playlist?list=PL6CJYn40gN6hdNC1IGQZfVI707dh9DPRc)
+- [🔘 AUTOSAR Standards](https://www.autosar.org/standards)
+- [🔘 AUTOSAR Basics | AUTOSAR Tutorial | Architecture | Automotive](https://www.youtube.com/watch?v=7b5BY1IAfwY)
+- [🔘 Introduction to AUTOSAR](https://www.youtube.com/watch?v=NfZI8wvgZPo)
+- [🔘 Udemy - Autosar Architecture (Learn from Scratch with Demo)](https://www.udemy.com/course/autosar-architecture/)
 
 ## History
 
