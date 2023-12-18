@@ -43,18 +43,18 @@ used in an aircraft or rapid transit system.
 
 ## 🗺️ The Roadmap
 
-The roadmap is divided into three main sections: **SOFTWARE**, **HARDWARE**, and **SOFT SKILLS**.
+![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)
 
-The hardware and software sections overlap in many embedded job roles. Different job titles, such as "Embedded Software Engineer/Developer," "Firmware Engineer/Developer," and "Embedded Linux Engineer/Developer," tend to focus more on software. On the other hand, job roles like "Embedded Hardware Engineer" and "Hardware Design Engineer" primarily focus on hardware. Additionally, there are positions like "Embedded Systems Engineer" that require a good understanding of both hardware and software. It's importnat to understand that each company in the embedded industry may have specific requirements for a job role, regardless of its title.
+The embedded systems engineering roadmap is structured into three fundamental areas: **SOFTWARE**, **HARDWARE**, and **SOFT SKILLS**.
 
-With this in mind, the roadmap is designed to cover topics necessary for a typical "Embedded Systems Engineer" role. If you are aiming for an embedded software position, you should focus more on software skills in the roadmap. Conversely, if you are interested in an embedded hardware job, you should prioritize hardware skills and put more time on learning electronics.
+While the intersection of hardware and software is prevalent in embedded systems, specific job titles tend to emphasize one aspect over the other. For instance, roles like "Embedded Software Engineer/Developer," "Firmware Engineer/Developer," and "Embedded Linux Engineer/Developer" predominantly focus on software development. In contrast, positions such as "Embedded Hardware Engineer" and "Hardware Design Engineer" primarily deal with hardware design and electronics. Moreover, there are roles like "Embedded Systems Engineer" that necessitate a comprehensive understanding of both hardware and software.
 
-Just like many other job roles, an embedded engineer requires some soft skills that cannot be acquired solely through reading or watching videos. Soft skills are developed through communication with people and facing various work challenges. Improving soft skills is not a one-size-fits-all approach. It will vary based on one's individual traits and requires self-awareness of your strengths and areas for growth. Enhancing these skills takes time and effort.
+It's crucial to note that each company in the embedded industry may have unique requirements for a given job title. Therefore, it's essential to tailor your focus based on your career aspirations. If you're seeking an embedded software position, prioritize the software-related skills outlined in the roadmap. Conversely, if you're interested in an embedded hardware job, concentrate on hardware skills and dedicate more time to learning electronics.
+
+The roadmap provides a comprehensive guide to the essential topics for a typical "Embedded Systems Engineer" role. By delving into both software and hardware aspects, you can develop the necessary skills to thrive in this dynamic field. However, if you have a clear preference for software or hardware, you can tailor your learning path accordingly.
 
 > [!NOTE] 
 > **Remember that the importance of individual software and hardware skills can differ depending on the specific requirements of the company and the job role.**
-
-![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)
 
 ## 😕 Don't Know Where to Start!
 
@@ -182,6 +182,8 @@ _________________
 
 ### ✳️ Soft Skills
 
+Similar to other professions, embedded engineers require soft skills that can't be solely obtained from reading or watching videos. These skills are cultivated through interactions and tackling various work obstacles. Improving soft skills is not a one-size-fits-all approach. It will vary based on one's individual traits and requires self-awareness of your strengths and areas for growth. Enhancing these skills takes time and effort.
+
 - [🔘 Soft Skills For Embedded Systems Software Developers](https://www.embeddedrelated.com/showarticle/1470.php)
 - [🔘 10 Skills Every Embedded Engineer Should Have](https://medium.com/@lanceharvieruntime/10-skills-every-embedded-engineer-should-have-dcb867095b91)
 
@@ -225,6 +227,8 @@ _________________
 
 #### 🔵 Computer Architecture
 
+Computer architecture is the backbone of embedded systems, governing the hardware and software interactions. Embedded developers need a grasp of computer architecture to design, develop, and debug embedded software effectively. Expertise in ARM and RISC-V, two prevalent instruction set architectures (ISAs) in embedded systems, is paramount for embedded developers. ARM is the dominant ISA, while RISC-V's open-source nature and flexibility are gaining traction.
+
 - [👶 💎 Computer Organization and Design: ARM Edition -  David A. Patterson, John L. Hennessy](https://a.co/d/8YPUXG7)
 - [👶 💎 Digital Design and Computer Architecture: ARM Edition -  Sarah Harris, David Harris](https://a.co/d/4otoVvI)
 - [👶 💎 Digital Design and Computer Architecture: RISC-V Edition -  Sarah Harris, David Harris](https://a.co/d/61l7Jtb)
@@ -238,6 +242,8 @@ _________________
 _________________
 
 ### ✳️ Using Test Equipment
+
+Embedded systems often require specialized test equipment to verify their functionality and performance. This equipment includes multimeters, oscilloscopes, logic analyzers, function generators, power supplies, and other tools that allow engineers to measure signals, inject stimuli, and monitor the behavior of embedded systems. 
 
 #### 🔵 Multimeter
 
@@ -259,7 +265,11 @@ _________________
 
 ### ✳️ Prototyping Skills
 
+While hardware design and prototyping are primarily the responsibility of electronic hardware design engineers, embedded software engineers can benefit from a basic understanding of these concepts. This knowledge can be instrumental in identifying and resolving hardware-related issues during embedded system debugging. By having a grasp of hardware principles, embedded software engineers can effectively pinpoint the root causes of problems, leading to quicker and more efficient troubleshooting.
+
 #### 🔵 Breadboarding
+
+Breadboarding is a hands-on approach to prototyping circuits, providing a versatile platform for experimentation and circuit design. Embedded systems often utilize breadboards for their ease of use, flexibility, and cost-effectiveness. By connecting components on a breadboard, embedded systems developers can quickly test and refine their designs without the need for permanent soldering. This allows for rapid iterations and efficient debugging, making breadboarding an invaluable tool for embedded system development.
 
 - [👶 Everything You Need to Know about Breadboards](https://www.youtube.com/watch?v=mE33WpRWrXs)
 - [👶 How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
@@ -298,6 +308,8 @@ _________________
 _________________
 
 ### ✳️ FPGA Design
+
+FPGAs (Field-Programmable Gate Arrays) are specialized integrated circuits that can be configured to perform various digital logic functions. They are widely used in embedded systems to achieve high performance, flexibility, and cost-effectiveness. FPGA designers use hardware description languages (HDLs) to create customized circuits that map directly to the FPGA architecture. Since FPGA engineering and verification differ significantly from embedded software development, it stands as a specialized domain within embedded systems.
 
 - [🔘 FPGA / ASIC Engineering Roadmap](https://github.com/m3y54m/FPGA-ASIC-Roadmap)
 - [🔘 What are FPGAs?](https://hackaday.io/project/27550-the-hobbyists-guide-to-fpgas/log/68114-what-are-fpgas)
