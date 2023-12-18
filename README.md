@@ -361,11 +361,11 @@ _________________
 
 #### 🔵 C
 
-- [👶 Syntax And Structure of C - Simply C](https://mu.microchip.com/syntax-and-structure-of-c)
-- [💎 Advanced C Programming](https://mu.microchip.com/advanced-c-programming)
-- [💎 Advanced Embedded C Tips, Tricks, and Cautions](https://mu.microchip.com/advanced-embedded-c-tips-tricks-and-cautions)
-- [💎 C Programming: Linked List Data Structures](https://mu.microchip.com/c-programming-linked-list-data-structures)
-- [💎 C Programming Callbacks](https://mu.microchip.com/c-programming-callbacks)
+- [👶 Microchip University - Syntax And Structure of C - Simply C](https://mu.microchip.com/syntax-and-structure-of-c)
+- [💎 Microchip University - Advanced C Programming](https://mu.microchip.com/advanced-c-programming)
+- [💎 Microchip University - Advanced Embedded C Tips, Tricks, and Cautions](https://mu.microchip.com/advanced-embedded-c-tips-tricks-and-cautions)
+- [💎 Microchip University - C Programming: Linked List Data Structures](https://mu.microchip.com/c-programming-linked-list-data-structures)
+- [💎 Microchip University - C Programming Callbacks](https://mu.microchip.com/c-programming-callbacks)
 - [👶 C Programming for Beginners | Full Course](https://www.youtube.com/watch?v=ssJY5MDLjlo)
 - [🔘 C Programming Tutorials (YouTube Playlist)](https://www.youtube.com/playlist?list=PLA1FTfKBAEX4hblYoH6mnq0zsie2w6Wif)
 - [💎 The C Programming Language -  Brian W. Kernighan, Dennis M. Ritchie ](https://www.amazon.com/dp/0131103628?ref_=cm_sw_r_cp_ud_dp_KRZ8M1WTXWVG0HMSRBXA)
@@ -605,7 +605,7 @@ Embedded systems often communicate with other devices or external systems via in
 
 ##### 🔶 Bluetooth / BLE
 
-- [👶 💎 First Steps into Bluetooth Low Energy (BLE)](https://mu.microchip.com/first-steps-into-bluetooth-low-energy-ble)
+- [👶 💎 Microchip University - First Steps into Bluetooth Low Energy (BLE)](https://mu.microchip.com/first-steps-into-bluetooth-low-energy-ble)
 - [🔘 Bluetooth Basics](https://learn.sparkfun.com/tutorials/bluetooth-basics/all)
 - [🔘 Bluetooth Low Energy: A Primer](https://interrupt.memfault.com/blog/bluetooth-low-energy-a-primer)
 - [🔘 A Practical Guide to BLE Throughput](https://interrupt.memfault.com/blog/ble-throughput-primer)
@@ -659,7 +659,7 @@ Embedded systems often communicate with other devices or external systems via in
 
 ##### 🔶 EtherCAT
 
-- [🔘 An Introduction to EtherCAT®, EtherCAT P and the Microchip LAN925x family of Slave Controllers](https://mu.microchip.com/an-introduction-to-ethercat-ethercat-p-and-the-microchip-lan925x-family-of-slave-controllers)
+- [🔘 Microchip University - An Introduction to EtherCAT®, EtherCAT P and the Microchip LAN925x family of Slave Controllers](https://mu.microchip.com/an-introduction-to-ethercat-ethercat-p-and-the-microchip-lan925x-family-of-slave-controllers)
 
 ##### 🔶 CoAP & MQTT
 
@@ -672,23 +672,23 @@ Embedded systems often communicate with other devices or external systems via in
 
 ##### 🔶 Ethernet
 
-- [👶 Ethernet Fundamentals](https://mu.microchip.com/ethernet-fundamentals)
+- [👶 Microchip University - Ethernet Fundamentals](https://mu.microchip.com/ethernet-fundamentals)
 - [🔘 How the Ethernet Protocol Works – A Complete Guide](https://www.freecodecamp.org/news/the-complete-guide-to-the-ethernet-protocol/)
 - [🔘 What is an Ethernet PHY?](https://www.youtube.com/watch?v=JH3cMYErmKI)
 - [🔘 The Data Link Layer, MAC Addressing, and the Ethernet Frame](https://youtu.be/_b4dXKB8Pt8)
-- [🔘 Serializer/Deserializer (SerDes) Basics for Your Next Microchip Ethernet PHY Design](https://mu.microchip.com/serializerdeserializer-serdes-basics-for-your-next-microchip-ethernet-phy-design)
-- [🔘 Ethernet Switch Fundamentals](https://mu.microchip.com/ethernet-switch-fundamentals)
+- [🔘 Microchip University - Serializer/Deserializer (SerDes) Basics for Your Next Microchip Ethernet PHY Design](https://mu.microchip.com/serializerdeserializer-serdes-basics-for-your-next-microchip-ethernet-phy-design)
+- [🔘 Microchip University - Ethernet Switch Fundamentals](https://mu.microchip.com/ethernet-switch-fundamentals)
 
 ##### 🔶 USB
 
-- [👶 Introduction to USB 2.0](https://mu.microchip.com/introduction-to-usb-20)
-- [👶 USB 3 Fundamentals](https://mu.microchip.com/usb-3-fundamentals)
+- [👶 Microchip University - Introduction to USB 2.0](https://mu.microchip.com/introduction-to-usb-20)
+- [👶 Microchip University - USB 3 Fundamentals](https://mu.microchip.com/usb-3-fundamentals)
 - [🔘 Training - USB 101 - Introduction to USB](https://www.youtube.com/watch?v=5S6ZPmtPzRA)
 - [🔘 USB 101: An Introduction to Universal Serial Bus 2.0](https://www.infineon.com/dgdl/Infineon-AN57294_USB_101_An_Introduction_to_Universal_Serial_Bus_2.0-ApplicationNotes-v09_00-EN.pdf?fileId=8ac78c8c7cdc391c017d072d8e8e5256)
 - [🔘 How does a USB keyboard work?](https://youtu.be/wdgULBpRoXk)
 - [🔘 How does USB device discovery work?](https://www.youtube.com/watch?v=N0O5Uwc3C0o)
 - [🔘 MOOC - STM32 USB training (YouTube Playlist)](https://www.youtube.com/playlist?list=PLnMKNibPkDnFFRBVD206EfnnHhQZI4Hxa)
-- [🔘 USB2 Hub Fundamentals](https://mu.microchip.com/usb2-hub-fundamentals)
+- [🔘 Microchip University - USB2 Hub Fundamentals](https://mu.microchip.com/usb2-hub-fundamentals)
 
 ##### 🔶 PCIe
 
@@ -700,11 +700,11 @@ Embedded systems often communicate with other devices or external systems via in
 
 ##### 🔶 CAN
 
-- [👶 CAN and CAN FD Protocol and Physical Layer Basics](https://mu.microchip.com/understanding-the-can-fd-protocol)
+- [👶 Microchip University - CAN and CAN FD Protocol and Physical Layer Basics](https://mu.microchip.com/understanding-the-can-fd-protocol)
 - [👶 CAN Bus: Serial Communication - How It Works?](https://www.youtube.com/watch?v=JZSCzRT9TTo&t=21s)
 - [👶 CAN Bus: A Beginners Guide Part 1](https://www.youtube.com/watch?v=YBrU_eZM110)
 - [👶 CAN Bus: A Beginners Guide Part 2](https://www.youtube.com/watch?v=z5CVljiLhvc)
-- [💎 Designing and Implementing a CAN FD Network](https://mu.microchip.com/designing-and-implementing-a-can-fd-network)
+- [💎 Microchip University - Designing and Implementing a CAN FD Network](https://mu.microchip.com/designing-and-implementing-a-can-fd-network)
 - [🔘 Improving my electric longboard with a CAN Bus! What can the CAN Bus do? EB#44](https://www.youtube.com/watch?v=PL0TPdrhMuI)
 - [🔘 CAN Bus, OBD2 & J1939 Explained (YouTube Playlist)](https://www.youtube.com/playlist?list=PLpV68vjf4Xo4vZ_SjJ6tTlomYm-k18vDZ)
 - [🔘 J1939 Explained - A Simple Intro [v2.0 | 2021]](https://www.youtube.com/watch?v=vlqxu9ojbHg)
@@ -921,7 +921,7 @@ Real-time operating systems (RTOS) are specialized operating systems designed to
 - [🔘 FreeRTOS - Market leading RTOS](https://www.freertos.org)
 - [👶 Introduction to RTOS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz)
 - [💎 Mastering the FreeRTOS Real Time Kernel - a Hands On Tutorial Guide](https://www.freertos.org/Documentation/RTOS_book.html)
-- [👶 FreeRTOS Simplified: A Beginner's Guide to Develop and Debug FreeRTOS Applications](https://mu.microchip.com/freertos-simplified)
+- [👶 Microchip University - FreeRTOS Simplified: A Beginner's Guide to Develop and Debug FreeRTOS Applications](https://mu.microchip.com/freertos-simplified)
 - [🔘 Getting Started With STM32 and Nucleo Part 3: FreeRTOS - How To Run Multiple Threads w/ CMSIS-RTOS](https://www.youtube.com/watch?v=CdpgqpuPSyQ)
 - [🔘 Hands-On RTOS with Microcontrollers: Building real-time embedded systems using FreeRTOS, STM32 MCUs, and SEGGER debug tools - Brian Amos](https://a.co/d/11MSPlo)
 - [🔘 Beginning STM32: Developing with FreeRTOS, libopencm3 and GCC - Warren Gay](https://link.springer.com/book/10.1007/978-1-4842-3624-6)
@@ -1226,7 +1226,7 @@ Embedded systems development is subject to a variety of standards and certificat
 
 ##### 🔶 Functional Safety
 
-- [🔘 Microchip University - Introduction to Functional Safety](https://mu.microchip.com/introduction-to-functional-safety)
+- [👶 Microchip University - Introduction to Functional Safety](https://mu.microchip.com/introduction-to-functional-safety)
 - [🔘 Udemy – Functional Safety According to ISO 26262 - Crash Course](https://www.udemy.com/course/iso-26262-crash-course/)
 - [🔘 A Guide to MISRA C Coding Standards - MISRA C and MISRA C++](https://www.perforce.com/resources/qac/misra-c-cpp)
 - [🔘 A Firmware Development Standard by Jack Ganssle](http://www.ganssle.com/fsm.htm)
@@ -1253,7 +1253,7 @@ Learning hardware hacking helps security professionals understand how embedded s
 
 #### 🔵 Cryptography
 
-- [🔘 Microchip University - Cryptography Primer](https://mu.microchip.com/cryptography-primer)
+- [👶 Microchip University - Cryptography Primer](https://mu.microchip.com/cryptography-primer)
 - [🔘 Hashing, Hashing Algorithms, and Collisions - Cryptography - Practical TLS](https://youtu.be/HHQ2QP_upGM)
 - [🔘 Data Integrity - How Hashing is used to ensure data isn't modified - HMAC - Cryptography](https://www.youtube.com/watch?v=doN3lzzNEIM)
 - [🔘 Encryption - Symmetric Encryption vs Asymmetric Encryption - Cryptography - Practical TLS](https://www.youtube.com/watch?v=o_g-M7UBqI8)
@@ -1301,7 +1301,7 @@ _________________
 
 The Internet of Things (IoT) refers to a network of interconnected devices, which gather and exchange data with other devices or with the cloud. Embedded systems are typically the "brains" of IoT devices, managing data collection, processing, and communication tasks. Embedded systems are designed to operate with limited power and resources, making them well-suited for IoT applications.
 
-- [👶 💎 Design Considerations For Your First IoT Project](https://mu.microchip.com/design-considerations-for-your-first-iot-project)
+- [👶 💎 Microchip University - Design Considerations For Your First IoT Project](https://mu.microchip.com/design-considerations-for-your-first-iot-project)
 
 ### ✳️ Edge AI
 
