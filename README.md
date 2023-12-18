@@ -730,7 +730,7 @@ _________________
 
 ### ✳️ Memory Technologies & File Systems
 
-Embedded systems employ a combination of volatile (SRAM, DRAM, PSRAM) and non-volatile (flash, EEPROM, FRAM) memory to store and access data, optimizing performance, cost, power consumption, and durability based on application-specific needs.
+Embedded systems employ a combination of volatile (SRAM, DRAM, PSRAM) and non-volatile (flash, EEPROM, FRAM) memory to store and access data, based on factors like performance, cost, power consumption, and durability.
 
 - [🔘 Memory Options for Embedded Systems: How to Select the Right Memory Configuration](https://www.qt.io/embedded-development-talk/memory-options-for-embedded-systems-how-to-select-the-right-memory-configuration)
 
