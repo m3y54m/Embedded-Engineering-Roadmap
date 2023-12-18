@@ -361,7 +361,11 @@ _________________
 
 #### 🔵 C
 
-- [👶 W3Schools C Tutorial](https://www.w3schools.com/c/index.php)
+- [👶 Syntax And Structure of C - Simply C](https://mu.microchip.com/syntax-and-structure-of-c)
+- [💎 Advanced C Programming](https://mu.microchip.com/advanced-c-programming)
+- [💎 Advanced Embedded C Tips, Tricks, and Cautions](https://mu.microchip.com/advanced-embedded-c-tips-tricks-and-cautions)
+- [💎 C Programming: Linked List Data Structures](https://mu.microchip.com/c-programming-linked-list-data-structures)
+- [💎 C Programming Callbacks](https://mu.microchip.com/c-programming-callbacks)
 - [👶 C Programming for Beginners | Full Course](https://www.youtube.com/watch?v=ssJY5MDLjlo)
 - [🔘 C Programming Tutorials (YouTube Playlist)](https://www.youtube.com/playlist?list=PLA1FTfKBAEX4hblYoH6mnq0zsie2w6Wif)
 - [💎 The C Programming Language -  Brian W. Kernighan, Dennis M. Ritchie ](https://www.amazon.com/dp/0131103628?ref_=cm_sw_r_cp_ud_dp_KRZ8M1WTXWVG0HMSRBXA)
@@ -527,12 +531,12 @@ Embedded systems often communicate with other devices or external systems via in
 
 #### 🔵 ‌Basic Protocols
 
-- [🔘 Understanding Serial Protocols](https://www.youtube.com/watch?v=LEz5UCN3aHA)
+- [👶 Understanding Serial Protocols](https://www.youtube.com/watch?v=LEz5UCN3aHA)
 - [🔘 PROTOCOLS: UART - I2C - SPI - Serial communications #001](https://www.youtube.com/watch?v=IyGwvGzrqp8)
 
 ##### 🔶 UART
 
-- [🔘 Understanding UART](https://www.youtube.com/watch?v=sTHckUyxwp8)
+- [👶 Understanding UART](https://www.youtube.com/watch?v=sTHckUyxwp8)
 - [🔘 how does UART work??? (explained clearly)](https://www.youtube.com/watch?v=V6m2skVlsQI)
 - [🔘 Basics of UART Communication | UART Frame Structure | RS 232 Basics | Part1](https://www.youtube.com/watch?v=JuvWbRhhpdI)
 - [🔘 Understanding UART Communication Programming | UART Peripherals | Part 2](https://www.youtube.com/watch?v=QmjKRwgddxw)
@@ -540,13 +544,13 @@ Embedded systems often communicate with other devices or external systems via in
 
 ##### 🔶 I2C
 
-- [🔘 Understanding I2C](https://www.youtube.com/watch?v=CAvawEcxoPU)
+- [👶 Understanding I2C](https://www.youtube.com/watch?v=CAvawEcxoPU)
 - [🔘 I2C in a Nutshell](https://interrupt.memfault.com/blog/i2c-in-a-nutshell)
 - [🔘 STM32 I2C SLAVE (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfIJKC1ud8gj_P7Qb28aTr0t92uk_vwg0)
 
 ##### 🔶 SPI
 
-- [🔘 Understanding SPI](https://www.youtube.com/watch?v=0nVNwozXsIc)
+- [👶 Understanding SPI](https://www.youtube.com/watch?v=0nVNwozXsIc)
 - [🔘 SPI: The serial peripheral interface](https://www.youtube.com/watch?v=MCi7dCBhVpQ)
 - [🔘 Getting Started with STM32 and Nucleo Part 5: How to Use SPI | Digi-Key Electronics](https://www.youtube.com/watch?v=eFKeNPJq50g)
 
@@ -583,10 +587,14 @@ Embedded systems often communicate with other devices or external systems via in
 
 #### 🔵 Image & Video Protocols
 
-##### 🔶 CSI-2
+##### 🔶 MIPI CSI-2
 
 - [🔘 MIPI Camera Serial Interface 2](https://www.mipi.org/specifications/csi-2)
 - [🔘 Tutorial: MIPI CSI-2](https://www.youtube.com/watch?v=8REu_h7bzHM)
+
+#### 🔶 MIPI DSI
+
+- [MIPI Display Serial Interface](https://www.mipi.org/specifications/dsi)
 
 ##### 🔶 HDMI
 
@@ -597,6 +605,7 @@ Embedded systems often communicate with other devices or external systems via in
 
 ##### 🔶 Bluetooth / BLE
 
+- [👶 💎 First Steps into Bluetooth Low Energy (BLE)](https://mu.microchip.com/first-steps-into-bluetooth-low-energy-ble)
 - [🔘 Bluetooth Basics](https://learn.sparkfun.com/tutorials/bluetooth-basics/all)
 - [🔘 Bluetooth Low Energy: A Primer](https://interrupt.memfault.com/blog/bluetooth-low-energy-a-primer)
 - [🔘 A Practical Guide to BLE Throughput](https://interrupt.memfault.com/blog/ble-throughput-primer)
@@ -648,6 +657,10 @@ Embedded systems often communicate with other devices or external systems via in
 - [🔘 What is RS485 and How it's used in Industrial Control Systems?](https://www.youtube.com/watch?v=3wgKcUDlHuM)
 - [🔘 What is RS-485?](https://www.youtube.com/watch?v=bt9Px51eP6s)
 
+##### 🔶 EtherCAT
+
+- [🔘 An Introduction to EtherCAT®, EtherCAT P and the Microchip LAN925x family of Slave Controllers](https://mu.microchip.com/an-introduction-to-ethercat-ethercat-p-and-the-microchip-lan925x-family-of-slave-controllers)
+
 ##### 🔶 CoAP & MQTT
 
 - [🔘 #144 Internet Protocols: CoAP vs MQTT, Network Sniffing, and preparation for IKEA Tradfri Hacking](https://www.youtube.com/watch?v=pfG8uEDZj5g)
@@ -659,17 +672,23 @@ Embedded systems often communicate with other devices or external systems via in
 
 ##### 🔶 Ethernet
 
+- [👶 Ethernet Fundamentals](https://mu.microchip.com/ethernet-fundamentals)
 - [🔘 How the Ethernet Protocol Works – A Complete Guide](https://www.freecodecamp.org/news/the-complete-guide-to-the-ethernet-protocol/)
 - [🔘 What is an Ethernet PHY?](https://www.youtube.com/watch?v=JH3cMYErmKI)
 - [🔘 The Data Link Layer, MAC Addressing, and the Ethernet Frame](https://youtu.be/_b4dXKB8Pt8)
+- [🔘 Serializer/Deserializer (SerDes) Basics for Your Next Microchip Ethernet PHY Design](https://mu.microchip.com/serializerdeserializer-serdes-basics-for-your-next-microchip-ethernet-phy-design)
+- [🔘 Ethernet Switch Fundamentals](https://mu.microchip.com/ethernet-switch-fundamentals)
 
 ##### 🔶 USB
 
+- [👶 Introduction to USB 2.0](https://mu.microchip.com/introduction-to-usb-20)
+- [👶 USB 3 Fundamentals](https://mu.microchip.com/usb-3-fundamentals)
 - [🔘 Training - USB 101 - Introduction to USB](https://www.youtube.com/watch?v=5S6ZPmtPzRA)
 - [🔘 USB 101: An Introduction to Universal Serial Bus 2.0](https://www.infineon.com/dgdl/Infineon-AN57294_USB_101_An_Introduction_to_Universal_Serial_Bus_2.0-ApplicationNotes-v09_00-EN.pdf?fileId=8ac78c8c7cdc391c017d072d8e8e5256)
 - [🔘 How does a USB keyboard work?](https://youtu.be/wdgULBpRoXk)
 - [🔘 How does USB device discovery work?](https://www.youtube.com/watch?v=N0O5Uwc3C0o)
 - [🔘 MOOC - STM32 USB training (YouTube Playlist)](https://www.youtube.com/playlist?list=PLnMKNibPkDnFFRBVD206EfnnHhQZI4Hxa)
+- [🔘 USB2 Hub Fundamentals](https://mu.microchip.com/usb2-hub-fundamentals)
 
 ##### 🔶 PCIe
 
@@ -681,9 +700,11 @@ Embedded systems often communicate with other devices or external systems via in
 
 ##### 🔶 CAN
 
-- [🔘 CAN Bus: Serial Communication - How It Works?](https://www.youtube.com/watch?v=JZSCzRT9TTo&t=21s)
-- [🔘 CAN Bus: A Beginners Guide Part 1](https://www.youtube.com/watch?v=YBrU_eZM110)
-- [🔘 CAN Bus: A Beginners Guide Part 2](https://www.youtube.com/watch?v=z5CVljiLhvc)
+- [👶 CAN and CAN FD Protocol and Physical Layer Basics](https://mu.microchip.com/understanding-the-can-fd-protocol)
+- [👶 CAN Bus: Serial Communication - How It Works?](https://www.youtube.com/watch?v=JZSCzRT9TTo&t=21s)
+- [👶 CAN Bus: A Beginners Guide Part 1](https://www.youtube.com/watch?v=YBrU_eZM110)
+- [👶 CAN Bus: A Beginners Guide Part 2](https://www.youtube.com/watch?v=z5CVljiLhvc)
+- [💎 Designing and Implementing a CAN FD Network](https://mu.microchip.com/designing-and-implementing-a-can-fd-network)
 - [🔘 Improving my electric longboard with a CAN Bus! What can the CAN Bus do? EB#44](https://www.youtube.com/watch?v=PL0TPdrhMuI)
 - [🔘 CAN Bus, OBD2 & J1939 Explained (YouTube Playlist)](https://www.youtube.com/playlist?list=PLpV68vjf4Xo4vZ_SjJ6tTlomYm-k18vDZ)
 - [🔘 J1939 Explained - A Simple Intro [v2.0 | 2021]](https://www.youtube.com/watch?v=vlqxu9ojbHg)
