@@ -307,7 +307,7 @@ Breadboarding is a hands-on approach to prototyping circuits, providing a versat
 
 _________________
 
-### ✳️ FPGA Design
+### ✳️ FPGA Development
 
 FPGAs (Field-Programmable Gate Arrays) are specialized integrated circuits that can be configured to perform various digital logic functions. They are widely used in embedded systems to achieve high performance, flexibility, and cost-effectiveness. FPGA designers use hardware description languages (HDLs) to create customized circuits that map directly to the FPGA architecture. Since FPGA engineering and verification differ significantly from embedded software development, it stands as a specialized domain within embedded systems.
 
@@ -470,7 +470,7 @@ Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and 
 - [🔘 How Do DACs Work? - The Learning Circuit](https://www.youtube.com/watch?v=YAxrmoVtEtE)
 - [🔘 DAC in STM32 || Sine wave || HAL || CubeIDE](https://www.youtube.com/watch?v=6Z1L6ox63j0)
 
-#### 🔵 Timers
+#### 🔵 Timers / Counters
 
 - [🔘 STM32 TIMERS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfIJKC1ud8gjLZBzjE3kKBMDEH_lUc428)
 
@@ -864,16 +864,19 @@ Digital signal processing (DSP) is a branch of engineering that deals with the p
 - [🔘 The FFT Algorithm - Simple Step by Step](https://www.youtube.com/watch?v=htCj9exbGo0)
 - [🔘 STM32 Fast Fourier Transform (CMSIS DSP FFT) - Phil's Lab #111](https://youtu.be/d1KvgOwWvkM)
 
-#### 🔵 Controls Systems / PID Control
+### ✳️ Controls Theory
 
 - [🔘 Understanding Control Systems (YouTube Playlist)](https://youtube.com/playlist?list=PLn8PRpmsu08q8CE0pbZ-cSrMm_WYJfVGd)
 - [🔘 Control Systems - CircuitBread (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfYdTiQCV_p4YZNJWExM-5_g0fk9bHDL8)
-- [🔘 What is a PID Controller? | DigiKey](https://www.youtube.com/watch?v=tFVAaUcOm4I)
+- [💎 Control Systems Engineering - Norman S. Nise](https://www.wiley.com/en-us/Control+Systems+Engineering%2C+8th+Edition-p-9781119474227)
+- [💎 Modern Control Systems - Richard C. Dorf, Robert H. Bishop](https://www.pearson.com/en-us/subject-catalog/p/modern-control-systems/P200000003484/9780137307098)
+
+#### 🔵 PID Controller
+
+- [👶 What is a PID Controller? | DigiKey](https://www.youtube.com/watch?v=tFVAaUcOm4I)
 - [🔘 PID Controller Explained](https://www.youtube.com/watch?v=fv6dLTEvl74)
 - [🔘 Understanding PID Control (YouTube Playlist)](https://youtube.com/playlist?list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y)
 - [🔘 PID Controller Implementation in Software - Phil's Lab #6](https://www.youtube.com/watch?v=zOByx3Izf5U)
-- [💎 Control Systems Engineering - Norman S. Nise](https://www.wiley.com/en-us/Control+Systems+Engineering%2C+8th+Edition-p-9781119474227)
-- [💎 Modern Control Systems - Richard C. Dorf, Robert H. Bishop](https://www.pearson.com/en-us/subject-catalog/p/modern-control-systems/P200000003484/9780137307098)
 
 #### 🔵 MATLAB / Simulink
 
