@@ -1105,6 +1105,7 @@ CMake and Make are both tools for building software applications. CMake is a met
 
 - [🔘 CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
 - [🔘 How to CMake Good (YouTube Playlist)](https://youtube.com/playlist?list=PLK6MXr8gasrGmIiSuVQXpfFuE1uPT615s)
+- [👶 The most thoroughly commented embedded CMakeLists file](https://dnedic.github.io/blog/the-most-thoroughly-commented-embedded-cmakelists/)
 
 #### 🔵 Bash Scripting
 
