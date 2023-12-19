@@ -592,7 +592,7 @@ Embedded systems often communicate with other devices or external systems via in
 - [🔘 MIPI Camera Serial Interface 2](https://www.mipi.org/specifications/csi-2)
 - [🔘 Tutorial: MIPI CSI-2](https://www.youtube.com/watch?v=8REu_h7bzHM)
 
-#### 🔶 MIPI DSI
+##### 🔶 MIPI DSI
 
 - [MIPI Display Serial Interface](https://www.mipi.org/specifications/dsi)
 
