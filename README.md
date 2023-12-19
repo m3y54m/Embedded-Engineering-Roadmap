@@ -990,6 +990,9 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 - [🔘 Linux From Scratch - step-by-step instructions for building your own custom Linux system](https://www.linuxfromscratch.org/)
 - [🔘 Automotive Grade Linux (AGL)](https://docs.automotivelinux.org/)
 - [🔘 Real Time Linux and `PREEMPT_RT` Patch](https://wiki.linuxfoundation.org/realtime/start)
+- [🔘 Android Open Source Project](https://source.android.com)
+- [🔘 Android Automotive](https://source.android.com/docs/automotive)
+
 
 ##### 🔶 Linux Kernel
 
@@ -1182,7 +1185,7 @@ Testing is an integral part of the embedded systems development process, ensurin
 - [🔘 Firmware Testing with Renode and GitHub Actions](https://interrupt.memfault.com/blog/test-automation-renode)
 - [🔘 Balancing Test Coverage vs. Overhead](https://interrupt.memfault.com/blog/testing-vs-overhead)
 
-#### 🔵 Unit Testing
+##### 🔶 Unit Testing
 
 - [🔘 Embedded C/C++ Unit Testing Basics](https://interrupt.memfault.com/blog/unit-testing-basics)
 - [🔘 Embedded C/C++ Unit Testing with Mocks](https://interrupt.memfault.com/blog/unit-test-mocking)
@@ -1190,7 +1193,7 @@ Testing is an integral part of the embedded systems development process, ensurin
 - [🔘 GoogleTest - Google Testing and Mocking Framework](https://github.com/google/googletest)
 - [🔘 Unit Testing Principles, Practices, and Patterns - Vladimir Khorikov](https://www.manning.com/books/unit-testing)
 
-#### 🔵 Integration Testing
+##### 🔶 Integration Testing
 
 - [🔘 Hardware CI Arena](https://electricui.com/blog/hardware-testing)
 - [🔘 Exclave: Hardware Testing in Mass Production, Made Easier](https://www.bunniestudios.com/blog/?p=5450)
@@ -1231,8 +1234,6 @@ Embedded systems development is subject to a variety of standards and certificat
 - [🔘 A Guide to MISRA C Coding Standards - MISRA C and MISRA C++](https://www.perforce.com/resources/qac/misra-c-cpp)
 - [🔘 A Firmware Development Standard by Jack Ganssle](http://www.ganssle.com/fsm.htm)
 - [🔘 Safety-critical Embedded systems: How to prepare for software development](https://www.nagarro.com/en/blog/embedded-software-development-safety-critical-systems)
-- [🔘 IEC 61508 - Functional safety of electrical/electronic/programmable electronic safety-related systems](https://webstore.iec.ch/publication/5515)
-- [🔘 ISO 26262-1:2018 - Road vehicles - Functional safety](https://www.iso.org/standard/68383.html)
 - [🔘 DO-178C - Software Considerations in Airborne Systems and Equipment Certification](https://en.wikipedia.org/wiki/DO-178C)
 
 _________________
