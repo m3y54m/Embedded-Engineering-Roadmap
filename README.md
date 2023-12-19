@@ -1210,6 +1210,7 @@ Continuous Integration (CI) and Continuous Delivery (CD) are software developmen
 - [🔘 Continuous Delivery for Embedded Systems • Mike Long • GOTO 2015](https://www.youtube.com/watch?v=DcFe6cEvnGQ)
 - [🔘 Continuous Integration & Continuous Delivery for Embedded Systems (Whitepaper)](https://www.parasoft.com/white-paper/ci-cd-for-embedded-systems/)
 - [🔘 What is DevOps in an Embedded Device Company?](https://www.linkedin.com/pulse/what-devops-embedded-device-company-john-macdonald/)
+- [💎 CI/CD Tutorials (YouTube Playlist)](https://www.youtube.com/playlist?list=PLy7NrYWoggjzSIlwxeBbcgfAdYoxCIrM2)
 
 #### 🔵 SIL / HIL Testing
 
