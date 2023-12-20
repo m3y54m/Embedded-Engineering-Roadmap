@@ -58,7 +58,7 @@ The roadmap provides a comprehensive guide to the essential topics for a typical
 
 
 > [!TIP]  
-> To differentiate between the types of learning resources and the difficulty of their content, specific symbols are used before each item.
+> To differentiate between the types of learning resources and the quality of their content, specific symbols are used before each item.
 >
 > **Resource types:**
 > - 📘 : Books
@@ -66,7 +66,7 @@ The roadmap provides a comprehensive guide to the essential topics for a typical
 > - 📝 : Write-ups, articles, and blog posts
 > - 🔗 : Other links that do not fit into any of the above categories
 >
-> **Difficulty levels:**
+> **Content quality symbols:**
 > - 👶 : Easy-to-understand and beginner-friendly resources. Refer to them if you do not have prior knowledge in a topic.
 > - 💎 : Well-known references that have truly invaluable and comprehensive content. Refer to them if you want to deepen your understanding of a topic.
 
