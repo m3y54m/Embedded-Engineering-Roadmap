@@ -58,16 +58,17 @@ The roadmap provides a comprehensive guide to the essential topics for a typical
 
 
 > [!TIP]  
-> **Symbols Guide:**
+> To differentiate between the types of learning resources and the difficulty of their content, specific symbols are used before each item.
 >
-> To differentiate between the types of learning resources below and the difficulty of their content, specific symbols are used before each item:
-> 
-> - 👶 : Easy-to-understand and beginner-friendly resources. Refer to them if you do not have prior knowledge in a topic.
-> - 💎 : Well-known references that have truly invaluable and comprehensive content. Refer to them if you want to deepen your understanding of a topic.
+> **Resource types:**
 > - 📘 : Books
 > - 🎞️ : Videos
 > - 📝 : Write-ups, articles, and blog posts
 > - 🔗 : Other links that do not fit into any of the above categories
+>
+> **Difficulty levels:**
+> - 👶 : Easy-to-understand and beginner-friendly resources. Refer to them if you do not have prior knowledge in a topic.
+> - 💎 : Well-known references that have truly invaluable and comprehensive content. Refer to them if you want to deepen your understanding of a topic.
 
 ## 😕 Don't Know Where to Start!
 
