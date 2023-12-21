@@ -1284,6 +1284,7 @@ Learning hardware hacking helps security professionals understand how embedded s
 
 - [📝 Device Firmware Update Cookbook](https://interrupt.memfault.com/blog/device-firmware-update-cookbook)
 - [📝 Saving bandwidth with delta firmware updates](https://interrupt.memfault.com/blog/ota-delta-updates)
+- [📝 Delta Over-The-Air Device Firmware Update](https://thinkty.net/projects/2023/05/07/delta_ota.html)
 - [📝 AVR231: AES Bootloader](https://www.microchip.com/en-us/application-notes/an2462)
 - [🎞️ Blinky To Bootloader: Bare Metal Programming Series (YouTube Playlist)](https://www.youtube.com/playlist?list=PLP29wDx6QmW7HaCrRydOnxcy8QmW0SNdQ)
 - [🎞️ MOOC - Security Part4 : STM32 security in practice (YouTube Playlist)](https://youtube.com/playlist?list=PLnMKNibPkDnF0wt-ZI74SflnsBV4yKzkO)
