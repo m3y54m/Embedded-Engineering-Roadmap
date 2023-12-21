@@ -1079,6 +1079,9 @@ JTAG and SWD (Serial Wire Debug) are two popular interface protocols used for de
 - [📝 A Deep Dive into ARM Cortex-M Debug Interfaces](https://interrupt.memfault.com/blog/a-deep-dive-into-arm-cortex-m-debug-interfaces)
 - [🔗 Guide: Connecting your debugger](https://stm32-base.org/guides/connecting-your-debugger.html)
 - [🎞️ STM32 + SWD + ST-Link + CubeIDE | Debugging on Custom Hardware Tutorial - Phil's Lab #4](https://www.youtube.com/watch?v=qMUzLU636s8)
+- [📝 Diving into JTAG protocol. Part 1 — Overview](https://medium.com/@aliaksandr.kavalchuk/diving-into-jtag-protocol-part-1-overview-fbdc428d3a16)
+- [📝 Diving into JTAG protocol. Part 2 — Debugging](https://medium.com/@aliaksandr.kavalchuk/diving-into-jtag-protocol-part-2-debugging-56a566db3cf8)
+- [📝 Diving into JTAG protocol. Part 3 — Boundary Scan](https://medium.com/@aliaksandr.kavalchuk/diving-into-jtag-part-3-boundary-scan-17f9975ecc59)
 
 #### 🔵 GDB
 
