@@ -526,7 +526,8 @@ Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and 
 - [🎞️ How to Create a Super Simple Bootloader](https://www.youtube.com/watch?v=OkUQ3iMmiYQ&list=PLnMKNibPkDnEb1sphpdFJ3bR9dNy7S6mO)
 - [🎞️ Blinky To Bootloader: Bare Metal Programming Series (YouTube Playlist)](https://www.youtube.com/playlist?list=PLP29wDx6QmW7HaCrRydOnxcy8QmW0SNdQ)
 - [📝 Simple AVR Bootloader tutorial](https://www.pocketmagic.net/simple-avr-bootloader-tutorial/)
-- [🎞️ Udemy – STM32Fx Microcontroller Custom Bootloader Development](https://www.udemy.com/course/stm32f4-arm-cortex-mx-custom-bootloader-development/)
+- [🎞️💎 Udemy – STM32Fx Microcontroller Custom Bootloader Development](https://www.udemy.com/course/stm32f4-arm-cortex-mx-custom-bootloader-development/)
+- [📝💎 Device Firmware Update Cookbook](https://interrupt.memfault.com/blog/device-firmware-update-cookbook)
 
 #### 🔵 Power Management
 
@@ -1282,9 +1283,6 @@ Learning hardware hacking helps security professionals understand how embedded s
 
 #### 🔵 Secure Boot & Secure Firmware Update
 
-- [📝 Device Firmware Update Cookbook](https://interrupt.memfault.com/blog/device-firmware-update-cookbook)
-- [📝 Saving bandwidth with delta firmware updates](https://interrupt.memfault.com/blog/ota-delta-updates)
-- [📝 Delta Over-The-Air Device Firmware Update](https://thinkty.net/projects/2023/05/07/delta_ota.html)
 - [📝 AVR231: AES Bootloader](https://www.microchip.com/en-us/application-notes/an2462)
 - [🎞️ Blinky To Bootloader: Bare Metal Programming Series (YouTube Playlist)](https://www.youtube.com/playlist?list=PLP29wDx6QmW7HaCrRydOnxcy8QmW0SNdQ)
 - [🎞️ MOOC - Security Part4 : STM32 security in practice (YouTube Playlist)](https://youtube.com/playlist?list=PLnMKNibPkDnF0wt-ZI74SflnsBV4yKzkO)
@@ -1315,6 +1313,13 @@ _________________
 The Internet of Things (IoT) refers to a network of interconnected devices, which gather and exchange data with other devices or with the cloud. Embedded systems are typically the "brains" of IoT devices, managing data collection, processing, and communication tasks. Embedded systems are designed to operate with limited power and resources, making them well-suited for IoT applications.
 
 - [🎞️👶💎 Microchip University - Design Considerations For Your First IoT Project](https://mu.microchip.com/design-considerations-for-your-first-iot-project)
+
+#### 🔵 Delta Over-The-Air Firmware Update
+
+- [📝 Saving bandwidth with delta firmware updates](https://interrupt.memfault.com/blog/ota-delta-updates)
+- [📝 Delta Over-The-Air Device Firmware Update](https://thinkty.net/projects/2023/05/07/delta_ota.html)
+- [📝 FreeRTOS Delta Over-the-Air Updates](https://www.freertos.org/2022/01/delta-over-the-air-updates.html)
+- [🔗 ESP Delta OTA](https://components.espressif.com/components/espressif/esp_delta_ota)
 
 ### ✳️ Edge AI
 
