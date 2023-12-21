@@ -19,7 +19,7 @@ You should know that becoming an embedded engineer requires a broad understandin
 > **computer system** that is **part of a larger system** and **performs some of the requirements of that system**. For example, a computer system
 used in an aircraft or rapid transit system.
 >
-> The hardware and software of an embedded system are usually **minimized** and **optimized** for **specific functions**. The embedded system includes at least one microcontroller, microprocessor or digital signal processor. The embedded system designed to optimize reliability, cost, size and power saving for applications.
+> The hardware and software of an embedded system are usually **minimized** and **optimized** for **specific functions**. The embedded system includes at least one microcontroller, microprocessor or digital signal processor. The embedded system designed to **optimize reliability, cost, size and power saving for applications**.
 
 ▶️ ["Making Embedded Systems" Book:](https://www.oreilly.com/library/view/making-embedded-systems/9781449308889/)
 
