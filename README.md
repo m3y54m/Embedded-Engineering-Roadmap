@@ -346,12 +346,14 @@ Mastering programming fundamentals and software development principles is essent
 - [📘💎 Design Patterns for Embedded Systems in C - Bruce Powel Douglass](https://www.oreilly.com/library/view/design-patterns-for/9781856177078/)
 - [📘💎 Making Embedded Systems: Design Patterns for Great Software - Elecia White](https://www.oreilly.com/library/view/making-embedded-systems/9781449308889/)
 
-#### 🔵 State Machines / UML
+#### 🔵 State Machines
 
 - [📝 Programming embedded systems the easy way – with state machines](https://www.embedded.com/programming-embedded-systems-the-easy-way-with-state-machines/)
 - [🎞️ State Machines (YouTube Playlist)](https://www.youtube.com/playlist?list=PLPW8O6W-1chxym7TgIPV9k5E8YJtSBToI)
 - [🎞️ Event-Driven Programming (YouTube Playlist)](https://www.youtube.com/playlist?list=PLPW8O6W-1chx8Y7Oq2gOE0NUPXmQxu2Wr)
 - [🎞️ Udemy - Embedded System Design using UML State Machines](https://www.udemy.com/course/embedded-system-design-using-uml-state-machines/)
+- [📝 “Input-Driven” vs. Event-Driven State Machines](https://www.state-machine.com/input-driven-vs-event-driven-state-machines)
+- [📝 State Machines for Event-Driven Systems](https://barrgroup.com/embedded-systems/how-to/state-machines-event-driven-systems)
 
 #### 🔵 Memory Management
 
@@ -489,6 +491,12 @@ Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and 
 - [🎞️ What is PWM?](https://www.youtube.com/watch?v=B_Ysdv1xRbA)
 - [🎞️ STM32 Guide #3: PWM + Timers](https://www.youtube.com/watch?v=AjN58ceQaF4)
 
+#### 🔵 Watchdog
+
+- [📝 A Guide to Watchdog Timers for Embedded Systems](https://interrupt.memfault.com/blog/firmware-watchdog-best-practices)
+- [🎞️ The Watchdog Timer on Arduino](https://www.youtube.com/watch?v=AzZBgH67mgE)
+- [🎞️ WATCHDOGS in STM32 || IWDG and WWDG || CubeIDE](https://www.youtube.com/watch?v=AelNsnpfbcM)
+
 #### 🔵 Interrupts
 
 - [🎞️ Polling/Interrupt/DMA differences explained easily](https://www.youtube.com/watch?v=LNPBr3WvuNg)
@@ -496,20 +504,6 @@ Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and 
 - [🎞️ Tutorial 10: Peripheral 2 - Nested Vector Interrupt controller (NVIC) in STM32](https://www.youtube.com/watch?v=qwebM-YaSU4)
 - [🎞️ Tutorial 11: LAB - External Interrupt ( EXTI ) Interfacing in STM32 using STM32CUBEMX](https://www.youtube.com/watch?v=oJc0seuBbzI)
 - [🎞️ Tutorial 12: Interrupt Priorities in STM32](https://www.youtube.com/watch?v=aXLJD4qJmtk)
-
-#### 🔵 Watchdog
-
-- [📝 A Guide to Watchdog Timers for Embedded Systems](https://interrupt.memfault.com/blog/firmware-watchdog-best-practices)
-- [🎞️ The Watchdog Timer on Arduino](https://www.youtube.com/watch?v=AzZBgH67mgE)
-- [🎞️ WATCHDOGS in STM32 || IWDG and WWDG || CubeIDE](https://www.youtube.com/watch?v=AelNsnpfbcM)
-
-#### 🔵 Clock Management
-
-- [📝 Clock Configuration in STM32](https://medium.com/@csrohit/clock-configuration-in-stm32-6a058da220e0)
-- [🎞️ STM32: Change clock speed via registers](https://www.youtube.com/watch?v=W_9jPMgiqaQ)
-- [🎞️ #1. Intro to STM32F4 Register Based Programming || Clock Setup || LED Blinking || NO HAL](https://www.youtube.com/watch?v=GJ_LFAlOlSk)
-- [🎞️ Tutorial 8: MCU Clocks configuration in STM32 using STM32CUBEMX](https://www.youtube.com/watch?v=y8yNsWpQiTM)
-- [🎞️ Clock sources and PLL in ARM Cortex M4](https://www.youtube.com/watch?v=2ou8FQ_7PdI)
 
 #### 🔵 DMA
 
@@ -519,7 +513,20 @@ Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and 
 - [🎞️ Getting Started With STM32 & Nucleo Part 4: Working with ADC and DMA - Maker.io](https://www.youtube.com/watch?v=EsZLgqhqfO0)
 - [🎞️ STM32 UART DMA and IDLE LINE || Receive unknown length DATA](https://www.youtube.com/watch?v=Bo6MC5A8uTE)
 
-#### 🔵 Bootloader
+#### 🔵 Clock Management
+
+- [📝 Clock Configuration in STM32](https://medium.com/@csrohit/clock-configuration-in-stm32-6a058da220e0)
+- [🎞️ STM32: Change clock speed via registers](https://www.youtube.com/watch?v=W_9jPMgiqaQ)
+- [🎞️ #1. Intro to STM32F4 Register Based Programming || Clock Setup || LED Blinking || NO HAL](https://www.youtube.com/watch?v=GJ_LFAlOlSk)
+- [🎞️ Tutorial 8: MCU Clocks configuration in STM32 using STM32CUBEMX](https://www.youtube.com/watch?v=y8yNsWpQiTM)
+- [🎞️ Clock sources and PLL in ARM Cortex M4](https://www.youtube.com/watch?v=2ou8FQ_7PdI)
+
+#### 🔵 Power Management
+
+- [🎞️ SLEEP Mode in STM32F103 || CubeIDE || Low Power Mode || Current Consumption](https://www.youtube.com/watch?v=2rKcsGkCG0s)
+- [🎞️ STOP MODE in STM32 || CubeIDE || Low Power Mode](https://www.youtube.com/watch?v=UtQhc4XV8k4)
+
+#### 🔵 Bootloader / DFU (Device Firmware Update)
 
 - [📝 Basics to Developing Bootloader for Arduino](https://www.electronicwings.com/arduino/basics-to-developing-bootloader-for-arduino)
 - [📝 From Zero to main(): How to Write a Bootloader from Scratch](https://interrupt.memfault.com/blog/how-to-write-a-bootloader-from-scratch)
@@ -528,11 +535,6 @@ Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and 
 - [📝 Simple AVR Bootloader tutorial](https://www.pocketmagic.net/simple-avr-bootloader-tutorial/)
 - [🎞️💎 Udemy – STM32Fx Microcontroller Custom Bootloader Development](https://www.udemy.com/course/stm32f4-arm-cortex-mx-custom-bootloader-development/)
 - [📝💎 Device Firmware Update Cookbook](https://interrupt.memfault.com/blog/device-firmware-update-cookbook)
-
-#### 🔵 Power Management
-
-- [🎞️ SLEEP Mode in STM32F103 || CubeIDE || Low Power Mode || Current Consumption](https://www.youtube.com/watch?v=2rKcsGkCG0s)
-- [🎞️ STOP MODE in STM32 || CubeIDE || Low Power Mode](https://www.youtube.com/watch?v=UtQhc4XV8k4)
 
 _________________
 
@@ -747,31 +749,6 @@ Embedded systems often communicate with other devices or external systems via in
 
 _________________
 
-### ✳️ Hardware Simulation / Emulation Tools
-
-Embedded system development often involves simulating or emulating hardware environments to test and debug software before deploying it on actual hardware. Simulation tools create virtual models of hardware systems, while emulation tools replicate the actual hardware behavior using real hardware components. These tools offer several advantages, including reducing development time, minimizing hardware costs, and enhancing software reliability.
-
-- [🔗👶 Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
-- [🔗👶 SimulIDE Circuit Simulator](https://simulide.com/)
-
-#### 🔵 QEMU
-
-- [🔗 QEMU’s documentation](https://www.qemu.org/docs/master/index.html)
-- [📝 Running AVR code in QEMU - A quick-start guide to accelerate AVR firmware development](https://yeah.nah.nz/embedded/qemu-avr/)
-- [📝 QEMU Simulation - Blinky - STM32F767ZI Full Stack](https://longer-vision-robot.gitbook.io/stm32f767zi-full-stack/chapter-2.-programming-for-stm32/2.4-qemu-simulation-blinky)
-- [📝 Emulating a Raspberry Pi in QEMU](https://interrupt.memfault.com/blog/emulating-raspberry-pi-in-qemu)
-
-#### 🔵 Renode
-
-- [🔗 Renode - GitHub Repo](https://github.com/renode/renode)
-- [🔗 Renode - Documentation](https://renode.readthedocs.io/en/latest/)
-- [🔗 Renode - Official Tutorials](https://renode.io/tutorials/)
-- [📝 Cortex-M MCU Emulation with Renode](https://interrupt.memfault.com/blog/intro-to-renode)
-- [📝 A simple guide to get started on renode](https://github.com/tarciszera/renode_guide)
-- [🎞️ Using CI-based workflow with Renode in bringing TensorFlow Lite to Zephyr](https://www.youtube.com/watch?v=jF94cXPoZZg)
-
-_________________
-
 ### ✳️ Memory Technologies & File Systems
 
 Embedded systems employ a combination of volatile (SRAM, DRAM, PSRAM) and non-volatile (flash, EEPROM, FRAM) memory to store and access data, based on factors like performance, cost, power consumption, and durability.
@@ -820,6 +797,31 @@ A file system is a way of organizing data on a storage device, such as a hard dr
 - [🔗 LittleFS - A high-integrity embedded file system](https://os.mbed.com/blog/entry/littlefs-high-integrity-embedded-fs/)
 - [🔗 SPIFS - Wear-leveled SPI flash file system for embedded devices](https://github.com/pellepl/spiffs)
 - [🔗 EEPROM File System (EEFS)](opensource.gsfc.nasa.gov/projects/eefs/index.php)
+
+_________________
+
+### ✳️ Hardware Simulation / Emulation
+
+Embedded system development often involves simulating or emulating hardware environments to test and debug software before deploying it on actual hardware. Simulation tools create virtual models of hardware systems, while emulation tools replicate the actual hardware behavior using real hardware components. These tools offer several advantages, including reducing development time, minimizing hardware costs, and enhancing software reliability.
+
+- [🔗👶 Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
+- [🔗👶 SimulIDE Circuit Simulator](https://simulide.com/)
+
+#### 🔵 QEMU
+
+- [🔗 QEMU’s documentation](https://www.qemu.org/docs/master/index.html)
+- [📝 Running AVR code in QEMU - A quick-start guide to accelerate AVR firmware development](https://yeah.nah.nz/embedded/qemu-avr/)
+- [📝 QEMU Simulation - Blinky - STM32F767ZI Full Stack](https://longer-vision-robot.gitbook.io/stm32f767zi-full-stack/chapter-2.-programming-for-stm32/2.4-qemu-simulation-blinky)
+- [📝 Emulating a Raspberry Pi in QEMU](https://interrupt.memfault.com/blog/emulating-raspberry-pi-in-qemu)
+
+#### 🔵 Renode
+
+- [🔗 Renode - GitHub Repo](https://github.com/renode/renode)
+- [🔗 Renode - Documentation](https://renode.readthedocs.io/en/latest/)
+- [🔗 Renode - Official Tutorials](https://renode.io/tutorials/)
+- [📝 Cortex-M MCU Emulation with Renode](https://interrupt.memfault.com/blog/intro-to-renode)
+- [📝 A simple guide to get started on renode](https://github.com/tarciszera/renode_guide)
+- [🎞️ Using CI-based workflow with Renode in bringing TensorFlow Lite to Zephyr](https://www.youtube.com/watch?v=jF94cXPoZZg)
 
 _________________
 
@@ -1108,21 +1110,23 @@ _________________
 
 Build systems automate the process of compiling and linking source code into executable programs. They are essential tools for software development, as they can help to improve the efficiency and consistency of the build process. Popular build systems include Make, and CMake.
 
-#### 🔵 GCC & Make
+#### 🔵 Compilers / GCC
 
-GCC (the GNU Compiler Collection) is a free and open-source compiler system that can compile programs for many different programming languages, including C, C++, Objective-C, Fortran, Ada, and Go. GCC is a popular choice for embedded systems development due to its open source nature, maturity, stability, portability, performance, and large community. Proprietary compilers like Keil and IAR offer toolchain support, target-specific optimizations, and customer support, which may be preferred for specific projects. 
+GCC (the GNU Compiler Collection) is a free and open-source compiler system that can compile programs for many different programming languages, including C, C++, Objective-C, Fortran, Ada, and Go. GCC is a popular choice for embedded systems development due to its open source nature, maturity, stability, portability, performance, and large community. On the other hand proprietary compilers like Keil and IAR offer toolchain support, target-specific optimizations, and customer support, which may be preferred for specific projects. 
 
 - [📝 GCC and Make - Compiling, Linking and Building C/C++ Applications](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
-- [📝 A Shallow Dive into GNU Make](https://interrupt.memfault.com/blog/gnu-make-guidelines#a-shallow-dive-into-gnu-make)
 - [📝 The Best and Worst GCC Compiler Flags For Embedded](https://interrupt.memfault.com/blog/best-and-worst-gcc-clang-compiler-flags)
-- [🎞️ Building STM32 projects from scratch with cross platform tools like Make, CMake and arm-gcc compiler toolchain (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEg2mgYz66IOcHRvvUDf9O1ZCGy58M1Bt)
 - [📝 From Zero to main(): Demystifying Firmware Linker Scripts](https://interrupt.memfault.com/blog/how-to-write-linker-scripts-for-firmware)
 - [📝 Bare Metal - From zero to blink](https://www.linuxembedded.fr/2021/02/bare-metal-from-zero-to-blink)
+- [🔗 Keil MDK & µVision](https://www.keil.com/)
+- [🔗 IAR Embedded Workbench](https://www.iar.com)
 
-#### 🔵 CMake
+#### 🔵 Make & CMake
 
 CMake and Make are both tools for building software applications. CMake is a meta-build system that generates Makefiles, which are then used by Make to build the software. CMake is more versatile and cross-platform than Make, and it is becoming the more popular choice for modern software development.
 
+- [📝 A Shallow Dive into GNU Make](https://interrupt.memfault.com/blog/gnu-make-guidelines)
+- [🎞️ Building STM32 projects from scratch with cross platform tools like Make, CMake and arm-gcc compiler toolchain (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEg2mgYz66IOcHRvvUDf9O1ZCGy58M1Bt)
 - [🔗 CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
 - [🎞️ How to CMake Good (YouTube Playlist)](https://youtube.com/playlist?list=PLK6MXr8gasrGmIiSuVQXpfFuE1uPT615s)
 - [📝👶 The most thoroughly commented embedded CMakeLists file](https://dnedic.github.io/blog/the-most-thoroughly-commented-embedded-cmakelists/)
