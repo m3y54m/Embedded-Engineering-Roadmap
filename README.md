@@ -10,7 +10,7 @@
 
 This roadmap is designed to help beginners aspiring to build a career as an **Embedded Engineer/Developer**, as well as assist current practitioners in expanding their skills. 
 
-You should know that becoming an embedded engineer requires a broad understanding of both software and hardware. If you really want to pursue this career you must be highly motivated and passionate about it. As well as programming and software development skills, embedded systems demand a solid understanding of hardware functionality. However, as the well-known saying goes, "Hardware is hard!". So if you still know nothing about embedded systems, a hard yet exciting journey awaits you. But don't panic and be patient for the challenges you may encounter along this journey. By dedicating enough time and effort practicing and doing projects you will soon find yourself as a real embedded engineer! 😀
+Becoming an embedded engineer requires a broad understanding of both software and hardware. If you really want to pursue this career you must be highly motivated and passionate about it. Embedded systems demand a solid understanding of hardware functionality as well as software development and programming skills. However, as the well-known saying goes, "Hardware is hard!". So if you do not know much about embedded systems, a hard yet exciting journey awaits you. Don't panic and be patient for the challenges you may encounter along this journey. By dedicating enough time and effort practicing and doing projects you will soon find yourself as a real embedded engineer! 😀
 
 ## ❓ What is an Embedded System?
 
@@ -128,7 +128,7 @@ You may have heard that YouTube is a university. And it's true - there is an imm
 
 If you do not have any background in programming the embedded systems, Arduino boards and libraries are the best choice for you to start and learn the basics. Just keep in mind that most of the Arduino libraries are developed for learning purposes and are not optimized to be used in industry.
 
-Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) takes care of most of the low-level operations and manipulation of registers that you, as an embedded engineer, should be able to handle yourself. If you want to become a professional embedded developer, you should be able to effectively use industry-standard APIs and SDKs provided and approved by microcontroller vendors. For example, CMSIS for ARM Cortex, STM32Cube for STM32, ESP-IDF for Espressif microcontrollers, etc.
+Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) takes care of most of the low-level hardware-associated operations that you, as an embedded engineer, should be able to handle yourself or at least have a clear understanding of. If you want to become a professional embedded developer, you should be able to effectively use industry-standard APIs and SDKs provided and approved by microcontroller vendors, such as CMSIS for ARM Cortex-M microcontrollers, STM32Cube for STM32, ESP-IDF for Espressif microcontrollers, etc.
 
 - [🔗 Getting Started with Arduino](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino)
 - [🎞️ New Arduino Tutorials (YouTube Playlist)](https://youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP)
