@@ -1121,7 +1121,7 @@ GCC (the GNU Compiler Collection) is a free and open-source compiler system that
 - [🔗 Keil MDK & µVision](https://www.keil.com/)
 - [🔗 IAR Embedded Workbench](https://www.iar.com)
 
-#### 🔵 Make & CMake
+#### 🔵 Make / CMake
 
 CMake and Make are both tools for building software applications. CMake is a meta-build system that generates Makefiles, which are then used by Make to build the software. CMake is more versatile and cross-platform than Make, and it is becoming the more popular choice for modern software development.
 
