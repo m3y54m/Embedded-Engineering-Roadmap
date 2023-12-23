@@ -10,7 +10,7 @@
 
 This roadmap is designed to help beginners aspiring to build a career as an **Embedded Engineer/Developer**, as well as assist current practitioners in expanding their skills. 
 
-Becoming an embedded engineer requires a broad understanding of both software and hardware. If you really want to pursue this career you must be highly motivated and passionate about it. Embedded systems demand a solid understanding of hardware functionality as well as software development and programming skills. However, as the well-known saying goes, "Hardware is hard!". So if you do not know much about embedded systems, a hard yet exciting journey awaits you. Don't panic and be patient for the challenges you may encounter along this journey. By dedicating enough time and effort practicing and doing projects you will soon find yourself as a real embedded engineer! 😀
+Embedded engineering demands a solid understanding of hardware functionality as well as software development and programming skills. If you really want to pursue this career you must be highly motivated and passionate about it. As the well-known saying goes, "Hardware is hard!". But don't panic and be patient for the challenges you may encounter along this exciting journey. By dedicating enough time and effort practicing and doing projects you will soon find yourself as a real embedded engineer! 😀
 
 ## ❓ What is an Embedded System?
 
