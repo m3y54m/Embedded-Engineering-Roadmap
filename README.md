@@ -76,7 +76,7 @@ If you feel overwhelmed by the extensive list of topics in the roadmap, you're n
 
 ### ⚒️ Projects
 
-Engaging in hands-on projects is the most effective approach to learning. Rather than solely relying on theoretical knowledge from books or articles, undertaking projects allows for practical learning experiences. Even a seemingly basic project has the potential to teach you more than aimless reading. You can refer to books, articles, and courses when faced with difficulties in understanding the problems in a real-world project.
+Engaging in hands-on projects is the most effective approach to learning. Rather than solely relying on theoretical knowledge from books or articles. Undertaking projects allows for practical learning experiences. Even a seemingly basic project has the potential to teach you more than hours of aimless reading. You can refer to books, articles, and courses when faced with difficulties in understanding the problems in real-world projects.
 
 Don't try to build a complex project right away. Start with small, manageable projects to get your feet wet.
 
@@ -103,14 +103,14 @@ If you can't find what you're looking for using search engines, AI chatbots can 
 - [🔗 ChatGPT](https://chat.openai.com)
 - [🔗 Poe - Fast, Helpful AI Chat](https://poe.com)
 
-If you have reservations about relying on AI advice alone, you can also ask real people your questions:
+If you have reservations about relying on AI advice alone, you can also ask your questions from real people:
 
 - [🔗 Electrical Engineering Stack Exchange](https://electronics.stackexchange.com/)
 - [🔗 Reddit · r/embedded](https://www.reddit.com/r/embedded/)
 
 ### 🎥 Courses and YouTube Contents
 
-You may have heard that YouTube is a university. And it's true - there is an immense amount of invaluable free content on embedded systems available on YouTube. You'll also find some excellent free courses through Coursera and EdX. Additionally, Udemy offers some high-quality paid course options.
+You may have heard that YouTube is a university. And it's true - there is an extensive amount of invaluable free content on embedded systems available on YouTube. You'll also find some excellent free courses through Coursera and EdX. Additionally, Udemy offers some high-quality paid course options.
 
 - [🎞️ DigiKey (YouTube Channel)](https://www.youtube.com/@digikey)
 - [🎞️ Coursera - Introduction to Embedded Systems Software and Development Environments](https://www.coursera.org/learn/introduction-embedded-systems)
