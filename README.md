@@ -887,6 +887,7 @@ Digital signal processing (DSP) is a branch of engineering that deals with the p
 #### 🔵 PID Controller
 
 - [🎞️👶 What is a PID Controller? | DigiKey](https://www.youtube.com/watch?v=tFVAaUcOm4I)
+- [🎞️👶 How to Tune a PID Controller for an Inverted Pendulum | DigiKey](https://www.youtube.com/watch?v=hRnofMxEf3Q)
 - [🎞️ PID Controller Explained](https://www.youtube.com/watch?v=fv6dLTEvl74)
 - [🎞️ Understanding PID Control (YouTube Playlist)](https://youtube.com/playlist?list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y)
 - [🎞️ PID Controller Implementation in Software - Phil's Lab #6](https://www.youtube.com/watch?v=zOByx3Izf5U)
