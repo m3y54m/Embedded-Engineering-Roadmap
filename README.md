@@ -605,10 +605,12 @@ Embedded systems often communicate with other devices or external systems via in
 
 - [🔗 MIPI Camera Serial Interface 2](https://www.mipi.org/specifications/csi-2)
 - [🎞️ Tutorial: MIPI CSI-2](https://www.youtube.com/watch?v=8REu_h7bzHM)
+- [🔗 AN13573 - i.MX 8/RT MIPI DSI/CSI-2](https://www.nxp.com/docs/en/application-note/AN13573.pdf)
 
 ##### 🔶 MIPI DSI
 
 - [🔗 MIPI Display Serial Interface](https://www.mipi.org/specifications/dsi)
+- [🔗 AN4860 - Introduction to DSI host on STM32 MCUs and MPUs](https://www.st.com/resource/en/application_note/an4860-introduction-to-dsi-host-on-stm32-mcus-and-mpus-stmicroelectronics.pdf)
 
 ##### 🔶 HDMI
 
