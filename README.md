@@ -485,16 +485,24 @@ Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and 
 
 #### 🔵 Timers / Counters
 
+- [📝 Introduction to Microcontroller Timers: Periodic Timers](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-periodic-timers/)
+- [📝 AVR Timer programming](https://exploreembedded.com/wiki/AVR_Timer_programming)
 - [🎞️ STM32 TIMERS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfIJKC1ud8gjLZBzjE3kKBMDEH_lUc428)
 
-#### 🔵 PWM
+#### 🔵 PWM (Pulse Width Modulation)
 
 - [🎞️ What is PWM?](https://www.youtube.com/watch?v=B_Ysdv1xRbA)
+- [📝 Pulse-width Modulation (PWM) Timers in Microcontrollers](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-pwm-timers/)
 - [🎞️ STM32 Guide #3: PWM + Timers](https://www.youtube.com/watch?v=AjN58ceQaF4)
+
+#### 🔵 RTC  (Real Time Clock)
+
+- [📝 Real Time Clocks (RTCs) in Microcontroller Timers](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-real-time-clocks/)
 
 #### 🔵 Watchdog
 
 - [📝 A Guide to Watchdog Timers for Embedded Systems](https://interrupt.memfault.com/blog/firmware-watchdog-best-practices)
+- [📝 Watchdog Timers in Microcontrollers](https://www.allaboutcircuits.com/technical-articles/watchdog-timers-microcontroller-timers/)
 - [🎞️ The Watchdog Timer on Arduino](https://www.youtube.com/watch?v=AzZBgH67mgE)
 - [🎞️ WATCHDOGS in STM32 || IWDG and WWDG || CubeIDE](https://www.youtube.com/watch?v=AelNsnpfbcM)
 
