@@ -418,6 +418,7 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [🔗 MicroPython 101 | Arduino Documentation](https://docs.arduino.cc/micropython-course/)
 - [🔗 CircuitPython](https://circuitpython.org/)
 - [📝 The Pros and Cons of Designing Embedded Systems with MicroPython](https://www.designnews.com/electronics-test/pros-and-cons-designing-embedded-systems-micropython)
+- [📝 Programming the ESP32 with MicroPython](https://wolles-elektronikkiste.de/en/programming-the-esp32-with-micropython)
 
 #### 🔵 Rust
 
