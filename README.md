@@ -554,6 +554,7 @@ Embedded systems often communicate with other devices or external systems via in
 #### 🔵 ‌Basic Protocols
 
 - [🎞️👶 Understanding Serial Protocols](https://www.youtube.com/watch?v=LEz5UCN3aHA)
+- [📝👶 Understanding and Selecting in 2024: I2C, SPI, UART Explained](https://www.parlezvoustech.com/en/comparaison-protocoles-communication-i2c-spi-uart/)
 - [🎞️ PROTOCOLS: UART - I2C - SPI - Serial communications #001](https://www.youtube.com/watch?v=IyGwvGzrqp8)
 
 ##### 🔶 UART
@@ -607,7 +608,7 @@ Embedded systems often communicate with other devices or external systems via in
 - [🔗 HUAWEI LGA Module - PCM Audio Design Guide](https://www.paoli.cz/out/media/HUAWEI%20LGA%20Module%20PCM%20Audio%20Design%20Guide-V100R001_04(1).pdf)
 - [📝 PCM Terminology and Concepts](https://larsimmisch.github.io/pyalsaaudio/terminology.html)
 
-#### 🔵 Image & Video Protocols
+#### 🔵 Display & Camera Protocols
 
 ##### 🔶 MIPI CSI-2
 
@@ -725,6 +726,7 @@ Embedded systems often communicate with other devices or external systems via in
 ##### 🔶 CAN
 
 - [🎞️👶 Microchip University - CAN and CAN FD Protocol and Physical Layer Basics](https://mu.microchip.com/understanding-the-can-fd-protocol)
+- [📝👶 CAN bus in 2024: Operation, Advantages and Recent Developments](https://www.parlezvoustech.com/en/bus-can-2024-technologie-avantages-evolutions/)
 - [🎞️👶 CAN Bus: Serial Communication - How It Works?](https://www.youtube.com/watch?v=JZSCzRT9TTo&t=21s)
 - [🎞️👶 CAN Bus: A Beginners Guide Part 1](https://www.youtube.com/watch?v=YBrU_eZM110)
 - [🎞️👶 CAN Bus: A Beginners Guide Part 2](https://www.youtube.com/watch?v=z5CVljiLhvc)
