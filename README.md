@@ -288,18 +288,19 @@ Breadboarding is a hands-on approach to prototyping circuits, providing a versat
 
 #### 🔵 PCB Design / EMC
 
-- [🎞️ Altium Academy YouTube Channel](https://www.youtube.com/@AltiumAcademy)
-- [🎞️ Robert Feranec YouTube Channel](https://www.youtube.com/@RobertFeranec)
+- [🎞️💎 Altium Academy YouTube Channel](https://www.youtube.com/@AltiumAcademy)
+- [🎞️💎 Robert Feranec YouTube Channel](https://www.youtube.com/@RobertFeranec)
 - [🎞️👶 Altium Tutorials for Beginners - Robert Feranec (YouTube Playlist)](https://www.youtube.com/playlist?list=PLXvLToQzgzdduBaD4horowdWgcG5uGUW4)
 - [🎞️👶 Create PCBs for Rapid Prototyping - DigiKey (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyRVK1RpHIjyjuTxn5srz6XM)
 - [🎞️ How to Make a Raspberry Pi Compute Module 4 Carrier Board - DigiKey (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyRwjr761b-MLNEu8FA8WKSG)
-- [🎞️ How To Learn PCB Design (My Thoughts, Journey, and Resources) - Phil's Lab #87](https://youtu.be/aODkA2mrimQ)
+- [🎞️💎 How To Learn PCB Design (My Thoughts, Journey, and Resources) - Phil's Lab #87](https://youtu.be/aODkA2mrimQ)
 - [🎞️👶 KiCad 6 STM32 PCB Design Full Tutorial - Phil's Lab #65](https://youtu.be/aVUqaB0IMh4)
 - [🎞️👶 Intro to KiCad - DigiKey (YouTube Playlist)](https://www.youtube.com/watch?v=vaCVh2SAZY4&list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O)
-- [🎞️ PCB Design for EMI & SI - Phil's Lab #64](https://www.youtube.com/watch?v=VtzPL8wQ8-E)
-- [🎞️ PCB Design for Advanced Users (YouTube Playlist)](https://youtube.com/playlist?list=PL3aaAq2OJU5EWfYT_Z93tc9pBF_Sidba_)
-- [🎞️ 9 Simple Tricks to Improve EMC / EMI on Your Boards - Practical examples (with Min Zhang)](https://www.youtube.com/watch?v=Lf51sx6sC0I)
-- [🎞️ Many EMC Tips to Help You Design Better PCB Boards (with Keith Armstrong)](https://www.youtube.com/watch?v=gHF5JyJF-N4)
+- [🎞️💎 PCB Design for EMI & SI - Phil's Lab #64](https://www.youtube.com/watch?v=VtzPL8wQ8-E)
+- [🎞️💎 PCB Design for Advanced Users (YouTube Playlist)](https://youtube.com/playlist?list=PL3aaAq2OJU5EWfYT_Z93tc9pBF_Sidba_)
+- [🎞️💎 PCB Knowledge (By PCBWay)](https://www.youtube.com/playlist?list=PLzxdr3n97eVtHuh7gnDzMubuO836kvfu7)
+- [🎞️💎 9 Simple Tricks to Improve EMC / EMI on Your Boards - Practical examples (with Min Zhang)](https://www.youtube.com/watch?v=Lf51sx6sC0I)
+- [🎞️💎 Many EMC Tips to Help You Design Better PCB Boards (with Keith Armstrong)](https://www.youtube.com/watch?v=gHF5JyJF-N4)
 - [🔗 LearnEMC - EMC Resources](https://learnemc.com/emc-resources)
 
 #### 🔵 Soldering / Rework
