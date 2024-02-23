@@ -1229,6 +1229,7 @@ Testing is an integral part of the embedded systems development process, ensurin
 - [🔗 Unit Testing for C (especially Embedded Software)](http://www.throwtheswitch.org/unity)
 - [🔗 GoogleTest - Google Testing and Mocking Framework](https://github.com/google/googletest)
 - [🔗 pytest-embedded](https://docs.espressif.com/projects/pytest-embedded/en/latest/)
+- [📝 Introduction to testing ESP32 code with Pytest](https://blog.gistre.epita.fr/posts/brice.parent-2023-09-11-introduction_to_testing_esp32_code_with_pytest/)
 - [📘 Unit Testing Principles, Practices, and Patterns - Vladimir Khorikov](https://www.manning.com/books/unit-testing)
 
 ##### 🔶 Integration Testing
