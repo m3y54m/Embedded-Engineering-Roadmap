@@ -1040,6 +1040,7 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 ##### 🔶 U-Boot
 
 - [🔗 The U-Boot Documentation](https://u-boot.readthedocs.io/en/latest/)
+- [🔗 Barebox](https://www.barebox.org/doc/latest/index.html)
 
 ##### 🔶 Buildroot
 
