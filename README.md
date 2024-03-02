@@ -456,6 +456,7 @@ Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and 
 - [🎞️👶💎 NewbieHack - Microcontroller Tutorial - A Beginners Guide (AVR)](https://www.youtube.com/playlist?list=PLE72E4CFE73BD1DE1)
 - [🎞️👶 Getting Started with STM32 and Nucleo (YouTube Playlist)](https://youtube.com/playlist?list=PLEBQazB0HUyRYuzfi4clXsKUSgorErmBv)
 - [📘💎 Mastering STM32 - Carmine Noviello](https://leanpub.com/mastering-stm32-2nd)
+- [📘💎 Developing IoT Projects with ESP32 - Vedat Ozan Oner](https://www.packtpub.com/product/developing-iot-projects-with-esp32-second-edition/9781803237688)
 - [🎞️👶 Intro to Raspberry Pi Pico and RP2040 (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQO6rJxKr2umPCgmfAU-cqR)
 - [🔗 Getting started with STM32: STM32 step-by-step](https://wiki.st.com/stm32mcu/wiki/Category:Getting_started_with_STM32_:_STM32_step_by_step)
 - [🎞️ Getting Started With AVR (YouTube Playlist)](https://www.youtube.com/playlist?list=PLtQdQmNK_0DRhBWYZ32BEILOykXLpJ8tP)
