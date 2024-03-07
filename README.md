@@ -113,6 +113,7 @@ If you have reservations about relying on AI advice alone, you can also ask your
 
 You may have heard that YouTube is a university. And it's true - there is an extensive amount of invaluable free content on embedded systems available on YouTube. You'll also find some excellent free courses through Coursera and EdX. Additionally, Udemy offers some high-quality paid course options.
 
+- [🎞️ Embedded Systems, in Pyjama!](https://www.youtube.com/@inpyjama)
 - [🎞️ DigiKey (YouTube Channel)](https://www.youtube.com/@digikey)
 - [🎞️ Coursera - Introduction to Embedded Systems Software and Development Environments](https://www.coursera.org/learn/introduction-embedded-systems)
 - [🎞️ Coursera - Embedded Software and Hardware Architecture](https://www.coursera.org/learn/embedded-software-hardware)
@@ -140,6 +141,7 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 
 - [🔗 DeepBlueMbedded](https://deepbluembedded.com/)
 - [🔗💎 Interrupt Blog by Memfault](https://interrupt.memfault.com/blog/)
+- [🔗 Embedded Systems, in Pyjama!](https://inpyjama.com)
 - [🔗 ElectronicWings - Hardware Developers Community](https://www.electronicwings.com/)
 - [🔗 Microchip University](https://mu.microchip.com/)
 - [🔗 Nordic Developer Academy](https://academy.nordicsemi.com/)
