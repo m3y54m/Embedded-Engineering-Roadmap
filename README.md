@@ -217,6 +217,7 @@ _________________
 
 #### 🔵 Electronics Fundamentals
 
+- [🔗👶💎 Build Electronic Circuits - Øyvind Nydal Dahl](https://www.build-electronic-circuits.com/)
 - [🎞️👶 Electronic Basics - GreatScott! (YouTube Playlist)](https://youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
 - [📘👶 Make: Electronics: Learning by Discovery - Charles Platt](https://a.co/d/fbRoM1R)
 - [📘👶💎 Electronic Devices: Conventional Current Version - Thomas Floyd, David Buchla, Steven Wetterling](https://a.co/d/1dsS0vx)
