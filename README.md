@@ -295,6 +295,7 @@ Breadboarding is a hands-on approach to prototyping circuits, providing a versat
 - [🎞️💎 Robert Feranec YouTube Channel](https://www.youtube.com/@RobertFeranec)
 - [🎞️👶 Altium Tutorials for Beginners - Robert Feranec (YouTube Playlist)](https://www.youtube.com/playlist?list=PLXvLToQzgzdduBaD4horowdWgcG5uGUW4)
 - [🎞️👶 Create PCBs for Rapid Prototyping - DigiKey (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyRVK1RpHIjyjuTxn5srz6XM)
+- [🎞️👶💎 PCB Design for Beginners - Altium Academy (YouTube Playlist)](https://www.youtube.com/playlist?list=PL3aaAq2OJU5EsYtNwTPHNO3RHNJN34FbO)
 - [🎞️ How to Make a Raspberry Pi Compute Module 4 Carrier Board - DigiKey (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyRwjr761b-MLNEu8FA8WKSG)
 - [🎞️💎 How To Learn PCB Design (My Thoughts, Journey, and Resources) - Phil's Lab #87](https://youtu.be/aODkA2mrimQ)
 - [🎞️👶 KiCad 6 STM32 PCB Design Full Tutorial - Phil's Lab #65](https://youtu.be/aVUqaB0IMh4)
