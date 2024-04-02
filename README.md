@@ -902,6 +902,7 @@ Digital signal processing (DSP) is a branch of engineering that deals with the p
 
 - [🎞️ Understanding Control Systems (YouTube Playlist)](https://youtube.com/playlist?list=PLn8PRpmsu08q8CE0pbZ-cSrMm_WYJfVGd)
 - [🎞️ Control Systems - CircuitBread (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfYdTiQCV_p4YZNJWExM-5_g0fk9bHDL8)
+- [🎞️💎 Brian Douglas' Control Systems Lectures (YouTube Channel)](https://www.youtube.com/@BrianBDouglas)
 - [📘💎 Control Systems Engineering - Norman S. Nise](https://www.wiley.com/en-us/Control+Systems+Engineering%2C+8th+Edition-p-9781119474227)
 - [📘💎 Modern Control Systems - Richard C. Dorf, Robert H. Bishop](https://www.pearson.com/en-us/subject-catalog/p/modern-control-systems/P200000003484/9780137307098)
 
