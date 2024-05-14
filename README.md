@@ -98,6 +98,7 @@ Use search engines to find the answers to your questions.
 
 If you can't find what you're looking for using search engines, AI chatbots can also provide assistance. Keep in mind that AI may provide incorrect answers in some cases. It's best to confirm any answers with more reliable references.
 
+- [🔗 DuckDuckGo AI Chat](https://duckduckgo.com/?q=DuckDuckGo&ia=chat)
 - [🔗 Microsoft Copilot](https://copilot.microsoft.com)
 - [🔗 Google Gemini](https://gemini.google.com)
 - [🔗 ChatGPT](https://chat.openai.com)
