@@ -308,6 +308,7 @@ Breadboarding is a hands-on approach to prototyping circuits, providing a versat
 - [🎞️💎 9 Simple Tricks to Improve EMC / EMI on Your Boards - Practical examples (with Min Zhang)](https://www.youtube.com/watch?v=Lf51sx6sC0I)
 - [🎞️💎 Many EMC Tips to Help You Design Better PCB Boards (with Keith Armstrong)](https://www.youtube.com/watch?v=gHF5JyJF-N4)
 - [🔗 LearnEMC - EMC Resources](https://learnemc.com/emc-resources)
+- [🔗 A Better Way to Build PCBs - Flux AI](https://www.flux.ai/p/)
 
 #### 🔵 Soldering / Rework
 
