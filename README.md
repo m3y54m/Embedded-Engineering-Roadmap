@@ -87,6 +87,7 @@ Don't try to build a complex project right away. Start with small, manageable pr
 - [🔗 STM32 Firmware - Phil’s Lab (YouTube Playlist)](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
 - [🔗 Raspberry Pi Based Embedded Project Ideas](https://www.rs-online.com/designspark/raspberry-pi-based-embedded-project-ideas)
 - [🔗 Embedded Linux On ARM | Projects](https://www.emertxe.com/embedded-systems/embedded-linux-on-arm/elarm-projects/)
+- [🔗 Last Minute Engineers](https://lastminuteengineers.com/)
 
 ### 🔎 Search and Ask!
 
