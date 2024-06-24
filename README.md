@@ -81,13 +81,13 @@ Engaging in hands-on projects is the most effective approach to learning. Rather
 Don't try to build a complex project right away. Start with small, manageable projects to get your feet wet.
 
 - [🔗 Random Nerd Tutorials | Learn ESP32, ESP8266, Arduino, and Raspberry Pi](https://randomnerdtutorials.com/)
+- [🔗 Last Minute Engineers](https://lastminuteengineers.com/)
 - [🔗 51 STM32 Projects & Tutorials for Beginners and Up - Hackster.io](https://www.hackster.io/stm32/projects)
 - [🔗 STM32 (STM32F103C8) Projects & Tutorials](https://circuitdigest.com/stm32-projects-and-tutorials)
 - [🔗 ElectronicWings Projects](https://www.electronicwings.com/projects)
 - [🔗 STM32 Firmware - Phil’s Lab (YouTube Playlist)](https://youtube.com/playlist?list=PLXSyc11qLa1a4Tqbz228dPZfMrs-KRpzA)
 - [🔗 Raspberry Pi Based Embedded Project Ideas](https://www.rs-online.com/designspark/raspberry-pi-based-embedded-project-ideas)
 - [🔗 Embedded Linux On ARM | Projects](https://www.emertxe.com/embedded-systems/embedded-linux-on-arm/elarm-projects/)
-- [🔗 Last Minute Engineers](https://lastminuteengineers.com/)
 
 ### 🔎 Search and Ask!
 
@@ -115,7 +115,6 @@ If you have reservations about relying on AI advice alone, you can also ask your
 
 You may have heard that YouTube is a university. And it's true - there is an extensive amount of invaluable free content on embedded systems available on YouTube. You'll also find some excellent free courses through Coursera and EdX. Additionally, Udemy offers some high-quality paid course options.
 
-- [🎞️ Embedded Systems, in Pyjama!](https://www.youtube.com/@inpyjama)
 - [🎞️ DigiKey (YouTube Channel)](https://www.youtube.com/@digikey)
 - [🎞️ Coursera - Introduction to Embedded Systems Software and Development Environments](https://www.coursera.org/learn/introduction-embedded-systems)
 - [🎞️ Coursera - Embedded Software and Hardware Architecture](https://www.coursera.org/learn/embedded-software-hardware)
@@ -127,6 +126,7 @@ You may have heard that YouTube is a university. And it's true - there is an ext
 - [🎞️ Embedded Systems - Jacob Sorber (YouTube Playlist)](https://www.youtube.com/playlist?list=PL9IEJIKnBJjEcPAz6fss-Hx0TLytCOMVC)
 - [🎞️ edX - Embedded Systems - Shape The World: Microcontroller Input/Output](https://learning.edx.org/course/course-v1:UTAustinX+UT.6.10x+3T2022/home)
 - [🎞️ edX - Embedded Systems - Shape The World: Multi-Threaded Interfacing](https://www.edx.org/learn/computer-programming/the-university-of-texas-at-austin-embedded-systems-shape-the-world-multi-threaded-in)
+- [🎞️ Embedded Systems, in Pyjama!](https://www.youtube.com/@inpyjama)
 
 ### 🕹️ Arduino
 
