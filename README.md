@@ -441,6 +441,7 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [📝 From Zero to main(): Bare metal Rust](https://interrupt.memfault.com/blog/zero-to-main-rust-1)
 - [📝 Writing an OS in Rust - Philipp Oppermann's blog](https://os.phil-opp.com/)
 - [📝 Kernel Driver with Rust in 2022](https://not-matthias.github.io/posts/kernel-driver-with-rust/)
+- [🔗 Rustlings - Small exercises to get you used to reading and writing Rust code!](https://rustlings.cool/)
 
 #### 🔵 Zig
 
