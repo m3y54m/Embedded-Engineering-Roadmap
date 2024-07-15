@@ -348,6 +348,7 @@ Mastering programming fundamentals and software development principles is essent
 - [🎞️ Udemy – Embedded Systems State Machines & Data Structures](https://www.udemy.com/course/embedded-systems-state-machines-data-structures-like-a-pro/)
 - [🔗 Data Structures in C](https://www.sanfoundry.com/c-programming-examples-data-structures/)
 - [🎞️ Data Structures - Full Course Using C and C++](https://www.youtube.com/watch?v=B31LgI4Y4DQ)
+- [🔗 Hello Algo](https://www.hello-algo.com/en/)
 
 #### 🔵 Design Patterns
 
