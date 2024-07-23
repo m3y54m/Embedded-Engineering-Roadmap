@@ -10,4 +10,4 @@ liberapay: # Replace with a single Liberapay username
 issuehunt: # Replace with a single IssueHunt username
 otechie: # Replace with a single Otechie username
 lfx_crowdfunding: # Replace with a single LFX Crowdfunding project-name e.g., cloud-foundry
-custom: ['https://www.buymeacoffee.com/m3y54m','https://etherscan.io/address/0x605A2AB2a30128B57feE8646c9bcAF7d091f2553','https://btc.com/bc1qcwulu49hd7qmzgdznu5nnezsj5qnlse88vxpgr']
+custom: ['https://www.buymeacoffee.com/m3y54m','https://etherscan.io/address/0x605A2AB2a30128B57feE8646c9bcAF7d091f2553','https://btc.com/btc/address/bc1qcwulu49hd7qmzgdznu5nnezsj5qnlse88vxpgr']
