@@ -1072,6 +1072,7 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 - [🎞️ Udemy – Embedded Linux using Yocto](https://www.udemy.com/course/embedded-linux-using-yocto/)
 - [📘💎 Embedded Linux Systems with the Yocto Project - Rudolf J.Streif](https://www.oreilly.com/library/view/embedded-linux-systems/9780133443301/)
 - [📘 Embedded Linux Development using Yocto Project Cookbook - Alex Gonzalez](https://www.oreilly.com/library/view/embedded-linux-development/9781788399210/)
+- [📘 Bootlin Embedded Linux, Kernel, drivers, Yocto, Buildroot and Graphics Training](https://bootlin.com/training/)
 
 ##### 🔶 Multithreading & Parallel Processing
 
