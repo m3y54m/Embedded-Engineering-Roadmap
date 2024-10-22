@@ -396,6 +396,7 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [🔗👶 C by Example](https://www.cbyexample.com/)
 - [📘 C How to Program -  Paul Deitel, Harvey Deitel ](https://deitel.com/c-how-to-program-9-e/)
 - [📘 Effective C - An Introduction to Professional C Programming - Robert C. Seacord](https://nostarch.com/Effective_C)
+- [📘 Modern C - Jens Gustedt](https://gustedt.gitlabpages.inria.fr/modern-c/)
 - [🔗 Embedded C Coding Standard](https://barrgroup.com/embedded-systems/books/embedded-c-coding-standard)
 - [🔗 newlib C Library Documentation](https://sourceware.org/newlib/docs.html)
 - [🔗 The GNU C Library (glibc)](https://www.gnu.org/software/libc/documentation.html)
