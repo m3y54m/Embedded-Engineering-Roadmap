@@ -72,7 +72,7 @@ The roadmap provides a comprehensive guide to the essential topics for a typical
 
 ## 😕 Don't Know Where to Start!
 
-If you feel overwhelmed by the extensive list of topics in the roadmap, you're not alone. Before delving too deeply, let's ease into it with some simple starter projects. Learning embedded systems engineering takes time and effort. Don't get discouraged if you don't understand something right away. Keep practicing and you will eventually get there.
+**If you feel overwhelmed by the extensive list of topics in the roadmap, you're not alone. Before delving too deeply, let's ease into it with some simple starter projects. Learning embedded systems engineering takes time and effort. Don't get discouraged if you don't understand something right away. Keep practicing and you will eventually get there.**
 
 ### ⚒️ Projects
 
@@ -235,19 +235,19 @@ _________________
 
 - [🔗👶 Tiny Tapeout > Digital Design Guide](https://tinytapeout.com/digital_design/)
 - [📘💎 Digital Design - Morris Mano, Michael Ciletti](https://a.co/d/c3tBaoc)
-- [📘👶💎 Digital Design and Computer Architecture: ARM Edition -  Sarah Harris, David Harris](https://a.co/d/4otoVvI)
-- [📘👶💎 Digital Design and Computer Architecture: RISC-V Edition -  Sarah Harris, David Harris](https://a.co/d/61l7Jtb)
+- [📘👶💎 Digital Design and Computer Architecture: ARM Edition - Sarah Harris, David Harris](https://a.co/d/4otoVvI)
+- [📘👶💎 Digital Design and Computer Architecture: RISC-V Edition - Sarah Harris, David Harris](https://a.co/d/61l7Jtb)
 - [📘👶 Digital Fundamentals - Thomas L. Floyd](https://a.co/d/2lgJKNX)
 
 #### 🔵 Computer Architecture
 
 Computer architecture is the backbone of embedded systems, governing the hardware and software interactions. Embedded developers need a grasp of computer architecture to design, develop, and debug embedded software effectively. Expertise in ARM and RISC-V, two prevalent instruction set architectures (ISAs) in embedded systems, is paramount for embedded developers. ARM is the dominant ISA, while RISC-V's open-source nature and flexibility are gaining traction.
 
-- [📘👶💎 Computer Organization and Design: ARM Edition -  David A. Patterson, John L. Hennessy](https://a.co/d/8YPUXG7)
-- [📘👶💎 Digital Design and Computer Architecture: ARM Edition -  Sarah Harris, David Harris](https://a.co/d/4otoVvI)
-- [📘👶💎 Digital Design and Computer Architecture: RISC-V Edition -  Sarah Harris, David Harris](https://a.co/d/61l7Jtb)
-- [📘👶 The Elements of Computing Systems -  Noam Nisan, Shimon Schocken](https://a.co/d/cX6jkLl) 
-- [📘 Computer Organization and Embedded Systems -  Carl Hamacher, Zvonko Vranesic, Safwat Zaky, Naraig Manjikian](https://a.co/d/2lt4Svf)
+- [📘👶💎 Computer Organization and Design: ARM Edition - David A. Patterson, John L. Hennessy](https://a.co/d/8YPUXG7)
+- [📘👶💎 Digital Design and Computer Architecture: ARM Edition - Sarah Harris, David Harris](https://a.co/d/4otoVvI)
+- [📘👶💎 Digital Design and Computer Architecture: RISC-V Edition - Sarah Harris, David Harris](https://a.co/d/61l7Jtb)
+- [📘👶 The Elements of Computing Systems - Noam Nisan, Shimon Schocken](https://a.co/d/cX6jkLl) 
+- [📘 Computer Organization and Embedded Systems - Carl Hamacher, Zvonko Vranesic, Safwat Zaky, Naraig Manjikian](https://a.co/d/2lt4Svf)
 - [📘 Embedded Systems Architecture - Tammy Noergaard](https://www.oreilly.com/library/view/embedded-systems-architecture/9780123821966/)
 - [📘 Embedded Systems Architecture - Daniele Lacamera](https://www.packtpub.com/product/embedded-systems-architecture-second-edition/9781803239545)
 - [📘 The Definitive Guide to ARM® Cortex®-M0 and Cortex-M0+ Processors - Joseph Yiu](https://www.oreilly.com/library/view/the-definitive-guide/9780128032787/)
