@@ -313,6 +313,9 @@ Breadboarding is a hands-on approach to prototyping circuits, providing a versat
 - [🎞️💎 Many EMC Tips to Help You Design Better PCB Boards (with Keith Armstrong)](https://www.youtube.com/watch?v=gHF5JyJF-N4)
 - [🔗 LearnEMC - EMC Resources](https://learnemc.com/emc-resources)
 - [🔗 A Better Way to Build PCBs - Flux AI](https://www.flux.ai/p/)
+- [🔗 EasyEDA](https://easyeda.com/it)
+- [🔗 Fritzing](https://fritzing.org/)
+- [🔗 Cirkit Designer](https://www.cirkitstudio.com/)
 
 #### 🔵 Soldering / Rework
 
@@ -358,6 +361,7 @@ Mastering programming fundamentals and software development principles is essent
 - [📝 Practical Design Patterns: Opaque Pointers and Objects in C](https://interrupt.memfault.com/blog/opaque-pointers)
 - [📘💎 Design Patterns for Embedded Systems in C - Bruce Powel Douglass](https://www.oreilly.com/library/view/design-patterns-for/9781856177078/)
 - [📘💎 Making Embedded Systems: Design Patterns for Great Software - Elecia White](https://www.oreilly.com/library/view/making-embedded-systems/9781449308889/)
+- [🔗 Design Patterns - Refactoring Guru](https://refactoring.guru/design-patterns)
 
 #### 🔵 State Machines
 
@@ -836,6 +840,7 @@ Embedded system development often involves simulating or emulating hardware envi
 
 - [🔗👶 Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
 - [🔗👶 SimulIDE Circuit Simulator](https://simulide.com/)
+- [🔗👶 Digital logic designer and circuit simulator designed for educational purposes](https://github.com/hneemann/Digital)
 
 #### 🔵 QEMU
 
