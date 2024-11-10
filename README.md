@@ -1382,7 +1382,6 @@ The Internet of Things (IoT) refers to a network of interconnected devices, whic
 
 Edge AI refers to the ability of devices to perform machine learning tasks on their own, without the need to send data to a central server. This can be done by using small, specialized AI models that are embedded directly into the device. TinyML is a subset of Edge AI that focuses on developing these models for devices with very limited computing power, such as microcontrollers and sensors.
 
-- [🎞️ Udemy – Getting Started with Embedded AI | Edge AI](https://www.udemy.com/course/getting-started-with-embedded-ai-hands-on-experience/)
 - [🎞️ Intro to Edge AI: Machine Learning + IoT – Maker.io Tutorial | Digi-Key Electronics](https://www.youtube.com/watch?v=Ejld8XZmvwE)
 
 #### 🔵 AI & ML Basics
