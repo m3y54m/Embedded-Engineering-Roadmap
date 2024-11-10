@@ -414,6 +414,7 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [📝 C++ On Embedded Systems](https://blog.mbedded.ninja/programming/languages/c-plus-plus/cpp-on-embedded-systems/)
 - [🎞️👶 C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
 - [🎞️ C++ by The Cherno (YouTube Playlist)](https://youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
+- [🎞️👶💎 Udemy - Beginning C++ Programming - From Beginner to Beyond](https://www.udemy.com/course/beginning-c-plus-plus-programming/)
 - [📘💎 Real-Time C++: Efficient Object-Oriented and Template Microcontroller Programming - Christopher Kormanyos](https://link.springer.com/book/10.1007/978-3-662-62996-3)
 - [📘 Effective Modern C++ - Scott Meyers](https://www.oreilly.com/library/view/effective-modern-c/9781491908419/)
 
