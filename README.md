@@ -442,6 +442,7 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 
 #### 🔵 Rust
 
+- [📘 The Rust Language Book](https://doc.rust-lang.org/book/)
 - [📝 5 roadblocks to Rust adoption in embedded systems](https://www.embedded.com/5-roadblocks-to-rust-adoption-in-embedded-systems/)
 - [🔗 The Embedded Rust Book](https://docs.rust-embedded.org/book/)
 - [🎞️ The Future of Programming: Rust (YouTube Playlist)](https://www.youtube.com/playlist?list=PLc7W4b0WHTAUAEAguiqpNa5H0QqXJIJI6)
