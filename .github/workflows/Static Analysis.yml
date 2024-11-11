@@ -3,21 +3,14 @@ name: Markdownlint
 on: [push, pull_request]
 
 jobs:
-  markdownlint:
-    name: Markdownlint
+  Markdown_Lint_Check:
+    name: Markdown Lint Check
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-
       - name: Install markdownlint-cli
         run: npm install -g markdownlint-cli
-
+      - name: Checkout code
+        uses: actions/checkout@v2
       - name: Run markdownlint
         run: |
           echo "Checking Markdown files"
