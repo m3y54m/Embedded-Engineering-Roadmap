@@ -8,7 +8,7 @@
 [![GitHub release (by tag)](https://img.shields.io/github/downloads/m3y54m/Embedded-Engineering-Roadmap/latest/total?style=plastic)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest)
 [![GitHub all releases](https://img.shields.io/github/downloads/m3y54m/Embedded-Engineering-Roadmap/total?style=plastic&label=total%20downloads)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases)
 
-This roadmap is designed to help beginners aspiring to build a career as an **Embedded Engineer/Developer**, as well as assist current practitioners in expanding their skills. 
+This roadmap is designed to help beginners aspiring to build a career as an **Embedded Engineer/Developer**, as well as assist current practitioners in expanding their skills.
 
 Embedded engineering demands a solid understanding of hardware functionality as well as software development and programming skills. If you really want to pursue this career you must be highly motivated and passionate about it. As the well-known saying goes, "Hardware is hard!". But don't panic and be patient for the challenges you may encounter along this exciting journey. By dedicating enough time and effort practicing and doing projects you will soon find yourself as a real embedded engineer! 😀
 
@@ -53,20 +53,20 @@ It's crucial to note that each company in the embedded industry may have unique 
 
 The roadmap provides a comprehensive guide to the essential topics for a typical "Embedded Systems Engineer" role. By delving into both software and hardware aspects, you can develop the necessary skills to thrive in this dynamic field. However, if you have a clear preference for software or hardware, you can tailor your learning path accordingly.
 
-> [!NOTE] 
+> [!NOTE]
 > **Remember that the importance of individual software and hardware skills can differ depending on the specific requirements of the company and the job role.**
-
-
-> [!TIP]  
+> [!TIP]
 > To differentiate between the types of learning resources and the quality of their content, specific symbols are used before each item.
 >
 > **Resource types:**
+>
 > - 📘 : Books
 > - 🎞️ : Videos
 > - 📝 : Write-ups, articles, and blog posts
 > - 🔗 : Other links that do not fit into any of the above categories
 >
 > **Content quality symbols:**
+>
 > - 👶 : Easy-to-understand and beginner-friendly resources. Refer to them if you do not have prior knowledge in a topic.
 > - 💎 : Well-known references that have truly invaluable and comprehensive content. Refer to them if you want to deepen your understanding of a topic.
 
@@ -246,7 +246,7 @@ Computer architecture is the backbone of embedded systems, governing the hardwar
 - [📘👶💎 Computer Organization and Design: ARM Edition - David A. Patterson, John L. Hennessy](https://a.co/d/8YPUXG7)
 - [📘👶💎 Digital Design and Computer Architecture: ARM Edition - Sarah Harris, David Harris](https://a.co/d/4otoVvI)
 - [📘👶💎 Digital Design and Computer Architecture: RISC-V Edition - Sarah Harris, David Harris](https://a.co/d/61l7Jtb)
-- [📘👶 The Elements of Computing Systems - Noam Nisan, Shimon Schocken](https://a.co/d/cX6jkLl) 
+- [📘👶 The Elements of Computing Systems - Noam Nisan, Shimon Schocken](https://a.co/d/cX6jkLl)
 - [📘 Computer Organization and Embedded Systems - Carl Hamacher, Zvonko Vranesic, Safwat Zaky, Naraig Manjikian](https://a.co/d/2lt4Svf)
 - [📘 Embedded Systems Architecture - Tammy Noergaard](https://www.oreilly.com/library/view/embedded-systems-architecture/9780123821966/)
 - [📘 Embedded Systems Architecture - Daniele Lacamera](https://www.packtpub.com/product/embedded-systems-architecture-second-edition/9781803239545)
@@ -258,12 +258,12 @@ _________________
 
 ### ✳️ Using Test Equipment
 
-Embedded systems often require specialized test equipment to verify their functionality and performance. This equipment includes multimeters, oscilloscopes, logic analyzers, function generators, power supplies, and other tools that allow engineers to measure signals, inject stimuli, and monitor the behavior of embedded systems. 
+Embedded systems often require specialized test equipment to verify their functionality and performance. This equipment includes multimeters, oscilloscopes, logic analyzers, function generators, power supplies, and other tools that allow engineers to measure signals, inject stimuli, and monitor the behavior of embedded systems.
 
 #### 🔵 Multimeter
 
 - [🎞️👶 Learn How to Use a Multimeter!](https://youtu.be/4lAyzRxsbDc)
-- [📝👶 How to Use a Multimeter ](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all)
+- [📝👶 How to Use a Multimeter](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all)
 
 #### 🔵 Logic / Protocol Analyzer
 
@@ -384,7 +384,7 @@ Mastering programming fundamentals and software development principles is essent
 
 _________________
 
-### ✳️ Programming Languages 
+### ✳️ Programming Languages
 
 Low-level languages like C and assembly provide direct hardware access, enabling efficient code optimization for resource-constrained embedded systems. System-level languages like C++ and Rust offer a higher level of abstraction for complex embedded applications, while Python is often employed for testing embedded systems due to its simplicity.
 
@@ -397,9 +397,9 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [🎞️💎 Microchip University - C Programming Callbacks](https://mu.microchip.com/c-programming-callbacks)
 - [🎞️👶 C Programming for Beginners | Full Course](https://www.youtube.com/watch?v=ssJY5MDLjlo)
 - [🎞️ C Programming Tutorials (YouTube Playlist)](https://www.youtube.com/playlist?list=PLA1FTfKBAEX4hblYoH6mnq0zsie2w6Wif)
-- [📘💎 The C Programming Language -  Brian W. Kernighan, Dennis M. Ritchie ](https://www.amazon.com/dp/0131103628?ref_=cm_sw_r_cp_ud_dp_KRZ8M1WTXWVG0HMSRBXA)
+- [📘💎 The C Programming Language -  Brian W. Kernighan, Dennis M. Ritchie](https://www.amazon.com/dp/0131103628?ref_=cm_sw_r_cp_ud_dp_KRZ8M1WTXWVG0HMSRBXA)
 - [🔗👶 C by Example](https://www.cbyexample.com/)
-- [📘 C How to Program -  Paul Deitel, Harvey Deitel ](https://deitel.com/c-how-to-program-9-e/)
+- [📘 C How to Program -  Paul Deitel, Harvey Deitel](https://deitel.com/c-how-to-program-9-e/)
 - [📘 Effective C - An Introduction to Professional C Programming - Robert C. Seacord](https://nostarch.com/Effective_C)
 - [📘 Modern C - Jens Gustedt](https://gustedt.gitlabpages.inria.fr/modern-c/)
 - [🔗 Embedded C Coding Standard](https://barrgroup.com/embedded-systems/books/embedded-c-coding-standard)
@@ -469,7 +469,7 @@ Microcontrollers are integrated circuits (ICs) that combine a microprocessor, me
 Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and ESP32. Choosing the right microcontroller involves assessing application requirements, processing power, memory needs, and input/output capabilities. Consider ease of use, cost, reliability, availability, and future expansion.
 
 - [📝 What Is a Microcontroller? The Defining Characteristics and Architecture of a Common Component](https://www.allaboutcircuits.com/technical-articles/what-is-a-microcontroller-introduction-component-characteristics-component/)
-- [📝 How to Choose the Right Microcontroller for Your Application ](https://www.allaboutcircuits.com/technical-articles/how-to-choose-the-right-microcontroller-for-your-application/)
+- [📝 How to Choose the Right Microcontroller for Your Application](https://www.allaboutcircuits.com/technical-articles/how-to-choose-the-right-microcontroller-for-your-application/)
 - [📝 How to Read a Microcontroller Datasheet: Introduction and First Steps](https://www.allaboutcircuits.com/technical-articles/how-to-read-a-microcontroller-datasheet-introduction-and-first-steps2/)
 - [📘👶 Make: AVR Programming - Elliot Williams](https://www.oreilly.com/library/view/make-avr-programming/9781449356484/)
 - [🎞️👶💎 NewbieHack - Microcontroller Tutorial - A Beginners Guide (AVR)](https://www.youtube.com/playlist?list=PLE72E4CFE73BD1DE1)
@@ -615,7 +615,6 @@ Embedded systems often communicate with other devices or external systems via in
 ##### 🔶 1-Wire
 
 - [🎞️ 1-Wire® Technology Overview](https://www.youtube.com/watch?v=CjH-OztKe00)
-
 
 #### 🔵 Digital Audio Protocols
 
@@ -794,7 +793,7 @@ Embedded systems employ a combination of volatile (SRAM, DRAM, PSRAM) and non-vo
 
 - [📝 NAND and eMMC: All You Need to Know About Flash Memory](https://www.makeuseof.com/tag/nand-emmc-need-know-flash-memory/)
 
-##### 🔶 NOR / NAND 
+##### 🔶 NOR / NAND
 
 - [🎞️ QSPI in STM32 || Write and Read || N25Q](https://www.youtube.com/watch?v=xIfh_uYy-OU)
 - [🎞️ QSPI in STM32 || Boot from EXT Memory || XIP || N25Q](https://www.youtube.com/watch?v=gAyuF20ok8c)
@@ -1028,7 +1027,6 @@ Real-time operating systems (RTOS) are specialized operating systems designed to
 - [🔗 Microsoft Azure RTOS documentation](https://learn.microsoft.com/en-us/azure/rtos/)
 - [🔗 Azure RTOS ThreadX](https://github.com/azure-rtos/threadx)
 
-
 #### 🔵 Embedded Linux
 
 Embedded Linux is a specialized version of the Linux operating system tailored for embedded systems. It's designed to operate on devices with resource constraints, such as limited memory, processing power, and power consumption.
@@ -1044,7 +1042,6 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 - [🔗 Real Time Linux and `PREEMPT_RT` Patch](https://wiki.linuxfoundation.org/realtime/start)
 - [🔗 Android Open Source Project](https://source.android.com)
 - [🔗 Android Automotive](https://source.android.com/docs/automotive)
-
 
 ##### 🔶 Linux Kernel
 
@@ -1131,12 +1128,12 @@ JTAG and SWD (Serial Wire Debug) are two popular interface protocols used for de
 
 #### 🔵 GDB
 
-GDB (GNU Debugger) is a powerful and versatile debugger for source-level and machine-level debugging. It supports a wide range of programming languages, including C, C++, Objective-C, Java, and Rust. GDB is a free and open-source software tool that is widely used by developers and researchers. 
+GDB (GNU Debugger) is a powerful and versatile debugger for source-level and machine-level debugging. It supports a wide range of programming languages, including C, C++, Objective-C, Java, and Rust. GDB is a free and open-source software tool that is widely used by developers and researchers.
 
 - [📝 Advanced GDB Usage](https://interrupt.memfault.com/blog/advanced-gdb)
 - [📝 How do breakpoints even work?](https://interrupt.memfault.com/blog/cortex-m-breakpoints)
 - [🔗 GNU GDB Debugger Command Cheat Sheet](http://www.yolinux.com/TUTORIALS/GDB-Commands.html)
-- [🔗 gdbgui - A browser-based frontend to gdb (gnu debugger) ](https://www.gdbgui.com/)
+- [🔗 gdbgui - A browser-based frontend to gdb (gnu debugger)](https://www.gdbgui.com/)
 - [🎞️ everyone needs to stop using print debugging (do THIS instead)](https://www.youtube.com/watch?v=3T3ZDquDDVg)
 - [🎞️ GDB is REALLY easy! Find Bugs in Your Code with Only A Few Commands](https://www.youtube.com/watch?v=Dq8l1_-QgAc)
 - [📝 Introduction to ARM Semihosting](https://interrupt.memfault.com/blog/arm-semihosting)
@@ -1156,7 +1153,7 @@ Build systems automate the process of compiling and linking source code into exe
 
 #### 🔵 Compilers / GCC
 
-GCC (the GNU Compiler Collection) is a free and open-source compiler system that can compile programs for many different programming languages, including C, C++, Objective-C, Fortran, Ada, and Go. GCC is a popular choice for embedded systems development due to its open source nature, maturity, stability, portability, performance, and large community. On the other hand proprietary compilers like Keil and IAR offer toolchain support, target-specific optimizations, and customer support, which may be preferred for specific projects. 
+GCC (the GNU Compiler Collection) is a free and open-source compiler system that can compile programs for many different programming languages, including C, C++, Objective-C, Fortran, Ada, and Go. GCC is a popular choice for embedded systems development due to its open source nature, maturity, stability, portability, performance, and large community. On the other hand proprietary compilers like Keil and IAR offer toolchain support, target-specific optimizations, and customer support, which may be preferred for specific projects.
 
 - [📝 GCC and Make - Compiling, Linking and Building C/C++ Applications](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 - [📝 The Best and Worst GCC Compiler Flags For Embedded](https://interrupt.memfault.com/blog/best-and-worst-gcc-clang-compiler-flags)
@@ -1184,7 +1181,7 @@ Bash scripting serves as a powerful tool in embedded systems development, enabli
 
 #### 🔵 Docker
 
-Docker containers provide a consistent and isolated environment for building software applications. This can help to improve the reproducibility of builds and reduce the risk of errors. Docker also makes it easier to share build environments, which can save time and effort for developers. 
+Docker containers provide a consistent and isolated environment for building software applications. This can help to improve the reproducibility of builds and reduce the risk of errors. Docker also makes it easier to share build environments, which can save time and effort for developers.
 
 - [🔗 Docker Docs](https://docs.docker.com/get-started/)
 - [🔗 Docker Cheat Sheet](https://dockerlabs.collabnix.com/docker/cheatsheet/)
@@ -1192,6 +1189,7 @@ Docker containers provide a consistent and isolated environment for building sof
 - [🎞️ Introduction to Docker for the Embedded Developer](https://www.youtube.com/watch?v=Fz7ou-VBk-w)
 - [🎞️ Intro to CI/CD Part 1: Getting Started with Docker | Digi-Key Electronics](https://youtu.be/1nxGcfIm-TU)
 - [📝 A Modern C Development Environment](https://interrupt.memfault.com/blog/a-modern-c-dev-env)
+
 _________________
 
 ### ✳️ Software Development Life Cycle (SDLC) Models
@@ -1219,7 +1217,7 @@ _________________
 
 ### ✳️ Version Control Systems
 
-Version control systems are essential tools for managing changes to code and other digital assets. They track changes over time, allowing developers to revert to previous versions, collaborate effectively, and identify potential conflicts. Popular version control systems include Git, Mercurial, and Subversion. 
+Version control systems are essential tools for managing changes to code and other digital assets. They track changes over time, allowing developers to revert to previous versions, collaborate effectively, and identify potential conflicts. Popular version control systems include Git, Mercurial, and Subversion.
 
 #### 🔵 Git
 
@@ -1270,7 +1268,7 @@ Testing is an integral part of the embedded systems development process, ensurin
 
 #### 🔵 CI/CD Pipelines
 
-Continuous Integration (CI) and Continuous Delivery (CD) are software development practices that automate the process of building, testing, and deploying software. CI/CD pipelines are designed to ensure that software changes are deployed quickly and reliably. 
+Continuous Integration (CI) and Continuous Delivery (CD) are software development practices that automate the process of building, testing, and deploying software. CI/CD pipelines are designed to ensure that software changes are deployed quickly and reliably.
 
 - [🎞️ Intro to CI/CD Part 1: Getting Started with Docker | Digi-Key Electronics](https://youtu.be/1nxGcfIm-TU)
 - [🎞️ Intro to CI/CD Part 2: Getting Started with GitHub Actions | Digi-Key Electronics](https://youtu.be/8pyqbYDYkRs)
@@ -1433,7 +1431,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
-**ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. 
+**ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
 ## Acknowledgement
 
