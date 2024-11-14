@@ -55,6 +55,7 @@ The roadmap provides a comprehensive guide to the essential topics for a typical
 
 > [!NOTE]
 > **Remember that the importance of individual software and hardware skills can differ depending on the specific requirements of the company and the job role.**
+
 > [!TIP]
 > To differentiate between the types of learning resources and the quality of their content, specific symbols are used before each item.
 >
