@@ -150,6 +150,7 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 
 - [🔗 DeepBlueMbedded](https://deepbluembedded.com/)
 - [🔗💎 Interrupt Blog by Memfault](https://interrupt.memfault.com/blog/)
+- [🔗💎 EmbeddedRelated.com](https://www.embeddedrelated.com/)
 - [🔗 Embedded Systems, in Pyjama!](https://inpyjama.com)
 - [🔗 ElectronicWings - Hardware Developers Community](https://www.electronicwings.com/)
 - [🔗 Microchip University](https://mu.microchip.com/)
@@ -989,6 +990,7 @@ Real-time operating systems (RTOS) are specialized operating systems designed to
 ##### 🔶 Zephyr
 
 - [🔗 Zephyr® Project](https://www.zephyrproject.org/)
+- [📝💎 Getting Started With Zephyr](https://www.embeddedrelated.com/showarticle/1505.php)
 - [🔗 Zephyr: Tutorial for Beginners](https://maksimdrachov.github.io/zephyr-rtos-tutorial/)
 - [📝 Why We Moved from FreeRTOS to Zephyr RTOS](https://www.zephyrproject.org/why-we-moved-from-freertos-to-zephyr-rtos/)
 - [🔗 nRF Connect SDK](https://academy.nordicsemi.com/courses/nrf-connect-sdk-fundamentals/)
