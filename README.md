@@ -409,6 +409,7 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [🔗 The GNU C Library (glibc)](https://www.gnu.org/software/libc/documentation.html)
 - [📝 From Zero to main(): Bare metal C](https://interrupt.memfault.com/blog/zero-to-main-1)
 - [📝 From Zero to main(): Bootstrapping libc with Newlib](https://interrupt.memfault.com/blog/boostrapping-libc-with-newlib)
+- [🎞️👶 Learn C Programming and OOP with Dr. Chuck](https://www.youtube.com/watch?v=PaPN51Mm5qQ)
 
 #### 🔵 C++
 
