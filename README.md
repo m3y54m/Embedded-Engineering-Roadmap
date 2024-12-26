@@ -71,6 +71,9 @@ The roadmap provides a comprehensive guide to the essential topics for a typical
 > - 👶 : Easy-to-understand and beginner-friendly resources. Refer to them if you do not have prior knowledge in a topic.
 > - 💎 : Well-known references that have truly invaluable and comprehensive content. Refer to them if you want to deepen your understanding of a topic.
 
+> [!WARNING]  
+> This repository is not affiliated with or financially supported by any content creator, publisher, or organization. We do not endorse or recommend any specific paid resources. Both free and paid resources are included to provide a range of options, allowing you to choose what best suits your needs and preferences.
+
 ## 😕 Don't Know Where to Start!
 
 **If you feel overwhelmed by the extensive list of topics in the roadmap, you're not alone. Before delving too deeply, let's ease into it with some simple starter projects. Learning embedded systems engineering takes time and effort. Don't get discouraged if you don't understand something right away. Keep practicing and you will eventually get there.**
@@ -363,6 +366,7 @@ Mastering programming fundamentals and software development principles is essent
 - [📝 Practical Design Patterns: Opaque Pointers and Objects in C](https://interrupt.memfault.com/blog/opaque-pointers)
 - [📘💎 Design Patterns for Embedded Systems in C - Bruce Powel Douglass](https://www.oreilly.com/library/view/design-patterns-for/9781856177078/)
 - [📘💎 Making Embedded Systems: Design Patterns for Great Software - Elecia White](https://www.oreilly.com/library/view/making-embedded-systems/9781449308889/)
+- [🎧💎 Making Embedded Systems: Design Patterns for Great Software - Elecia White (Audio Book)](https://www.audiobooks.com/audiobook/making-embedded-systems-design-patterns-for-great-software/814297)
 - [🔗 Design Patterns - Refactoring Guru](https://refactoring.guru/design-patterns)
 
 #### 🔵 State Machines
