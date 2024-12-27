@@ -71,8 +71,8 @@ The roadmap provides a comprehensive guide to the essential topics for a typical
 > - 👶 : Easy-to-understand and beginner-friendly resources. Refer to them if you do not have prior knowledge in a topic.
 > - 💎 : Well-known references that have truly invaluable and comprehensive content. Refer to them if you want to deepen your understanding of a topic.
 
-> [!WARNING]  
-> This repository is not affiliated with or financially supported by any content creator, publisher, or organization. We do not endorse or recommend any specific paid resources. Both free and paid resources are included to provide a range of options, allowing you to choose what best suits your needs and preferences.
+> [!IMPORTANT]  
+> **This repository is not affiliated with or financially supported by any content creator, publisher, or organization. We do not endorse or recommend any specific paid resources. Both free and paid resources are included to provide a range of options, allowing you to choose what best suits your needs and preferences.**
 
 ## 😕 Don't Know Where to Start!
 
