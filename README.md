@@ -415,6 +415,7 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [📝 From Zero to main(): Bare metal C](https://interrupt.memfault.com/blog/zero-to-main-1)
 - [📝 From Zero to main(): Bootstrapping libc with Newlib](https://interrupt.memfault.com/blog/boostrapping-libc-with-newlib)
 - [🎞️👶 Learn C Programming and OOP with Dr. Chuck](https://www.youtube.com/watch?v=PaPN51Mm5qQ)
+- [📘 Extreme C -  Kamran Amini](https://www.packtpub.com/free-ebook/extreme-c/9781789343625)
 
 #### 🔵 C++
 
@@ -1110,6 +1111,7 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 - [📝 Inter Process Communication (IPC)](https://www.scaler.com/topics/operating-system/inter-process-communication-in-os/)
 - [📝 What Is Inter-Process Communication In Linux?](https://www.scaler.com/topics/ipc-in-linux/)
 - [🎞️ Udemy – Linux Inter Process Communication (IPC) from Scratch in C](https://www.udemy.com/course/linuxipc/)
+- [📘 Extreme C -  Kamran Amini | Chapter 19: Single-Host IPC and Sockets](https://www.packtpub.com/free-ebook/extreme-c/9781789343625)
 - [🎞️ Udemy – Multi-Threading and IPC with Qt 5 C++](https://www.udemy.com/course/multi-threading-and-ipc-with-qt-c-plus-plus/)
 - [📝 D-Bus Tutorial](https://dbus.freedesktop.org/doc/dbus-tutorial.html)
 
