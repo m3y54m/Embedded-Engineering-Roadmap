@@ -586,6 +586,7 @@ Embedded systems often communicate with other devices or external systems via in
 #### 🔵 ‌Basic Protocols
 
 - [🎞️👶 Understanding Serial Protocols](https://www.youtube.com/watch?v=LEz5UCN3aHA)
+- [🎞️👶 Serial Protocol Fundamentals](https://www.youtube.com/watch?v=yz7h5xd18OE)
 - [📝👶 Understanding and Selecting in 2024: I2C, SPI, UART Explained](https://www.parlezvoustech.com/en/comparaison-protocoles-communication-i2c-spi-uart/)
 - [🎞️ PROTOCOLS: UART - I2C - SPI - Serial communications #001](https://www.youtube.com/watch?v=IyGwvGzrqp8)
 
