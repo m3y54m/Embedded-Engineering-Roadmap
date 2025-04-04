@@ -417,6 +417,7 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [📝 From Zero to main(): Bootstrapping libc with Newlib](https://interrupt.memfault.com/blog/boostrapping-libc-with-newlib)
 - [🎞️👶 Learn C Programming and OOP with Dr. Chuck](https://www.youtube.com/watch?v=PaPN51Mm5qQ)
 - [📘 Extreme C -  Kamran Amini](https://www.packtpub.com/free-ebook/extreme-c/9781789343625)
+- [🎞️👶 Coursera - C Programming with Linux Specialization](https://www.coursera.org/specializations/c-programming-linux)
 
 #### 🔵 C++
 
@@ -998,6 +999,7 @@ Real-time operating systems (RTOS) are specialized operating systems designed to
 - [📝 Why We Moved from FreeRTOS to Zephyr RTOS](https://www.zephyrproject.org/why-we-moved-from-freertos-to-zephyr-rtos/)
 - [🔗 nRF Connect SDK](https://academy.nordicsemi.com/courses/nrf-connect-sdk-fundamentals/)
 - [🎞️ ESP32 on Zephyr OS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEQVp_6G_y4iFfemAbFsKw6tsGABarTwp)
+- [🎞️💎 Introduction to Zephyr - Digikey (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyTmK2zdwhaf8bLwuEaDH-52)
 
 ##### 🔶 μC/OS / Micriμm OS
 
