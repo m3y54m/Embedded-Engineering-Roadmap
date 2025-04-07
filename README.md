@@ -1270,6 +1270,7 @@ Testing is an integral part of the embedded systems development process, ensurin
 - [🔗 Catch2 - A modern, C++-native, test framework for unit-tests](https://github.com/catchorg/Catch2)
 - [🔗 pytest-embedded](https://docs.espressif.com/projects/pytest-embedded/en/latest/)
 - [📝 Introduction to testing ESP32 code with Pytest](https://blog.gistre.epita.fr/posts/brice.parent-2023-09-11-introduction_to_testing_esp32_code_with_pytest/)
+- [🔗 Pigweed](https://pigweed.dev/)
 
 ###### [🔸 GoogleTest - Google Testing and Mocking Framework](https://github.com/google/googletest)
 
