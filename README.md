@@ -211,7 +211,9 @@ Similar to other professions, embedded engineers require soft skills that can't 
 _________________
 ### ✳️ Discrete Mathematics
 
-A common subject that is taught for Computer Science Students and Some Math/Electrical Engineering Majors based on the Assoication For Computing Machinery Guidlines for CS/CE education. Discrete Mathematics presents the most essential subjects for _abstract mathematical modelling_ and _theory of computation_. _Discrete Mathematics_ is a multi-semester course that involves subjects about the theoretical basis of computer science, including but not limited to:
+A common subject that is essential to Computer Science students and some Math/Electrical Engineering Majors based on the [Assoication For Computing Machinery Guidelines for CS/CE education](https://www.acm.org/education/curricula-recommendations). It houses the most essential subjects for _abstract mathematical modelling_ and _theory of computation_. Furthermore, it helps students to establish the essential engineering mindset that represents the common basis among all computer science and computer engineering domains. However, Logic, Theory of combinatorics, Coding Theory, and Theory of Computation are among the most essential subjects for Embedded Systems Engineer. Embedded Systems Engineer should be able to grasp most of these information sooner or later based on their subspeciality (e.g., Coding Theory for Audio/Video Encoding/Decoding and Data Transmission - Automata Theory for event control and data transmission - Logic for digital circuit design and switching algebra - $$\Pi$$ Calculus and Automata Theory for Concurrency Modelling).
+
+_Discrete Mathematics_ is a multi-semester course that involves subjects about the theoretical mathematical basis of computer science, including but not limited to:
 * Logic (Propositional, Quantificational and Normal Forms).
 * Axiomatic Set Theory (Sets, Operations on sets, and Power Sets).
 * Relation Sets and Function Theory (i.e., $$\Lambda$$ Calculus).
@@ -225,9 +227,14 @@ A common subject that is taught for Computer Science Students and Some Math/Elec
 
 - [🎞️ Free Courses on Coursera](https://www.coursera.org/search?query=Discrete%20mathematics&topic=Computer%20Science&topic=Math%20and%20Logic&sortBy=BEST_MATCH)
 - [📘👶 Open Access Books by LibreTexts](https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics)
+- [📘👶 Essential discrete mathematics for computer science by Lewis HARRY., Zax R. ACM DL](https://dl.acm.org/doi/book/10.5555/3388468)
 - [📘💎 Discrete Mathematics and its applications by Rosen](https://dl.acm.org/doi/book/10.5555/579402)
+- [📘💎 Discrete Mathematics with Applications by Susanna S. Epp](https://dl.acm.org/doi/book/10.5555/1941983)
 - [📘💎 Switching and Finite Automata Theory, Cambrdige Press](https://dl.acm.org/doi/10.5555/1708070)
 - [📘💎 Discrete Mathematical Structures by Bernard Kolman](https://www.pearson.com/en-us/subject-catalog/p/discrete-mathematical-structures-classic-version/P200000006227/9780137538782?srsltid=AfmBOooBdohmNtq7Wu42tHwSt7lUma46hBmKjqk8XJ8NNI6sf2-4-1kg)
+- [📘💎 Bridge to Abstract Mathematics, AMS](https://bookstore.ams.org/view?ProductCode=TEXT/22)
+- [📘💎 Invitation to Discrete Mathematics, Oxford University Press](https://global.oup.com/academic/product/invitation-to-discrete-mathematics-9780198570431?cc=eg&lang=en&)
+- [📘💎 The Mathematics of Cellular Automata by Jane Hawkins, AMS](https://bookstore.ams.org/stml-108) 
  
 _________________
 
