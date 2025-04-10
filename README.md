@@ -209,6 +209,27 @@ Similar to other professions, embedded engineers require soft skills that can't 
 - [📝 10 Skills Every Embedded Engineer Should Have](https://medium.com/@lanceharvieruntime/10-skills-every-embedded-engineer-should-have-dcb867095b91)
 
 _________________
+### ✳️ Discrete Mathematics
+
+A common subject that is taught for Computer Science Students and Some Math/Electrical Engineering Majors based on the Assoication For Computing Machinery Guidlines for CS/CE education. Discrete Mathematics presents the most essential subjects for _abstract mathematical modelling_ and _theory of computation_. _Discrete Mathematics_ is a multi-semester course that involves subjects about the theoretical basis of computer science, including but not limited to:
+* Logic (Propositional, Quantificational and Normal Forms).
+* Axiomatic Set Theory (Sets, Operations on sets, and Power Sets).
+* Relation Sets and Function Theory (i.e., $$\Lambda$$ Calculus).
+* Theory of combinatorics.
+* Matrix and Graph Theory.
+* Theory of computation (i.e., Computational Automata Theory, Computational Complexity, and Computational Computability).
+* Automata Theory (e.g., Finite-state Machines, Pushdown Automata, Turing Machines, and Cellular Automata).
+* Process Modelling/Calculi (i.e., $$\Pi$$ Calculus).
+* Coding Theory.
+* Division Theorem Modular Arithmetics (Parts of Number Theory).
+
+- [🎞️ Free Courses on Coursera](https://www.coursera.org/search?query=Discrete%20mathematics&topic=Computer%20Science&topic=Math%20and%20Logic&sortBy=BEST_MATCH)
+- [📘👶 Open Access Books by LibreTexts](https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics)
+- [📘💎 Discrete Mathematics and its applications by Rosen](https://dl.acm.org/doi/book/10.5555/579402)
+- [📘💎 Switching and Finite Automata Theory, Cambrdige Press](https://dl.acm.org/doi/10.5555/1708070)
+- [📘💎 Discrete Mathematical Structures by Bernard Kolman](https://www.pearson.com/en-us/subject-catalog/p/discrete-mathematical-structures-classic-version/P200000006227/9780137538782?srsltid=AfmBOooBdohmNtq7Wu42tHwSt7lUma46hBmKjqk8XJ8NNI6sf2-4-1kg)
+ 
+_________________
 
 ### ✳️ Electronics
 
