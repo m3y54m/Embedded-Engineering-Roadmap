@@ -214,16 +214,16 @@ _________________
 A common subject that is essential to Computer Science students and some Math/Electrical Engineering Majors based on the [Assoication For Computing Machinery Guidelines for CS/CE education](https://www.acm.org/education/curricula-recommendations). It houses the most essential subjects for _abstract mathematical modelling_ and _theory of computation_. Furthermore, it helps students to establish the essential engineering mindset that represents the common basis among all computer science and computer engineering domains. However, Logic, Theory of combinatorics, Coding Theory, and Theory of Computation are among the most essential subjects for Embedded Systems Engineer. Embedded Systems Engineer should be able to grasp most of these information sooner or later based on their subspeciality (e.g., Coding Theory for Audio/Video Encoding/Decoding and Data Transmission - Automata Theory for event control and data transmission - Logic for digital circuit design and switching algebra - $$\Pi$$ Calculus and Automata Theory for Concurrency Modelling).
 
 _Discrete Mathematics_ is a multi-semester course that involves subjects about the theoretical mathematical basis of computer science, including but not limited to:
-* Logic (Propositional, Quantificational and Normal Forms).
-* Axiomatic Set Theory (Sets, Operations on sets, and Power Sets).
-* Relation Sets and Function Theory (i.e., $$\Lambda$$ Calculus).
-* Theory of combinatorics.
-* Matrix and Graph Theory.
-* Theory of computation (i.e., Computational Automata Theory, Computational Complexity, and Computational Computability).
-* Automata Theory (e.g., Finite-state Machines, Pushdown Automata, Turing Machines, and Cellular Automata).
-* Process Modelling/Calculi (i.e., $$\Pi$$ Calculus).
-* Coding Theory.
-* Division Theorem Modular Arithmetics (Parts of Number Theory).
+* 🔵 Logic (Propositional, Quantificational and Normal Forms).
+* 🔵 Axiomatic Set Theory (Sets, Operations on sets, and Power Sets).
+* 🔵 Relation Sets and Function Theory (i.e., $$\lambda$$ Calculus).
+* 🔵 Theory of combinatorics.
+* 🔵 Matrix and Graph Theory.
+* 🔵 Theory of computation (i.e., Computational Automata Theory, Computational Complexity, and Computational Computability).
+* 🔵 Automata Theory (e.g., Finite-state Machines, Pushdown Automata, Turing Machines, and Cellular Automata).
+* 🔵 Process Modelling/Calculi (i.e., $$\pi$$ Calculus).
+* 🔵 Coding Theory.
+* 🔵 Division Theorem Modular Arithmetics (Parts of Number Theory).
 
 - [🎞️ Free Courses on Coursera](https://www.coursera.org/search?query=Discrete%20mathematics&topic=Computer%20Science&topic=Math%20and%20Logic&sortBy=BEST_MATCH)
 - [📘👶 Open Access Books by LibreTexts](https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics)
