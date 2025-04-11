@@ -228,6 +228,7 @@ _Discrete Mathematics_ is a multi-semester course that involves subjects about t
 - [🎞️ Free Courses on Coursera](https://www.coursera.org/search?query=Discrete%20mathematics&topic=Computer%20Science&topic=Math%20and%20Logic&sortBy=BEST_MATCH)
 - [📘👶 Open Access Books by LibreTexts](https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics)
 - [📘👶 Essential discrete mathematics for computer science by Lewis HARRY., Zax R. ACM DL](https://dl.acm.org/doi/book/10.5555/3388468)
+- [📘👶 Guide to Discrete Mathematics by Gerard O'Regan, Springer](https://link.springer.com/book/10.1007/978-3-030-81588-2)
 - [📘💎 Discrete Mathematics and its applications by Rosen](https://dl.acm.org/doi/book/10.5555/579402)
 - [📘💎 Discrete Mathematics with Applications by Susanna S. Epp](https://dl.acm.org/doi/book/10.5555/1941983)
 - [📘💎 Switching and Finite Automata Theory, Cambrdige Press](https://dl.acm.org/doi/10.5555/1708070)
