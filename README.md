@@ -214,11 +214,11 @@ _________________
 #### 🔵 Basic Math & Calculus
 
 - [🎞️ Khan Academy - Calculus 1](https://www.khanacademy.org/math/calculus-1)
-- [🎞️ Free Courses for discrete mathematics on Coursera](https://www.coursera.org/search?query=Discrete%20mathematics&topic=Computer%20Science&topic=Math%20and%20Logic&sortBy=BEST_MATCH)
+- [🎞️ Free Courses for Discrete Mathematics on Coursera](https://www.coursera.org/search?query=Discrete%20mathematics&topic=Computer%20Science&topic=Math%20and%20Logic&sortBy=BEST_MATCH)
 - [📘👶 Calculus For Dummies - Mark Ryan](https://a.co/d/cyvZqE1)
 - [📘💎 Thomas' Calculus](https://a.co/d/gFcCC37)
 - [📘👶 Open Access Discrete Mathematics Books by LibreTexts](https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics)
-- [📘👶 Essential discrete Mathematics for computer science by Lewis HARRY., Zax R. ACM DL](https://dl.acm.org/doi/book/10.5555/3388468)
+- [📘👶 Essential Discrete Mathematics for computer science by Lewis HARRY., Zax R. ACM DL](https://dl.acm.org/doi/book/10.5555/3388468)
 - [📘👶 Guide to Discrete Mathematics by Gerard O'Regan, Springer](https://link.springer.com/book/10.1007/978-3-030-81588-2)
 - [📘💎 Bridge to Abstract Mathematics, AMS](https://bookstore.ams.org/view?ProductCode=TEXT/22)
 
