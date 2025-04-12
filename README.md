@@ -1441,7 +1441,8 @@ AUTOSAR, or AUTomotive Open System ARchitecture, is a global industry standard f
 - [🎞️ Udemy - Autosar Architecture (Learn from Scratch with Demo)](https://www.udemy.com/course/autosar-architecture/)
 
 _________________
-### ✳️ Rigorous Mathematics: Discrete Mathematics
+### Appendix-A: Advanced Topics
+#### ✳️ Discrete Mathematics
 
 A common subject that is essential to Computer Science students and some Math/Electrical Engineering Majors based on the [Assoication For Computing Machinery Guidelines for CS/CE education](https://www.acm.org/education/curricula-recommendations). It houses the most essential subjects for _abstract mathematical modelling_ and _theory of computation_. Furthermore, it helps students to establish the essential engineering mindset that represents the common basis among all computer science and computer engineering domains. However, Logic, Theory of combinatorics, Coding Theory, and Theory of Computation are among the most essential subjects for Embedded Systems Engineer. 
 
