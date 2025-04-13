@@ -207,6 +207,7 @@ Similar to other professions, embedded engineers require soft skills that can't 
 
 - [📝 Soft Skills For Embedded Systems Software Developers](https://www.embeddedrelated.com/showarticle/1470.php)
 - [📝 10 Skills Every Embedded Engineer Should Have](https://medium.com/@lanceharvieruntime/10-skills-every-embedded-engineer-should-have-dcb867095b91)
+
 _________________
 
 ### ✳️ Electronics
@@ -214,13 +215,8 @@ _________________
 #### 🔵 Basic Math & Calculus
 
 - [🎞️ Khan Academy - Calculus 1](https://www.khanacademy.org/math/calculus-1)
-- [🎞️ Free Courses for Discrete Mathematics on Coursera](https://www.coursera.org/search?query=Discrete%20mathematics&topic=Computer%20Science&topic=Math%20and%20Logic&sortBy=BEST_MATCH)
 - [📘👶 Calculus For Dummies - Mark Ryan](https://a.co/d/cyvZqE1)
 - [📘💎 Thomas' Calculus](https://a.co/d/gFcCC37)
-- [📘👶 Open Access Discrete Mathematics Books by LibreTexts](https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics)
-- [📘👶 Essential Discrete Mathematics for computer science by Lewis HARRY., Zax R. ACM DL](https://dl.acm.org/doi/book/10.5555/3388468)
-- [📘👶 Guide to Discrete Mathematics by Gerard O'Regan, Springer](https://link.springer.com/book/10.1007/978-3-030-81588-2)
-- [📘💎 Bridge to Abstract Mathematics, AMS](https://bookstore.ams.org/view?ProductCode=TEXT/22)
 
 #### 🔵 Principles of Electric Circuits
 
@@ -356,6 +352,14 @@ _________________
 ### ✳️ Programming Fundamentals
 
 Mastering programming fundamentals and software development principles is essential for a successful embedded design. Embedded systems demand efficient code, optimized data management, reusable design patterns, and effective memory management to function effectively in resource-constrained environments. Embedded developers must possess a strong foundation in these core concepts to create reliable and performant embedded systems.
+
+#### Essential Discrete Mathematics
+
+- [🎞️ Coursera - Introduction to Discrete Mathematics for Computer Science Specialization](https://www.coursera.org/specializations/discrete-mathematics)
+- [📘👶 Open Access Discrete Mathematics Books by LibreTexts](https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics)
+- [📘👶 Essential Discrete Mathematics for computer science by Lewis HARRY., Zax R. ACM DL](https://dl.acm.org/doi/book/10.5555/3388468)
+- [📘👶 Guide to Discrete Mathematics - Gerard O'Regan, Springer](https://link.springer.com/book/10.1007/978-3-030-81588-2)
+- [📘💎 Bridge to Abstract Mathematics, AMS](https://bookstore.ams.org/view?ProductCode=TEXT/22)
 
 #### 🔵 Algorithms & Data Structures
 
@@ -1441,8 +1445,10 @@ AUTOSAR, or AUTomotive Open System ARchitecture, is a global industry standard f
 - [🎞️ Udemy - Autosar Architecture (Learn from Scratch with Demo)](https://www.udemy.com/course/autosar-architecture/)
 
 _________________
-### Appendix-A: Advanced Topics
-#### ✳️ Discrete Mathematics
+
+### ✳️ Appendix-A: Advanced Topics
+
+#### 🔵 Discrete Mathematics
 
 A common subject that is essential to Computer Science students and some Math/Electrical Engineering Majors based on the [Assoication For Computing Machinery Guidelines for CS/CE education](https://www.acm.org/education/curricula-recommendations). It houses the most essential subjects for _abstract mathematical modelling_ and _theory of computation_. Furthermore, it helps students to establish the essential engineering mindset that represents the common basis among all computer science and computer engineering domains. However, Logic, Theory of combinatorics, Coding Theory, and Theory of Computation are among the most essential subjects for Embedded Systems Engineers. 
 
