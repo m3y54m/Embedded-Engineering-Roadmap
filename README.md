@@ -212,7 +212,7 @@ _________________
 
 ### ✳️ Electronics
 
-#### 🔵 Basic Math & Calculus
+#### 🔵 Basic Calculus
 
 - [🎞️ Khan Academy - Calculus 1](https://www.khanacademy.org/math/calculus-1)
 - [📘👶 Calculus For Dummies - Mark Ryan](https://a.co/d/cyvZqE1)
@@ -353,7 +353,7 @@ _________________
 
 Mastering programming fundamentals and software development principles is essential for a successful embedded design. Embedded systems demand efficient code, optimized data management, reusable design patterns, and effective memory management to function effectively in resource-constrained environments. Embedded developers must possess a strong foundation in these core concepts to create reliable and performant embedded systems.
 
-#### Essential Discrete Mathematics
+#### 🔵 Basic Discrete Mathematics
 
 - [🎞️ Coursera - Introduction to Discrete Mathematics for Computer Science Specialization](https://www.coursera.org/specializations/discrete-mathematics)
 - [📘👶 Open Access Discrete Mathematics Books by LibreTexts](https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics)
