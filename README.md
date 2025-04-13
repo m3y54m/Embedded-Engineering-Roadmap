@@ -1455,16 +1455,16 @@ A common subject that is essential to Computer Science students and some Math/El
 _**Goal of learning Discrete Mathematics:**_ Embedded Systems Engineers should be able to grasp most of these information sooner or later based on their subspeciality; as it explains the scientific and theoretical basis of computer engineering (e.g., Coding Theory for Audio/Video Encoding/Decoding and Data Transmission - Automata Theory for event control and data transmission - Logic for digital circuit design and switching algebra - $$\Pi$$ Calculus and Automata Theory for Concurrency Modelling).
 
 _Discrete Mathematics_ is a multi-semester course that involves subjects about the theoretical mathematical basis of computer science, including but not limited to:
-* 🔵 Logic (Propositional, Quantificational and Normal Forms).
-* 🔵 Axiomatic Set Theory (Sets, Operations on sets, and Power Sets).
-* 🔵 Relation Sets and Function Theory (i.e., $$\lambda$$ Calculus).
-* 🔵 Theory of combinatorics.
-* 🔵 Matrix and Graph Theory.
-* 🔵 Theory of computation (i.e., Computational Automata Theory, Computational Complexity, and Computational Computability).
-* 🔵 Automata Theory (e.g., Finite-state Machines, Pushdown Automata, Turing Machines, and Cellular Automata).
-* 🔵 Process Modelling/Calculi (i.e., $$\pi$$ Calculus).
-* 🔵 Coding Theory.
-* 🔵 Division Theorem Modular Arithmetics (Parts of Number Theory).
+* Logic (Propositional, Quantificational and Normal Forms).
+* Axiomatic Set Theory (Sets, Operations on sets, and Power Sets).
+* Relation Sets and Function Theory (i.e., $$\lambda$$ Calculus).
+* Theory of combinatorics.
+* Matrix and Graph Theory.
+* Theory of computation (i.e., Computational Automata Theory, Computational Complexity, and Computational Computability).
+* Automata Theory (e.g., Finite-state Machines, Pushdown Automata, Turing Machines, and Cellular Automata).
+* Process Modelling/Calculi (i.e., $$\pi$$ Calculus).
+* Coding Theory.
+* Division Theorem Modular Arithmetics (Parts of Number Theory).
 
 - [📘💎 Discrete Mathematics and its applications by Rosen](https://dl.acm.org/doi/book/10.5555/579402)
 - [📘💎 Discrete Mathematics with Applications by Susanna S. Epp](https://dl.acm.org/doi/book/10.5555/1941983)
