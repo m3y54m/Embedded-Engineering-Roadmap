@@ -429,13 +429,24 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 
 #### 🔵 C++
 
+- [🎞️👶 The Essence of C++ by Bjarne Stroustrup - YouTube](https://www.youtube.com/watch?v=86xWVb4XIyE)
+- [🎞️👶💎 Delivering Safe C++ by Bjarne Stroustrup - CppCon 2023](https://www.youtube.com/watch?v=I8UvQKvOSSw)
+- [🎞️👶💎 The Design of C++ by Bjarne Stroustrup Computer History - YouTube](https://www.youtube.com/watch?v=69edOm889V4)
 - [📝 Modern C++ in Embedded Development: (Don't Fear) The ++](https://www.embeddedrelated.com/showarticle/1532.php)
 - [📝 C++ On Embedded Systems](https://blog.mbedded.ninja/programming/languages/c-plus-plus/cpp-on-embedded-systems/)
 - [🎞️👶 C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
 - [🎞️ C++ by The Cherno (YouTube Playlist)](https://youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
 - [🎞️👶💎 Udemy - Beginning C++ Programming - From Beginner to Beyond](https://www.udemy.com/course/beginning-c-plus-plus-programming/)
+- [🎞️💎 C++ in Constrained Environments - Bjarne Stroustrup - CppCon 2022](https://www.youtube.com/watch?v=2BuJjaGuInI)
+- [🎞️💎 CppCon Conferences - YouTube](https://www.youtube.com/@CppCon/playlists)
+- [📘💎 A Tour of C++ (3rd Edition) - Bjarne Stroustrup](https://www.stroustrup.com/tour3.html)
+- [📘💎 The C++ programming Language (C++11) - Bjarne Stroustrup](https://www.stroustrup.com/4th.html)
+- [📘💎 Programming -- Principles and Practice Using C++ (3rd Edition) - Bjarne Stroustrup](https://www.stroustrup.com/programming.html)
+- [📘💎 Papers on C++ by Bjarne Stroustrup - Stroustrup's Website](https://www.stroustrup.com/papers.html)
 - [📘💎 Real-Time C++: Efficient Object-Oriented and Template Microcontroller Programming - Christopher Kormanyos](https://link.springer.com/book/10.1007/978-3-662-62996-3)
 - [📘 Effective Modern C++ - Scott Meyers](https://www.oreilly.com/library/view/effective-modern-c/9781491908419/)
+- [📘 The Design and Evolution of C++ - Bjarne Stroustrp](https://www.stroustrup.com/dne.html)
+- [📘 Papers on C++ by Bjarne Stroustrup - ACM DL](https://dl.acm.org/keyword/C%2B%2B?expand=all&ContribRoleAndId=author%3A10.1145%2Fcontrib-81100106139)
 
 #### 🔵 Assembly
 
