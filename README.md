@@ -862,6 +862,9 @@ Embedded system development often involves simulating or emulating hardware envi
 - [🔗👶 Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
 - [🔗👶 SimulIDE Circuit Simulator](https://simulide.com/)
 - [🔗👶 Digital logic designer and circuit simulator designed for educational purposes](https://github.com/hneemann/Digital)
+- [🔗👶 EveryCircuit](https://everycircuit.com/)
+- [🔗👶 Circuit Simulator Applet](https://www.falstad.com/circuit/)
+- [🔗👶 Tinkercad](https://www.tinkercad.com/)
 
 #### 🔵 QEMU
 
