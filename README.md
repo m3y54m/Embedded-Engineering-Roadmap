@@ -387,6 +387,7 @@ Mastering programming fundamentals and software development principles is essent
 - [🎞️💎 Udemy - Embedded System Design using UML State Machines](https://www.udemy.com/course/embedded-system-design-using-uml-state-machines/)
 - [📝 “Input-Driven” vs. Event-Driven State Machines](https://www.state-machine.com/input-driven-vs-event-driven-state-machines)
 - [📝 State Machines for Event-Driven Systems](https://barrgroup.com/embedded-systems/how-to/state-machines-event-driven-systems)
+- [📘 Practical UML Statecharts in C/C++ by Miro Samek](https://www.amazon.sg/Practical-UML-Statecharts-Event-Driven-Programming/dp/0750687061)
 
 #### 🔵 Memory Management
 
