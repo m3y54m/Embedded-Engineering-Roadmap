@@ -865,6 +865,7 @@ Embedded system development often involves simulating or emulating hardware envi
 - [🔗👶 EveryCircuit](https://everycircuit.com/)
 - [🔗👶 Circuit Simulator Applet](https://www.falstad.com/circuit/)
 - [🔗👶 Tinkercad](https://www.tinkercad.com/)
+- [🔗👶 Voltsim](https://www.voltsimulator.com/)
 
 #### 🔵 QEMU
 
