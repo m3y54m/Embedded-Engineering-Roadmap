@@ -443,6 +443,7 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [🎞️ Udemy – ARM GNU Assembly Programming From Ground Up](https://www.udemy.com/course/arm-gnu-assembly-programming-from-ground-uptm/)
 - [🎞️ Assembly Language Programming with ARM – Full Tutorial for Beginners](https://www.youtube.com/watch?v=gfmRrPjnEw4)
 - [📝 How to Use Inline Assembly Language in C Code](https://gcc.gnu.org/onlinedocs/gcc/Using-Assembly-Language-with-C.html)
+- [📘 Raspberry Pi Assembly Language Programming : ARM Processor Coding](https://www.amazon.com/Raspberry-Assembly-Language-Programming-Processor/dp/1484252861)
 
 #### 🔵 Python
 
