@@ -121,6 +121,12 @@ If you have reservations about relying on AI advice alone, you can also ask your
 - [🔗 Electrical Engineering Stack Exchange](https://electronics.stackexchange.com/)
 - [🔗 Reddit · r/embedded](https://www.reddit.com/r/embedded/)
 
+### ✳️ Career Development
+
+As an embedded systems engineer, it's essential to stay up-to-date with industry trends, best practices, and new technologies to advance your career. Here are some resources to help you achieve your career goals:
+
+- [🔗 EmbeddedJobs](https://embedded.jobs/jobs) - A job board focused exclusively on Embedded Systems job market.
+
 ### 🎥 Courses and YouTube Contents
 
 You may have heard that YouTube is a university. And it's true - there is an extensive amount of invaluable free content on embedded systems available on YouTube. You'll also find some excellent free courses through Coursera and EdX. Additionally, Udemy offers some high-quality paid course options.
