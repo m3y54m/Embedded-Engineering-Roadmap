@@ -762,6 +762,7 @@ Embedded systems often communicate with other devices or external systems via in
 - [🎞️ How does USB device discovery work?](https://www.youtube.com/watch?v=N0O5Uwc3C0o)
 - [🎞️ MOOC - STM32 USB training (YouTube Playlist)](https://www.youtube.com/playlist?list=PLnMKNibPkDnFFRBVD206EfnnHhQZI4Hxa)
 - [🎞️ Microchip University - USB2 Hub Fundamentals](https://mu.microchip.com/usb2-hub-fundamentals)
+- [🔗 Beyond Logic - USB in a NutShell](https://www.beyondlogic.org/usbnutshell/usb1.shtml)
 
 ##### 🔶 PCIe
 
