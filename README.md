@@ -446,7 +446,11 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [📘💎 Real-Time C++: Efficient Object-Oriented and Template Microcontroller Programming - Christopher Kormanyos](https://link.springer.com/book/10.1007/978-3-662-62996-3)
 - [📘 Effective Modern C++ - Scott Meyers](https://www.oreilly.com/library/view/effective-modern-c/9781491908419/)
 - [📘 The Design and Evolution of C++ - Bjarne Stroustrup](https://www.stroustrup.com/dne.html)
-- [📘 Papers on C++ by Bjarne Stroustrup - ACM DL](https://dl.acm.org/keyword/C%2B%2B?expand=all&ContribRoleAndId=author%3A10.1145%2Fcontrib-81100106139)
+
+> [!NOTE]
+> 
+>  **📘 Publications on C++:**
+> - [Papers on C++ by Bjarne Stroustrup - ACM DL](https://dl.acm.org/keyword/C%2B%2B?expand=all&ContribRoleAndId=author%3A10.1145%2Fcontrib-81100106139)
 
 #### 🔵 Assembly
 
