@@ -456,6 +456,7 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [📘 Effective Modern C++ - Scott Meyers](https://www.oreilly.com/library/view/effective-modern-c/9781491908419/)
 
 ##### Additional resources from Bjarne Stroustrup, creator of C++
+
 - [🎞️👶 The Essence of C++ by Bjarne Stroustrup - YouTube](https://www.youtube.com/watch?v=86xWVb4XIyE)
 - [🎞️👶💎 Delivering Safe C++ by Bjarne Stroustrup - CppCon 2023](https://www.youtube.com/watch?v=I8UvQKvOSSw)
 - [🎞️👶💎 The Design of C++ by Bjarne Stroustrup Computer History - YouTube](https://www.youtube.com/watch?v=69edOm889V4)
@@ -1528,4 +1529,5 @@ Special thanks to my friends in the community of Iranian Embedded Engineers in T
 If you think that this roadmap can be improved in anyway or you know about some good learning resources that can be added here, please start an issue or a pull request. I’ll be maintaining and updating this repository frequently.
 
 The source file is created using [Microsoft Visio](https://office.com/visio) in `.vsdx` format and included in this repository for your contributions. If you do not have Microsoft Visio or you want to use free software, you can use [draw.io](https://draw.io) which can import and export `.vsdx` files.
+
 
