@@ -1,37 +1,26 @@
 # Contributing to Embedded Engineering Roadmap
 
-We welcome contributions from everyone! To ensure a smooth collaboration, please follow these guidelines:
+Contributions from everyone are welcomed. To keep the roadmap practical, accessible, and high quality, the following guidelines should be followed:
 
-## Practical Advice
-- Focus on delivering actionable content that can help others in their embedded engineering journey.
-- Provide code snippets, examples, and hands-on projects when possible.
+## 1. Prioritize Beginner-Friendliness
+- Resources and explanations understandable for beginners should be added.
+- Advanced or specialized topics are welcomed and their inclusion can enrich the roadmap, but they should be explicitly labeled as advanced so beginners are not overwhelmed when choosing resources.
 
-## Clarity
-- Write in clear and concise language. Avoid jargon unless necessary; if you use technical terms, provide definitions.
-- Use headings, bullet points, and lists to organize content effectively.
+## 2. Resource Selection Policy
+- Free and open resources are preferred to maximize accessibility.
+- Paid resources may be included only if they clearly offer more value than existing free options; low-quality paid/free content should not be promoted.
+- The list should not be spammed with every publication from the same author or creator solely due to their reputation or personal preference. Each resource should be added for a clear reason, with usefulness especially for beginners prioritized.
+- Resources should be up-to-date, reliable, and organized under relevant headings.
 
-## Resource Quality
-- Ensure that all referenced resources are reputable and up-to-date.
-- Link to official documentation, tutorials, and articles that enhance the understanding of the topic.
+## 3. Clarity & Structure
+- Clear and direct language should be used. Unnecessary jargon should be avoided. If technical terms are used, simple explanations should be added.
+- Bullet points and lists should be used for readability and structure.
 
-## Organization
-- Keep the structure of your contributions consistent with the existing files in the repository.
-- Follow the existing naming conventions and organization patterns.
+## 4. Technical Accuracy
+- The correctness and relevance of all information and links should be verified.
+- If uncertainty exists, feedback should be requested in the pull request.
 
-## Accuracy
-- Verify facts and ensure that the content is technically correct.
-- If you are unsure about something, seek clarification or additional resources.
-
-## Respectful Collaboration
-- Treat all contributors with respect. Constructive feedback is encouraged.
-- Be open to different perspectives and ideas.
-
-## Inclusivity
-- Encourage contributions from diverse backgrounds and perspectives.
-- Avoid language that may exclude or alienate others.
-
-## Prioritized Topics
-- Focus on the topics outlined in the Embedded Engineering Roadmap.
-- Contribute to areas that you are passionate about and have expertise in.
-
-Thank you for helping to improve the Embedded Engineering Roadmap! We appreciate your contributions.
+## 5. Roadmap Alignment
+- Contributions should match the topics and structure of the roadmap.
+- Areas where contributors have experience or genuine interest should be focused on.
+- If a new topic is thought to make the roadmap more complete, it may be suggested. New topics should be proposed thoughtfully, considering their usefulness and relevance for other learners.
