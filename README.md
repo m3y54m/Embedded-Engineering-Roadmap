@@ -1529,5 +1529,3 @@ Special thanks to my friends in the community of Iranian Embedded Engineers in T
 If you think that this roadmap can be improved in anyway or you know about some good learning resources that can be added here, please start an issue or a pull request. I’ll be maintaining and updating this repository frequently.
 
 The source file is created using [Microsoft Visio](https://office.com/visio) in `.vsdx` format and included in this repository for your contributions. If you do not have Microsoft Visio or you want to use free software, you can use [draw.io](https://draw.io) which can import and export `.vsdx` files.
-
-
