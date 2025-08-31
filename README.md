@@ -53,6 +53,8 @@ It's crucial to note that each company in the embedded industry may have unique 
 
 The roadmap provides a comprehensive guide to the essential topics for a typical "Embedded Systems Engineer" role. By delving into both software and hardware aspects, you can develop the necessary skills to thrive in this dynamic field. However, if you have a clear preference for software or hardware, you can tailor your learning path accordingly.
 
+🔗 For more information about the history behind this roadmap, read this article: [Embedded Systems Roadmap: Bridging the Gap](https://interrupt.memfault.com/blog/embedded-systems-roadmap-bridging-the-gap)
+
 <!-- markdownlint-disable MD028 -->
 
 > [!NOTE]
@@ -440,26 +442,26 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 
 #### 🔵 C++
 
-- [🎞️👶 The Essence of C++ by Bjarne Stroustrup - YouTube](https://www.youtube.com/watch?v=86xWVb4XIyE)
-- [🎞️👶💎 Delivering Safe C++ by Bjarne Stroustrup - CppCon 2023](https://www.youtube.com/watch?v=I8UvQKvOSSw)
-- [🎞️👶💎 The Design of C++ by Bjarne Stroustrup Computer History - YouTube](https://www.youtube.com/watch?v=69edOm889V4)
 - [📝 Modern C++ in Embedded Development: (Don't Fear) The ++](https://www.embeddedrelated.com/showarticle/1532.php)
 - [📝 C++ On Embedded Systems](https://blog.mbedded.ninja/programming/languages/c-plus-plus/cpp-on-embedded-systems/)
+- [🎞️💎 C++ in Constrained Environments - Bjarne Stroustrup - CppCon 2022](https://www.youtube.com/watch?v=2BuJjaGuInI)
 - [🎞️👶 C++ Tutorial for Beginners - Full Course](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
 - [🎞️ C++ by The Cherno (YouTube Playlist)](https://youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
 - [🎞️👶💎 Udemy - Beginning C++ Programming - From Beginner to Beyond](https://www.udemy.com/course/beginning-c-plus-plus-programming/)
-- [🎞️💎 C++ in Constrained Environments - Bjarne Stroustrup - CppCon 2022](https://www.youtube.com/watch?v=2BuJjaGuInI)
 - [🎞️💎 CppCon Conferences - YouTube](https://www.youtube.com/@CppCon/playlists)
 - [📘💎 A Tour of C++ (3rd Edition) - Bjarne Stroustrup](https://www.stroustrup.com/tour3.html)
 - [📘💎 The C++ programming Language (C++11) - Bjarne Stroustrup](https://www.stroustrup.com/4th.html)
 - [📘💎 Programming -- Principles and Practice Using C++ (3rd Edition) - Bjarne Stroustrup](https://www.stroustrup.com/programming.html)
-- [📘💎 Papers on C++ by Bjarne Stroustrup - Stroustrup's Website](https://www.stroustrup.com/papers.html)
 - [📘💎 Real-Time C++: Efficient Object-Oriented and Template Microcontroller Programming - Christopher Kormanyos](https://link.springer.com/book/10.1007/978-3-662-62996-3)
 - [📘 Effective Modern C++ - Scott Meyers](https://www.oreilly.com/library/view/effective-modern-c/9781491908419/)
-- [📘 The Design and Evolution of C++ - Bjarne Stroustrup](https://www.stroustrup.com/dne.html)
 
-##### **📘 Publications on C++:**
-- [Papers on C++ by Bjarne Stroustrup - ACM DL](https://dl.acm.org/keyword/C%2B%2B?expand=all&ContribRoleAndId=author%3A10.1145%2Fcontrib-81100106139)
+##### Additional resources from Bjarne Stroustrup, creator of C++
+- [🎞️👶 The Essence of C++ by Bjarne Stroustrup - YouTube](https://www.youtube.com/watch?v=86xWVb4XIyE)
+- [🎞️👶💎 Delivering Safe C++ by Bjarne Stroustrup - CppCon 2023](https://www.youtube.com/watch?v=I8UvQKvOSSw)
+- [🎞️👶💎 The Design of C++ by Bjarne Stroustrup Computer History - YouTube](https://www.youtube.com/watch?v=69edOm889V4)
+- [📘 The Design and Evolution of C++ - Bjarne Stroustrup](https://www.stroustrup.com/dne.html)
+- [📘💎 Papers on C++ by Bjarne Stroustrup - Stroustrup's Website](https://www.stroustrup.com/papers.html)
+- [🔗 Papers on C++ by Bjarne Stroustrup - ACM DL](https://dl.acm.org/keyword/C%2B%2B?expand=all&ContribRoleAndId=author%3A10.1145%2Fcontrib-81100106139)
 
 #### 🔵 Assembly
 
@@ -1526,3 +1528,4 @@ Special thanks to my friends in the community of Iranian Embedded Engineers in T
 If you think that this roadmap can be improved in anyway or you know about some good learning resources that can be added here, please start an issue or a pull request. I’ll be maintaining and updating this repository frequently.
 
 The source file is created using [Microsoft Visio](https://office.com/visio) in `.vsdx` format and included in this repository for your contributions. If you do not have Microsoft Visio or you want to use free software, you can use [draw.io](https://draw.io) which can import and export `.vsdx` files.
+
