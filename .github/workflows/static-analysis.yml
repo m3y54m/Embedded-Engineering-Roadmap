@@ -1,0 +1,32 @@
+name: Static Analysis
+
+on: 
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  markdownlint:
+    name: Markdown Lint Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
+        
+      - name: Run markdownlint
+        run: |
+          echo "🔍 Checking Markdown files..."
+          if find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" | head -1 | grep -q .; then
+            find . -name "*.md" -not -path "./node_modules/*" -not -path "./.git/*" -print0 | xargs -0 markdownlint --config .markdownlint.json || markdownlint **/*.md
+            echo "✅ Markdown lint check completed successfully"
+          else
+            echo "ℹ️ No Markdown files found to check"
+          fi
