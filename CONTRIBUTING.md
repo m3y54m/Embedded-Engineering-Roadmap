@@ -1,5 +1,5 @@
 
-# Contribution Guidelines
+# Contributing
 
 Contributions from everyone are welcomed. To keep the roadmap practical, accessible, and high quality, the following guidelines should be followed:
 
