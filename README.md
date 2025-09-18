@@ -164,7 +164,6 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 - [🔗 DeepBlueMbedded](https://deepbluembedded.com/)
 - [🔗💎 Interrupt Blog by Memfault](https://interrupt.memfault.com/blog/)
 - [🔗💎 EmbeddedRelated.com](https://www.embeddedrelated.com/)
-- [🔗 Embedded Systems, in Pyjama!](https://inpyjama.com)
 - [🔗 ElectronicWings - Hardware Developers Community](https://www.electronicwings.com/)
 - [🔗 Microchip University](https://mu.microchip.com/)
 - [🔗 Nordic Developer Academy](https://academy.nordicsemi.com/)
