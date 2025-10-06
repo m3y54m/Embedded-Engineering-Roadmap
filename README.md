@@ -1307,6 +1307,7 @@ Testing is an integral part of the embedded systems development process, ensurin
 - [📝 Embedded C/C++ Unit Testing Basics](https://interrupt.memfault.com/blog/unit-testing-basics)
 - [📝 Embedded C/C++ Unit Testing with Mocks](https://interrupt.memfault.com/blog/unit-test-mocking)
 - [🔗 Unit Testing for C (especially Embedded Software)](http://www.throwtheswitch.org/unity)
+- [📝 How to Use Ceedling for Embedded Test-Driven Development](https://www.electronvector.com/how-to-use-ceedling-for-embedded-test-driven-development)
 - [📘 Unit Testing Principles, Practices, and Patterns - Vladimir Khorikov](https://www.manning.com/books/unit-testing)
 - [🔗 Catch2 - A modern, C++-native, test framework for unit-tests](https://github.com/catchorg/Catch2)
 - [🔗 pytest-embedded](https://docs.espressif.com/projects/pytest-embedded/en/latest/)
@@ -1529,3 +1530,4 @@ Special thanks to my friends in the community of Iranian Embedded Engineers in T
 If you think that this roadmap can be improved in anyway or you know about some good learning resources that can be added here, please start an issue or a pull request. I’ll be maintaining and updating this repository frequently.
 
 The source file is created using [Microsoft Visio](https://office.com/visio) in `.vsdx` format and included in this repository for your contributions. If you do not have Microsoft Visio or you want to use free software, you can use [draw.io](https://draw.io) which can import and export `.vsdx` files.
+
