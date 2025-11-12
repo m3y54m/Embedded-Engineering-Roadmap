@@ -770,7 +770,7 @@ Embedded systems often communicate with other devices or external systems via in
 - [🎞️👶 Microchip University - Ethernet Fundamentals](https://mu.microchip.com/ethernet-fundamentals)
 - [📝 How the Ethernet Protocol Works – A Complete Guide](https://www.freecodecamp.org/news/the-complete-guide-to-the-ethernet-protocol/)
 - [🎞️ What is an Ethernet PHY?](https://www.youtube.com/watch?v=JH3cMYErmKI)
-- [🎞️ The Data Link Layer, MAC Addressing, and the Ethernet Frame](https://youtu.be/_b4dXKB8Pt8)
+- [🎞️ The Data Link Layer, MAC Addressing, and the Ethernet Frame](https://www.youtube.com/watch?v=_b4dXKB8Pt8)
 - [🎞️ Microchip University - Serializer/Deserializer (SerDes) Basics for Your Next Microchip Ethernet PHY Design](https://mu.microchip.com/serializerdeserializer-serdes-basics-for-your-next-microchip-ethernet-phy-design)
 - [🎞️ Microchip University - Ethernet Switch Fundamentals](https://mu.microchip.com/ethernet-switch-fundamentals)
 
