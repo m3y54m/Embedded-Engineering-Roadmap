@@ -144,7 +144,6 @@ You may have heard that YouTube is a university. And it's true - there is an ext
 - [🎞️ Embedded Systems - Jacob Sorber (YouTube Playlist)](https://www.youtube.com/playlist?list=PL9IEJIKnBJjEcPAz6fss-Hx0TLytCOMVC)
 - [🎞️ edX - Embedded Systems - Shape The World: Microcontroller Input/Output](https://learning.edx.org/course/course-v1:UTAustinX+UT.6.10x+3T2022/home)
 - [🎞️ edX - Embedded Systems - Shape The World: Multi-Threaded Interfacing](https://www.edx.org/learn/computer-programming/the-university-of-texas-at-austin-embedded-systems-shape-the-world-multi-threaded-in)
-- [🎞️ Embedded Systems, in Pyjama!](https://www.youtube.com/@inpyjama)
 - [🎞️ Low Byte Productions](https://www.youtube.com/@lowbyteproductions)
 
 ### 🕹️ Arduino
