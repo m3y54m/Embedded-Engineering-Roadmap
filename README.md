@@ -327,6 +327,8 @@ Breadboarding is a hands-on approach to prototyping circuits, providing a versat
 - [🎞️💎 PCB Design for EMI & SI - Phil's Lab #64](https://www.youtube.com/watch?v=VtzPL8wQ8-E)
 - [🎞️💎 PCB Design for Advanced Users (YouTube Playlist)](https://youtube.com/playlist?list=PL3aaAq2OJU5EWfYT_Z93tc9pBF_Sidba_)
 - [🎞️💎 PCB Knowledge [PCB Production Tips By PCBWay] (YouTube Playlist)](https://www.youtube.com/playlist?list=PLzxdr3n97eVtHuh7gnDzMubuO836kvfu7)
+- [🎞️💎Udemy – High-Speed Board Design Course System On Module -EsteemPCB](https://www.udemy.com/course/highspeed_board_design_course)
+- [🎞️💎Udemy – Advanced Hardware and PCB Design Masterclass 2022](https://www.udemy.com/course/advanced-hardware-design-course)
 - [🎞️💎 9 Simple Tricks to Improve EMC / EMI on Your Boards - Practical examples (with Min Zhang)](https://www.youtube.com/watch?v=Lf51sx6sC0I)
 - [🎞️💎 Many EMC Tips to Help You Design Better PCB Boards (with Keith Armstrong)](https://www.youtube.com/watch?v=gHF5JyJF-N4)
 - [🔗 LearnEMC - EMC Resources](https://learnemc.com/emc-resources)
