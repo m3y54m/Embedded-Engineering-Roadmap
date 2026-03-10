@@ -1484,6 +1484,9 @@ AUTOSAR, or AUTomotive Open System ARchitecture, is a global industry standard f
 - [🎞️ AUTOSAR Basics | AUTOSAR Tutorial | Architecture | Automotive](https://www.youtube.com/watch?v=7b5BY1IAfwY)
 - [🎞️ Introduction to AUTOSAR](https://www.youtube.com/watch?v=NfZI8wvgZPo)
 - [🎞️ Udemy - Autosar Architecture (Learn from Scratch with Demo)](https://www.udemy.com/course/autosar-architecture/)
+- [📝 OSEK OS Overview](https://www.autosartoday.com/posts/osek_os_overview)
+- [💎 🔗 OSEK/VDX Operating System Specification 2.2.3](https://www.osek-vdx.org/mirror/os223.pdf)
+- [💎 🔗 OSEK/VDX OIL (OSEK Implementation Language) Specification 2.4.1](https://www.osek-vdx.org/mirror/oil241.pdf)
 
 _________________
 
