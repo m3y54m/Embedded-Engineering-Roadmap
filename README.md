@@ -339,6 +339,7 @@ Breadboarding is a hands-on approach to prototyping circuits, providing a versat
 - [🔗 EasyEDA](https://easyeda.com/it)
 - [🔗 Fritzing](https://fritzing.org/)
 - [🔗 Cirkit Designer](https://www.cirkitstudio.com/)
+- [🔗 withdiode](https://www.withdiode.com/)
 
 #### 🔵 Soldering / Rework
 
