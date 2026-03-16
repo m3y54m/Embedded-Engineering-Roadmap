@@ -162,9 +162,11 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 ### 👨‍🏫 Educational Websites
 
 - [🔗 DeepBlueMbedded](https://deepbluembedded.com/)
+- [🔗 Digital Electronics Deeds](https://www.digitalelectronicsdeeds.com/index.html)
 - [🔗💎 Interrupt Blog by Memfault](https://interrupt.memfault.com/blog/)
 - [🔗💎 EmbeddedRelated.com](https://www.embeddedrelated.com/)
 - [🔗 ElectronicWings - Hardware Developers Community](https://www.electronicwings.com/)
+- [🔗 EduTecnica (Italian)](https://www.edutecnica.it/)
 - [🔗 Microchip University](https://mu.microchip.com/)
 - [🔗 Nordic Developer Academy](https://academy.nordicsemi.com/)
 - [🔗 Electronics Tutorials](https://www.electronics-tutorials.ws)
@@ -333,9 +335,11 @@ Breadboarding is a hands-on approach to prototyping circuits, providing a versat
 - [🎞️💎 Many EMC Tips to Help You Design Better PCB Boards (with Keith Armstrong)](https://www.youtube.com/watch?v=gHF5JyJF-N4)
 - [🔗 LearnEMC - EMC Resources](https://learnemc.com/emc-resources)
 - [🔗 A Better Way to Build PCBs - Flux AI](https://www.flux.ai/p/)
+- [🔗 Monosketch](https://monosketch.io/)
 - [🔗 EasyEDA](https://easyeda.com/it)
 - [🔗 Fritzing](https://fritzing.org/)
 - [🔗 Cirkit Designer](https://www.cirkitstudio.com/)
+- [🔗 withdiode](https://www.withdiode.com/)
 
 #### 🔵 Soldering / Rework
 
@@ -687,6 +691,7 @@ Embedded systems often communicate with other devices or external systems via in
 ##### 🔶 SCCB
 
 - [🔗 SCCB Specification (PDF)](https://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/f2021/jfw225_aei23_dsb298/jfw225_aei23_dsb298/SCCBSpec_AN.pdf)
+- [📝 OmniVision OV5640 Software Application Notes (PDF)](https://dlscorp.com/wp-content/uploads/2018/04/OmniVision-OV5640-Software-Application-Notes.pdf)
 
 ##### 🔶 MIPI CSI-2
 
@@ -1005,6 +1010,7 @@ Embedded systems can be programmed with either an operating system (OS) or direc
 #### 🔵 Operating System Fundamentals
 
 - [📝👶 Putting the “You” in CPU](https://cpu.land/)
+- [📝👶 Operating System in 1,000 Lines](https://operating-system-in-1000-lines.vercel.app/en/)
 - [📘👶 The little book about OS development](https://littleosbook.github.io/)
 - [📘👶 Operating Systems: From 0 to 1](https://github.com/tuhdo/os01/blob/master/Operating_Systems_From_0_to_1.pdf)
 - [📘💎 Operating Systems: Three Easy Pieces -  Remzi H Arpaci-Dusseau, Andrea C Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/OSTEP/)
