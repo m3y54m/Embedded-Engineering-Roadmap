@@ -100,6 +100,7 @@ Don't try to build a complex project right away. Start with small, manageable pr
 - [🔗 Embedded Linux On ARM | Projects](https://www.emertxe.com/embedded-systems/embedded-linux-on-arm/elarm-projects/)
 - [🔗 Embedded System Project Series - Artful Bytes (YouTube Playlist)](https://www.youtube.com/playlist?list=PLS_iNJJVTtiRV0DZRDcTHnvAuDrKGPN40)
 - [🔗 ESP32 ESP-IDF Tutorials & IoT Protocols](https://esp32tutorials.com/)
+- [🔗 flip-card](https://github.com/Nicholas-L-Johnson/flip-card)
 
 ### 🔎 Search and Ask!
 
@@ -174,6 +175,8 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 - [🔗 Adafruit Learning System](https://learn.adafruit.com/)
 - [🔗 STM32 World](https://stm32world.com)
 - [🔗 ControllersTech](https://controllerstech.com/)
+- [🔗 Embedded Systems News - CNX Software](https://www.cnx-software.com/)
+- [🔗 News - PioLabs](https://piolabs.com/)
 
 ### 🗺️ Other Helpful Roadmaps
 
@@ -433,6 +436,7 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [🎞️ C Programming Tutorials (YouTube Playlist)](https://www.youtube.com/playlist?list=PLA1FTfKBAEX4hblYoH6mnq0zsie2w6Wif)
 - [📘💎 The C Programming Language -  Brian W. Kernighan, Dennis M. Ritchie](https://www.amazon.com/dp/0131103628?ref_=cm_sw_r_cp_ud_dp_KRZ8M1WTXWVG0HMSRBXA)
 - [🔗👶 C by Example](https://www.cbyexample.com/)
+- [📘👶 The Little Book of C](https://little-book-of.github.io/c/books/en-US/book.html)
 - [📘 C How to Program -  Paul Deitel, Harvey Deitel](https://deitel.com/c-how-to-program-9-e/)
 - [📘 Effective C - An Introduction to Professional C Programming - Robert C. Seacord](https://nostarch.com/Effective_C)
 - [📘 Modern C - Jens Gustedt](https://gustedt.gitlabpages.inria.fr/modern-c/)
@@ -441,6 +445,7 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [🔗 The GNU C Library (glibc)](https://www.gnu.org/software/libc/documentation.html)
 - [📝 From Zero to main(): Bare metal C](https://interrupt.memfault.com/blog/zero-to-main-1)
 - [📝 From Zero to main(): Bootstrapping libc with Newlib](https://interrupt.memfault.com/blog/boostrapping-libc-with-newlib)
+- [📝 Introduction to Nintendo DS Programming](https://www.patater.com/files/projects/manual/manual.html)
 - [🎞️👶 Learn C Programming and OOP with Dr. Chuck](https://www.youtube.com/watch?v=PaPN51Mm5qQ)
 - [📘 Extreme C -  Kamran Amini](https://www.packtpub.com/free-ebook/extreme-c/9781789343625)
 - [🎞️👶 Coursera - C Programming with Linux Specialization](https://www.coursera.org/specializations/c-programming-linux)
@@ -477,6 +482,7 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [🎞️ Assembly Language Programming with ARM – Full Tutorial for Beginners](https://www.youtube.com/watch?v=gfmRrPjnEw4)
 - [📝 How to Use Inline Assembly Language in C Code](https://gcc.gnu.org/onlinedocs/gcc/Using-Assembly-Language-with-C.html)
 - [📘 Raspberry Pi Assembly Language Programming : ARM Processor Coding](https://www.amazon.com/Raspberry-Assembly-Language-Programming-Processor/dp/1484252861)
+- [🔗 Battery info program for x86-64 Linux laptops in 298 bytes of machine code](https://github.com/meribold/btry)
 
 #### 🔵 Python
 
@@ -634,6 +640,7 @@ Embedded systems often communicate with other devices or external systems via in
 - [🎞️👶 Understanding Serial Protocols](https://www.youtube.com/watch?v=LEz5UCN3aHA)
 - [🎞️👶 Serial Protocol Fundamentals](https://www.youtube.com/watch?v=yz7h5xd18OE)
 - [📝👶 Understanding and Selecting in 2024: I2C, SPI, UART Explained](https://www.parlezvoustech.com/en/comparaison-protocoles-communication-i2c-spi-uart/)
+- [📝👶 Basics of Wired Embedded Protocols](https://piolabs.com/blog/engineering/wired-embedded-protocols-basics.html)
 - [🎞️ PROTOCOLS: UART - I2C - SPI - Serial communications #001](https://www.youtube.com/watch?v=IyGwvGzrqp8)
 
 ##### 🔶 UART
@@ -798,6 +805,7 @@ Embedded systems often communicate with other devices or external systems via in
 - [🎞️ MOOC - STM32 USB training (YouTube Playlist)](https://www.youtube.com/playlist?list=PLnMKNibPkDnFFRBVD206EfnnHhQZI4Hxa)
 - [🎞️ Microchip University - USB2 Hub Fundamentals](https://mu.microchip.com/usb2-hub-fundamentals)
 - [🔗 Beyond Logic - USB in a NutShell](https://www.beyondlogic.org/usbnutshell/usb1.shtml)
+- [📝 USB for Software Developers: An introduction to writing userspace USB drivers](https://werwolv.net/posts/usb_for_sw_devs/)
 
 ##### 🔶 PCIe
 
@@ -833,6 +841,7 @@ Embedded systems often communicate with other devices or external systems via in
 - [🔗 lwIP - A Lightweight TCP/IP stack](https://savannah.nongnu.org/projects/lwip/)
 - [🔗 lwIP (ESP-IDF)](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/lwip.html)
 - [🔗 Developing applications on STM32Cube with LwIP TCP/IP stack](https://www.st.com/resource/en/user_manual/um1713-developing-applications-on-stm32cube-with-lwip-tcpip-stack-stmicroelectronics.pdf)
+- [📝 Understanding Traceroute](https://tech.stonecharioteer.com/posts/2026/traceroute/)
 
 #### 🔵 Cellular Communication
 
@@ -908,6 +917,8 @@ Embedded system development often involves simulating or emulating hardware envi
 - [🔗👶 Circuit Simulator Applet](https://www.falstad.com/circuit/)
 - [🔗👶 Tinkercad](https://www.tinkercad.com/)
 - [🔗👶 Voltsim](https://www.voltsimulator.com/)
+- [🔗 Velxio - Arduino & Embedded Board Emulator](https://github.com/davidmonterocrespo24/velxio)
+- [🔗 picoZ80](https://eaw.app/picoz80/)
 
 #### 🔵 QEMU
 
@@ -971,6 +982,7 @@ Digital signal processing (DSP) is a branch of engineering that deals with the p
 - [📘 Real-Time Digital Signal Processing from MATLAB to C with the TMS320C6x DSPs - Thad B. Welch, Cameron H.G. Wright, Michael G. Morrow](https://www.routledge.com/Real-Time-Digital-Signal-Processing-from-MATLAB-to-C-with-the-TMS320C6x/Welch-Wright-Morrow/p/book/9780367736453)
 - [📘 Schaum's Outline of Signals and Systems - Hwei P. Hsu](https://www.mhprofessional.com/schaum-s-outline-of-signals-and-systems-fourth-edition-9781260454246-usa)
 - [📘💎 Digital Signal Processing - John G. Proakis, Dimitris K. Manolakis](https://a.co/d/75P5PiE)
+- [📘 Introduction to Computer Music](https://composerprogrammer.com/introductiontocomputermusic.pdf)
 
 #### 🔵 Discrete Fourier Transform / FFT
 
@@ -986,6 +998,7 @@ Digital signal processing (DSP) is a branch of engineering that deals with the p
 - [🎞️💎 Brian Douglas' Control Systems Lectures (YouTube Channel)](https://www.youtube.com/@BrianBDouglas)
 - [📘💎 Control Systems Engineering - Norman S. Nise](https://www.wiley.com/en-us/Control+Systems+Engineering%2C+8th+Edition-p-9781119474227)
 - [📘💎 Modern Control Systems - Richard C. Dorf, Robert H. Bishop](https://www.pearson.com/en-us/subject-catalog/p/modern-control-systems/P200000003484/9780137307098)
+- [🔗 Kalman Filter](https://kalmanfilter.net/)
 
 #### 🔵 PID Controller
 
@@ -1013,6 +1026,8 @@ Embedded systems can be programmed with either an operating system (OS) or direc
 - [📝👶 Operating System in 1,000 Lines](https://operating-system-in-1000-lines.vercel.app/en/)
 - [📘👶 The little book about OS development](https://littleosbook.github.io/)
 - [📘👶 Operating Systems: From 0 to 1](https://github.com/tuhdo/os01/blob/master/Operating_Systems_From_0_to_1.pdf)
+- [🔗 An operating system](https://github.com/roscopeco/anos)
+- [📝 Porting Mac OS X to the Nintendo Wii](https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html)
 - [📘💎 Operating Systems: Three Easy Pieces -  Remzi H Arpaci-Dusseau, Andrea C Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 - [📘💎 Modern Operating Systems - Andrew S. Tanenbaum, Herbert Bos](https://www.pearson.com/en-us/subject-catalog/p/modern-operating-systems/P200000003295)
 - [📝 Writing an OS in Rust - Philipp Oppermann's blog](https://os.phil-opp.com/)
@@ -1028,6 +1043,7 @@ Real-time operating systems (RTOS) are specialized operating systems designed to
 - [📝 RTOS vs. Bare Metal: Navigating Performance, Complexity, and Efficiency](https://weston-embedded.com/support/media-articles/119-rtos-vs-bare-metal-navigating-performance-complexity-and-efficiency)
 - [📝 The Pros and Cons of RTOS vs Bare Metal: Which Will You Choose?](https://medium.com/@lanceharvieruntime/the-pros-and-cons-of-rtos-vs-bare-metal-which-will-you-choose-756e33ba6df7)
 - [📝 FreeRTOS vs Linux for Embedded Systems](https://www.bytesnap.com/news-blog/freertos-vs-linux-embedded-systems/)
+- [🔗 tinyOS RTOS](https://github.com/cmc-labo/tinyos-rtos)
 - [🔗 Real-Time Systems Concepts](https://micrium.atlassian.net/wiki/spaces/osiidoc/pages/163855/Real-Time+Systems+Concepts)
 - [🔗 RTOS Fundamentals](https://www.freertos.org/Documentation/01-FreeRTOS-quick-start/01-Beginners-guide/01-RTOS-fundamentals)
 - [📝 A Simple Scheduler via an Interrupt-driven Actor Model](https://interrupt.memfault.com/blog/hardware-actor-scheduler)
@@ -1164,6 +1180,8 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 - [🎞️ Introduction to OpenMP - Tim Mattson (Intel) (YouTube Playlist)](https://youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG)
 - [🔗 OpenCL Tutorials](https://www.intel.com/content/www/us/en/developer/articles/training/opencl-tutorials.html)
 - [🔗 CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
+- [🔗 Mvidia](https://jaso1024.com/mvidia/)
+- [🔗 Every GPU That Mattered](https://sheets.works/data-viz/every-gpu)
 
 ##### 🔶 Inter-Process Communication (IPC)
 
@@ -1242,6 +1260,7 @@ CMake and Make are both tools for building software applications. CMake is a met
 - [🔗 CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
 - [🎞️ How to CMake Good (YouTube Playlist)](https://youtube.com/playlist?list=PLK6MXr8gasrGmIiSuVQXpfFuE1uPT615s)
 - [📝👶 The most thoroughly commented embedded CMakeLists file](https://dnedic.github.io/blog/the-most-thoroughly-commented-embedded-cmakelists/)
+- [🔗 A lightweight build and workflow tool for C/C++](https://github.com/randerson112/craft)
 
 #### 🔵 Bash Scripting
 
@@ -1392,6 +1411,7 @@ Learning hardware hacking helps security professionals understand how embedded s
 - [📘💎 Practical Hardware Pentesting -  Jean-Georges Valle](https://a.co/d/dq4SeNH)
 - [🎞️ Hardware Hacking Tutorial (YouTube Playlist)](https://www.youtube.com/playlist?list=PLoFdAHrZtKkhcd9k8ZcR4th8Q8PNOx7iU)
 - [📘💎 The Hardware Hacking Handbook: Breaking Embedded Security with Hardware Attacks - Jasper van Woudenberg, Colin O'Flynn](https://a.co/d/gUIytFX)
+- [🔗 The Official WiFi Pineapple Pager Payload Repository](https://github.com/hak5/wifipineapplepager-payloads)
 
 #### 🔵 Cryptography
 
