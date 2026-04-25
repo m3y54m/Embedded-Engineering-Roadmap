@@ -137,6 +137,7 @@ You may have heard that YouTube is a university. And it's true - there is an ext
 - [🎞️ DigiKey (YouTube Channel)](https://www.youtube.com/@digikey)
 - [🎞️ Coursera - Introduction to Embedded Systems Software and Development Environments](https://www.coursera.org/learn/introduction-embedded-systems)
 - [🎞️ Coursera - Embedded Software and Hardware Architecture](https://www.coursera.org/learn/embedded-software-hardware)
+- [🎞️ Coursera - ARM Cortex STM32 Deep Dive: Mastering Embedded Systems](https://www.coursera.org/learn/arm-cortex-stm32-deep-dive-mastering-embedded-systems)
 - [🎞️ Fastbit Embedded Brain Academy](https://fastbitlab.com/)
 - [🎞️ Modern Embedded Systems Programming Course (YouTube Playlist)](https://www.youtube.com/playlist?list=PLPW8O6W-1chwyTzI3BHwBLbGQoPFxPAPM)
 - [🎞️ element14 presents (YouTube Channel)](https://www.youtube.com/@element14presents)
