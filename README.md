@@ -643,6 +643,7 @@ Embedded systems often communicate with other devices or external systems via in
 - [📝👶 Understanding and Selecting in 2024: I2C, SPI, UART Explained](https://www.parlezvoustech.com/en/comparaison-protocoles-communication-i2c-spi-uart/)
 - [📝👶 Basics of Wired Embedded Protocols](https://piolabs.com/blog/engineering/wired-embedded-protocols-basics.html)
 - [🎞️ PROTOCOLS: UART - I2C - SPI - Serial communications #001](https://www.youtube.com/watch?v=IyGwvGzrqp8)
+- [📝👶 Understanding and Selecting in 2024: I2C, SPI, UART Explained](https://www.parlezvoustech.com/en/comparaison-protocoles-communication-i2c-spi-uart/)
 
 ##### 🔶 UART
 
