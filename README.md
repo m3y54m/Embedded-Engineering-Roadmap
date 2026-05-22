@@ -222,6 +222,7 @@ _________________
 
 Similar to other professions, embedded engineers require soft skills that can't be solely obtained from reading or watching videos. These skills are cultivated through interactions and tackling various work obstacles. Improving soft skills is not a one-size-fits-all approach. It will vary based on one's individual traits and requires self-awareness of your strengths and areas for growth. Enhancing these skills takes time and effort.
 
+- [TutorialSearch](https://tutorialsearch.io/) - Free cross-platform search engine indexing 50,000+ tutorials from Udemy, Skillshare, Pluralsight, and other major learning platforms across 45+ categories.
 - [📝 Soft Skills For Embedded Systems Software Developers](https://www.embeddedrelated.com/showarticle/1470.php)
 - [📝 10 Skills Every Embedded Engineer Should Have](https://medium.com/@lanceharvieruntime/10-skills-every-embedded-engineer-should-have-dcb867095b91)
 
