@@ -5,7 +5,6 @@
 [![GitHub watchers](https://img.shields.io/github/watchers/m3y54m/Embedded-Engineering-Roadmap?style=plastic)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/watchers)
 [![GitHub contributors](https://img.shields.io/github/contributors/m3y54m/Embedded-Engineering-Roadmap?style=plastic)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/graphs/contributors)
 [![GitHub tag (with filter)](https://img.shields.io/github/v/tag/m3y54m/Embedded-Engineering-Roadmap?style=plastic&label=latest)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest)
-[![GitHub release (by tag)](https://img.shields.io/github/downloads/m3y54m/Embedded-Engineering-Roadmap/latest/total?style=plastic)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest)
 [![GitHub all releases](https://img.shields.io/github/downloads/m3y54m/Embedded-Engineering-Roadmap/total?style=plastic&label=total%20downloads)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases)
 
 This roadmap is designed to help beginners aspiring to build a career as an **Embedded Engineer/Developer**, as well as assist current practitioners in expanding their skills.
