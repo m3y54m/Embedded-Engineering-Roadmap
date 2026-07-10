@@ -182,6 +182,7 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) tak
 
 - [🔗 Embedded Artistry Beginners Roadmap](https://embeddedartistry.com/beginners/)
 - [🔗 Embedded Systems Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/Embedded%20Systems%20Skill%20Tree)
+- [🔗 Interactive Embedded Systems Skill Tree (with progress tracking & sync)](https://colonelblacc.github.io/Embedded-Systems-SkillTree)
 - [🔗 PCB Design Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/PCB%20Design%20Skill%20Tree)
 - [🔗 FPGA / ASIC Engineering Roadmap](https://github.com/m3y54m/FPGA-ASIC-Roadmap)
 
