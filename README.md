@@ -929,6 +929,8 @@ Embedded system development often involves simulating or emulating hardware envi
 - [📝 QEMU Simulation - Blinky - STM32F767ZI Full Stack](https://longer-vision-robot.gitbook.io/stm32f767zi-full-stack/chapter-2.-programming-for-stm32/2.4-qemu-simulation-blinky)
 - [📝 Emulating a Raspberry Pi in QEMU](https://interrupt.memfault.com/blog/emulating-raspberry-pi-in-qemu)
 
+- [📝👶 Building an ARM Embedded Linux System in QEMU](https://github.com/dchithinh/mastering-embeded-linux-programming)
+
 #### 🔵 Renode
 
 - [🔗 Renode - GitHub Repo](https://github.com/renode/renode)
