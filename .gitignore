@@ -1,7 +1,3 @@
-# Visio and draw.io lock/backup files
-~$*
-*.bkp
-
 # Link checker cache
 .lycheecache
 
