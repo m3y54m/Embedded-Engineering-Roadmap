@@ -8,6 +8,10 @@ on:
       tag:
         description: Existing release tag to attach the files to (leave empty to only build them as an artifact)
         required: false
+      overwrite:
+        description: Replace files that are already attached to the release
+        type: boolean
+        default: false
   push:
     paths:
       - "*.vsdx"
@@ -75,4 +79,14 @@ jobs:
         if: env.TAG != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release upload "$TAG" out/Embedded-Engineering-Roadmap.pdf out/Embedded-Engineering-Roadmap.png --clobber
+          GH_REPO: ${{ github.repository }}
+          OVERWRITE: ${{ github.event.inputs.overwrite }}
+        run: |
+          # Files the maintainer attached by hand win unless overwrite is requested.
+          for f in Embedded-Engineering-Roadmap.pdf Embedded-Engineering-Roadmap.png; do
+            if [ "$OVERWRITE" != "true" ] && gh release view "$TAG" --json assets --jq '.assets[].name' | grep -qx "$f"; then
+              echo "$f is already attached to $TAG; keeping it"
+            else
+              gh release upload "$TAG" "out/$f" --clobber
+            fi
+          done
