@@ -100,6 +100,7 @@ Don't try to build a complex project right away. Start with small, manageable pr
 - [🔗 Embedded System Project Series - Artful Bytes (YouTube Playlist)](https://www.youtube.com/playlist?list=PLS_iNJJVTtiRV0DZRDcTHnvAuDrKGPN40)
 - [🔗 ESP32 ESP-IDF Tutorials & IoT Protocols](https://esp32tutorials.com/)
 - [🔗 flip-card - RP2350 fluid-simulation business card (Rust firmware and PCB design)](https://github.com/Nicholas-L-Johnson/flip-card)
+- [🔗 picoZ80 - RP2350 + ESP32 drop-in Z80 CPU replacement for retro computers](https://eaw.app/picoz80/)
 
 ### 🔎 Search and Ask!
 
@@ -154,6 +155,8 @@ If you do not have any background in programming embedded systems, Arduino board
 Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-avr) (the platform-specific implementation of the hardware-independent [ArduinoCore-API](https://github.com/arduino/ArduinoCore-API)) takes care of most of the low-level hardware-associated operations that you, as an embedded engineer, should be able to handle yourself or at least have a clear understanding of. If you want to become a professional embedded developer, you should be able to effectively use industry-standard APIs and SDKs provided and approved by microcontroller vendors, such as CMSIS for ARM Cortex-M microcontrollers, STM32Cube for STM32, ESP-IDF for Espressif microcontrollers, etc.
 
 - [🔗 Getting Started with Arduino](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino)
+- [🔗👶 Arduino Built-in Examples](https://docs.arduino.cc/built-in-examples/)
+- [🔗 Arduino Language Reference](https://docs.arduino.cc/language-reference/)
 - [🎞️ All New Arduino R4 WiFi LESSONS for Absolute Beginners (YouTube Playlist)](https://www.youtube.com/playlist?list=PLGs0VKk2DiYyn0wN335MXpbi3PRJTMmex)
 - [🎞️ New Arduino Tutorials (YouTube Playlist)](https://youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP)
 - [🎞️ Arduino in a commercial product?](https://www.youtube.com/watch?v=c5LzsqeSCAc)
@@ -175,7 +178,6 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-avr) (th
 - [🔗 STM32 World](https://stm32world.com)
 - [🔗 ControllersTech](https://controllerstech.com/)
 - [🔗 Embedded Systems News - CNX Software](https://www.cnx-software.com/)
-- [🔗 News - PioLabs](https://piolabs.com/)
 
 ### 🗺️ Other Helpful Roadmaps
 
@@ -253,10 +255,12 @@ _________________
 - [📘💎 The Art of Electronics -  Paul Horowitz, Winfield Hill](https://artofelectronics.net/)
 - [📝 Here’s a Quick Way to Know about Major Electronic Components](https://www.elprocus.com/major-electronic-components/)
 - [📘 Encyclopedia of Electronic Components - Charles Platt](https://a.co/d/83cSiU7)
+- [🔗 Awesome Electronics: A curated list of electronics resources](https://github.com/kitspace/awesome-electronics)
 
 #### 🔵 Digital Design
 
 - [🔗👶 Tiny Tapeout > Digital Design Guide](https://tinytapeout.com/digital_design/)
+- [🔗👶 Mvidia - From Transistors to Teraflops (interactive course)](https://jaso1024.com/mvidia/)
 - [📘💎 Digital Design - Morris Mano, Michael Ciletti](https://a.co/d/c3tBaoc)
 - [📘👶💎 Digital Design and Computer Architecture: ARM Edition - Sarah Harris, David Harris](https://a.co/d/4otoVvI)
 - [📘👶💎 Digital Design and Computer Architecture: RISC-V Edition - Sarah Harris, David Harris](https://a.co/d/61l7Jtb)
@@ -338,8 +342,8 @@ Breadboarding is a hands-on approach to prototyping circuits, providing a versat
 - [🎞️💎 Many EMC Tips to Help You Design Better PCB Boards (with Keith Armstrong)](https://www.youtube.com/watch?v=gHF5JyJF-N4)
 - [🔗 LearnEMC - EMC Resources](https://learnemc.com/emc-resources)
 - [🔗 A Better Way to Build PCBs - Flux AI](https://www.flux.ai/p/)
-- [🔗 Monosketch](https://monosketch.io/)
 - [🔗 EasyEDA](https://easyeda.com/)
+- [🔗 KiCad - Free and open-source schematic capture and PCB design software](https://www.kicad.org/)
 - [🔗 Fritzing](https://fritzing.org/)
 - [🔗 Cirkit Designer](https://www.cirkitdesigner.com/)
 
@@ -436,6 +440,7 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [📘💎 The C Programming Language -  Brian W. Kernighan, Dennis M. Ritchie](https://www.amazon.com/dp/0131103628?ref_=cm_sw_r_cp_ud_dp_KRZ8M1WTXWVG0HMSRBXA)
 - [🔗👶 C by Example](https://www.cbyexample.com/)
 - [📘👶 The Little Book of C](https://little-book-of.github.io/c/books/en-US/book.html)
+- [📘👶 Beej's Guide to C Programming](https://beej.us/guide/bgc/)
 - [📘 C How to Program -  Paul Deitel, Harvey Deitel](https://deitel.com/c-how-to-program-9-e/)
 - [📘 Effective C - An Introduction to Professional C Programming - Robert C. Seacord](https://nostarch.com/Effective_C)
 - [📘 Modern C - Jens Gustedt](https://gustedt.gitlabpages.inria.fr/modern-c/)
@@ -548,7 +553,6 @@ Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and 
 - [📘💎 Embedded Systems Design using the MSP430FR2355 LaunchPad - Brock J. LaMeres](https://link.springer.com/book/10.1007/978-3-030-40574-8)
 - [📘💎 Building Embedded Systems: Programmable Hardware - Changyi Gu](https://link.springer.com/book/10.1007/978-1-4842-1919-5)
 - [🔗 Awesome Embedded: A curated list of awesome embedded programming](https://github.com/nhivp/Awesome-Embedded)
-- [🔗 Awesome Electronics: A curated list of electronics resources](https://github.com/kitspace/awesome-electronics)
 
 #### 🔵 GPIO
 
@@ -568,6 +572,7 @@ Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and 
 #### 🔵 Timers / Counters
 
 - [📝 Introduction to Microcontroller Timers: Periodic Timers](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-periodic-timers/)
+- [📝 Timers and Counters (AVR) - Nick Gammon](https://www.gammon.com.au/timers)
 - [🎞️ STM32 TIMERS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfIJKC1ud8gjLZBzjE3kKBMDEH_lUc428)
 
 #### 🔵 PWM (Pulse Width Modulation)
@@ -916,7 +921,6 @@ Embedded system development often involves simulating or emulating hardware envi
 - [🔗👶 Tinkercad](https://www.tinkercad.com/)
 - [🔗👶 Voltsim](https://www.voltsimulator.com/)
 - [🔗 Velxio - Arduino & Embedded Board Emulator](https://github.com/davidmonterocrespo24/velxio)
-- [🔗 picoZ80](https://eaw.app/picoz80/)
 
 #### 🔵 QEMU
 
@@ -924,13 +928,13 @@ Embedded system development often involves simulating or emulating hardware envi
 - [📝 Running AVR code in QEMU - A quick-start guide to accelerate AVR firmware development](https://yeah.nah.nz/embedded/qemu-avr/)
 - [📝 QEMU Simulation - Blinky - STM32F767ZI Full Stack](https://longer-vision-robot.gitbook.io/stm32f767zi-full-stack/chapter-2.-programming-for-stm32/2.4-qemu-simulation-blinky)
 - [📝 Emulating a Raspberry Pi in QEMU](https://interrupt.memfault.com/blog/emulating-raspberry-pi-in-qemu)
-
 - [📝👶 Building an ARM Embedded Linux System in QEMU](https://github.com/dchithinh/mastering-embeded-linux-programming)
 
 #### 🔵 Renode
 
 - [🔗 Renode - GitHub Repo](https://github.com/renode/renode)
 - [🔗 Renode - Documentation](https://renode.readthedocs.io/en/latest/)
+- [🔗 Renode - Running your first demo](https://renode.readthedocs.io/en/latest/introduction/demo.html)
 - [📝 Cortex-M MCU Emulation with Renode](https://interrupt.memfault.com/blog/intro-to-renode)
 - [📝 A simple guide to get started on renode](https://github.com/tarciszera/renode_guide)
 - [🎞️ Using CI-based workflow with Renode in bringing TensorFlow Lite to Zephyr](https://www.youtube.com/watch?v=jF94cXPoZZg)
@@ -1093,6 +1097,7 @@ Real-time operating systems (RTOS) are specialized operating systems designed to
 ##### 🔶 Mbed OS
 
 - [🔗 Mbed OS](https://github.com/ARMmbed/mbed-os)
+- [🔗 Mbed CE - Community-maintained continuation of Mbed OS](https://mbed-ce.dev/)
 
 ##### 🔶 QNX
 
@@ -1137,6 +1142,7 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 
 - [📘💎 Linux Device Drivers -  Jonathan Corbet, Alessandro Rubini, Greg Kroah-Hartman](https://lwn.net/Kernel/LDD3/)
 - [📘 The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/)
+- [🔗👶 Kernel modules - Linux Kernel Teaching Labs](https://linux-kernel-labs.github.io/refs/heads/master/labs/kernel_modules.html)
 - [📘 Mastering Linux Device Driver Development - John Madieu](https://www.packtpub.com/product/mastering-linux-device-driver-development/9781789342048)
 - [📝 Kernel Driver with Rust in 2022](https://not-matthias.github.io/posts/kernel-driver-with-rust/)
 
@@ -1161,6 +1167,7 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 - [📘💎 Embedded Linux Systems with the Yocto Project - Rudolf J.Streif](https://www.oreilly.com/library/view/embedded-linux-systems/9780133443301/)
 - [📘 Embedded Linux Development using Yocto Project Cookbook - Alex Gonzalez](https://www.oreilly.com/library/view/embedded-linux-development/9781788399210/)
 - [📘 Bootlin Embedded Linux, Kernel, drivers, Yocto, Buildroot and Graphics Training](https://bootlin.com/training/)
+- [🔗 meta-raspberrypi - Yocto/OpenEmbedded layer for Raspberry Pi boards](https://meta-raspberrypi.readthedocs.io/en/latest/)
 
 ##### 🔶 Multithreading & Parallel Processing
 
@@ -1176,7 +1183,8 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 - [🎞️ Introduction to OpenMP - Tim Mattson (Intel) (YouTube Playlist)](https://youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG)
 - [🔗 OpenCL Tutorials](https://www.intel.com/content/www/us/en/developer/articles/training/opencl-tutorials.html)
 - [🔗 CUDA Programming Guide](https://docs.nvidia.com/cuda/cuda-programming-guide/index.html)
-- [🔗 Mvidia](https://jaso1024.com/mvidia/)
+- [📝👶 An Even Easier Introduction to CUDA - NVIDIA Technical Blog](https://developer.nvidia.com/blog/even-easier-introduction-cuda/)
+- [🔗👶 GPU Puzzles - Solve puzzles, learn CUDA](https://github.com/srush/GPU-Puzzles)
 
 ##### 🔶 Inter-Process Communication (IPC)
 
@@ -1288,6 +1296,8 @@ Software Development Life Cycle (SDLC) models provide a structured approach to s
 
 - [📝 Does agile work with embedded software?](https://www.embedded.com/does-agile-work-with-embedded-software/)
 - [📝 What Is Scrum: A Guide to the Most Popular Agile Framework](https://www.scrumalliance.org/about-scrum)
+- [🔗 The Scrum Guide](https://scrumguides.org/scrum-guide.html)
+- [🔗 Wingman Software - Agility for Embedded Software Development (James Grenning)](https://wingman-sw.com/)
 - [📝 An agile guide to scrum meetings](https://www.atlassian.com/agile/scrum/ceremonies)
 - [📝 What is scaled agile framework? (SAFe)](https://www.atlassian.com/agile/agile-at-scale/what-is-safe)
 - [🔗 Jira - Issue & Project Tracking Software](https://confluence.atlassian.com/jira)
@@ -1369,6 +1379,8 @@ Continuous Integration (CI) and Continuous Delivery (CD) are software developmen
 
 Software-in-the-loop (SIL) and hardware-in-the-loop (HIL) testing are two crucial techniques used in embedded systems development to validate the functionality and performance of software before it is deployed on real hardware. These testing methods simulate the real-world environment of the embedded system using software models or hardware emulators.
 
+- [📝 What Is Hardware-in-the-Loop (HIL)? Differences Between MIL, SIL, PIL, and HIL - MathWorks](https://www.mathworks.com/discovery/hardware-in-the-loop-hil.html)
+- [📝 Hardware-in-the-loop simulation - Wikipedia](https://en.wikipedia.org/wiki/Hardware-in-the-loop_simulation)
 - [🎞️ Embedded CI/CD with HIL Testing (YouTube Playlist)](https://youtube.com/playlist?list=PL4cGeWgaBTe1uwiqIAc6fwPzPpvgPZI2J)
 
 #### 🔵 Standards & Certifications
@@ -1404,7 +1416,6 @@ Learning hardware hacking helps security professionals understand how embedded s
 - [📘💎 Practical Hardware Pentesting -  Jean-Georges Valle](https://a.co/d/dq4SeNH)
 - [🎞️ Hardware Hacking Tutorial (YouTube Playlist)](https://www.youtube.com/playlist?list=PLoFdAHrZtKkhcd9k8ZcR4th8Q8PNOx7iU)
 - [📘💎 The Hardware Hacking Handbook: Breaking Embedded Security with Hardware Attacks - Jasper van Woudenberg, Colin O'Flynn](https://a.co/d/gUIytFX)
-- [🔗 The Official WiFi Pineapple Pager Payload Repository](https://github.com/hak5/wifipineapplepager-payloads)
 
 #### 🔵 Cryptography
 
