@@ -1,0 +1,266 @@
+{
+  "bands": [
+    {
+      "label": "SOFTWARE",
+      "areas": ["SOFTWARE"],
+      "clusters": {
+        "languages": {
+          "header": "Programming Languages",
+          "per": 2,
+          "topics": [
+            ["C", "required"],
+            ["C++", "recommended"],
+            ["Python", "recommended"],
+            ["Assembly", "possible"],
+            ["Rust", "possible"]
+          ]
+        },
+        "fundamentals": {
+          "header": "Programming Fundamentals",
+          "topics": [
+            ["Algorithms & Data Structures", "required"],
+            ["Design Patterns", "required"],
+            ["State Machines", "required"],
+            ["Memory Management", "required"]
+          ]
+        },
+        "debugging": {
+          "header": "Debugging",
+          "topics": [
+            ["JTAG / SWD", "required"],
+            ["GDB", "required"],
+            ["OpenOCD", "possible"]
+          ]
+        },
+        "sdlc": {
+          "header": "SDLC Models",
+          "per": 2,
+          "topics": [
+            ["Agile / SCRUM", "recommended"],
+            ["V-Model", "recommended"]
+          ]
+        },
+        "vcs": {
+          "header": "Version Control",
+          "per": 2,
+          "topics": [
+            ["Git", "required"],
+            ["SVN", "possible"]
+          ]
+        },
+        "build": {
+          "header": "Build System",
+          "topics": [
+            ["Compilers / GCC", "required"],
+            ["Make / CMake", "required"],
+            ["Bash Scripting", "recommended"],
+            ["Docker", "possible"]
+          ]
+        },
+        "testing": {
+          "header": "Testing",
+          "topics": [
+            ["TDD & Unit Testing", "required"],
+            ["CI/CD Pipelines", "recommended"],
+            ["SIL / HIL Testing", "possible"],
+            ["Standards & Certifications", "possible"]
+          ]
+        },
+        "specialized": {
+          "caption": "Specializations",
+          "topics": [
+            ["Embedded Security", "possible"],
+            ["Embedded GUI", "possible"],
+            ["IoT", "possible"],
+            ["Edge AI", "possible"],
+            ["AUTOSAR", "possible"]
+          ]
+        },
+        "osBase": {
+          "topics": [
+            ["Operating System Fundamentals", "recommended"]
+          ]
+        },
+        "linux": {
+          "header": "Embedded Linux",
+          "per": 2,
+          "topics": [
+            ["Linux Kernel", "recommended"],
+            ["Device Drivers", "recommended"],
+            ["U-Boot", "possible"],
+            ["Buildroot / Yocto", "possible"],
+            ["Threading / Parallelism", "possible"],
+            ["IPC", "possible"],
+            ["Qt Framework", "possible"]
+          ]
+        }
+      }
+    },
+    {
+      "label": "SOFTWARE ∩ HARDWARE",
+      "areas": ["SOFTWARE", "HARDWARE"],
+      "clusters": {
+        "rtos": {
+          "header": "Real-Time OS",
+          "per": 2,
+          "topics": [
+            ["RTOS Basics", "required"],
+            ["FreeRTOS", "recommended"],
+            ["Zephyr", "recommended"],
+            ["QNX", "possible"],
+            ["µC/OS", "possible"],
+            ["RT-Thread", "possible"]
+          ]
+        },
+        "mcu": {
+          "per": 2,
+          "topics": [
+            ["GPIO", "required"],
+            ["ADC / DAC", "required"],
+            ["Timers / Counters", "required"],
+            ["PWM", "required"],
+            ["Watchdog", "required"],
+            ["Interrupts", "required"],
+            ["DMA", "required"],
+            ["Clock Management", "required"],
+            ["Power Management", "recommended"],
+            ["Bootloader / DFU", "recommended"]
+          ]
+        },
+        "bridge": {
+          "caption": "Hardware-facing software",
+          "topics": [
+            ["Memory Technologies & File Systems", "recommended"],
+            ["Hardware Simulation / Emulation", "recommended"],
+            ["Sensors & Actuators", "possible"],
+            ["Digital Signal Processing", "possible"],
+            ["Control Theory", "possible"]
+          ]
+        },
+        "basic": {
+          "header": "Basic",
+          "topics": [
+            ["UART", "required"],
+            ["I2C", "required"],
+            ["SPI", "required"]
+          ]
+        },
+        "wireless": {
+          "header": "Wireless",
+          "topics": [
+            ["Bluetooth", "recommended"],
+            ["Wi-Fi", "recommended"],
+            ["LoRa", "possible"],
+            ["Zigbee", "possible"],
+            ["Thread", "possible"],
+            ["Matter", "possible"],
+            ["UWB", "possible"]
+          ]
+        },
+        "highSpeed": {
+          "header": "High-Speed",
+          "topics": [
+            ["Ethernet", "recommended"],
+            ["USB", "recommended"],
+            ["PCIe", "possible"]
+          ]
+        },
+        "industrial": {
+          "header": "Industrial",
+          "topics": [
+            ["Modbus", "recommended"],
+            ["Profinet", "possible"],
+            ["EtherCAT", "possible"]
+          ]
+        },
+        "cellular": {
+          "header": "Cellular",
+          "topics": [
+            ["GSM / LTE", "possible"],
+            ["LTE-M / 5G", "possible"],
+            ["NB-IoT", "possible"]
+          ]
+        },
+        "network": {
+          "header": "Network",
+          "topics": [
+            ["MQTT", "recommended"],
+            ["CoAP", "possible"],
+            ["TCP/IP", "possible"],
+            ["UDP", "possible"]
+          ]
+        },
+        "automotive": {
+          "header": "Automotive",
+          "topics": [
+            ["CAN", "recommended"],
+            ["LIN", "possible"],
+            ["MOST", "possible"],
+            ["FlexRay", "possible"]
+          ]
+        }
+      }
+    },
+    {
+      "label": "HARDWARE",
+      "areas": ["HARDWARE"],
+      "clusters": {
+        "electronics": {
+          "header": "Electronics",
+          "per": 2,
+          "topics": [
+            ["Basic Math & Calculus", "required"],
+            ["Principles of Electric Circuits", "required"],
+            ["Electronics Fundamentals", "required"],
+            ["Digital Design", "required"],
+            ["Computer Architecture", "required"]
+          ]
+        },
+        "equipment": {
+          "header": "Using Test Equipment",
+          "topics": [
+            ["Multimeter", "required"],
+            ["Logic / Protocol Analyzer", "required"],
+            ["Oscilloscope", "recommended"]
+          ]
+        },
+        "prototyping": {
+          "header": "Prototyping Skills",
+          "topics": [
+            ["Breadboarding", "recommended"],
+            ["Hardware Design Basics", "recommended"],
+            ["PCB Design / EMC", "recommended"],
+            ["Soldering / Rework", "recommended"]
+          ]
+        },
+        "fpga": {
+          "topics": [
+            ["FPGA Development", "possible"]
+          ]
+        }
+      }
+    },
+    {
+      "label": "SOFT SKILLS",
+      "areas": ["SOFT SKILLS"],
+      "clusters": {
+        "soft": {
+          "per": 3,
+          "topics": [
+            ["Communication Skills", "required"],
+            ["Problem-Solving Skills & Critical Thinking", "required"],
+            ["Teamwork & Collaborative Abilities", "required"],
+            ["Organizational & Time Management Skills", "required"],
+            ["Being Self-Driven and Independent", "required"],
+            ["Adaptability & Patience", "required"]
+          ]
+        }
+      }
+    }
+  ],
+  "groups": {
+    "Operating Systems": ["osBase", "linux", "rtos"],
+    "Microcontrollers": ["rtos", "mcu"],
+    "Interfaces & Protocols": ["basic", "wireless", "highSpeed", "industrial", "cellular", "network", "automotive"]
+  }
+}
