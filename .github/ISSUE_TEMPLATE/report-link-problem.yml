@@ -1,45 +1,19 @@
 name: Report a link problem
-description: A link is broken, moved, mislabeled, off-topic or in the wrong section
+description: A link is broken, outdated, mislabeled or in the wrong section
 title: "[Link] "
-labels: ["link-problem"]
+labels: ["bug"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Use this form for any problem with an existing entry. Select every problem that applies.
-        If you already know the fix, a pull request is welcome too.
   - type: input
     id: entry
     attributes:
-      label: Entry
-      description: The title or URL of the entry, and the section it is in.
-    validations:
-      required: true
-  - type: dropdown
-    id: problems
-    attributes:
-      label: What is wrong?
-      multiple: true
-      options:
-        - Link is broken (404, domain gone, site down)
-        - Link moved to a new address
-        - Link opens something different from its title
-        - Content is outdated
-        - Content is not related to the section it is in
-        - Wrong type marker or quality marker (📘 🎞️ 📝 🔗 👶 💎)
-        - Site is unsafe, spammy or requires an unexpected paywall
-        - Duplicate of another entry
+      label: Which link?
+      description: The title or URL of the entry.
     validations:
       required: true
   - type: textarea
-    id: details
+    id: problem
     attributes:
-      label: Details
-      description: What you saw, and when. Include the error message if there is one.
+      label: What is wrong, and what should happen to it?
+      description: For example "returns 404, replace with <link>" or "belongs under Debugging".
     validations:
       required: true
-  - type: textarea
-    id: fix
-    attributes:
-      label: Suggested fix (optional)
-      description: A replacement link, a better section, the correct marker, or "remove it".
