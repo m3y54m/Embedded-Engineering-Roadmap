@@ -1,0 +1,104 @@
+name: Roadmap explorer
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - README.md
+      - "site/**"
+      - .github/workflows/pages.yml
+  pull_request:
+    paths:
+      - README.md
+      - "site/**"
+      - .github/workflows/pages.yml
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Test and build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Test the README parser and map layout
+        run: node --test site/parser.test.mjs
+
+      - name: Assemble the site
+        run: |
+          mkdir _site
+          cp site/*.html site/*.css site/*.js site/map.json README.md _site/
+          cp -r site/fonts site/assets _site/
+          # Revision shown in the credits: the release tag, or tag-commits-hash between releases.
+          VERSION="$(git describe --tags --always)" DATE="$(git log -1 --format=%cs)" \
+            node -e 'console.log(JSON.stringify({ version: process.env.VERSION, date: process.env.DATE }))' > _site/build.json
+          cat _site/build.json
+
+      - name: Install Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1
+          npx playwright install --with-deps chromium
+
+      - name: Render the roadmap to PDF and PNG
+        run: node site/tools/render.mjs _site / _site
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: roadmap-render
+          path: |
+            _site/Embedded-Engineering-Roadmap.pdf
+            _site/Embedded-Engineering-Roadmap.png
+          if-no-files-found: error
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    name: Deploy to GitHub Pages
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  release-assets:
+    name: Attach PDF and PNG to the release
+    if: github.event_name == 'release'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: roadmap-render
+
+      - name: Upload release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TAG: ${{ github.event.release.tag_name }}
+        run: gh release upload "$TAG" Embedded-Engineering-Roadmap.pdf Embedded-Engineering-Roadmap.png --clobber
