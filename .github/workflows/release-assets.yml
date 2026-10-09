@@ -1,0 +1,63 @@
+name: Release assets
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing release tag to attach the files to (leave empty to only build them as an artifact)
+        required: false
+  push:
+    paths:
+      - "*.vsdx"
+      - ".github/workflows/release-assets.yml"
+  pull_request:
+    paths:
+      - "*.vsdx"
+      - ".github/workflows/release-assets.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    name: Render diagram
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      TAG: ${{ github.event.release.tag_name || github.event.inputs.tag }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.release.tag_name || github.event.inputs.tag || github.sha }}
+
+      - name: Install converters
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libreoffice-draw poppler-utils imagemagick fonts-liberation fonts-dejavu-core
+
+      - name: Render PDF and PNG
+        run: |
+          mkdir out
+          soffice --headless --convert-to pdf --outdir out Embedded-Engineering-Roadmap.vsdx
+          pdftoppm -png -r 300 -singlefile out/Embedded-Engineering-Roadmap.pdf out/page
+          convert out/page.png -trim +repage -bordercolor white -border 60 out/Embedded-Engineering-Roadmap.png
+          rm out/page.png
+          ls -l out
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: roadmap-diagram
+          path: out/
+
+      - name: Attach to release
+        if: env.TAG != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release upload "$TAG" out/Embedded-Engineering-Roadmap.pdf out/Embedded-Engineering-Roadmap.png --clobber
