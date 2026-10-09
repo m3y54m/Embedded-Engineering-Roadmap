@@ -99,7 +99,7 @@ Don't try to build a complex project right away. Start with small, manageable pr
 - [🔗 Embedded Linux On ARM | Projects](https://www.emertxe.com/embedded-systems/embedded-linux-on-arm/elarm-projects/)
 - [🔗 Embedded System Project Series - Artful Bytes (YouTube Playlist)](https://www.youtube.com/playlist?list=PLS_iNJJVTtiRV0DZRDcTHnvAuDrKGPN40)
 - [🔗 ESP32 ESP-IDF Tutorials & IoT Protocols](https://esp32tutorials.com/)
-- [🔗 flip-card](https://github.com/Nicholas-L-Johnson/flip-card)
+- [🔗 flip-card - RP2350 fluid-simulation business card (Rust firmware and PCB design)](https://github.com/Nicholas-L-Johnson/flip-card)
 
 ### 🔎 Search and Ask!
 
@@ -111,12 +111,11 @@ Use search engines to find the answers to your questions.
 
 If you can't find what you're looking for using search engines, AI chatbots can also provide assistance. Keep in mind that AI may provide incorrect answers in some cases. It's best to confirm any answers with more reliable references.
 
-- [🔗 DuckDuckGo AI Chat](https://duckduckgo.com/?q=DuckDuckGo&ia=chat)
-- [🔗 Microsoft Copilot](https://copilot.microsoft.com)
+- [🔗 DuckDuckGo AI Chat](https://duck.ai/)
 - [🔗 Google Gemini](https://gemini.google.com)
-- [🔗 ChatGPT](https://chat.openai.com)
+- [🔗 ChatGPT](https://chatgpt.com)
+- [🔗 Microsoft Copilot](https://copilot.microsoft.com)
 - [🔗 Claude AI](https://claude.ai/chats)
-- [🔗 Poe - Fast, Helpful AI Chat](https://poe.com)
 
 If you have reservations about relying on AI advice alone, you can also ask your questions from real people:
 
@@ -144,18 +143,17 @@ You may have heard that YouTube is a university. And it's true - there is an ext
 - [🎞️ Phil’s Lab (YouTube Channel)](https://www.youtube.com/@PhilsLab)
 - [🎞️ Embedded Systems - Jacob Sorber (YouTube Playlist)](https://www.youtube.com/playlist?list=PL9IEJIKnBJjEcPAz6fss-Hx0TLytCOMVC)
 - [🎞️ edX - Embedded Systems - Shape The World: Microcontroller Input/Output](https://learning.edx.org/course/course-v1:UTAustinX+UT.6.10x+3T2022/home)
-- [🎞️ edX - Embedded Systems - Shape The World: Multi-Threaded Interfacing](https://www.edx.org/learn/computer-programming/the-university-of-texas-at-austin-embedded-systems-shape-the-world-multi-threaded-in)
-- [🎞️ edX - Embedded Systems Essentials with Arm: Getting Started](https://learning.edx.org/course/course-v1:ArmEducation+EDARMXES1.6x+3T2020/home?utm_source=braze&utm_medium=email&utm_campaign=enrollmentconfirmation&utm_content=English+Email+-+Experiment&utm_term=experiment)
+- [🎞️ edX - Embedded Systems - Shape The World: Multi-Threaded Interfacing](https://www.edx.org/learn/embedded-systems/the-university-of-texas-at-austin-embedded-systems-shape-the-world-multi-threaded-interfacing)
+- [🎞️ edX - Embedded Systems Essentials with Arm: Getting Started](https://learning.edx.org/course/course-v1:ArmEducation+EDARMXES1.6x+3T2020/home)
 - [🎞️ Low Byte Productions](https://www.youtube.com/@lowbyteproductions)
 
 ### 🕹️ Arduino
 
 If you do not have any background in programming embedded systems, Arduino boards and libraries are the best choice for you to start and learn the basics. Just keep in mind that most of the Arduino libraries are developed for learning purposes and are not optimized to be used in industry.
 
-Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) takes care of most of the low-level hardware-associated operations that you, as an embedded engineer, should be able to handle yourself or at least have a clear understanding of. If you want to become a professional embedded developer, you should be able to effectively use industry-standard APIs and SDKs provided and approved by microcontroller vendors, such as CMSIS for ARM Cortex-M microcontrollers, STM32Cube for STM32, ESP-IDF for Espressif microcontrollers, etc.
+Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-avr) (the platform-specific implementation of the hardware-independent [ArduinoCore-API](https://github.com/arduino/ArduinoCore-API)) takes care of most of the low-level hardware-associated operations that you, as an embedded engineer, should be able to handle yourself or at least have a clear understanding of. If you want to become a professional embedded developer, you should be able to effectively use industry-standard APIs and SDKs provided and approved by microcontroller vendors, such as CMSIS for ARM Cortex-M microcontrollers, STM32Cube for STM32, ESP-IDF for Espressif microcontrollers, etc.
 
 - [🔗 Getting Started with Arduino](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino)
-- [🔗 ArduinoMap (Open-source Arduino course)](https://arduinomap.me/)
 - [🎞️ All New Arduino R4 WiFi LESSONS for Absolute Beginners (YouTube Playlist)](https://www.youtube.com/playlist?list=PLGs0VKk2DiYyn0wN335MXpbi3PRJTMmex)
 - [🎞️ New Arduino Tutorials (YouTube Playlist)](https://youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP)
 - [🎞️ Arduino in a commercial product?](https://www.youtube.com/watch?v=c5LzsqeSCAc)
@@ -341,10 +339,9 @@ Breadboarding is a hands-on approach to prototyping circuits, providing a versat
 - [🔗 LearnEMC - EMC Resources](https://learnemc.com/emc-resources)
 - [🔗 A Better Way to Build PCBs - Flux AI](https://www.flux.ai/p/)
 - [🔗 Monosketch](https://monosketch.io/)
-- [🔗 EasyEDA](https://easyeda.com/it)
+- [🔗 EasyEDA](https://easyeda.com/)
 - [🔗 Fritzing](https://fritzing.org/)
-- [🔗 Cirkit Designer](https://www.cirkitstudio.com/)
-- [🔗 withdiode](https://www.withdiode.com/)
+- [🔗 Cirkit Designer](https://www.cirkitdesigner.com/)
 
 #### 🔵 Soldering / Rework
 
@@ -363,7 +360,7 @@ FPGAs (Field-Programmable Gate Arrays) are specialized integrated circuits that 
 
 - [🔗 FPGA / ASIC Engineering Roadmap](https://github.com/m3y54m/FPGA-ASIC-Roadmap)
 - [📝 What are FPGAs?](https://hackaday.io/project/27550-the-hobbyists-guide-to-fpgas/log/68114-what-are-fpgas)
-- [📝 FPGA vs. Microcontroller: How to choose the right one for your project](https://www.youtube.com/watch?v=jblpHUCPQYs)
+- [🎞️ FPGA vs. Microcontroller: How to choose the right one for your project](https://www.youtube.com/watch?v=jblpHUCPQYs)
 - [🎞️👶 Introduction to FPGA (YouTube Playlist)](https://youtube.com/playlist?list=PLEBQazB0HUyT1WmMONxRZn9NmQ_9CIKhb)
 - [🔗👶 FPGA Fundamentals - Nandland](https://nandland.com/fpga-101/)
 - [🎞️💎 Coursera – FPGA Design for Embedded Systems Specialization](https://www.coursera.org/specializations/fpga-design)
@@ -442,12 +439,11 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [📘 C How to Program -  Paul Deitel, Harvey Deitel](https://deitel.com/c-how-to-program-9-e/)
 - [📘 Effective C - An Introduction to Professional C Programming - Robert C. Seacord](https://nostarch.com/Effective_C)
 - [📘 Modern C - Jens Gustedt](https://gustedt.gitlabpages.inria.fr/modern-c/)
-- [🔗 Embedded C Coding Standard](https://barrgroup.com/embedded-systems/books/embedded-c-coding-standard)
+- [🔗 Embedded C Coding Standard](https://barrgroup.com/free-downloads)
 - [🔗 newlib C Library Documentation](https://sourceware.org/newlib/docs.html)
 - [🔗 The GNU C Library (glibc)](https://www.gnu.org/software/libc/documentation.html)
 - [📝 From Zero to main(): Bare metal C](https://interrupt.memfault.com/blog/zero-to-main-1)
-- [📝 From Zero to main(): Bootstrapping libc with Newlib](https://interrupt.memfault.com/blog/boostrapping-libc-with-newlib)
-- [📝 Introduction to Nintendo DS Programming](https://www.patater.com/files/projects/manual/manual.html)
+- [📝 From Zero to main(): Bootstrapping libc with Newlib](https://interrupt.memfault.com/blog/bootstrapping-libc-with-newlib)
 - [🎞️👶 Learn C Programming and OOP with Dr. Chuck](https://www.youtube.com/watch?v=PaPN51Mm5qQ)
 - [📘 Extreme C -  Kamran Amini](https://www.packtpub.com/free-ebook/extreme-c/9781789343625)
 - [🎞️👶 Coursera - C Programming with Linux Specialization](https://www.coursera.org/specializations/c-programming-linux)
@@ -496,7 +492,7 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 ##### 🔶 Python for Microcontrollers
 
 - [🔗 MicroPython - Python for microcontrollers](https://micropython.org/)
-- [🔗 MicroPython 101 | Arduino Documentation](https://docs.arduino.cc/micropython-course/)
+- [🔗 MicroPython 101 | Arduino Documentation](https://docs.arduino.cc/micropython/)
 - [🔗 CircuitPython](https://circuitpython.org/)
 - [📝 The Pros and Cons of Designing Embedded Systems with MicroPython](https://www.designnews.com/electronics-test/pros-and-cons-designing-embedded-systems-micropython)
 - [📝 Programming the ESP32 with MicroPython](https://wolles-elektronikkiste.de/en/programming-the-esp32-with-micropython)
@@ -513,7 +509,7 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [📝 From Zero to main(): Bare metal Rust](https://interrupt.memfault.com/blog/zero-to-main-rust-1)
 - [📝 Writing an OS in Rust - Philipp Oppermann's blog](https://os.phil-opp.com/)
 - [📝 Kernel Driver with Rust in 2022](https://not-matthias.github.io/posts/kernel-driver-with-rust/)
-- [🔗 Rustlings - Small exercises to get you used to reading and writing Rust code!](https://rustlings.cool/)
+- [🔗 Rustlings - Small exercises to get you used to reading and writing Rust code!](https://rustlings.rust-lang.org/)
 - [🔗 Learn Rust the Effective Way](https://www.rustfinity.com/)
 
 #### 🔵 Zig
@@ -572,7 +568,6 @@ Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and 
 #### 🔵 Timers / Counters
 
 - [📝 Introduction to Microcontroller Timers: Periodic Timers](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-periodic-timers/)
-- [📝 AVR Timer programming](https://exploreembedded.com/wiki/AVR_Timer_programming)
 - [🎞️ STM32 TIMERS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfIJKC1ud8gjLZBzjE3kKBMDEH_lUc428)
 
 #### 🔵 PWM (Pulse Width Modulation)
@@ -668,15 +663,15 @@ Embedded systems often communicate with other devices or external systems via in
 
 ##### 🔶 SDIO
 
-- [📝 SDIO Protocol](https://prodigytechno.com/sdio-protocol/)
-- [📝 Interface SD CARD with SDIO in STM32](https://controllerstech.com/interface-sd-card-with-sdio-in-stm32/)
+- [📝 SDIO Protocol](https://prodigytechno.com/blog/device/sdio-protocol/)
+- [📝 Interface SD CARD with SDIO in STM32](https://controllerstech.com/interface-sd-card-with-stm32-via-sdio-4bit-mode/)
 - [🔗 SDIO Card Slave Driver - ESP32 - Technical Documents](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/sdio_slave.html)
 
 ##### 🔶 I3C
 
 - [🎞️ What is I3C®?](https://www.youtube.com/watch?v=g3TBNHec5Ec)
-- [🔗 MIPI I3C & MIPI I3C Basic](https://www.mipi.org/specifications/i3c-sensor-specification)
-- [📝 I3C Protocol: Understanding and Debug](https://prodigytechno.com/mipi-i3c-protocol-debug/)
+- [🔗 MIPI I3C Sensor Specification](https://www.mipi.org/specifications/i3c-sensor-specification)
+- [📝 I3C Protocol: Understanding and Debug](https://prodigytechno.com/blog/device/mipi-i3c-protocol-debug/)
 - [🎞️ MIPI I3C Basic - The next generation sensor interface enabling low-power IoT applications](https://www.youtube.com/watch?v=xWKxZp_9RFQ)
 
 ##### 🔶 1-Wire
@@ -729,7 +724,7 @@ Embedded systems often communicate with other devices or external systems via in
 - [📝 A Practical Guide to BLE Throughput](https://interrupt.memfault.com/blog/ble-throughput-primer)
 - [🎞️ SparkFun According to Pete #49 - How Bluetooth Works](https://www.youtube.com/watch?v=zJqGLWQGyvk)
 - [🔗 Bluetooth Low Energy Fundamentals - Nordic Semiconductor](https://academy.nordicsemi.com/courses/bluetooth-low-energy-fundamentals/)
-- [🔗 Bluetooth Overview - ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/bluetooth.html)
+- [🔗 Bluetooth API - ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/bluetooth/index.html)
 
 ##### 🔶 Wi-Fi
 
@@ -743,7 +738,7 @@ Embedded systems often communicate with other devices or external systems via in
 
 - [📝 The Arduino Guide to LoRa® and LoRaWAN®](https://docs.arduino.cc/learn/communication/lorawan-101)
 - [🔗💎 The Things Fundamentals on LoRaWAN!](https://www.thethingsnetwork.org/docs/lorawan/)
-- [📝 What are LoRa® and LoRaWAN®?](https://lora-developers.semtech.com/documentation/tech-papers-and-guides/lora-and-lorawan/)
+- [📝 What are LoRa® and LoRaWAN®?](https://www.semtech.com/lora/what-is-lora)
 - [🎞️ #112 LoRa / LoRaWAN De-Mystified / Tutorial](https://www.youtube.com/watch?v=hMOwbNUpDQA)
 - [🔗 ESP32 with LoRa using Arduino IDE – Getting Started](https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/)
 
@@ -802,7 +797,7 @@ Embedded systems often communicate with other devices or external systems via in
 - [🎞️👶 Microchip University - Introduction to USB 2.0](https://mu.microchip.com/introduction-to-usb-20)
 - [🎞️👶 Microchip University - USB 3 Fundamentals](https://mu.microchip.com/usb-3-fundamentals)
 - [🎞️ Training - USB 101 - Introduction to USB](https://www.youtube.com/watch?v=5S6ZPmtPzRA)
-- [🔗 USB 101: An Introduction to Universal Serial Bus 2.0](https://www.infineon.com/dgdl/Infineon-AN57294_USB_101_An_Introduction_to_Universal_Serial_Bus_2.0-ApplicationNotes-v09_00-EN.pdf?fileId=8ac78c8c7cdc391c017d072d8e8e5256)
+- [🔗 USB 101: An Introduction to Universal Serial Bus 2.0](https://www.infineon.com/assets/row/public/documents/cross-divisions/42/infineon-an57294-usb-101-an-introduction-to-universal-serial-bus-2.0-applicationnotes-en.pdf)
 - [🎞️ How does a USB keyboard work?](https://youtu.be/wdgULBpRoXk)
 - [🎞️ How does USB device discovery work?](https://www.youtube.com/watch?v=N0O5Uwc3C0o)
 - [🎞️ MOOC - STM32 USB training (YouTube Playlist)](https://www.youtube.com/playlist?list=PLnMKNibPkDnFFRBVD206EfnnHhQZI4Hxa)
@@ -838,7 +833,7 @@ Embedded systems often communicate with other devices or external systems via in
 - [🎞️ TCP - 12 simple ideas to explain the Transmission Control Protocol](https://www.youtube.com/watch?v=JFch3ctY6nE)
 - [🎞️ UDP doesn't suck! It's the BEST L4 protocol for THESE types of applications...](https://www.youtube.com/watch?v=LaDRWycC7Iw)
 - [🎞️ Networking tutorial - Ben Eater (YouTube Playlist)](https://www.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW)
-- [📘💎 Hands-On Network Programming with C - Lewis Van Winkle](https://www.amazon.com/exec/obidos/ASIN/1789349869/aoeu-20)
+- [📘💎 Hands-On Network Programming with C - Lewis Van Winkle](https://www.amazon.com/dp/1789349869)
 - [📘💎 Network Algorithmics - George Varghese, Jun Xu](https://www.oreilly.com/library/view/network-algorithmics-2nd/9780128099865/)
 - [🔗 tcpdump & libpcap libraries](https://www.tcpdump.org/)
 - [🔗 lwIP - A Lightweight TCP/IP stack](https://savannah.nongnu.org/projects/lwip/)
@@ -862,7 +857,7 @@ _________________
 
 Embedded systems employ a combination of volatile (SRAM, DRAM, PSRAM) and non-volatile (flash, EEPROM, FRAM) memory to store and access data, based on factors like performance, cost, power consumption, and durability.
 
-- [📝 Memory Options for Embedded Systems: How to Select the Right Memory Configuration](https://www.qt.io/embedded-development-talk/memory-options-for-embedded-systems-how-to-select-the-right-memory-configuration)
+- [📝 Memory Options for Embedded Systems: How to Select the Right Memory Configuration](https://www.qt.io/software-insights/how-to-select-a-memory-configuration-for-embedded-systems)
 
 #### 🔵 Flash Memory
 
@@ -903,9 +898,9 @@ A file system is a way of organizing data on a storage device, such as a hard dr
 - [📝 UBI File System](https://docs.kernel.org/filesystems/ubifs.html)
 - [📝 JFFS : The Journalling Flash File System](https://sourceware.org/jffs2/jffs2-html/)
 - [📝 Preventing Filesystem Corruption In Embedded Linux](https://www.embeddedts.com/assets/preventing-filesystem-corruption-in-embedded-linux)
-- [🔗 LittleFS - A high-integrity embedded file system](https://os.mbed.com/blog/entry/littlefs-high-integrity-embedded-fs/)
+- [🔗 LittleFS - A high-integrity embedded file system](https://github.com/littlefs-project/littlefs)
 - [🔗 SPIFS - Wear-leveled SPI flash file system for embedded devices](https://github.com/pellepl/spiffs)
-- [🔗 EEPROM File System (EEFS)](opensource.gsfc.nasa.gov/projects/eefs/index.php)
+- [🔗 EEPROM File System (EEFS)](https://github.com/nasa/EEFS)
 
 _________________
 
@@ -936,7 +931,6 @@ Embedded system development often involves simulating or emulating hardware envi
 
 - [🔗 Renode - GitHub Repo](https://github.com/renode/renode)
 - [🔗 Renode - Documentation](https://renode.readthedocs.io/en/latest/)
-- [🔗 Renode - Official Tutorials](https://renode.io/tutorials/)
 - [📝 Cortex-M MCU Emulation with Renode](https://interrupt.memfault.com/blog/intro-to-renode)
 - [📝 A simple guide to get started on renode](https://github.com/tarciszera/renode_guide)
 - [🎞️ Using CI-based workflow with Renode in bringing TensorFlow Lite to Zephyr](https://www.youtube.com/watch?v=jF94cXPoZZg)
@@ -985,7 +979,7 @@ Digital signal processing (DSP) is a branch of engineering that deals with the p
 - [🎞️ Udemy – Digital Signal Processing (DSP) From Ground Up in C](https://www.udemy.com/course/digital-signal-processing-dsp-from-ground-uptm-in-c/)
 - [📘 Real-Time Digital Signal Processing: Fundamentals, Implementations and Applications - Sen M. Kuo, Bob H. Lee, Wenshun Tian](https://www.wiley.com/en-us/Real+Time+Digital+Signal+Processing%3A+Fundamentals%2C+Implementations+and+Applications%2C+3rd+Edition-p-9781118414323)
 - [📘 Real-Time Digital Signal Processing from MATLAB to C with the TMS320C6x DSPs - Thad B. Welch, Cameron H.G. Wright, Michael G. Morrow](https://www.routledge.com/Real-Time-Digital-Signal-Processing-from-MATLAB-to-C-with-the-TMS320C6x/Welch-Wright-Morrow/p/book/9780367736453)
-- [📘 Schaum's Outline of Signals and Systems - Hwei P. Hsu](https://www.mhprofessional.com/schaum-s-outline-of-signals-and-systems-fourth-edition-9781260454246-usa)
+- [📘 Schaum's Outline of Signals and Systems - Hwei P. Hsu](https://www.amazon.com/dp/126045424X)
 - [📘💎 Digital Signal Processing - John G. Proakis, Dimitris K. Manolakis](https://a.co/d/75P5PiE)
 - [📘 Introduction to Computer Music](https://composerprogrammer.com/introductiontocomputermusic.pdf)
 
@@ -1060,12 +1054,12 @@ Real-time operating systems (RTOS) are specialized operating systems designed to
 
 - [🔗 FreeRTOS - Market leading RTOS](https://www.freertos.org)
 - [🎞️👶 Introduction to RTOS (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz)
-- [📘💎 Mastering the FreeRTOS Real Time Kernel - a Hands On Tutorial Guide](https://www.freertos.org/Documentation/RTOS_book.html)
+- [📘💎 Mastering the FreeRTOS Real Time Kernel - a Hands On Tutorial Guide](https://www.freertos.org/Documentation/02-Kernel/07-Books-and-manual/01-RTOS_book)
 - [🎞️👶 Microchip University - FreeRTOS Simplified: A Beginner's Guide to Develop and Debug FreeRTOS Applications](https://mu.microchip.com/freertos-simplified)
 - [🎞️ Getting Started With STM32 and Nucleo Part 3: FreeRTOS - How To Run Multiple Threads w/ CMSIS-RTOS](https://www.youtube.com/watch?v=CdpgqpuPSyQ)
 - [📘 Hands-On RTOS with Microcontrollers: Building real-time embedded systems using FreeRTOS, STM32 MCUs, and SEGGER debug tools - Brian Amos](https://a.co/d/11MSPlo)
 - [📘 Beginning STM32: Developing with FreeRTOS, libopencm3 and GCC - Warren Gay](https://link.springer.com/book/10.1007/978-1-4842-3624-6)
-- [🔗 SafeRTOS - Safety Critical Real-Time OS](https://www.freertos.org/FreeRTOS-Plus/Safety_Critical_Certified/SafeRTOS.html)
+- [🔗 SafeRTOS - Safety Critical Real-Time OS](https://www.freertos.org/Partners/Software/SafeRTOS)
 
 ##### 🔶 Zephyr
 
@@ -1098,8 +1092,7 @@ Real-time operating systems (RTOS) are specialized operating systems designed to
 
 ##### 🔶 Mbed OS
 
-- [🔗 Mbed OS](https://os.mbed.com/mbed-os/)
-- [🔗 Mbed OS Documentation](https://os.mbed.com/docs/mbed-os/)
+- [🔗 Mbed OS](https://github.com/ARMmbed/mbed-os)
 
 ##### 🔶 QNX
 
@@ -1108,15 +1101,15 @@ Real-time operating systems (RTOS) are specialized operating systems designed to
 
 ##### 🔶 VxWorks
 
-- [🔗 VxWorks | Industry Leading RTOS for Embedded Systems](https://www.windriver.com/products/vxworks)
+- [🔗 VxWorks | Industry Leading RTOS for Embedded Systems](https://www.windriver.com/products/embedded/vxworks)
 - [🔗 VxWorks Documentation](https://docs.windriver.com/category/os_vxworks?labelkey=os_vxworks)
 - [🎞️ VxWORKS-RTOS - Kumar M (YouTube Playlist)](https://www.youtube.com/playlist?list=PLyp1I7W35-q34sYWBlBg8xgoqsizZ57P7)
 
-##### 🔶 Azure RTOS (ThreadX)
+##### 🔶 Eclipse ThreadX (formerly Azure RTOS)
 
-- [🔗 Azure RTOS - Making embedded IoT development and connectivity easy](https://azure.microsoft.com/en-us/services/rtos/)
-- [🔗 Microsoft Azure RTOS documentation](https://learn.microsoft.com/en-us/azure/rtos/)
-- [🔗 Azure RTOS ThreadX](https://github.com/azure-rtos/threadx)
+- [🔗 Eclipse ThreadX - Advanced Embedded RTOS](https://threadx.io/)
+- [🔗 Eclipse ThreadX documentation (formerly Azure RTOS docs)](https://github.com/eclipse-threadx/rtos-docs)
+- [🔗 Eclipse ThreadX source code](https://github.com/eclipse-threadx/threadx)
 
 #### 🔵 Embedded Linux
 
@@ -1125,7 +1118,7 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 - [📝 What Is Embedded Linux?](https://www.windriver.com/solutions/learning/embedded-linux)
 - [📝 FreeRTOS vs Linux for Embedded Systems](https://www.bytesnap.com/news-blog/freertos-vs-linux-embedded-systems/)
 - [🎞️👶 Introduction to Embedded Linux (YouTube Playlist)](https://youtube.com/playlist?list=PLEBQazB0HUyTpoJoZecRK6PpDG31Y7RPB)
-- [📝 Mastering Embedded Linux Series - George Hilliard's blog](https://www.thirtythreeforty.net/series/mastering-embedded-linux/)
+- [📝 Mastering Embedded Linux Series (Part 1) - George Hilliard's blog](https://www.thirtythreeforty.net/posts/mastering-embedded-linux-part-1-concepts/)
 - [📘💎 Mastering Embedded Linux Programming - Chris Simmonds](https://www.packtpub.com/product/mastering-embedded-linux-programming-third-edition/9781789530384)
 - [🎞️💎 Coursera - Advanced Embedded Linux Development Specialization](https://www.coursera.org/specializations/advanced-embedded-linux-development)
 - [🔗 Linux From Scratch - step-by-step instructions for building your own custom Linux system](https://www.linuxfromscratch.org/)
@@ -1142,7 +1135,6 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 
 ##### 🔶 Linux Device Drivers
 
-- [📝👶 Writing a Simple Linux Kernel Module](https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234)
 - [📘💎 Linux Device Drivers -  Jonathan Corbet, Alessandro Rubini, Greg Kroah-Hartman](https://lwn.net/Kernel/LDD3/)
 - [📘 The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/)
 - [📘 Mastering Linux Device Driver Development - John Madieu](https://www.packtpub.com/product/mastering-linux-device-driver-development/9781789342048)
@@ -1150,7 +1142,7 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 
 ##### 🔶 U-Boot
 
-- [🔗 The U-Boot Documentation](https://u-boot.readthedocs.io/en/latest/)
+- [🔗 The U-Boot Documentation](https://docs.u-boot.org/en/latest/)
 - [🔗 Barebox](https://www.barebox.org/doc/latest/index.html)
 
 ##### 🔶 Buildroot
@@ -1164,7 +1156,6 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 - [🔗 Yocto Project Quick Build](https://docs.yoctoproject.org/brief-yoctoprojectqs/index.html)
 - [🔗💎 Yocto Project Documentation](https://docs.yoctoproject.org/index.html)
 - [🎞️ Introduction to Embedded Linux Part 2 - Yocto Project | Digi-Key Electronics](https://www.youtube.com/watch?v=2-PwskQrZac&t=7s)
-- [📝 Build Linux Image for Raspberry Pi board using Yocto Project](https://tutorialadda.com/yocto/create-your-own-linux-image-for-the-raspberry-pi-board-using-yocto-project)
 - [🎞️ Yocto Project Tutorial Series (Basic to Advance) (YouTube Playlist)](https://www.youtube.com/playlist?list=PLwqS94HTEwpQmgL1UsSwNk_2tQdzq3eVJ)
 - [🎞️ Udemy – Embedded Linux using Yocto](https://www.udemy.com/course/embedded-linux-using-yocto/)
 - [📘💎 Embedded Linux Systems with the Yocto Project - Rudolf J.Streif](https://www.oreilly.com/library/view/embedded-linux-systems/9780133443301/)
@@ -1181,12 +1172,11 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 
 ##### 🔶 High-Performance Computing (HPC)
 
-- [🔗 Parallel Programming and Performance Optimization With OpenMP](https://passlab.github.io/OpenMPProgrammingBook/index.html)
+- [🔗 Parallel Programming and Performance Optimization With OpenMP](https://passlab.github.io/InteractiveOpenMPProgramming/)
 - [🎞️ Introduction to OpenMP - Tim Mattson (Intel) (YouTube Playlist)](https://youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG)
 - [🔗 OpenCL Tutorials](https://www.intel.com/content/www/us/en/developer/articles/training/opencl-tutorials.html)
-- [🔗 CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
+- [🔗 CUDA Programming Guide](https://docs.nvidia.com/cuda/cuda-programming-guide/index.html)
 - [🔗 Mvidia](https://jaso1024.com/mvidia/)
-- [🔗 Every GPU That Mattered](https://sheets.works/data-viz/every-gpu)
 
 ##### 🔶 Inter-Process Communication (IPC)
 
@@ -1279,7 +1269,7 @@ Bash scripting serves as a powerful tool in embedded systems development, enabli
 Docker containers provide a consistent and isolated environment for building software applications. This can help to improve the reproducibility of builds and reduce the risk of errors. Docker also makes it easier to share build environments, which can save time and effort for developers.
 
 - [🔗 Docker Docs](https://docs.docker.com/get-started/)
-- [🔗 Docker Cheat Sheet](https://dockerlabs.collabnix.com/docker/cheatsheet/)
+- [🔗 Docker Cheat Sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
 - [📝👶 Docker for Dummies](https://dev.to/stevenmcgown/docker-for-dummies-2bff)
 - [🎞️ Introduction to Docker for the Embedded Developer](https://www.youtube.com/watch?v=Fz7ou-VBk-w)
 - [🎞️ Intro to CI/CD Part 1: Getting Started with Docker | Digi-Key Electronics](https://youtu.be/1nxGcfIm-TU)
@@ -1297,7 +1287,6 @@ Software Development Life Cycle (SDLC) models provide a structured approach to s
 #### 🔵 Agile / SCRUM
 
 - [📝 Does agile work with embedded software?](https://www.embedded.com/does-agile-work-with-embedded-software/)
-- [📝 Scrum for embedded software: Good – but for reasons other than what your manager thinks](https://www.elektrobit.com/trends/scrum-for-embedded-software/)
 - [📝 What Is Scrum: A Guide to the Most Popular Agile Framework](https://www.scrumalliance.org/about-scrum)
 - [📝 An agile guide to scrum meetings](https://www.atlassian.com/agile/scrum/ceremonies)
 - [📝 What is scaled agile framework? (SAFe)](https://www.atlassian.com/agile/agile-at-scale/what-is-safe)
@@ -1360,7 +1349,7 @@ Testing is an integral part of the embedded systems development process, ensurin
 ##### 🔶 Integration Testing
 
 - [📝 Hardware CI Arena](https://electricui.com/blog/hardware-testing)
-- [📝 Exclave: Hardware Testing in Mass Production, Made Easier](https://www.bunniestudios.com/blog/?p=5450)
+- [📝 Exclave: Hardware Testing in Mass Production, Made Easier](https://www.bunniestudios.com/blog/2018/exclave-hardware-testing-in-mass-production-made-easier)
 - [📝 Regression Testing of Embedded Systems](https://www.parasoft.com/blog/regression-testing-of-embedded-systems/)
 
 #### 🔵 CI/CD Pipelines
@@ -1380,7 +1369,6 @@ Continuous Integration (CI) and Continuous Delivery (CD) are software developmen
 
 Software-in-the-loop (SIL) and hardware-in-the-loop (HIL) testing are two crucial techniques used in embedded systems development to validate the functionality and performance of software before it is deployed on real hardware. These testing methods simulate the real-world environment of the embedded system using software models or hardware emulators.
 
-- [📝 Hardware-in-Loop and Software-in-Loop Testing](https://roboticsknowledgebase.com/wiki/system-design-development/In-Loop-Testing/)
 - [🎞️ Embedded CI/CD with HIL Testing (YouTube Playlist)](https://youtube.com/playlist?list=PL4cGeWgaBTe1uwiqIAc6fwPzPpvgPZI2J)
 
 #### 🔵 Standards & Certifications
@@ -1428,7 +1416,7 @@ Learning hardware hacking helps security professionals understand how embedded s
 - [🎞️ Understanding AES Encryption Mechanics: BMPS](https://youtu.be/OnhtzFJW_4I)
 - [📘💎 Understanding Cryptography: A Textbook for Students and Practitioners -  Christof Paar, Jan Pelzl](https://link.springer.com/book/10.1007/978-3-642-04101-3)
 - [📘💎 Handbook of Applied Cryptography -  Alfred J. Menezes, Paul C. van Oorschot, Scott A. Vanstone](https://cacr.uwaterloo.ca/hac/)
-- [📘 Serious Cryptography: A Practical Introduction to Modern Encryption - Jean-Philippe Aumasson](https://nostarch.com/seriouscrypto)
+- [📘 Serious Cryptography, 2nd Edition: A Practical Introduction to Modern Encryption - Jean-Philippe Aumasson](https://nostarch.com/serious-cryptography-2nd-edition)
 - [🎞️ MOOC - Security Part2: Basics of cryptography (YouTube Playlist)](https://youtube.com/playlist?list=PLnMKNibPkDnFSFh57UFTZLpy-7lZiwTHh)
 - [🎞️ MOOC - Security Part3 : STM32 security features (YouTube Playlist)](https://youtube.com/playlist?list=PLnMKNibPkDnFzux3PHKUEi14ftDn9Cbm7)  
 - [📝 Introduction to encryption for embedded Linux developers](https://sergioprado.blog/introduction-to-encryption-for-embedded-linux-developers/)
@@ -1472,7 +1460,7 @@ The Internet of Things (IoT) refers to a network of interconnected devices, whic
 
 - [📝 Saving bandwidth with delta firmware updates](https://interrupt.memfault.com/blog/ota-delta-updates)
 - [📝 Delta Over-The-Air Device Firmware Update](https://thinkty.net/projects/2023/05/07/delta_ota.html)
-- [📝 FreeRTOS Delta Over-the-Air Updates](https://www.freertos.org/2022/01/delta-over-the-air-updates.html)
+- [📝 FreeRTOS Delta Over-the-Air Updates](https://www.freertos.org/Community/Blogs/2022/delta-over-the-air-updates)
 - [🔗 ESP Delta OTA](https://components.espressif.com/components/espressif/esp_delta_ota)
 
 ### ✳️ Edge AI
@@ -1503,7 +1491,7 @@ Edge AI refers to the ability of devices to perform machine learning tasks on th
 - [🎞️ edX - Fundamentals of TinyML](https://www.edx.org/learn/machine-learning/harvard-university-fundamentals-of-tinyml)
 - [🎞️ edX - Applications of TinyML](https://www.edx.org/learn/tinyml/harvard-university-applications-of-tinyml)
 - [🎞️ edX - Deploying TinyML](https://www.edx.org/learn/tinyml/harvard-university-deploying-tinyml)
-- [🎞️ edX - MLOps for Scaling TinyML](https://www.edx.org/learn/computer-programming/harvard-university-mlops-for-scaling-tinyml)
+- [🎞️ edX - MLOps for Scaling TinyML](https://www.edx.org/learn/tinyml/harvard-university-mlops-for-scaling-tinyml)
 - [📘 TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers - Pete Warden, Daniel Situnayake](https://tinymlbook.com/)
 
 _________________
