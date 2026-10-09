@@ -426,10 +426,11 @@ button {
 }
 
 .tip-hint {
-  margin-top: 4px;
-  color: var(--accent);
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
   font-size: 12px;
-  font-weight: 600;
 }
 
 /* Outline view */

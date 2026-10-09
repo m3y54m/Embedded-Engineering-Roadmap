@@ -294,7 +294,7 @@ export function createMapView({ root, plan, data, build, onSelect }) {
       topic.areas.length ? h('div', { class: 'tip-areas' }, areaDots(topic.areas), areaLabel(topic.areas)) : null,
       h('div', { class: 'tip-meta' }, [importance ? IMPORTANCE[importance] : null, plural(topic.total, 'resource'),
         topic.links && topic.links.length ? `${topic.links.length} connected` : null].filter(Boolean).join(' · ')),
-      h('div', { class: 'tip-hint' }, 'Click for details and resources'),
+      h('div', { class: 'tip-hint' }, 'Click this topic to open its details'),
     ].filter(Boolean));
     tip.hidden = false;
     moveTip(e);
