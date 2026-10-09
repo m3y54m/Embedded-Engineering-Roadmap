@@ -99,7 +99,7 @@ jobs:
           path: _site
 
   release:
-    name: Release ${{ needs.build.outputs.version }}
+    name: Publish release
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master' && needs.build.outputs.release == 'true'
     needs: build
     runs-on: ubuntu-24.04
