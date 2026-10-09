@@ -351,6 +351,16 @@ button {
   background: var(--chip-hover);
 }
 
+.text-btn {
+  width: auto;
+  grid-auto-flow: column;
+  gap: 6px;
+  padding: 0 11px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 /* Layout */
 
 .layout {
@@ -1107,6 +1117,23 @@ button {
 
 @media (max-width: 520px) {
   .brand-text {
+    display: none;
+  }
+
+  .actions {
+    gap: 6px;
+  }
+
+  /* Phones get the PDF download instead of printing. */
+  #print {
+    display: none;
+  }
+
+  .text-btn {
+    padding: 0 9px;
+  }
+
+  .text-btn svg {
     display: none;
   }
 }

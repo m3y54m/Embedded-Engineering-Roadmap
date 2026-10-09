@@ -599,6 +599,11 @@ function wireGlobal() {
   });
   for (const tab of els.tabs) tab.addEventListener('click', () => setView(tab.dataset.view));
   document.getElementById('print').addEventListener('click', () => window.print());
+  // The PDF and PNG are rendered by CI next to the deployed site; local previews don't have them.
+  for (const link of document.querySelectorAll('[data-download]')) {
+    fetch(link.getAttribute('href'), { method: 'HEAD', cache: 'no-cache' })
+      .then((response) => { link.hidden = !response.ok; }, () => {});
+  }
   // Printing always produces the diagram, whatever view is open.
   let viewBeforePrint = null;
   window.addEventListener('beforeprint', () => {
