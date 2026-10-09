@@ -336,8 +336,8 @@ Breadboarding is a hands-on approach to prototyping circuits, providing a versat
 - [🎞️💎 PCB Design for EMI & SI - Phil's Lab #64](https://www.youtube.com/watch?v=VtzPL8wQ8-E)
 - [🎞️💎 PCB Design for Advanced Users (YouTube Playlist)](https://youtube.com/playlist?list=PL3aaAq2OJU5EWfYT_Z93tc9pBF_Sidba_)
 - [🎞️💎 PCB Knowledge [PCB Production Tips By PCBWay] (YouTube Playlist)](https://www.youtube.com/playlist?list=PLzxdr3n97eVtHuh7gnDzMubuO836kvfu7)
-- [🎞️💎Udemy – High-Speed Board Design Course System On Module -EsteemPCB](https://www.udemy.com/course/highspeed_board_design_course)
-- [🎞️💎Udemy – Advanced Hardware and PCB Design Masterclass 2022](https://www.udemy.com/course/advanced-hardware-design-course)
+- [🎞️💎 Udemy – High-Speed Board Design Course System On Module - EsteemPCB](https://www.udemy.com/course/highspeed_board_design_course)
+- [🎞️💎 Udemy – Advanced Hardware and PCB Design Masterclass 2022](https://www.udemy.com/course/advanced-hardware-design-course)
 - [🎞️💎 9 Simple Tricks to Improve EMC / EMI on Your Boards - Practical examples (with Min Zhang)](https://www.youtube.com/watch?v=Lf51sx6sC0I)
 - [🎞️💎 Many EMC Tips to Help You Design Better PCB Boards (with Keith Armstrong)](https://www.youtube.com/watch?v=gHF5JyJF-N4)
 - [🔗 LearnEMC - EMC Resources](https://learnemc.com/emc-resources)
@@ -380,7 +380,7 @@ Mastering programming fundamentals and software development principles is essent
 
 - [🎞️ Coursera - Introduction to Discrete Mathematics for Computer Science Specialization](https://www.coursera.org/specializations/discrete-mathematics)
 - [📘👶 Open Access Discrete Mathematics Books by LibreTexts](https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics)
-- [📘👶 Essential Discrete Mathematics for computer science by Lewis HARRY., Zax R. ACM DL](https://dl.acm.org/doi/book/10.5555/3388468)
+- [📘👶 Essential Discrete Mathematics for Computer Science - Harry Lewis, Rachel Zax](https://dl.acm.org/doi/book/10.5555/3388468)
 - [📘👶 Guide to Discrete Mathematics - Gerard O'Regan, Springer](https://link.springer.com/book/10.1007/978-3-030-81588-2)
 - [📘💎 Bridge to Abstract Mathematics, AMS](https://bookstore.ams.org/view?ProductCode=TEXT/22)
 
@@ -473,10 +473,6 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 
 - [🎞️👶 The Essence of C++ by Bjarne Stroustrup - YouTube](https://www.youtube.com/watch?v=86xWVb4XIyE)
 - [🎞️👶💎 Delivering Safe C++ by Bjarne Stroustrup - CppCon 2023](https://www.youtube.com/watch?v=I8UvQKvOSSw)
-- [🎞️👶💎 The Design of C++ by Bjarne Stroustrup Computer History - YouTube](https://www.youtube.com/watch?v=69edOm889V4)
-- [📘 The Design and Evolution of C++ - Bjarne Stroustrup](https://www.stroustrup.com/dne.html)
-- [📘💎 Papers on C++ by Bjarne Stroustrup - Stroustrup's Website](https://www.stroustrup.com/papers.html)
-- [🔗 Papers on C++ by Bjarne Stroustrup - ACM DL](https://dl.acm.org/keyword/C%2B%2B?expand=all&ContribRoleAndId=author%3A10.1145%2Fcontrib-81100106139)
 
 #### 🔵 Assembly
 
@@ -637,14 +633,13 @@ _________________
 
 Embedded systems often communicate with other devices or external systems via interfaces, protocols. Interfaces provide the physical connections, protocols define data exchange rules. The choice depends on application-specific needs, including bandwidth, distance, security, and power consumption.
 
-#### 🔵 ‌Basic Protocols
+#### 🔵 Basic Protocols
 
 - [🎞️👶 Understanding Serial Protocols](https://www.youtube.com/watch?v=LEz5UCN3aHA)
 - [🎞️👶 Serial Protocol Fundamentals](https://www.youtube.com/watch?v=yz7h5xd18OE)
 - [📝👶 Understanding and Selecting in 2024: I2C, SPI, UART Explained](https://www.parlezvoustech.com/en/comparaison-protocoles-communication-i2c-spi-uart/)
 - [📝👶 Basics of Wired Embedded Protocols](https://piolabs.com/blog/engineering/wired-embedded-protocols-basics.html)
 - [🎞️ PROTOCOLS: UART - I2C - SPI - Serial communications #001](https://www.youtube.com/watch?v=IyGwvGzrqp8)
-- [📝👶 Understanding and Selecting in 2024: I2C, SPI, UART Explained](https://www.parlezvoustech.com/en/comparaison-protocoles-communication-i2c-spi-uart/)
 
 ##### 🔶 UART
 
@@ -784,7 +779,6 @@ Embedded systems often communicate with other devices or external systems via in
 - [🎞️ #144 Internet Protocols: CoAP vs MQTT, Network Sniffing, and preparation for IKEA Tradfri Hacking](https://www.youtube.com/watch?v=pfG8uEDZj5g)
 - [🎞️ MQTT vs. CoAP | Comparison of IoT Protocols](https://www.youtube.com/watch?v=0CORpVSUQe0)
 - [🎞️ Simple ESP32 IoT Sensor Node Tutorial: WiFi Enabled MQTT Sensor Data Node](https://www.youtube.com/watch?v=x5A5S0hoyJ0)
-- [🔗 Cellular IoT Fundamentals - Nordic Semiconductor](https://academy.nordicsemi.com/courses/cellular-iot-fundamentals/)
 
 #### 🔵 High-Speed Protocols
 
@@ -904,7 +898,7 @@ A file system is a way of organizing data on a storage device, such as a hard dr
 - [📝 JFFS : The Journalling Flash File System](https://sourceware.org/jffs2/jffs2-html/)
 - [📝 Preventing Filesystem Corruption In Embedded Linux](https://www.embeddedts.com/assets/preventing-filesystem-corruption-in-embedded-linux)
 - [🔗 LittleFS - A high-integrity embedded file system](https://github.com/littlefs-project/littlefs)
-- [🔗 SPIFS - Wear-leveled SPI flash file system for embedded devices](https://github.com/pellepl/spiffs)
+- [🔗 SPIFFS - Wear-leveled SPI flash file system for embedded devices](https://github.com/pellepl/spiffs)
 - [🔗 EEPROM File System (EEFS)](https://github.com/nasa/EEFS)
 
 _________________
@@ -993,6 +987,8 @@ Digital signal processing (DSP) is a branch of engineering that deals with the p
 - [🎞️ The Fast Fourier Transform (FFT): Most Ingenious Algorithm Ever?](https://youtu.be/h7apO7q16V0)
 - [🎞️ The FFT Algorithm - Simple Step by Step](https://www.youtube.com/watch?v=htCj9exbGo0)
 - [🎞️ STM32 Fast Fourier Transform (CMSIS DSP FFT) - Phil's Lab #111](https://youtu.be/d1KvgOwWvkM)
+
+_________________
 
 ### ✳️ Control Theory
 
@@ -1474,6 +1470,8 @@ The Internet of Things (IoT) refers to a network of interconnected devices, whic
 - [📝 FreeRTOS Delta Over-the-Air Updates](https://www.freertos.org/Community/Blogs/2022/delta-over-the-air-updates)
 - [🔗 ESP Delta OTA](https://components.espressif.com/components/espressif/esp_delta_ota)
 
+_________________
+
 ### ✳️ Edge AI
 
 Edge AI refers to the ability of devices to perform machine learning tasks on their own, without the need to send data to a central server. This can be done by using small, specialized AI models that are embedded directly into the device. TinyML is a subset of Edge AI that focuses on developing these models for devices with very limited computing power, such as microcontrollers and sensors.
@@ -1516,8 +1514,8 @@ AUTOSAR, or AUTomotive Open System ARchitecture, is a global industry standard f
 - [🎞️ Introduction to AUTOSAR](https://www.youtube.com/watch?v=NfZI8wvgZPo)
 - [🎞️ Udemy - Autosar Architecture (Learn from Scratch with Demo)](https://www.udemy.com/course/autosar-architecture/)
 - [📝 OSEK OS Overview](https://www.autosartoday.com/posts/osek_os_overview)
-- [💎 🔗 OSEK/VDX Operating System Specification 2.2.3](https://www.osek-vdx.org/mirror/os223.pdf)
-- [💎 🔗 OSEK/VDX OIL (OSEK Implementation Language) Specification 2.4.1](https://www.osek-vdx.org/mirror/oil241.pdf)
+- [🔗💎 OSEK/VDX Operating System Specification 2.2.3](https://www.osek-vdx.org/mirror/os223.pdf)
+- [🔗💎 OSEK/VDX OIL (OSEK Implementation Language) Specification 2.4.1](https://www.osek-vdx.org/mirror/oil241.pdf)
 
 _________________
 
@@ -1543,7 +1541,7 @@ _Discrete Mathematics_ is a multi-semester course that involves subjects about t
 - Division Theorem Modular Arithmetics (Parts of Number Theory).
 - [📘💎 Discrete Mathematics and its applications by Rosen](https://dl.acm.org/doi/book/10.5555/579402)
 - [📘💎 Discrete Mathematics with Applications by Susanna S. Epp](https://dl.acm.org/doi/book/10.5555/1941983)
-- [📘💎 Switching and Finite Automata Theory, Cambrdige Press](https://dl.acm.org/doi/10.5555/1708070)
+- [📘💎 Switching and Finite Automata Theory, Cambridge Press](https://dl.acm.org/doi/10.5555/1708070)
 - [📘💎 Discrete Mathematical Structures by Bernard Kolman](https://www.pearson.com/en-us/subject-catalog/p/discrete-mathematical-structures-classic-version/P200000006227/9780137538782?srsltid=AfmBOooBdohmNtq7Wu42tHwSt7lUma46hBmKjqk8XJ8NNI6sf2-4-1kg)
 - [📘💎 Invitation to Discrete Mathematics, Oxford University Press](https://global.oup.com/academic/product/invitation-to-discrete-mathematics-9780198570431?cc=eg&lang=en&)
 - [📘💎 The Mathematics of Cellular Automata by Jane Hawkins, AMS](https://bookstore.ams.org/stml-108)
