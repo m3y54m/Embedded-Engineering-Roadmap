@@ -7,30 +7,41 @@ on:
       - README.md
       - "site/**"
       - .github/workflows/pages.yml
+      - .github/scripts/next-version.sh
   pull_request:
     paths:
       - README.md
       - "site/**"
       - .github/workflows/pages.yml
-  release:
-    types: [published]
+      - .github/scripts/next-version.sh
   workflow_dispatch:
+    inputs:
+      bump:
+        description: "Version bump: auto releases a patch only if the map changed; minor/major always release"
+        type: choice
+        options: [auto, minor, major]
+        default: auto
 
 permissions:
   contents: read
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  # Builds on master queue instead of cancelling, so two releases never pick the same version.
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   build:
     name: Test and build
-    runs-on: ubuntu-latest
+    # Pinned runner and Playwright keep the rendering stable, so the map fingerprint only changes with the map.
+    runs-on: ubuntu-24.04
+    outputs:
+      release: ${{ steps.version.outputs.release }}
+      version: ${{ steps.version.outputs.version }}
+      previous: ${{ steps.version.outputs.previous }}
+      fingerprint: ${{ steps.fingerprint.outputs.sha256 }}
     steps:
       - uses: actions/checkout@v7
-        with:
-          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -44,18 +55,36 @@ jobs:
           mkdir _site
           cp site/*.html site/*.css site/*.js site/map.json README.md _site/
           cp -r site/fonts site/assets _site/
-          # Revision shown in the credits: the release tag, or tag-commits-hash between releases.
-          VERSION="$(git describe --tags --always)" DATE="$(git log -1 --format=%cs)" \
-            node -e 'console.log(JSON.stringify({ version: process.env.VERSION, date: process.env.DATE }))' > _site/build.json
-          cat _site/build.json
 
       - name: Install Chromium
         run: |
-          npm install --no-save --no-package-lock playwright@1
+          npm install --no-save --no-package-lock playwright@1.64.0
           npx playwright install --with-deps chromium
 
+      - name: Fingerprint the map
+        id: fingerprint
+        # Rendered before build.json exists, so the revision line is not part of the fingerprint.
+        run: |
+          node site/tools/render.mjs _site / fingerprint
+          echo "sha256=$(sha256sum fingerprint/Embedded-Engineering-Roadmap.png | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
+
+      - name: Decide the version
+        id: version
+        env:
+          FINGERPRINT: ${{ steps.fingerprint.outputs.sha256 }}
+          BUMP: ${{ inputs.bump || 'auto' }}
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: .github/scripts/next-version.sh
+
       - name: Render the roadmap to PDF and PNG
-        run: node site/tools/render.mjs _site / _site
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+          DATE: ${{ steps.version.outputs.date }}
+        run: |
+          node -e 'console.log(JSON.stringify({ version: process.env.VERSION, date: process.env.DATE }))' > _site/build.json
+          cat _site/build.json
+          node site/tools/render.mjs _site / _site
 
       - uses: actions/upload-artifact@v4
         with:
@@ -69,11 +98,40 @@ jobs:
         with:
           path: _site
 
+  release:
+    name: Release ${{ needs.build.outputs.version }}
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master' && needs.build.outputs.release == 'true'
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: roadmap-render
+
+      - name: Create the release with the PDF and PNG
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          VERSION: ${{ needs.build.outputs.version }}
+          PREVIOUS: ${{ needs.build.outputs.previous }}
+          FINGERPRINT: ${{ needs.build.outputs.fingerprint }}
+        run: |
+          gh api "repos/$GH_REPO/releases/generate-notes" -f tag_name="$VERSION" -f target_commitish="$GITHUB_SHA" \
+            -f previous_tag_name="$PREVIOUS" --jq .body > notes.md
+          # The next build compares its map with this fingerprint to decide whether a new patch release is due.
+          printf '\n<!-- map-fingerprint: %s -->\n' "$FINGERPRINT" >> notes.md
+          gh release create "$VERSION" Embedded-Engineering-Roadmap.pdf Embedded-Engineering-Roadmap.png \
+            --target "$GITHUB_SHA" --title "$VERSION" --notes-file notes.md
+
   deploy:
     name: Deploy to GitHub Pages
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
-    needs: build
-    runs-on: ubuntu-latest
+    if: >-
+      !cancelled() && github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+      && needs.build.result == 'success' && needs.release.result != 'failure'
+    needs: [build, release]
+    runs-on: ubuntu-24.04
     permissions:
       pages: write
       id-token: write
@@ -83,22 +141,3 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
-
-  release-assets:
-    name: Attach PDF and PNG to the release
-    if: github.event_name == 'release'
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: roadmap-render
-
-      - name: Upload release assets
-        env:
-          GH_TOKEN: ${{ github.token }}
-          GH_REPO: ${{ github.repository }}
-          TAG: ${{ github.event.release.tag_name }}
-        run: gh release upload "$TAG" Embedded-Engineering-Roadmap.pdf Embedded-Engineering-Roadmap.png --clobber
