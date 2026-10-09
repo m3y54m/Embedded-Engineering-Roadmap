@@ -30,3 +30,13 @@ Contributions from everyone are welcomed. To keep the roadmap practical, accessi
 - Contributions should match the topics and structure of the roadmap.
 - Areas where contributors have experience or genuine interest should be focused on.
 - If a new topic is thought to make the roadmap more complete, it may be suggested. New topics should be proposed thoughtfully, considering their usefulness and relevance for other learners.
+
+## 6. Versioning and Releases
+
+The roadmap image is versioned as `vMAJOR.MINOR.PATCH`, starting from `v2.0.0`.
+
+- **No new version** for changes that do not change the roadmap map, such as new learning resources, descriptions or documentation.
+- **Patch** (`v2.0.0` → `v2.0.1`) is automatic: when a change merged into `master` changes the rendered map, CI publishes the next patch release with the PDF and PNG attached.
+- **Minor** (`v2.0.234` → `v2.1.0`) and **major** (`v2.43.57` → `v3.0.0`) are decided by the maintainer: run the *Roadmap explorer* workflow from the Actions tab on `master` and choose `minor` or `major`.
+
+Releases should not be created by hand; the workflow renders the files and records the map fingerprint that later builds compare against.
