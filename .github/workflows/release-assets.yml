@@ -40,7 +40,20 @@ jobs:
       - name: Install converters
         run: |
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends libreoffice-draw poppler-utils imagemagick fonts-liberation fonts-dejavu-core
+          sudo apt-get install -y --no-install-recommends libreoffice-draw poppler-utils imagemagick fonts-crosextra-carlito
+
+      # The diagram uses Sofia Sans Semi Condensed (OFL); Carlito stands in for Calibri.
+      - name: Install diagram font
+        run: |
+          url="https://raw.githubusercontent.com/google/fonts/8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5/ofl/sofiasanssemicondensed/SofiaSansSemiCondensed%5Bwght%5D.ttf"
+          curl -fsSL -o SofiaSansSemiCondensed.ttf "$url"
+          echo "7942e1c0b370cb5fe8dbf3584a3f38a913ad84a27e13e74ccd0e547e43d57a1f  SofiaSansSemiCondensed.ttf" | sha256sum -c -
+          mkdir -p ~/.local/share/fonts
+          mv SofiaSansSemiCondensed.ttf ~/.local/share/fonts/
+          fc-cache -f
+          fc-match "Sofia Sans Semi Condensed"
+          fc-match "Sofia Sans Semi Condensed Black"
+          fc-match "Calibri"
 
       - name: Render PDF and PNG
         run: |
