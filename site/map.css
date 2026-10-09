@@ -21,12 +21,9 @@
 .start-strip,
 .map-toolbar {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
   gap: 6px;
-  overflow-x: auto;
-  scrollbar-width: thin;
-  padding-bottom: 2px;
 }
 
 .start-strip > *,
@@ -411,11 +408,19 @@
     padding: 8px 10px;
   }
 
+  /* One swipeable row per strip; the fade at the right edge shows there is more. */
   .start-strip,
   .map-toolbar {
     flex-wrap: nowrap;
     overflow-x: auto;
     scrollbar-width: none;
+    padding-right: 28px;
+    mask-image: linear-gradient(90deg, #000 calc(100% - 28px), transparent);
+  }
+
+  .start-strip::-webkit-scrollbar,
+  .map-toolbar::-webkit-scrollbar {
+    display: none;
   }
 
   .start-chip,
