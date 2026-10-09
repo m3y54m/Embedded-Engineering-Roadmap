@@ -54,7 +54,7 @@ jobs:
           python3 -m fontTools varLib.instancer ~/.local/share/fonts/SofiaSansSemiCondensed.ttf wght=900 --update-name-table -o ~/.local/share/fonts/SofiaSansSemiCondensed-Black.ttf
           fc-cache -f
           fc-list | grep -i sofia
-          fc-list : family | grep -qx "Sofia Sans Semi Condensed Black"
+          fc-list : family | grep -q "Sofia Sans Semi Condensed Black"
           fc-match "Calibri"
 
       - name: Render PDF and PNG
