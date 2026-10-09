@@ -1165,7 +1165,7 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 - [📘 Bootlin Embedded Linux, Kernel, drivers, Yocto, Buildroot and Graphics Training](https://bootlin.com/training/)
 - [🔗 meta-raspberrypi - Yocto/OpenEmbedded layer for Raspberry Pi boards](https://meta-raspberrypi.readthedocs.io/en/latest/)
 
-##### 🔶 Multithreading & Parallel Processing
+#### 🔵 Multithreading & Parallel Processing
 
 - [📝 Threading/Concurrency vs Parallelism](http://www.danielmoth.com/Blog/threadingconcurrency-vs-parallelism.aspx)
 - [📝 Multi-threading and Parallel Programming](https://dev.to/kwereutosu/multi-threading-and-parallel-programming-1l9m)
@@ -1182,7 +1182,7 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 - [📝👶 An Even Easier Introduction to CUDA - NVIDIA Technical Blog](https://developer.nvidia.com/blog/even-easier-introduction-cuda/)
 - [🔗👶 GPU Puzzles - Solve puzzles, learn CUDA](https://github.com/srush/GPU-Puzzles)
 
-##### 🔶 Inter-Process Communication (IPC)
+#### 🔵 Inter-Process Communication (IPC)
 
 - [📝 Inter Process Communication (IPC)](https://www.scaler.com/topics/operating-system/inter-process-communication-in-os/)
 - [📝 What Is Inter-Process Communication In Linux?](https://www.scaler.com/topics/ipc-in-linux/)
@@ -1191,7 +1191,7 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 - [🎞️ Udemy – Multi-Threading and IPC with Qt 5 C++](https://www.udemy.com/course/multi-threading-and-ipc-with-qt-c-plus-plus/)
 - [📝 D-Bus Tutorial](https://dbus.freedesktop.org/doc/dbus-tutorial.html)
 
-##### 🔶 Qt Framework
+#### 🔵 Qt Framework
 
 - [🔗 Qt Documentation](https://doc.qt.io/)
 
