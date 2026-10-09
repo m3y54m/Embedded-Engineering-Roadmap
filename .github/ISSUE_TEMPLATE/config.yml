@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contributing guidelines
+    url: https://github.com/m3y54m/Embedded-Engineering-Roadmap/blob/master/CONTRIBUTING.md
+    about: Read these before suggesting a resource or opening a pull request.

@@ -1,0 +1,36 @@
+name: Suggest a topic or structure change
+description: Propose a new topic, a missing section, or a reorganization
+title: "[Roadmap] "
+labels: ["roadmap"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        New topics should be useful to other learners and fit the roadmap's structure. See the "Roadmap Alignment" section of the [contributing guidelines](https://github.com/m3y54m/Embedded-Engineering-Roadmap/blob/master/CONTRIBUTING.md).
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What do you suggest?
+      multiple: true
+      options:
+        - Add a new topic or section
+        - Move or reorganize existing sections
+        - Change the roadmap diagram
+        - Improve the introduction or explanations
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Describe the change and where it would go.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does it help learners?
+      description: Which skill or job role it covers, and why it is missing today.
+    validations:
+      required: true

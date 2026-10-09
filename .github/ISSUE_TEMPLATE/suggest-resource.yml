@@ -1,0 +1,78 @@
+name: Suggest a resource
+description: Propose a book, video, article or tool to add to the roadmap
+title: "[Resource] "
+labels: ["resource"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Please read the [contributing guidelines](https://github.com/m3y54m/Embedded-Engineering-Roadmap/blob/master/CONTRIBUTING.md) first.
+        Free resources are preferred, and each entry needs a clear reason to be there.
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title and author
+      description: As it should appear in the list, for example "Title - Author".
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Resource type
+      options:
+        - "📘 Book"
+        - "🎞️ Video"
+        - "📝 Article or blog post"
+        - "🔗 Other (tool, documentation, website)"
+        - "🎧 Audio book"
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section it belongs to
+      description: Heading in the README where it fits best. If you are not sure, describe the topic.
+      placeholder: "Microcontrollers > Interrupts"
+    validations:
+      required: true
+  - type: dropdown
+    id: level
+    attributes:
+      label: Audience
+      options:
+        - Beginner-friendly (👶)
+        - Intermediate
+        - Advanced
+        - Well-known, comprehensive reference (💎)
+      multiple: true
+    validations:
+      required: true
+  - type: dropdown
+    id: cost
+    attributes:
+      label: Cost
+      options:
+        - Free
+        - Free with registration
+        - Paid
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should it be included?
+      description: If it is paid, explain why it is clearly better than the free options already listed.
+    validations:
+      required: true
+  - type: input
+    id: replaces
+    attributes:
+      label: Replaces an existing entry (optional)
+      description: Name or link of the entry this would replace, if any.
