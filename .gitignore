@@ -1,0 +1,14 @@
+# Visio and draw.io lock/backup files
+~$*
+*.bkp
+
+# Link checker cache
+.lycheecache
+
+# Editors and OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local tooling
+node_modules/
