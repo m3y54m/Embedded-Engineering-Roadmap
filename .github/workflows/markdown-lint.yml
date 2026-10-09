@@ -17,7 +17,7 @@ jobs:
     name: Markdown lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: DavidAnson/markdownlint-cli2-action@v19
         with:
@@ -27,7 +27,7 @@ jobs:
     name: README conventions
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Check entry format and duplicates
         run: python3 .github/scripts/check_readme.py

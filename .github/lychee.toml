@@ -1,16 +1,28 @@
-# Many sites in the README (Udemy, Medium, NXP, Microchip, ...) answer bots with 403/429
-# while working fine in a browser, so those codes count as alive.
-accept = [200, 203, 206, 403, 429]
+# Many sites in the README (Udemy, Medium, Microchip, ...) answer bots with 403/429 while
+# working fine in a browser, and some redirect to consent pages, so these count as alive.
+accept = ["200..=399", "403", "429"]
 
-# Amazon and LinkedIn return bot challenges or non-standard codes for every request.
 exclude = [
+  # Bot challenges or non-standard codes for every request.
   '^https?://(www\.)?amazon\.',
   '^https?://a\.co/',
   '^https?://(www\.)?linkedin\.com/',
+  # Return 404 to non-browser clients although the pages exist.
+  '^https?://(www\.)?nxp\.com/',
+  # Fail HTTP/2 negotiation with the checker's client.
+  '^https?://(www\.|wiki\.)?st\.com/',
+  '^https?://(www\.)?analog\.com/',
+  '^https?://(www\.)?embedded\.com/',
+  '^https?://(www\.)?electronics-tutorials\.ws',
+  '^https?://gemini\.google\.com/',
+  # Broken certificate chain on the server side.
+  '^https?://(www\.)?autosar\.org/',
+  # Repository badge links; GitHub hides these pages from anonymous clients.
+  '^https://github\.com/m3y54m/Embedded-Engineering-Roadmap/(stargazers|watchers|forks|graphs|releases)',
 ]
 
 max_retries = 3
 retry_wait_time = 5
-timeout = 30
+timeout = 60
 max_concurrency = 8
 user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
