@@ -1,0 +1,16 @@
+# Many sites in the README (Udemy, Medium, NXP, Microchip, ...) answer bots with 403/429
+# while working fine in a browser, so those codes count as alive.
+accept = [200, 203, 206, 403, 429]
+
+# Amazon and LinkedIn return bot challenges or non-standard codes for every request.
+exclude = [
+  '^https?://(www\.)?amazon\.',
+  '^https?://a\.co/',
+  '^https?://(www\.)?linkedin\.com/',
+]
+
+max_retries = 3
+retry_wait_time = 5
+timeout = 30
+max_concurrency = 8
+user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
