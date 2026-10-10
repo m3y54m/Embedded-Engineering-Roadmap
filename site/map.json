@@ -498,11 +498,6 @@
     "Basic Math & Calculus": ["Basic Calculus"],
     "SDLC Models": ["Software Development Life Cycle (SDLC) Models"],
     "Version Control": ["Version Control Systems"],
-    "AUTOSAR": ["AUTOSAR Architecture"],
-    "Profinet": ["Industrial Protocols"],
-    "LIN": ["Automotive Protocols"],
-    "MOST": ["Automotive Protocols"],
-    "FlexRay": ["Automotive Protocols"],
-    "UWB": ["Wireless Protocols"]
+    "AUTOSAR": ["AUTOSAR Architecture"]
   }
 }

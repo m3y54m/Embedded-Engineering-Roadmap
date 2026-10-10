@@ -26,15 +26,12 @@ function topicIndex(topics) {
 
 export function linkDiagram(map, data) {
   const index = topicIndex(data.topics);
-  const softSkills = data.topics.find((t) => t.depth === 1 && key(t.title) === 'soft skills');
   // map.json "readme": map labels whose README heading is worded differently (or has no section of its own).
   const aliases = map.readme || {};
-  const resolve = (text, areas = []) => {
+  const resolve = (text) => {
     if (Object.hasOwn(aliases, text)) return [aliases[text]].flat().map((title) => index.get(key(title))).filter(Boolean);
     const topic = index.get(key(text));
-    if (topic) return [topic];
-    if (softSkills && areas.includes('SOFT SKILLS')) return [softSkills];
-    return [];
+    return topic ? [topic] : [];
   };
 
   // A cluster's areas are those of the band it sits in; a group's are the areas all its clusters share.
@@ -49,7 +46,7 @@ export function linkDiagram(map, data) {
       for (const [text, importance] of spec.topics) boxes.push({ text, importance, areas: band.areas, cluster, header: false });
     }
   }
-  boxes.forEach((b, i) => Object.assign(b, { id: `box-${i}`, topics: resolve(b.text, b.areas) }));
+  boxes.forEach((b, i) => Object.assign(b, { id: `box-${i}`, topics: resolve(b.text) }));
   const regions = Object.entries(map.groups).map(([name, clusters]) => {
     const areas = AREA_ORDER.filter((a) => clusters.every((c) => (clusterAreas.get(c) || []).includes(a)));
     return { name, clusters, areas, topics: resolve(name) };
@@ -74,8 +71,18 @@ export function linkDiagram(map, data) {
       for (const area of region.areas) if (!t.areas.includes(area)) t.areas.push(area);
     }
   }
-  // Subtopics that are not drawn in the diagram inherit the areas of their closest drawn ancestor.
+  // Subtopics that are not drawn in the diagram inherit the areas of their closest drawn ancestor;
+  // a topic that is not drawn itself but has drawn subtopics (Soft Skills) takes theirs.
+  const fromChildren = new Map();
   for (const t of data.topics) {
+    if (!t.areas.length) continue;
+    for (let p = t.parent; p; p = p.parent) {
+      if (!fromChildren.has(p)) fromChildren.set(p, new Set());
+      for (const area of t.areas) fromChildren.get(p).add(area);
+    }
+  }
+  for (const t of data.topics) {
+    if (!t.areas.length && fromChildren.has(t)) t.areas = [...fromChildren.get(t)];
     if (!t.areas.length) for (let p = t.parent; p && !t.areas.length; p = p.parent) t.areas = [...(p.areas || [])];
     t.areas.sort((a, b) => AREA_ORDER.indexOf(a) - AREA_ORDER.indexOf(b));
   }

@@ -228,6 +228,33 @@ Similar to other professions, embedded engineers require soft skills that can't 
 - [📝 Soft Skills For Embedded Systems Software Developers](https://www.embeddedrelated.com/showarticle/1470.php)
 - [📝 10 Skills Every Embedded Engineer Should Have](https://medium.com/@lanceharvieruntime/10-skills-every-embedded-engineer-should-have-dcb867095b91)
 
+#### 🔵 Communication Skills
+
+- [🔗👶 Technical Writing Courses - Google for Developers](https://developers.google.com/tech-writing)
+
+#### 🔵 Problem-Solving Skills & Critical Thinking
+
+- [📘💎 Debugging: The 9 Indispensable Rules for Finding Even the Most Elusive Software and Hardware Problems - David J. Agans](https://debuggingrules.com/)
+- [📝 How to Solve It - Wikipedia](https://en.wikipedia.org/wiki/How_to_Solve_It)
+
+#### 🔵 Teamwork & Collaborative Abilities
+
+- [📝 How to Work Well on Teams - Software Engineering at Google](https://abseil.io/resources/swe-book/html/ch02.html)
+- [🔗 Atlassian Team Playbook](https://www.atlassian.com/team-playbook)
+
+#### 🔵 Organizational & Time Management Skills
+
+- [🔗 Getting Things Done® - David Allen's GTD® Methodology](https://gettingthingsdone.com/)
+
+#### 🔵 Being Self-Driven and Independent
+
+- [🎞️👶 Learning How to Learn - Coursera](https://www.coursera.org/learn/learning-how-to-learn)
+- [📝💎 Teach Yourself Programming in Ten Years - Peter Norvig](https://norvig.com/21-days.html)
+
+#### 🔵 Adaptability & Patience
+
+- [📘 Mindset: The New Psychology of Success - Carol S. Dweck](https://www.penguinrandomhouse.com/books/44330/mindset-by-carol-s-dweck-phd/)
+
 _________________
 
 ### ✳️ Electronics
@@ -759,6 +786,12 @@ Embedded systems often communicate with other devices or external systems via in
 
 - [🎞️ What is Matter? Unifying IoT Devices for the Smart Home | Digi-Key Electronics](https://youtu.be/vJIEfih9bl0)
 
+##### 🔶 UWB
+
+- [📘👶 Ultra-Wideband For Dummies - Qorvo](https://www.qorvo.com/design-hub/ebooks/ultra-wideband-for-dummies)
+- [🔗 FiRa Consortium - Advancing Ultra-Wideband (UWB) Technology](https://www.firaconsortium.org/)
+- [📝 Ultra-wideband - Wikipedia](https://en.wikipedia.org/wiki/Ultra-wideband)
+
 #### 🔵 Industrial Protocols
 
 ##### 🔶 Modbus
@@ -775,6 +808,12 @@ Embedded systems often communicate with other devices or external systems via in
 ##### 🔶 EtherCAT
 
 - [🎞️ Microchip University - An Introduction to EtherCAT®, EtherCAT P and the Microchip LAN925x family of Slave Controllers](https://mu.microchip.com/an-introduction-to-ethercat-ethercat-p-and-the-microchip-lan925x-family-of-slave-controllers)
+
+##### 🔶 Profinet
+
+- [🎞️👶 How PROFINET Works? A Beginner's Guide - PI North America](https://us.profinet.com/webinar/how-profinet-works-a-beginners-guide/)
+- [🎞️ PROFINET Video Series](https://www.profinet.com/profinet-explained/explanatory-videos)
+- [🔗 PROFINET University](https://profinetuniversity.com/)
 
 ##### 🔶 CoAP & MQTT
 
@@ -826,6 +865,21 @@ Embedded systems often communicate with other devices or external systems via in
 - [🎞️ CAN Bus, OBD2 & J1939 Explained (YouTube Playlist)](https://www.youtube.com/playlist?list=PLpV68vjf4Xo4vZ_SjJ6tTlomYm-k18vDZ)
 - [🎞️ J1939 Explained - A Simple Intro [v2.0 | 2021]](https://www.youtube.com/watch?v=vlqxu9ojbHg)
 - [🎞️ Unified Diagnostic Services (UDS) Explained - A Simple Intro [2022]](https://www.youtube.com/watch?v=CV_B8tJgI5E)
+
+##### 🔶 LIN
+
+- [📝👶 LIN Bus Explained - A Simple Intro - CSS Electronics](https://www.csselectronics.com/pages/lin-bus-protocol-intro-basics)
+- [📝 Local Interconnect Network - Wikipedia](https://en.wikipedia.org/wiki/Local_Interconnect_Network)
+
+##### 🔶 MOST
+
+- [📝 MOST Bus - Wikipedia](https://en.wikipedia.org/wiki/MOST_(bus))
+- [🔗 MOST Cooperation - Specifications](https://www.mostcooperation.com/specifications/)
+
+##### 🔶 FlexRay
+
+- [📝 FlexRay Automotive Communication Bus Overview - NI](https://www.ni.com/en/shop/seamlessly-connect-to-third-party-devices-and-supervisory-system/flexray-automotive-communication-bus-overview.html)
+- [📝 FlexRay - Wikipedia](https://en.wikipedia.org/wiki/FlexRay)
 
 #### 🔵 Network Protocols / Socket Programming
 
