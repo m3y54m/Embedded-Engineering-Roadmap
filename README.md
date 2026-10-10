@@ -42,7 +42,9 @@ used in an aircraft or rapid transit system.
 
 ## 🗺️ The Roadmap
 
-![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)
+🌐 **[Open the interactive roadmap](https://m3y54m.github.io/Embedded-Engineering-Roadmap/)** to explore it in your browser. Click any topic to read its description and see its learning resources, hover over it to see the topics it is related to, filter topics by area (software, hardware, soft skills) or importance, and search across all topics and resources. The roadmap can also be downloaded there as a PDF or PNG image.
+
+[![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)](https://m3y54m.github.io/Embedded-Engineering-Roadmap/)
 
 The embedded systems engineering roadmap is structured into three fundamental areas: **SOFTWARE**, **HARDWARE**, and **SOFT SKILLS**.
 
