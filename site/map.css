@@ -276,13 +276,13 @@
 }
 
 .box.header.target:hover .header-text,
-.box.header.lit .header-text,
-.group-tag.target:hover .tag-text {
+.box.header.lit .header-text {
   text-decoration: underline;
 }
 
 .group-tag.target:hover .tag-bg {
-  fill: var(--chip-hover);
+  fill: color-mix(in srgb, var(--surface-solid) 85%, var(--accent));
+  stroke-width: 3;
 }
 
 .box.selected .box-bg {
