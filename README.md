@@ -125,7 +125,7 @@ If you have reservations about relying on AI advice alone, you can also ask your
 - [🔗 Electrical Engineering Stack Exchange](https://electronics.stackexchange.com/)
 - [🔗 Reddit · r/embedded](https://www.reddit.com/r/embedded/)
 
-### ✳️ Career Development
+### 💼 Career Development
 
 As an embedded systems engineer, it's essential to stay up-to-date with industry trends, best practices, and new technologies to advance your career. Here are some resources to help you achieve your career goals:
 
