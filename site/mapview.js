@@ -457,6 +457,41 @@ export function createMapView({ root, plan, data, build, onSelect }) {
     setView({ x: px - (px - v.x) / factor, y: py - (py - v.y) / factor, w: v.w / factor });
   }
 
+  // Two fingers: zoom around their midpoint and pan with it.
+  const touches = new Map();
+  let pinch = null;
+  const spread = () => {
+    const [a, b] = [...touches.values()];
+    return { dist: Math.hypot(a.x - b.x, a.y - b.y), x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };
+  };
+
+  function beginPinch() {
+    pinch = spread();
+    // The click that ends the gesture must not open a topic.
+    state.drag = { moved: true, id: null };
+    chart.classList.add('panning');
+    hover(null);
+  }
+
+  function movePinch() {
+    if (touches.size < 2) return;
+    const now = spread();
+    if (pinch.dist > 0 && now.dist > 0) zoomAt(now.dist / pinch.dist, now.x, now.y);
+    const unit = state.view.w / chart.getBoundingClientRect().width;
+    fitMode = 'custom';
+    setView({ ...state.view, x: state.view.x - (now.x - pinch.x) * unit, y: state.view.y - (now.y - pinch.y) * unit });
+    pinch = now;
+  }
+
+  function endTouch(e) {
+    if (!touches.delete(e.pointerId)) return;
+    if (pinch && touches.size < 2) {
+      pinch = null;
+      chart.classList.remove('panning');
+    }
+    if (!touches.size && state.drag && state.drag.id === null) window.setTimeout(() => { state.drag = null; }, 0);
+  }
+
   chart.addEventListener('wheel', (e) => {
     e.preventDefault();
     if (e.ctrlKey || e.metaKey) {
@@ -471,10 +506,20 @@ export function createMapView({ root, plan, data, build, onSelect }) {
     setView({ ...state.view, x: state.view.x + dx * unit, y: state.view.y + dy * unit });
   }, { passive: false });
   chart.addEventListener('pointerdown', (e) => {
+    if (e.pointerType === 'touch') touches.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (touches.size === 2) {
+      beginPinch();
+      return;
+    }
     if (e.button !== 0) return;
     state.drag = { x: e.clientX, y: e.clientY, view: { ...state.view }, moved: false, id: e.pointerId };
   });
   chart.addEventListener('pointermove', (e) => {
+    if (touches.has(e.pointerId)) touches.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pinch) {
+      movePinch();
+      return;
+    }
     const drag = state.drag;
     if (!drag || drag.id !== e.pointerId) return;
     const dx = e.clientX - drag.x;
@@ -490,6 +535,7 @@ export function createMapView({ root, plan, data, build, onSelect }) {
     setView({ ...drag.view, x: drag.view.x - dx * scale, y: drag.view.y - dy * scale });
   });
   const endDrag = (e) => {
+    endTouch(e);
     if (!state.drag || state.drag.id !== e.pointerId) return;
     chart.classList.remove('panning');
     // The click that follows a drag still needs to see `moved`.
@@ -498,6 +544,20 @@ export function createMapView({ root, plan, data, build, onSelect }) {
   chart.addEventListener('pointerup', endDrag);
   chart.addEventListener('pointercancel', endDrag);
   chart.addEventListener('dblclick', toggleFit);
+
+  // Safari on a Mac sends its own gesture events for trackpad pinches (other browsers send Ctrl + wheel).
+  // On iOS the same pinch also arrives as touches, which are handled above, so skip it there.
+  let gestureScale = 1;
+  chart.addEventListener('gesturestart', (e) => {
+    e.preventDefault();
+    gestureScale = 1;
+  });
+  chart.addEventListener('gesturechange', (e) => {
+    e.preventDefault();
+    if (touches.size) return;
+    zoomAt(e.scale / gestureScale, e.clientX, e.clientY);
+    gestureScale = e.scale;
+  });
 
   const zoomLevel = h('span', { class: 'zoom-level', 'aria-live': 'polite' }, '100%');
   const fitButton = h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Toggle between fitting the width and the whole page', title: 'Show the whole page', onclick: toggleFit }, '⤢');
