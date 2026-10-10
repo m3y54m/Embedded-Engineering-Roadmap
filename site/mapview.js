@@ -423,10 +423,11 @@ export function createMapView({ root, plan, data, build, onSelect }) {
     fitButton.title = 'Show the whole page';
   }
 
+  const pageFitWidth = (size) => Math.max(page.w, (page.h + 40) / (size ? size.h / size.w : page.h / page.w)) + 40;
+
   function fitPage() {
     const size = canvasSize();
-    const aspect = size ? size.h / size.w : page.h / page.w;
-    const width = Math.max(page.w, (page.h + 40) / aspect) + 40;
+    const width = pageFitWidth(size);
     fitMode = 'page';
     setView({ x: (page.w - width) / 2, y: 0, w: width });
     fitButton.title = 'Fit the width';
@@ -446,7 +447,9 @@ export function createMapView({ root, plan, data, build, onSelect }) {
     const size = canvasSize();
     if (!size) return;
     const scale = (size.w / v.w) * factor;
-    if (scale < (size.w / page.w) * MIN_ZOOM || scale > MAX_ZOOM) return;
+    // Limits only stop a step that goes further out of range; the whole-page view is always reachable.
+    const minScale = Math.min((size.w / page.w) * MIN_ZOOM, size.w / pageFitWidth(size), size.w / v.w);
+    if (factor > 1 ? scale > MAX_ZOOM : scale < minScale) return;
     const [px, py] = clientX == null ? [v.x + v.w / 2, v.y + v.h / 2] : toChart(clientX, clientY);
     fitMode = 'custom';
     setView({ x: px - (px - v.x) / factor, y: py - (py - v.y) / factor, w: v.w / factor });
