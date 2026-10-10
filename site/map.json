@@ -488,7 +488,7 @@
     "Microcontrollers": ["rtos", "mcu"],
     "Interfaces & Protocols": ["basic", "wireless", "highSpeed", "industrial", "cellular", "network", "automotive", "display"]
   },
-  "offMap": ["Don't Know Where to Start!", "Appendix-A: Advanced Topics"],
+  "offMap": ["Don't Know Where to Start!"],
   "readme": {
     "ADC / DAC": ["ADC", "DAC"],
     "Buildroot / Yocto": ["Buildroot", "Yocto"],

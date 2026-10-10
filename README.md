@@ -414,13 +414,19 @@ _________________
 
 Mastering programming fundamentals and software development principles is essential for a successful embedded design. Embedded systems demand efficient code, optimized data management, reusable design patterns, and effective memory management to function effectively in resource-constrained environments. Embedded developers must possess a strong foundation in these core concepts to create reliable and performant embedded systems.
 
-#### 🔵 Basic Discrete Mathematics
+#### 🔵 Discrete Mathematics
+
+Discrete mathematics is the theoretical basis of computer science and engineering. The parts most useful to embedded engineers are logic and switching algebra (digital circuit design), automata theory (state machines and protocols), combinatorics, coding theory (data transmission and audio/video codecs) and modular arithmetic (checksums and cryptography).
 
 - [🎞️ Coursera - Introduction to Discrete Mathematics for Computer Science Specialization](https://www.coursera.org/specializations/discrete-mathematics)
 - [📘👶 Open Access Discrete Mathematics Books by LibreTexts](https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics)
 - [📘👶 Essential Discrete Mathematics for Computer Science - Harry Lewis, Rachel Zax](https://dl.acm.org/doi/book/10.5555/3388468)
 - [📘👶 Guide to Discrete Mathematics - Gerard O'Regan, Springer](https://link.springer.com/book/10.1007/978-3-030-81588-2)
 - [📘💎 Bridge to Abstract Mathematics, AMS](https://bookstore.ams.org/view?ProductCode=TEXT/22)
+- [📘💎 Discrete Mathematics and its applications by Rosen](https://dl.acm.org/doi/book/10.5555/579402)
+- [📘💎 Discrete Mathematics with Applications by Susanna S. Epp](https://dl.acm.org/doi/book/10.5555/1941983)
+- [📘💎 Switching and Finite Automata Theory, Cambridge Press](https://dl.acm.org/doi/10.5555/1708070)
+- [📘💎 The Mathematics of Cellular Automata by Jane Hawkins, AMS](https://bookstore.ams.org/stml-108)
 
 #### 🔵 Algorithms & Data Structures
 
@@ -1581,35 +1587,6 @@ AUTOSAR, or AUTomotive Open System ARchitecture, is a global industry standard f
 - [📝 OSEK OS Overview](https://www.autosartoday.com/posts/osek_os_overview)
 - [🔗💎 OSEK/VDX Operating System Specification 2.2.3](https://www.osek-vdx.org/mirror/os223.pdf)
 - [🔗💎 OSEK/VDX OIL (OSEK Implementation Language) Specification 2.4.1](https://www.osek-vdx.org/mirror/oil241.pdf)
-
-_________________
-
-### ✳️ Appendix-A: Advanced Topics
-
-#### 🔵 Discrete Mathematics
-
-A common subject that is essential to Computer Science students and some Math/Electrical Engineering Majors based on the [Association For Computing Machinery Guidelines for CS/CE education](https://www.acm.org/education/curricula-recommendations). It houses the most essential subjects for _abstract mathematical modelling_ and _theory of computation_. Furthermore, it helps students to establish the essential engineering mindset that represents the common basis among all computer science and computer engineering domains. However, Logic, Theory of combinatorics, Coding Theory, and Theory of Computation are among the most essential subjects for Embedded Systems Engineers.
-
-_**Goal of learning Discrete Mathematics:**_ Embedded Systems Engineers should be able to grasp most of these information sooner or later based on their subspeciality; as it explains the scientific and theoretical basis of computer engineering (e.g., Coding Theory for Audio/Video Encoding/Decoding and Data Transmission - Automata Theory for event control and data transmission - Logic for digital circuit design and switching algebra - $$\Pi$$ Calculus and Automata Theory for Concurrency Modelling).
-
-_Discrete Mathematics_ is a multi-semester course that involves subjects about the theoretical mathematical basis of computer science, including but not limited to:
-
-- Logic (Propositional, Quantificational and Normal Forms).
-- Axiomatic Set Theory (Sets, Operations on sets, and Power Sets).
-- Relation Sets and Function Theory (i.e., $$\lambda$$ Calculus).
-- Theory of combinatorics.
-- Matrix and Graph Theory.
-- Theory of computation (i.e., Computational Automata Theory, Computational Complexity, and Computational Computability).
-- Automata Theory (e.g., Finite-state Machines, Pushdown Automata, Turing Machines, and Cellular Automata).
-- Process Modelling/Calculi (i.e., $$\pi$$ Calculus).
-- Coding Theory.
-- Division Theorem Modular Arithmetics (Parts of Number Theory).
-- [📘💎 Discrete Mathematics and its applications by Rosen](https://dl.acm.org/doi/book/10.5555/579402)
-- [📘💎 Discrete Mathematics with Applications by Susanna S. Epp](https://dl.acm.org/doi/book/10.5555/1941983)
-- [📘💎 Switching and Finite Automata Theory, Cambridge Press](https://dl.acm.org/doi/10.5555/1708070)
-- [📘💎 Discrete Mathematical Structures by Bernard Kolman](https://www.pearson.com/en-us/subject-catalog/p/discrete-mathematical-structures-classic-version/P200000006227/9780137538782?srsltid=AfmBOooBdohmNtq7Wu42tHwSt7lUma46hBmKjqk8XJ8NNI6sf2-4-1kg)
-- [📘💎 Invitation to Discrete Mathematics, Oxford University Press](https://global.oup.com/academic/product/invitation-to-discrete-mathematics-9780198570431?cc=eg&lang=en&)
-- [📘💎 The Mathematics of Cellular Automata by Jane Hawkins, AMS](https://bookstore.ams.org/stml-108)
 
 ## History
 
