@@ -29,6 +29,7 @@ const spanW = (n) => n * COL + (n - 1) * GUTTER;
 export const PLACED = [
   'languages', 'fundamentals', 'debugging', 'sdlc', 'vcs', 'build', 'testing', 'specialized', 'osBase', 'linux',
   'rtos', 'mcu', 'bridge', 'basic', 'wireless', 'highSpeed', 'industrial', 'cellular', 'network', 'automotive',
+  'display',
   'electronics', 'equipment', 'prototyping', 'fpga', 'soft',
 ];
 
@@ -106,7 +107,7 @@ export function buildLayout(plan) {
   const ifBottom = Math.max(
     stack(['basic', 'wireless'], sub[0], ifContent, subW),
     stack(['highSpeed', 'industrial', 'cellular'], sub[1], ifContent, subW),
-    stack(['network', 'automotive'], sub[2], ifContent, subW),
+    stack(['network', 'automotive', 'display'], sub[2], ifContent, subW),
   );
   const interfaces = { x: c[2] - SPACE, y: groupTop, w: wide + 2 * SPACE, h: ifBottom + SPACE - groupTop };
   const bridgeBottom = add(place(clusters.bridge, c[4], groupTop, COL));

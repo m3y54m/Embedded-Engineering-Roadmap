@@ -198,6 +198,14 @@
             ["MOST", "possible"],
             ["FlexRay", "possible"]
           ]
+        },
+        "display": {
+          "header": "Display & Camera",
+          "per": 2,
+          "topics": [
+            ["MIPI CSI-2", "possible"],
+            ["MIPI DSI", "possible"]
+          ]
         }
       }
     },
@@ -450,6 +458,13 @@
     ["CAN", "Oscilloscope", "Check the differential signal and bus termination"],
     ["MOST", "CAN", "MOST carries media in a vehicle while CAN carries control"],
     ["MOST", "Ethernet", "Automotive Ethernet is replacing MOST"],
+    ["MIPI CSI-2", "MIPI DSI", "Camera and display links share the MIPI D-PHY physical layer"],
+    ["MIPI CSI-2", "I2C", "Camera sensors are configured over a control bus such as I2C"],
+    ["MIPI CSI-2", "Device Drivers", "Linux exposes camera sensors through V4L2 drivers"],
+    ["MIPI CSI-2", "Edge AI", "Camera frames are the main input for on-device vision models"],
+    ["MIPI DSI", "Device Drivers", "Linux drives DSI panels through the DRM/KMS subsystem"],
+    ["MIPI DSI", "Embedded GUI", "The display link carries the interface the GUI renders"],
+    ["MIPI DSI", "DMA", "Frame buffers are streamed to the display with DMA"],
 
     ["Basic Math & Calculus", "Principles of Electric Circuits", "Circuit analysis uses algebra and calculus"],
     ["Principles of Electric Circuits", "Electronics Fundamentals", "Components build on circuit laws"],
@@ -471,7 +486,7 @@
   "groups": {
     "Operating Systems": ["osBase", "linux", "rtos"],
     "Microcontrollers": ["rtos", "mcu"],
-    "Interfaces & Protocols": ["basic", "wireless", "highSpeed", "industrial", "cellular", "network", "automotive"]
+    "Interfaces & Protocols": ["basic", "wireless", "highSpeed", "industrial", "cellular", "network", "automotive", "display"]
   },
   "offMap": ["Don't Know Where to Start!", "Appendix-A: Advanced Topics"],
   "readme": {
@@ -487,6 +502,7 @@
     "Wireless": ["Wireless Protocols"],
     "Industrial": ["Industrial Protocols"],
     "Automotive": ["Automotive Protocols"],
+    "Display & Camera": ["Display & Camera Protocols"],
     "Network": ["Network Protocols / Socket Programming"],
     "TCP/IP": ["Network Protocols / Socket Programming"],
     "UDP": ["Network Protocols / Socket Programming"],
