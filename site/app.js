@@ -155,8 +155,33 @@ function topicChips(nodes) {
   }, swatch(n), n.title, h('span', { class: 'n' }, n.total))));
 }
 
-function related(node) {
+// Hand-picked connections of a topic (from map.json), each with the reason it is listed.
+function relatedTopics(node) {
+  const seen = new Set();
+  const items = [];
+  for (const box of node.boxes || []) {
+    for (const { box: other, reason } of box.related || []) {
+      if (seen.has(other)) continue;
+      seen.add(other);
+      items.push({ other, reason });
+    }
+  }
+  return items;
+}
+
+function curatedList(items) {
+  return h('ul', { class: 'related' }, items.map(({ other, reason }) => {
+    const target = other.topics[0];
+    return h('li', {}, h('button', { type: 'button', onclick: () => navigate(target, { reveal: true }) },
+      swatch(target),
+      h('span', {}, other.text),
+      h('span', { class: 'why' }, reason)));
+  }));
+}
+
+function related(node, skip = new Set()) {
   const items = [...node.links]
+    .filter((link) => !skip.has(link.source === node ? link.target : link.source))
     .sort((a, b) => b.weight - a.weight)
     .map((link) => {
       const other = link.source === node ? link.target : link.source;
@@ -282,13 +307,13 @@ function overview(root) {
     section(null, h('div', { class: 'stats' },
       h('div', { class: 'stat' }, h('b', {}, stats.topics), h('span', {}, 'topics')),
       h('div', { class: 'stat' }, h('b', {}, stats.resources), h('span', {}, 'resources')),
-      h('div', { class: 'stat' }, h('b', {}, stats.links), h('span', {}, 'connections')))),
+      h('div', { class: 'stat' }, h('b', {}, state.plan ? state.plan.connections.filter((c) => c.reason).length : stats.links), h('span', {}, 'connections')))),
     state.plan ? section('Diagram topics by area', areaSummary()) : null,
     ...groups.map((g) => section(g.title, topicChips(g.topics))),
     section('How to explore', h('ul', { class: 'howto' },
       h('li', {}, 'Map follows the roadmap diagram: topics sit in Software, Hardware or both, and are colored by importance.'),
       h('li', {}, 'Use the Areas chips to highlight a single area or only the Software ∩ Hardware cross-section.'),
-      h('li', {}, 'Hover or select a topic to see lines to the topics it shares resources with (solid) or is mentioned by (dotted).'),
+      h('li', {}, 'Hover or select a topic to see solid lines to its related topics. Fainter dashed lines come from resources that share or mention a topic.'),
       h('li', {}, 'Outline lists every topic of the README; use it to browse topics that are not on the map.'),
       h('li', {}, 'Press ', h('kbd', {}, '/'), ' to search topics and resources.'))),
     section(null, h('p', { class: 'res-note' }, 'Built from the ',
@@ -325,7 +350,7 @@ function renderPanel(node) {
       node.importance ? h('span', { class: `pill imp-pill ${node.importance}` }, IMPORTANCE[node.importance]) : null,
       h('span', { class: 'pill' }, plural(node.total, 'resource')),
       node.children.length ? h('span', { class: 'pill' }, plural(node.children.length, 'subtopic')) : null,
-      node.links.length ? h('span', { class: 'pill' }, `${node.links.length} connected`) : null)));
+      relatedTopics(node).length ? h('span', { class: 'pill' }, `${relatedTopics(node).length} related`) : null)));
 
   if (node === root) {
     panel.append(...overview(root));
@@ -333,7 +358,11 @@ function renderPanel(node) {
   }
   if (node.description.length) panel.append(section('About', description(node.description)));
   if (node.children.length) panel.append(section('Subtopics', topicChips(node.children)));
-  if (node.links.length) panel.append(section('Connected topics', related(node)));
+  const curated = relatedTopics(node);
+  if (curated.length) panel.append(section('Related topics', curatedList(curated)));
+  const listed = new Set(curated.flatMap(({ other }) => other.topics));
+  const evidence = node.links.filter((link) => !listed.has(link.source === node ? link.target : link.source));
+  if (evidence.length) panel.append(section(curated.length ? 'Also linked by resources' : 'Linked by resources', related(node, listed)));
   panel.append(resources(node));
 }
 

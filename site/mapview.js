@@ -293,7 +293,7 @@ export function createMapView({ root, plan, data, build, onSelect }) {
       h('strong', {}, topic.title),
       topic.areas.length ? h('div', { class: 'tip-areas' }, areaDots(topic.areas), areaLabel(topic.areas)) : null,
       h('div', { class: 'tip-meta' }, [importance ? IMPORTANCE[importance] : null, plural(topic.total, 'resource'),
-        topic.links && topic.links.length ? `${topic.links.length} connected` : null].filter(Boolean).join(' · ')),
+        box && box.related.length ? `${box.related.length} related` : null].filter(Boolean).join(' · ')),
       h('div', { class: 'tip-hint' }, 'Click this topic to open its details'),
     ].filter(Boolean));
     tip.hidden = false;
@@ -325,8 +325,8 @@ export function createMapView({ root, plan, data, build, onSelect }) {
   function drawConnection(connection, layer, cls) {
     svg('path', {
       d: curve(connection.a, connection.b),
-      class: `${cls} ${connection.shared ? 'shared' : 'mention'}`,
-      'stroke-width': (1.4 + Math.min(3, Math.sqrt(connection.weight) * 0.7)).toFixed(2),
+      class: `${cls} ${connection.reason ? 'curated' : 'evidence'}`,
+      'stroke-width': connection.reason ? 2.4 : 1.4,
     }, layer);
     if (cls !== 'link') return;
     for (const box of [connection.a, connection.b]) {
@@ -335,7 +335,8 @@ export function createMapView({ root, plan, data, build, onSelect }) {
     }
   }
 
-  for (const connection of connections) drawConnection(connection, layers.linksAll, 'link-all');
+  // The overview of all connections only shows the hand-picked ones.
+  for (const connection of connections) if (connection.reason) drawConnection(connection, layers.linksAll, 'link-all');
 
   const isWithin = (node, topic) => {
     for (let n = node; n; n = n.parent) if (n === topic) return true;
@@ -353,7 +354,7 @@ export function createMapView({ root, plan, data, build, onSelect }) {
       for (const b of own) lit.add(b);
       for (const connection of connections) {
         if (!(own.has(connection.a) || own.has(connection.b))) continue;
-        if (!connection.links.some((l) => isWithin(l.source, topic) || isWithin(l.target, topic))) continue;
+        if (!connection.reason && !connection.links.some((l) => isWithin(l.source, topic) || isWithin(l.target, topic))) continue;
         drawConnection(connection, layers.links, 'link');
         lit.add(connection.a);
         lit.add(connection.b);
