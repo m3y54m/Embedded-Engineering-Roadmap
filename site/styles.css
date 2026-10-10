@@ -717,11 +717,9 @@ button {
 
 .related .why {
   grid-column: 2;
-  overflow: hidden;
   color: var(--muted);
   font-size: 12px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  line-height: 1.4;
 }
 
 .res-head {

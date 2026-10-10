@@ -71,6 +71,17 @@ test('places topics in the map areas and their cross-section', () => {
   assert.equal(find('Projects').areas.length, 0, 'getting-started topics are not on the map');
 });
 
+test('every map topic is connected to related topics, each connection with a reason', () => {
+  const plan = linkDiagram(map, data);
+  assert.deepEqual(plan.invalidLinks, [], 'map.json "links" name existing topics, once, with a reason');
+  // Soft skills describe the engineer, not the technology, so some of them stand alone.
+  const alone = plan.boxes.filter((b) => !b.header && !b.areas.includes('SOFT SKILLS') && !b.related.length);
+  assert.deepEqual(alone.map((b) => b.text), [], 'topics without a connection');
+  const has = (a, b) => plan.connections.some((c) => c.reason && [c.a.text, c.b.text].sort().join('|') === [a, b].sort().join('|'));
+  assert.ok(has('C', 'Memory Management'));
+  assert.ok(has('Rust', 'Memory Management'));
+});
+
 test('lays the map out on one A4 page with a minimum spacing between boxes', () => {
   const layout = buildLayout(linkDiagram(map, data));
   assert.deepEqual(layout.missing, [], 'every cluster in map.json has a place in layout.js');

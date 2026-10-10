@@ -30,6 +30,7 @@ Contributions from everyone are welcomed. To keep the roadmap practical, accessi
 - Contributions should match the topics and structure of the roadmap.
 - Areas where contributors have experience or genuine interest should be focused on.
 - If a new topic is thought to make the roadmap more complete, it may be suggested. New topics should be proposed thoughtfully, considering their usefulness and relevance for other learners.
+- Connections between topics on the map are listed in `site/map.json` under `links` as `["Topic", "Other topic", "why they are related"]`, using the names shown on the map. Connect topics that a learner should study together or that depend on each other, and keep the reason to one short sentence. Tests fail if a name is misspelled, a pair is listed twice or a topic has no connection.
 
 ## 6. Versioning and Releases
 

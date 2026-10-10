@@ -118,15 +118,41 @@ export function linkDiagram(map, data) {
     return null;
   };
 
+  // A connection joins two boxes. `reason` is set for the hand-picked ones in map.json; the rest
+  // are evidence only (a shared resource, or one topic's text naming another).
   const pairs = new Map();
+  const pairFor = (a, b) => {
+    const [p, q] = a.id < b.id ? [a, b] : [b, a];
+    const id = `${p.id}|${q.id}`;
+    if (!pairs.has(id)) pairs.set(id, { a: p, b: q, reason: null, weight: 0, shared: 0, links: [] });
+    return pairs.get(id);
+  };
+
+  const topicBoxes = new Map(boxes.filter((b) => !b.header).map((b) => [b.text, b]));
+  const invalidLinks = [];
+  for (const box of boxes) box.related = [];
+  for (const [from, to, reason] of map.links || []) {
+    const a = topicBoxes.get(from);
+    const b = topicBoxes.get(to);
+    if (!a || !b || a === b || typeof reason !== 'string' || !reason.trim()) {
+      invalidLinks.push(`${from} - ${to}`);
+      continue;
+    }
+    const pair = pairFor(a, b);
+    if (pair.reason) {
+      invalidLinks.push(`${from} - ${to} (listed twice)`);
+      continue;
+    }
+    pair.reason = reason.trim();
+    a.related.push({ box: b, reason: pair.reason });
+    b.related.push({ box: a, reason: pair.reason });
+  }
+
   for (const link of data.links) {
     const a = boxFor(link.source);
     const b = boxFor(link.target);
     if (!a || !b || a === b) continue;
-    const [p, q] = a.id < b.id ? [a, b] : [b, a];
-    const id = `${p.id}|${q.id}`;
-    if (!pairs.has(id)) pairs.set(id, { a: p, b: q, weight: 0, shared: 0, links: [] });
-    const pair = pairs.get(id);
+    const pair = pairFor(a, b);
     pair.weight += link.weight;
     pair.shared += link.shared.length;
     pair.links.push(link);
@@ -139,6 +165,7 @@ export function linkDiagram(map, data) {
     boxFor,
     connections: [...pairs.values()],
     unmatched: boxes.filter((b) => !b.header && !b.topics.length).map((b) => b.text),
+    invalidLinks,
     invalid: boxes.filter((b) => !b.header && !IMPORTANCE_LEVELS.includes(b.importance)).map((b) => `${b.text}: ${b.importance}`),
   };
 }

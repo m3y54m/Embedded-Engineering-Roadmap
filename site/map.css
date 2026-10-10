@@ -325,13 +325,23 @@
   pointer-events: none;
 }
 
-.link.mention,
-.link-all.mention {
+.link.evidence,
+.link-all.evidence {
   stroke-dasharray: 5 5;
+  stroke-opacity: 0.45;
+}
+
+.link-end {
+  fill: var(--accent);
 }
 
 .link-all {
   stroke-opacity: 0.4;
+}
+
+.link-all.curated {
+  stroke-width: 1.2px;
+  stroke-opacity: 0.28;
 }
 
 .layer-linksAll {
@@ -345,10 +355,6 @@
 
 .diagram.show-all.has-focus .layer-linksAll {
   opacity: 0.2;
-}
-
-.link-end {
-  fill: var(--accent);
 }
 
 .credit-main {
