@@ -206,11 +206,12 @@ export function createMapView({ root, plan, data, build, onSelect }) {
   };
   creditLine(fy + 35, 'Creator & Maintainer: ', CREDITS.author);
   if (build) creditLine(fy + 53, 'Revision: ', `${build.version}  ·  Last update: ${build.date}`);
-  const logoSize = 52;
   const badge = { w: 103, h: 36 };
-  svg('image', { href: 'assets/logo.svg', x: fr - logoSize, y: fy, width: logoSize, height: logoSize }, credits);
+  const logoSize = badge.h;
+  const iconY = fy + 9;
+  svg('image', { href: 'assets/logo.svg', x: fr - logoSize, y: iconY, width: logoSize, height: logoSize }, credits);
   const badgeX = fr - logoSize - SPACE - badge.w;
-  svg('image', { href: 'assets/cc-by-sa.svg', x: badgeX, y: fy + (logoSize - badge.h) / 2, width: badge.w, height: badge.h }, link(CREDITS.licenseUrl));
+  svg('image', { href: 'assets/cc-by-sa.svg', x: badgeX, y: iconY, width: badge.w, height: badge.h }, link(CREDITS.licenseUrl));
   const licenseText = svg('text', { x: badgeX - 14, y: fy + 22, 'text-anchor': 'end', class: 'credit-text' }, link(CREDITS.licenseUrl));
   licenseText.textContent = 'This work is licensed under the Creative Commons';
   const licenseText2 = svg('text', { x: badgeX - 14, y: fy + 40, 'text-anchor': 'end', class: 'credit-text' }, link(CREDITS.licenseUrl));
