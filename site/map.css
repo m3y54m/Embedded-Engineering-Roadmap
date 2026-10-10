@@ -450,6 +450,14 @@
 }
 
 @media print {
+  /* Print the final colors, not a frame of the screen-to-print color transition. */
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+
   html[data-theme] {
     color-scheme: light;
     --bg: #ffffff;
