@@ -56,7 +56,8 @@ const map = JSON.parse(readFileSync(new URL('./map.json', import.meta.url), 'utf
 
 test('places topics in the map areas and their cross-section', () => {
   const plan = linkDiagram(map, data);
-  assert.deepEqual(plan.unmatched, [], 'every map topic matches a README heading (or an alias in diagram.js)');
+  assert.deepEqual(plan.unmatched, [], 'every map topic matches a README heading (or a "readme" entry in map.json)');
+  assert.deepEqual(plan.invalidReadme, [], 'map.json "readme" entries name a topic on the map and existing README headings');
   assert.deepEqual(plan.invalid, [], 'importance is required, recommended or possible');
   assert.deepEqual(find('GPIO').areas, ['SOFTWARE', 'HARDWARE']);
   assert.deepEqual(find('I2C').areas, ['SOFTWARE', 'HARDWARE']);

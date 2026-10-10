@@ -1,40 +1,6 @@
 // Links the topics drawn on the map (map.json) to README topics, so every topic knows
 // which areas (Software, Hardware, Soft skills) it sits in and how important the map marks it.
 
-// Map labels whose README heading is worded differently.
-const ALIASES = {
-  'ADC / DAC': ['ADC', 'DAC'],
-  'Buildroot / Yocto': ['Buildroot', 'Yocto'],
-  'TDD & Unit Testing': ['Test Driven Development (TDD)', 'Unit Testing'],
-  'Threading / Parallelism': ['Multithreading & Parallel Processing'],
-  'Device Drivers': ['Linux Device Drivers'],
-  'Real-Time OS': ['Real-Time Operating Systems'],
-  'Interfaces & Protocols': ['Interfaces, Protocols & Communication Technologies'],
-  Basic: ['Basic Protocols'],
-  'High-Speed': ['High-Speed Protocols'],
-  Wireless: ['Wireless Protocols'],
-  Industrial: ['Industrial Protocols'],
-  Automotive: ['Automotive Protocols'],
-  Network: ['Network Protocols / Socket Programming'],
-  'TCP/IP': ['Network Protocols / Socket Programming'],
-  UDP: ['Network Protocols / Socket Programming'],
-  Cellular: ['Cellular Communication'],
-  MQTT: ['CoAP & MQTT'],
-  CoAP: ['CoAP & MQTT'],
-  'LTE-M / 5G': ['LTE-M & NB-IoT'],
-  'NB-IoT': ['LTE-M & NB-IoT'],
-  'Basic Math & Calculus': ['Basic Calculus'],
-  'SDLC Models': ['Software Development Life Cycle (SDLC) Models'],
-  'Version Control': ['Version Control Systems'],
-  AUTOSAR: ['AUTOSAR Architecture'],
-  // Drawn on the map but without their own README section: open the protocol family instead.
-  Profinet: ['Industrial Protocols'],
-  LIN: ['Automotive Protocols'],
-  MOST: ['Automotive Protocols'],
-  FlexRay: ['Automotive Protocols'],
-  UWB: ['Wireless Protocols'],
-};
-
 export const AREA_ORDER = ['SOFTWARE', 'HARDWARE', 'SOFT SKILLS'];
 export const IMPORTANCE_LEVELS = ['required', 'recommended', 'possible'];
 const RANK = { required: 3, recommended: 2, possible: 1 };
@@ -61,8 +27,10 @@ function topicIndex(topics) {
 export function linkDiagram(map, data) {
   const index = topicIndex(data.topics);
   const softSkills = data.topics.find((t) => t.depth === 1 && key(t.title) === 'soft skills');
+  // map.json "readme": map labels whose README heading is worded differently (or has no section of its own).
+  const aliases = map.readme || {};
   const resolve = (text, areas = []) => {
-    if (ALIASES[text]) return ALIASES[text].map((title) => index.get(key(title))).filter(Boolean);
+    if (Object.hasOwn(aliases, text)) return [aliases[text]].flat().map((title) => index.get(key(title))).filter(Boolean);
     const topic = index.get(key(text));
     if (topic) return [topic];
     if (softSkills && areas.includes('SOFT SKILLS')) return [softSkills];
@@ -166,6 +134,10 @@ export function linkDiagram(map, data) {
     connections: [...pairs.values()],
     unmatched: boxes.filter((b) => !b.header && !b.topics.length).map((b) => b.text),
     invalidLinks,
-    invalid: boxes.filter((b) => !b.header && !IMPORTANCE_LEVELS.includes(b.importance)).map((b) => `${b.text}: ${b.importance}`),
+    invalidReadme: Object.entries(aliases).flatMap(([label, titles]) => {
+      const onMap = boxes.some((b) => b.text === label) || label in map.groups;
+      const missing = [titles].flat().filter((title) => !index.has(key(title)));
+      return onMap && !missing.length ? [] : [`${label} -> ${[titles].flat().join(' + ')}`];
+    }),    invalid: boxes.filter((b) => !b.header && !IMPORTANCE_LEVELS.includes(b.importance)).map((b) => `${b.text}: ${b.importance}`),
   };
 }

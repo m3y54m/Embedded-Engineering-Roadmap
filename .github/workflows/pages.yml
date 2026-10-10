@@ -50,6 +50,9 @@ jobs:
       - name: Test the README parser and map layout
         run: node --test site/parser.test.mjs
 
+      - name: Warn about README sections that are not on the map
+        run: node site/tools/coverage.mjs
+
       - name: Assemble the site
         run: |
           mkdir _site
