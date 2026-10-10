@@ -231,29 +231,38 @@ Similar to other professions, embedded engineers require soft skills that can't 
 #### 🔵 Communication Skills
 
 - [🔗👶 Technical Writing Courses - Google for Developers](https://developers.google.com/tech-writing)
+- [📝💎 How To Ask Questions The Smart Way - Eric S. Raymond](http://www.catb.org/esr/faqs/smart-questions.html)
+- [🔗 Software documentation guide - Write the Docs](https://www.writethedocs.org/guide/)
 
 #### 🔵 Problem-Solving Skills & Critical Thinking
 
 - [📘💎 Debugging: The 9 Indispensable Rules for Finding Even the Most Elusive Software and Hardware Problems - David J. Agans](https://debuggingrules.com/)
-- [📝 How to Solve It - Wikipedia](https://en.wikipedia.org/wiki/How_to_Solve_It)
+- [📝 When debugging, your attitude matters - Julia Evans](https://jvns.ca/blog/debugging-attitude-matters/)
 
 #### 🔵 Teamwork & Collaborative Abilities
 
 - [📝 How to Work Well on Teams - Software Engineering at Google](https://abseil.io/resources/swe-book/html/ch02.html)
+- [📝 Knowledge Sharing - Software Engineering at Google](https://abseil.io/resources/swe-book/html/ch03.html)
+- [🔗💎 Code Review Developer Guide - Google Engineering Practices](https://google.github.io/eng-practices/review/)
 - [🔗 Atlassian Team Playbook](https://www.atlassian.com/team-playbook)
 
 #### 🔵 Organizational & Time Management Skills
 
-- [🔗 Getting Things Done® - David Allen's GTD® Methodology](https://gettingthingsdone.com/)
+- [📘💎 Getting Things Done: The Art of Stress-Free Productivity - David Allen](https://gettingthingsdone.com/what-is-gtd/)
+- [🎞️👶 Work Smarter, Not Harder: Time Management for Personal & Professional Productivity - Coursera](https://www.coursera.org/learn/work-smarter-not-harder)
+- [📝💎 Maker's Schedule, Manager's Schedule - Paul Graham](https://www.paulgraham.com/makersschedule.html)
 
 #### 🔵 Being Self-Driven and Independent
 
 - [🎞️👶 Learning How to Learn - Coursera](https://www.coursera.org/learn/learning-how-to-learn)
 - [📝💎 Teach Yourself Programming in Ten Years - Peter Norvig](https://norvig.com/21-days.html)
+- [📝💎 How to Do Great Work - Paul Graham](https://paulgraham.com/greatwork.html)
+- [📝 You and Your Research - Richard Hamming](https://www.paulgraham.com/hamming.html)
 
 #### 🔵 Adaptability & Patience
 
 - [📘 Mindset: The New Psychology of Success - Carol S. Dweck](https://www.penguinrandomhouse.com/books/44330/mindset-by-carol-s-dweck-phd/)
+- [🎞️👶 The power of believing that you can improve - Carol Dweck (TED Talk)](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
 
 _________________
 
