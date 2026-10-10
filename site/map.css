@@ -275,9 +275,19 @@
   stroke-width: 2.2;
 }
 
-.box.header.target:hover .header-text,
-.box.header.lit .header-text {
-  text-decoration: underline;
+.header-bg {
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 2;
+  transition: fill 0.15s;
+}
+
+.box.header.target:hover .header-bg {
+  fill: color-mix(in srgb, var(--accent) 16%, transparent);
+}
+
+.box.header.lit .header-bg {
+  fill: color-mix(in srgb, var(--accent) 9%, transparent);
 }
 
 .group-tag.target:hover .tag-bg {
@@ -290,19 +300,15 @@
   stroke-width: 3;
 }
 
-.box.header.selected .header-text {
-  fill: var(--accent);
+.box.header.selected .header-bg {
+  stroke: var(--text);
 }
 
 .box.target:focus-visible .box-bg,
+.box.header.target:focus-visible .header-bg,
 .group-tag.target:focus-visible .tag-bg {
   stroke: var(--accent);
   stroke-width: 3.5;
-}
-
-.box.header.target:focus-visible .header-text {
-  fill: var(--accent);
-  text-decoration: underline;
 }
 
 .layer-boxes .box {

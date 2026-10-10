@@ -229,9 +229,10 @@ export function createMapView({ root, plan, data, build, onSelect }) {
     const g = svg('g', { class: `box ${item.kind === 'header' ? 'header' : box.importance}`, 'data-box': box.id }, layers.boxes);
     rectOf.set(box, item);
     if (item.kind === 'header') {
+      const bg = svg('rect', { class: 'header-bg', rx: 6, x: item.x - 6, y: item.y - 1, height: 24 }, g);
       const t = svg('text', { x: item.x, y: item.y + 16, class: 'box-text header-text' }, g);
       t.textContent = item.text;
-      boxEls.set(box, { g, text: t, width: item.w, header: true });
+      boxEls.set(box, { g, text: t, bg, x: item.x, width: item.w, header: true });
     } else {
       rect(item, { rx: 5, class: 'box-bg' }, g);
       const lines = item.h >= 36 ? splitInTwo(item.text) : [item.text];
@@ -291,11 +292,11 @@ export function createMapView({ root, plan, data, build, onSelect }) {
     }
     const importance = (box && box.importance) || topic.importance;
     tip.replaceChildren(...[
-      h('strong', {}, topic.title),
+      h('strong', {}, box ? box.text : topic.title),
       topic.areas.length ? h('div', { class: 'tip-areas' }, areaDots(topic.areas), areaLabel(topic.areas)) : null,
       h('div', { class: 'tip-meta' }, [importance ? IMPORTANCE[importance] : null, plural(topic.total, 'resource'),
         box && box.related.length ? `${box.related.length} related` : null].filter(Boolean).join(' · ')),
-      h('div', { class: 'tip-hint' }, 'Click this topic to open its details'),
+      h('div', { class: 'tip-hint' }, box && box.text !== topic.title ? `Click to open “${topic.title}”` : 'Click this topic to open its details'),
     ].filter(Boolean));
     tip.hidden = false;
     moveTip(e);
@@ -599,6 +600,7 @@ export function createMapView({ root, plan, data, build, onSelect }) {
           span.setAttribute('lengthAdjust', 'spacingAndGlyphs');
         }
       }
+      if (el.bg) el.bg.setAttribute('width', (el.text.getComputedTextLength() + 12).toFixed(1));
     }
   }
 
