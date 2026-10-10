@@ -409,7 +409,8 @@ button {
   padding: 10px 12px;
   border: 1px solid var(--border);
   border-radius: 12px;
-  background: var(--surface-solid);
+  background: color-mix(in srgb, var(--surface-solid) 72%, transparent);
+  backdrop-filter: blur(3px);
   box-shadow: var(--shadow);
   font-size: 13px;
   pointer-events: none;
