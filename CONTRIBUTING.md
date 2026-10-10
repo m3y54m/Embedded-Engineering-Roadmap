@@ -30,7 +30,7 @@ Contributions from everyone are welcomed. To keep the roadmap practical, accessi
 - Contributions should match the topics and structure of the roadmap.
 - Areas where contributors have experience or genuine interest should be focused on.
 - If a new topic is thought to make the roadmap more complete, it may be suggested. New topics should be proposed thoughtfully, considering their usefulness and relevance for other learners.
-- Connections between topics on the map are listed in `site/map.json` under `links` as `["Topic", "Other topic", "why they are related"]`, using the names shown on the map. Connect topics that a learner should study together or that depend on each other, and keep the reason to one short sentence. Tests fail if a name is misspelled, a pair is listed twice or a topic has no connection.
+- Connections between topics on the map are listed in `explorer/map.json` under `links` as `["Topic", "Other topic", "why they are related"]`, using the names shown on the map. Connect topics that a learner should study together or that depend on each other, and keep the reason to one short sentence. Tests fail if a name is misspelled, a pair is listed twice or a topic has no connection.
 
 ## 6. How the README Feeds the Interactive Roadmap
 
@@ -38,8 +38,8 @@ The [interactive roadmap](https://m3y54m.github.io/Embedded-Engineering-Roadmap/
 
 - **Topics** come from heading depth: `##` is a group, `###` a main topic, `####` and deeper are subtopics. The emojis in headings (✳️ 🔵 🔶 🔸) are decoration only. Renaming a heading changes its link (`#/topic-name`).
 - **Resources** are list items in the form `- [📘👶💎 Title](https://url)`, optionally followed by a dash and a short note. Symbols: 📘 book, 🎞️ video, 📝 article, 🔗 link, 🎧 audio, 👶 beginner, 💎 essential. `python3 .github/scripts/check_readme.py` checks the format and duplicates.
-- **The map** (`site/map.json`) draws only the main topics. Each label on it opens the README heading with the same name. If the wording differs, or the label has no section of its own, add `"Label": ["README heading"]` to `readme` in `site/map.json`. A new main topic needs a README section and a box in `site/map.json` (and at least one entry in `links`), unless it should stay off the map: then list its title or group in `offMap`. CI warns about main topics that are neither.
-- **Preview and test locally:** `python3 -m http.server 8765` from the repository root, then open `/site/`; `node --test site/parser.test.mjs` runs the checks CI runs.
+- **The map** (`explorer/map.json`) draws only the main topics. Each label on it opens the README heading with the same name. If the wording differs, or the label has no section of its own, add `"Label": ["README heading"]` to `readme` in `explorer/map.json`. A new main topic needs a README section and a box in `explorer/map.json` (and at least one entry in `links`), unless it should stay off the map: then list its title or group in `offMap`. CI warns about main topics that are neither.
+- **Preview and test locally:** `python3 -m http.server 8765` from the repository root, then open `/explorer/`; `node --test explorer/parser.test.mjs` runs the checks CI runs.
 
 ## 7. Versioning and Releases
 

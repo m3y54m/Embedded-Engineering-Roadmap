@@ -1,13 +1,13 @@
 // Renders the roadmap map to an A4 PDF and a PNG with headless Chromium, straight from the site.
-// Usage: node site/tools/render.mjs [rootDir] [pagePath] [outDir]
-//   defaults: repository root, /site/, ./dist        (needs: npm install --no-save playwright)
+// Usage: node explorer/tools/render.mjs [rootDir] [pagePath] [outDir]
+//   defaults: repository root, /explorer/, ./dist        (needs: npm install --no-save playwright)
 import { createServer } from 'node:http';
 import { mkdir, readFile } from 'node:fs/promises';
 import { extname, join, resolve, sep } from 'node:path';
 import { chromium } from 'playwright';
 
 const root = resolve(process.argv[2] || '.');
-const pagePath = process.argv[3] || '/site/';
+const pagePath = process.argv[3] || '/explorer/';
 const outDir = resolve(process.argv[4] || 'dist');
 const NAME = 'Embedded-Engineering-Roadmap';
 const PNG_SCALE = 2;

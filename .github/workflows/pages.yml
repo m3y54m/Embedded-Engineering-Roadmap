@@ -5,13 +5,13 @@ on:
     branches: [master]
     paths:
       - README.md
-      - "site/**"
+      - "explorer/**"
       - .github/workflows/pages.yml
       - .github/scripts/next-version.sh
   pull_request:
     paths:
       - README.md
-      - "site/**"
+      - "explorer/**"
       - .github/workflows/pages.yml
       - .github/scripts/next-version.sh
   workflow_dispatch:
@@ -48,16 +48,16 @@ jobs:
           node-version: 22
 
       - name: Test the README parser and map layout
-        run: node --test site/parser.test.mjs
+        run: node --test explorer/parser.test.mjs
 
       - name: Warn about README sections that are not on the map
-        run: node site/tools/coverage.mjs
+        run: node explorer/tools/coverage.mjs
 
       - name: Assemble the site
         run: |
           mkdir _site
-          cp site/*.html site/*.css site/*.js site/map.json README.md _site/
-          cp -r site/fonts site/assets _site/
+          cp explorer/*.html explorer/*.css explorer/*.js explorer/map.json README.md _site/
+          cp -r explorer/fonts explorer/assets _site/
 
       - name: Install Chromium
         run: |
@@ -68,7 +68,7 @@ jobs:
         id: fingerprint
         # Rendered before build.json exists, so the revision line is not part of the fingerprint.
         run: |
-          node site/tools/render.mjs _site / fingerprint
+          node explorer/tools/render.mjs _site / fingerprint
           echo "sha256=$(sha256sum fingerprint/Embedded-Engineering-Roadmap.png | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
 
       - name: Decide the version
@@ -87,7 +87,7 @@ jobs:
         run: |
           node -e 'console.log(JSON.stringify({ version: process.env.VERSION, date: process.env.DATE }))' > _site/build.json
           cat _site/build.json
-          node site/tools/render.mjs _site / _site
+          node explorer/tools/render.mjs _site / _site
 
       - uses: actions/upload-artifact@v4
         with:

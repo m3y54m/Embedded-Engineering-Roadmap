@@ -1622,4 +1622,4 @@ Special thanks to my friends in the community of Iranian Embedded Engineers in T
 
 If you think that this roadmap can be improved in anyway or you know about some good learning resources that can be added here, please start an issue or a pull request. I’ll be maintaining and updating this repository frequently.
 
-The roadmap image and PDF are generated from this repository. Topics, descriptions and learning resources come from this README; where each topic sits on the map and how important it is come from [`site/map.json`](site/map.json). Edit those files and the interactive explorer in [`site/`](site) renders the PNG and PDF automatically.
+The roadmap image and PDF are generated from this repository. Topics, descriptions and learning resources come from this README; where each topic sits on the map and how important it is come from [`explorer/map.json`](explorer/map.json). Edit those files and the interactive explorer in [`explorer/`](explorer) renders the PNG and PDF automatically.
