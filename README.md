@@ -1196,8 +1196,6 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 - [🔗 Linux From Scratch - step-by-step instructions for building your own custom Linux system](https://www.linuxfromscratch.org/)
 - [🔗 Automotive Grade Linux (AGL)](https://docs.automotivelinux.org/)
 - [🔗 Real Time Linux and `PREEMPT_RT` Patch](https://wiki.linuxfoundation.org/realtime/start)
-- [🔗 Android Open Source Project](https://source.android.com)
-- [🔗 Android Automotive](https://source.android.com/docs/automotive)
 
 ##### 🔶 Linux Kernel
 
@@ -1235,6 +1233,20 @@ Embedded Linux is a specialized version of the Linux operating system tailored f
 - [📘 Embedded Linux Development using Yocto Project Cookbook - Alex Gonzalez](https://www.oreilly.com/library/view/embedded-linux-development/9781788399210/)
 - [📘 Bootlin Embedded Linux, Kernel, drivers, Yocto, Buildroot and Graphics Training](https://bootlin.com/training/)
 - [🔗 meta-raspberrypi - Yocto/OpenEmbedded layer for Raspberry Pi boards](https://meta-raspberrypi.readthedocs.io/en/latest/)
+
+##### 🔶 Embedded Android
+
+Embedded Android builds on Embedded Linux: the device runs a Linux kernel with Android-specific additions, and the Android Open Source Project (AOSP) adds its own build system, hardware abstraction layers (HALs) and framework on top. Learn Embedded Linux first, then how AOSP is built, ported to a board and extended with HALs and native (NDK) code.
+
+- [🔗💎 Android Open Source Project](https://source.android.com)
+- [🔗👶 AOSP Architecture Overview](https://source.android.com/docs/core/architecture)
+- [🔗 Try Android Development - Download, Build and Flash AOSP](https://source.android.com/docs/setup/start)
+- [🔗 Android Kernel Overview](https://source.android.com/docs/core/architecture/kernel)
+- [🔗 Hardware Abstraction Layer (HAL) Overview](https://source.android.com/docs/core/architecture/hal)
+- [🔗 Get Started with the Android NDK](https://developer.android.com/ndk/guides)
+- [📘💎 Embedded Android - Karim Yaghmour](https://www.oreilly.com/library/view/embedded-android/9781449327958/)
+- [📘 Android System Development Training (Slides and Labs) - Bootlin](https://bootlin.com/doc/legacy/android/)
+- [🔗 Android Automotive](https://source.android.com/docs/automotive)
 
 #### 🔵 Multithreading & Parallel Processing
 
