@@ -702,6 +702,33 @@ button {
   padding-left: 20px;
 }
 
+.desc .quote {
+  margin: 0 0 12px;
+  padding-left: 12px;
+  border-left: 3px solid color-mix(in srgb, var(--accent) 55%, transparent);
+}
+
+.desc .quote blockquote {
+  margin: 0;
+}
+
+.desc .quote figcaption {
+  margin-top: 2px;
+  font-size: 12px;
+}
+
+.desc .quote figcaption a {
+  color: var(--muted);
+}
+
+.panel-section .more summary {
+  margin-bottom: 10px;
+  color: var(--accent);
+  font-family: var(--font);
+  font-size: 13px;
+  cursor: pointer;
+}
+
 .desc code {
   padding: 1px 5px;
   border-radius: 5px;

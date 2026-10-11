@@ -54,9 +54,10 @@ function store(key, value) {
 // ---------- colors ----------
 
 function assignHues(data) {
-  const [first, ...rest] = data.groups;
-  const start = rest.length ? first.topics : [];
-  const learning = rest.length ? rest.flatMap((g) => g.topics) : data.root.children;
+  // Every section before the last one holds getting-started topics; the last holds the learning resources.
+  const learningGroup = data.groups.length > 1 ? data.groups[data.groups.length - 1] : null;
+  const start = learningGroup ? data.groups.slice(0, -1).flatMap((g) => g.topics) : [];
+  const learning = learningGroup ? learningGroup.topics : data.root.children;
   start.forEach((t, i) => { t.hue = 168 + (start.length > 1 ? (i * 40) / (start.length - 1) : 0); });
   learning.forEach((t, i) => { t.hue = (214 + (i * 300) / Math.max(1, learning.length)) % 360; });
   data.root.children.forEach((top, index) => {
@@ -134,6 +135,15 @@ function description(blocks) {
       const p = h('p');
       p.innerHTML = renderInline(block.text);
       wrap.append(p);
+    } else if (block.type === 'quote') {
+      const quote = h('blockquote');
+      for (const text of block.paragraphs) {
+        const p = h('p');
+        p.innerHTML = renderInline(text);
+        quote.append(p);
+      }
+      wrap.append(h('figure', { class: 'quote' }, quote, h('figcaption', {},
+        h('a', { href: block.url, target: '_blank', rel: 'noopener noreferrer' }, block.source))));
     } else {
       const ul = h('ul');
       for (const item of block.items) {
@@ -300,16 +310,30 @@ function areaSummary() {
     tile(['HARDWARE'], count((b) => b.areas.length === 1 && b.areas[0] === 'HARDWARE'), 'Hardware only'));
 }
 
+// The summary and the first quotation stay visible; the other quotations fold away to keep the landing panel short.
+function foldedDefinitions(blocks) {
+  const firstQuote = blocks.findIndex((b) => b.type === 'quote');
+  const rest = blocks.slice(firstQuote + 1);
+  return [
+    description(blocks.slice(0, firstQuote + 1)),
+    rest.length ? h('details', { class: 'more' }, h('summary', {}, `${rest.length} more definitions`), description(rest)) : null,
+  ];
+}
+
 function overview(root) {
   const { stats, groups } = state.data;
+  // A section whose topic quotes sources (README definitions) is shown in full instead of as a chip.
+  const quoted = (g) => g.topics.find((t) => t.description.some((b) => b.type === 'quote'));
+  const definitions = groups.find((g) => quoted(g));
   return [
     section(null, description(root.description)),
+    definitions ? section(definitions.title, ...foldedDefinitions(quoted(definitions).description)) : null,
     section(null, h('div', { class: 'stats' },
       h('div', { class: 'stat' }, h('b', {}, stats.topics), h('span', {}, 'topics')),
       h('div', { class: 'stat' }, h('b', {}, stats.resources), h('span', {}, 'resources')),
       h('div', { class: 'stat' }, h('b', {}, state.plan ? state.plan.connections.filter((c) => c.reason).length : stats.links), h('span', {}, 'connections')))),
     state.plan ? section('Diagram topics by area', areaSummary()) : null,
-    ...groups.map((g) => section(g.title, topicChips(g.topics))),
+    ...groups.filter((g) => !quoted(g)).map((g) => section(g.title, topicChips(g.topics))),
     section('How to explore', h('ul', { class: 'howto' },
       h('li', {}, 'Map follows the roadmap diagram: topics sit in Software, Hardware or both, and are colored by learning priority, a general guide that varies with your specialty and role.'),
       h('li', {}, 'Click Required, Recommended or Optional in the legend above the map to highlight topics of that priority.'),

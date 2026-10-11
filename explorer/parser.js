@@ -19,6 +19,8 @@ const URL_PART = String.raw`https?:\/\/[^\s()]+(?:\([^\s()]*\)[^\s()]*)*`;
 const HEADING = /^(#{1,6})\s+(.+)$/;
 const RESOURCE = new RegExp(String.raw`^\s*[-*]\s+\[(.+)\]\((${URL_PART})\)(.*)$`, 'u');
 const HEADING_LINK = new RegExp(String.raw`^\[(.+)\]\((${URL_PART})\)$`, 'u');
+// A "▶️ [Source](url)" line introduces the blockquote that follows it, a sourced quotation such as a definition.
+const QUOTE_SOURCE = new RegExp(String.raw`^\s*\u25B6\uFE0F?\s*\[(.+)\]\((${URL_PART})\)\s*$`, 'u');
 const BULLET = /^\s*[-*]\s+(.+)$/;
 const SKIP = /^(\s*>|<!--|!\[|\[!\[|_{3,}\s*$|\|)/;
 
@@ -93,6 +95,7 @@ export function parseRoadmap(markdown) {
   const stack = [];
   let target = root;
   let topic = null;
+  let quote = null;
   let paragraph = [];
 
   const flush = () => {
@@ -104,6 +107,7 @@ export function parseRoadmap(markdown) {
     const heading = line.match(HEADING);
     if (heading) {
       flush();
+      quote = null;
       const level = heading[1].length;
       if (level === 1) continue;
       const info = headingInfo(heading[2].trim());
@@ -126,6 +130,37 @@ export function parseRoadmap(markdown) {
       target = node;
       topic = node;
       continue;
+    }
+
+    const source = line.match(QUOTE_SOURCE);
+    if (source) {
+      flush();
+      quote = null;
+      if (topic) {
+        const label = source[1].replace(/:\s*$/, '');
+        quote = { type: 'quote', source: label, url: source[2], paragraphs: [], gap: false };
+        topic.description.push(quote);
+        topic.resources.push(makeResource(label, source[2]));
+      }
+      continue;
+    }
+
+    if (quote) {
+      if (!line.trim()) {
+        // Blank lines may separate the source from its quote; after the quote has started they end it.
+        if (quote.paragraphs.length) quote = null;
+        continue;
+      }
+      if (/^\s*>/.test(line) || quote.paragraphs.length) {
+        const text = line.replace(/^\s*>\s?/, '').trim();
+        if (!text) quote.gap = true;
+        else if (!quote.paragraphs.length || quote.gap) {
+          quote.paragraphs.push(text);
+          quote.gap = false;
+        } else quote.paragraphs[quote.paragraphs.length - 1] += ` ${text}`;
+        continue;
+      }
+      quote = null;
     }
 
     const resource = line.match(RESOURCE);
@@ -214,7 +249,7 @@ export function parseRoadmap(markdown) {
   for (const from of topics) {
     const texts = [
       ...from.resources.map((r) => `${r.title} ${r.note}`),
-      ...from.description.flatMap((b) => (b.type === 'p' ? [b.text] : b.items)),
+      ...from.description.flatMap((b) => (b.type === 'p' ? [b.text] : b.type === 'quote' ? b.paragraphs : b.items)),
     ];
     for (const { topic: to, patterns } of matchers) {
       if (to === from || isLineage(from, to)) continue;

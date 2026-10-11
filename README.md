@@ -13,6 +13,10 @@ Embedded engineering demands a solid understanding of hardware functionality as 
 
 ## ❓ What is an Embedded System?
 
+### 📖 Embedded System Definitions
+
+Standards, books and glossaries word it differently, but the common idea is a computer built into a larger product to perform a dedicated function, usually with tight limits on cost, size, power and reliability.
+
 ▶️ [ISO/IEC/IEEE 24765 Standard:](https://www.iso.org/obp/ui/en/#iso:std:iso-iec-ieee:24765:ed-2:v1:en)
 
 > **computer system** that is **part of a larger system** and **performs some of the requirements of that system**. For example, a computer system

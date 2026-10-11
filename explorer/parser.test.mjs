@@ -16,7 +16,7 @@ test('builds the topic tree from the README headings', () => {
   assert.equal(find('1-Wire').parent.title, 'Basic Protocols');
   assert.equal(find('High-Performance Computing (HPC)').parent.title, 'Multithreading & Parallel Processing');
   assert.equal(find('History'), undefined);
-  assert.deepEqual(data.groups.map((g) => g.title), ["Don't Know Where to Start!", 'Learning Resources']);
+  assert.deepEqual(data.groups.map((g) => g.title), ['What is an Embedded System?', "Don't Know Where to Start!", 'Learning Resources']);
 });
 
 test('gives every topic a unique slug', () => {
@@ -36,6 +36,17 @@ test('parses resource markers, bracketed titles and URLs with parentheses', () =
 test('keeps descriptions and the README introduction', () => {
   assert.match(data.root.description[0].text, /^This roadmap is designed/);
   assert.match(find('Microcontrollers').description[0].text, /^Microcontrollers are integrated circuits/);
+});
+
+test('parses sourced quotations as quote blocks and resources', () => {
+  const defs = find('Embedded System Definitions');
+  const quotes = defs.description.filter((b) => b.type === 'quote');
+  assert.equal(quotes.length, 5);
+  assert.equal(quotes[0].source, 'ISO/IEC/IEEE 24765 Standard');
+  assert.equal(quotes[0].paragraphs.length, 2);
+  assert.match(quotes[0].paragraphs[0], /rapid transit system\.$/, 'a lazy continuation line joins its paragraph');
+  assert.deepEqual(defs.resources.map((r) => r.title).slice(0, 2), ['ISO/IEC/IEEE 24765 Standard', '"Making Embedded Systems" Book']);
+  assert.equal(data.root.description.some((b) => b.type === 'quote'), false, 'README callouts are not quotations');
 });
 
 test('links topics that share a resource or mention each other', () => {
