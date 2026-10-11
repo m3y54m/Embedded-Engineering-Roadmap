@@ -97,7 +97,7 @@ function navigate(node, { push = true, resource = null, reveal = false } = {}) {
   syncOutline();
   if (resource) revealResource(resource);
   const root = state.data.root;
-  document.title = node === root ? 'Embedded Engineering Roadmap · Explorer' : `${node.title} · Embedded Engineering Roadmap`;
+  document.title = node === root ? 'Embedded Systems Engineering Roadmap · Explorer' : `${node.title} · Embedded Systems Engineering Roadmap`;
   if (push) {
     const hash = node === root ? '#/' : `#/${node.slug}`;
     if (location.hash !== hash) history.pushState(null, '', hash);
@@ -344,7 +344,7 @@ function renderPanel(node) {
     crumbs(node),
     h('h2', { class: 'panel-title' },
       node.icon ? h('span', { class: 'title-icon', 'aria-hidden': 'true' }, node.icon) : node === root ? null : swatch(node),
-      node === root ? 'Embedded Engineering Roadmap' : node.title),
+      node === root ? 'Embedded Systems Engineering Roadmap' : node.title),
     node === root ? null : h('div', { class: 'meta' },
       node.areas && node.areas.length ? h('span', { class: 'pill area-pill' }, areaDots(node.areas), areaLabel(node.areas)) : null,
       node.importance ? h('span', { class: `pill imp-pill ${node.importance}` }, IMPORTANCE[node.importance]) : null,

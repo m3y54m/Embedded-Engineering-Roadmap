@@ -87,7 +87,7 @@ function makeNode(fields) {
 
 export function parseRoadmap(markdown) {
   const lines = markdown.replace(/\r\n?/g, '\n').split('\n');
-  const root = makeNode({ id: 'root', slug: '', title: 'Embedded Engineering Roadmap' });
+  const root = makeNode({ id: 'root', slug: '', title: 'Embedded Systems Engineering Roadmap' });
   const groups = [];
   const stack = [];
   let target = root;
