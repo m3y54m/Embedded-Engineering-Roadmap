@@ -105,7 +105,7 @@ export function createMapView({ root, plan, data, build, onSelect }) {
     h('p', { class: 'menu-heading' }, 'Importance'),
     h('div', { class: 'menu-chips' }, importanceChips.map(([, el]) => el)),
     clearButton);
-  const linksChip = chip('All connections', 'links', () => {
+  const linksChip = chip([h('span', { class: 'label-long' }, 'All connections'), h('span', { class: 'label-short' }, 'Links')], 'links', () => {
     state.showAll = !state.showAll;
     refresh();
   }, 'Show the lines between all related topics');
@@ -605,16 +605,24 @@ export function createMapView({ root, plan, data, build, onSelect }) {
   });
 
   const zoomLevel = h('span', { class: 'zoom-level', 'aria-live': 'polite' }, '100%');
-  const fitButton = h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Toggle between fitting the width and the whole page', title: 'Show the whole page', onclick: toggleFit }, '⤢');
-  const zoomControls = h('div', { class: 'zoom-controls' },
-    h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Zoom in', title: 'Zoom in (Ctrl + scroll)', onclick: () => zoomAt(1.25) }, '+'),
+  // Drawn as SVG: text glyphs sit on font baselines that differ between browsers.
+  const btnIcon = (d) => {
+    const el = svg('svg', { viewBox: '0 0 16 16', width: 14, height: 14, 'aria-hidden': 'true', class: 'btn-icon' });
+    svg('path', { d }, el);
+    return el;
+  };
+  const fitButton = h('button', { type: 'button', class: 'icon-btn zoom-fit', 'aria-label': 'Toggle between fitting the width and the whole page', title: 'Show the whole page', onclick: toggleFit },
+    btnIcon('M9.5 2.5h4v4M13.5 2.5 9 7M6.5 13.5h-4v-4M2.5 13.5 7 9'));
+  const zoomControls = h('div', { class: 'zoom-controls', role: 'group', 'aria-label': 'Zoom' },
+    h('button', { type: 'button', class: 'icon-btn zoom-step', 'aria-label': 'Zoom out', title: 'Zoom out (Ctrl + scroll)', onclick: () => zoomAt(1 / 1.25) }, btnIcon('M3 8h10')),
     zoomLevel,
-    h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Zoom out', title: 'Zoom out (Ctrl + scroll)', onclick: () => zoomAt(1 / 1.25) }, '−'),
+    h('button', { type: 'button', class: 'icon-btn zoom-step', 'aria-label': 'Zoom in', title: 'Zoom in (Ctrl + scroll)', onclick: () => zoomAt(1.25) }, btnIcon('M3 8h10M8 3v10')),
     fitButton);
+  toolbar.append(zoomControls);
 
   root.replaceChildren(
     h('div', { class: 'map-top' }, toolbar),
-    h('div', { class: 'map-canvas' }, chart, zoomControls),
+    h('div', { class: 'map-canvas' }, chart),
     tip,
   );
   fitWidth();

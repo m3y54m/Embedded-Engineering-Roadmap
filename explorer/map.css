@@ -473,29 +473,44 @@
 }
 
 .zoom-controls {
-  position: absolute;
-  right: 16px;
-  bottom: 16px;
-  display: grid;
-  justify-items: center;
-  gap: 6px;
-  padding: 6px;
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  background: var(--surface);
-  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: auto;
+  padding: 1px;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: var(--surface-2);
 }
 
 .zoom-controls .icon-btn {
-  width: 34px;
-  height: 34px;
-  font-size: 18px;
+  width: 26px;
+  height: 26px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  font-size: 17px;
   font-weight: 700;
 }
 
+.zoom-controls .icon-btn:hover {
+  background: var(--chip-hover);
+}
+
+.btn-icon {
+  display: block;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 .zoom-level {
+  min-width: 40px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 12px;
+  text-align: center;
   font-variant-numeric: tabular-nums;
 }
 
@@ -527,10 +542,32 @@
   .menu-list {
     min-width: 0;
   }
+}
 
-  .zoom-controls {
-    bottom: 12px;
-    right: 12px;
+/* Phones pinch to zoom, so the bar keeps only the fit button. */
+@media (max-width: 600px) {
+  .map-top {
+    padding: 6px 8px;
+  }
+
+  .map-toolbar {
+    gap: 4px;
+  }
+
+  .map-toolbar .map-chip {
+    padding: 4px 9px;
+  }
+
+  .zoom-controls .zoom-step,
+  .zoom-level,
+  .map-chip .label-long {
+    display: none;
+  }
+}
+
+@media (min-width: 601px) {
+  .map-chip .label-short {
+    display: none;
   }
 }
 
