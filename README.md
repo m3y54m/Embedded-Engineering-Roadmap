@@ -191,6 +191,8 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-avr) (th
 
 ### 🛠️ IDEs
 
+Vendor IDEs bundle the toolchain, debugger integration and peripheral configuration tools for their microcontrollers, which makes them a quick way to bring up a first target.
+
 - [🔗 Keil MDK & µVision](https://www.keil.com/)
 - [🔗 IAR Embedded Workbench](https://www.iar.com)
 - [🔗 STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
@@ -268,13 +270,19 @@ _________________
 
 ### ✳️ Electronics
 
+Electronics knowledge lets firmware engineers read schematics and datasheets, understand voltage levels, current limits and timing, and tell a hardware fault from a software bug.
+
 #### 🔵 Basic Calculus
+
+Calculus underpins signal processing, control theory and the behavior of circuits with capacitors and inductors.
 
 - [🎞️ Khan Academy - Calculus 1](https://www.khanacademy.org/math/calculus-1)
 - [📘👶 Calculus For Dummies - Mark Ryan](https://a.co/d/cyvZqE1)
 - [📘💎 Thomas' Calculus](https://a.co/d/gFcCC37)
 
 #### 🔵 Principles of Electric Circuits
+
+Ohm's and Kirchhoff's laws, RC and RL circuits and AC basics are what you need to size pull-up resistors, filters and power supplies around a microcontroller.
 
 - [🔗👶 Lessons in Electric Circuits (All About Circuits)](https://www.allaboutcircuits.com/textbook/)
 - [🔗👶💎 Electronics Tutorials](https://www.electronics-tutorials.ws)
@@ -283,6 +291,8 @@ _________________
 - [🎞️💎 Basic Circuit Theory I (By Prof. Razavi) (YouTube Playlist)](https://www.youtube.com/playlist?list=PL9KyzjPFbwH37w22z-UHVEt37pdJHjZ7x)
 
 #### 🔵 Electronics Fundamentals
+
+The building blocks that appear around every microcontroller: resistors, capacitors, diodes, transistors and op-amps, and how they behave in real circuits.
 
 - [🔗👶💎 Build Electronic Circuits - Øyvind Nydal Dahl](https://www.build-electronic-circuits.com/)
 - [🎞️👶 Electronic Basics - GreatScott! (YouTube Playlist)](https://youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
@@ -296,6 +306,8 @@ _________________
 - [🔗 Awesome Electronics: A curated list of electronics resources](https://github.com/kitspace/awesome-electronics)
 
 #### 🔵 Digital Design
+
+Logic gates, flip-flops and registers are the hardware inside microcontrollers and FPGAs; understanding them explains how peripherals, buses and timing work.
 
 - [🔗👶 Tiny Tapeout > Digital Design Guide](https://tinytapeout.com/digital_design/)
 - [🔗👶 Mvidia - From Transistors to Teraflops (interactive course)](https://jaso1024.com/mvidia/)
@@ -323,18 +335,24 @@ _________________
 
 ### ✳️ Using Test Equipment
 
-Embedded systems often require specialized test equipment to verify their functionality and performance. This equipment includes multimeters, oscilloscopes, logic analyzers, function generators, power supplies, and other tools that allow engineers to measure signals, inject stimuli, and monitor the behavior of embedded systems.
+Embedded systems are verified with instruments as well as code. Multimeters, oscilloscopes, logic analyzers, power supplies and function generators let you measure signals, inject stimuli and see what the hardware really does.
 
 #### 🔵 Multimeter
+
+Measures voltage, current, resistance and continuity. It is the first tool for checking power rails, connections and short circuits.
 
 - [🎞️👶 Learn How to Use a Multimeter!](https://youtu.be/4lAyzRxsbDc)
 - [📝👶 How to Use a Multimeter](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all)
 
 #### 🔵 Logic / Protocol Analyzer
 
+Captures digital signals and decodes protocols such as UART, I2C, SPI and CAN, so you can see exactly what is exchanged on the wires.
+
 - [🎞️ Instrument Basics: Logic Analyzer](https://youtu.be/u1DYs2I-_lU)
 
 #### 🔵 Oscilloscope
+
+Shows signals over time: edges, rise times, noise, glitches and power supply ripple that a logic analyzer cannot show.
 
 - [🎞️👶 What’s an OSCILLOSCOPE?](https://youtu.be/DgYGRtkd9Vs)
 - [🎞️👶 How to Use an Oscilloscope](https://youtu.be/u4zyptPLlJI)
@@ -356,11 +374,15 @@ Breadboarding is a hands-on approach to prototyping circuits, providing a versat
 
 #### 🔵 Hardware Design Basics
 
+Reading schematics, choosing components, and designing the power supply, reset and clock circuits that a microcontroller needs to run.
+
 - [🎞️👶💎 Hardware Design - Phil’s Lab (YouTube Playlist)](https://www.youtube.com/playlist?list=PLXSyc11qLa1YhVCZ5xWPuPsE5MkgEy5TF)
 - [🎞️ Electronic Circuit Design - IFE - TU Graz (YouTube Playlist)](https://www.youtube.com/playlist?list=PLLpZ1DoEuR9tbV8r8bMSI94znm6pRB905)
 - [🎞️ Microcontroller-Based Hardware Design With Altium Designer (YouTube Playlist)](https://www.youtube.com/playlist?list=PL3aaAq2OJU5HcbClqrOhqBDozF7HmxV-s)
 
 #### 🔵 PCB Design / EMC
+
+Turning a schematic into a board. Layout, grounding and decoupling decide signal integrity and electromagnetic compatibility (EMC), and whether a product passes certification.
 
 - [🎞️💎 Altium Academy YouTube Channel](https://www.youtube.com/@AltiumAcademy)
 - [🎞️💎 Robert Feranec YouTube Channel](https://www.youtube.com/@RobertFeranec)
@@ -386,6 +408,8 @@ Breadboarding is a hands-on approach to prototyping circuits, providing a versat
 - [🔗 Cirkit Designer](https://www.cirkitdesigner.com/)
 
 #### 🔵 Soldering / Rework
+
+Assembling prototypes and repairing boards, from through-hole parts to fine-pitch SMD components, including replacing parts with hot air.
 
 - [🎞️👶 How To Solder - Electronics with Becky Stern | Digi-Key Electronics](https://www.youtube.com/watch?v=sS4v2hIFp9I)
 - [🎞️👶 HOW TO SOLDER! (Beginner's Guide)](https://www.youtube.com/watch?v=3jAw41LRBxU)
@@ -430,6 +454,8 @@ Discrete mathematics is the theoretical basis of computer science and engineerin
 
 #### 🔵 Algorithms & Data Structures
 
+Tight RAM and CPU budgets shape the choices: fixed-size buffers, ring buffers, queues and lookup tables are more common in firmware than dynamic structures.
+
 - [📘👶💎 Grokking Algorithms - Aditya Y. Bhargava](https://www.manning.com/books/grokking-algorithms)
 - [📘💎 Introduction to Algorithms - Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein](http://mitpress.mit.edu/9780262367509/introduction-to-algorithms/)
 - [🔗 Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes](https://github.com/TheAlgorithms/C)
@@ -440,6 +466,8 @@ Discrete mathematics is the theoretical basis of computer science and engineerin
 
 #### 🔵 Design Patterns
 
+Patterns that work without heavy object orientation or dynamic allocation, such as state, observer, opaque pointers and layered hardware abstractions.
+
 - [📝 Practical Design Patterns: Opaque Pointers and Objects in C](https://interrupt.memfault.com/blog/opaque-pointers)
 - [📘💎 Design Patterns for Embedded Systems in C - Bruce Powel Douglass](https://www.oreilly.com/library/view/design-patterns-for/9781856177078/)
 - [📘💎 Making Embedded Systems: Design Patterns for Great Software - Elecia White](https://www.oreilly.com/library/view/making-embedded-systems/9781449308889/)
@@ -447,6 +475,8 @@ Discrete mathematics is the theoretical basis of computer science and engineerin
 - [🔗 Design Patterns - Refactoring Guru](https://refactoring.guru/design-patterns)
 
 #### 🔵 State Machines
+
+Most embedded behavior, such as protocols, user interfaces and device modes, is a state machine reacting to events. Making states explicit keeps it predictable and testable.
 
 - [📝 Programming embedded systems the easy way – with state machines](https://www.embedded.com/programming-embedded-systems-the-easy-way-with-state-machines/)
 - [🎞️💎 State Machines (YouTube Playlist)](https://www.youtube.com/playlist?list=PLPW8O6W-1chxym7TgIPV9k5E8YJtSBToI)
@@ -457,6 +487,8 @@ Discrete mathematics is the theoretical basis of computer science and engineerin
 - [📘 Practical UML Statecharts in C/C++ by Miro Samek](https://www.amazon.sg/Practical-UML-Statecharts-Event-Driven-Programming/dp/0750687061)
 
 #### 🔵 Memory Management
+
+Firmware usually avoids malloc after startup and relies on static allocation, stacks of known size and memory pools. Understanding the stack, the heap and the linker's memory map helps prevent overflows and fragmentation.
 
 - [🎞️ Understanding the C runtime memory model](https://www.youtube.com/watch?v=3F3lp_F2YpQ)
 - [🎞️ Pointers and dynamic memory - stack vs heap](https://www.youtube.com/watch?v=_8-ht2AKyH4)
@@ -473,6 +505,8 @@ _________________
 Low-level languages like C and assembly provide direct hardware access, enabling efficient code optimization for resource-constrained embedded systems. System-level languages like C++ and Rust offer a higher level of abstraction for complex embedded applications, while Python is often employed for testing embedded systems due to its simplicity.
 
 #### 🔵 C
+
+The dominant language of embedded firmware: close to the hardware, with a minimal runtime, predictable memory use and support in every toolchain.
 
 - [🎞️👶 Microchip University - Syntax And Structure of C - Simply C](https://mu.microchip.com/syntax-and-structure-of-c)
 - [🎞️💎 Microchip University - Advanced C Programming](https://mu.microchip.com/advanced-c-programming)
@@ -499,6 +533,8 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 
 #### 🔵 C++
 
+Adds classes, templates and stronger type checking on top of C at little or no runtime cost, when used without exceptions, RTTI and heavy dynamic allocation.
+
 - [📝 Modern C++ in Embedded Development: (Don't Fear) The ++](https://www.embeddedrelated.com/showarticle/1532.php)
 - [📝 C++ On Embedded Systems](https://blog.mbedded.ninja/programming/languages/c-plus-plus/cpp-on-embedded-systems/)
 - [📝💎 Bare Metal C++ - Alexey Rybachuk](https://arobenko.github.io/bare_metal_cpp/)
@@ -520,6 +556,8 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 
 #### 🔵 Assembly
 
+Needed for startup code, interrupt entry and the rare hot spot, and for reading disassembly while debugging. ARM and RISC-V are the most common instruction sets.
+
 - [📝👶 Introduction to ARM Assembly Basics](https://azeria-labs.com/writing-arm-assembly-part-1/)
 - [🎞️ Udemy – ARM GNU Assembly Programming From Ground Up](https://www.udemy.com/course/arm-gnu-assembly-programming-from-ground-uptm/)
 - [🎞️ Assembly Language Programming with ARM – Full Tutorial for Beginners](https://www.youtube.com/watch?v=gfmRrPjnEw4)
@@ -528,6 +566,8 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [🔗 Battery info program for x86-64 Linux laptops in 298 bytes of machine code](https://github.com/meribold/btry)
 
 #### 🔵 Python
+
+Used on the host for test automation, tooling and scripting, and on microcontrollers through MicroPython and CircuitPython.
 
 - [📝 Python for embedded systems testing](https://www.elsys-design.com/en/python-embedded-systems-testing/)
 - [📝👶 The Python Handbook – Learn Python for Beginners](https://www.freecodecamp.org/news/the-python-handbook/)
@@ -543,6 +583,8 @@ Low-level languages like C and assembly provide direct hardware access, enabling
 - [📝 Programming the ESP32 with MicroPython](https://wolles-elektronikkiste.de/en/programming-the-esp32-with-micropython)
 
 #### 🔵 Rust
+
+A memory-safe systems language without a garbage collector. It is gaining ground in embedded for firmware that must be both safe and efficient.
 
 - [📝 5 roadblocks to Rust adoption in embedded systems](https://www.embedded.com/5-roadblocks-to-rust-adoption-in-embedded-systems/)
 - [🔗 The Embedded Rust Book](https://docs.rust-embedded.org/book/)
@@ -596,9 +638,13 @@ Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and 
 
 #### 🔵 GPIO
 
+Pins that firmware configures as digital inputs or outputs, with pull-ups, open-drain or alternate functions. The basis for LEDs, buttons and bit-banged protocols.
+
 - [🎞️ Tutorial 5: Peripheral 1 - General purpose Input Output (GPIO) Configuration in STM32](https://youtu.be/tjDhmavBGf0)
 
 #### 🔵 ADC
+
+Converts an analog voltage into a digital value. Resolution, sampling rate, reference voltage and noise determine how accurate readings are.
 
 - [🎞️ How Do ADCs Work? - The Learning Circuit](https://www.youtube.com/watch?v=g4BvbAKNQ90)
 - [🎞️ Tutorial 13: ADC in STM32F4](https://youtu.be/vIlG_i3GqeU)
@@ -606,10 +652,14 @@ Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and 
 
 #### 🔵 DAC
 
+Converts a digital value into an analog voltage, used for audio, waveform generation and set-points.
+
 - [🎞️ How Do DACs Work? - The Learning Circuit](https://www.youtube.com/watch?v=YAxrmoVtEtE)
 - [🎞️ DAC in STM32 || Sine wave || HAL || CubeIDE](https://www.youtube.com/watch?v=6Z1L6ox63j0)
 
 #### 🔵 Timers / Counters
+
+Count clock cycles to measure time, generate periodic interrupts and capture or generate signals. They are the base of scheduling and PWM.
 
 - [📝 Introduction to Microcontroller Timers: Periodic Timers](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-periodic-timers/)
 - [📝 Timers and Counters (AVR) - Nick Gammon](https://www.gammon.com.au/timers)
@@ -617,15 +667,21 @@ Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and 
 
 #### 🔵 PWM (Pulse Width Modulation)
 
+A digital output whose duty cycle is adjustable, used to control motor speed, LED brightness and power converters.
+
 - [🎞️ What is PWM?](https://www.youtube.com/watch?v=B_Ysdv1xRbA)
 - [📝 Pulse-width Modulation (PWM) Timers in Microcontrollers](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-pwm-timers/)
 - [🎞️ STM32 Guide #3: PWM + Timers](https://www.youtube.com/watch?v=AjN58ceQaF4)
 
 #### 🔵 RTC  (Real Time Clock)
 
+A low-power clock that keeps calendar time, often from a backup battery, and can wake the microcontroller from sleep.
+
 - [📝 Real Time Clocks (RTCs) in Microcontroller Timers](https://www.allaboutcircuits.com/technical-articles/introduction-to-microcontroller-timers-real-time-clocks/)
 
 #### 🔵 Watchdog
+
+A timer that resets the microcontroller if the firmware stops servicing it, so the device recovers from hangs on its own.
 
 - [📝 A Guide to Watchdog Timers for Embedded Systems](https://interrupt.memfault.com/blog/firmware-watchdog-best-practices)
 - [📝 Watchdog Timers in Microcontrollers](https://www.allaboutcircuits.com/technical-articles/watchdog-timers-microcontroller-timers/)
@@ -633,6 +689,8 @@ Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and 
 - [🎞️ WATCHDOGS in STM32 || IWDG and WWDG || CubeIDE](https://www.youtube.com/watch?v=AelNsnpfbcM)
 
 #### 🔵 Interrupts
+
+Let hardware events preempt the running code immediately. Priorities, latency and short handlers are central to responsive firmware.
 
 - [🎞️ Polling/Interrupt/DMA differences explained easily](https://www.youtube.com/watch?v=LNPBr3WvuNg)
 - [🎞️ Level Up Your Arduino Code: External Interrupts](https://www.youtube.com/watch?v=J61_PKyWjxU)
@@ -642,6 +700,8 @@ Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and 
 
 #### 🔵 DMA
 
+Moves data between peripherals and memory without the CPU, freeing it for other work and sustaining high-rate transfers from ADCs, SPI or UART.
+
 - [🎞️ Introduction to Direct Memory Access (DMA)](https://www.youtube.com/watch?v=M16l_ymlfcs)
 - [🎞️ STM32 DMA PT 1](https://www.youtube.com/watch?v=yvLHtXJ_KSg)
 - [🎞️ STM32 DMA PT 2](https://www.youtube.com/watch?v=Kb8dX18xYuo)
@@ -649,6 +709,8 @@ Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and 
 - [🎞️ STM32 UART DMA and IDLE LINE || Receive unknown length DATA](https://www.youtube.com/watch?v=Bo6MC5A8uTE)
 
 #### 🔵 Clock Management
+
+Clock sources, PLLs and dividers set CPU and peripheral speed and affect accuracy and power. A misconfigured clock is a common source of mysterious problems.
 
 - [📝 Clock Configuration in STM32](https://medium.com/@csrohit/clock-configuration-in-stm32-6a058da220e0)
 - [🎞️ STM32: Change clock speed via registers](https://www.youtube.com/watch?v=W_9jPMgiqaQ)
@@ -658,10 +720,14 @@ Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and 
 
 #### 🔵 Power Management
 
+Sleep and low-power modes, wake-up sources and clock gating are what let battery-powered devices last for months or years.
+
 - [🎞️ SLEEP Mode in STM32F103 || CubeIDE || Low Power Mode || Current Consumption](https://www.youtube.com/watch?v=2rKcsGkCG0s)
 - [🎞️ STOP MODE in STM32 || CubeIDE || Low Power Mode](https://www.youtube.com/watch?v=UtQhc4XV8k4)
 
 #### 🔵 Bootloader / DFU (Device Firmware Update)
+
+A small program that starts first, checks the application image and can update the firmware over UART, USB or the air.
 
 - [📝 Basics to Developing Bootloader for Arduino](https://www.electronicwings.com/arduino/basics-to-developing-bootloader-for-arduino)
 - [📝 From Zero to main(): How to Write a Bootloader from Scratch](https://interrupt.memfault.com/blog/how-to-write-a-bootloader-from-scratch)
@@ -675,9 +741,11 @@ _________________
 
 ### ✳️ Interfaces, Protocols & Communication Technologies
 
-Embedded systems often communicate with other devices or external systems via interfaces, protocols. Interfaces provide the physical connections, protocols define data exchange rules. The choice depends on application-specific needs, including bandwidth, distance, security, and power consumption.
+Embedded systems exchange data with sensors, memories, displays, other chips and the outside world. An interface is the physical connection and a protocol defines how data is exchanged over it. The right choice depends on bandwidth, distance, number of wires, power consumption, cost and available hardware support.
 
 #### 🔵 Basic Protocols
+
+Short-distance serial buses such as UART, I2C and SPI that connect a microcontroller to sensors, memories, displays and other chips on the same board.
 
 - [🎞️👶 Understanding Serial Protocols](https://www.youtube.com/watch?v=LEz5UCN3aHA)
 - [🎞️👶 Serial Protocol Fundamentals](https://www.youtube.com/watch?v=yz7h5xd18OE)
@@ -724,6 +792,8 @@ Embedded systems often communicate with other devices or external systems via in
 
 #### 🔵 Digital Audio Protocols
 
+Interfaces that move audio samples between a microcontroller or processor and codecs, microphones and amplifiers.
+
 ##### 🔶 I2S
 
 - [📝 Introduction to the I2S Interface](https://www.allaboutcircuits.com/technical-articles/introduction-to-the-i2s-interface/)
@@ -736,6 +806,8 @@ Embedded systems often communicate with other devices or external systems via in
 - [📝 PCM Terminology and Concepts](https://larsimmisch.github.io/pyalsaaudio/terminology.html)
 
 #### 🔵 Display & Camera Protocols
+
+Interfaces for displays and image sensors, from simple control buses to the high-speed MIPI links used with application processors.
 
 ##### 🔶 SCCB
 
@@ -759,6 +831,8 @@ Embedded systems often communicate with other devices or external systems via in
 - [🎞️ HDMI 2.1 & TMDS Crash Course - ENMU EET 457 - Presentation](https://www.youtube.com/watch?v=5acgSK0kWTE)
 
 #### 🔵 Wireless Protocols
+
+Radio links trade off range, data rate, power consumption and ecosystem: low-power short range (BLE, Zigbee, Thread), long range (LoRa), high throughput (Wi-Fi) and ranging (UWB).
 
 ##### 🔶 Bluetooth / BLE
 
@@ -809,6 +883,8 @@ Embedded systems often communicate with other devices or external systems via in
 
 #### 🔵 Industrial Protocols
 
+Fieldbus and industrial Ethernet protocols that connect controllers, sensors and drives in factories and automation systems.
+
 ##### 🔶 Modbus
 
 - [🎞️ What is Modbus and How does it Work?](https://www.youtube.com/watch?v=txi2p5_OjKU)
@@ -837,6 +913,8 @@ Embedded systems often communicate with other devices or external systems via in
 - [🎞️ Simple ESP32 IoT Sensor Node Tutorial: WiFi Enabled MQTT Sensor Data Node](https://www.youtube.com/watch?v=x5A5S0hoyJ0)
 
 #### 🔵 High-Speed Protocols
+
+Wired links for high data rates, such as Ethernet, USB and PCIe. They usually need a hardware controller, a protocol stack and careful PCB layout.
 
 ##### 🔶 Ethernet
 
@@ -868,6 +946,8 @@ Embedded systems often communicate with other devices or external systems via in
 
 #### 🔵 Automotive Protocols
 
+Vehicle networks that connect electronic control units (ECUs), from the low-cost LIN to CAN, FlexRay and MOST. They are built for robust, real-time communication in electrically noisy environments.
+
 ##### 🔶 CAN
 
 - [🎞️👶 Microchip University - CAN and CAN FD Protocol and Physical Layer Basics](https://mu.microchip.com/understanding-the-can-fd-protocol)
@@ -898,6 +978,8 @@ Embedded systems often communicate with other devices or external systems via in
 
 #### 🔵 Network Protocols / Socket Programming
 
+How devices communicate over IP networks: TCP and UDP sockets, and the lightweight IP stacks such as lwIP that run on microcontrollers and embedded Linux.
+
 - [🎞️ Networking Fundamentals - Practical Networking (YouTube Playlist)](https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
 - [🎞️ TCP vs UDP - Explaining Facts and Debunking Myths - TCP Masterclass](https://www.youtube.com/watch?v=jE_FcgpQ7Co)
 - [🎞️ TCP - 12 simple ideas to explain the Transmission Control Protocol](https://www.youtube.com/watch?v=JFch3ctY6nE)
@@ -912,6 +994,8 @@ Embedded systems often communicate with other devices or external systems via in
 - [📝 Understanding Traceroute](https://tech.stonecharioteer.com/posts/2026/traceroute/)
 
 #### 🔵 Cellular Communication
+
+Cellular modems give a device wide-area connectivity: 4G modems for high throughput, and low-power IoT variants (LTE-M, NB-IoT) designed for battery-powered devices.
 
 ##### 🔶 GSM / LTE
 
@@ -931,6 +1015,8 @@ Embedded systems employ a combination of volatile (SRAM, DRAM, PSRAM) and non-vo
 
 #### 🔵 Flash Memory
 
+Non-volatile memory that stores firmware and data. It is erased in blocks and wears out with writes; NOR flash suits code execution, NAND flash suits bulk storage.
+
 - [📝 NAND and eMMC: All You Need to Know About Flash Memory](https://www.makeuseof.com/tag/nand-emmc-need-know-flash-memory/)
 
 ##### 🔶 NOR / NAND
@@ -949,9 +1035,13 @@ Embedded systems employ a combination of volatile (SRAM, DRAM, PSRAM) and non-vo
 
 #### 🔵 EEPROM
 
+Byte-erasable non-volatile memory for small amounts of data such as settings and calibration values, with a limited number of write cycles.
+
 - [🎞️ Using EEPROM with Arduino - Internal & External](https://www.youtube.com/watch?v=ShqvATqXA7g)
 
 #### 🔵 SRAM / DRAM
+
+Fast volatile memory. SRAM is built into the microcontroller and needs no refresh; DRAM is larger and cheaper but needs a memory controller and periodic refresh.
 
 - [📝 SRAM vs DRAM: Difference Between SRAM & DRAM Explained](https://www.enterprisestorageforum.com/hardware/sram-vs-dram/)
 - [🎞️ What is SRAM?](https://www.youtube.com/watch?v=kU2SsUUsftA)
@@ -960,7 +1050,7 @@ Embedded systems employ a combination of volatile (SRAM, DRAM, PSRAM) and non-vo
 
 #### 🔵 File Systems
 
-A file system is a way of organizing data on a storage device, such as a hard drive, flash drive, or solid-state drive. It provides a way to store, access, and manage files, which are collections of data that can be accessed individually. File systems in embedded systems are typically lightweight and optimized for efficiency, considering the limited resources and specific requirements of embedded devices. They often employ simpler file structures and data structures compared to desktop or server file systems.
+A file system organizes data on a storage device. Embedded devices need ones designed for the medium: flash wears out and is erased in blocks, so wear leveling and power-loss safety matter more than speed (for example LittleFS, FAT on SD cards, or UBIFS and ext4 on eMMC under Linux). Small microcontrollers often need no file system at all.
 
 - [📝 Flash filesystems](https://hugh712.gitbooks.io/embeddedsystem/content/flash_filesystems.html)
 - [📝 Block filesystems](https://hugh712.gitbooks.io/embeddedsystem/content/block_filesystems.html)
@@ -989,6 +1079,8 @@ Embedded system development often involves simulating or emulating hardware envi
 
 #### 🔵 QEMU
 
+A general machine emulator that can boot kernels and firmware for many architectures and boards without hardware, widely used for embedded Linux and RTOS development.
+
 - [🔗 QEMU’s documentation](https://www.qemu.org/docs/master/index.html)
 - [📝 Running AVR code in QEMU - A quick-start guide to accelerate AVR firmware development](https://yeah.nah.nz/embedded/qemu-avr/)
 - [📝 QEMU Simulation - Blinky - STM32F767ZI Full Stack](https://longer-vision-robot.gitbook.io/stm32f767zi-full-stack/chapter-2.-programming-for-stm32/2.4-qemu-simulation-blinky)
@@ -996,6 +1088,8 @@ Embedded system development often involves simulating or emulating hardware envi
 - [📝👶 Building an ARM Embedded Linux System in QEMU](https://github.com/dchithinh/mastering-embeded-linux-programming)
 
 #### 🔵 Renode
+
+An open-source framework that simulates whole embedded systems, including peripherals and multiple nodes, which makes firmware testable in CI without boards.
 
 - [🔗 Renode - GitHub Repo](https://github.com/renode/renode)
 - [🔗 Renode - Documentation](https://renode.readthedocs.io/en/latest/)
@@ -1037,9 +1131,11 @@ _________________
 
 ### ✳️ Digital Signal Processing
 
-Digital signal processing (DSP) is a branch of engineering that deals with the processing of digital signals. It is used in a wide variety of applications, including embedded systems, communication systems, and multimedia systems. DSP algorithms are often implemented in hardware using application-specific integrated circuits (ASICs) or field-programmable gate arrays (FPGAs).
+Digital signal processing manipulates sampled signals such as audio, sensor data and radio signals. On microcontrollers it appears as digital filters, FFTs and sensor fusion, running on CPUs with DSP instructions (for example Cortex-M4 and M7), dedicated DSP cores or FPGAs, often in fixed-point arithmetic to save time and energy.
 
 #### 🔵 DSP Basics & Filter Design
+
+Sampling theory, FIR and IIR filters and fixed-point arithmetic: the tools for cleaning up sensor and audio signals in firmware.
 
 - [📘💎 The Scientist and Engineer's Guide to Digital Signal Processing - Steven W. Smith](https://www.dspguide.com/pdfbook.htm)
 - [🎞️ FIR Filter Design and Software Implementation - Phil's Lab #17](https://www.youtube.com/watch?v=uNNNj9AZisM)
@@ -1054,6 +1150,8 @@ Digital signal processing (DSP) is a branch of engineering that deals with the p
 
 #### 🔵 Discrete Fourier Transform / FFT
 
+Turns time-domain samples into frequencies, used for vibration analysis, audio and sensor data, typically through optimized libraries such as CMSIS-DSP.
+
 - [🎞️ Discrete Fourier Transform - Simple Step by Step](https://www.youtube.com/watch?v=mkGsMWi_j4Q)
 - [🎞️ The Fast Fourier Transform (FFT): Most Ingenious Algorithm Ever?](https://youtu.be/h7apO7q16V0)
 - [🎞️ The FFT Algorithm - Simple Step by Step](https://www.youtube.com/watch?v=htCj9exbGo0)
@@ -1062,6 +1160,8 @@ Digital signal processing (DSP) is a branch of engineering that deals with the p
 _________________
 
 ### ✳️ Control Theory
+
+Control theory covers how a system holds a target despite disturbances, such as motor speed, temperature or a drone's attitude. In firmware it appears as control loops running at a fixed sampling rate with sensor feedback and filtering.
 
 - [🎞️ Understanding Control Systems (YouTube Playlist)](https://youtube.com/playlist?list=PLn8PRpmsu08q8CE0pbZ-cSrMm_WYJfVGd)
 - [🎞️ Control Systems - CircuitBread (YouTube Playlist)](https://www.youtube.com/playlist?list=PLfYdTiQCV_p4YZNJWExM-5_g0fk9bHDL8)
@@ -1072,6 +1172,8 @@ _________________
 
 #### 🔵 PID Controller
 
+The most widely used controller. It combines proportional, integral and derivative action on the error, and is discretized and tuned in firmware for motors, heaters and many other loops.
+
 - [🎞️👶 What is a PID Controller? | DigiKey](https://www.youtube.com/watch?v=tFVAaUcOm4I)
 - [🎞️👶 How to Tune a PID Controller for an Inverted Pendulum | DigiKey](https://www.youtube.com/watch?v=hRnofMxEf3Q)
 - [🎞️ PID Controller Explained](https://www.youtube.com/watch?v=fv6dLTEvl74)
@@ -1079,6 +1181,8 @@ _________________
 - [🎞️ PID Controller Implementation in Software - Phil's Lab #6](https://www.youtube.com/watch?v=zOByx3Izf5U)
 
 #### 🔵 MATLAB / Simulink
+
+Model-based design: simulate controllers and algorithms first, then generate C code for the target microcontroller.
 
 - [🎞️ MATLAB Tutorials: Getting Started with MATLAB (YouTube Playlist)](https://youtube.com/playlist?list=PL7CAABC40B2825C8B)
 - [🎞️ Getting Started with Simulink (YouTube Playlist)](https://youtube.com/playlist?list=PL484BA2AD3AE4C2D0)
@@ -1091,6 +1195,8 @@ _________________
 Embedded systems can be programmed with either an operating system (OS) or directly on the hardware, known as bare-metal programming. Each approach has its own advantages and disadvantages. Embedded operating systems provide a layer of abstraction between the hardware and the application code, offering benefits like resource management, task scheduling, error handling, and communication capabilities. However, they add overhead and may not be suitable for memory-constrained applications.
 
 #### 🔵 Operating System Fundamentals
+
+Processes, scheduling, memory management and drivers: the concepts behind what an RTOS or Linux does for your application.
 
 - [📝👶 Putting the “You” in CPU](https://cpu.land/)
 - [📝👶 Operating System in 1,000 Lines](https://operating-system-in-1000-lines.vercel.app/en/)
@@ -1185,7 +1291,7 @@ Real-time operating systems (RTOS) are specialized operating systems designed to
 
 #### 🔵 Embedded Linux
 
-Embedded Linux is a specialized version of the Linux operating system tailored for embedded systems. It's designed to operate on devices with resource constraints, such as limited memory, processing power, and power consumption.
+Embedded Linux runs on application processors rather than small microcontrollers. It is chosen for its networking, file system, USB and graphics stacks and its large software ecosystem, at the cost of more memory, longer boot times and no hard real-time guarantees unless the PREEMPT_RT patch is used.
 
 - [📝 What Is Embedded Linux?](https://www.windriver.com/solutions/learning/embedded-linux)
 - [📝 FreeRTOS vs Linux for Embedded Systems](https://www.bytesnap.com/news-blog/freertos-vs-linux-embedded-systems/)
@@ -1250,6 +1356,8 @@ Embedded Android builds on Embedded Linux: the device runs a Linux kernel with A
 
 #### 🔵 Multithreading & Parallel Processing
 
+Running several tasks concurrently on one or more cores brings shared-data hazards such as race conditions, priority inversion and deadlocks. Mutexes, queues and careful design keep them under control.
+
 - [📝 Threading/Concurrency vs Parallelism](http://www.danielmoth.com/Blog/threadingconcurrency-vs-parallelism.aspx)
 - [📝 Multi-threading and Parallel Programming](https://dev.to/kwereutosu/multi-threading-and-parallel-programming-1l9m)
 - [📝 Multitasking vs Multithreading vs Multiprocessing](https://medium.com/codex/multitasking-vs-multithreading-vs-multiprocessing-2b0087c861ae)
@@ -1267,6 +1375,8 @@ Embedded Android builds on Embedded Linux: the device runs a Linux kernel with A
 
 #### 🔵 Inter-Process Communication (IPC)
 
+How tasks and processes exchange data and signals: queues, shared memory, sockets, pipes and message buses such as D-Bus.
+
 - [📝 Inter Process Communication (IPC)](https://www.scaler.com/topics/operating-system/inter-process-communication-in-os/)
 - [📝 What Is Inter-Process Communication In Linux?](https://www.scaler.com/topics/ipc-in-linux/)
 - [🎞️ Udemy – Linux Inter Process Communication (IPC) from Scratch in C](https://www.udemy.com/course/linuxipc/)
@@ -1276,13 +1386,15 @@ Embedded Android builds on Embedded Linux: the device runs a Linux kernel with A
 
 #### 🔵 Qt Framework
 
+A C++ framework for GUIs and applications on embedded Linux, with QML for declarative interfaces and a lighter Qt for MCUs edition for microcontrollers.
+
 - [🔗 Qt Documentation](https://doc.qt.io/)
 
 _________________
 
 ### ✳️ Debugging
 
-Debugging embedded systems involves identifying and resolving software defects and hardware malfunctions. Various techniques are employed to pinpoint the root causes of issues, such as static code analysis, dynamic analysis, simulation and emulation, in-circuit debugging, and hardware debugging.
+Embedded bugs often involve hardware, timing and software together. Debugging combines in-circuit debuggers, logging, tracing, static analysis, simulation and instruments such as oscilloscopes to find the root cause.
 
 - [📝 Using Asserts in Embedded Systems](https://interrupt.memfault.com/blog/asserts-in-embedded-systems)
 
@@ -1299,7 +1411,7 @@ JTAG and SWD (Serial Wire Debug) are two popular interface protocols used for de
 
 #### 🔵 GDB
 
-GDB (GNU Debugger) is a powerful and versatile debugger for source-level and machine-level debugging. It supports a wide range of programming languages, including C, C++, Objective-C, Java, and Rust. GDB is a free and open-source software tool that is widely used by developers and researchers.
+GDB is the standard open-source debugger for C, C++ and Rust firmware. Connected through a debug probe and a GDB server such as OpenOCD, it lets you set breakpoints, step through code, and inspect registers, memory and the call stack on the target.
 
 - [📝 Advanced GDB Usage](https://interrupt.memfault.com/blog/advanced-gdb)
 - [📝 How do breakpoints even work?](https://interrupt.memfault.com/blog/cortex-m-breakpoints)
@@ -1311,7 +1423,7 @@ GDB (GNU Debugger) is a powerful and versatile debugger for source-level and mac
 
 #### 🔵 OpenOCD
 
-OpenOCD (Open On-Chip Debugger) is an open-source software tool that provides a powerful and versatile platform for debugging and programming embedded systems. It serves as an interface between a hardware debug adapter (HDA) and a debugger, such as GNU Debugger (GDB), enabling developers to interact with the target microcontroller or microprocessor. OpenOCD supports a wide range of hardware platforms and provides a comprehensive set of features for hardware debugging, programming, and boundary-scan testing.
+OpenOCD is the open-source bridge between a debug probe (ST-Link, J-Link, CMSIS-DAP and others) and GDB. It talks JTAG or SWD to the target and supports flashing, debugging and boundary scan on a wide range of microcontrollers.
 
 - [🔗 OpenOCD - GitHub repository](https://github.com/openocd-org/openocd)
 - [🎞️ This Is 100% How You Should Be Debugging | How to Use OpenOCD to Debug Embedded Software with GDB](https://www.youtube.com/watch?v=_1u7IOnivnM)
@@ -1320,11 +1432,11 @@ _________________
 
 ### ✳️ Build System
 
-Build systems automate the process of compiling and linking source code into executable programs. They are essential tools for software development, as they can help to improve the efficiency and consistency of the build process. Popular build systems include Make, and CMake.
+Firmware is cross-compiled for a target that differs from the development machine, linked with a memory layout script and converted to a flashable image. Build systems automate these steps so builds are repeatable on every machine and in CI.
 
 #### 🔵 Compilers / GCC
 
-GCC (the GNU Compiler Collection) is a free and open-source compiler system that can compile programs for many different programming languages, including C, C++, Objective-C, Fortran, Ada, and Go. GCC is a popular choice for embedded systems development due to its open source nature, maturity, stability, portability, performance, and large community. On the other hand proprietary compilers like Keil and IAR offer toolchain support, target-specific optimizations, and customer support, which may be preferred for specific projects.
+A cross-compiler such as GCC (arm-none-eabi-gcc, riscv-gcc) or Clang turns C and C++ into code for a specific microcontroller. Its flags, optimization levels, linker scripts and startup code determine size, speed and behavior. Commercial compilers such as Keil and IAR offer vendor-tuned optimization and support that some projects prefer.
 
 - [📝 GCC and Make - Compiling, Linking and Building C/C++ Applications](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 - [📝 The Best and Worst GCC Compiler Flags For Embedded](https://interrupt.memfault.com/blog/best-and-worst-gcc-clang-compiler-flags)
@@ -1335,7 +1447,7 @@ GCC (the GNU Compiler Collection) is a free and open-source compiler system that
 
 #### 🔵 Make / CMake
 
-CMake and Make are both tools for building software applications. CMake is a meta-build system that generates Makefiles, which are then used by Make to build the software. CMake is more versatile and cross-platform than Make, and it is becoming the more popular choice for modern software development.
+Make rebuilds only what changed, based on rules in a Makefile. CMake generates Makefiles or Ninja files and supports toolchain files for cross-compiling, which is why many embedded SDKs such as Zephyr, the Pico SDK and ESP-IDF use it.
 
 - [📝 A Shallow Dive into GNU Make](https://interrupt.memfault.com/blog/gnu-make-guidelines)
 - [🎞️ Building STM32 projects from scratch with cross platform tools like Make, CMake and arm-gcc compiler toolchain (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEg2mgYz66IOcHRvvUDf9O1ZCGy58M1Bt)
@@ -1346,14 +1458,14 @@ CMake and Make are both tools for building software applications. CMake is a met
 
 #### 🔵 Bash Scripting
 
-Bash scripting serves as a powerful tool in embedded systems development, enabling developers to automate repetitive tasks, handle complex configurations, and manage the embedded system's environment effectively. Bash scripting is a Linux-specific tool that is not natively integrated into Windows. However, it can be accessed via the Windows Subsystem for Linux (WSL).
+Shell scripts glue the toolchain together on Linux and in CI: running builds and tests, flashing boards, parsing serial logs and preparing release images. On Windows, Bash is available through WSL.
 
 - [🔗 Bash scripting cheatsheet](https://devhints.io/bash)
 - [🎞️ Bash Scripting Tutorial for Beginners](https://www.youtube.com/watch?v=tK9Oc6AEnR4)
 
 #### 🔵 Docker
 
-Docker containers provide a consistent and isolated environment for building software applications. This can help to improve the reproducibility of builds and reduce the risk of errors. Docker also makes it easier to share build environments, which can save time and effort for developers.
+A container image pins the exact compiler, SDK and tool versions, so every developer and CI job builds the same firmware, even years later, and new team members skip a long toolchain setup.
 
 - [🔗 Docker Docs](https://docs.docker.com/get-started/)
 - [🔗 Docker Cheat Sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
@@ -1366,12 +1478,14 @@ _________________
 
 ### ✳️ Software Development Life Cycle (SDLC) Models
 
-Software Development Life Cycle (SDLC) models provide a structured approach to software development, guiding the process from planning to deployment and maintenance. These models provide a framework for organizing, managing, and executing software projects, ensuring a consistent and efficient development process.
+Embedded projects combine software, hardware and often safety or regulatory requirements, which shapes how development is planned. SDLC models describe how requirements, design, implementation, verification and maintenance are organized, from sequential models such as the V-model to iterative ones such as Agile.
 
 - [📝 What is the software development life cycle?](https://www.coderus.com/the-software-development-lifecycle/)
 - [📝 Embedded Product Development Life Cycle: Four Main Steps](https://www.sam-solutions.com/blog/embedded-product-development-life-cycle/)
 
 #### 🔵 Agile / SCRUM
+
+Iterative development in short sprints. In embedded projects it has to account for hardware availability, long lead times and certification.
 
 - [📝 Does agile work with embedded software?](https://www.embedded.com/does-agile-work-with-embedded-software/)
 - [📝 What Is Scrum: A Guide to the Most Popular Agile Framework](https://www.scrumalliance.org/about-scrum)
@@ -1383,6 +1497,8 @@ Software Development Life Cycle (SDLC) models provide a structured approach to s
 
 #### 🔵 V-Model (V-cycle)
 
+Pairs every development stage with a matching test stage. It is common in safety-critical domains such as automotive, medical and aerospace.
+
 - [📝 What is the V model for software development](https://x-engineer.org/v-model-software-development/)
 - [📝 V Model In Software Engineering: Ultimate Guideline](https://biplus.com.vn/v-model-in-software-engineering/)
 
@@ -1390,9 +1506,11 @@ _________________
 
 ### ✳️ Version Control Systems
 
-Version control systems are essential tools for managing changes to code and other digital assets. They track changes over time, allowing developers to revert to previous versions, collaborate effectively, and identify potential conflicts. Popular version control systems include Git, Mercurial, and Subversion.
+Firmware has to be traceable: every released binary should map to an exact source revision, often together with the hardware design files. Version control tracks changes, supports branches for features and hotfixes, and helps find the change that introduced a bug. Git is the standard; Subversion is still found in older projects.
 
 #### 🔵 Git
+
+The standard distributed version control system. Branches, tags for releases and bisect for finding regressions are used daily in firmware projects.
 
 - [🎞️👶 Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE)
 - [🎞️ Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git](https://www.youtube.com/watch?v=Uszj_k0DGsg)
@@ -1405,13 +1523,15 @@ _________________
 
 ### ✳️ Testing
 
-Testing is an integral part of the embedded systems development process, ensuring the quality, reliability, and safety of these systems. It involves a range of techniques, from unit testing to system testing, to validate the functionality and performance of the software and hardware components.
+Embedded testing covers logic that can run on a PC as well as behavior that only appears on real hardware, such as timing, interrupts, peripherals and power. A typical strategy combines host-based unit tests, integration tests on the target and system tests.
 
 - [📝 Embedded Testing](https://artoftesting.com/embedded-testing)
 - [📝 What is Embedded Testing in Software Testing?](https://www.guru99.com/embedded-software-testing.html)
 - [📝 Verification vs Validation in Embedded Software](https://www.parasoft.com/blog/verification-vs-validation-in-embedded-software/)
 
 #### 🔵 Test Driven Development (TDD)
+
+Writing tests before the code. In embedded projects the tests usually run on the host with the hardware mocked, which gives fast feedback without flashing a board.
 
 - [📘💎 Test Driven Development for Embedded C - James Grenning](https://www.amazon.com/Driven-Development-Embedded-Pragmatic-Programmers/dp/193435662X)
 - [📝 Testing: Unit VS Integration VS Regression VS Acceptance](https://medium.com/@touseefmurtaza1993/testing-unit-vs-integration-vs-regression-vs-acceptance-a3e190cc54dd)
@@ -1443,7 +1563,7 @@ Testing is an integral part of the embedded systems development process, ensurin
 
 #### 🔵 CI/CD Pipelines
 
-Continuous Integration (CI) and Continuous Delivery (CD) are software development practices that automate the process of building, testing, and deploying software. CI/CD pipelines are designed to ensure that software changes are deployed quickly and reliably.
+Continuous integration builds and tests every change automatically, for example compiling for all targets and running unit tests. Continuous delivery also produces versioned, signed firmware images and can deliver them to devices over the air. Hardware-in-the-loop runners extend CI to real boards.
 
 - [🎞️ Intro to CI/CD Part 1: Getting Started with Docker | Digi-Key Electronics](https://youtu.be/1nxGcfIm-TU)
 - [🎞️ Intro to CI/CD Part 2: Getting Started with GitHub Actions | Digi-Key Electronics](https://youtu.be/8pyqbYDYkRs)
@@ -1490,13 +1610,15 @@ Security in embedded systems is particularly challenging due to resource constra
 
 #### 🔵 Hardware Hacking
 
-Learning hardware hacking helps security professionals understand how embedded systems can be compromised and develop effective defenses against cyberattacks. This knowledge enhances the resilience of embedded devices to attack.
+Hardware hacking means attacking a device through its physical interfaces: debug ports (JTAG/SWD, UART), flash chips, bus sniffing and fault injection. Knowing these attacks shows embedded engineers which protections matter, such as locking debug access and encrypting firmware.
 
 - [📘💎 Practical Hardware Pentesting -  Jean-Georges Valle](https://a.co/d/dq4SeNH)
 - [🎞️ Hardware Hacking Tutorial (YouTube Playlist)](https://www.youtube.com/playlist?list=PLoFdAHrZtKkhcd9k8ZcR4th8Q8PNOx7iU)
 - [📘💎 The Hardware Hacking Handbook: Breaking Embedded Security with Hardware Attacks - Jasper van Woudenberg, Colin O'Flynn](https://a.co/d/gUIytFX)
 
 #### 🔵 Cryptography
+
+Hashing, symmetric and asymmetric encryption and digital signatures, implemented in software or by the hardware accelerators on many microcontrollers, to protect data and authenticate devices and firmware.
 
 - [🎞️👶 Microchip University - Cryptography Primer](https://mu.microchip.com/cryptography-primer)
 - [🎞️ Hashing, Hashing Algorithms, and Collisions - Cryptography - Practical TLS](https://youtu.be/HHQ2QP_upGM)
@@ -1515,6 +1637,8 @@ Learning hardware hacking helps security professionals understand how embedded s
 
 #### 🔵 Secure Boot & Secure Firmware Update
 
+Make sure that only authentic, signed firmware runs and can be installed, using a hardware root of trust and verified images.
+
 - [📝 AVR231: AES Bootloader](https://www.microchip.com/en-us/application-notes/an2462)
 - [🎞️ Blinky To Bootloader: Bare Metal Programming Series (YouTube Playlist)](https://www.youtube.com/playlist?list=PLP29wDx6QmW7HaCrRydOnxcy8QmW0SNdQ)
 - [🎞️ MOOC - Security Part4 : STM32 security in practice (YouTube Playlist)](https://youtube.com/playlist?list=PLnMKNibPkDnF0wt-ZI74SflnsBV4yKzkO)
@@ -1531,7 +1655,7 @@ _________________
 
 ### ✳️ Embedded GUI
 
-Graphical User Interfaces (GUIs) have become an indispensable part of modern embedded systems, offering a user-friendly and intuitive way to interact with devices. Designing effective GUIs for embedded systems requires careful consideration of factors such as resource constraints, user experience, and real-time performance.
+A display needs a user interface that fits small RAM and flash, a limited CPU or GPU and tight latency. Embedded GUI libraries such as LVGL, TouchGFX and Qt provide widgets, drawing and touch handling on top of the display driver.
 
 - [🔗 U8glib library for monochrome displays, version 2](https://github.com/olikraus/u8g2)
 - [🔗 LVGL](https://lvgl.io/)
@@ -1542,11 +1666,13 @@ _________________
 
 ### ✳️ IoT (Internet of Things)
 
-The Internet of Things (IoT) refers to a network of interconnected devices, which gather and exchange data with other devices or with the cloud. Embedded systems are typically the "brains" of IoT devices, managing data collection, processing, and communication tasks. Embedded systems are designed to operate with limited power and resources, making them well-suited for IoT applications.
+IoT devices combine sensors, a microcontroller and a network link, and often run on batteries for years. The embedded work covers connectivity, power budgets, secure provisioning, cloud protocols such as MQTT and over-the-air updates for devices deployed in the field.
 
 - [🎞️👶💎 Microchip University - Design Considerations For Your First IoT Project](https://mu.microchip.com/design-considerations-for-your-first-iot-project)
 
 #### 🔵 Delta Over-The-Air Firmware Update
+
+Updating devices by sending only the differences between firmware versions, which saves bandwidth, time and flash wear.
 
 - [📝 Saving bandwidth with delta firmware updates](https://interrupt.memfault.com/blog/ota-delta-updates)
 - [📝 Delta Over-The-Air Device Firmware Update](https://thinkty.net/projects/2023/05/07/delta_ota.html)
@@ -1563,17 +1689,23 @@ Edge AI refers to the ability of devices to perform machine learning tasks on th
 
 #### 🔵 AI & ML Basics
 
+The concepts needed before deploying models on devices: training versus inference, models and datasets, and techniques such as quantization that shrink models.
+
 - [📝 A beginner's guide to artificial intelligence and machine learning](https://developer.ibm.com/articles/cc-beginner-guide-machine-learning-ai-cognitive/)
 - [📝👶 Introduction to Machine Learning for Coders!](https://course18.fast.ai/ml)
 - [📝 Machine Learning Crash Course with TensorFlow APIs - Google](https://developers.google.com/machine-learning/crash-course/)
 
 #### 🔵 TensorFlow Lite
 
+Google's lightweight runtime for running machine learning models on mobile and embedded devices, including a variant for microcontrollers.
+
 - [🎞️ Getting Started with TensorFlow and Keras – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=HCG3hFe1KYY)
 - [🎞️ Intro to TensorFlow Lite Part 1: Wake Word Feature Extraction – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=0fn7pj7Dutc)
 - [🎞️ Intro to TensorFlow Lite Part 2: Speech Recognition Model Training – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=yv_WVwr6OkI)
 
 #### 🔵 TinyML
+
+Machine learning on microcontrollers, where model size, memory, latency and power are the main constraints.
 
 - [🎞️👶 Intro to TinyML Part 1: Training a Neural Network for Arduino in TensorFlow | Digi-Key Electronics](https://www.youtube.com/watch?v=BzzqYNYOcWc)
 - [🎞️👶 Intro to TinyML Part 2: Deploying a TensorFlow Lite Model to Arduino | Digi-Key Electronics](https://www.youtube.com/watch?v=dU01M61RW8s)
