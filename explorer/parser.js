@@ -1,5 +1,6 @@
 // Turns the roadmap README into a topic tree with descriptions, resources and cross-links.
 // Pure module: no DOM access, so it runs in the browser and under `node --test`.
+import { TITLE } from './dom.js';
 
 export const TYPES = {
   book: { icon: '📘', label: 'Book' },
@@ -87,7 +88,7 @@ function makeNode(fields) {
 
 export function parseRoadmap(markdown) {
   const lines = markdown.replace(/\r\n?/g, '\n').split('\n');
-  const root = makeNode({ id: 'root', slug: '', title: 'Embedded Systems Engineering Roadmap' });
+  const root = makeNode({ id: 'root', slug: '', title: TITLE });
   const groups = [];
   const stack = [];
   let target = root;

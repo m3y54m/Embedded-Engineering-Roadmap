@@ -2,6 +2,9 @@
 
 export const SVG_NS = 'http://www.w3.org/2000/svg';
 
+// The roadmap's name; also the README's top heading.
+export const TITLE = 'Embedded Systems Engineering Roadmap';
+
 export const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`;
 
 export const CREDITS = {

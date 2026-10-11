@@ -1,7 +1,7 @@
 import { parseRoadmap, renderInline, TYPES } from './parser.js';
 import { linkDiagram } from './diagram.js';
 import { createMapView } from './mapview.js';
-import { CREDITS, IMPORTANCE, areaDots, areaLabel, h, plural } from './dom.js';
+import { CREDITS, IMPORTANCE, TITLE, areaDots, areaLabel, h, plural } from './dom.js';
 
 const SOURCES = [
   'README.md',
@@ -97,7 +97,7 @@ function navigate(node, { push = true, resource = null, reveal = false } = {}) {
   syncOutline();
   if (resource) revealResource(resource);
   const root = state.data.root;
-  document.title = node === root ? 'Embedded Systems Engineering Roadmap · Explorer' : `${node.title} · Embedded Systems Engineering Roadmap`;
+  document.title = node === root ? `${TITLE} · Explorer` : `${node.title} · ${TITLE}`;
   if (push) {
     const hash = node === root ? '#/' : `#/${node.slug}`;
     if (location.hash !== hash) history.pushState(null, '', hash);
@@ -344,7 +344,7 @@ function renderPanel(node) {
     crumbs(node),
     h('h2', { class: 'panel-title' },
       node.icon ? h('span', { class: 'title-icon', 'aria-hidden': 'true' }, node.icon) : node === root ? null : swatch(node),
-      node === root ? 'Embedded Systems Engineering Roadmap' : node.title),
+      node === root ? 'About this roadmap' : node.title),
     node === root ? null : h('div', { class: 'meta' },
       node.areas && node.areas.length ? h('span', { class: 'pill area-pill' }, areaDots(node.areas), areaLabel(node.areas)) : null,
       node.importance ? h('span', { class: `pill imp-pill ${node.importance}` }, IMPORTANCE[node.importance]) : null,
@@ -589,7 +589,7 @@ async function loadMarkdown() {
       const response = await fetch(source, { cache: 'no-cache' });
       if (!response.ok) continue;
       const text = await response.text();
-      if (text.includes('# Embedded Systems Engineering Roadmap')) return text;
+      if (text.includes(`# ${TITLE}`)) return text;
     } catch {
       // Try the next source.
     }
@@ -674,6 +674,7 @@ function wireGlobal() {
 }
 
 async function init() {
+  document.getElementById('brand-title').textContent = TITLE;
   applyTheme(store('roadmap-theme') || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'));
   let markdown;
   const diagramRequest = loadMap();

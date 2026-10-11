@@ -1,6 +1,6 @@
 // Interactive roadmap diagram: Software / Hardware / Soft skills areas with their cross-sections,
 // importance colors, filters and connections between topics. Laid out by layout.js to fit A4.
-import { AREAS, CREDITS, GITHUB_MARK, IMPORTANCE, areaDots, areaLabel, h, plural, svg } from './dom.js';
+import { AREAS, CREDITS, GITHUB_MARK, IMPORTANCE, TITLE, areaDots, areaLabel, h, plural, svg } from './dom.js';
 import { SPACE, buildLayout } from './layout.js';
 
 const MIN_ZOOM = 0.6;
@@ -151,8 +151,11 @@ export function createMapView({ root, plan, data, build, onSelect }) {
   rect({ x: 0, y: 0, w: layout.width, h: layout.height }, { class: 'page-bg' }, layers.page);
 
   // Title and legend, so the diagram also stands on its own when printed.
+  // On screen the header already names the roadmap, so the title only appears in print, PDF and PNG.
+  const legendY = layout.titleY + 22;
+  const screenTop = legendY - 24;
   const title = svg('text', { x: 24, y: layout.titleY, class: 'page-title' }, layers.labels);
-  title.textContent = 'Embedded Systems Engineering Roadmap';
+  title.textContent = TITLE;
   const legend = svg('g', { class: 'page-legend' }, layers.labels);
   const legendItems = [
     ...Object.entries(IMPORTANCE).map(([level, label]) => ({ kind: 'imp', cls: level, label })),
@@ -162,7 +165,7 @@ export function createMapView({ root, plan, data, build, onSelect }) {
     { kind: 'area', cls: 'ss', label: 'Soft skills' },
   ];
   for (const item of legendItems) {
-    const y = layout.titleY + 22;
+    const y = legendY;
     const cls = item.kind === 'imp' ? `legend-imp ${item.cls}` : item.kind === 'area' ? `legend-area ${item.cls}` : 'legend-hatch';
     const key = rect({ x: 0, y, w: 22, h: 13 }, { rx: item.kind === 'imp' ? 3 : 4, class: cls }, legend);
     const t = svg('text', { x: 0, y: y + 11, class: 'legend-text' }, legend);
@@ -456,7 +459,7 @@ export function createMapView({ root, plan, data, build, onSelect }) {
     const slackX = Math.max(0, page.w - v.w);
     const slackY = Math.max(0, page.h - v.h);
     v.x = slackX ? Math.min(Math.max(v.x, -40), slackX + 40) : (page.w - v.w) / 2;
-    v.y = slackY ? Math.min(Math.max(v.y, -40), slackY + 40) : (page.h - v.h) / 2;
+    v.y = slackY ? Math.min(Math.max(v.y, screenTop - 40), slackY + 40) : (page.h - v.h) / 2;
     state.view = v;
     chart.setAttribute('viewBox', `${v.x.toFixed(1)} ${v.y.toFixed(1)} ${v.w.toFixed(1)} ${v.h.toFixed(1)}`);
     if (size) zoomLevel.textContent = `${Math.round((size.w / v.w) * 100)}%`;
@@ -466,7 +469,7 @@ export function createMapView({ root, plan, data, build, onSelect }) {
     const size = canvasSize();
     const width = size ? Math.max(page.w + 40, size.w / MAX_SCALE) : page.w;
     fitMode = 'width';
-    setView({ x: (page.w - width) / 2, y: -20, w: width });
+    setView({ x: (page.w - width) / 2, y: screenTop - 20, w: width });
     fitButton.title = 'Show the whole page';
   }
 

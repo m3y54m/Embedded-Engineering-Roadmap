@@ -228,6 +228,12 @@
   letter-spacing: -0.01em;
 }
 
+@media not print {
+  .page-title {
+    display: none;
+  }
+}
+
 .legend-text {
   fill: var(--text);
   font-size: 13px;
