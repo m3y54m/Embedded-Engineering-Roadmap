@@ -203,21 +203,35 @@
   font-weight: 600;
 }
 
-.legend-note {
+.legend-caption {
   fill: var(--muted);
-  font-size: 12px;
-  font-style: italic;
+  font-size: 12.5px;
+  font-weight: 600;
+}
+
+.legend-info circle:first-child {
+  fill: none;
+  stroke: var(--muted);
+  stroke-width: 1.4;
+}
+
+.legend-info path {
+  fill: none;
+  stroke: var(--muted);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+}
+
+.legend-info-dot {
+  fill: var(--muted);
+  stroke: var(--muted);
+  stroke-width: 1.2;
 }
 
 .legend-imp { stroke: var(--box-edge); stroke-width: 1; }
 .legend-imp.required { fill: var(--imp-required); }
 .legend-imp.recommended { fill: var(--imp-recommended); }
 .legend-imp.possible { fill: var(--imp-possible); stroke: var(--border-strong); }
-.legend-area { fill: none; stroke-width: 2.5; }
-.legend-area.sw { stroke: var(--sw); }
-.legend-area.hw { stroke: var(--hw); }
-.legend-area.ss { stroke: var(--ss); }
-.legend-hatch { fill: url(#cross-hatch); stroke: var(--border-strong); }
 
 .legend-hit {
   fill: transparent;

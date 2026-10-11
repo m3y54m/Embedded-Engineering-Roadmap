@@ -49,7 +49,7 @@ export const AREAS = {
 export const IMPORTANCE = {
   required: 'Required',
   recommended: 'Recommended',
-  possible: 'Possibility',
+  possible: 'Optional',
 };
 
 export const areaClass = (area) => (AREAS[area] ? AREAS[area].cls : 'xx');

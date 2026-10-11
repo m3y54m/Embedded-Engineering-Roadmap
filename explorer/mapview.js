@@ -1,5 +1,5 @@
 // Interactive roadmap diagram: Software / Hardware / Soft skills areas with their cross-sections,
-// importance colors, filters and connections between topics. Laid out by layout.js to fit A4.
+// priority colors, filters and connections between topics. Laid out by layout.js to fit A4.
 import { CREDITS, GITHUB_MARK, IMPORTANCE, TITLE, areaDots, areaLabel, h, plural, svg } from './dom.js';
 import { SPACE, buildLayout } from './layout.js';
 
@@ -103,7 +103,7 @@ export function createMapView({ root, plan, data, build, onSelect }) {
     const names = Object.keys(IMPORTANCE).filter((l) => state.importance.has(l)).map((l) => IMPORTANCE[l]);
     filterLabel.textContent = names.join(' · ');
     filterPill.hidden = !names.length;
-    for (const part of legendParts) if (part.pressed) part.g.setAttribute('aria-pressed', String(part.pressed()));
+    for (const part of legendParts) part.g.setAttribute('aria-pressed', String(part.pressed()));
     legend.classList.toggle('filtering', names.length > 0);
   }
 
@@ -132,47 +132,44 @@ export function createMapView({ root, plan, data, build, onSelect }) {
 
   rect({ x: 0, y: 0, w: layout.width, h: layout.height }, { class: 'page-bg' }, layers.page);
 
-  // Title and legend, so the diagram also stands on its own when printed.
+  // Title, then one legend row (priority keys, then an info icon and caption), so the diagram also stands on its own when printed.
   // On screen the header already names the roadmap, so the title only appears in print, PDF and PNG.
   const legendY = layout.titleY + 22;
-  const screenTop = legendY - 24;
+  // On screen the view starts just above the legend row, close to the toolbar.
+  const screenTop = legendY - 17;
   const title = svg('text', { x: 24, y: layout.titleY, class: 'page-title' }, layers.labels);
   title.textContent = TITLE;
   const legend = svg('g', { class: 'page-legend' }, layers.labels);
-  const legendItems = [
-    ...Object.entries(IMPORTANCE).map(([level, label]) => ({
-      kind: 'imp', cls: level, label, pressed: () => state.importance.has(level), act: () => toggle(state.importance, level),
-    })),
-    { kind: 'area', cls: 'sw', label: 'Software' },
-    { kind: 'area', cls: 'hw', label: 'Hardware' },
-    { kind: 'hatch', cls: '', label: 'Software ∩ Hardware' },
-    { kind: 'area', cls: 'ss', label: 'Soft skills' },
-  ];
-  // On screen the importance entries are also filter buttons; areas are already visible as the map's regions.
-  for (const item of legendItems) {
+  const info = svg('g', { class: 'legend-info' }, legend);
+  svg('circle', { cx: 7.5, cy: legendY + 6.5, r: 7.5 }, info);
+  svg('path', { d: `M7.5 ${legendY + 6} v4.2` }, info);
+  svg('circle', { cx: 7.5, cy: legendY + 3.2, r: 0.6, class: 'legend-info-dot' }, info);
+  const caption = svg('text', { x: 0, y: legendY + 11, class: 'legend-caption' }, legend);
+  caption.textContent = 'A general guide: priorities vary with your specialty and role';
+  // Areas need no legend: their regions are labeled in the margin. On screen each entry is also a filter button.
+  for (const [level, label] of Object.entries(IMPORTANCE)) {
     const y = legendY;
-    const cls = item.kind === 'imp' ? `legend-imp ${item.cls}` : item.kind === 'area' ? `legend-area ${item.cls}` : 'legend-hatch';
-    const g = svg('g', item.act ? {
-      class: 'legend-item', role: 'button', tabindex: '0', 'aria-pressed': 'false', 'aria-label': `Highlight ${item.label} topics`,
-    } : { class: 'legend-entry' }, legend);
-    if (item.act) svg('title', {}, g).textContent = `Highlight ${item.label} topics`;
-    const hit = item.act ? rect({ x: 0, y: y - 5, w: 0, h: 23 }, { rx: 6, class: 'legend-hit' }, g) : null;
-    const key = rect({ x: 0, y, w: 22, h: 13 }, { rx: item.kind === 'imp' ? 3 : 4, class: cls }, g);
+    const pressed = () => state.importance.has(level);
+    const act = () => toggle(state.importance, level);
+    const g = svg('g', {
+      class: 'legend-item', role: 'button', tabindex: '0', 'aria-pressed': 'false', 'aria-label': `Highlight ${label} topics`,
+    }, legend);
+    svg('title', {}, g).textContent = `Highlight ${label} topics`;
+    const hit = rect({ x: 0, y: y - 5, w: 0, h: 23 }, { rx: 6, class: 'legend-hit' }, g);
+    const key = rect({ x: 0, y, w: 22, h: 13 }, { rx: 3, class: `legend-imp ${level}` }, g);
     const t = svg('text', { x: 0, y: y + 11, class: 'legend-text' }, g);
-    t.textContent = item.label;
-    if (item.act) {
-      g.addEventListener('click', () => {
-        // A drag that starts on the legend pans the map; it must not also filter.
-        if (state.drag && state.drag.moved) return;
-        item.act();
-      });
-      g.addEventListener('keydown', (e) => {
-        if (e.key !== 'Enter' && e.key !== ' ') return;
-        e.preventDefault();
-        item.act();
-      });
-    }
-    legendParts.push({ g, hit, key, t, label: item.label, pressed: item.pressed });
+    t.textContent = label;
+    g.addEventListener('click', () => {
+      // A drag that starts on the legend pans the map; it must not also filter.
+      if (state.drag && state.drag.moved) return;
+      act();
+    });
+    g.addEventListener('keydown', (e) => {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      e.preventDefault();
+      act();
+    });
+    legendParts.push({ g, hit, key, t, label, pressed });
   }
 
   function layoutLegend() {
@@ -181,15 +178,15 @@ export function createMapView({ root, plan, data, build, onSelect }) {
       const width = 28 + ((part.t.getComputedTextLength && part.t.getComputedTextLength()) || part.label.length * 6.5);
       part.key.setAttribute('x', x);
       part.t.setAttribute('x', x + 28);
-      if (part.hit) {
-        part.hit.setAttribute('x', x - 6);
-        part.hit.setAttribute('width', width + 12);
-      }
+      part.hit.setAttribute('x', x - 6);
+      part.hit.setAttribute('width', width + 12);
       x += width + 20;
     }
+    // The caption follows the keys, set apart by a wider gap.
+    x += 16;
+    info.setAttribute('transform', `translate(${x.toFixed(1)} 0)`);
+    caption.setAttribute('x', (x + 22).toFixed(1));
   }
-  const note = svg('text', { x: 24, y: layout.titleY + 54, class: 'legend-note' }, layers.labels);
-  note.textContent = 'Colors show the average importance of each skill for an embedded systems engineer.';
 
   // Areas and their cross-sections.
   const sw = layout.areas.SOFTWARE;
@@ -461,7 +458,7 @@ export function createMapView({ root, plan, data, build, onSelect }) {
     const slackX = Math.max(0, page.w - v.w);
     const slackY = Math.max(0, page.h - v.h);
     v.x = slackX ? Math.min(Math.max(v.x, -40), slackX + 40) : (page.w - v.w) / 2;
-    v.y = slackY ? Math.min(Math.max(v.y, screenTop - 40), slackY + 40) : (page.h - v.h) / 2;
+    v.y = slackY ? Math.min(Math.max(v.y, screenTop - 24), slackY + 40) : (page.h - v.h) / 2;
     state.view = v;
     chart.setAttribute('viewBox', `${v.x.toFixed(1)} ${v.y.toFixed(1)} ${v.w.toFixed(1)} ${v.h.toFixed(1)}`);
     if (size) zoomLevel.textContent = `${Math.round((size.w / v.w) * 100)}%`;
@@ -471,7 +468,7 @@ export function createMapView({ root, plan, data, build, onSelect }) {
     const size = canvasSize();
     const width = size ? Math.max(page.w + 40, size.w / MAX_SCALE) : page.w;
     fitMode = 'width';
-    setView({ x: (page.w - width) / 2, y: screenTop - 20, w: width });
+    setView({ x: (page.w - width) / 2, y: screenTop, w: width });
     fitButton.title = 'Show the whole page';
   }
 
