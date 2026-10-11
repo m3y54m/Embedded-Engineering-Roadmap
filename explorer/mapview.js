@@ -1,6 +1,6 @@
 // Interactive roadmap diagram: Software / Hardware / Soft skills areas with their cross-sections,
 // importance colors, filters and connections between topics. Laid out by layout.js to fit A4.
-import { AREAS, CREDITS, GITHUB_MARK, IMPORTANCE, TITLE, areaDots, areaLabel, h, plural, svg } from './dom.js';
+import { CREDITS, GITHUB_MARK, IMPORTANCE, TITLE, areaDots, areaLabel, h, plural, svg } from './dom.js';
 import { SPACE, buildLayout } from './layout.js';
 
 const MIN_ZOOM = 0.6;
@@ -34,7 +34,7 @@ function splitInTwo(text) {
 
 export function createMapView({ root, plan, data, build, onSelect }) {
   const layout = buildLayout(plan);
-  const state = { selected: null, hover: null, areas: new Set(), importance: new Set(), showAll: false, view: null, drag: null };
+  const state = { selected: null, hover: null, importance: new Set(), showAll: false, view: null, drag: null };
   const boxEls = new Map();
   const rectOf = new Map();
   const legendParts = [];
@@ -77,18 +77,7 @@ export function createMapView({ root, plan, data, build, onSelect }) {
       },
     }, h('span', { class: 'menu-icon', 'aria-hidden': 'true' }, t.icon || '•'), t.title))));
 
-  const isCross = () => state.areas.size === 2 && state.areas.has('SOFTWARE') && state.areas.has('HARDWARE');
-  const isArea = (area) => state.areas.has(area) && !isCross();
-  const setArea = (area) => {
-    state.areas = isArea(area) ? new Set() : new Set([area]);
-    refresh();
-  };
-  const setCross = () => {
-    state.areas = isCross() ? new Set() : new Set(['SOFTWARE', 'HARDWARE']);
-    refresh();
-  };
   const clearFilters = () => {
-    state.areas.clear();
     state.importance.clear();
     refresh();
   };
@@ -111,13 +100,10 @@ export function createMapView({ root, plan, data, build, onSelect }) {
 
   function renderToolbar() {
     linksChip.setAttribute('aria-pressed', String(state.showAll));
-    const names = [
-      ...(isCross() ? ['Software ∩ Hardware'] : [...state.areas].map((a) => AREAS[a].label)),
-      ...Object.keys(IMPORTANCE).filter((l) => state.importance.has(l)).map((l) => IMPORTANCE[l]),
-    ];
+    const names = Object.keys(IMPORTANCE).filter((l) => state.importance.has(l)).map((l) => IMPORTANCE[l]);
     filterLabel.textContent = names.join(' · ');
     filterPill.hidden = !names.length;
-    for (const part of legendParts) part.g.setAttribute('aria-pressed', String(part.pressed()));
+    for (const part of legendParts) if (part.pressed) part.g.setAttribute('aria-pressed', String(part.pressed()));
     legend.classList.toggle('filtering', names.length > 0);
   }
 
@@ -157,33 +143,35 @@ export function createMapView({ root, plan, data, build, onSelect }) {
     ...Object.entries(IMPORTANCE).map(([level, label]) => ({
       kind: 'imp', cls: level, label, pressed: () => state.importance.has(level), act: () => toggle(state.importance, level),
     })),
-    { kind: 'area', cls: 'sw', label: 'Software', pressed: () => isArea('SOFTWARE'), act: () => setArea('SOFTWARE') },
-    { kind: 'area', cls: 'hw', label: 'Hardware', pressed: () => isArea('HARDWARE'), act: () => setArea('HARDWARE') },
-    { kind: 'hatch', cls: '', label: 'Software ∩ Hardware', pressed: isCross, act: setCross },
-    { kind: 'area', cls: 'ss', label: 'Soft skills', pressed: () => isArea('SOFT SKILLS'), act: () => setArea('SOFT SKILLS') },
+    { kind: 'area', cls: 'sw', label: 'Software' },
+    { kind: 'area', cls: 'hw', label: 'Hardware' },
+    { kind: 'hatch', cls: '', label: 'Software ∩ Hardware' },
+    { kind: 'area', cls: 'ss', label: 'Soft skills' },
   ];
-  // On screen every legend entry is also a filter button; print shows the plain legend.
+  // On screen the importance entries are also filter buttons; areas are already visible as the map's regions.
   for (const item of legendItems) {
     const y = legendY;
     const cls = item.kind === 'imp' ? `legend-imp ${item.cls}` : item.kind === 'area' ? `legend-area ${item.cls}` : 'legend-hatch';
-    const g = svg('g', {
+    const g = svg('g', item.act ? {
       class: 'legend-item', role: 'button', tabindex: '0', 'aria-pressed': 'false', 'aria-label': `Highlight ${item.label} topics`,
-    }, legend);
-    svg('title', {}, g).textContent = `Highlight ${item.label} topics`;
-    const hit = rect({ x: 0, y: y - 5, w: 0, h: 23 }, { rx: 6, class: 'legend-hit' }, g);
+    } : { class: 'legend-entry' }, legend);
+    if (item.act) svg('title', {}, g).textContent = `Highlight ${item.label} topics`;
+    const hit = item.act ? rect({ x: 0, y: y - 5, w: 0, h: 23 }, { rx: 6, class: 'legend-hit' }, g) : null;
     const key = rect({ x: 0, y, w: 22, h: 13 }, { rx: item.kind === 'imp' ? 3 : 4, class: cls }, g);
     const t = svg('text', { x: 0, y: y + 11, class: 'legend-text' }, g);
     t.textContent = item.label;
-    g.addEventListener('click', () => {
-      // A drag that starts on the legend pans the map; it must not also filter.
-      if (state.drag && state.drag.moved) return;
-      item.act();
-    });
-    g.addEventListener('keydown', (e) => {
-      if (e.key !== 'Enter' && e.key !== ' ') return;
-      e.preventDefault();
-      item.act();
-    });
+    if (item.act) {
+      g.addEventListener('click', () => {
+        // A drag that starts on the legend pans the map; it must not also filter.
+        if (state.drag && state.drag.moved) return;
+        item.act();
+      });
+      g.addEventListener('keydown', (e) => {
+        if (e.key !== 'Enter' && e.key !== ' ') return;
+        e.preventDefault();
+        item.act();
+      });
+    }
     legendParts.push({ g, hit, key, t, label: item.label, pressed: item.pressed });
   }
 
@@ -193,8 +181,10 @@ export function createMapView({ root, plan, data, build, onSelect }) {
       const width = 28 + ((part.t.getComputedTextLength && part.t.getComputedTextLength()) || part.label.length * 6.5);
       part.key.setAttribute('x', x);
       part.t.setAttribute('x', x + 28);
-      part.hit.setAttribute('x', x - 6);
-      part.hit.setAttribute('width', width + 12);
+      if (part.hit) {
+        part.hit.setAttribute('x', x - 6);
+        part.hit.setAttribute('width', width + 12);
+      }
       x += width + 20;
     }
   }
@@ -436,16 +426,11 @@ export function createMapView({ root, plan, data, build, onSelect }) {
   // ---------- filters ----------
   function matches(box) {
     if (!rectOf.has(box) || boxEls.get(box).header) return false;
-    for (const area of state.areas) if (!box.areas.includes(area)) return false;
-    if (state.areas.size === 1 && box.areas.filter((a) => a !== 'SOFT SKILLS').length > 1 && !state.areas.has('SOFT SKILLS')) {
-      // A single area means "only this area", so the cross-section stands apart.
-      return false;
-    }
-    return !state.importance.size || state.importance.has(box.importance);
+    return state.importance.has(box.importance);
   }
 
   function refresh() {
-    const filtering = state.areas.size > 0 || state.importance.size > 0;
+    const filtering = state.importance.size > 0;
     chart.classList.toggle('filtering', filtering);
     chart.classList.toggle('show-all', state.showAll);
     let count = 0;
