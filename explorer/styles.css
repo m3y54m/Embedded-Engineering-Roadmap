@@ -1145,11 +1145,14 @@ button {
   }
 }
 
-@media (max-width: 520px) {
+/* Below this width the title and the actions no longer fit one row, so the title goes. */
+@media (max-width: 720px) {
   .brand-text {
     display: none;
   }
+}
 
+@media (max-width: 520px) {
   .actions {
     gap: 6px;
   }
