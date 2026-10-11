@@ -5,6 +5,7 @@ import { SPACE, buildLayout } from './layout.js';
 
 const MIN_ZOOM = 0.6;
 const MAX_ZOOM = 6;
+const AREA_RADIUS = 18;
 
 function intersect(a, b) {
   const x = Math.max(a.x, b.x);
@@ -192,13 +193,13 @@ export function createMapView({ root, plan, data, build, onSelect }) {
   const sw = layout.areas.SOFTWARE;
   const hw = layout.areas.HARDWARE;
   const ss = layout.areas['SOFT SKILLS'];
-  rect(sw, { rx: 28, class: 'area-fill sw' }, layers.areas);
-  rect(hw, { rx: 28, class: 'area-fill hw' }, layers.areas);
-  rect(ss, { rx: 28, class: 'area-fill ss' }, layers.areas);
+  rect(sw, { rx: AREA_RADIUS, class: 'area-fill sw' }, layers.areas);
+  rect(hw, { rx: AREA_RADIUS, class: 'area-fill hw' }, layers.areas);
+  rect(ss, { rx: AREA_RADIUS, class: 'area-fill ss' }, layers.areas);
   rect(layout.cross, { class: 'overlap-fill' }, layers.overlap);
-  rect(sw, { rx: 28, class: 'area-line sw' }, layers.outlines);
-  rect(hw, { rx: 28, class: 'area-line hw' }, layers.outlines);
-  rect(ss, { rx: 28, class: 'area-line ss' }, layers.outlines);
+  rect(sw, { rx: AREA_RADIUS, class: 'area-line sw' }, layers.outlines);
+  rect(hw, { rx: AREA_RADIUS, class: 'area-line hw' }, layers.outlines);
+  rect(ss, { rx: AREA_RADIUS, class: 'area-line ss' }, layers.outlines);
 
   // Band names run down the left margin; every band reads as one area or a cross-section.
   for (const band of layout.bands) {
