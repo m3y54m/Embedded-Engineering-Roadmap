@@ -1010,32 +1010,6 @@ button {
   font: 12px var(--font);
 }
 
-.credits {
-  display: grid;
-  grid-template-columns: 48px minmax(0, 1fr);
-  gap: 14px;
-  align-items: start;
-  color: var(--muted);
-  font-size: 13px;
-}
-
-.credits-logo {
-  border-radius: 10px;
-}
-
-.credits-body p {
-  margin: 0 0 4px;
-}
-
-.credits-body strong {
-  color: var(--text);
-}
-
-.credits-badge {
-  display: block;
-  margin-top: 8px;
-}
-
 .sheet-close {
   display: none;
 }

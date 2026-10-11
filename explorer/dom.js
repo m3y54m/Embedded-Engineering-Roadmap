@@ -9,10 +9,8 @@ export const plural = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`;
 
 export const CREDITS = {
   author: 'Meysam Parvizi',
-  authorUrl: 'https://github.com/m3y54m',
   repo: 'github.com/m3y54m/Embedded-Engineering-Roadmap',
   license: 'CC BY-SA 4.0',
-  licenseName: 'Creative Commons Attribution-ShareAlike 4.0 International License',
   licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0/',
 };
 

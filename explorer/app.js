@@ -1,7 +1,7 @@
 import { parseRoadmap, renderInline, TYPES } from './parser.js';
 import { linkDiagram } from './diagram.js';
 import { createMapView } from './mapview.js';
-import { CREDITS, IMPORTANCE, TITLE, areaDots, areaLabel, h, plural } from './dom.js';
+import { IMPORTANCE, TITLE, areaDots, areaLabel, h, plural } from './dom.js';
 
 const SOURCES = [
   'README.md',
@@ -319,20 +319,7 @@ function overview(root) {
     section(null, h('p', { class: 'res-note' }, 'Built from the ',
       h('a', { href: `${REPO_URL}#readme`, target: '_blank', rel: 'noopener noreferrer' }, 'roadmap README'),
       ' and the map definition in the repository.')),
-    section('Credits', credits()),
   ].filter(Boolean);
-}
-
-function credits() {
-  const external = (href, ...children) => h('a', { href, target: '_blank', rel: 'noopener noreferrer' }, ...children);
-  const build = state.build;
-  return h('div', { class: 'credits' },
-    h('img', { class: 'credits-logo', src: 'assets/logo.svg', alt: '', width: 48, height: 48 }),
-    h('div', { class: 'credits-body' },
-      h('p', {}, 'Creator & maintainer: ', external(CREDITS.authorUrl, h('strong', {}, CREDITS.author))),
-      build ? h('p', {}, 'Revision ', h('strong', {}, build.version), ` · last update ${build.date}`) : null,
-      h('p', {}, 'Licensed under the ', external(CREDITS.licenseUrl, CREDITS.licenseName), '.'),
-      external(CREDITS.licenseUrl, h('img', { class: 'credits-badge', src: 'assets/cc-by-sa.svg', alt: CREDITS.license, width: 88, height: 31 }))));
 }
 
 function renderPanel(node) {
