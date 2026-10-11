@@ -42,7 +42,7 @@ used in an aircraft or rapid transit system.
 
 ## 🗺️ The Roadmap
 
-🌐 **[Open the interactive roadmap](https://m3y54m.github.io/Embedded-Engineering-Roadmap/)** to explore it in your browser. Click any topic to read its description and see its learning resources, hover over it to see the topics it is related to, filter topics by area (software, hardware, soft skills) or importance, and search across all topics and resources. The roadmap can also be downloaded there as a PDF or PNG image.
+🌐 **[Open the interactive roadmap](https://m3y54m.github.io/Embedded-Engineering-Roadmap/)** to explore it in your browser. Click any topic to read its description and see its learning resources, hover over it to see the topics it is related to, highlight topics by learning priority (required, recommended or optional), and search across all topics and resources. The roadmap can also be downloaded there as a PDF or PNG image.
 
 [![Embedded Systems Engineering Roadmap](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest/download/Embedded-Engineering-Roadmap.png)](https://m3y54m.github.io/Embedded-Engineering-Roadmap/)
 
@@ -59,7 +59,7 @@ The roadmap provides a comprehensive guide to the essential topics for a typical
 <!-- markdownlint-disable MD028 -->
 
 > [!NOTE]
-> **Remember that the importance of individual software and hardware skills can differ depending on the specific requirements of the company and the job role.**
+> **Remember that the priority of individual software and hardware skills can differ depending on the specific requirements of the company and the job role.**
 
 > [!TIP]
 > To differentiate between the types of learning resources and the quality of their content, specific symbols are used before each item.
@@ -1622,4 +1622,4 @@ Special thanks to my friends in the community of Iranian Embedded Engineers in T
 
 If you think that this roadmap can be improved in anyway or you know about some good learning resources that can be added here, please start an issue or a pull request. I’ll be maintaining and updating this repository frequently.
 
-The roadmap image and PDF are generated from this repository. Topics, descriptions and learning resources come from this README; where each topic sits on the map and how important it is come from [`explorer/map.json`](explorer/map.json). Edit those files and the interactive explorer in [`explorer/`](explorer) renders the PNG and PDF automatically.
+The roadmap image and PDF are generated from this repository. Topics, descriptions and learning resources come from this README; where each topic sits on the map and its learning priority (required, recommended or optional) come from [`explorer/map.json`](explorer/map.json). Edit those files and the interactive explorer in [`explorer/`](explorer) renders the PNG and PDF automatically.
