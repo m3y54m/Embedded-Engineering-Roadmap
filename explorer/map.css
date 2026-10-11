@@ -59,9 +59,19 @@
   color: var(--bg);
 }
 
-.map-chip.clear {
-  border-style: dashed;
-  background: transparent;
+.filter-pill {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 14%, var(--surface-2));
+}
+
+.pill-x {
+  margin-right: -3px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.filter-pill:hover .pill-x {
+  color: var(--text);
 }
 
 .map-menu {
@@ -93,20 +103,8 @@
   transform: rotate(-135deg);
 }
 
-.map-menu[open] > .menu-button,
-.menu-button.active {
+.map-menu[open] > .menu-button {
   border-color: var(--accent);
-}
-
-.menu-count {
-  min-width: 18px;
-  padding: 0 5px;
-  border-radius: 999px;
-  background: var(--accent);
-  color: var(--bg);
-  font-size: 11px;
-  line-height: 18px;
-  text-align: center;
 }
 
 .map-menu-panel {
@@ -157,46 +155,11 @@
   text-align: center;
 }
 
-.menu-heading {
-  margin: 0;
-  color: var(--muted);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.menu-chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.map-menu-panel .map-chip.clear {
-  justify-self: start;
-}
-
 .map-summary {
   margin-left: 4px;
   color: var(--muted);
   font-size: 12.5px;
 }
-
-.dot.both {
-  background: linear-gradient(90deg, var(--sw) 50%, var(--hw) 50%);
-}
-
-.imp-swatch {
-  display: inline-block;
-  width: 16px;
-  height: 11px;
-  border: 1px solid var(--box-edge);
-  border-radius: 3px;
-}
-
-.imp-swatch.required { background: var(--imp-required); }
-.imp-swatch.recommended { background: var(--imp-recommended); }
-.imp-swatch.possible { background: var(--imp-possible); border-color: var(--border-strong); }
 
 .map-canvas {
   position: relative;
@@ -255,6 +218,37 @@
 .legend-area.hw { stroke: var(--hw); }
 .legend-area.ss { stroke: var(--ss); }
 .legend-hatch { fill: url(#cross-hatch); stroke: var(--border-strong); }
+
+.legend-hit {
+  fill: transparent;
+}
+
+/* On screen the legend is the filter: each entry toggles a highlight. */
+@media not print {
+  .legend-item {
+    cursor: pointer;
+    outline: none;
+  }
+
+  .legend-item:hover .legend-hit {
+    fill: var(--chip-hover);
+  }
+
+  .legend-item:focus-visible .legend-hit {
+    stroke: var(--accent);
+    stroke-width: 2;
+  }
+
+  .legend-item[aria-pressed="true"] .legend-hit {
+    fill: color-mix(in srgb, var(--accent) 16%, transparent);
+    stroke: var(--accent);
+    stroke-width: 1.5;
+  }
+
+  .page-legend.filtering .legend-item:not([aria-pressed="true"]) {
+    opacity: 0.45;
+  }
+}
 
 .area-fill {
   stroke: none;

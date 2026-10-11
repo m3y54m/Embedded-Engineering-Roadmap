@@ -40,7 +40,8 @@ export function createMapView({ root, plan, data, build, onSelect }) {
   const legendParts = [];
 
   // ---------- toolbar ----------
-  // One slim row above the map: a menu of getting-started topics, a filter menu and the connections toggle.
+  // One slim row above the map: a menu of getting-started topics, the active filter and the connections toggle.
+  // Filters are set by clicking the legend at the top of the map.
   const chip = (label, cls, onclick, title) => h('button', {
     type: 'button', class: `map-chip ${cls}`, 'aria-pressed': 'false', onclick, title,
   }, label);
@@ -78,51 +79,46 @@ export function createMapView({ root, plan, data, build, onSelect }) {
 
   const isCross = () => state.areas.size === 2 && state.areas.has('SOFTWARE') && state.areas.has('HARDWARE');
   const isArea = (area) => state.areas.has(area) && !isCross();
-  const areaChips = Object.entries(AREAS).map(([area, info]) => [area, chip(h('span', {}, h('i', { class: `dot ${info.cls}` }), info.label),
-    '', () => {
-      state.areas = isArea(area) ? new Set() : new Set([area]);
-      refresh();
-    }, `Topics in ${info.label}`)]);
-  const crossChip = chip(h('span', {}, h('i', { class: 'dot both' }), 'Software ∩ Hardware'), 'cross', () => {
+  const setArea = (area) => {
+    state.areas = isArea(area) ? new Set() : new Set([area]);
+    refresh();
+  };
+  const setCross = () => {
     state.areas = isCross() ? new Set() : new Set(['SOFTWARE', 'HARDWARE']);
     refresh();
-  }, 'Topics that belong to both Software and Hardware');
-  const importanceChips = Object.entries(IMPORTANCE).map(([level, label]) => [level,
-    chip(h('span', {}, h('i', { class: `imp-swatch ${level}` }), label), '', () => toggle(state.importance, level))]);
-  const clearButton = h('button', {
+  };
+  const clearFilters = () => {
+    state.areas.clear();
+    state.importance.clear();
+    refresh();
+  };
+  const filterLabel = h('span');
+  const filterPill = h('button', {
     type: 'button',
-    class: 'map-chip clear',
-    onclick: () => {
-      state.areas.clear();
-      state.importance.clear();
-      refresh();
-    },
-  }, 'Clear filters');
-  const filterCount = h('span', { class: 'menu-count' });
-  const filter = menu('filter', h('span', {}, 'Filter', filterCount),
-    h('p', { class: 'menu-heading' }, 'Area'),
-    h('div', { class: 'menu-chips' }, areaChips.map(([, el]) => el), crossChip),
-    h('p', { class: 'menu-heading' }, 'Importance'),
-    h('div', { class: 'menu-chips' }, importanceChips.map(([, el]) => el)),
-    clearButton);
+    class: 'map-chip filter-pill',
+    title: 'Clear the highlight',
+    'aria-label': 'Clear the highlight',
+    hidden: true,
+    onclick: clearFilters,
+  }, filterLabel, h('span', { class: 'pill-x', 'aria-hidden': 'true' }, '✕'));
   const linksChip = chip([h('span', { class: 'label-long' }, 'All connections'), h('span', { class: 'label-short' }, 'Links')], 'links', () => {
     state.showAll = !state.showAll;
     refresh();
   }, 'Show the lines between all related topics');
   const summary = h('span', { class: 'map-summary', role: 'status' });
   const toolbar = h('div', { class: 'map-toolbar', role: 'toolbar', 'aria-label': 'Map controls' },
-    start.el, filter.el, linksChip, summary);
+    start.el, linksChip, filterPill, summary);
 
   function renderToolbar() {
-    for (const [area, el] of areaChips) el.setAttribute('aria-pressed', String(isArea(area)));
-    crossChip.setAttribute('aria-pressed', String(isCross()));
-    for (const [level, el] of importanceChips) el.setAttribute('aria-pressed', String(state.importance.has(level)));
     linksChip.setAttribute('aria-pressed', String(state.showAll));
-    const active = (state.areas.size ? 1 : 0) + state.importance.size;
-    filterCount.textContent = active ? String(active) : '';
-    filterCount.hidden = !active;
-    filter.button.classList.toggle('active', active > 0);
-    clearButton.hidden = !active;
+    const names = [
+      ...(isCross() ? ['Software ∩ Hardware'] : [...state.areas].map((a) => AREAS[a].label)),
+      ...Object.keys(IMPORTANCE).filter((l) => state.importance.has(l)).map((l) => IMPORTANCE[l]),
+    ];
+    filterLabel.textContent = names.join(' · ');
+    filterPill.hidden = !names.length;
+    for (const part of legendParts) part.g.setAttribute('aria-pressed', String(part.pressed()));
+    legend.classList.toggle('filtering', names.length > 0);
   }
 
   function toggle(set, value) {
@@ -158,27 +154,48 @@ export function createMapView({ root, plan, data, build, onSelect }) {
   title.textContent = TITLE;
   const legend = svg('g', { class: 'page-legend' }, layers.labels);
   const legendItems = [
-    ...Object.entries(IMPORTANCE).map(([level, label]) => ({ kind: 'imp', cls: level, label })),
-    { kind: 'area', cls: 'sw', label: 'Software' },
-    { kind: 'area', cls: 'hw', label: 'Hardware' },
-    { kind: 'hatch', cls: '', label: 'Software ∩ Hardware' },
-    { kind: 'area', cls: 'ss', label: 'Soft skills' },
+    ...Object.entries(IMPORTANCE).map(([level, label]) => ({
+      kind: 'imp', cls: level, label, pressed: () => state.importance.has(level), act: () => toggle(state.importance, level),
+    })),
+    { kind: 'area', cls: 'sw', label: 'Software', pressed: () => isArea('SOFTWARE'), act: () => setArea('SOFTWARE') },
+    { kind: 'area', cls: 'hw', label: 'Hardware', pressed: () => isArea('HARDWARE'), act: () => setArea('HARDWARE') },
+    { kind: 'hatch', cls: '', label: 'Software ∩ Hardware', pressed: isCross, act: setCross },
+    { kind: 'area', cls: 'ss', label: 'Soft skills', pressed: () => isArea('SOFT SKILLS'), act: () => setArea('SOFT SKILLS') },
   ];
+  // On screen every legend entry is also a filter button; print shows the plain legend.
   for (const item of legendItems) {
     const y = legendY;
     const cls = item.kind === 'imp' ? `legend-imp ${item.cls}` : item.kind === 'area' ? `legend-area ${item.cls}` : 'legend-hatch';
-    const key = rect({ x: 0, y, w: 22, h: 13 }, { rx: item.kind === 'imp' ? 3 : 4, class: cls }, legend);
-    const t = svg('text', { x: 0, y: y + 11, class: 'legend-text' }, legend);
+    const g = svg('g', {
+      class: 'legend-item', role: 'button', tabindex: '0', 'aria-pressed': 'false', 'aria-label': `Highlight ${item.label} topics`,
+    }, legend);
+    svg('title', {}, g).textContent = `Highlight ${item.label} topics`;
+    const hit = rect({ x: 0, y: y - 5, w: 0, h: 23 }, { rx: 6, class: 'legend-hit' }, g);
+    const key = rect({ x: 0, y, w: 22, h: 13 }, { rx: item.kind === 'imp' ? 3 : 4, class: cls }, g);
+    const t = svg('text', { x: 0, y: y + 11, class: 'legend-text' }, g);
     t.textContent = item.label;
-    legendParts.push({ key, t, label: item.label });
+    g.addEventListener('click', () => {
+      // A drag that starts on the legend pans the map; it must not also filter.
+      if (state.drag && state.drag.moved) return;
+      item.act();
+    });
+    g.addEventListener('keydown', (e) => {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      e.preventDefault();
+      item.act();
+    });
+    legendParts.push({ g, hit, key, t, label: item.label, pressed: item.pressed });
   }
 
   function layoutLegend() {
     let x = 26;
     for (const part of legendParts) {
+      const width = 28 + ((part.t.getComputedTextLength && part.t.getComputedTextLength()) || part.label.length * 6.5);
       part.key.setAttribute('x', x);
       part.t.setAttribute('x', x + 28);
-      x += 28 + ((part.t.getComputedTextLength && part.t.getComputedTextLength()) || part.label.length * 6.5) + 20;
+      part.hit.setAttribute('x', x - 6);
+      part.hit.setAttribute('width', width + 12);
+      x += width + 20;
     }
   }
   const note = svg('text', { x: 24, y: layout.titleY + 54, class: 'legend-note' }, layers.labels);

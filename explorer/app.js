@@ -312,7 +312,7 @@ function overview(root) {
     ...groups.map((g) => section(g.title, topicChips(g.topics))),
     section('How to explore', h('ul', { class: 'howto' },
       h('li', {}, 'Map follows the roadmap diagram: topics sit in Software, Hardware or both, and are colored by importance.'),
-      h('li', {}, 'Use the Areas chips to highlight a single area or only the Software ∩ Hardware cross-section.'),
+      h('li', {}, 'Click an entry of the legend above the map to highlight topics by importance or area, including only the Software ∩ Hardware cross-section.'),
       h('li', {}, 'Hover or select a topic to see solid lines to its related topics. Fainter dashed lines come from resources that share or mention a topic.'),
       h('li', {}, 'Outline lists every topic of the README; use it to browse topics that are not on the map.'),
       h('li', {}, 'Press ', h('kbd', {}, '/'), ' to search topics and resources.'))),
