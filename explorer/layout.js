@@ -9,7 +9,7 @@ export const SPACE = 10;
 const COL = 170;
 const GUTTER = 26;
 const LEFT = 86;
-const TOP = 168;
+const TOP = 159;
 const BOX_H = 26;
 const BOX_H2 = 42;
 const HEAD_H = 20;
@@ -143,7 +143,8 @@ export function buildLayout(plan) {
   return {
     width: PAGE_WIDTH,
     height: footer.y + footer.h + 16,
-    titleY: 58,
+    // Baseline that puts the title's cap tops 24 from the page edge, the same as its left margin.
+    titleY: 49,
     footer,
     areas: {
       SOFTWARE: { x: areaX, y: swTop, w: areaW, h: crossBottom - swTop },
