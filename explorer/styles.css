@@ -108,7 +108,7 @@ body {
 
 body {
   margin: 0;
-  font: 15px/1.5 var(--font);
+  font: 15px/1.5 var(--font-display);
   color: var(--text);
   background:
     radial-gradient(1100px 760px at 12% -12%, var(--glow-a), transparent 62%),
@@ -125,6 +125,18 @@ a {
 button {
   font: inherit;
   color: inherit;
+}
+
+/* Labels, titles and controls use the roadmap's display face; longer text keeps the body face. */
+.desc,
+.res-note,
+.res-also,
+.why,
+.howto,
+.empty,
+.result-sub,
+.tip-hint {
+  font-family: var(--font);
 }
 
 :focus-visible {
@@ -172,6 +184,7 @@ button {
 .brand-text strong {
   display: block;
   font-size: 15px;
+  font-weight: 1000;
   letter-spacing: -0.01em;
 }
 
