@@ -34,7 +34,7 @@ test('parses resource markers, bracketed titles and URLs with parentheses', () =
 });
 
 test('keeps descriptions and the README introduction', () => {
-  assert.match(data.root.description[0].text, /^This roadmap is designed/);
+  assert.match(data.root.description[0].text, /^This roadmap is \w+ to help beginners/);
   assert.match(find('Microcontrollers').description[0].text, /^Microcontrollers are integrated circuits/);
 });
 

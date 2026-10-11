@@ -7,9 +7,9 @@
 [![GitHub tag (with filter)](https://img.shields.io/github/v/tag/m3y54m/Embedded-Engineering-Roadmap?style=plastic&label=latest)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases/latest)
 [![GitHub all releases](https://img.shields.io/github/downloads/m3y54m/Embedded-Engineering-Roadmap/total?style=plastic&label=total%20downloads)](https://github.com/m3y54m/Embedded-Engineering-Roadmap/releases)
 
-This roadmap is designed to help beginners aspiring to build a career as an **Embedded Engineer/Developer**, as well as assist current practitioners in expanding their skills.
+This roadmap is created to help beginners aspiring to build a career as an **Embedded Engineer/Developer**, as well as assist current practitioners in expanding their skills.
 
-Embedded engineering demands a solid understanding of hardware functionality as well as software development and programming skills. If you really want to pursue this career you must be highly motivated and passionate about it. As the well-known saying goes, "Hardware is hard!". But don't panic and be patient for the challenges you may encounter along this exciting journey. By dedicating enough time and effort practicing and doing projects you will soon find yourself as a real embedded engineer! 😀
+Embedded engineering demands a solid understanding of hardware functionality as well as software development and programming skills. If you really want to pursue this career, you need to be motivated and passionate about it. As the saying goes, "Hardware is hard!" But don't panic: be patient with the challenges you will meet along this exciting journey. With enough time and effort spent practicing and building projects, you will soon be a real embedded engineer! 😀
 
 ## ❓ What is an Embedded System?
 
@@ -52,18 +52,18 @@ used in an aircraft or rapid transit system.
 
 The embedded systems engineering roadmap is structured into three fundamental areas: **SOFTWARE**, **HARDWARE**, and **SOFT SKILLS**.
 
-While the intersection of hardware and software is prevalent in embedded systems, specific job titles tend to emphasize one aspect over the other. For instance, roles like "Embedded Software Engineer/Developer," "Firmware Engineer/Developer," and "Embedded Linux Engineer/Developer" predominantly focus on software development. In contrast, positions such as "Embedded Hardware Engineer" and "Hardware Design Engineer" primarily deal with hardware design and electronics. Moreover, there are roles like "Embedded Systems Engineer" that necessitate a comprehensive understanding of both hardware and software.
+Hardware and software overlap heavily in embedded systems, but specific job titles tend to emphasize one over the other. Roles such as "Embedded Software Engineer/Developer," "Firmware Engineer/Developer" and "Embedded Linux Engineer/Developer" focus mainly on software development. Positions such as "Embedded Hardware Engineer" and "Hardware Design Engineer" deal mainly with hardware design and electronics. Roles such as "Embedded Systems Engineer" require a solid understanding of both.
 
-It's crucial to note that each company in the embedded industry may have unique requirements for a given job title. Therefore, it's essential to tailor your focus based on your career aspirations. If you're seeking an embedded software position, prioritize the software-related skills outlined in the roadmap. Conversely, if you're interested in an embedded hardware job, concentrate on hardware skills and dedicate more time to learning electronics.
+Each company in the embedded industry may have its own requirements for a given job title, so tailor your focus to your career goals. If you're seeking an embedded software position, prioritize the software skills in the roadmap. If you're interested in an embedded hardware job, concentrate on the hardware skills and spend more time learning electronics.
 
-The roadmap provides a comprehensive guide to the essential topics for a typical "Embedded Systems Engineer" role. By delving into both software and hardware aspects, you can develop the necessary skills to thrive in this dynamic field. However, if you have a clear preference for software or hardware, you can tailor your learning path accordingly.
+The roadmap covers the essential topics for a typical "Embedded Systems Engineer" role. By studying both software and hardware, you can build the skills to thrive in this dynamic field. If you have a clear preference for one side, you can tailor your learning path accordingly.
 
 🔗 For more information about the history behind this roadmap, read this article: [Embedded Systems Roadmap: Bridging the Gap](https://interrupt.memfault.com/blog/embedded-systems-roadmap-bridging-the-gap)
 
 <!-- markdownlint-disable MD028 -->
 
 > [!NOTE]
-> **Remember that the priority of individual software and hardware skills can differ depending on the specific requirements of the company and the job role.**
+> **Remember that the priority of individual software and hardware skills can differ depending on the company's requirements and the job role.**
 
 > [!TIP]
 > To differentiate between the types of learning resources and the quality of their content, specific symbols are used before each item.
@@ -87,11 +87,11 @@ The roadmap provides a comprehensive guide to the essential topics for a typical
 
 ## 😕 Don't Know Where to Start!
 
-**If you feel overwhelmed by the extensive list of topics in the roadmap, you're not alone. Before delving too deeply, let's ease into it with some simple starter projects. Learning embedded systems engineering takes time and effort. Don't get discouraged if you don't understand something right away. Keep practicing and you will eventually get there.**
+**If you feel overwhelmed by the long list of topics in the roadmap, you're not alone. Before delving too deeply, ease into it with some simple starter projects. Learning embedded systems engineering takes time and effort, so don't get discouraged if you don't understand something right away. Keep practicing and you will get there.**
 
 ### ⚒️ Projects
 
-Engaging in hands-on projects is the most effective approach to learning. Rather than solely relying on theoretical knowledge from books or articles. Undertaking projects allows for practical learning experiences. Even a seemingly basic project has the potential to teach you more than hours of aimless reading. You can refer to books, articles, and courses when faced with difficulties in understanding the problems in real-world projects.
+Hands-on projects are the most effective way to learn, far better than relying solely on theory from books or articles. Even a seemingly basic project can teach you more than hours of aimless reading. Refer to books, articles and courses when you get stuck on problems in real-world projects.
 
 Don't try to build a complex project right away. Start with small, manageable projects to get your feet wet.
 
@@ -116,7 +116,7 @@ Use search engines to find the answers to your questions.
 - [🔗 Bing](https://www.bing.com/)
 - [🔗 DuckDuckGo](https://duckduckgo.com/)
 
-If you can't find what you're looking for using search engines, AI chatbots can also provide assistance. Keep in mind that AI may provide incorrect answers in some cases. It's best to confirm any answers with more reliable references.
+If search engines don't help, AI chatbots can also assist. Keep in mind that AI can give incorrect answers, so confirm anything important against more reliable references.
 
 - [🔗 DuckDuckGo AI Chat](https://duck.ai/)
 - [🔗 Google Gemini](https://gemini.google.com)
@@ -124,20 +124,20 @@ If you can't find what you're looking for using search engines, AI chatbots can 
 - [🔗 Microsoft Copilot](https://copilot.microsoft.com)
 - [🔗 Claude AI](https://claude.ai/chats)
 
-If you have reservations about relying on AI advice alone, you can also ask your questions from real people:
+If you have reservations about relying on AI advice alone, you can also ask real people:
 
 - [🔗 Electrical Engineering Stack Exchange](https://electronics.stackexchange.com/)
 - [🔗 Reddit · r/embedded](https://www.reddit.com/r/embedded/)
 
 ### 💼 Career Development
 
-As an embedded systems engineer, it's essential to stay up-to-date with industry trends, best practices, and new technologies to advance your career. Here are some resources to help you achieve your career goals:
+To advance your career as an embedded systems engineer, it's essential to stay up to date with industry trends, best practices and new technologies. These resources can help:
 
-- [🔗 EmbeddedJobs](https://embedded.jobs/jobs) - A job board focused exclusively on Embedded Systems job market.
+- [🔗 EmbeddedJobs](https://embedded.jobs/jobs) - A job board focused exclusively on the embedded systems job market.
 
 ### 🎥 Courses and YouTube Contents
 
-You may have heard that YouTube is a university. And it's true - there is an extensive amount of invaluable free content on embedded systems available on YouTube. You'll also find some excellent free courses through Coursera and EdX. Additionally, Udemy offers some high-quality paid course options.
+You may have heard that YouTube is a university, and it's true: there is an extensive amount of invaluable free embedded systems content on YouTube. You'll also find some excellent free courses on Coursera and edX, and Udemy offers some high-quality paid ones.
 
 - [🎞️ DigiKey (YouTube Channel)](https://www.youtube.com/@digikey)
 - [🎞️ Coursera - Introduction to Embedded Systems Software and Development Environments](https://www.coursera.org/learn/introduction-embedded-systems)
@@ -156,9 +156,9 @@ You may have heard that YouTube is a university. And it's true - there is an ext
 
 ### 🕹️ Arduino
 
-If you do not have any background in programming embedded systems, Arduino boards and libraries are the best choice for you to start and learn the basics. Just keep in mind that most of the Arduino libraries are developed for learning purposes and are not optimized to be used in industry.
+If you have no background in programming embedded systems, Arduino boards and libraries are the best place to start learning the basics. Just keep in mind that most Arduino libraries are written for learning purposes and are not optimized for industrial use.
 
-Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-avr) (the platform-specific implementation of the hardware-independent [ArduinoCore-API](https://github.com/arduino/ArduinoCore-API)) takes care of most of the low-level hardware-associated operations that you, as an embedded engineer, should be able to handle yourself or at least have a clear understanding of. If you want to become a professional embedded developer, you should be able to effectively use industry-standard APIs and SDKs provided and approved by microcontroller vendors, such as CMSIS for ARM Cortex-M microcontrollers, STM32Cube for STM32, ESP-IDF for Espressif microcontrollers, etc.
+The [Arduino Core](https://github.com/arduino/ArduinoCore-avr) (the platform-specific implementation of the hardware-independent [ArduinoCore-API](https://github.com/arduino/ArduinoCore-API)) also takes care of most of the low-level hardware operations that an embedded engineer should be able to handle, or at least clearly understand. To become a professional embedded developer, learn to use the industry-standard APIs and SDKs provided by microcontroller vendors, such as CMSIS for ARM Cortex-M microcontrollers, STM32Cube for STM32 and ESP-IDF for Espressif microcontrollers.
 
 - [🔗 Getting Started with Arduino](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino)
 - [🔗👶 Arduino Built-in Examples](https://docs.arduino.cc/built-in-examples/)
@@ -210,7 +210,7 @@ Vendor IDEs bundle the toolchain, debugger integration and peripheral configurat
 
 #### 🔵 VS Code Extensions
 
-A lighter alternative to a vendor IDE: extensions add debugging for Cortex-M targets and the SDK integration of a microcontroller vendor to VS Code.
+A lighter alternative to a vendor IDE: extensions add Cortex-M debugging and microcontroller vendor SDK integration to VS Code.
 
 - [🔗 Cortex-Debug](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug)
 - [🔗 STM32 VS Code Extension](https://marketplace.visualstudio.com/items?itemName=stmicroelectronics.stm32-vscode-extension)
@@ -219,23 +219,24 @@ A lighter alternative to a vendor IDE: extensions add debugging for Cortex-M tar
 
 #### 🔵 PlatformIO
 
-PlatformIO is a cross-platform, cross-architecture, multiple framework, professional tool for embedded systems engineers and for software developers who write applications for embedded products.
+PlatformIO is a professional, cross-platform, cross-architecture and multi-framework development tool for embedded systems engineers and for software developers who write applications for embedded products.
 
 - [🔗 PlatformIO - A professional collaborative platform for embedded development](https://platformio.org/)
 
-PlatformIO is not yet extensively adopted in industrial and large-scale projects, however, it is an excellent choice for individuals working on smaller projects. This is because it greatly reduces the need to install frameworks and setup build and debug tools, allowing you to concentrate on programming.
+PlatformIO is not yet widely adopted in industrial and large-scale projects, but it is an excellent choice for smaller projects. It greatly reduces the effort of installing frameworks and setting up build and debug tools, so you can concentrate on programming.
 
 ## 📚 Learning Resources
 
 > [!WARNING]  
-> It is not necessary to read all the books, articles, or watch all the videos you see here. If you try to do so, you will finally get tired and disappointed. You cannot study all the available content here in a reasonable time because it may take years. It is important to study enough to have at least a basic understanding of the required topics. Of course, the more time you dedicate to studying and doing projects, the more profound your knowledge and expertise will become.
+> You do not need to read every book and article or watch every video listed here. Trying to do so will only leave you tired and discouraged, because it could take years. Study enough to gain at least a basic understanding of the required topics. Of course, the more time you spend studying and building projects, the deeper your knowledge and expertise will become.
 >
-> Some of the resources mentioned here will just be used as references. Refer to them only when you need them.
+> Some of the resources here are only meant as references. Refer to them when you need them.
+
 _________________
 
 ### ✳️ Soft Skills
 
-Similar to other professions, embedded engineers require soft skills that can't be solely obtained from reading or watching videos. These skills are cultivated through interactions and tackling various work obstacles. Improving soft skills is not a one-size-fits-all approach. It will vary based on one's individual traits and requires self-awareness of your strengths and areas for growth. Enhancing these skills takes time and effort.
+Like other professionals, embedded engineers need soft skills, which can't be learned solely by reading or watching videos. They are developed through interacting with others and overcoming obstacles at work. Improving them is not a one-size-fits-all process: it varies with your individual traits and requires self-awareness of your strengths and areas for growth. It takes time and effort.
 
 - [📝 Soft Skills For Embedded Systems Software Developers](https://www.embeddedrelated.com/showarticle/1470.php)
 - [📝 10 Skills Every Embedded Engineer Should Have](https://medium.com/@lanceharvieruntime/10-skills-every-embedded-engineer-should-have-dcb867095b91)
@@ -328,7 +329,7 @@ Logic gates, flip-flops and registers are the hardware inside microcontrollers a
 
 #### 🔵 Computer Architecture
 
-Computer architecture is the backbone of embedded systems, governing the hardware and software interactions. Embedded developers need a grasp of computer architecture to design, develop, and debug embedded software effectively. Expertise in ARM and RISC-V, two prevalent instruction set architectures (ISAs) in embedded systems, is paramount for embedded developers. ARM is the dominant ISA, while RISC-V's open-source nature and flexibility are gaining traction.
+Computer architecture is the backbone of embedded systems, governing how hardware and software interact. Embedded developers need to understand it to design, develop and debug embedded software effectively. ARM and RISC-V are the two most prevalent instruction set architectures (ISAs) in embedded systems, so expertise in them is valuable: ARM is dominant, while RISC-V is gaining traction thanks to its open-source nature and flexibility.
 
 - [📘👶💎 Computer Organization and Design: ARM Edition - David A. Patterson, John L. Hennessy](https://a.co/d/8YPUXG7)
 - [📘👶💎 Digital Design and Computer Architecture: ARM Edition - Sarah Harris, David Harris](https://a.co/d/4otoVvI)
@@ -373,11 +374,11 @@ _________________
 
 ### ✳️ Prototyping Skills
 
-While hardware design and prototyping are primarily the responsibility of electronic hardware design engineers, embedded software engineers can benefit from a basic understanding of these concepts. This knowledge can be instrumental in identifying and resolving hardware-related issues during embedded system debugging. By having a grasp of hardware principles, embedded software engineers can effectively pinpoint the root causes of problems, leading to quicker and more efficient troubleshooting.
+Hardware design and prototyping are primarily the responsibility of electronic hardware design engineers, but embedded software engineers benefit from understanding them too. This knowledge helps identify and resolve hardware-related issues while debugging an embedded system. With a grasp of hardware principles, software engineers can pinpoint the root causes of problems and troubleshoot faster.
 
 #### 🔵 Breadboarding
 
-Breadboarding is a hands-on approach to prototyping circuits, providing a versatile platform for experimentation and circuit design. Embedded systems often utilize breadboards for their ease of use, flexibility, and cost-effectiveness. By connecting components on a breadboard, embedded systems developers can quickly test and refine their designs without the need for permanent soldering. This allows for rapid iterations and efficient debugging, making breadboarding an invaluable tool for embedded system development.
+Breadboarding is a hands-on approach to prototyping circuits, providing a versatile platform for experimentation and design. Breadboards are easy to use, flexible and inexpensive, and they let developers connect components, then test and refine a design without permanent soldering. This allows rapid iteration and efficient debugging, which makes breadboarding an invaluable tool for embedded system development.
 
 - [🎞️👶 Everything You Need to Know about Breadboards](https://www.youtube.com/watch?v=mE33WpRWrXs)
 - [🎞️👶 How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
@@ -432,7 +433,7 @@ _________________
 
 ### ✳️ FPGA Development
 
-FPGAs (Field-Programmable Gate Arrays) are specialized integrated circuits that can be configured to perform various digital logic functions. They are widely used in embedded systems to achieve high performance, flexibility, and cost-effectiveness. FPGA designers use hardware description languages (HDLs) to create customized circuits that map directly to the FPGA architecture. Since FPGA engineering and verification differ significantly from embedded software development, it stands as a specialized domain within embedded systems.
+FPGAs (Field-Programmable Gate Arrays) are integrated circuits that can be configured to implement digital logic. They are widely used in embedded systems for their high performance, flexibility and cost-effectiveness. FPGA designers use hardware description languages (HDLs) to create custom circuits that map directly onto the FPGA architecture. Because FPGA design and verification differ significantly from embedded software development, it is a specialized domain within embedded systems.
 
 - [🔗 FPGA / ASIC Engineering Roadmap](https://github.com/m3y54m/FPGA-ASIC-Roadmap)
 - [📝 What are FPGAs?](https://hackaday.io/project/27550-the-hobbyists-guide-to-fpgas/log/68114-what-are-fpgas)
@@ -446,7 +447,7 @@ _________________
 
 ### ✳️ Programming Fundamentals
 
-Mastering programming fundamentals and software development principles is essential for a successful embedded design. Embedded systems demand efficient code, optimized data management, reusable design patterns, and effective memory management to function effectively in resource-constrained environments. Embedded developers must possess a strong foundation in these core concepts to create reliable and performant embedded systems.
+Mastering programming fundamentals and software development principles is essential for successful embedded design. Resource-constrained environments demand efficient code, optimized data management, reusable design patterns and effective memory management. Embedded developers need a strong foundation in these core concepts to build reliable, performant systems.
 
 #### 🔵 Discrete Mathematics
 
@@ -512,7 +513,7 @@ _________________
 
 ### ✳️ Programming Languages
 
-Low-level languages like C and assembly provide direct hardware access, enabling efficient code optimization for resource-constrained embedded systems. System-level languages like C++ and Rust offer a higher level of abstraction for complex embedded applications, while Python is often employed for testing embedded systems due to its simplicity.
+Low-level languages like C and assembly provide direct hardware access, enabling efficient optimization for resource-constrained embedded systems. System-level languages like C++ and Rust offer a higher level of abstraction for complex embedded applications, while Python is often used to test embedded systems because of its simplicity.
 
 #### 🔵 C
 
@@ -620,9 +621,9 @@ _________________
 
 ### ✳️ Microcontrollers
 
-Microcontrollers are integrated circuits (ICs) that combine a microprocessor, memory, and input/output (I/O) peripherals on a single chip. They are designed for embedded applications, where they are used to control devices in a variety of industries, including automotive, industrial, consumer electronics, and healthcare.
+Microcontrollers are integrated circuits (ICs) that combine a processor core, memory and input/output (I/O) peripherals on a single chip. Designed for embedded applications, they control devices in many industries, including automotive, industrial, consumer electronics and healthcare.
 
-Some popular microcontroller families include AVR, PIC, STM32, MSP430, nRF, and ESP32. Choosing the right microcontroller involves assessing application requirements, processing power, memory needs, and input/output capabilities. Consider ease of use, cost, reliability, availability, and future expansion.
+Popular microcontroller families include STM32, ESP32, nRF, RP2040/RP2350, and the NXP and Renesas lines, alongside long-established AVR, PIC and MSP430. Choosing the right one involves assessing application requirements, processing power, memory needs and input/output capabilities, and considering ease of use, cost, reliability, availability and future expansion.
 
 - [📝 What Is a Microcontroller? The Defining Characteristics and Architecture of a Common Component](https://www.allaboutcircuits.com/technical-articles/what-is-a-microcontroller-introduction-component-characteristics-component/)
 - [📝 How to Choose the Right Microcontroller for Your Application](https://www.allaboutcircuits.com/technical-articles/how-to-choose-the-right-microcontroller-for-your-application/)
@@ -1019,7 +1020,7 @@ _________________
 
 ### ✳️ Memory Technologies & File Systems
 
-Embedded systems employ a combination of volatile (SRAM, DRAM, PSRAM) and non-volatile (flash, EEPROM, FRAM) memory to store and access data, based on factors like performance, cost, power consumption, and durability.
+Embedded systems combine volatile (SRAM, DRAM, PSRAM) and non-volatile (flash, EEPROM, FRAM) memory to store and access data, chosen by factors such as performance, cost, power consumption and durability.
 
 - [📝 Memory Options for Embedded Systems: How to Select the Right Memory Configuration](https://www.qt.io/software-insights/how-to-select-a-memory-configuration-for-embedded-systems)
 
@@ -1076,7 +1077,7 @@ _________________
 
 ### ✳️ Hardware Simulation / Emulation
 
-Embedded system development often involves simulating or emulating hardware environments to test and debug software before deploying it on actual hardware. Simulation tools create virtual models of hardware systems, while emulation tools replicate the actual hardware behavior using real hardware components. These tools offer several advantages, including reducing development time, minimizing hardware costs, and enhancing software reliability.
+Embedded development often involves simulating or emulating hardware to test and debug software before deploying it on actual hardware. Simulators create virtual models of hardware systems, while emulators reproduce the behavior of the real hardware closely enough to run the actual firmware. These tools reduce development time and hardware costs and improve software reliability.
 
 - [🔗👶 Wokwi - Online ESP32, STM32, Arduino Simulator](https://wokwi.com/)
 - [🔗👶 SimulIDE Circuit Simulator](https://simulide.com/)
@@ -1112,7 +1113,7 @@ _________________
 
 ### ✳️ Sensors & Actuators
 
-Sensors and actuators are the eyes and hands of embedded systems. They are responsible for gathering information about the environment and taking actions based on that information. Sensors convert physical phenomena, such as temperature, light, or sound, into electrical signals that can be processed by the embedded system. Actuators, on the other hand, convert electrical signals into physical actions, such as controlling the speed of a motor or opening and closing a valve.
+Sensors and actuators are the eyes and hands of embedded systems: they gather information about the environment and act on it. Sensors convert physical phenomena, such as temperature, light or sound, into electrical signals that the embedded system can process. Actuators do the opposite, converting electrical signals into physical actions, such as controlling the speed of a motor or opening and closing a valve.
 
 - [🎞️💎 Coursera - Embedding Sensors and Motors Specialization](https://www.coursera.org/specializations/embedding-sensors-motors)
 
@@ -1202,7 +1203,7 @@ _________________
 
 ### ✳️ Operating Systems
 
-Embedded systems can be programmed with either an operating system (OS) or directly on the hardware, known as bare-metal programming. Each approach has its own advantages and disadvantages. Embedded operating systems provide a layer of abstraction between the hardware and the application code, offering benefits like resource management, task scheduling, error handling, and communication capabilities. However, they add overhead and may not be suitable for memory-constrained applications.
+Embedded systems can be programmed either on top of an operating system (OS) or directly on the hardware, which is known as bare-metal programming. Each approach has its own advantages and disadvantages. An embedded OS provides a layer of abstraction between the hardware and the application code and offers resource management, task scheduling, error handling and communication capabilities. However, it adds overhead and may not suit memory-constrained applications.
 
 #### 🔵 Operating System Fundamentals
 
@@ -1221,7 +1222,7 @@ Processes, scheduling, memory management and drivers: the concepts behind what a
 
 #### 🔵 Real-Time Operating Systems
 
-Real-time operating systems (RTOS) are specialized operating systems designed to meet strict timing deadlines. They are used in embedded systems where timing is critical, such as avionics, robotics, and medical devices. RTOSs provide a deterministic environment in which tasks can be executed with predictable timing. This ensures that critical tasks are always executed on time, even in the presence of interrupts and other disruptions.
+Real-time operating systems (RTOS) are specialized operating systems designed to meet strict timing deadlines. They are used in embedded systems where timing is critical, such as avionics, robotics and medical devices. An RTOS provides a deterministic environment in which tasks run with predictable timing, so critical tasks always execute on time, even in the presence of interrupts and other disruptions.
 
 ##### 🔶 RTOS Basics
 
@@ -1410,7 +1411,7 @@ Embedded bugs often involve hardware, timing and software together. Debugging co
 
 #### 🔵 JTAG / SWD
 
-JTAG and SWD (Serial Wire Debug) are two popular interface protocols used for debugging and programming embedded systems. JTAG is a more general-purpose protocol that can be used to debug and program a wider range of devices, while SWD is a simpler and more compact protocol that is specifically designed for ARM microcontrollers.
+JTAG and SWD (Serial Wire Debug) are two popular interface protocols for debugging and programming embedded systems. JTAG is a general-purpose protocol that can debug and program a wide range of devices, while SWD is a simpler, more compact protocol designed specifically for ARM microcontrollers.
 
 - [📝 A Deep Dive into ARM Cortex-M Debug Interfaces](https://interrupt.memfault.com/blog/a-deep-dive-into-arm-cortex-m-debug-interfaces)
 - [🔗 Guide: Connecting your debugger](https://stm32-base.org/guides/connecting-your-debugger.html)
@@ -1586,7 +1587,7 @@ Continuous integration builds and tests every change automatically, for example 
 
 #### 🔵 SIL / HIL Testing
 
-Software-in-the-loop (SIL) and hardware-in-the-loop (HIL) testing are two crucial techniques used in embedded systems development to validate the functionality and performance of software before it is deployed on real hardware. These testing methods simulate the real-world environment of the embedded system using software models or hardware emulators.
+Software-in-the-loop (SIL) and hardware-in-the-loop (HIL) testing validate the functionality and performance of embedded software against a simulated environment. In SIL the code runs on a development machine against a software model of the system; in HIL the real target hardware runs the firmware while a simulator provides the signals of the real world, such as sensors, loads and buses.
 
 - [📝 What Is Hardware-in-the-Loop (HIL)? Differences Between MIL, SIL, PIL, and HIL - MathWorks](https://www.mathworks.com/discovery/hardware-in-the-loop-hil.html)
 - [📝 Hardware-in-the-loop simulation - Wikipedia](https://en.wikipedia.org/wiki/Hardware-in-the-loop_simulation)
@@ -1594,7 +1595,7 @@ Software-in-the-loop (SIL) and hardware-in-the-loop (HIL) testing are two crucia
 
 #### 🔵 Standards & Certifications
 
-Embedded systems development is subject to a variety of standards and certifications, which serve as guidelines and benchmarks for ensuring the quality, safety, and reliability of these systems. These standards are often developed and maintained by industry bodies, such as the International Electrotechnical Commission (IEC) and the Society of Automotive Engineers (SAE).
+Embedded systems development is subject to many standards and certifications, which serve as guidelines and benchmarks for the quality, safety and reliability of these systems. They are often developed and maintained by industry bodies such as the International Electrotechnical Commission (IEC) and the Society of Automotive Engineers (SAE).
 
 - [📝 Intro to Embedded Development: Styles and Standards](https://www.allaboutcircuits.com/technical-articles/embedded-programming-styles-and-standards/)
 - [📝 Safety Standards and Certifications for Embedded Systems Development](https://www.linkedin.com/pulse/safety-standards-certifications-embedded-systems-development/)
@@ -1614,7 +1615,7 @@ _________________
 
 ### ✳️ Embedded Security
 
-Security in embedded systems is particularly challenging due to resource constraints and the inherent nature of these devices. Embedded systems typically operate on small, low-power microcontrollers with limited memory and processing power. This makes it difficult to implement the same level of security as traditional computing platforms. Additionally, embedded systems often have limited access to updates and patches, making them more vulnerable to known vulnerabilities.
+Security is particularly challenging in embedded systems because of their resource constraints. They typically run on small, low-power microcontrollers with limited memory and processing power, which makes it difficult to reach the level of security of traditional computing platforms. They also often receive updates and patches rarely, if at all, which leaves them more vulnerable to known vulnerabilities.
 
 - [📝 Embedded Systems Security and TrustZone](https://embeddedsecurity.io/)
 
@@ -1693,7 +1694,7 @@ _________________
 
 ### ✳️ Edge AI
 
-Edge AI refers to the ability of devices to perform machine learning tasks on their own, without the need to send data to a central server. This can be done by using small, specialized AI models that are embedded directly into the device. TinyML is a subset of Edge AI that focuses on developing these models for devices with very limited computing power, such as microcontrollers and sensors.
+Edge AI is the ability of devices to perform machine learning tasks on their own, without sending data to a central server, by running small, specialized AI models embedded directly in the device. TinyML is a subset of Edge AI that focuses on developing these models for devices with very limited computing power, such as microcontrollers and sensors.
 
 - [🎞️ Intro to Edge AI: Machine Learning + IoT – Maker.io Tutorial | Digi-Key Electronics](https://www.youtube.com/watch?v=Ejld8XZmvwE)
 
@@ -1732,7 +1733,7 @@ _________________
 
 ### ✳️ AUTOSAR Architecture
 
-AUTOSAR, or AUTomotive Open System ARchitecture, is a global industry standard for automotive software development. It is a software architecture that provides a standardized platform for developing and integrating software components in vehicle electronic control units (ECUs). This allows different ECUs from different manufacturers to communicate and work together seamlessly.
+AUTOSAR, or AUTomotive Open System ARchitecture, is a global industry standard for automotive software development. It is a software architecture that provides a standardized platform for developing and integrating software components in vehicle electronic control units (ECUs), which allows ECUs from different manufacturers to communicate and work together seamlessly.
 
 - [🔗 AUTOSAR Standards](https://www.autosar.org/standards)
 - [🎞️ AUTOSAR Basics | AUTOSAR Tutorial | Architecture | Automotive](https://www.youtube.com/watch?v=7b5BY1IAfwY)
@@ -1744,9 +1745,9 @@ AUTOSAR, or AUTomotive Open System ARchitecture, is a global industry standard f
 
 ## History
 
-At first this was meant to be my personal reading list but as the list gradually became bigger and bigger, I wondered why not share it with others. So I did research on current job postings for embedded engineering roles, selecting the most frequent skills and including them on a roadmap. In order to make the roadmap more comprehensive I also added some basic skills and finally came up with what you see here.
+At first this was meant to be my personal reading list, but as the list gradually grew, I wondered why not share it with others. So I researched current job postings for embedded engineering roles, selected the most frequent skills and put them on a roadmap. To make the roadmap more comprehensive I also added some basic skills, and finally came up with what you see here.
 
-The idea of creating this roadmap came from [vazeri / Embedded-Engineering-RoadMap-2018](https://github.com/vazeri/Embedded-Engineering-RoadMap-2018) which was well designed but had some flaws and not updated for years. I took that idea, changed the structure of the roadmap and tried to improve it. The initial results can be accessed in [m3y54m / Embedded-Engineering-Roadmap-Archived](https://github.com/m3y54m/Embedded-Engineering-Roadmap-Archived) which is now archived. Early versions of the roadmap were created using [Balsamiq Wireframes](https://balsamiq.com) which is not suitable for these types of diagrams. Today the roadmap is drawn by the interactive explorer in this repository, directly from this README and the map definition.
+The idea for this roadmap came from [vazeri / Embedded-Engineering-RoadMap-2018](https://github.com/vazeri/Embedded-Engineering-RoadMap-2018), which was well designed but had some flaws and had not been updated for years. I took that idea, changed the structure of the roadmap and tried to improve it. The initial results can be found in [m3y54m / Embedded-Engineering-Roadmap-Archived](https://github.com/m3y54m/Embedded-Engineering-Roadmap-Archived), which is now archived. Early versions of the roadmap were created using [Balsamiq Wireframes](https://balsamiq.com), which is not suitable for these types of diagrams. Today the roadmap is drawn by the interactive explorer in this repository, directly from this README and the map definition.
 
 ## Copyright
 
@@ -1758,10 +1759,10 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 ## Acknowledgement
 
-Special thanks to my friends in the community of Iranian Embedded Engineers in Twitter and [r/embedded](https://www.reddit.com/r/embedded) subreddit for their suggestions that helped in improving this roadmap.
+Special thanks to my friends in the community of Iranian Embedded Engineers on Twitter and the [r/embedded](https://www.reddit.com/r/embedded) subreddit for their suggestions that helped improve this roadmap.
 
 ## Contribution
 
-If you think that this roadmap can be improved in anyway or you know about some good learning resources that can be added here, please start an issue or a pull request. I’ll be maintaining and updating this repository frequently.
+If you think this roadmap can be improved in any way, or you know of good learning resources that could be added here, please open an issue or a pull request. I’ll maintain and update this repository frequently.
 
 The roadmap image and PDF are generated from this repository. Topics, descriptions and learning resources come from this README; where each topic sits on the map and its learning priority (required, recommended or optional) come from [`explorer/map.json`](explorer/map.json). Edit those files and the interactive explorer in [`explorer/`](explorer) renders the PNG and PDF automatically.
