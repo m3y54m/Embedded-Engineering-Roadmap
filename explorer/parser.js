@@ -278,7 +278,7 @@ export function parseRoadmap(markdown) {
 }
 
 // Topic names too generic to count as a reference when they appear in another topic's text.
-const ALIAS_STOPLIST = new Set(['Electronics', 'Make', 'Projects', 'Testing', 'Logic', 'Sensors', 'Actuators', 'Search and Ask!']);
+const ALIAS_STOPLIST = new Set(['Electronics', 'Make', 'Projects', 'Testing', 'Logic', 'Sensors', 'Actuators', 'Search and Ask!', 'Development Environments']);
 
 function aliases(title) {
   const found = new Set([title]);

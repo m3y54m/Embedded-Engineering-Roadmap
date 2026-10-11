@@ -193,7 +193,11 @@ Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-avr) (th
 - [🔗 PCB Design Skill Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/PCB%20Design%20Skill%20Tree)
 - [🔗 FPGA / ASIC Engineering Roadmap](https://github.com/m3y54m/FPGA-ASIC-Roadmap)
 
-### 🛠️ IDEs
+### 🛠️ Development Environments
+
+An IDE or editor ties the compiler, debugger and flashing tools together so that a first program runs on the board quickly. Which one fits depends on your microcontroller family and how much you want to configure yourself.
+
+#### 🔵 Vendor IDEs
 
 Vendor IDEs bundle the toolchain, debugger integration and peripheral configuration tools for their microcontrollers, which makes them a quick way to bring up a first target.
 
@@ -204,14 +208,16 @@ Vendor IDEs bundle the toolchain, debugger integration and peripheral configurat
 - [🔗 MPLAB® X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
 - [🔗 MCUXpresso IDE](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE)
 
-### 👨‍💻 VS Code Extensions
+#### 🔵 VS Code Extensions
+
+A lighter alternative to a vendor IDE: extensions add debugging for Cortex-M targets and the SDK integration of a microcontroller vendor to VS Code.
 
 - [🔗 Cortex-Debug](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug)
 - [🔗 STM32 VS Code Extension](https://marketplace.visualstudio.com/items?itemName=stmicroelectronics.stm32-vscode-extension)
 - [🔗 Espressif IDF](https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension)
 - [🔗 MCUXpresso for VS Code](https://marketplace.visualstudio.com/items?itemName=NXPSemiconductors.mcuxpresso)
 
-### 🐜 PlatformIO
+#### 🔵 PlatformIO
 
 PlatformIO is a cross-platform, cross-architecture, multiple framework, professional tool for embedded systems engineers and for software developers who write applications for embedded products.
 
