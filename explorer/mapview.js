@@ -40,38 +40,89 @@ export function createMapView({ root, plan, data, build, onSelect }) {
   const legendParts = [];
 
   // ---------- toolbar ----------
-  const chip = (label, cls, pressed, onclick, title) => h('button', {
-    type: 'button', class: `map-chip ${cls}`, 'aria-pressed': String(pressed), onclick, title,
+  // One slim row above the map: a menu of getting-started topics, a filter menu and the connections toggle.
+  const chip = (label, cls, onclick, title) => h('button', {
+    type: 'button', class: `map-chip ${cls}`, 'aria-pressed': 'false', onclick, title,
   }, label);
-  const toolbar = h('div', { class: 'map-toolbar', role: 'toolbar', 'aria-label': 'Highlight topics' });
+  const menus = [];
+  function menu(cls, label, ...panel) {
+    const button = h('summary', { class: `map-chip menu-button ${cls}` }, label);
+    const el = h('details', { class: 'map-menu' }, button, h('div', { class: `map-menu-panel ${cls}` }, panel));
+    el.addEventListener('toggle', () => {
+      if (el.open) for (const other of menus) if (other !== el) other.open = false;
+    });
+    el.addEventListener('keydown', (e) => {
+      if (e.key !== 'Escape' || !el.open) return;
+      e.stopPropagation();
+      el.open = false;
+      button.focus();
+    });
+    menus.push(el);
+    return { el, button };
+  }
+  document.addEventListener('pointerdown', (e) => {
+    for (const m of menus) if (m.open && !m.contains(e.target)) m.open = false;
+  });
+
+  // README topics that the diagram does not cover.
+  const extra = data.root.children.filter((t) => !t.areas.length);
+  const start = menu('start', 'Start here',
+    h('nav', { class: 'menu-list', 'aria-label': 'Getting started topics' }, extra.map((t) => h('button', {
+      type: 'button',
+      class: 'menu-item',
+      onclick: () => {
+        start.el.open = false;
+        onSelect(t);
+      },
+    }, h('span', { class: 'menu-icon', 'aria-hidden': 'true' }, t.icon || '•'), t.title))));
+
+  const isCross = () => state.areas.size === 2 && state.areas.has('SOFTWARE') && state.areas.has('HARDWARE');
+  const isArea = (area) => state.areas.has(area) && !isCross();
+  const areaChips = Object.entries(AREAS).map(([area, info]) => [area, chip(h('span', {}, h('i', { class: `dot ${info.cls}` }), info.label),
+    '', () => {
+      state.areas = isArea(area) ? new Set() : new Set([area]);
+      refresh();
+    }, `Topics in ${info.label}`)]);
+  const crossChip = chip(h('span', {}, h('i', { class: 'dot both' }), 'Software ∩ Hardware'), 'cross', () => {
+    state.areas = isCross() ? new Set() : new Set(['SOFTWARE', 'HARDWARE']);
+    refresh();
+  }, 'Topics that belong to both Software and Hardware');
+  const importanceChips = Object.entries(IMPORTANCE).map(([level, label]) => [level,
+    chip(h('span', {}, h('i', { class: `imp-swatch ${level}` }), label), '', () => toggle(state.importance, level))]);
+  const clearButton = h('button', {
+    type: 'button',
+    class: 'map-chip clear',
+    onclick: () => {
+      state.areas.clear();
+      state.importance.clear();
+      refresh();
+    },
+  }, 'Clear filters');
+  const filterCount = h('span', { class: 'menu-count' });
+  const filter = menu('filter', h('span', {}, 'Filter', filterCount),
+    h('p', { class: 'menu-heading' }, 'Area'),
+    h('div', { class: 'menu-chips' }, areaChips.map(([, el]) => el), crossChip),
+    h('p', { class: 'menu-heading' }, 'Importance'),
+    h('div', { class: 'menu-chips' }, importanceChips.map(([, el]) => el)),
+    clearButton);
+  const linksChip = chip('All connections', 'links', () => {
+    state.showAll = !state.showAll;
+    refresh();
+  }, 'Show the lines between all related topics');
   const summary = h('span', { class: 'map-summary', role: 'status' });
+  const toolbar = h('div', { class: 'map-toolbar', role: 'toolbar', 'aria-label': 'Map controls' },
+    start.el, filter.el, linksChip, summary);
 
   function renderToolbar() {
-    const cross = state.areas.size === 2 && state.areas.has('SOFTWARE') && state.areas.has('HARDWARE');
-    toolbar.replaceChildren(...[
-      h('span', { class: 'map-toolbar-label' }, 'Highlight'),
-      Object.entries(AREAS).map(([area, info]) => chip(h('span', {}, h('i', { class: `dot ${info.cls}` }), info.label),
-        '', state.areas.has(area) && !cross, () => {
-          state.areas = state.areas.has(area) && !cross ? new Set() : new Set([area]);
-          refresh();
-        }, `Topics in ${info.label}`)),
-      chip(h('span', {}, h('i', { class: 'dot both' }), 'Software ∩ Hardware'), 'cross', cross, () => {
-        state.areas = cross ? new Set() : new Set(['SOFTWARE', 'HARDWARE']);
-        refresh();
-      }, 'Topics that belong to both Software and Hardware'),
-      h('span', { class: 'map-toolbar-sep', 'aria-hidden': 'true' }),
-      Object.entries(IMPORTANCE).map(([level, label]) => chip(h('span', {}, h('i', { class: `imp-swatch ${level}` }), label),
-        '', state.importance.has(level), () => toggle(state.importance, level))),
-      h('span', { class: 'map-toolbar-sep', 'aria-hidden': 'true' }),
-      chip('Show all connections', 'links', state.showAll, () => { state.showAll = !state.showAll; refresh(); },
-        'Lines between topics that share resources or mention each other'),
-      state.areas.size || state.importance.size ? chip('Clear', 'clear', false, () => {
-        state.areas.clear();
-        state.importance.clear();
-        refresh();
-      }) : null,
-      summary,
-    ].flat().filter(Boolean));
+    for (const [area, el] of areaChips) el.setAttribute('aria-pressed', String(isArea(area)));
+    crossChip.setAttribute('aria-pressed', String(isCross()));
+    for (const [level, el] of importanceChips) el.setAttribute('aria-pressed', String(state.importance.has(level)));
+    linksChip.setAttribute('aria-pressed', String(state.showAll));
+    const active = (state.areas.size ? 1 : 0) + state.importance.size;
+    filterCount.textContent = active ? String(active) : '';
+    filterCount.hidden = !active;
+    filter.button.classList.toggle('active', active > 0);
+    clearButton.hidden = !active;
   }
 
   function toggle(set, value) {
@@ -79,13 +130,6 @@ export function createMapView({ root, plan, data, build, onSelect }) {
     else set.add(value);
     refresh();
   }
-
-  // README topics that the diagram does not cover.
-  const extra = data.root.children.filter((t) => !t.areas.length);
-  const strip = h('nav', { class: 'start-strip', 'aria-label': 'Getting started topics' },
-    h('span', { class: 'map-toolbar-label' }, 'Start here'),
-    extra.map((t) => h('button', { type: 'button', class: 'start-chip', onclick: () => onSelect(t) },
-      t.icon ? h('span', { 'aria-hidden': 'true' }, t.icon) : null, t.title)));
 
   // ---------- svg ----------
   const chart = svg('svg', {
@@ -569,7 +613,7 @@ export function createMapView({ root, plan, data, build, onSelect }) {
     fitButton);
 
   root.replaceChildren(
-    h('div', { class: 'map-top' }, strip, toolbar),
+    h('div', { class: 'map-top' }, toolbar),
     h('div', { class: 'map-canvas' }, chart, zoomControls),
     tip,
   );
