@@ -629,10 +629,24 @@ function wireGlobal() {
   for (const tab of els.tabs) tab.addEventListener('click', () => setView(tab.dataset.view));
   document.getElementById('print').addEventListener('click', () => window.print());
   // The PDF and PNG are rendered by CI next to the deployed site; local previews don't have them.
-  for (const link of document.querySelectorAll('[data-download]')) {
+  const download = document.getElementById('download');
+  for (const link of download.querySelectorAll('[data-download]')) {
     fetch(link.getAttribute('href'), { method: 'HEAD', cache: 'no-cache' })
-      .then((response) => { link.hidden = !response.ok; }, () => {});
+      .then((response) => {
+        link.hidden = !response.ok;
+        if (response.ok) download.hidden = false;
+      }, () => {});
+    link.addEventListener('click', () => { download.open = false; });
   }
+  document.addEventListener('pointerdown', (e) => {
+    if (download.open && !download.contains(e.target)) download.open = false;
+  });
+  download.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape' || !download.open) return;
+    e.stopPropagation();
+    download.open = false;
+    download.querySelector('summary').focus();
+  });
   // Printing always produces the diagram, whatever view is open.
   let viewBeforePrint = null;
   window.addEventListener('beforeprint', () => {

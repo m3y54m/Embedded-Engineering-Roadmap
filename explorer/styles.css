@@ -351,14 +351,57 @@ button {
   background: var(--chip-hover);
 }
 
-.text-btn {
-  width: auto;
-  grid-auto-flow: column;
-  gap: 6px;
-  padding: 0 11px;
-  font-size: 13px;
-  font-weight: 600;
+.download-menu {
+  position: relative;
+}
+
+.download-menu > summary {
+  list-style: none;
+}
+
+.download-menu > summary::-webkit-details-marker {
+  display: none;
+}
+
+.download-menu[open] > summary {
+  border-color: var(--accent);
+}
+
+.download-panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  display: grid;
+  gap: 2px;
+  min-width: 190px;
+  padding: 6px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-solid);
+  box-shadow: var(--shadow);
+}
+
+.download-item {
+  display: grid;
+  gap: 1px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  color: var(--text);
   text-decoration: none;
+}
+
+.download-item:hover,
+.download-item:focus-visible {
+  background: var(--chip-hover);
+}
+
+.download-item b {
+  font-size: 14px;
+}
+
+.download-item span {
+  color: var(--muted);
+  font-size: 12px;
 }
 
 /* Layout */
@@ -1126,14 +1169,6 @@ button {
 
   /* Phones get the PDF download instead of printing. */
   #print {
-    display: none;
-  }
-
-  .text-btn {
-    padding: 0 9px;
-  }
-
-  .text-btn svg {
     display: none;
   }
 }
