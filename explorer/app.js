@@ -98,7 +98,7 @@ function navigate(node, { push = true, resource = null, reveal = false } = {}) {
   syncOutline();
   if (resource) revealResource(resource);
   const root = state.data.root;
-  document.title = node === root ? `${TITLE} · Explorer` : `${node.title} · ${TITLE}`;
+  document.title = node === root ? `${TITLE}: Interactive Learning Path` : `${node.title} · ${TITLE}`;
   if (push) {
     const hash = node === root ? '#/' : `#/${node.slug}`;
     if (location.hash !== hash) history.pushState(null, '', hash);

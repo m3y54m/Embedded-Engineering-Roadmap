@@ -56,7 +56,7 @@ jobs:
       - name: Assemble the site
         run: |
           mkdir _site
-          cp explorer/*.html explorer/*.css explorer/*.js explorer/map.json README.md _site/
+          cp explorer/*.html explorer/*.css explorer/*.js explorer/sitemap.xml explorer/map.json README.md _site/
           cp -r explorer/fonts explorer/assets _site/
 
       - name: Install Chromium

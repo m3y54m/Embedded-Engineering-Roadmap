@@ -101,6 +101,36 @@ html[data-theme="light"] {
   display: none !important;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.noscript {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 12px;
+  padding: 24px;
+  background: var(--bg);
+  text-align: center;
+}
+
+.noscript p {
+  max-width: 40rem;
+  margin: 0;
+}
+
 html,
 body {
   height: 100%;
