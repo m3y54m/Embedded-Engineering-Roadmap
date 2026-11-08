@@ -1093,7 +1093,7 @@ Embedded development often involves simulating or emulating hardware to test and
 A general machine emulator that can boot kernels and firmware for many architectures and boards without hardware, widely used for embedded Linux and RTOS development.
 
 - [🔗 QEMU’s documentation](https://www.qemu.org/docs/master/index.html)
-- [📝 Running AVR code in QEMU - A quick-start guide to accelerate AVR firmware development](https://yeah.nah.nz/embedded/qemu-avr/)
+- [🔗 QEMU AVR system emulator documentation](https://www.qemu.org/docs/master/system/target-avr.html)
 - [📝 QEMU Simulation - Blinky - STM32F767ZI Full Stack](https://longer-vision-robot.gitbook.io/stm32f767zi-full-stack/chapter-2.-programming-for-stm32/2.4-qemu-simulation-blinky)
 - [📝 Emulating a Raspberry Pi in QEMU](https://interrupt.memfault.com/blog/emulating-raspberry-pi-in-qemu)
 - [📝👶 Building an ARM Embedded Linux System in QEMU](https://github.com/dchithinh/mastering-embeded-linux-programming)
