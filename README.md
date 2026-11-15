@@ -1706,13 +1706,16 @@ The concepts needed before deploying models on devices: training versus inferenc
 - [📝👶 Introduction to Machine Learning for Coders!](https://course18.fast.ai/ml)
 - [📝 Machine Learning Crash Course with TensorFlow APIs - Google](https://developers.google.com/machine-learning/crash-course/)
 
-#### 🔵 TensorFlow Lite
+#### 🔵 TensorFlow Lite (LiteRT)
 
-Google's lightweight runtime for running machine learning models on mobile and embedded devices, including a variant for microcontrollers.
+Google's lightweight runtime for running machine learning models on mobile and embedded devices, including a variant for microcontrollers. TensorFlow Lite has been rebranded as LiteRT.
 
 - [🎞️ Getting Started with TensorFlow and Keras – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=HCG3hFe1KYY)
 - [🎞️ Intro to TensorFlow Lite Part 1: Wake Word Feature Extraction – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=0fn7pj7Dutc)
 - [🎞️ Intro to TensorFlow Lite Part 2: Speech Recognition Model Training – Maker.io | Digi-Key Electronics](https://www.youtube.com/watch?v=yv_WVwr6OkI)
+- [📝 LiteRT for Microcontrollers | Google AI Edge](https://developers.google.com/edge/litert/microcontrollers/overview)
+- [📝 Get started with microcontrollers | Google AI Edge](https://developers.google.com/edge/litert/microcontrollers/get_started)
+- [📝 How to Run TensorFlow Lite on ESP32 | ForestHub](https://www.foresthub.ai/resources/guides/how-to-run-tensorflow-lite-on-esp32)
 
 #### 🔵 TinyML
 
