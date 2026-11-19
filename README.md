@@ -134,6 +134,7 @@ If you have reservations about relying on AI advice alone, you can also ask real
 To advance your career as an embedded systems engineer, it's essential to stay up to date with industry trends, best practices and new technologies. These resources can help:
 
 - [🔗 EmbeddedJobs](https://embedded.jobs/jobs) - A job board focused exclusively on the embedded systems job market.
+- [🔗👶 OhmWork: embedded C interview practice on a simulated STM32](https://ohmwork.io/)
 
 ### 🎥 Courses and YouTube Contents
 
@@ -1087,7 +1088,6 @@ Embedded development often involves simulating or emulating hardware to test and
 - [🔗👶 Tinkercad](https://www.tinkercad.com/)
 - [🔗👶 Voltsim](https://www.voltsimulator.com/)
 - [🔗 Velxio - Arduino & Embedded Board Emulator](https://github.com/davidmonterocrespo24/velxio)
-- [🔗👶 OhmWork: embedded C practice on a simulated STM32](https://ohmwork.io/)
 
 #### 🔵 QEMU
 
