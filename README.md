@@ -1087,6 +1087,7 @@ Embedded development often involves simulating or emulating hardware to test and
 - [🔗👶 Tinkercad](https://www.tinkercad.com/)
 - [🔗👶 Voltsim](https://www.voltsimulator.com/)
 - [🔗 Velxio - Arduino & Embedded Board Emulator](https://github.com/davidmonterocrespo24/velxio)
+- [🔗👶 OhmWork: embedded C practice on a simulated STM32](https://ohmwork.io/)
 
 #### 🔵 QEMU
 
